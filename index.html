@@ -3,6 +3,42 @@
 
 <head>
 
+<script>
+    // --- ANTI-DEBUG & OFFLINE PROTECTION ---
+    (function() {
+        document.addEventListener('contextmenu', function(e) { e.preventDefault(); });
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'F12' || 
+                (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'i' || e.key === 'J' || e.key === 'j' || e.key === 'C' || e.key === 'c')) ||
+                (e.ctrlKey && (e.key === 'U' || e.key === 'u'))) {
+                e.preventDefault();
+            }
+        });
+        function showWarning() {
+            document.body.innerHTML = '<div style="display:flex; flex-direction:column; justify-content:center; align-items:center; height:100vh; width:100vw; background:#0f172a; color:#ef4444; font-family:sans-serif; text-align:center; position:fixed; top:0; left:0; z-index:999999999;"><h1 style="font-size: 36px; font-weight: bold; margin-bottom: 10px;">ممنوع الديبج</h1><h2 style="font-size: 24px;">Debugging is Forbidden</h2><p style="font-size: 18px; color: #94a3b8; margin-top: 20px;">Please close Developer Tools to continue.</p></div>';
+        }
+        
+        setInterval(function() {
+            if (document.hidden) return; // Prevent background tab false positives
+            const before = new Date().getTime();
+            debugger;
+            const after = new Date().getTime();
+            if (after - before > 100) {
+                showWarning();
+            }
+        }, 1000);
+        
+        // Offline protection for active sessions
+        window.addEventListener('offline', () => {
+            document.body.innerHTML = '<div style="display:flex; flex-direction:column; justify-content:center; align-items:center; height:100vh; width:100vw; background:#0f172a; color:#ef4444; font-family:sans-serif; text-align:center; position:fixed; top:0; left:0; z-index:999999999;"><h1 style="font-size: 36px; font-weight: bold; margin-bottom: 10px;">لا يوجد اتصال بالإنترنت</h1><h2 style="font-size: 24px;">No Internet Connection</h2><p style="font-size: 18px; color: #94a3b8; margin-top: 20px;">يرجى التحقق من اتصالك بالإنترنت.</p></div>';
+        });
+        window.addEventListener('online', () => {
+            window.location.reload();
+        });
+    })();
+</script>
+
+
     <meta name="color-scheme" content="light dark">
 
     <meta charset="UTF-8">
