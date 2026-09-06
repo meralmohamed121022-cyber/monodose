@@ -79,7 +79,79 @@
         [data-protection="active"] link[href*="fontawesome"] {
             display: none !important;
         }
-    </style>
+    
+/* Premium Dropdown CSS */
+.filter-dropdown-container {
+    position: relative;
+    flex-shrink: 0;
+    z-index: 100;
+}
+.filter-dropdown-btn {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 12px 16px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.1);
+    transition: all 0.3s ease;
+    height: 48px;
+}
+.filter-dropdown-btn:hover {
+    border-color: #f59e0b;
+    box-shadow: 0 4px 20px rgba(245, 158, 11, 0.2);
+}
+.filter-dropdown-btn svg {
+    transition: transform 0.3s ease;
+}
+.filter-dropdown-btn.active svg {
+    transform: rotate(180deg);
+}
+.filter-dropdown-list {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    background: rgba(15, 23, 42, 0.95);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 8px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.filter-dropdown-list.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.filter-item {
+    padding: 10px 12px;
+    border-radius: 8px;
+    color: #cbd5e1;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.filter-item:hover, .filter-item.selected {
+    background: rgba(245, 158, 11, 0.1);
+    color: #f59e0b;
+}
+
+
+</style>
 
     <!-- Add this final script at the END of <head> before closing tag -->
     <script>
@@ -628,14 +700,15 @@
             /* Dark blue */
             min-height: 100vh;
             color: white;
-        }
+        
+    overflow-x: hidden;
+}
 
         .container {
     width: 100vw;
     min-height: 100vh;
     background: #08103b;
     position: relative;
-    overflow-x: hidden;
     display: flex;
     flex-direction: column;
 }
@@ -3327,38 +3400,50 @@
         
 
 
-        <!-- Filter Buttons -->
-        <div class="filter-buttons">
-            <button class="filter-btn active" onclick="filterByFormulation('all')">All</button>
-            <button class="filter-btn" onclick="filterByFormulation('tab-caps')">Tab/Caps</button>
-            <button class="filter-btn" onclick="filterByFormulation('syp-susp')">Syp/Susp</button>
-
-            
-            <button class="filter-btn" onclick="filterByFormulation('sachet')">Sachet </button>
-            <button class="filter-btn" onclick="filterByFormulation('others')">Others </button>
+        
+<!-- Filter and Search Row -->
+<div style="display: flex; gap: 10px; align-items: center; padding: 0 15px; margin-bottom: 15px; margin-top: 10px; width: 100%; box-sizing: border-box;">
+    
+    <!-- Premium Filter Dropdown -->
+    <div class="filter-dropdown-container" id="filterDropdownContainer">
+        <button class="filter-dropdown-btn" id="filterDropdownBtn" onclick="toggleFilterDropdown(event)">
+            <span id="currentFilterText">All</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </button>
+        <div class="filter-dropdown-list" id="filterDropdownList">
+            <div class="filter-item selected" onclick="selectFilter('all', 'All', this)">All</div>
+            <div class="filter-item" onclick="selectFilter('tab-caps', 'Tab/Caps', this)">Tab/Caps</div>
+            <div class="filter-item" onclick="selectFilter('syp-susp', 'Syp/Susp', this)">Syp/Susp</div>
+            <div class="filter-item" onclick="selectFilter('sachet', 'Sachet', this)">Sachet</div>
+            <div class="filter-item" onclick="selectFilter('others', 'Others', this)">Others</div>
         </div>
+    </div>
 
-<!-- Search Section -->
-        <div class="search-section">
-            <div style="position: relative;">
-                <input type="text" class="search-input" id="searchInput"
-                    placeholder="search trade name, generic name, or 6-digit code">
-                <span class="search-icon" style="right: 50px;">🔍</span>
-                <span class="scanner-icon" id="scannerIcon" onclick="openScanner()" style="position: absolute; right: 15px; top: 50%; transform: translateY(-50%); font-size: 1.2rem; cursor: pointer; display: flex; align-items: center; justify-content: center;">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-<path d="M4 7V5a2 2 0 0 1 2-2h2" />
-<path d="M16 3h2a2 2 0 0 1 2 2v2" />
-<path d="M20 17v2a2 2 0 0 1-2 2h-2" />
-<path d="M8 21H6a2 2 0 0 1-2-2v-2" />
-<path d="M8 8v8" stroke-width="1.5"/>
-<path d="M12 8v8" stroke-width="2"/>
-<path d="M16 8v8" stroke-width="1.5"/>
-<line x1="2" y1="12" x2="22" y2="12" stroke="#ef4444" stroke-width="2" />
-</svg>
-                </span>
-                <span class="clear-icon" id="clearIcon" style="display: none; right: 85px;">✖</span>
-            </div>
+    <!-- Search Section -->
+    <div class="search-section" style="flex: 1; margin-bottom: 0; padding: 0;">
+        <div style="position: relative; width: 100%;">
+            <input type="text" class="search-input" id="searchInput" placeholder="search trade name, generic name, or code" style="width: 100%; height: 48px; border-radius: 12px; margin: 0; box-sizing: border-box;">
+            <span class="search-icon" style="right: 50px;">🔍</span>
+            <span class="clear-icon" id="clearIcon" style="display: none; right: 85px;">✖</span>
+            <span class="scanner-icon" id="scannerIcon" onclick="openScanner()" style="position: absolute; right: 15px; top: 50%; transform: translateY(-50%); font-size: 1.2rem; cursor: pointer; display: flex; align-items: center; justify-content: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 7V5a2 2 0 0 1 2-2h2" />
+                    <path d="M16 3h2a2 2 0 0 1 2 2v2" />
+                    <path d="M20 17v2a2 2 0 0 1-2 2h-2" />
+                    <path d="M8 21H6a2 2 0 0 1-2-2v-2" />
+                    <path d="M8 8v8" stroke-width="1.5"/>
+                    <path d="M12 8v8" stroke-width="2"/>
+                    <path d="M16 8v8" stroke-width="1.5"/>
+                    <line x1="2" y1="12" x2="22" y2="12" stroke="#ef4444" stroke-width="2" />
+                </svg>
+            </span>
         </div>
+    </div>
+</div>
+</div>
+
 
 
                 </div>
