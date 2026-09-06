@@ -631,12 +631,14 @@
         }
 
         .container {
-            width: 100vw;
-            height: 100vh;
-            background: #08103b;
-            position: relative;
-            overflow: hidden;
-        }
+    width: 100vw;
+    min-height: 100vh;
+    background: #08103b;
+    position: relative;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
 
         .header {
             background: rgba(0, 0, 0, 0.3);
