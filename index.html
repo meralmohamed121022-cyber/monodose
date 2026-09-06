@@ -87,6 +87,7 @@
     z-index: 100;
 }
 .filter-dropdown-btn {
+    white-space: nowrap;
     background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -695,18 +696,19 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: #08103b;
-            /* Dark blue */
-            min-height: 100vh;
-            color: white;
-        
-    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #08103b;
+    overflow: hidden;
+    height: 100vh;
 }
 
         .container {
     width: 100vw;
-    min-height: 100vh;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
     background: #08103b;
     position: relative;
     display: flex;
@@ -1111,7 +1113,7 @@
 
         /* Main Content */
         .main-content {
-            margin-top: 15px;
+            margin-top: 0;
             padding: 18px;
         }
 
@@ -2292,7 +2294,7 @@
 
             /* الكارت الأولاني في الموبايل */
             .drug-item:first-child {
-                margin-top: 15px;
+                margin-top: 0;
                 /* مساحة إضافية من الأعلى */
                 padding: 25px 20px;
                 /* padding أكبر */
@@ -2528,7 +2530,7 @@
         }
 
             .drug-item:first-child {
-                margin-top: 15px;
+                margin-top: 0;
                 padding: 15px;
             }
 
@@ -3349,9 +3351,50 @@
     </style>
     <!-- HTML5 QRCode Library for Scanner -->
     <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+    <link rel="icon" type="image/jpeg" href="app_icon.jpg">
 </head>
 
 <body>
+
+<!-- Offline Screen -->
+<div id="offline-screen" style="display: none; flex-direction: column; justify-content: center; align-items: center; height: 100vh; width: 100vw; background: #0B192C; color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; text-align: center; position: fixed; top: 0; left: 0; z-index: 99999;">
+    <div style="font-size: 64px; margin-bottom: 20px; color: #10b981;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="1" y1="1" x2="23" y2="23"></line>
+            <path d="M16.72 11.06A10.94 10.94 0 0 1 19 12.55"></path>
+            <path d="M5 12.55a10.94 10.94 0 0 1 5.17-2.39"></path>
+            <path d="M10.71 5.05A16 16 0 0 1 22.58 9"></path>
+            <path d="M1.42 9a15.91 15.91 0 0 1 4.7-2.88"></path>
+            <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+            <line x1="12" y1="20" x2="12.01" y2="20"></line>
+        </svg>
+    </div>
+    <h1 style="font-size: 24px; margin-bottom: 10px;">No Connection</h1>
+    <p style="font-size: 16px; color: #aaa; margin-bottom: 30px; padding: 0 20px;">Please check your internet connection and try again.</p>
+    <div style="display: flex; gap: 15px;">
+        <button onclick="if(window.AndroidApp) { window.AndroidApp.closeApp(); }" style="padding: 12px 24px; font-size: 16px; font-weight: bold; border: none; border-radius: 8px; cursor: pointer; background: rgba(255,255,255,0.1); color: white; transition: 0.2s;">Close</button>
+        <button onclick="if(window.AndroidApp) { window.AndroidApp.retryConnection(); } else { location.reload(); }" style="padding: 12px 24px; font-size: 16px; font-weight: bold; border: none; border-radius: 8px; cursor: pointer; background: #10b981; color: white; transition: 0.2s;">Retry</button>
+    </div>
+</div>
+
+<script>
+function updateOnlineStatus() {
+    const offlineScreen = document.getElementById('offline-screen');
+    const mainApp = document.getElementById('main-app');
+    if (navigator.onLine) {
+        offlineScreen.style.display = 'none';
+        if (mainApp) mainApp.style.display = 'flex';
+    } else {
+        offlineScreen.style.display = 'flex';
+        if (mainApp) mainApp.style.display = 'none';
+    }
+}
+window.addEventListener('online', updateOnlineStatus);
+window.addEventListener('offline', updateOnlineStatus);
+document.addEventListener('DOMContentLoaded', updateOnlineStatus);
+</script>
+
+<div id="main-app" style="display: flex; flex-direction: column; min-height: 100vh;">
 
 
     <!-- forceLoader removed as requested -->
@@ -3390,7 +3433,7 @@
                 <button class="age-select-btn" onclick="showAgePopup()" id="ageSelectBtn">👶 Select Age</button>
                 <div class="weight-container">
                     <div class="weight-display" id="weightDisplay" onclick="editWeight()">⚖️ Auto Weight</div>
-                    <input type="number" class="weight-input" id="weightInput" placeholder="Enter weight (kg)"
+                    <input type="number" class="weight-input" id="weightInput" placeholder="بحث بالاسم التجاري، المادة الفعالة، الكود (مثل KLAVOX457)..."
                         step="0.1" min="0.5" max="200" style="display: none;" onblur="saveWeight()"
                         onkeypress="handleWeightEnter(event)">
                 </div>
@@ -3402,51 +3445,47 @@
 
         
 <!-- Filter and Search Row -->
-<div style="display: flex; gap: 10px; align-items: center; padding: 0 15px; margin-bottom: 15px; margin-top: 10px; width: 100%; box-sizing: border-box;">
+<div style="display: flex; gap: 0; align-items: center; padding: 0 15px; margin-bottom: 15px; margin-top: 10px; width: 100%; box-sizing: border-box; position: relative;">
     
-    <!-- Premium Filter Dropdown -->
-    <div class="filter-dropdown-container" id="filterDropdownContainer">
-        <button class="filter-dropdown-btn" id="filterDropdownBtn" onclick="toggleFilterDropdown(event)">
-            <span id="currentFilterText">All</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="6 9 12 15 18 9"></polyline>
-            </svg>
-        </button>
-        <div class="filter-dropdown-list" id="filterDropdownList">
-            <div class="filter-item selected" onclick="selectFilter('all', 'All', this)">All</div>
-            <div class="filter-item" onclick="selectFilter('tab-caps', 'Tab/Caps', this)">Tab/Caps</div>
-            <div class="filter-item" onclick="selectFilter('syp-susp', 'Syp/Susp', this)">Syp/Susp</div>
-            <div class="filter-item" onclick="selectFilter('sachet', 'Sachet', this)">Sachet</div>
-            <div class="filter-item" onclick="selectFilter('others', 'Others', this)">Others</div>
-        </div>
-    </div>
-
-    <!-- Search Section -->
-    <div class="search-section" style="flex: 1; margin-bottom: 0; padding: 0;">
-        <div style="position: relative; width: 100%;">
-            <input type="text" class="search-input" id="searchInput" placeholder="search trade name, generic name, or code" style="width: 100%; height: 48px; border-radius: 12px; margin: 0; box-sizing: border-box;">
-            <span class="search-icon" style="right: 50px;">🔍</span>
-            <span class="clear-icon" id="clearIcon" style="display: none; right: 85px;">✖</span>
-            <span class="scanner-icon" id="scannerIcon" onclick="openScanner()" style="position: absolute; right: 15px; top: 50%; transform: translateY(-50%); font-size: 1.2rem; cursor: pointer; display: flex; align-items: center; justify-content: center;">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M4 7V5a2 2 0 0 1 2-2h2" />
-                    <path d="M16 3h2a2 2 0 0 1 2 2v2" />
-                    <path d="M20 17v2a2 2 0 0 1-2 2h-2" />
-                    <path d="M8 21H6a2 2 0 0 1-2-2v-2" />
-                    <path d="M8 8v8" stroke-width="1.5"/>
-                    <path d="M12 8v8" stroke-width="2"/>
-                    <path d="M16 8v8" stroke-width="1.5"/>
-                    <line x1="2" y1="12" x2="22" y2="12" stroke="#ef4444" stroke-width="2" />
+    <!-- Search Section containing Dropdown and Input -->
+    <div class="search-section" style="flex: 1; margin-bottom: 0; padding: 0; position: relative; display: flex; width: 100%; background: #0f172a; border-radius: 12px;">
+        
+        <!-- Premium Filter Dropdown (Integrated into search bar) -->
+        <div class="filter-dropdown-container" id="filterDropdownContainer" style="position: relative; z-index: 101;">
+            <button class="filter-dropdown-btn" id="filterDropdownBtn" onclick="toggleFilterDropdown(event)" style="border-radius: 12px 0 0 12px; height: 48px; border-right: none; box-shadow: none;">
+                <span id="currentFilterText">All</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"></polyline>
                 </svg>
-            </span>
+            </button>
+            <div class="filter-dropdown-list" id="filterDropdownList" style="z-index: 102; top: calc(100% + 5px);">
+                <div class="filter-item selected" onclick="selectFilter('all', 'All', this)">All</div>
+                <div class="filter-item" onclick="selectFilter('tab-caps', 'Tab/Caps', this)">Tab/Caps</div>
+                <div class="filter-item" onclick="selectFilter('syp-susp', 'Syp/Susp', this)">Syp/Susp</div>
+                <div class="filter-item" onclick="selectFilter('sachet', 'Sachet', this)">Sachet</div>
+                <div class="filter-item" onclick="selectFilter('others', 'Others', this)">Others</div>
+            </div>
         </div>
+
+        <!-- Search Input -->
+        <input type="text" class="search-input" id="searchInput" placeholder="بحث بالاسم التجاري، المادة الفعالة، الكود (مثل KLAVOX457)..." style="flex: 1; height: 48px; border-radius: 0 12px 12px 0; margin: 0; box-sizing: border-box; padding-left: 10px;">
+        <span class="search-icon" style="right: 50px;">🔍</span>
+        <span class="clear-icon" id="clearIcon" style="display: none; right: 85px;">✖</span>
+        <span class="scanner-icon" id="scannerIcon" onclick="openScanner()" style="position: absolute; right: 15px; top: 50%; transform: translateY(-50%); font-size: 1.2rem; cursor: pointer; display: flex; align-items: center; justify-content: center; z-index: 102;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 7V5a2 2 0 0 1 2-2h2" />
+                <path d="M16 3h2a2 2 0 0 1 2 2v2" />
+                <path d="M20 17v2a2 2 0 0 1-2 2h-2" />
+                <path d="M8 21H6a2 2 0 0 1-2-2v-2" />
+                <path d="M8 8v8" stroke-width="1.5"/>
+                <path d="M12 8v8" stroke-width="2"/>
+                <path d="M16 8v8" stroke-width="1.5"/>
+                <line x1="2" y1="12" x2="22" y2="12" stroke="#ef4444" stroke-width="2" />
+            </svg>
+        </span>
     </div>
 </div>
 </div>
-
-
-
-                </div>
         <!-- End Sticky Controls -->
         <!-- Drug List -->
         <div class="drug-list" id="drugList"></div>
@@ -4235,9 +4274,7 @@ function getBreastfeedingCategoryEmoji(category) {
             }
 
             function filterByFormulation(formulation) {
-            // Update active button
-            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-            event.target.classList.add('active');
+    // UI update is now handled by the new dropdown logic in selectFilter
 
             // Save state and trigger search
             currentFormulation = formulation;
@@ -8118,14 +8155,17 @@ function getBreastfeedingCategoryEmoji(category) {
                             const results = window.drugsDatabase.filter(drug => {
                                 if (!drug) return false;
 
-                                const name = (drug.name || '').toLowerCase();
-                                const tradeName = (drug.tradeName || '').toLowerCase();
-                                const composition = (drug.composition || '').toLowerCase();
-                                const searchLower = searchTerm.toLowerCase();
+                                const normalizeString = (str) => (str || '').replace(/[\s\-\%_]/g, '').toLowerCase();
+                            const normalizedName = normalizeString(drug.name);
+                            const normalizedTradeName = normalizeString(drug.tradeName);
+                            const normalizedComposition = normalizeString(drug.composition);
+                            const normalizedQuery = normalizeString(searchTerm);
 
-                                return name.includes(searchLower) ||
-                                    tradeName.includes(searchLower) ||
-                                    composition.includes(searchLower);
+                            // We still support multi-token if they type spaces, but if they don't type spaces, normalizedQuery handles it perfectly.
+                            // If they typed spaces, normalizeString removes them, so "AUG 457" becomes "aug457", which matches "augmentin457" (normalized).
+                            return normalizedName.includes(normalizedQuery) ||
+                                   normalizedTradeName.includes(normalizedQuery) ||
+                                   normalizedComposition.includes(normalizedQuery);
                             });
 
                             this.displaySafeResults(results);
@@ -13655,9 +13695,7 @@ ${patientWarning}
 
             // 🎯 تحسين فلترة الـ Formulation
             function filterByFormulation(formulation) {
-            // Update active button
-            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-            event.target.classList.add('active');
+    // UI update is now handled by the new dropdown logic in selectFilter
 
             // Save state and trigger search
             currentFormulation = formulation;
@@ -15490,7 +15528,7 @@ ${patientWarning}
         <div id="scannerFeedback" style="color: white; font-size: 16px; margin-bottom: 15px; font-weight: bold; text-align: center; min-height: 24px;">وجه الكاميرا نحو الباركود أو الكود السداسي</div>
         
         <div style="display: flex; gap: 10px; width: 90%; max-width: 400px;">
-            <input type="text" id="scannerManualCode" placeholder="أو أدخل الكود يدوياً" style="flex: 1; padding: 12px; border-radius: 8px; border: none; text-align: center; font-size: 16px; font-weight: bold;" inputmode="numeric">
+            <input type="text" id="scannerManualCode" placeholder="بحث بالاسم التجاري، المادة الفعالة، الكود (مثل KLAVOX457)..." style="flex: 1; padding: 12px; border-radius: 8px; border: none; text-align: center; font-size: 16px; font-weight: bold;" inputmode="numeric">
             <button onclick="processManualScannerCode()" style="padding: 12px 20px; background: #4CAF50; color: white; border: none; border-radius: 8px; font-weight: bold; cursor: pointer; white-space: nowrap;">بحث</button>
         </div>
     </div>
@@ -15853,6 +15891,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Perform straightforward filtering
             const results = [];
+            const normalizeString = (str) => (str || '').replace(/[\s\-\%_\+]/g, '').toLowerCase();
+            const normalizedQuery = normalizeString(query);
+            
             for (let i = 0; i < allDrugs.length; i++) {
                 const drug = allDrugs[i];
                 const tradeName = (drug.tradeName || '').toLowerCase();
@@ -15861,9 +15902,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 const code = String(drug.code || drug.key || '').toLowerCase();
                 const barcodes = Array.isArray(drug.barcode) ? drug.barcode : (drug.barcode ? [drug.barcode] : []);
                 
+                const normTrade = normalizeString(tradeName);
+                const normGeneric = normalizeString(genericName);
+                const normComp = normalizeString(composition);
+                
                 const isBarcodeMatch = barcodes.some(b => String(b).trim() === query);
 
-                if (tradeName.includes(query) || genericName.includes(query) || composition.includes(query) || code === query || code.includes(query) || isBarcodeMatch) {
+                // Check original OR normalized matches
+                if (tradeName.includes(query) || genericName.includes(query) || composition.includes(query) || 
+                    normTrade.includes(normalizedQuery) || normGeneric.includes(normalizedQuery) || normComp.includes(normalizedQuery) ||
+                    code === query || code.includes(query) || isBarcodeMatch) {
+                    
                     if (currentFormulation === 'all' || drug.formulation === currentFormulation) {
                         results.push(drug);
                     }
@@ -15877,17 +15926,22 @@ document.addEventListener('DOMContentLoaded', () => {
                 const aGeneric = (a.name || '').toLowerCase();
                 const bGeneric = (b.name || '').toLowerCase();
                 
+                const normATrade = normalizeString(aTrade);
+                const normBTrade = normalizeString(bTrade);
+                const normAGen = normalizeString(aGeneric);
+                const normBGen = normalizeString(bGeneric);
+                
                 let scoreA = 0; let scoreB = 0;
                 
-                if (aTrade.startsWith(query)) scoreA += 100;
-                else if (aGeneric.startsWith(query)) scoreA += 90;
-                else if (aTrade.includes(' ' + query)) scoreA += 80;
-                else if (aGeneric.includes(' ' + query)) scoreA += 70;
+                if (aTrade.startsWith(query) || normATrade.startsWith(normalizedQuery)) scoreA += 100;
+                else if (aGeneric.startsWith(query) || normAGen.startsWith(normalizedQuery)) scoreA += 90;
+                else if (aTrade.includes(' ' + query) || normATrade.includes(normalizedQuery)) scoreA += 80;
+                else if (aGeneric.includes(' ' + query) || normAGen.includes(normalizedQuery)) scoreA += 70;
                 
-                if (bTrade.startsWith(query)) scoreB += 100;
-                else if (bGeneric.startsWith(query)) scoreB += 90;
-                else if (bTrade.includes(' ' + query)) scoreB += 80;
-                else if (bGeneric.includes(' ' + query)) scoreB += 70;
+                if (bTrade.startsWith(query) || normBTrade.startsWith(normalizedQuery)) scoreB += 100;
+                else if (bGeneric.startsWith(query) || normBGen.startsWith(normalizedQuery)) scoreB += 90;
+                else if (bTrade.includes(' ' + query) || normBTrade.includes(normalizedQuery)) scoreB += 80;
+                else if (bGeneric.includes(' ' + query) || normBGen.includes(normalizedQuery)) scoreB += 70;
                 
                 return scoreB - scoreA;
             });
@@ -15923,6 +15977,42 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 
 
+</div>
+<script>
+
+// Premium Dropdown Logic
+function toggleFilterDropdown(e) {
+    if (e) e.stopPropagation();
+    const btn = document.getElementById('filterDropdownBtn');
+    const list = document.getElementById('filterDropdownList');
+    if(btn && list) {
+        btn.classList.toggle('active');
+        list.classList.toggle('active');
+    }
+}
+
+function selectFilter(filterValue, filterText, element) {
+    document.getElementById('currentFilterText').innerText = filterText;
+    document.querySelectorAll('.filter-item').forEach(el => el.classList.remove('selected'));
+    element.classList.add('selected');
+    
+    document.getElementById('filterDropdownBtn').classList.remove('active');
+    document.getElementById('filterDropdownList').classList.remove('active');
+    
+    if (typeof filterByFormulation === 'function') {
+        filterByFormulation(filterValue);
+    }
+}
+
+document.addEventListener('click', function(e) {
+    const container = document.getElementById('filterDropdownContainer');
+    if (container && !container.contains(e.target)) {
+        document.getElementById('filterDropdownBtn')?.classList.remove('active');
+        document.getElementById('filterDropdownList')?.classList.remove('active');
+    }
+});
+
+</script>
 </body>
 
 </html>
