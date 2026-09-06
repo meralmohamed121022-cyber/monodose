@@ -895,8 +895,8 @@
 
         /* Category Filter Section - مرفوع أكتر لفوق */
         .category-filter-section {
-            position: fixed;
-            top: 135px;
+            position: relative;
+            /* removed top */
             left: 0;
             right: 0;
             height: auto;
@@ -1028,16 +1028,10 @@
 
         /* Drug List - مرفوع أكتر لفوق */
         .drug-list {
-            position: fixed;
-            top: 303px;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            z-index: 50;
-            padding: 18px 15px;
-            overflow-y: auto;
-            background: #08103b;
+            position: relative;
+            padding: 15px;
             margin: 0;
+            background: #08103b;
         }
 
         /* Main Content */
@@ -1177,10 +1171,11 @@
         /* تحسينات إضافية للموبايل */
         @media (max-width: 768px) {
             .drug-list {
-                top: 400px;
-                /* مساحة أكبر للموبايل */
-                padding-top: 30px;
-            }
+            position: relative;
+            padding: 15px;
+            margin: 0;
+            background: #08103b;
+        }
 
             .drug-item:first-child {
                 margin-top: 5px;
@@ -1189,21 +1184,26 @@
 
         /* عشان البحث النشط يظهر فوق كل حاجة */
         .search-active .drug-list {
-            top: 420px;
-            /* مساحة إضافية عند البحث النشط */
-            z-index: 80;
+            position: relative;
+            padding: 15px;
+            margin: 0;
+            background: #08103b;
         }
 
         /* لو فيه فلتر نشط */
         .filter-active .drug-list {
-            top: 400px;
-            z-index: 65;
+            position: relative;
+            padding: 15px;
+            margin: 0;
+            background: #08103b;
         }
 
         /* لو البحث والفلتر نشطين مع بعض */
         .search-active.filter-active .drug-list {
-            top: 440px;
-            z-index: 85;
+            position: relative;
+            padding: 15px;
+            margin: 0;
+            background: #08103b;
         }
 
         /* تأثير خاص للكارت الأولاني عند البحث */
@@ -2094,12 +2094,15 @@
             }
 
             .filter-buttons {
-                top: 280px;
+                /* removed top */
             }
 
             .drug-list {
-                top: 330px;
-            }
+            position: relative;
+            padding: 15px;
+            margin: 0;
+            background: #08103b;
+        }
         }
 
         @media screen and (max-width: 360px) {
@@ -2197,29 +2200,20 @@
 
         /* Drug List - MOBILE FIXED VERSION */
         .drug-list {
-            position: fixed;
-            top: 380px;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            z-index: 60;
-            padding: 20px 15px;
-            overflow-y: auto;
+            position: relative;
+            padding: 15px;
+            margin: 0;
             background: #08103b;
-            padding-top: 25px;
         }
 
         /* تحسينات خاصة للموبايل */
         @media (max-width: 768px) {
             .drug-list {
-                top: 420px;
-                /* مساحة أكبر للموبايل */
-                padding-top: 40px;
-                /* padding أكبر للكارت الأولاني */
-                /* استخدام الـ viewport الجديد للموبايل */
-                height: calc(100dvh - 420px);
-                min-height: -webkit-fill-available;
-            }
+            position: relative;
+            padding: 15px;
+            margin: 0;
+            background: #08103b;
+        }
 
             /* الكارت الأولاني في الموبايل */
             .drug-item:first-child {
@@ -2243,12 +2237,11 @@
         /* للشاشات الصغيرة جداً */
         @media (max-width: 480px) {
             .drug-list {
-                top: 440px;
-                /* مساحة أكبر للشاشات الصغيرة */
-                padding: 25px 10px;
-                padding-top: 50px;
-                height: calc(100dvh - 440px);
-            }
+            position: relative;
+            padding: 15px;
+            margin: 0;
+            background: #08103b;
+        }
 
             .drug-item:first-child {
                 margin-top: 20px;
@@ -2274,9 +2267,11 @@
         /* للأجهزة اللوحية */
         @media (min-width: 769px) and (max-width: 1024px) {
             .drug-list {
-                top: 400px;
-                padding-top: 30px;
-            }
+            position: relative;
+            padding: 15px;
+            margin: 0;
+            background: #08103b;
+        }
 
             .drug-item:first-child {
                 margin-top: 10px;
@@ -2286,11 +2281,11 @@
         /* عند البحث النشط في الموبايل */
         @media (max-width: 768px) {
             .search-active .drug-list {
-                top: 460px;
-                /* مساحة أكبر عند البحث */
-                padding-top: 50px;
-                height: calc(100dvh - 460px);
-            }
+            position: relative;
+            padding: 15px;
+            margin: 0;
+            background: #08103b;
+        }
 
             .search-active .drug-item:first-child {
                 margin-top: 25px;
@@ -2300,10 +2295,11 @@
         /* عند الفلتر النشط في الموبايل */
         @media (max-width: 768px) {
             .filter-active .drug-list {
-                top: 450px;
-                padding-top: 45px;
-                height: calc(100dvh - 450px);
-            }
+            position: relative;
+            padding: 15px;
+            margin: 0;
+            background: #08103b;
+        }
 
             .filter-active .drug-item:first-child {
                 margin-top: 20px;
@@ -2313,11 +2309,11 @@
         /* عند البحث والفلتر معاً في الموبايل */
         @media (max-width: 768px) {
             .search-active.filter-active .drug-list {
-                top: 480px;
-                /* أعلى مساحة */
-                padding-top: 55px;
-                height: calc(100dvh - 480px);
-            }
+            position: relative;
+            padding: 15px;
+            margin: 0;
+            background: #08103b;
+        }
 
             .search-active.filter-active .drug-item:first-child {
                 margin-top: 30px;
@@ -2426,18 +2422,21 @@
         /* Safe Area للأجهزة مع Notch */
         @media (max-width: 768px) {
             .drug-list {
-                padding-left: max(15px, env(safe-area-inset-left));
-                padding-right: max(15px, env(safe-area-inset-right));
-                padding-bottom: max(20px, env(safe-area-inset-bottom));
-            }
+            position: relative;
+            padding: 15px;
+            margin: 0;
+            background: #08103b;
+        }
         }
 
         /* للأجهزة مع شاشات طويلة جداً */
         @media (max-width: 768px) and (min-height: 800px) {
             .drug-list {
-                top: 400px;
-                padding-top: 45px;
-            }
+            position: relative;
+            padding: 15px;
+            margin: 0;
+            background: #08103b;
+        }
 
             .drug-item:first-child {
                 margin-top: 25px;
@@ -2447,9 +2446,11 @@
         /* للأجهزة مع شاشات قصيرة */
         @media (max-width: 768px) and (max-height: 600px) {
             .drug-list {
-                top: 380px;
-                padding-top: 35px;
-            }
+            position: relative;
+            padding: 15px;
+            margin: 0;
+            background: #08103b;
+        }
 
             .drug-item:first-child {
                 margin-top: 15px;
@@ -3164,23 +3165,28 @@
     <style id="layout-overrides">
         /* Move filter buttons under age section */
         .filter-buttons {
-            top: 85px !important;
+            /* removed top */
             padding: 10px 20px !important;
         }
         .search-section {
-            top: 135px !important;
+            /* removed top */
         }
         .category-filter-section {
-            top: 190px !important;
+            /* removed top */
         }
         .drug-list {
-            top: 195px !important; 
-            padding-top: 5px !important; /* Remove blue space above cards */
+            position: relative;
+            padding: 15px;
+            margin: 0;
+            background: #08103b;
         }
         
         /* Adjust drug list top for active search/filter */
         .search-active .drug-list, .filter-active .drug-list {
-            top: 195px !important; 
+            position: relative;
+            padding: 15px;
+            margin: 0;
+            background: #08103b;
         }
 
         /* Hover color for category filter buttons */
@@ -3237,24 +3243,30 @@
         
         @media (max-width: 768px) {
             .filter-buttons {
-                top: 80px !important;
+                /* removed top */
                 flex-wrap: nowrap !important;
                 justify-content: flex-start !important;
                 padding-left: 15px !important;
                 padding-right: 15px !important;
             }
             .search-section {
-                top: 130px !important;
+                /* removed top */
             }
             .category-filter-section {
-                top: 180px !important;
+                /* removed top */
             }
             .drug-list {
-                top: 190px !important; 
-            }
+            position: relative;
+            padding: 15px;
+            margin: 0;
+            background: #08103b;
+        }
             .search-active .drug-list, .filter-active .drug-list {
-                top: 190px !important; 
-            }
+            position: relative;
+            padding: 15px;
+            margin: 0;
+            background: #08103b;
+        }
             .top-row-columns {
                 flex-direction: column;
             }
@@ -3310,7 +3322,21 @@
             </div>
         </div>
 
-        <!-- Search Section -->
+        
+
+
+        <!-- Filter Buttons -->
+        <div class="filter-buttons">
+            <button class="filter-btn active" onclick="filterByFormulation('all')">All</button>
+            <button class="filter-btn" onclick="filterByFormulation('tab-caps')">Tab/Caps</button>
+            <button class="filter-btn" onclick="filterByFormulation('syp-susp')">Syp/Susp</button>
+
+            
+            <button class="filter-btn" onclick="filterByFormulation('sachet')">Sachet </button>
+            <button class="filter-btn" onclick="filterByFormulation('others')">Others </button>
+        </div>
+
+<!-- Search Section -->
         <div class="search-section">
             <div style="position: relative;">
                 <input type="text" class="search-input" id="searchInput"
@@ -3330,18 +3356,6 @@
                 </span>
                 <span class="clear-icon" id="clearIcon" style="display: none; right: 85px;">✖</span>
             </div>
-        </div>
-
-
-        <!-- Filter Buttons -->
-        <div class="filter-buttons">
-            <button class="filter-btn active" onclick="filterByFormulation('all')">All</button>
-            <button class="filter-btn" onclick="filterByFormulation('tab-caps')">Tab/Caps</button>
-            <button class="filter-btn" onclick="filterByFormulation('syp-susp')">Syp/Susp</button>
-
-            
-            <button class="filter-btn" onclick="filterByFormulation('sachet')">Sachet </button>
-            <button class="filter-btn" onclick="filterByFormulation('others')">Others </button>
         </div>
 
 
