@@ -18770,7 +18770,131 @@ ${patientWarning}
                 fastRelatedDrugs(drug);
             }
 
-            // 🔥 دالة generateDoseContent الأصلية بتاعتك - مع إصلاح السوائل
+            // ==============================================================
+            // 🩺 UNIFIED CLINICAL DOSING ENGINE (INJECTIONS, TABLETS, LIQUIDS)
+            // ==============================================================
+
+            // 🔥 1. فحص وتحديد ما إذا كان الصنف حقن / فيال / أمبول (Injectables & Vials)
+            function isInjectableForm(drug) {
+                if (!drug) return false;
+                const form = (drug.formulation || '').toLowerCase();
+                const dosageForm = (drug.dosage_form || '').toLowerCase();
+                const trade = (drug.tradeName || drug.trade_name || '').toLowerCase();
+                const tradeAr = (drug.tradeNameAr || drug.trade_name_ar || '').toLowerCase();
+                const comp = (drug.composition || drug.form || '').toLowerCase();
+                const cat = (drug.subCategory || drug.category || '').toLowerCase();
+                
+                if (form === 'injection' || form === 'vial' || form === 'ampoule' || form === 'infusion') return true;
+                if (dosageForm.includes('vial') || dosageForm.includes('amp') || dosageForm.includes('inj') || dosageForm.includes('infus')) return true;
+                if (trade.includes('vial') || trade.includes('amp') || trade.includes('inj') || trade.includes('i.m.') || trade.includes('i.v.') || trade.includes('infusion')) return true;
+                if (trade.includes('فيال') || trade.includes('حقن') || trade.includes('أمبول') || trade.includes('امبول') || trade.includes('عضل') || trade.includes('وريد')) return true;
+                if (tradeAr.includes('فيال') || tradeAr.includes('حقن') || tradeAr.includes('أمبول') || tradeAr.includes('امبول') || tradeAr.includes('عضل') || tradeAr.includes('وريد')) return true;
+                if (comp.includes('vial') || comp.includes('amp') || comp.includes('inj') || comp.includes('injection')) return true;
+                if (cat.includes('injection') || cat.includes('vial') || cat.includes('ampoule')) return true;
+                
+                return false;
+            }
+
+            // 🔥 2. فحص وتحديد ما إذا كان الصنف حبوب أو كبسولات (Solid Oral Form)
+            function isSolidOralForm(drug) {
+                if (!drug) return false;
+                if (isInjectableForm(drug)) return false; // الحقن ليست حبوباً
+                
+                const form = (drug.formulation || '').toLowerCase();
+                const dosageForm = (drug.dosage_form || '').toLowerCase();
+                const trade = (drug.tradeName || drug.trade_name || '').toLowerCase();
+                const comp = (drug.composition || drug.form || '').toLowerCase();
+                
+                // استثناءات واضحة
+                if (form === 'syp-susp' || form === 'drops' || form === 'topical' || form === 'suppository') return false;
+                if (dosageForm.includes('susp') || dosageForm.includes('syp') || dosageForm.includes('syrup') || 
+                    dosageForm.includes('drop') || dosageForm.includes('supp') || dosageForm.includes('cream') || 
+                    dosageForm.includes('oint') || dosageForm.includes('gel')) return false;
+                if (trade.includes(' susp') || trade.includes(' syrup') || trade.includes(' syp') || 
+                    trade.includes(' drops') || trade.includes(' supp')) return false;
+                
+                // تطابق مع الحبوب والكبسولات
+                if (form === 'tab-caps' || form === 'tablet' || form === 'tablets' || form === 'capsule' || form === 'capsules') return true;
+                if (dosageForm.includes('tab') || dosageForm.includes('cap') || dosageForm.includes('pill') || 
+                    dosageForm.includes('قرص') || dosageForm.includes('كبسول') || dosageForm.includes('أقراص')) return true;
+                if (trade.includes(' tab') || trade.includes(' cap') || trade.includes(' caplet') || 
+                    trade.includes(' قرص') || trade.includes(' كبسول') || trade.includes(' أقراص')) return true;
+                if (comp.includes(' tab') || comp.includes(' cap') || comp.includes(' caplet')) return true;
+                
+                return false;
+            }
+
+            // 🔥 3. استخراج تركيز الحبة الواحدة بالملجم
+            function getTabletStrengthMg(drug) {
+                if (!drug) return 0;
+                const sources = [
+                    drug.composition,
+                    drug.form,
+                    drug.strength,
+                    drug.concentration,
+                    drug.tradeName,
+                    drug.name
+                ];
+                for (const src of sources) {
+                    if (!src) continue;
+                    const str = src.toString();
+                    const gmMatch = str.match(/(\d+\.?\d*)\s*g(?:m|ram)?(?!\w)/i);
+                    if (gmMatch && parseFloat(gmMatch[1]) < 10) {
+                        return parseFloat(gmMatch[1]) * 1000;
+                    }
+                    const mgMatch = str.match(/(\d+\.?\d*)\s*mg(?!\w)/i);
+                    if (mgMatch) {
+                        return parseFloat(mgMatch[1]);
+                    }
+                }
+                return 0;
+            }
+
+            // 🔥 4. تجزئة جرعة الحبوب للأطفال لكسور عملية (ربع، نصف، قرص...)
+            function formatTabletDose(singleDoseMg, tabletStrengthMg) {
+                if (!tabletStrengthMg || tabletStrengthMg <= 0) {
+                    return {
+                        fractionText: `${Math.round(singleDoseMg)} mg`,
+                        arabicFraction: `${Math.round(singleDoseMg)} ملجم`,
+                        ratio: 1
+                    };
+                }
+                const ratio = singleDoseMg / tabletStrengthMg;
+                let fractionText = '';
+                let arabicFraction = '';
+                
+                if (ratio < 0.38) {
+                    fractionText = '1/4 tab';
+                    arabicFraction = 'ربع قرص';
+                } else if (ratio < 0.68) {
+                    fractionText = '1/2 tab';
+                    arabicFraction = 'نصف قرص';
+                } else if (ratio < 0.88) {
+                    fractionText = '3/4 tab';
+                    arabicFraction = 'ثلاثة أرباع قرص';
+                } else if (ratio < 1.35) {
+                    fractionText = '1 tab';
+                    arabicFraction = 'قرص واحد';
+                } else if (ratio < 1.75) {
+                    fractionText = '1.5 tabs';
+                    arabicFraction = 'قرص ونصف';
+                } else if (ratio < 2.25) {
+                    fractionText = '2 tabs';
+                    arabicFraction = 'قرصين';
+                } else {
+                    const rounded = Math.round(ratio * 2) / 2;
+                    fractionText = `${rounded} tabs`;
+                    arabicFraction = `${rounded} أقراص`;
+                }
+                
+                return {
+                    fractionText: fractionText,
+                    arabicFraction: arabicFraction,
+                    ratio: ratio
+                };
+            }
+
+            // 🔥 5. دالة generateDoseContent مع فحص السن والأشكال الدوائية
             function generateDoseContent() {
                 const doseContent = document.getElementById('doseContent');
 
@@ -18779,113 +18903,181 @@ ${patientWarning}
                     return;
                 }
 
-                // دالة تحويل MINAGE للأشهر - مضبوطة
                 function convertMinAgeToMonths(minAgeText) {
-                    if (!minAgeText) return 0; // لو مفيش MINAGE يبقى مسموح لكل الأعمار
-
+                    if (!minAgeText) return 0;
                     const ageStr = minAgeText.toString().toLowerCase().trim();
                     const numberMatch = ageStr.match(/(\d+\.?\d*)/);
-
-                    if (!numberMatch) return 0; // لو مش رقم واضح، يبقى مسموح
-
+                    if (!numberMatch) return 0;
                     const number = parseFloat(numberMatch[0]);
 
-                    // تحويل حسب الوحدة
                     if (ageStr.includes('month') || ageStr.includes('شهر')) {
-                        return number; // هو بالشهور خلاص
+                        return number;
                     } else if (ageStr.includes('year') || ageStr.includes('سنة') || ageStr.includes('سن')) {
-                        return number * 12; // تحويل السنين لشهور
+                        return number * 12;
                     } else if (ageStr.includes('week') || ageStr.includes('أسبوع')) {
-                        return number / 4.33; // تحويل الأسابيع لشهور
+                        return number / 4.33;
                     } else {
-                        // لو مش واضح، نفترض إنها سنين (الأغلب)
                         return number * 12;
                     }
                 }
 
-                // تحويل العمر المطلوب للشهور
-                const requiredAgeMonths = convertMinAgeToMonths(selectedDrug.minAge);
+                let requiredAgeMonths = convertMinAgeToMonths(selectedDrug.minAge);
+                const isSolid = isSolidOralForm(selectedDrug);
 
-                // طباعة للتشخيص (يمكن إزالتها لاحقاً)
-                console.log(`Age check: Patient=${selectedAgeInMonths} months, Required=${requiredAgeMonths} months, MinAge="${selectedDrug.minAge}"`);
+                // ⚡ قاعدة الحد الأدنى للحبوب والكبسولات للكبار: 17 سنة (204 شهر)
+                if (isSolid && requiredAgeMonths < 204) {
+                    requiredAgeMonths = 204;
+                }
 
-                // التحقق: هل العمر أقل من المطلوب؟ (فقط هنا نظهر التحذير)
-                if (selectedAgeInMonths < requiredAgeMonths) {
+                console.log(`Age check: Patient=${selectedAgeInMonths} months, Required=${requiredAgeMonths} months, isSolid=${isSolid}, override=${window.pediatricFormOverride}`);
+
+                // التحقق: هل العمر أقل من المطلوب ولم يتم طلب المتابعة؟
+                if (!window.pediatricFormOverride && selectedAgeInMonths < requiredAgeMonths) {
                     const patientYears = Math.floor(selectedAgeInMonths / 12);
                     const patientMonths = selectedAgeInMonths % 12;
                     const requiredYears = Math.floor(requiredAgeMonths / 12);
 
+                    if (isSolid) {
+                        doseContent.innerHTML = `
+                            <div style="
+                                background: linear-gradient(135deg, #FF6B6B, #EE5A52);
+                                border-radius: 16px;
+                                padding: 22px 18px;
+                                text-align: center;
+                                border: 3px solid #D32F2F;
+                                box-shadow: 0 10px 25px rgba(244, 67, 54, 0.35);
+                                color: white;
+                            ">
+                                <div style="font-size: 42px; margin-bottom: 8px;">⚠️ 💊</div>
+                                <h3 style="margin: 0 0 10px 0; font-size: 19px; font-weight: 800;">تنبيه: الشكل الدوائي غير مخصص لهذا السن</h3>
+                                
+                                <div style="background: rgba(255,255,255,0.18); padding: 14px; border-radius: 12px; margin: 12px 0; text-align: right;" dir="rtl">
+                                    <p style="margin: 0 0 8px 0; font-size: 15px; font-weight: bold; text-align: center;">
+                                        ${selectedDrug.tradeName || selectedDrug.name} (${selectedDrug.formulation || selectedDrug.dosage_form || 'أقراص / كبسولات'})
+                                    </p>
+                                    
+                                    <div style="display: flex; justify-content: space-around; align-items: center; margin: 10px 0; text-align: center;" dir="ltr">
+                                        <div>
+                                            <small style="opacity: 0.9;">عمر المريض الحالي</small><br>
+                                            <strong style="color: #FFEB3B; font-size: 16px;">${patientYears} سنة ${patientMonths > 0 ? patientMonths + ' شهر' : ''}</strong>
+                                        </div>
+                                        <div style="font-size: 22px;">❌</div>
+                                        <div>
+                                            <small style="opacity: 0.9;">الحد الأدنى للحبوب</small><br>
+                                            <strong style="color: #69f0ae; font-size: 16px;">17+ سنة (كبار)</strong>
+                                        </div>
+                                    </div>
+                                    
+                                    <p style="margin: 8px 0 0 0; font-size: 13.5px; line-height: 1.5; color: #fffde7; text-align: center;">
+                                        الأقراص والكبسولات مخصصة للبالغين (17 سنة فأكثر) وغير مناسبة للأطفال دون 17 سنة لصعوبة البلع ومخاطر الجرعة.
+                                        <br>
+                                        <strong>هل تريد المتابعة لحساب جرعة الأطفال المناسبة وتجزئتها إلى كسور الحبوب (نصف قرص، قرص...)؟</strong>
+                                    </p>
+                                </div>
+                                
+                                <button onclick="proceedAnywayWithDose()" style="
+                                    background: linear-gradient(135deg, #10b981, #059669); 
+                                    color: white; 
+                                    border: none; 
+                                    padding: 12px 22px; 
+                                    border-radius: 25px; 
+                                    font-size: 14.5px; 
+                                    font-weight: bold;
+                                    cursor: pointer;
+                                    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+                                    display: inline-flex;
+                                    align-items: center;
+                                    gap: 6px;
+                                ">
+                                    ⚡ نعم، المتابعة وحساب الجرعة للأطفال
+                                </button>
+                            </div>
+                        `;
+                        return;
+                    }
+
                     doseContent.innerHTML = `
-            <div style="
-                background: linear-gradient(135deg, #FF6B6B, #EE5A52);
-                border-radius: 15px;
-                padding: 25px;
-                text-align: center;
-                border: 3px solid #D32F2F;
-                box-shadow: 0 10px 30px rgba(244, 67, 54, 0.4);
-                color: white;
-                animation: pulse 2s infinite;
-            ">
-                <div style="font-size: 50px; margin-bottom: 15px;">⚠️</div>
-                <h3 style="margin: 0 0 15px 0; font-size: 20px;">🚫 AGE RESTRICTION</h3>
-                
-                <div style="background: rgba(255,255,255,0.15); padding: 15px; border-radius: 10px; margin: 15px 0;">
-                    <p style="margin: 0 0 10px 0; font-size: 16px;">
-                        <strong>${selectedDrug.tradeName}</strong><br>
-                        ${selectedDrug.formulation ? (selectedDrug.formulation || 'N/A').toUpperCase() : 'MEDICATION'}
-                    </p>
-                    
-                    <div style="display: flex; justify-content: space-between; align-items: center; margin: 10px 0;">
-                        <div>
-                            <small>Current Age</small><br>
-                            <strong style="color: #FFEB3B;">${patientYears}y ${patientMonths}m</strong>
+                        <div style="
+                            background: linear-gradient(135deg, #FF6B6B, #EE5A52);
+                            border-radius: 15px;
+                            padding: 25px;
+                            text-align: center;
+                            border: 3px solid #D32F2F;
+                            box-shadow: 0 10px 30px rgba(244, 67, 54, 0.4);
+                            color: white;
+                        ">
+                            <div style="font-size: 50px; margin-bottom: 15px;">⚠️</div>
+                            <h3 style="margin: 0 0 15px 0; font-size: 20px;">🚫 AGE RESTRICTION</h3>
+                            
+                            <div style="background: rgba(255,255,255,0.15); padding: 15px; border-radius: 10px; margin: 15px 0;">
+                                <p style="margin: 0 0 10px 0; font-size: 16px;">
+                                    <strong>${selectedDrug.tradeName}</strong><br>
+                                    ${selectedDrug.formulation ? (selectedDrug.formulation || 'N/A').toUpperCase() : 'MEDICATION'}
+                                </p>
+                                
+                                <div style="display: flex; justify-content: space-between; align-items: center; margin: 10px 0;">
+                                    <div>
+                                        <small>Current Age</small><br>
+                                        <strong style="color: #FFEB3B;">${patientYears}y ${patientMonths}m</strong>
+                                    </div>
+                                    <div style="font-size: 24px;">❌</div>
+                                    <div>
+                                        <small>Required</small><br>
+                                        <strong style="color: #4CAF50;">${requiredYears}+ years</strong>
+                                    </div>
+                                </div>
+                                
+                                <p style="color: #FFEB3B; margin: 10px 0 0 0; font-size: 14px;">
+                                    Not suitable for this age group
+                                </p>
+                            </div>
+                            
+                            <button onclick="proceedAnywayWithDose()" style="
+                                background: linear-gradient(45deg, #4CAF50, #45A049); 
+                                color: white; 
+                                border: none; 
+                                padding: 12px 20px; 
+                                border-radius: 20px; 
+                                font-size: 14px; 
+                                cursor: pointer;
+                                margin: 5px;
+                            ">
+                                ⚡ Calculate Anyway
+                            </button>
                         </div>
-                        <div style="font-size: 24px;">❌</div>
-                        <div>
-                            <small>Required</small><br>
-                            <strong style="color: #4CAF50;">${requiredYears}+ years</strong>
-                        </div>
-                    </div>
-                    
-                    <p style="color: #FFEB3B; margin: 10px 0 0 0; font-size: 14px;">
-                        Not suitable for this age group
-                    </p>
-                </div>
-                
-                <button onclick="proceedAnywayWithDose()" style="
-                    background: linear-gradient(45deg, #4CAF50, #45A049); 
-                    color: white; 
-                    border: none; 
-                    padding: 12px 20px; 
-                    border-radius: 20px; 
-                    font-size: 14px; 
-                    cursor: pointer;
-                    margin: 5px;
-                ">
-                    ⚡ Calculate Anyway
-                </button>
-            </div>
-        `;
-                    return; // نتوقف هنا ولا نظهر الجرعات
+                    `;
+                    return;
                 }
-                // لو العمر مناسب، نكمل عادي ونظهر الجرعات 
+
                 generateNormalDoseContent();
             }
 
-            // 🔥 دالة مساعدة لعرض الجرعات العادية - مع إصلاح مشكلة السوائل
+            // 🔥 6. دالة generateNormalDoseContent الشاملة (حقن، حبوب، سوائل)
             function generateNormalDoseContent() {
                 const doseContent = document.getElementById('doseContent');
 
-                // التحقق من الوزن إذا كان مطلوب
-                const needsWeight = selectedDrug.doses.some(dose => dose.dosePerKg);
+                const needsWeight = selectedDrug.doses.some(dose => dose.dosePerKg || (dose.rawIndication && dose.rawIndication.pediatric_mg_kg));
                 if (needsWeight && (!calculatedWeight || calculatedWeight <= 0)) {
                     doseContent.innerHTML = `
-            <div style="background: #FF9800; color: white; padding: 20px; border-radius: 10px; text-align: center;">
-                <span style="font-size: 40px;">⚖️</span><br>
-                <strong>Please set patient weight to calculate dose</strong>
-            </div>
-        `;
+                        <div style="background: #FF9800; color: white; padding: 20px; border-radius: 10px; text-align: center;">
+                            <span style="font-size: 40px;">⚖️</span><br>
+                            <strong>Please set patient weight to calculate dose</strong>
+                        </div>
+                    `;
                     return;
+                }
+
+                const ageYears = selectedAgeInMonths / 12.0;
+                const w = calculatedWeight || 10.0;
+                const isPediatric = (ageYears < 17.0 || w < 45.0);
+                const isInjectable = isInjectableForm(selectedDrug);
+                const isSolid = isSolidOralForm(selectedDrug);
+                const tabletStrength = getTabletStrengthMg(selectedDrug);
+
+                function roundCl(val) {
+                    if (val <= 0) return 0;
+                    const r = Math.round(val * 2) / 2;
+                    return r % 1 === 0 ? r.toFixed(0) : r.toFixed(1);
                 }
 
                 let doseHtml = '';
@@ -18894,19 +19086,16 @@ ${patientWarning}
                     const indicationText = Array.isArray(dose.indication) ? dose.indication.join(', ') : dose.indication;
 
                     doseHtml += `
-            <div class="dose-indication">
-                <div class="condition-header" onclick="toggleDoseDetails(${index})">
-                    <span>${indicationText}</span>
-                    <span class="toggle-icon" id="toggle-${index}">▼</span>
-                </div>
-                <div class="dose-box" id="dose-${index}">
-        `;
+                        <div class="dose-indication">
+                            <div class="condition-header" onclick="toggleDoseDetails(${index})">
+                                <span>${indicationText}</span>
+                                <span class="toggle-icon" id="toggle-${index}">▼</span>
+                            </div>
+                            <div class="dose-box" id="dose-${index}">
+                    `;
 
                     // 🌟 Support Monodose clinical formulations and indications
                     if (selectedDrug.isMonodose || selectedDrug.source === 'monodose') {
-                        const ageYears = selectedAgeInMonths / 12.0;
-                        const w = calculatedWeight || 10.0;
-                        const isPediatric = (w < 45.0 && ageYears < 16.0);
                         const conc = parseFloat(selectedDrug.concentration_per_ml) || parseFloat(selectedDrug.concentration) || 20.0;
                         const ind = dose.rawIndication || dose;
 
@@ -18915,12 +19104,6 @@ ${patientWarning}
                         let durText = ind.duration || dose.duration || 'As directed';
                         let singleDose = '';
                         let dailyDose = '';
-
-                        function roundCl(val) {
-                            if (val <= 0) return 0;
-                            const r = Math.round(val * 2) / 2;
-                            return r % 1 === 0 ? r.toFixed(0) : r.toFixed(1);
-                        }
 
                         if (dose.indType === 'domperidone_liquid') {
                             if (isPediatric && w < 35.0 && ageYears < 12.0) {
@@ -19013,9 +19196,15 @@ ${patientWarning}
                         } else if (dose.indType === 'pharyngitis_pediatric') {
                             if (isPediatric) {
                                 const rawMg = Math.min(w * (ind.pediatric_mg_kg || 12.0), ind.max_daily_mg || 500.0);
-                                const rawMl = roundCl(rawMg / conc);
-                                displayDose = `${rawMl} mL once daily for 5 days`;
-                                singleDose = `${rawMl} mL (${Math.round(rawMg)} mg)`;
+                                if (isSolid) {
+                                    const tabInfo = formatTabletDose(rawMg, tabletStrength);
+                                    displayDose = `${tabInfo.fractionText} (${Math.round(rawMg)} mg) - [${tabInfo.arabicFraction}] once daily for 5 days`;
+                                    singleDose = `${tabInfo.fractionText} (${Math.round(rawMg)} mg)`;
+                                } else {
+                                    const rawMl = roundCl(rawMg / conc);
+                                    displayDose = `${rawMl} mL once daily for 5 days`;
+                                    singleDose = `${rawMl} mL (${Math.round(rawMg)} mg)`;
+                                }
                                 freqText = 'once daily (q24hr)';
                                 durText = '5 days';
                             } else {
@@ -19025,51 +19214,86 @@ ${patientWarning}
                         } else if (dose.indType === 'otitis_dual_option') {
                             if (isPediatric) {
                                 const opt1Mg = Math.min(w * (ind.option1_mg_kg || 30.0), 1500.0);
-                                const opt1Ml = roundCl(opt1Mg / conc);
                                 const opt2Mg = Math.min(w * (ind.option2_mg_kg || 10.0), 500.0);
-                                const opt2Ml = roundCl(opt2Mg / conc);
-                                displayDose = `${opt1Ml} mL single dose OR ${opt2Ml} mL q24hr for 3 days`;
-                                singleDose = `${opt1Ml} mL once OR ${opt2Ml} mL daily`;
+                                if (isSolid) {
+                                    const tabInfo1 = formatTabletDose(opt1Mg, tabletStrength);
+                                    const tabInfo2 = formatTabletDose(opt2Mg, tabletStrength);
+                                    displayDose = `${tabInfo1.fractionText} single dose OR ${tabInfo2.fractionText} q24hr for 3 days`;
+                                    singleDose = `${tabInfo1.fractionText} once OR ${tabInfo2.fractionText} daily`;
+                                } else {
+                                    const opt1Ml = roundCl(opt1Mg / conc);
+                                    const opt2Ml = roundCl(opt2Mg / conc);
+                                    displayDose = `${opt1Ml} mL single dose OR ${opt2Ml} mL q24hr for 3 days`;
+                                    singleDose = `${opt1Ml} mL once OR ${opt2Ml} mL daily`;
+                                }
                                 durText = '1 day (single dose) or 3 days';
                             } else {
                                 displayDose = ind.adult_fixed || '500 mg daily';
                                 singleDose = displayDose;
                             }
-                        } else if (dose.indType === 'tapered_10_5') {
-                            if (isPediatric) {
-                                const d1Mg = Math.min(w * (ind.day1_mg_kg || 10.0), ind.max_day1_mg || 500.0);
-                                const d1Ml = roundCl(d1Mg / conc);
-                                const d2Mg = Math.min(w * (ind.days2_5_mg_kg || 5.0), ind.max_day2_5_mg || 250.0);
-                                const d2Ml = roundCl(d2Mg / conc);
-                                displayDose = `${d1Ml} mL on day 1, then ${d2Ml} mL on days 2-5`;
-                                singleDose = `Day 1: ${d1Ml} mL | Days 2-5: ${d2Ml} mL`;
-                                durText = '5 days';
-                            } else {
-                                displayDose = ind.adult_fixed || '500 mg on day 1, then 250 mg on days 2-5';
-                                singleDose = displayDose;
+                        } else if (isPediatric) {
+                            // حساب جرعة الأطفال بناءً على mg/kg
+                            let pedMgKg = ind.pediatric_mg_kg || ind.pediatricMgKg || dose.pediatricMgKg || dose.dosePerKg || ind.dosePerKg;
+                            if (!pedMgKg) {
+                                const doseText = (dose.dose || ind.dose || '') + ' ' + (ind.pediatric_fixed || '') + ' ' + (ind.adult_fixed || '');
+                                const pMatch = doseText.match(/Pediatric:\s*(\d+\.?\d*)\s*mg\/kg/i) || doseText.match(/(\d+\.?\d*)\s*mg\/kg/i);
+                                if (pMatch) {
+                                    pedMgKg = parseFloat(pMatch[1]);
+                                }
                             }
-                        } else if (isPediatric && ind.pediatric_mg_kg) {
-                            const rawMg = Math.min(w * ind.pediatric_mg_kg, ind.max_daily_mg || 4000.0);
-                            if (selectedDrug.dosage_form === 'vial' || selectedDrug.formulation === 'injection') {
-                                if (rawMg >= 1000) {
-                                    displayDose = `${(rawMg / 1000.0).toFixed(1)} gm (${Math.round(rawMg)} mg) ${freqText}`;
-                                    singleDose = `${(rawMg / 1000.0).toFixed(1)} gm`;
-                                } else {
-                                    displayDose = `${Math.round(rawMg)} mg ${freqText}`;
-                                    singleDose = `${Math.round(rawMg)} mg`;
+
+                            if (pedMgKg) {
+                                const rawMg = Math.min(w * pedMgKg, ind.max_daily_mg || ind.maxDailyMg || 4000.0);
+                                
+                                // 💉 حالة الحقن والفيال: حساب الجرعة بالجرام أو الملجم (ممنوع تحويلها إلى mL كسوائل شرب!)
+                                if (isInjectable) {
+                                    if (rawMg >= 1000) {
+                                        const gmVal = (rawMg / 1000.0).toFixed(1);
+                                        const cleanGm = gmVal.endsWith('.0') ? parseInt(gmVal) : gmVal;
+                                        displayDose = `${cleanGm} gm (${Math.round(rawMg)} mg) ${freqText}`;
+                                        singleDose = `${cleanGm} gm (${Math.round(rawMg)} mg)`;
+                                    } else {
+                                        displayDose = `${Math.round(rawMg)} mg ${freqText}`;
+                                        singleDose = `${Math.round(rawMg)} mg`;
+                                    }
+                                }
+                                // 💊 حالة الأقراص والكبسولات: تحويل إلى كسور الحبوب (نصف قرص، قرص...)
+                                else if (isSolid) {
+                                    const tabInfo = formatTabletDose(rawMg, tabletStrength);
+                                    displayDose = `${tabInfo.fractionText} (${Math.round(rawMg)} mg) - [${tabInfo.arabicFraction}] ${freqText}`;
+                                    singleDose = `${tabInfo.fractionText} (${Math.round(rawMg)} mg) - [${tabInfo.arabicFraction}]`;
+                                }
+                                // 🧪 حالة السوائل والشراب: حساب الحجم بالـ mL
+                                else {
+                                    const mlVal = roundCl(rawMg / conc);
+                                    displayDose = `${mlVal} mL ${freqText}`;
+                                    singleDose = `${mlVal} mL (${Math.round(rawMg)} mg)`;
                                 }
                             } else {
-                                const mlVal = roundCl(rawMg / conc);
-                                displayDose = `${mlVal} mL ${freqText}`;
-                                singleDose = `${mlVal} mL (${Math.round(rawMg)} mg)`;
+                                const pedStr = ind.pediatric_fixed || dose.pediatricFixed || (dose.dose || '').match(/Pediatric:\s*([^|]+)/i)?.[1]?.trim() || dose.dose || 'See product label';
+                                displayDose = pedStr;
+                                singleDose = pedStr;
                             }
                         } else {
-                            displayDose = ind.adult_fixed || ind.pediatric_fixed || dose.dose || 'See product label';
-                            singleDose = displayDose;
+                            // جرعة البالغين (Adult Standard)
+                            const adultStr = ind.adult_fixed || dose.adultFixed || (dose.dose || '').match(/Adult:\s*([^|]+)/i)?.[1]?.trim() || dose.dose || 'See product label';
+                            displayDose = adultStr;
+                            singleDose = adultStr;
                         }
 
                         let highDoseNotice = (dose.indType === 'augmentin_aom_sinusitis' && isPediatric) ? 
                             `<div style="color: #ea580c; font-size: 13.5px; font-weight: bold; margin-top: 6px;">⚠️ High-dose regimen (90 mg/kg): Use 14:1 (Augmentin ES-600) formulation</div>` : '';
+
+                        let solidPediatricNotice = '';
+                        if (isSolid && isPediatric) {
+                            let pedMgKg = ind.pediatric_mg_kg || ind.pediatricMgKg || dose.pediatricMgKg || dose.dosePerKg || ind.dosePerKg || 15.0;
+                            const tabInfo = formatTabletDose(w * pedMgKg, tabletStrength);
+                            solidPediatricNotice = `
+                                <div style="background: #fff8e1; border: 1px solid #ffe082; border-radius: 8px; padding: 10px 14px; margin-top: 10px; font-size: 13.5px; color: #b78103; line-height: 1.5;" dir="rtl">
+                                    ⚠️ <strong>تنبيه تجزئة الحبوب للأطفال:</strong> تم حساب الجرعة لوزن الطفل (${w} كجم) وتجزئتها من قرص تركيز ${tabletStrength || 500} ملجم إلى <strong>${tabInfo.arabicFraction} (${tabInfo.fractionText})</strong>. يرجى التأكد من إمكانية تقسيم أو طحن القرص بحذر وإعطائه مع قليل من الماء أو العصير.
+                                </div>
+                            `;
+                        }
 
                         doseHtml += `
                             <div class="main-dose-value" style="font-size: 1.15em; font-weight: 700; color: #1565C0; padding: 12px 14px; background: #e3f2fd; border-radius: 10px; border-left: 5px solid #1976D2; margin-bottom: 8px;">
@@ -19079,7 +19303,7 @@ ${patientWarning}
                             <div class="dose-details" id="details-${index}" style="display: block; background: #fffde7; border: 1px solid #fff59d; border-radius: 8px; padding: 10px 14px;">
                                 <div class="dose-line" style="display: flex; justify-content: space-between; margin-bottom: 4px;">
                                     <span class="dose-label" style="font-weight: 600; color: #555;">Patient Category:</span>
-                                    <span class="dose-value" style="font-weight: 700; color: ${isPediatric ? '#e65100' : '#2e7d32'};">${isPediatric ? 'Pediatric (< 45 Kg)' : 'Adult Standard (>= 45 Kg)'}</span>
+                                    <span class="dose-value" style="font-weight: 700; color: ${isPediatric ? '#e65100' : '#2e7d32'};">${isPediatric ? (isInjectable ? 'Pediatric Injection Dose' : (isSolid ? 'Pediatric (< 17 years) - Converted' : 'Pediatric (< 45 Kg)')) : 'Adult Standard (>= 17 years)'}</span>
                                 </div>
                                 <div class="dose-line" style="display: flex; justify-content: space-between; margin-bottom: 4px;">
                                     <span class="dose-label" style="font-weight: 600; color: #555;">Calculated Dose:</span>
@@ -19094,6 +19318,7 @@ ${patientWarning}
                                     <span class="dose-label" style="font-weight: 600; color: #555;">Duration:</span>
                                     <span class="dose-value" style="font-weight: 600; color: #333;">${durText}</span>
                                 </div>` : ''}
+                                ${solidPediatricNotice}
                                 ${selectedDrug.administration ? `
                                 <div class="dose-line" style="display: flex; justify-content: space-between; margin-top: 6px; padding-top: 6px; border-top: 1px dashed #e0e0e0; font-size: 0.9em; color: #666;">
                                     <span>${selectedDrug.administration}</span>
@@ -19103,18 +19328,37 @@ ${patientWarning}
                         return;
                     }
 
-                    // معالجة الجرعات حسب النوع مع إصلاح السوائل
+                    // معالجة الجرعات للأصناف الأخرى من قاعدة البيانات
                     if (dose.dosePerKg && calculatedWeight) {
                         const totalDailyDoseMg = dose.dosePerKg * calculatedWeight;
                         const maxDosesPerDay = dose.maxDosesPerDay || 1;
-
-                        // 🔥 هنا الإصلاح: حساب الجرعة الواحدة
                         const singleDoseMg = totalDailyDoseMg / maxDosesPerDay;
 
                         let displayValue, displayUnit;
 
-                        // للسوائل - استخدام الجرعة الواحدة المصححة
-                        if (selectedDrug.formulation === 'syp-susp' ||
+                        // للحقن والفيال
+                        if (isInjectable) {
+                            if (singleDoseMg >= 1000) {
+                                displayValue = (singleDoseMg / 1000.0).toFixed(1);
+                                displayUnit = `gm (${Math.round(singleDoseMg)} mg)`;
+                            } else {
+                                displayValue = Math.round(singleDoseMg);
+                                displayUnit = 'mg';
+                            }
+                        }
+                        // للأقراص والكبسولات
+                        else if (selectedDrug.formulation === 'tab-caps' || isSolid) {
+                            if (tabletStrength > 0) {
+                                const tabInfo = formatTabletDose(singleDoseMg, tabletStrength);
+                                displayValue = tabInfo.fractionText;
+                                displayUnit = `(${Math.round(singleDoseMg)} mg) - [${tabInfo.arabicFraction}]`;
+                            } else {
+                                displayValue = singleDoseMg.toFixed(1);
+                                displayUnit = 'mg';
+                            }
+                        }
+                        // للسوائل
+                        else if (selectedDrug.formulation === 'syp-susp' ||
                             selectedDrug.formulation === 'drops' ||
                             selectedDrug.formulation === 'powder') {
 
@@ -19125,26 +19369,12 @@ ${patientWarning}
                                 displayValue = singleDoseMg.toFixed(1);
                                 displayUnit = 'mg';
                             }
-                        }
-                        // للأقراص
-                        else if (selectedDrug.formulation === 'tab-caps') {
-                            const tabletStrength = parseFloat(selectedDrug.composition.match(/(\d+)\s*mg/i)?.[1] || 0);
-                            if (tabletStrength > 0) {
-                                const tablets = singleDoseMg / tabletStrength;
-                                displayValue = tablets.toFixed(tablets < 1 ? 2 : 1);
-                                displayUnit = tablets > 1 ? 'tablets' : 'tablet';
-                            } else {
-                                displayValue = singleDoseMg.toFixed(1);
-                                displayUnit = 'mg';
-                            }
                         } else {
                             displayValue = singleDoseMg.toFixed(1);
                             displayUnit = 'mg';
                         }
 
-                        // حساب الفترات
                         let intervalText;
-
                         if (maxDosesPerDay === 1) {
                             intervalText = '24 hrs';
                         } else if (maxDosesPerDay === 2) {
@@ -19157,79 +19387,134 @@ ${patientWarning}
                             intervalText = `${Math.round(24 / maxDosesPerDay)} hrs`;
                         }
 
-                        // حساب Total Daily للعرض
                         const totalDailyDisplay = (displayValue * maxDosesPerDay).toFixed(1);
 
                         doseHtml += `
-                <div class="main-dose-value">
-                     ${displayValue} ${displayUnit} every ${intervalText} for ${dose.duration}
-                </div>
-                <div class="dose-details" id="details-${index}">
-                    <div class="dose-line">
-                        <span class="dose-label">Single Dose:</span>
-                        <span class="dose-value">${displayValue} ${displayUnit}</span>
-                    </div>
-                    <div class="dose-line">
-                        <span class="dose-label">Frequency:</span>
-                        <span class="dose-value">Every ${intervalText}</span>
-                    </div>
-                    <div class="dose-line">
-                        <span class="dose-label">Total Daily:</span>
-                        <span class="dose-value">${totalDailyDisplay} ${displayUnit}</span>
-                    </div>
-                    <div class="dose-line">
-                        <span class="dose-label">Duration:</span>
-                        <span class="dose-value">${dose.duration}</span>
-                    </div>
-                </div>
-            `;
+                            <div class="main-dose-value">
+                                 💊 ${displayValue} ${displayUnit} every ${intervalText} for ${dose.duration || 'prescribed duration'}
+                            </div>
+                            <div class="dose-details" id="details-${index}">
+                                <div class="dose-line">
+                                    <span class="dose-label">Single Dose:</span>
+                                    <span class="dose-value">${displayValue} ${displayUnit}</span>
+                                </div>
+                                <div class="dose-line">
+                                    <span class="dose-label">Frequency:</span>
+                                    <span class="dose-value">Every ${intervalText}</span>
+                                </div>
+                                <div class="dose-line">
+                                    <span class="dose-label">Total Daily:</span>
+                                    <span class="dose-value">${totalDailyDisplay} ${displayUnit}</span>
+                                </div>
+                                <div class="dose-line">
+                                    <span class="dose-label">Duration:</span>
+                                    <span class="dose-value">${dose.duration || 'As directed'}</span>
+                                </div>
+                            </div>
+                        `;
                     }
-                    // معالجة dose.dose مع إصلاح مشكلة NaN للحبوب
+                    // معالجة dose.dose
                     else if (dose.dose) {
-                        // تحقق إذا كان dose.dose عبارة عن نص (مثل "1 tablet")
                         const doseStr = dose.dose.toString();
                         const isNumericDose = !isNaN(parseFloat(doseStr)) && isFinite(doseStr);
 
-                        if (isNumericDose && selectedDrug.formulation === 'tab-caps') {
-                            // إذا كان رقم وحبوب، نعمل الحسابات
+                        let pMatch = doseStr.match(/Pediatric:\s*(\d+\.?\d*)\s*mg\/kg/i) || doseStr.match(/(\d+\.?\d*)\s*mg\/kg/i);
+                        if (isPediatric && pMatch && calculatedWeight) {
+                            const pedMgKgVal = parseFloat(pMatch[1]);
+                            const singleDoseMg = pedMgKgVal * calculatedWeight;
+                            
+                            if (isInjectable) {
+                                let doseFormatted = '';
+                                if (singleDoseMg >= 1000) {
+                                    const gmVal = (singleDoseMg / 1000.0).toFixed(1);
+                                    doseFormatted = `${gmVal} gm (${Math.round(singleDoseMg)} mg)`;
+                                } else {
+                                    doseFormatted = `${Math.round(singleDoseMg)} mg`;
+                                }
+                                doseHtml += `
+                                    <div class="main-dose-value">
+                                         💊 ${doseFormatted} ${dose.frequency || ''}
+                                    </div>
+                                    <div class="dose-details" id="details-${index}">
+                                        <div class="dose-line">
+                                            <span class="dose-label">Patient Category:</span>
+                                            <span class="dose-value" style="color: #e65100; font-weight: bold;">Pediatric Injection (< 17 years)</span>
+                                        </div>
+                                        <div class="dose-line">
+                                            <span class="dose-label">Calculated Dose:</span>
+                                            <span class="dose-value">${doseFormatted} (${pedMgKgVal} mg/kg)</span>
+                                        </div>
+                                        <div class="dose-line">
+                                            <span class="dose-label">Frequency:</span>
+                                            <span class="dose-value">${dose.frequency || 'As directed'}</span>
+                                        </div>
+                                    </div>
+                                `;
+                                return;
+                            } else if (isSolid) {
+                                const tabInfo = formatTabletDose(singleDoseMg, tabletStrength);
+                                doseHtml += `
+                                    <div class="main-dose-value">
+                                         💊 ${tabInfo.fractionText} (${Math.round(singleDoseMg)} mg) - [${tabInfo.arabicFraction}] ${dose.frequency || ''}
+                                    </div>
+                                    <div class="dose-details" id="details-${index}">
+                                        <div class="dose-line">
+                                            <span class="dose-label">Patient Category:</span>
+                                            <span class="dose-value" style="color: #e65100; font-weight: bold;">Pediatric (< 17 years)</span>
+                                        </div>
+                                        <div class="dose-line">
+                                            <span class="dose-label">Tablet Fraction:</span>
+                                            <span class="dose-value">${tabInfo.fractionText} (${tabInfo.arabicFraction})</span>
+                                        </div>
+                                        <div class="dose-line">
+                                            <span class="dose-label">Dose in mg:</span>
+                                            <span class="dose-value">${Math.round(singleDoseMg)} mg (${pedMgKgVal} mg/kg)</span>
+                                        </div>
+                                        <div class="dose-line">
+                                            <span class="dose-label">Frequency:</span>
+                                            <span class="dose-value">${dose.frequency || 'As directed'}</span>
+                                        </div>
+                                    </div>
+                                `;
+                                return;
+                            }
+                        }
+                        
+                        if (isNumericDose && (selectedDrug.formulation === 'tab-caps' || isSolid)) {
                             const doseValue = parseFloat(doseStr);
-                            const tabletStrength = parseFloat(selectedDrug.composition.match(/(\d+)\s*mg/i)?.[1] || 0);
-
                             if (tabletStrength > 0) {
-                                const tablets = doseValue / tabletStrength;
-                                const displayValue = tablets.toFixed(tablets < 1 ? 2 : 1);
-                                const displayUnit = tablets > 1 ? 'tablets' : 'tablet';
-
+                                const tabInfo = formatTabletDose(doseValue, tabletStrength);
                                 doseHtml += `
-                        <div class="main-dose-value">
-                             ${displayValue} ${displayUnit} ${dose.frequency} for ${dose.duration}
-                        </div>
-                    `;
+                                    <div class="main-dose-value">
+                                         💊 ${tabInfo.fractionText} (${doseValue} mg) - [${tabInfo.arabicFraction}] ${dose.frequency || ''} for ${dose.duration || 'directed duration'}
+                                    </div>
+                                `;
                             } else {
-                                // لو مفيش tablet strength، نعرض القيمة كما هي
                                 doseHtml += `
-                        <div class="main-dose-value">
-                             ${dose.dose} ${dose.frequency} for ${dose.duration}
-                        </div>
-                    `;
+                                    <div class="main-dose-value">
+                                         ${dose.dose} ${dose.frequency || ''} for ${dose.duration || 'directed duration'}
+                                    </div>
+                                `;
                             }
                         } else {
-                            // لو نص أو مش حبوب، نعرض كما هو
+                            let textToDisplay = doseStr;
+                            if (!isPediatric && doseStr.includes('Adult:')) {
+                                textToDisplay = doseStr.match(/Adult:\s*([^|]+)/i)?.[1]?.trim() || doseStr;
+                            } else if (isPediatric && doseStr.includes('Pediatric:')) {
+                                textToDisplay = doseStr.match(/Pediatric:\s*([^|]+)/i)?.[1]?.trim() || doseStr;
+                            }
                             doseHtml += `
-                    <div class="main-dose-value">
-                         ${dose.dose} ${dose.frequency} for ${dose.duration}
-                    </div>
-                `;
+                                <div class="main-dose-value">
+                                     💊 ${textToDisplay} ${dose.frequency || ''} for ${dose.duration || 'directed duration'}
+                                </div>
+                            `;
                         }
-                    }
-
-                    // معالجة fixedDose
-                    else if (dose.fixedDose) {
+                    } else if (dose.fixedDose) {
                         doseHtml += `
-                <div class="main-dose-value">
-                     ${dose.fixedDose} mg ${dose.frequency} for ${dose.duration}
-                </div>
-            `;
+                            <div class="main-dose-value">
+                                 💊 ${dose.fixedDose} mg ${dose.frequency || ''} for ${dose.duration || 'directed duration'}
+                            </div>
+                        `;
                     }
 
                     doseHtml += '</div></div>';
@@ -19237,14 +19522,24 @@ ${patientWarning}
 
                 doseContent.innerHTML = doseHtml;
 
-                // ⚡ تطبيق الفلترة فوراً بعد عرض الجرعات
+                // تطبيق الفلترة
                 setTimeout(filterDoseDisplayByAgeWeight, 50);
             }
 
-            // دالة للمتابعة رغم التحذير
+            // دالة للمتابعة رغم التحذير وحساب الجرعة للأطفال
             function proceedAnywayWithDose() {
+                window.pediatricFormOverride = true;
                 generateNormalDoseContent();
             }
+
+            // ربط الدوال بالـ window لضمان الوصول العالمي
+            window.isInjectableForm = isInjectableForm;
+            window.isSolidOralForm = isSolidOralForm;
+            window.getTabletStrengthMg = getTabletStrengthMg;
+            window.formatTabletDose = formatTabletDose;
+            window.generateDoseContent = generateDoseContent;
+            window.generateNormalDoseContent = generateNormalDoseContent;
+            window.proceedAnywayWithDose = proceedAnywayWithDose;
 
             // 🔥 دالة محسنة لتحويل العمر لشهور (NEW!)
             function parseAgeStringToMonths(ageString) {
