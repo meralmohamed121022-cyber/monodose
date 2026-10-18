@@ -1168,6 +1168,37 @@
             /* عشان الـ z-index يشتغل */
         }
 
+        /* 🌟 Distinctive Premium Styling for MONODOSE Database Cards */
+        .drug-item.monodose-card {
+            background: linear-gradient(135deg, #ffffff 0%, #fff7ed 100%) !important;
+            border-right: 5px solid #ea580c !important;
+            border-top: 1px solid rgba(234, 88, 12, 0.2) !important;
+            border-bottom: 1px solid rgba(234, 88, 12, 0.2) !important;
+            border-left: 1px solid rgba(234, 88, 12, 0.2) !important;
+            box-shadow: 0 4px 18px rgba(234, 88, 12, 0.12) !important;
+            position: relative;
+        }
+
+        .drug-item.monodose-card:hover {
+            box-shadow: 0 6px 24px rgba(234, 88, 12, 0.22) !important;
+            transform: translateY(-3px);
+        }
+
+        .monodose-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            background: linear-gradient(135deg, #ea580c 0%, #f97316 100%);
+            color: #ffffff !important;
+            font-size: 11px;
+            font-weight: 800;
+            padding: 3px 9px;
+            border-radius: 6px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            box-shadow: 0 2px 6px rgba(234, 88, 12, 0.35);
+        }
+
         /* الكارت الأولاني يكون له أولوية أعلى */
         .drug-item:first-child {
             margin-top: 0;
@@ -3186,9 +3217,29 @@
             }
         }
     </script>
-    
+    <script src="monodoseDatabase.js"></script>
+    <script>
+        // Merge Monodose Database into window.drugDatabase with priority
+        if (typeof window.monodoseDatabase !== 'undefined' && window.monodoseDatabase) {
+            window.drugDatabase = window.drugDatabase || {};
+            let monoCount = 0;
+            for (const key in window.monodoseDatabase) {
+                window.drugDatabase[key] = window.monodoseDatabase[key];
+                monoCount++;
+            }
+            console.log(`⚡ Successfully integrated ${monoCount} MONODOSE clinical formulations into database.`);
+        }
+    </script>
     <script src="unifiedDatabase.js"></script>
     <script src="strictDatabase.js"></script>
+    <script>
+        // Re-affirm monodose items after secondary scripts
+        if (typeof window.monodoseDatabase !== 'undefined' && window.monodoseDatabase && window.drugDatabase) {
+            for (const key in window.monodoseDatabase) {
+                window.drugDatabase[key] = window.monodoseDatabase[key];
+            }
+        }
+    </script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             if (typeof loadDrugList === 'function') loadDrugList();
@@ -3965,16 +4016,16 @@ document.addEventListener('DOMContentLoaded', updateOnlineStatus);
         </script>
         <script>
             // Enhanced Drug Database with detailed dosing information
-            // Age-weight correlation data
+            // Age-weight correlation data (Aligned with CDC/WHO 50th percentile Egydose clinical standards)
             const ageWeightData = {
-                1: 4.5, 2: 5.5, 3: 6.0, 4: 6.5, 5: 7.0, 6: 7.5,
-                7: 8.0, 8: 8.5, 9: 9.0, 10: 9.5, 11: 10.0, 12: 10.5,
-                18: 11.5, 24: 12.5, 30: 13.5, 36: 14.5, 42: 15.5, 48: 16.5,
-                54: 17.5, 60: 18.5, 66: 19.5, 72: 20.5, 78: 22.0, 84: 23.5,
-                90: 25.0, 96: 26.5, 102: 28.0, 108: 29.5, 114: 31.0, 120: 32.5,
-                126: 34.0, 132: 35.5, 138: 37.0, 144: 38.5, 150: 40.0, 156: 41.5,
-                162: 43.0, 168: 44.5, 174: 46.0, 180: 47.5, 186: 49.0, 192: 50.5,
-                198: 52.0, 204: 53.5
+                1: 4.5, 2: 5.5, 3: 6.5, 4: 7.0, 5: 7.5, 6: 8.0,
+                7: 8.5, 8: 9.0, 9: 9.5, 10: 10.0, 11: 10.2, 12: 10.5,
+                18: 11.5, 24: 12.5, 30: 13.5, 36: 14.5, 42: 15.5, 48: 17.0,
+                54: 18.0, 60: 19.0, 66: 20.0, 72: 21.0, 78: 22.5, 84: 24.0,
+                90: 25.5, 96: 27.0, 102: 28.5, 108: 30.0, 114: 32.0, 120: 34.0,
+                126: 36.0, 132: 38.0, 138: 40.0, 144: 42.0, 150: 44.5, 156: 47.0,
+                162: 49.5, 168: 52.0, 174: 54.0, 180: 56.0, 186: 58.5, 192: 61.0,
+                198: 63.5, 204: 66.0
             };
 
             // Global variables
@@ -4333,12 +4384,16 @@ function getBreastfeedingCategoryEmoji(category) {
                 }
 
                 // Set drug title
-                document.getElementById('drugDetailTitle').textContent = selectedDrug.tradeName;
+                const monoBadge = (selectedDrug.isMonodose || selectedDrug.source === 'monodose')
+                    ? ` <span class="monodose-badge" style="font-size: 0.6em; vertical-align: middle; margin-left: 6px;">⚡ MONODOSE</span>`
+                    : '';
+                document.getElementById('drugDetailTitle').innerHTML = selectedDrug.tradeName + monoBadge;
 
                 // Set composition
                 document.getElementById('compositionContent').innerHTML = `
-                <strong>Active Ingredient:</strong> ${selectedDrug.name}<br>
+                <strong>Active Ingredient:</strong> ${selectedDrug.monodoseActive || selectedDrug.name}<br>
                 <strong>Formulation:</strong> ${selectedDrug.composition}
+                ${(selectedDrug.alternatives && selectedDrug.alternatives.length > 5) ? `<br><strong>Alternatives:</strong> <span style="color:#d97706; font-size:0.9em;">${selectedDrug.alternatives}</span>` : ''}
             `;
 
                 // Set pregnancy & breastfeeding categories
@@ -7192,6 +7247,7 @@ function getBreastfeedingCategoryEmoji(category) {
             // 🔥 فلترة عرض الجرعات - تدعم المixed ranges!
             function filterDoseDisplayByAgeWeight() {
                 if (!selectedAgeInMonths || selectedAgeInMonths === 0) return;
+                if (selectedDrug && (selectedDrug.isMonodose || selectedDrug.source === 'monodose')) return;
 
                 const patientAgeYears = Math.floor(selectedAgeInMonths / 12);
                 const patientWeight = calculatedWeight || 0;
@@ -12526,6 +12582,207 @@ ${patientWarning}
                 <div class="dose-box" id="dose-${index}">
         `;
 
+                    // 🌟 Support Monodose clinical formulations and indications
+                    if (selectedDrug.isMonodose || selectedDrug.source === 'monodose') {
+                        const ageYears = selectedAgeInMonths / 12.0;
+                        const w = calculatedWeight || 10.0;
+                        const isPediatric = (w < 45.0 && ageYears < 16.0);
+                        const conc = parseFloat(selectedDrug.concentration_per_ml) || parseFloat(selectedDrug.concentration) || 20.0;
+                        const ind = dose.rawIndication || dose;
+
+                        let displayDose = '';
+                        let freqText = ind.frequency || dose.frequency || 'As directed';
+                        let durText = ind.duration || dose.duration || 'As directed';
+                        let singleDose = '';
+                        let dailyDose = '';
+
+                        function roundCl(val) {
+                            if (val <= 0) return 0;
+                            const r = Math.round(val * 2) / 2;
+                            return r % 1 === 0 ? r.toFixed(0) : r.toFixed(1);
+                        }
+
+                        if (dose.indType === 'domperidone_liquid') {
+                            if (isPediatric && w < 35.0 && ageYears < 12.0) {
+                                const rawMg = w * (ind.pediatric_mg_kg || 0.25);
+                                const mlVal = Math.min(roundCl(rawMg), ind.single_dose_max_ml || 10.0);
+                                displayDose = `${mlVal} mL every 8 hrs (15-30 min before meals)`;
+                                singleDose = `${mlVal} mL (0.25 mg/kg)`;
+                                freqText = `three times daily (q8hr) before meals`;
+                                dailyDose = `${roundCl(mlVal * 3)} mL (Max 30 mg/day)`;
+                                durText = `Maximum 7 days`;
+                            } else {
+                                displayDose = ind.adult_fixed || '10 mg (10 mL or 1 tab) 3 times daily before meals (Max 30 mg/day)';
+                                singleDose = '10 mg (10 mL or 1 tablet)';
+                                freqText = 'three times daily (q8hr) 15-30 min before meals';
+                                dailyDose = '30 mg (30 mL or 3 tablets)';
+                                durText = 'Maximum 7 days';
+                            }
+                        } else if (dose.indType === 'augmentin_aom_sinusitis') {
+                            if (isPediatric) {
+                                const factor = ind.std_factor || dose.stdFactor || 0.275;
+                                const stdMl = roundCl(w * factor);
+                                displayDose = `Standard: ${stdMl} mL every 12 hrs for 10 days`;
+                                singleDose = `${stdMl} mL (Standard-dose)`;
+                                freqText = `twice daily (every 12 hrs)`;
+                                dailyDose = `${roundCl(stdMl * 2)} mL / day`;
+                                durText = `10 days`;
+                            } else {
+                                displayDose = ind.adult_fixed || '1 tab (875/125 mg) q12hr or 1 tab (500/125 mg) q8hr for 10-14 days';
+                                singleDose = '1 tablet (875/125 mg)';
+                                freqText = 'twice daily (every 12 hrs)';
+                                dailyDose = '2 tablets / day';
+                                durText = '10-14 days';
+                            }
+                        } else if (dose.indType === 'augmentin_range') {
+                            if (isPediatric) {
+                                const lowMl = roundCl(w * (ind.low_factor || dose.lowFactor || 0.15625));
+                                const highMl = roundCl(w * (ind.high_factor || dose.highFactor || 0.28125));
+                                displayDose = `${lowMl} - ${highMl} mL ${ind.frequency || 'every 12 hrs'}`;
+                                singleDose = `${lowMl} - ${highMl} mL`;
+                                freqText = ind.frequency || 'twice daily (every 12 hrs)';
+                                dailyDose = `${roundCl(lowMl * 2)} - ${roundCl(highMl * 2)} mL / day`;
+                                durText = durText || '7-14 days';
+                            } else {
+                                displayDose = ind.adult_fixed || '1 tab q12hr';
+                                singleDose = '1 tablet';
+                                freqText = 'twice daily (every 12 hrs)';
+                                dailyDose = '2 tablets / day';
+                            }
+                        } else if (dose.indType === 'augmentin_es_high_dose') {
+                            if (isPediatric) {
+                                const highMl = roundCl(w * (ind.high_dose_factor || dose.highDoseFactor || 0.5));
+                                displayDose = `${highMl} mL ${ind.frequency || 'every 12 hrs'}`;
+                                singleDose = `${highMl} mL`;
+                                freqText = ind.frequency || 'twice daily (every 12 hrs)';
+                                dailyDose = `${roundCl(highMl * 2)} mL / day`;
+                            } else {
+                                displayDose = ind.adult_fixed || 'Use adult tablet formulation';
+                                singleDose = displayDose;
+                            }
+                        } else if (dose.indType === 'cold_cough_age_restricted') {
+                            if (ageYears < 6.0) {
+                                displayDose = `⚠️ ${ind.under_6_years_text || 'Not recommended under 6 years'}`;
+                                singleDose = 'Contraindicated / Not recommended';
+                            } else if (ageYears < 12.0) {
+                                displayDose = ind.age_6_to_12_dose || '5 mL q6-8hr (Max 20 mL/day)';
+                                singleDose = '5 mL';
+                                freqText = 'q6-8hr (Max 20 mL/day)';
+                            } else {
+                                displayDose = ind.adult_fixed || '10 mL q6-8hr (Max 40 mL/day)';
+                                singleDose = '10 mL';
+                                freqText = 'q6-8hr (Max 40 mL/day)';
+                            }
+                        } else if (dose.indType === 'antihistamine_age_tiered') {
+                            if (ageYears < 2.0) {
+                                displayDose = `⚠️ ${ind.under_2_years || 'Safety and efficacy not established (< 2 years)'}`;
+                                singleDose = 'Contraindicated / Not recommended';
+                            } else if (ageYears < 6.0) {
+                                displayDose = ind.age_2_to_5_dose || '2.5 mL q4-6hr';
+                                singleDose = '2.5 mL';
+                                freqText = 'every 4-6 hrs';
+                            } else if (ageYears < 12.0) {
+                                displayDose = ind.age_6_to_11_dose || '5 mL q4-6hr (Max 15 mL/day)';
+                                singleDose = '5 mL';
+                                freqText = 'every 4-6 hrs';
+                            } else {
+                                displayDose = ind.adult_fixed || '10 mL q4-6hr (Max 30 mL/day)';
+                                singleDose = '10 mL';
+                                freqText = 'every 4-6 hrs';
+                            }
+                        } else if (dose.indType === 'pharyngitis_pediatric') {
+                            if (isPediatric) {
+                                const rawMg = Math.min(w * (ind.pediatric_mg_kg || 12.0), ind.max_daily_mg || 500.0);
+                                const rawMl = roundCl(rawMg / conc);
+                                displayDose = `${rawMl} mL once daily for 5 days`;
+                                singleDose = `${rawMl} mL (${Math.round(rawMg)} mg)`;
+                                freqText = 'once daily (q24hr)';
+                                durText = '5 days';
+                            } else {
+                                displayDose = ind.adult_fixed || '500 mg once daily on day 1, then 250 mg daily on days 2-5';
+                                singleDose = displayDose;
+                            }
+                        } else if (dose.indType === 'otitis_dual_option') {
+                            if (isPediatric) {
+                                const opt1Mg = Math.min(w * (ind.option1_mg_kg || 30.0), 1500.0);
+                                const opt1Ml = roundCl(opt1Mg / conc);
+                                const opt2Mg = Math.min(w * (ind.option2_mg_kg || 10.0), 500.0);
+                                const opt2Ml = roundCl(opt2Mg / conc);
+                                displayDose = `${opt1Ml} mL single dose OR ${opt2Ml} mL q24hr for 3 days`;
+                                singleDose = `${opt1Ml} mL once OR ${opt2Ml} mL daily`;
+                                durText = '1 day (single dose) or 3 days';
+                            } else {
+                                displayDose = ind.adult_fixed || '500 mg daily';
+                                singleDose = displayDose;
+                            }
+                        } else if (dose.indType === 'tapered_10_5') {
+                            if (isPediatric) {
+                                const d1Mg = Math.min(w * (ind.day1_mg_kg || 10.0), ind.max_day1_mg || 500.0);
+                                const d1Ml = roundCl(d1Mg / conc);
+                                const d2Mg = Math.min(w * (ind.days2_5_mg_kg || 5.0), ind.max_day2_5_mg || 250.0);
+                                const d2Ml = roundCl(d2Mg / conc);
+                                displayDose = `${d1Ml} mL on day 1, then ${d2Ml} mL on days 2-5`;
+                                singleDose = `Day 1: ${d1Ml} mL | Days 2-5: ${d2Ml} mL`;
+                                durText = '5 days';
+                            } else {
+                                displayDose = ind.adult_fixed || '500 mg on day 1, then 250 mg on days 2-5';
+                                singleDose = displayDose;
+                            }
+                        } else if (isPediatric && ind.pediatric_mg_kg) {
+                            const rawMg = Math.min(w * ind.pediatric_mg_kg, ind.max_daily_mg || 4000.0);
+                            if (selectedDrug.dosage_form === 'vial' || selectedDrug.formulation === 'injection') {
+                                if (rawMg >= 1000) {
+                                    displayDose = `${(rawMg / 1000.0).toFixed(1)} gm (${Math.round(rawMg)} mg) ${freqText}`;
+                                    singleDose = `${(rawMg / 1000.0).toFixed(1)} gm`;
+                                } else {
+                                    displayDose = `${Math.round(rawMg)} mg ${freqText}`;
+                                    singleDose = `${Math.round(rawMg)} mg`;
+                                }
+                            } else {
+                                const mlVal = roundCl(rawMg / conc);
+                                displayDose = `${mlVal} mL ${freqText}`;
+                                singleDose = `${mlVal} mL (${Math.round(rawMg)} mg)`;
+                            }
+                        } else {
+                            displayDose = ind.adult_fixed || ind.pediatric_fixed || dose.dose || 'See product label';
+                            singleDose = displayDose;
+                        }
+
+                        let highDoseNotice = (dose.indType === 'augmentin_aom_sinusitis' && isPediatric) ? 
+                            `<div style="color: #ea580c; font-size: 13.5px; font-weight: bold; margin-top: 6px;">⚠️ High-dose regimen (90 mg/kg): Use 14:1 (Augmentin ES-600) formulation</div>` : '';
+
+                        doseHtml += `
+                            <div class="main-dose-value" style="font-size: 1.15em; font-weight: 700; color: #1565C0; padding: 12px 14px; background: #e3f2fd; border-radius: 10px; border-left: 5px solid #1976D2; margin-bottom: 8px;">
+                                💊 ${displayDose}
+                                ${highDoseNotice}
+                            </div>
+                            <div class="dose-details" id="details-${index}" style="display: block; background: #fffde7; border: 1px solid #fff59d; border-radius: 8px; padding: 10px 14px;">
+                                <div class="dose-line" style="display: flex; justify-content: space-between; margin-bottom: 4px;">
+                                    <span class="dose-label" style="font-weight: 600; color: #555;">Patient Category:</span>
+                                    <span class="dose-value" style="font-weight: 700; color: ${isPediatric ? '#e65100' : '#2e7d32'};">${isPediatric ? 'Pediatric (< 45 Kg)' : 'Adult Standard (>= 45 Kg)'}</span>
+                                </div>
+                                <div class="dose-line" style="display: flex; justify-content: space-between; margin-bottom: 4px;">
+                                    <span class="dose-label" style="font-weight: 600; color: #555;">Calculated Dose:</span>
+                                    <span class="dose-value" style="font-weight: 700; color: #333;">${singleDose || displayDose}</span>
+                                </div>
+                                <div class="dose-line" style="display: flex; justify-content: space-between; margin-bottom: 4px;">
+                                    <span class="dose-label" style="font-weight: 600; color: #555;">Frequency:</span>
+                                    <span class="dose-value" style="font-weight: 600; color: #333;">${freqText}</span>
+                                </div>
+                                ${durText ? `
+                                <div class="dose-line" style="display: flex; justify-content: space-between; margin-bottom: 4px;">
+                                    <span class="dose-label" style="font-weight: 600; color: #555;">Duration:</span>
+                                    <span class="dose-value" style="font-weight: 600; color: #333;">${durText}</span>
+                                </div>` : ''}
+                                ${selectedDrug.administration ? `
+                                <div class="dose-line" style="display: flex; justify-content: space-between; margin-top: 6px; padding-top: 6px; border-top: 1px dashed #e0e0e0; font-size: 0.9em; color: #666;">
+                                    <span>${selectedDrug.administration}</span>
+                                </div>` : ''}
+                            </div>
+                        </div></div>`;
+                        return;
+                    }
+
                     // معالجة الجرعات حسب النوع مع إصلاح السوائل
                     if (dose.dosePerKg && calculatedWeight) {
                         const totalDailyDoseMg = dose.dosePerKg * calculatedWeight;
@@ -12973,6 +13230,7 @@ ${patientWarning}
             // 🔥 فلترة عرض الجرعات - دالتك الأصلية بالضبط
             function filterDoseDisplayByAgeWeight() {
                 if (!selectedAgeInMonths || selectedAgeInMonths === 0) return;
+                if (selectedDrug && (selectedDrug.isMonodose || selectedDrug.source === 'monodose')) return;
 
                 const patientAgeYears = Math.floor(selectedAgeInMonths / 12);
                 const patientWeight = calculatedWeight || 0;
@@ -13615,8 +13873,13 @@ ${patientWarning}
                 for (let i = 0; i < maxRender; i++) {
                     const drug = drugs[i];
                     const drugItem = document.createElement('div');
-                    drugItem.className = 'drug-item';
+                    const isMonodose = (drug.source === 'monodose' || drug.isMonodose || (drug.key && String(drug.key).startsWith('mono_')));
+                    drugItem.className = 'drug-item' + (isMonodose ? ' monodose-card' : '');
                     drugItem.onclick = () => showDrugDetail(drug.key);
+
+                    const monodoseBadgeHtml = isMonodose 
+                        ? `<span class="monodose-badge">⚡ MONODOSE DOSE</span>` 
+                        : '';
 
                     // استخدام template literals محسن
                     drugItem.innerHTML = `
@@ -13630,7 +13893,10 @@ ${patientWarning}
 </div>
     <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: flex-start;">
 
-            <div class="drug-name">${drug.tradeName}</div>
+            <div style="display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 4px;">
+                <div class="drug-name" style="margin-bottom: 0;">${drug.tradeName}</div>
+                ${monodoseBadgeHtml}
+            </div>
             <div class="drug-info">${drug.composition}</div>
             
             <div class="drug-badges-row">
@@ -15649,13 +15915,19 @@ ${patientWarning}
             let product = null;
             const targetDB = window.drugDatabase || {};
             
-            // 1. Exact Code Match
+            // ==============================================================
+            // 🎯 SMART SCANNER MATCHING WITH PRIORITY FOR MONODOSE DATABASE
+            // ==============================================================
+            const monodoseDB = window.monodoseDatabase || {};
+            const cleanLower = cleanCode.toLowerCase();
+            const normClean = cleanLower.replace(/[\s\-\%_\+]/g, '');
+
+            // 1. Direct Barcode / Code Match in Target DB
             if (targetDB[cleanCode]) {
                 product = targetDB[cleanCode];
             } else if (cleanCode.length === 6 && targetDB[cleanCode]) {
                 product = targetDB[cleanCode];
             } else {
-                // 2. Barcode Match
                 for (const key in targetDB) {
                     const p = targetDB[key];
                     if (p.barcode) {
@@ -15667,22 +15939,101 @@ ${patientWarning}
                     }
                 }
             }
-            
+
+            // 2. Identify Scanned Trade Name & Active Ingredient
+            let scannedTrade = "";
+            let scannedActive = "";
+            let scannedComp = "";
+            let scannedForm = "";
+
+            if (product) {
+                scannedTrade = (product.tradeName || product.name || "").toLowerCase();
+                scannedActive = (product.name || "").toLowerCase();
+                scannedComp = (product.composition || "").toLowerCase();
+                scannedForm = (product.formulation || "").toLowerCase();
+            } else {
+                // If scanned code is actually a text name or partial code
+                scannedTrade = cleanLower;
+            }
+
+            // 3. Search in MONODOSE DATABASE for Highest Priority Match
+            let bestMonodoseMatch = null;
+            let bestMatchReason = "";
+
+            // 3A. Exact or Prefix Trade Name Match in Monodose
+            if (scannedTrade) {
+                const normScannedTrade = scannedTrade.replace(/[\s\-\%_\+]/g, '');
+                for (const mKey in monodoseDB) {
+                    const m = monodoseDB[mKey];
+                    const mTrade = (m.tradeName || "").toLowerCase();
+                    const normMTrade = mTrade.replace(/[\s\-\%_\+]/g, '');
+                    
+                    if (mTrade === scannedTrade || normMTrade === normScannedTrade || mTrade.startsWith(scannedTrade) || scannedTrade.startsWith(mTrade)) {
+                        bestMonodoseMatch = { key: mKey, ...m };
+                        bestMatchReason = "trade";
+                        break;
+                    }
+                }
+            }
+
+            // 3B. Active Ingredient + Formulation / Composition Equivalent Match in Monodose
+            if (!bestMonodoseMatch && scannedActive) {
+                const normScannedActive = scannedActive.replace(/[\s\-\%_\+]/g, '');
+                for (const mKey in monodoseDB) {
+                    const m = monodoseDB[mKey];
+                    const mActive = (m.name || "").toLowerCase();
+                    const normMActive = mActive.replace(/[\s\-\%_\+]/g, '');
+
+                    if (normMActive && (normMActive.includes(normScannedActive) || normScannedActive.includes(normMActive))) {
+                        // Check formulation match if available
+                        const mForm = (m.formulation || "").toLowerCase();
+                        if (!scannedForm || mForm === scannedForm || (scannedForm.includes('susp') && mForm.includes('susp')) || (scannedForm.includes('tab') && mForm.includes('tab'))) {
+                            bestMonodoseMatch = { key: mKey, ...m };
+                            bestMatchReason = "generic_equivalent";
+                            break;
+                        } else if (!bestMonodoseMatch) {
+                            bestMonodoseMatch = { key: mKey, ...m };
+                            bestMatchReason = "generic";
+                        }
+                    }
+                }
+            }
+
+            // If a Monodose priority match was found, promote it as the primary result!
+            if (bestMonodoseMatch) {
+                product = bestMonodoseMatch;
+                cleanCode = bestMonodoseMatch.tradeName || bestMonodoseMatch.code || cleanCode;
+            }
+
             if (product) {
                 if(navigator.vibrate) navigator.vibrate(100);
                 closeScanner();
-                const pCode = product.code || product.Code || cleanCode;
+                const pCode = product.code || product.Code || product.key || cleanCode;
                 
-                // Put code in search bar
+                // Put code or trade name in search bar
                 const searchInput = document.getElementById('searchInput');
                 if (searchInput) {
-                    searchInput.value = cleanCode;
+                    searchInput.value = product.tradeName || cleanCode;
                     searchInput.dispatchEvent(new Event('input'));
                 }
                 
                 if (typeof showDrugDetail === 'function') {
                     showDrugDetail(pCode);
                     
+                    // Show a helpful badge if matched by equivalent active ingredient
+                    if (bestMatchReason === "generic_equivalent" || bestMatchReason === "generic") {
+                        setTimeout(() => {
+                            const detailTitle = document.getElementById('drugDetailTitle');
+                            if (detailTitle && !document.getElementById('equivalent-match-note')) {
+                                const note = document.createElement('div');
+                                note.id = 'equivalent-match-note';
+                                note.style.cssText = 'background: #fff7ed; border: 1px solid #ea580c; color: #ea580c; border-radius: 8px; padding: 8px 12px; margin-top: 6px; font-size: 13px; font-weight: bold; text-align: center;';
+                                note.innerHTML = `⚡ تم مطابقة الجرعة الدقيقة من Monodose بناءً على المادة الفعالة والشكل: (${product.name})`;
+                                detailTitle.parentNode.insertBefore(note, detailTitle.nextSibling);
+                            }
+                        }, 100);
+                    }
+
                     // Handle empty dose details
                     if (!product.doses || product.doses.length === 0) {
                         setTimeout(() => {
@@ -15923,6 +16274,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const genericName = (drug.name || '').toLowerCase();
                 const composition = (drug.composition || '').toLowerCase();
                 const code = String(drug.code || drug.key || '').toLowerCase();
+                const searchTerms = (drug.searchTerms || '').toLowerCase();
                 const barcodes = Array.isArray(drug.barcode) ? drug.barcode : (drug.barcode ? [drug.barcode] : []);
                 
                 const normTrade = normalizeString(tradeName);
@@ -15937,7 +16289,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const matchesComp = queryTokens.every(token => normComp.includes(token));
 
                 // Check original OR normalized matches OR token matches
-                if (tradeName.includes(query) || genericName.includes(query) || composition.includes(query) || 
+                if (tradeName.includes(query) || genericName.includes(query) || composition.includes(query) || searchTerms.includes(query) ||
                     normTrade.includes(normalizedQuery) || normGeneric.includes(normalizedQuery) || normComp.includes(normalizedQuery) ||
                     matchesTrade || matchesGeneric || matchesComp ||
                     code === query || code.includes(query) || isBarcodeMatch) {
@@ -15948,7 +16300,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
 
-            // Sort results: exact start matches first
+            // Sort results: Monodose database has top priority (+500 points)
             results.sort((a, b) => {
                 const aTrade = (a.tradeName || '').toLowerCase();
                 const bTrade = (b.tradeName || '').toLowerCase();
@@ -15961,6 +16313,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 const normBGen = normalizeString(bGeneric);
                 
                 let scoreA = 0; let scoreB = 0;
+
+                // Priority Boost for MONODOSE Database
+                if (a.source === 'monodose' || a.isMonodose || (a.key && String(a.key).startsWith('mono_'))) scoreA += 500;
+                if (b.source === 'monodose' || b.isMonodose || (b.key && String(b.key).startsWith('mono_'))) scoreB += 500;
                 
                 // Score A
                 if (aTrade.startsWith(query) || normATrade.startsWith(normalizedQuery)) scoreA += 100;
