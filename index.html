@@ -4081,6 +4081,33 @@ function getBreastfeedingCategoryEmoji(category) {
     </div>`;
 }
 
+function getMonodoseIconHTML(drug) {
+    if (!drug) return '';
+    const isMonodose = (drug.source === 'monodose' || drug.isMonodose || (drug.key && String(drug.key).startsWith('mono_')));
+    if (!isMonodose) return '';
+
+    // الأخضر: إذا كان متطابقاً بالاسم التجاري المباشر (Trade Match)
+    // البرتقالي: إذا كان متطابقاً بالبديل المكافئ / المادة الفعالة (Equivalent Match)
+    const isDirect = (drug.monodoseMatchType === 'trade') ||
+                     (drug.key && String(drug.key).startsWith('mono_')) ||
+                     (drug.monodoseTradeName && drug.tradeName && (
+                         drug.tradeName.toLowerCase().trim() === drug.monodoseTradeName.toLowerCase().trim() ||
+                         drug.tradeName.toLowerCase().includes(drug.monodoseTradeName.toLowerCase()) ||
+                         drug.monodoseTradeName.toLowerCase().includes(drug.tradeName.toLowerCase())
+                     ));
+
+    const color = isDirect ? '#10b981' : '#f59e0b';
+    const shortText = isDirect ? 'OK' : 'EQ';
+
+    return `<div class="category-icon monodose-icon" style="display:flex; flex-direction:column; align-items:center; gap:2px; margin-left: 10px;" title="${isDirect ? 'Monodose Direct Verified' : 'Monodose Equivalent Match'}">
+        <div style="display:flex; align-items:center; justify-content:center; width:26px; height:26px; border-radius:50%; background: linear-gradient(135deg, ${color}, #fff); box-shadow: inset 0 0 5px rgba(0,0,0,0.2), 0 2px 4px rgba(0,0,0,0.1); border: 2px solid ${color}; position:relative;">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="${color}" stroke="${color}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="filter: drop-shadow(0px 1px 1px rgba(0,0,0,0.2));"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            <span style="position:absolute; bottom:-4px; right:-4px; background:${color}; color:#fff; font-size:7px; font-weight:bold; padding:1px 3px; border-radius:4px; box-shadow:0 1px 2px rgba(0,0,0,0.3);">${shortText}</span>
+        </div>
+        <span style="font-size:8px; opacity:0.85; font-weight:bold; color:${color};">Monodose</span>
+    </div>`;
+}
+
             function loadDrugList() {
                 const drugList = document.getElementById('drugList');
                 drugList.innerHTML = '';
@@ -4107,6 +4134,7 @@ function getBreastfeedingCategoryEmoji(category) {
                 ${createMinAgeBadgeHTML(formatMinAge(drug.minAge))}
                 ${createRouteBadgeHTML(extractRoutes(drug))}
                 <div class="drug-categories" style="gap: 10px;">
+                    ${getMonodoseIconHTML(drug)}
                     <div class="category-icon pregnancy-icon" style="display:flex; flex-direction:column; align-items:center; gap:2px; margin-left: 10px;">
         ${getPregnancyCategoryEmoji(drug.pregnancyCategory)}
         <span style="font-size:8px; opacity:0.8; font-weight:bold;">Pregnancy</span>
@@ -4384,8 +4412,16 @@ function getBreastfeedingCategoryEmoji(category) {
                 }
 
                 // Set drug title
+                const isDirectDetail = (selectedDrug.monodoseMatchType === 'trade') ||
+                                       (selectedDrug.key && String(selectedDrug.key).startsWith('mono_')) ||
+                                       (selectedDrug.monodoseTradeName && selectedDrug.tradeName && (
+                                           selectedDrug.tradeName.toLowerCase().includes(selectedDrug.monodoseTradeName.toLowerCase()) ||
+                                           selectedDrug.monodoseTradeName.toLowerCase().includes(selectedDrug.tradeName.toLowerCase())
+                                       ));
+                const detailColor = isDirectDetail ? '#10b981' : '#f59e0b';
+                const detailTag = isDirectDetail ? '⚡ DIRECT' : '⚡ EQUIVALENT';
                 const monoBadge = (selectedDrug.isMonodose || selectedDrug.source === 'monodose')
-                    ? ` <span class="monodose-badge" style="font-size: 0.6em; vertical-align: middle; margin-left: 6px;">⚡ MONODOSE</span>`
+                    ? ` <span style="font-size: 10.5px; vertical-align: middle; margin-left: 6px; padding: 2px 7px; border-radius: 6px; background: ${detailColor}; color: white; font-weight: bold; letter-spacing: 0.5px;">${detailTag}</span>`
                     : '';
                 document.getElementById('drugDetailTitle').innerHTML = selectedDrug.tradeName + monoBadge;
 
@@ -4408,6 +4444,12 @@ function getBreastfeedingCategoryEmoji(category) {
                     <div class="category-label">Breastfeeding</div>
                     <div class="category-value">${selectedDrug.breastfeedingCategory || 'N/A'}</div>
                 </div>
+                ${(selectedDrug.isMonodose || selectedDrug.source === 'monodose') ? `
+                <div class="category-item">
+                    <span class="category-emoji">${getMonodoseIconHTML(selectedDrug)}</span>
+                    <div class="category-label">Monodose</div>
+                    <div class="category-value" style="color: ${detailColor}; font-weight: bold;">${isDirectDetail ? 'Direct' : 'Equiv'}</div>
+                </div>` : ''}
             `;
 
                 // Generate dose content
@@ -13877,10 +13919,6 @@ ${patientWarning}
                     drugItem.className = 'drug-item' + (isMonodose ? ' monodose-card' : '');
                     drugItem.onclick = () => showDrugDetail(drug.key);
 
-                    const monodoseBadgeHtml = isMonodose 
-                        ? `<span class="monodose-badge">⚡ MONODOSE DOSE</span>` 
-                        : '';
-
                     // استخدام template literals محسن
                     drugItem.innerHTML = `
 <div style="display: flex; gap: 10px; align-items: flex-start; padding-bottom: 5px;">
@@ -13895,7 +13933,6 @@ ${patientWarning}
 
             <div style="display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 4px;">
                 <div class="drug-name" style="margin-bottom: 0;">${drug.tradeName}</div>
-                ${monodoseBadgeHtml}
             </div>
             <div class="drug-info">${drug.composition}</div>
             
@@ -13903,6 +13940,7 @@ ${patientWarning}
                 ${createMinAgeBadgeHTML(formatMinAge(drug.minAge))}
                 ${createRouteBadgeHTML(extractRoutes(drug))}
                 <div class="drug-categories" style="gap: 10px;">
+                    ${getMonodoseIconHTML(drug)}
                     <div class="category-icon pregnancy-icon" style="display:flex; flex-direction:column; align-items:center; gap:2px; margin-left: 10px;">
         ${getPregnancyCategoryEmoji(drug.pregnancyCategory)}
         <span style="font-size:8px; opacity:0.8; font-weight:bold;">Pregnancy</span>
@@ -16020,19 +16058,7 @@ ${patientWarning}
                 if (typeof showDrugDetail === 'function') {
                     showDrugDetail(pCode);
                     
-                    // Show a helpful badge if matched by equivalent active ingredient
-                    if (bestMatchReason === "generic_equivalent" || bestMatchReason === "generic") {
-                        setTimeout(() => {
-                            const detailTitle = document.getElementById('drugDetailTitle');
-                            if (detailTitle && !document.getElementById('equivalent-match-note')) {
-                                const note = document.createElement('div');
-                                note.id = 'equivalent-match-note';
-                                note.style.cssText = 'background: #fff7ed; border: 1px solid #ea580c; color: #ea580c; border-radius: 8px; padding: 8px 12px; margin-top: 6px; font-size: 13px; font-weight: bold; text-align: center;';
-                                note.innerHTML = `⚡ تم مطابقة الجرعة الدقيقة من Monodose بناءً على المادة الفعالة والشكل: (${product.name})`;
-                                detailTitle.parentNode.insertBefore(note, detailTitle.nextSibling);
-                            }
-                        }, 100);
-                    }
+
 
                     // Handle empty dose details
                     if (!product.doses || product.doses.length === 0) {
