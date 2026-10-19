@@ -114549,16 +114549,16 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Acute Otitis Media"
+          "Peritonitis Prophylaxis / Endocarditis Prophylaxis"
         ],
-        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "Option 1: 30 mg/kg once OR Option 2: 10 mg/kg q24hr for 3 days",
+        "dose": "Adult: 500 mg single oral dose 30-60 min before procedure | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "30-60 minutes before dental procedure",
         "maxDosesPerDay": 1,
-        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days",
+        "adultFixed": "500 mg single oral dose 30-60 min before procedure",
         "singleDoseMaxMl": null,
-        "maxDailyMg": 1500.0,
-        "indType": "otitis_dual_option",
+        "maxDailyMg": 500.0,
+        "indType": "single_dose_15",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
@@ -114567,16 +114567,160 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Pharyngitis / Tonsillitis"
+          "Pertussis"
         ],
-        "dose": "Adult: 500 mg on Day 1, followed by 250 mg on Days 2-5 | Pediatric:",
-        "dosePerKg": 12.0,
-        "frequency": "q24hr for 5 days",
+        "dose": "Adult: 500 mg once on Day 1, then 250 mg once daily on Days 2-5 | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 4 days (Max 250 mg)",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 4 days",
         "maxDosesPerDay": 1,
-        "adultFixed": "500 mg on Day 1, followed by 250 mg on Days 2-5",
+        "adultFixed": "500 mg once on Day 1, then 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Streptococcal Pharyngitis"
+        ],
+        "dose": "Adult: 500 mg once on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric:",
+        "dosePerKg": 12.0,
+        "frequency": "5 ml q24hr for 5 days (preferred) OR 8 ml q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once on Day 1, followed by 250 mg once daily on Days 2-5",
         "singleDoseMaxMl": null,
         "maxDailyMg": 500.0,
         "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Otitis Media"
+        ],
+        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days OR Option 3: 500 mg day 1, then 250 mg days 2-5 | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "12 ml once OR 4 ml q24hr for 3 days OR 4 ml on day1 followed by 2 ml q24hr for 4 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days OR Option 3: 500 mg day 1, then 250 mg days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": "otitis_triple_option",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Typhoid Fever / Erythema Migrans of Lyme Disease"
+        ],
+        "dose": "Adult: 500 mg once daily for 7 days (or 1 gm on Day 1 then 500 mg for 6 days) | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 7 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 7 days (or 1 gm on Day 1 then 500 mg for 6 days)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cat Scratch Disease (Lymphadenitis)"
+        ],
+        "dose": "Adult: 500 mg once on Day 1, then 250 mg once daily on Days 2-5 | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 4 days (Max 250 mg)",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 4 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once on Day 1, then 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Chancroid / Cholera"
+        ],
+        "dose": "Adult: 1000 mg (1 gm) single oral dose | Pediatric:",
+        "dosePerKg": 20.0,
+        "frequency": "once",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1000 mg (1 gm) single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "single_dose_20",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cystic Fibrosis"
+        ],
+        "dose": "Adult: 500 mg orally 3 times weekly | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "3 times weekly",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg orally 3 times weekly",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Mild Babesiosis"
+        ],
+        "dose": "Adult: 500 mg on day 1, then 250 mg q24hr for 7-10 days + Atovaquone | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 7-10 days (Max 250 mg) in combination with Atovaquone",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 7-10 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on day 1, then 250 mg q24hr for 7-10 days + Atovaquone",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Susceptible Infections"
+        ],
+        "dose": "Adult: 500 mg on day 1, then 250 mg q24hr | Pediatric: 10-12 mg/kg on day 1, then 5-6 mg/kg q24hr for remainder of treatment duration",
+        "dosePerKg": 10.0,
+        "frequency": "4-4.8 ml on day1 followed by 2-2.4 ml q24hr for remainder of treatment duration",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on day 1, then 250 mg q24hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "susceptible_infections",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
@@ -114698,16 +114842,16 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Acute Otitis Media"
+          "Peritonitis Prophylaxis / Endocarditis Prophylaxis"
         ],
-        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "Option 1: 30 mg/kg once OR Option 2: 10 mg/kg q24hr for 3 days",
+        "dose": "Adult: 500 mg single oral dose 30-60 min before procedure | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "30-60 minutes before dental procedure",
         "maxDosesPerDay": 1,
-        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days",
+        "adultFixed": "500 mg single oral dose 30-60 min before procedure",
         "singleDoseMaxMl": null,
-        "maxDailyMg": 1500.0,
-        "indType": "otitis_dual_option",
+        "maxDailyMg": 500.0,
+        "indType": "single_dose_15",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
@@ -114716,16 +114860,160 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Pharyngitis / Tonsillitis"
+          "Pertussis"
         ],
-        "dose": "Adult: 500 mg on Day 1, followed by 250 mg on Days 2-5 | Pediatric:",
-        "dosePerKg": 12.0,
-        "frequency": "q24hr for 5 days",
+        "dose": "Adult: 500 mg once on Day 1, then 250 mg once daily on Days 2-5 | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 4 days (Max 250 mg)",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 4 days",
         "maxDosesPerDay": 1,
-        "adultFixed": "500 mg on Day 1, followed by 250 mg on Days 2-5",
+        "adultFixed": "500 mg once on Day 1, then 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Streptococcal Pharyngitis"
+        ],
+        "dose": "Adult: 500 mg once on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric:",
+        "dosePerKg": 12.0,
+        "frequency": "5 ml q24hr for 5 days (preferred) OR 8 ml q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once on Day 1, followed by 250 mg once daily on Days 2-5",
         "singleDoseMaxMl": null,
         "maxDailyMg": 500.0,
         "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Otitis Media"
+        ],
+        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days OR Option 3: 500 mg day 1, then 250 mg days 2-5 | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "12 ml once OR 4 ml q24hr for 3 days OR 4 ml on day1 followed by 2 ml q24hr for 4 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days OR Option 3: 500 mg day 1, then 250 mg days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": "otitis_triple_option",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Typhoid Fever / Erythema Migrans of Lyme Disease"
+        ],
+        "dose": "Adult: 500 mg once daily for 7 days (or 1 gm on Day 1 then 500 mg for 6 days) | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 7 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 7 days (or 1 gm on Day 1 then 500 mg for 6 days)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cat Scratch Disease (Lymphadenitis)"
+        ],
+        "dose": "Adult: 500 mg once on Day 1, then 250 mg once daily on Days 2-5 | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 4 days (Max 250 mg)",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 4 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once on Day 1, then 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Chancroid / Cholera"
+        ],
+        "dose": "Adult: 1000 mg (1 gm) single oral dose | Pediatric:",
+        "dosePerKg": 20.0,
+        "frequency": "once",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1000 mg (1 gm) single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "single_dose_20",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cystic Fibrosis"
+        ],
+        "dose": "Adult: 500 mg orally 3 times weekly | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "3 times weekly",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg orally 3 times weekly",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Mild Babesiosis"
+        ],
+        "dose": "Adult: 500 mg on day 1, then 250 mg q24hr for 7-10 days + Atovaquone | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 7-10 days (Max 250 mg) in combination with Atovaquone",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 7-10 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on day 1, then 250 mg q24hr for 7-10 days + Atovaquone",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Susceptible Infections"
+        ],
+        "dose": "Adult: 500 mg on day 1, then 250 mg q24hr | Pediatric: 10-12 mg/kg on day 1, then 5-6 mg/kg q24hr for remainder of treatment duration",
+        "dosePerKg": 10.0,
+        "frequency": "4-4.8 ml on day1 followed by 2-2.4 ml q24hr for remainder of treatment duration",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on day 1, then 250 mg q24hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "susceptible_infections",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
@@ -115145,16 +115433,16 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Acute Otitis Media"
+          "Peritonitis Prophylaxis / Endocarditis Prophylaxis"
         ],
-        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "Option 1: 30 mg/kg once OR Option 2: 10 mg/kg q24hr for 3 days",
+        "dose": "Adult: 500 mg single oral dose 30-60 min before procedure | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "30-60 minutes before dental procedure",
         "maxDosesPerDay": 1,
-        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days",
+        "adultFixed": "500 mg single oral dose 30-60 min before procedure",
         "singleDoseMaxMl": null,
-        "maxDailyMg": 1500.0,
-        "indType": "otitis_dual_option",
+        "maxDailyMg": 500.0,
+        "indType": "single_dose_15",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
@@ -115163,16 +115451,160 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Pharyngitis / Tonsillitis"
+          "Pertussis"
         ],
-        "dose": "Adult: 500 mg on Day 1, followed by 250 mg on Days 2-5 | Pediatric:",
-        "dosePerKg": 12.0,
-        "frequency": "q24hr for 5 days",
+        "dose": "Adult: 500 mg once on Day 1, then 250 mg once daily on Days 2-5 | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 4 days (Max 250 mg)",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 4 days",
         "maxDosesPerDay": 1,
-        "adultFixed": "500 mg on Day 1, followed by 250 mg on Days 2-5",
+        "adultFixed": "500 mg once on Day 1, then 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Streptococcal Pharyngitis"
+        ],
+        "dose": "Adult: 500 mg once on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric:",
+        "dosePerKg": 12.0,
+        "frequency": "5 ml q24hr for 5 days (preferred) OR 8 ml q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once on Day 1, followed by 250 mg once daily on Days 2-5",
         "singleDoseMaxMl": null,
         "maxDailyMg": 500.0,
         "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Otitis Media"
+        ],
+        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days OR Option 3: 500 mg day 1, then 250 mg days 2-5 | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "12 ml once OR 4 ml q24hr for 3 days OR 4 ml on day1 followed by 2 ml q24hr for 4 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days OR Option 3: 500 mg day 1, then 250 mg days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": "otitis_triple_option",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Typhoid Fever / Erythema Migrans of Lyme Disease"
+        ],
+        "dose": "Adult: 500 mg once daily for 7 days (or 1 gm on Day 1 then 500 mg for 6 days) | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 7 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 7 days (or 1 gm on Day 1 then 500 mg for 6 days)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cat Scratch Disease (Lymphadenitis)"
+        ],
+        "dose": "Adult: 500 mg once on Day 1, then 250 mg once daily on Days 2-5 | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 4 days (Max 250 mg)",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 4 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once on Day 1, then 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Chancroid / Cholera"
+        ],
+        "dose": "Adult: 1000 mg (1 gm) single oral dose | Pediatric:",
+        "dosePerKg": 20.0,
+        "frequency": "once",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1000 mg (1 gm) single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "single_dose_20",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cystic Fibrosis"
+        ],
+        "dose": "Adult: 500 mg orally 3 times weekly | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "3 times weekly",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg orally 3 times weekly",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Mild Babesiosis"
+        ],
+        "dose": "Adult: 500 mg on day 1, then 250 mg q24hr for 7-10 days + Atovaquone | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 7-10 days (Max 250 mg) in combination with Atovaquone",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 7-10 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on day 1, then 250 mg q24hr for 7-10 days + Atovaquone",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Susceptible Infections"
+        ],
+        "dose": "Adult: 500 mg on day 1, then 250 mg q24hr | Pediatric: 10-12 mg/kg on day 1, then 5-6 mg/kg q24hr for remainder of treatment duration",
+        "dosePerKg": 10.0,
+        "frequency": "4-4.8 ml on day1 followed by 2-2.4 ml q24hr for remainder of treatment duration",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on day 1, then 250 mg q24hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "susceptible_infections",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
@@ -115294,16 +115726,16 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Acute Otitis Media"
+          "Peritonitis Prophylaxis / Endocarditis Prophylaxis"
         ],
-        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "Option 1: 30 mg/kg once OR Option 2: 10 mg/kg q24hr for 3 days",
+        "dose": "Adult: 500 mg single oral dose 30-60 min before procedure | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "30-60 minutes before dental procedure",
         "maxDosesPerDay": 1,
-        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days",
+        "adultFixed": "500 mg single oral dose 30-60 min before procedure",
         "singleDoseMaxMl": null,
-        "maxDailyMg": 1500.0,
-        "indType": "otitis_dual_option",
+        "maxDailyMg": 500.0,
+        "indType": "single_dose_15",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
@@ -115312,16 +115744,160 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Pharyngitis / Tonsillitis"
+          "Pertussis"
         ],
-        "dose": "Adult: 500 mg on Day 1, followed by 250 mg on Days 2-5 | Pediatric:",
-        "dosePerKg": 12.0,
-        "frequency": "q24hr for 5 days",
+        "dose": "Adult: 500 mg once on Day 1, then 250 mg once daily on Days 2-5 | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 4 days (Max 250 mg)",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 4 days",
         "maxDosesPerDay": 1,
-        "adultFixed": "500 mg on Day 1, followed by 250 mg on Days 2-5",
+        "adultFixed": "500 mg once on Day 1, then 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Streptococcal Pharyngitis"
+        ],
+        "dose": "Adult: 500 mg once on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric:",
+        "dosePerKg": 12.0,
+        "frequency": "5 ml q24hr for 5 days (preferred) OR 8 ml q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once on Day 1, followed by 250 mg once daily on Days 2-5",
         "singleDoseMaxMl": null,
         "maxDailyMg": 500.0,
         "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Otitis Media"
+        ],
+        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days OR Option 3: 500 mg day 1, then 250 mg days 2-5 | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "12 ml once OR 4 ml q24hr for 3 days OR 4 ml on day1 followed by 2 ml q24hr for 4 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days OR Option 3: 500 mg day 1, then 250 mg days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": "otitis_triple_option",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Typhoid Fever / Erythema Migrans of Lyme Disease"
+        ],
+        "dose": "Adult: 500 mg once daily for 7 days (or 1 gm on Day 1 then 500 mg for 6 days) | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 7 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 7 days (or 1 gm on Day 1 then 500 mg for 6 days)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cat Scratch Disease (Lymphadenitis)"
+        ],
+        "dose": "Adult: 500 mg once on Day 1, then 250 mg once daily on Days 2-5 | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 4 days (Max 250 mg)",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 4 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once on Day 1, then 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Chancroid / Cholera"
+        ],
+        "dose": "Adult: 1000 mg (1 gm) single oral dose | Pediatric:",
+        "dosePerKg": 20.0,
+        "frequency": "once",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1000 mg (1 gm) single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "single_dose_20",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cystic Fibrosis"
+        ],
+        "dose": "Adult: 500 mg orally 3 times weekly | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "3 times weekly",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg orally 3 times weekly",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Mild Babesiosis"
+        ],
+        "dose": "Adult: 500 mg on day 1, then 250 mg q24hr for 7-10 days + Atovaquone | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 7-10 days (Max 250 mg) in combination with Atovaquone",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 7-10 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on day 1, then 250 mg q24hr for 7-10 days + Atovaquone",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Susceptible Infections"
+        ],
+        "dose": "Adult: 500 mg on day 1, then 250 mg q24hr | Pediatric: 10-12 mg/kg on day 1, then 5-6 mg/kg q24hr for remainder of treatment duration",
+        "dosePerKg": 10.0,
+        "frequency": "4-4.8 ml on day1 followed by 2-2.4 ml q24hr for remainder of treatment duration",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on day 1, then 250 mg q24hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "susceptible_infections",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
@@ -124103,16 +124679,16 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Acute Otitis Media"
+          "Peritonitis Prophylaxis / Endocarditis Prophylaxis"
         ],
-        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "Option 1: 30 mg/kg once OR Option 2: 10 mg/kg q24hr for 3 days",
+        "dose": "Adult: 500 mg single oral dose 30-60 min before procedure | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "30-60 minutes before dental procedure",
         "maxDosesPerDay": 1,
-        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days",
+        "adultFixed": "500 mg single oral dose 30-60 min before procedure",
         "singleDoseMaxMl": null,
-        "maxDailyMg": 1500.0,
-        "indType": "otitis_dual_option",
+        "maxDailyMg": 500.0,
+        "indType": "single_dose_15",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
@@ -124121,16 +124697,160 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Pharyngitis / Tonsillitis"
+          "Pertussis"
         ],
-        "dose": "Adult: 500 mg on Day 1, followed by 250 mg on Days 2-5 | Pediatric:",
-        "dosePerKg": 12.0,
-        "frequency": "q24hr for 5 days",
+        "dose": "Adult: 500 mg once on Day 1, then 250 mg once daily on Days 2-5 | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 4 days (Max 250 mg)",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 4 days",
         "maxDosesPerDay": 1,
-        "adultFixed": "500 mg on Day 1, followed by 250 mg on Days 2-5",
+        "adultFixed": "500 mg once on Day 1, then 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Streptococcal Pharyngitis"
+        ],
+        "dose": "Adult: 500 mg once on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric:",
+        "dosePerKg": 12.0,
+        "frequency": "5 ml q24hr for 5 days (preferred) OR 8 ml q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once on Day 1, followed by 250 mg once daily on Days 2-5",
         "singleDoseMaxMl": null,
         "maxDailyMg": 500.0,
         "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Otitis Media"
+        ],
+        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days OR Option 3: 500 mg day 1, then 250 mg days 2-5 | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "12 ml once OR 4 ml q24hr for 3 days OR 4 ml on day1 followed by 2 ml q24hr for 4 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days OR Option 3: 500 mg day 1, then 250 mg days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": "otitis_triple_option",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Typhoid Fever / Erythema Migrans of Lyme Disease"
+        ],
+        "dose": "Adult: 500 mg once daily for 7 days (or 1 gm on Day 1 then 500 mg for 6 days) | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 7 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 7 days (or 1 gm on Day 1 then 500 mg for 6 days)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cat Scratch Disease (Lymphadenitis)"
+        ],
+        "dose": "Adult: 500 mg once on Day 1, then 250 mg once daily on Days 2-5 | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 4 days (Max 250 mg)",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 4 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once on Day 1, then 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Chancroid / Cholera"
+        ],
+        "dose": "Adult: 1000 mg (1 gm) single oral dose | Pediatric:",
+        "dosePerKg": 20.0,
+        "frequency": "once",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1000 mg (1 gm) single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "single_dose_20",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cystic Fibrosis"
+        ],
+        "dose": "Adult: 500 mg orally 3 times weekly | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "3 times weekly",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg orally 3 times weekly",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Mild Babesiosis"
+        ],
+        "dose": "Adult: 500 mg on day 1, then 250 mg q24hr for 7-10 days + Atovaquone | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 7-10 days (Max 250 mg) in combination with Atovaquone",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 7-10 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on day 1, then 250 mg q24hr for 7-10 days + Atovaquone",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Susceptible Infections"
+        ],
+        "dose": "Adult: 500 mg on day 1, then 250 mg q24hr | Pediatric: 10-12 mg/kg on day 1, then 5-6 mg/kg q24hr for remainder of treatment duration",
+        "dosePerKg": 10.0,
+        "frequency": "4-4.8 ml on day1 followed by 2-2.4 ml q24hr for remainder of treatment duration",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on day 1, then 250 mg q24hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "susceptible_infections",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
@@ -124252,16 +124972,16 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Acute Otitis Media"
+          "Peritonitis Prophylaxis / Endocarditis Prophylaxis"
         ],
-        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "Option 1: 30 mg/kg once OR Option 2: 10 mg/kg q24hr for 3 days",
+        "dose": "Adult: 500 mg single oral dose 30-60 min before procedure | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "30-60 minutes before dental procedure",
         "maxDosesPerDay": 1,
-        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days",
+        "adultFixed": "500 mg single oral dose 30-60 min before procedure",
         "singleDoseMaxMl": null,
-        "maxDailyMg": 1500.0,
-        "indType": "otitis_dual_option",
+        "maxDailyMg": 500.0,
+        "indType": "single_dose_15",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
@@ -124270,16 +124990,160 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Pharyngitis / Tonsillitis"
+          "Pertussis"
         ],
-        "dose": "Adult: 500 mg on Day 1, followed by 250 mg on Days 2-5 | Pediatric:",
-        "dosePerKg": 12.0,
-        "frequency": "q24hr for 5 days",
+        "dose": "Adult: 500 mg once on Day 1, then 250 mg once daily on Days 2-5 | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 4 days (Max 250 mg)",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 4 days",
         "maxDosesPerDay": 1,
-        "adultFixed": "500 mg on Day 1, followed by 250 mg on Days 2-5",
+        "adultFixed": "500 mg once on Day 1, then 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Streptococcal Pharyngitis"
+        ],
+        "dose": "Adult: 500 mg once on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric:",
+        "dosePerKg": 12.0,
+        "frequency": "5 ml q24hr for 5 days (preferred) OR 8 ml q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once on Day 1, followed by 250 mg once daily on Days 2-5",
         "singleDoseMaxMl": null,
         "maxDailyMg": 500.0,
         "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Otitis Media"
+        ],
+        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days OR Option 3: 500 mg day 1, then 250 mg days 2-5 | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "12 ml once OR 4 ml q24hr for 3 days OR 4 ml on day1 followed by 2 ml q24hr for 4 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days OR Option 3: 500 mg day 1, then 250 mg days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": "otitis_triple_option",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Typhoid Fever / Erythema Migrans of Lyme Disease"
+        ],
+        "dose": "Adult: 500 mg once daily for 7 days (or 1 gm on Day 1 then 500 mg for 6 days) | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 7 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 7 days (or 1 gm on Day 1 then 500 mg for 6 days)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cat Scratch Disease (Lymphadenitis)"
+        ],
+        "dose": "Adult: 500 mg once on Day 1, then 250 mg once daily on Days 2-5 | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 4 days (Max 250 mg)",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 4 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once on Day 1, then 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Chancroid / Cholera"
+        ],
+        "dose": "Adult: 1000 mg (1 gm) single oral dose | Pediatric:",
+        "dosePerKg": 20.0,
+        "frequency": "once",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1000 mg (1 gm) single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "single_dose_20",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cystic Fibrosis"
+        ],
+        "dose": "Adult: 500 mg orally 3 times weekly | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "3 times weekly",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg orally 3 times weekly",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Mild Babesiosis"
+        ],
+        "dose": "Adult: 500 mg on day 1, then 250 mg q24hr for 7-10 days + Atovaquone | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 7-10 days (Max 250 mg) in combination with Atovaquone",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 7-10 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on day 1, then 250 mg q24hr for 7-10 days + Atovaquone",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Susceptible Infections"
+        ],
+        "dose": "Adult: 500 mg on day 1, then 250 mg q24hr | Pediatric: 10-12 mg/kg on day 1, then 5-6 mg/kg q24hr for remainder of treatment duration",
+        "dosePerKg": 10.0,
+        "frequency": "4-4.8 ml on day1 followed by 2-2.4 ml q24hr for remainder of treatment duration",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on day 1, then 250 mg q24hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "susceptible_infections",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
@@ -124401,16 +125265,16 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Acute Otitis Media"
+          "Peritonitis Prophylaxis / Endocarditis Prophylaxis"
         ],
-        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "Option 1: 30 mg/kg once OR Option 2: 10 mg/kg q24hr for 3 days",
+        "dose": "Adult: 500 mg single oral dose 30-60 min before procedure | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "30-60 minutes before dental procedure",
         "maxDosesPerDay": 1,
-        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days",
+        "adultFixed": "500 mg single oral dose 30-60 min before procedure",
         "singleDoseMaxMl": null,
-        "maxDailyMg": 1500.0,
-        "indType": "otitis_dual_option",
+        "maxDailyMg": 500.0,
+        "indType": "single_dose_15",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
@@ -124419,16 +125283,160 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Pharyngitis / Tonsillitis"
+          "Pertussis"
         ],
-        "dose": "Adult: 500 mg on Day 1, followed by 250 mg on Days 2-5 | Pediatric:",
-        "dosePerKg": 12.0,
-        "frequency": "q24hr for 5 days",
+        "dose": "Adult: 500 mg once on Day 1, then 250 mg once daily on Days 2-5 | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 4 days (Max 250 mg)",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 4 days",
         "maxDosesPerDay": 1,
-        "adultFixed": "500 mg on Day 1, followed by 250 mg on Days 2-5",
+        "adultFixed": "500 mg once on Day 1, then 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Streptococcal Pharyngitis"
+        ],
+        "dose": "Adult: 500 mg once on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric:",
+        "dosePerKg": 12.0,
+        "frequency": "5 ml q24hr for 5 days (preferred) OR 8 ml q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once on Day 1, followed by 250 mg once daily on Days 2-5",
         "singleDoseMaxMl": null,
         "maxDailyMg": 500.0,
         "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Otitis Media"
+        ],
+        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days OR Option 3: 500 mg day 1, then 250 mg days 2-5 | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "12 ml once OR 4 ml q24hr for 3 days OR 4 ml on day1 followed by 2 ml q24hr for 4 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days OR Option 3: 500 mg day 1, then 250 mg days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": "otitis_triple_option",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Typhoid Fever / Erythema Migrans of Lyme Disease"
+        ],
+        "dose": "Adult: 500 mg once daily for 7 days (or 1 gm on Day 1 then 500 mg for 6 days) | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 7 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 7 days (or 1 gm on Day 1 then 500 mg for 6 days)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cat Scratch Disease (Lymphadenitis)"
+        ],
+        "dose": "Adult: 500 mg once on Day 1, then 250 mg once daily on Days 2-5 | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 4 days (Max 250 mg)",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 4 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once on Day 1, then 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Chancroid / Cholera"
+        ],
+        "dose": "Adult: 1000 mg (1 gm) single oral dose | Pediatric:",
+        "dosePerKg": 20.0,
+        "frequency": "once",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1000 mg (1 gm) single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "single_dose_20",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cystic Fibrosis"
+        ],
+        "dose": "Adult: 500 mg orally 3 times weekly | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "3 times weekly",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg orally 3 times weekly",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Mild Babesiosis"
+        ],
+        "dose": "Adult: 500 mg on day 1, then 250 mg q24hr for 7-10 days + Atovaquone | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 7-10 days (Max 250 mg) in combination with Atovaquone",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 7-10 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on day 1, then 250 mg q24hr for 7-10 days + Atovaquone",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Susceptible Infections"
+        ],
+        "dose": "Adult: 500 mg on day 1, then 250 mg q24hr | Pediatric: 10-12 mg/kg on day 1, then 5-6 mg/kg q24hr for remainder of treatment duration",
+        "dosePerKg": 10.0,
+        "frequency": "4-4.8 ml on day1 followed by 2-2.4 ml q24hr for remainder of treatment duration",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on day 1, then 250 mg q24hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "susceptible_infections",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
@@ -124550,16 +125558,16 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Acute Otitis Media"
+          "Peritonitis Prophylaxis / Endocarditis Prophylaxis"
         ],
-        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "Option 1: 30 mg/kg once OR Option 2: 10 mg/kg q24hr for 3 days",
+        "dose": "Adult: 500 mg single oral dose 30-60 min before procedure | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "30-60 minutes before dental procedure",
         "maxDosesPerDay": 1,
-        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days",
+        "adultFixed": "500 mg single oral dose 30-60 min before procedure",
         "singleDoseMaxMl": null,
-        "maxDailyMg": 1500.0,
-        "indType": "otitis_dual_option",
+        "maxDailyMg": 500.0,
+        "indType": "single_dose_15",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
@@ -124568,16 +125576,160 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Pharyngitis / Tonsillitis"
+          "Pertussis"
         ],
-        "dose": "Adult: 500 mg on Day 1, followed by 250 mg on Days 2-5 | Pediatric:",
-        "dosePerKg": 12.0,
-        "frequency": "q24hr for 5 days",
+        "dose": "Adult: 500 mg once on Day 1, then 250 mg once daily on Days 2-5 | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 4 days (Max 250 mg)",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 4 days",
         "maxDosesPerDay": 1,
-        "adultFixed": "500 mg on Day 1, followed by 250 mg on Days 2-5",
+        "adultFixed": "500 mg once on Day 1, then 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Streptococcal Pharyngitis"
+        ],
+        "dose": "Adult: 500 mg once on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric:",
+        "dosePerKg": 12.0,
+        "frequency": "5 ml q24hr for 5 days (preferred) OR 8 ml q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once on Day 1, followed by 250 mg once daily on Days 2-5",
         "singleDoseMaxMl": null,
         "maxDailyMg": 500.0,
         "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Otitis Media"
+        ],
+        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days OR Option 3: 500 mg day 1, then 250 mg days 2-5 | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "12 ml once OR 4 ml q24hr for 3 days OR 4 ml on day1 followed by 2 ml q24hr for 4 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days OR Option 3: 500 mg day 1, then 250 mg days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": "otitis_triple_option",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Typhoid Fever / Erythema Migrans of Lyme Disease"
+        ],
+        "dose": "Adult: 500 mg once daily for 7 days (or 1 gm on Day 1 then 500 mg for 6 days) | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 7 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 7 days (or 1 gm on Day 1 then 500 mg for 6 days)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cat Scratch Disease (Lymphadenitis)"
+        ],
+        "dose": "Adult: 500 mg once on Day 1, then 250 mg once daily on Days 2-5 | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 4 days (Max 250 mg)",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 4 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once on Day 1, then 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Chancroid / Cholera"
+        ],
+        "dose": "Adult: 1000 mg (1 gm) single oral dose | Pediatric:",
+        "dosePerKg": 20.0,
+        "frequency": "once",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1000 mg (1 gm) single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "single_dose_20",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cystic Fibrosis"
+        ],
+        "dose": "Adult: 500 mg orally 3 times weekly | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "3 times weekly",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg orally 3 times weekly",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Mild Babesiosis"
+        ],
+        "dose": "Adult: 500 mg on day 1, then 250 mg q24hr for 7-10 days + Atovaquone | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 7-10 days (Max 250 mg) in combination with Atovaquone",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 7-10 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on day 1, then 250 mg q24hr for 7-10 days + Atovaquone",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Susceptible Infections"
+        ],
+        "dose": "Adult: 500 mg on day 1, then 250 mg q24hr | Pediatric: 10-12 mg/kg on day 1, then 5-6 mg/kg q24hr for remainder of treatment duration",
+        "dosePerKg": 10.0,
+        "frequency": "4-4.8 ml on day1 followed by 2-2.4 ml q24hr for remainder of treatment duration",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on day 1, then 250 mg q24hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "susceptible_infections",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
@@ -124699,16 +125851,16 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Acute Otitis Media"
+          "Peritonitis Prophylaxis / Endocarditis Prophylaxis"
         ],
-        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "Option 1: 30 mg/kg once OR Option 2: 10 mg/kg q24hr for 3 days",
+        "dose": "Adult: 500 mg single oral dose 30-60 min before procedure | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "30-60 minutes before dental procedure",
         "maxDosesPerDay": 1,
-        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days",
+        "adultFixed": "500 mg single oral dose 30-60 min before procedure",
         "singleDoseMaxMl": null,
-        "maxDailyMg": 1500.0,
-        "indType": "otitis_dual_option",
+        "maxDailyMg": 500.0,
+        "indType": "single_dose_15",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
@@ -124717,16 +125869,160 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Pharyngitis / Tonsillitis"
+          "Pertussis"
         ],
-        "dose": "Adult: 500 mg on Day 1, followed by 250 mg on Days 2-5 | Pediatric:",
-        "dosePerKg": 12.0,
-        "frequency": "q24hr for 5 days",
+        "dose": "Adult: 500 mg once on Day 1, then 250 mg once daily on Days 2-5 | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 4 days (Max 250 mg)",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 4 days",
         "maxDosesPerDay": 1,
-        "adultFixed": "500 mg on Day 1, followed by 250 mg on Days 2-5",
+        "adultFixed": "500 mg once on Day 1, then 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Streptococcal Pharyngitis"
+        ],
+        "dose": "Adult: 500 mg once on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric:",
+        "dosePerKg": 12.0,
+        "frequency": "5 ml q24hr for 5 days (preferred) OR 8 ml q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once on Day 1, followed by 250 mg once daily on Days 2-5",
         "singleDoseMaxMl": null,
         "maxDailyMg": 500.0,
         "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Otitis Media"
+        ],
+        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days OR Option 3: 500 mg day 1, then 250 mg days 2-5 | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "12 ml once OR 4 ml q24hr for 3 days OR 4 ml on day1 followed by 2 ml q24hr for 4 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days OR Option 3: 500 mg day 1, then 250 mg days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": "otitis_triple_option",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Typhoid Fever / Erythema Migrans of Lyme Disease"
+        ],
+        "dose": "Adult: 500 mg once daily for 7 days (or 1 gm on Day 1 then 500 mg for 6 days) | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 7 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 7 days (or 1 gm on Day 1 then 500 mg for 6 days)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cat Scratch Disease (Lymphadenitis)"
+        ],
+        "dose": "Adult: 500 mg once on Day 1, then 250 mg once daily on Days 2-5 | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 4 days (Max 250 mg)",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 4 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once on Day 1, then 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Chancroid / Cholera"
+        ],
+        "dose": "Adult: 1000 mg (1 gm) single oral dose | Pediatric:",
+        "dosePerKg": 20.0,
+        "frequency": "once",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1000 mg (1 gm) single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "single_dose_20",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cystic Fibrosis"
+        ],
+        "dose": "Adult: 500 mg orally 3 times weekly | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "3 times weekly",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg orally 3 times weekly",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Mild Babesiosis"
+        ],
+        "dose": "Adult: 500 mg on day 1, then 250 mg q24hr for 7-10 days + Atovaquone | Pediatric: 10 mg/kg on day 1 (Max 500 mg), followed by 5 mg/kg q24hr for 7-10 days (Max 250 mg) in combination with Atovaquone",
+        "dosePerKg": 10.0,
+        "frequency": "on day1 followed by 2 ml q24hr for 7-10 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on day 1, then 250 mg q24hr for 7-10 days + Atovaquone",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "tapered_10_5",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Susceptible Infections"
+        ],
+        "dose": "Adult: 500 mg on day 1, then 250 mg q24hr | Pediatric: 10-12 mg/kg on day 1, then 5-6 mg/kg q24hr for remainder of treatment duration",
+        "dosePerKg": 10.0,
+        "frequency": "4-4.8 ml on day1 followed by 2-2.4 ml q24hr for remainder of treatment duration",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on day 1, then 250 mg q24hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "susceptible_infections",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
