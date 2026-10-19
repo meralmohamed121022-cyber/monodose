@@ -36337,13 +36337,229 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Anti-inflammatory / Immunosuppressive Therapy"
+          "Acute Asthma Exacerbation (Short-Course Burst)"
         ],
-        "dose": "Adult: 5-60 mg PO once daily in morning with food | Pediatric: 1-2 mg/kg/day PO in single or divided doses",
+        "dose": "Adult: 40-60 mg PO once daily in morning or divided q12hr for 3-5 days | Pediatric: 1-2 mg/kg/day PO divided q12-24hr for 3-5 days (Max 60 mg/day)",
+        "dosePerKg": null,
+        "frequency": "q12-24hr with food for 3-5 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "40-60 mg PO once daily in morning or divided q12hr for 3-5 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Severe Persistent Asthma (Maintenance)"
+        ],
+        "dose": "Adult: 7.5-60 mg PO once daily in morning or alternate days | Pediatric: 0.25-2 mg/kg/day PO once daily in morning or alternate days",
         "dosePerKg": null,
         "frequency": "Once daily with breakfast",
         "maxDosesPerDay": 1,
-        "adultFixed": "5-60 mg PO once daily in morning with food",
+        "adultFixed": "7.5-60 mg PO once daily in morning or alternate days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Croup / Laryngotracheobronchitis (Off-label)"
+        ],
+        "dose": "Adult: Not applicable | Pediatric: 1 mg/kg PO single dose (or 1-2 mg/kg/day divided q12hr for 1-2 days)",
+        "dosePerKg": null,
+        "frequency": "Single dose or q12hr for 1-2 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "Not applicable",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Nephrotic Syndrome (Minimal Change Disease)"
+        ],
+        "dose": "Adult: 1 mg/kg/day PO (Max 80 mg/day) as single morning dose for 4-16 weeks, then taper | Pediatric: 60 mg/m²/day OR 2 mg/kg/day PO divided q8-12hr for 4-6 weeks (Max 60-80 mg/day); then 40 mg/m² alternate days for 4 weeks",
+        "dosePerKg": null,
+        "frequency": "Divided q8-12hr with meals during active phase",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 mg/kg/day PO (Max 80 mg/day) as single morning dose for 4-16 weeks, then taper",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Allergic Conditions (Severe Rhinitis / Acute Urticaria)"
+        ],
+        "dose": "Adult: 20-40 mg PO daily for 3-7 days, then taper | Pediatric: 0.5-1 mg/kg/day PO divided q12-24hr for 3-5 days",
+        "dosePerKg": null,
+        "frequency": "q12-24hr with food for 3-5 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "20-40 mg PO daily for 3-7 days, then taper",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Anti-inflammatory & Immunosuppressive Therapy"
+        ],
+        "dose": "Adult: 5-60 mg PO once daily in morning or divided q8-12hr | Pediatric: 0.14-2 mg/kg/day PO divided q6-12hr based on severity",
+        "dosePerKg": null,
+        "frequency": "Once daily with breakfast or divided q8-12hr",
+        "maxDosesPerDay": 1,
+        "adultFixed": "5-60 mg PO once daily in morning or divided q8-12hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Systemic Lupus Erythematosus (SLE) & Connective Tissue Disease"
+        ],
+        "dose": "Adult: 0.5-1 mg/kg/day PO once daily or divided q12hr; up to 60 mg/day for severe flare | Pediatric: 0.5-1 mg/kg/day PO divided q8-12hr (Max 60 mg/day)",
+        "dosePerKg": null,
+        "frequency": "Divided q8-12hr with food",
+        "maxDosesPerDay": 1,
+        "adultFixed": "0.5-1 mg/kg/day PO once daily or divided q12hr; up to 60 mg/day for severe flare",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Juvenile Idiopathic Arthritis (JIA)"
+        ],
+        "dose": "Adult: Not applicable | Pediatric: 0.1-1 mg/kg/day PO divided q8-12hr or once daily; up to 2 mg/kg/day in systemic JIA",
+        "dosePerKg": null,
+        "frequency": "Divided q8-12hr with meals",
+        "maxDosesPerDay": 1,
+        "adultFixed": "Not applicable",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Gouty Arthritis Flare"
+        ],
+        "dose": "Adult: 30-35 mg PO once daily for 3-5 days, then taper over 7-10 days | Pediatric: Not typically indicated in pediatrics",
+        "dosePerKg": null,
+        "frequency": "Once daily with breakfast",
+        "maxDosesPerDay": 1,
+        "adultFixed": "30-35 mg PO once daily for 3-5 days, then taper over 7-10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Ulcerative Colitis & Crohn's Disease Flare"
+        ],
+        "dose": "Adult: 40-60 mg PO once daily until remission, then taper by 5-10 mg weekly | Pediatric: 1-2 mg/kg/day PO divided q12-24hr (Max 40-60 mg/day)",
+        "dosePerKg": null,
+        "frequency": "Divided q12-24hr with meals",
+        "maxDosesPerDay": 1,
+        "adultFixed": "40-60 mg PO once daily until remission, then taper by 5-10 mg weekly",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Immune Thrombocytopenic Purpura (ITP)"
+        ],
+        "dose": "Adult: 1-2 mg/kg/day PO divided q8-12hr for 2-4 weeks, then taper | Pediatric: 1-2 mg/kg/day PO divided q8-12hr",
+        "dosePerKg": null,
+        "frequency": "Divided q8-12hr with food",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1-2 mg/kg/day PO divided q8-12hr for 2-4 weeks, then taper",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Autoimmune Hemolytic Anemia (Warm AIHA)"
+        ],
+        "dose": "Adult: 1-1.5 mg/kg/day PO divided q8-12hr until Hb normalizes, then slow taper | Pediatric: 1-2 mg/kg/day PO divided q8-12hr (Max 60-80 mg/day)",
+        "dosePerKg": null,
+        "frequency": "Divided q8-12hr with food",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1-1.5 mg/kg/day PO divided q8-12hr until Hb normalizes, then slow taper",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Multiple Sclerosis (Acute Relapse Oral Protocol)"
+        ],
+        "dose": "Adult: 200 mg PO daily for 1 week, followed by 80 mg alternate days for 1 month | Pediatric: 1-2 mg/kg/day PO as oral consolidation after IV methylprednisolone",
+        "dosePerKg": null,
+        "frequency": "Once daily with breakfast",
+        "maxDosesPerDay": 1,
+        "adultFixed": "200 mg PO daily for 1 week, followed by 80 mg alternate days for 1 month",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -36378,13 +36594,229 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Anti-inflammatory / Immunosuppressive Therapy"
+          "Acute Asthma Exacerbation (Short-Course Burst)"
         ],
-        "dose": "Adult: 5-60 mg PO once daily in morning with food | Pediatric: 1-2 mg/kg/day PO in single or divided doses",
+        "dose": "Adult: 40-60 mg PO once daily in morning or divided q12hr for 3-5 days | Pediatric: 1-2 mg/kg/day PO divided q12-24hr for 3-5 days (Max 60 mg/day)",
+        "dosePerKg": null,
+        "frequency": "q12-24hr with food for 3-5 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "40-60 mg PO once daily in morning or divided q12hr for 3-5 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Severe Persistent Asthma (Maintenance)"
+        ],
+        "dose": "Adult: 7.5-60 mg PO once daily in morning or alternate days | Pediatric: 0.25-2 mg/kg/day PO once daily in morning or alternate days",
         "dosePerKg": null,
         "frequency": "Once daily with breakfast",
         "maxDosesPerDay": 1,
-        "adultFixed": "5-60 mg PO once daily in morning with food",
+        "adultFixed": "7.5-60 mg PO once daily in morning or alternate days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Croup / Laryngotracheobronchitis (Off-label)"
+        ],
+        "dose": "Adult: Not applicable | Pediatric: 1 mg/kg PO single dose (or 1-2 mg/kg/day divided q12hr for 1-2 days)",
+        "dosePerKg": null,
+        "frequency": "Single dose or q12hr for 1-2 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "Not applicable",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Nephrotic Syndrome (Minimal Change Disease)"
+        ],
+        "dose": "Adult: 1 mg/kg/day PO (Max 80 mg/day) as single morning dose for 4-16 weeks, then taper | Pediatric: 60 mg/m²/day OR 2 mg/kg/day PO divided q8-12hr for 4-6 weeks (Max 60-80 mg/day); then 40 mg/m² alternate days for 4 weeks",
+        "dosePerKg": null,
+        "frequency": "Divided q8-12hr with meals during active phase",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 mg/kg/day PO (Max 80 mg/day) as single morning dose for 4-16 weeks, then taper",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Allergic Conditions (Severe Rhinitis / Acute Urticaria)"
+        ],
+        "dose": "Adult: 20-40 mg PO daily for 3-7 days, then taper | Pediatric: 0.5-1 mg/kg/day PO divided q12-24hr for 3-5 days",
+        "dosePerKg": null,
+        "frequency": "q12-24hr with food for 3-5 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "20-40 mg PO daily for 3-7 days, then taper",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Anti-inflammatory & Immunosuppressive Therapy"
+        ],
+        "dose": "Adult: 5-60 mg PO once daily in morning or divided q8-12hr | Pediatric: 0.14-2 mg/kg/day PO divided q6-12hr based on severity",
+        "dosePerKg": null,
+        "frequency": "Once daily with breakfast or divided q8-12hr",
+        "maxDosesPerDay": 1,
+        "adultFixed": "5-60 mg PO once daily in morning or divided q8-12hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Systemic Lupus Erythematosus (SLE) & Connective Tissue Disease"
+        ],
+        "dose": "Adult: 0.5-1 mg/kg/day PO once daily or divided q12hr; up to 60 mg/day for severe flare | Pediatric: 0.5-1 mg/kg/day PO divided q8-12hr (Max 60 mg/day)",
+        "dosePerKg": null,
+        "frequency": "Divided q8-12hr with food",
+        "maxDosesPerDay": 1,
+        "adultFixed": "0.5-1 mg/kg/day PO once daily or divided q12hr; up to 60 mg/day for severe flare",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Juvenile Idiopathic Arthritis (JIA)"
+        ],
+        "dose": "Adult: Not applicable | Pediatric: 0.1-1 mg/kg/day PO divided q8-12hr or once daily; up to 2 mg/kg/day in systemic JIA",
+        "dosePerKg": null,
+        "frequency": "Divided q8-12hr with meals",
+        "maxDosesPerDay": 1,
+        "adultFixed": "Not applicable",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Gouty Arthritis Flare"
+        ],
+        "dose": "Adult: 30-35 mg PO once daily for 3-5 days, then taper over 7-10 days | Pediatric: Not typically indicated in pediatrics",
+        "dosePerKg": null,
+        "frequency": "Once daily with breakfast",
+        "maxDosesPerDay": 1,
+        "adultFixed": "30-35 mg PO once daily for 3-5 days, then taper over 7-10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Ulcerative Colitis & Crohn's Disease Flare"
+        ],
+        "dose": "Adult: 40-60 mg PO once daily until remission, then taper by 5-10 mg weekly | Pediatric: 1-2 mg/kg/day PO divided q12-24hr (Max 40-60 mg/day)",
+        "dosePerKg": null,
+        "frequency": "Divided q12-24hr with meals",
+        "maxDosesPerDay": 1,
+        "adultFixed": "40-60 mg PO once daily until remission, then taper by 5-10 mg weekly",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Immune Thrombocytopenic Purpura (ITP)"
+        ],
+        "dose": "Adult: 1-2 mg/kg/day PO divided q8-12hr for 2-4 weeks, then taper | Pediatric: 1-2 mg/kg/day PO divided q8-12hr",
+        "dosePerKg": null,
+        "frequency": "Divided q8-12hr with food",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1-2 mg/kg/day PO divided q8-12hr for 2-4 weeks, then taper",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Autoimmune Hemolytic Anemia (Warm AIHA)"
+        ],
+        "dose": "Adult: 1-1.5 mg/kg/day PO divided q8-12hr until Hb normalizes, then slow taper | Pediatric: 1-2 mg/kg/day PO divided q8-12hr (Max 60-80 mg/day)",
+        "dosePerKg": null,
+        "frequency": "Divided q8-12hr with food",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1-1.5 mg/kg/day PO divided q8-12hr until Hb normalizes, then slow taper",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Multiple Sclerosis (Acute Relapse Oral Protocol)"
+        ],
+        "dose": "Adult: 200 mg PO daily for 1 week, followed by 80 mg alternate days for 1 month | Pediatric: 1-2 mg/kg/day PO as oral consolidation after IV methylprednisolone",
+        "dosePerKg": null,
+        "frequency": "Once daily with breakfast",
+        "maxDosesPerDay": 1,
+        "adultFixed": "200 mg PO daily for 1 week, followed by 80 mg alternate days for 1 month",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -36419,13 +36851,229 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Anti-inflammatory / Immunosuppressive Therapy"
+          "Acute Asthma Exacerbation (Short-Course Burst)"
         ],
-        "dose": "Adult: 5-60 mg PO once daily in morning with food | Pediatric: 1-2 mg/kg/day PO in single or divided doses",
+        "dose": "Adult: 40-60 mg PO once daily in morning or divided q12hr for 3-5 days | Pediatric: 1-2 mg/kg/day PO divided q12-24hr for 3-5 days (Max 60 mg/day)",
+        "dosePerKg": null,
+        "frequency": "q12-24hr with food for 3-5 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "40-60 mg PO once daily in morning or divided q12hr for 3-5 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Severe Persistent Asthma (Maintenance)"
+        ],
+        "dose": "Adult: 7.5-60 mg PO once daily in morning or alternate days | Pediatric: 0.25-2 mg/kg/day PO once daily in morning or alternate days",
         "dosePerKg": null,
         "frequency": "Once daily with breakfast",
         "maxDosesPerDay": 1,
-        "adultFixed": "5-60 mg PO once daily in morning with food",
+        "adultFixed": "7.5-60 mg PO once daily in morning or alternate days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Croup / Laryngotracheobronchitis (Off-label)"
+        ],
+        "dose": "Adult: Not applicable | Pediatric: 1 mg/kg PO single dose (or 1-2 mg/kg/day divided q12hr for 1-2 days)",
+        "dosePerKg": null,
+        "frequency": "Single dose or q12hr for 1-2 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "Not applicable",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Nephrotic Syndrome (Minimal Change Disease)"
+        ],
+        "dose": "Adult: 1 mg/kg/day PO (Max 80 mg/day) as single morning dose for 4-16 weeks, then taper | Pediatric: 60 mg/m²/day OR 2 mg/kg/day PO divided q8-12hr for 4-6 weeks (Max 60-80 mg/day); then 40 mg/m² alternate days for 4 weeks",
+        "dosePerKg": null,
+        "frequency": "Divided q8-12hr with meals during active phase",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 mg/kg/day PO (Max 80 mg/day) as single morning dose for 4-16 weeks, then taper",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Allergic Conditions (Severe Rhinitis / Acute Urticaria)"
+        ],
+        "dose": "Adult: 20-40 mg PO daily for 3-7 days, then taper | Pediatric: 0.5-1 mg/kg/day PO divided q12-24hr for 3-5 days",
+        "dosePerKg": null,
+        "frequency": "q12-24hr with food for 3-5 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "20-40 mg PO daily for 3-7 days, then taper",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Anti-inflammatory & Immunosuppressive Therapy"
+        ],
+        "dose": "Adult: 5-60 mg PO once daily in morning or divided q8-12hr | Pediatric: 0.14-2 mg/kg/day PO divided q6-12hr based on severity",
+        "dosePerKg": null,
+        "frequency": "Once daily with breakfast or divided q8-12hr",
+        "maxDosesPerDay": 1,
+        "adultFixed": "5-60 mg PO once daily in morning or divided q8-12hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Systemic Lupus Erythematosus (SLE) & Connective Tissue Disease"
+        ],
+        "dose": "Adult: 0.5-1 mg/kg/day PO once daily or divided q12hr; up to 60 mg/day for severe flare | Pediatric: 0.5-1 mg/kg/day PO divided q8-12hr (Max 60 mg/day)",
+        "dosePerKg": null,
+        "frequency": "Divided q8-12hr with food",
+        "maxDosesPerDay": 1,
+        "adultFixed": "0.5-1 mg/kg/day PO once daily or divided q12hr; up to 60 mg/day for severe flare",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Juvenile Idiopathic Arthritis (JIA)"
+        ],
+        "dose": "Adult: Not applicable | Pediatric: 0.1-1 mg/kg/day PO divided q8-12hr or once daily; up to 2 mg/kg/day in systemic JIA",
+        "dosePerKg": null,
+        "frequency": "Divided q8-12hr with meals",
+        "maxDosesPerDay": 1,
+        "adultFixed": "Not applicable",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Gouty Arthritis Flare"
+        ],
+        "dose": "Adult: 30-35 mg PO once daily for 3-5 days, then taper over 7-10 days | Pediatric: Not typically indicated in pediatrics",
+        "dosePerKg": null,
+        "frequency": "Once daily with breakfast",
+        "maxDosesPerDay": 1,
+        "adultFixed": "30-35 mg PO once daily for 3-5 days, then taper over 7-10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Ulcerative Colitis & Crohn's Disease Flare"
+        ],
+        "dose": "Adult: 40-60 mg PO once daily until remission, then taper by 5-10 mg weekly | Pediatric: 1-2 mg/kg/day PO divided q12-24hr (Max 40-60 mg/day)",
+        "dosePerKg": null,
+        "frequency": "Divided q12-24hr with meals",
+        "maxDosesPerDay": 1,
+        "adultFixed": "40-60 mg PO once daily until remission, then taper by 5-10 mg weekly",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Immune Thrombocytopenic Purpura (ITP)"
+        ],
+        "dose": "Adult: 1-2 mg/kg/day PO divided q8-12hr for 2-4 weeks, then taper | Pediatric: 1-2 mg/kg/day PO divided q8-12hr",
+        "dosePerKg": null,
+        "frequency": "Divided q8-12hr with food",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1-2 mg/kg/day PO divided q8-12hr for 2-4 weeks, then taper",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Autoimmune Hemolytic Anemia (Warm AIHA)"
+        ],
+        "dose": "Adult: 1-1.5 mg/kg/day PO divided q8-12hr until Hb normalizes, then slow taper | Pediatric: 1-2 mg/kg/day PO divided q8-12hr (Max 60-80 mg/day)",
+        "dosePerKg": null,
+        "frequency": "Divided q8-12hr with food",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1-1.5 mg/kg/day PO divided q8-12hr until Hb normalizes, then slow taper",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Multiple Sclerosis (Acute Relapse Oral Protocol)"
+        ],
+        "dose": "Adult: 200 mg PO daily for 1 week, followed by 80 mg alternate days for 1 month | Pediatric: 1-2 mg/kg/day PO as oral consolidation after IV methylprednisolone",
+        "dosePerKg": null,
+        "frequency": "Once daily with breakfast",
+        "maxDosesPerDay": 1,
+        "adultFixed": "200 mg PO daily for 1 week, followed by 80 mg alternate days for 1 month",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -36460,13 +37108,229 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Anti-inflammatory / Immunosuppressive Therapy"
+          "Acute Asthma Exacerbation (Short-Course Burst)"
         ],
-        "dose": "Adult: 5-60 mg PO once daily in morning with food | Pediatric: 1-2 mg/kg/day PO in single or divided doses",
+        "dose": "Adult: 40-60 mg PO once daily in morning or divided q12hr for 3-5 days | Pediatric: 1-2 mg/kg/day PO divided q12-24hr for 3-5 days (Max 60 mg/day)",
+        "dosePerKg": null,
+        "frequency": "q12-24hr with food for 3-5 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "40-60 mg PO once daily in morning or divided q12hr for 3-5 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Severe Persistent Asthma (Maintenance)"
+        ],
+        "dose": "Adult: 7.5-60 mg PO once daily in morning or alternate days | Pediatric: 0.25-2 mg/kg/day PO once daily in morning or alternate days",
         "dosePerKg": null,
         "frequency": "Once daily with breakfast",
         "maxDosesPerDay": 1,
-        "adultFixed": "5-60 mg PO once daily in morning with food",
+        "adultFixed": "7.5-60 mg PO once daily in morning or alternate days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Croup / Laryngotracheobronchitis (Off-label)"
+        ],
+        "dose": "Adult: Not applicable | Pediatric: 1 mg/kg PO single dose (or 1-2 mg/kg/day divided q12hr for 1-2 days)",
+        "dosePerKg": null,
+        "frequency": "Single dose or q12hr for 1-2 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "Not applicable",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Nephrotic Syndrome (Minimal Change Disease)"
+        ],
+        "dose": "Adult: 1 mg/kg/day PO (Max 80 mg/day) as single morning dose for 4-16 weeks, then taper | Pediatric: 60 mg/m²/day OR 2 mg/kg/day PO divided q8-12hr for 4-6 weeks (Max 60-80 mg/day); then 40 mg/m² alternate days for 4 weeks",
+        "dosePerKg": null,
+        "frequency": "Divided q8-12hr with meals during active phase",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 mg/kg/day PO (Max 80 mg/day) as single morning dose for 4-16 weeks, then taper",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Allergic Conditions (Severe Rhinitis / Acute Urticaria)"
+        ],
+        "dose": "Adult: 20-40 mg PO daily for 3-7 days, then taper | Pediatric: 0.5-1 mg/kg/day PO divided q12-24hr for 3-5 days",
+        "dosePerKg": null,
+        "frequency": "q12-24hr with food for 3-5 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "20-40 mg PO daily for 3-7 days, then taper",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Anti-inflammatory & Immunosuppressive Therapy"
+        ],
+        "dose": "Adult: 5-60 mg PO once daily in morning or divided q8-12hr | Pediatric: 0.14-2 mg/kg/day PO divided q6-12hr based on severity",
+        "dosePerKg": null,
+        "frequency": "Once daily with breakfast or divided q8-12hr",
+        "maxDosesPerDay": 1,
+        "adultFixed": "5-60 mg PO once daily in morning or divided q8-12hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Systemic Lupus Erythematosus (SLE) & Connective Tissue Disease"
+        ],
+        "dose": "Adult: 0.5-1 mg/kg/day PO once daily or divided q12hr; up to 60 mg/day for severe flare | Pediatric: 0.5-1 mg/kg/day PO divided q8-12hr (Max 60 mg/day)",
+        "dosePerKg": null,
+        "frequency": "Divided q8-12hr with food",
+        "maxDosesPerDay": 1,
+        "adultFixed": "0.5-1 mg/kg/day PO once daily or divided q12hr; up to 60 mg/day for severe flare",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Juvenile Idiopathic Arthritis (JIA)"
+        ],
+        "dose": "Adult: Not applicable | Pediatric: 0.1-1 mg/kg/day PO divided q8-12hr or once daily; up to 2 mg/kg/day in systemic JIA",
+        "dosePerKg": null,
+        "frequency": "Divided q8-12hr with meals",
+        "maxDosesPerDay": 1,
+        "adultFixed": "Not applicable",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Gouty Arthritis Flare"
+        ],
+        "dose": "Adult: 30-35 mg PO once daily for 3-5 days, then taper over 7-10 days | Pediatric: Not typically indicated in pediatrics",
+        "dosePerKg": null,
+        "frequency": "Once daily with breakfast",
+        "maxDosesPerDay": 1,
+        "adultFixed": "30-35 mg PO once daily for 3-5 days, then taper over 7-10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Ulcerative Colitis & Crohn's Disease Flare"
+        ],
+        "dose": "Adult: 40-60 mg PO once daily until remission, then taper by 5-10 mg weekly | Pediatric: 1-2 mg/kg/day PO divided q12-24hr (Max 40-60 mg/day)",
+        "dosePerKg": null,
+        "frequency": "Divided q12-24hr with meals",
+        "maxDosesPerDay": 1,
+        "adultFixed": "40-60 mg PO once daily until remission, then taper by 5-10 mg weekly",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Immune Thrombocytopenic Purpura (ITP)"
+        ],
+        "dose": "Adult: 1-2 mg/kg/day PO divided q8-12hr for 2-4 weeks, then taper | Pediatric: 1-2 mg/kg/day PO divided q8-12hr",
+        "dosePerKg": null,
+        "frequency": "Divided q8-12hr with food",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1-2 mg/kg/day PO divided q8-12hr for 2-4 weeks, then taper",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Autoimmune Hemolytic Anemia (Warm AIHA)"
+        ],
+        "dose": "Adult: 1-1.5 mg/kg/day PO divided q8-12hr until Hb normalizes, then slow taper | Pediatric: 1-2 mg/kg/day PO divided q8-12hr (Max 60-80 mg/day)",
+        "dosePerKg": null,
+        "frequency": "Divided q8-12hr with food",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1-1.5 mg/kg/day PO divided q8-12hr until Hb normalizes, then slow taper",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Multiple Sclerosis (Acute Relapse Oral Protocol)"
+        ],
+        "dose": "Adult: 200 mg PO daily for 1 week, followed by 80 mg alternate days for 1 month | Pediatric: 1-2 mg/kg/day PO as oral consolidation after IV methylprednisolone",
+        "dosePerKg": null,
+        "frequency": "Once daily with breakfast",
+        "maxDosesPerDay": 1,
+        "adultFixed": "200 mg PO daily for 1 week, followed by 80 mg alternate days for 1 month",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -117196,15 +118060,231 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Acute Asthma Exacerbation / Anti-inflammatory Burst"
+          "Acute Asthma Exacerbation (Short-Course Burst)"
         ],
-        "dose": "Adult: 40-60 mg PO once daily in the morning for 3-5 days | Pediatric: 1-2 mg/kg/day PO divided q12-24hr for 3-5 days (Max 60 mg/day)",
+        "dose": "Adult: 40-60 mg PO once daily in morning or divided q12hr for 3-5 days | Pediatric: 1-2 mg/kg/day PO divided q12-24hr for 3-5 days (Max 60 mg/day)",
         "dosePerKg": 1.0,
         "frequency": "q12-24hr with food for 3-5 days",
         "maxDosesPerDay": 1,
-        "adultFixed": "40-60 mg PO once daily in the morning for 3-5 days",
+        "adultFixed": "40-60 mg PO once daily in morning or divided q12hr for 3-5 days",
         "singleDoseMaxMl": null,
         "maxDailyMg": 60.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Severe Persistent Asthma (Maintenance)"
+        ],
+        "dose": "Adult: 7.5-60 mg PO once daily in morning or alternate days | Pediatric: 0.25-2 mg/kg/day PO once daily in morning or alternate days",
+        "dosePerKg": 0.5,
+        "frequency": "Once daily with breakfast",
+        "maxDosesPerDay": 1,
+        "adultFixed": "7.5-60 mg PO once daily in morning or alternate days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 60.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Croup / Laryngotracheobronchitis (Off-label)"
+        ],
+        "dose": "Adult: Not applicable | Pediatric: 1 mg/kg PO single dose (or 1-2 mg/kg/day divided q12hr for 1-2 days)",
+        "dosePerKg": 1.0,
+        "frequency": "Single dose or q12hr for 1-2 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "Not applicable",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 60.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Nephrotic Syndrome (Minimal Change Disease)"
+        ],
+        "dose": "Adult: 1 mg/kg/day PO (Max 80 mg/day) as single morning dose for 4-16 weeks, then taper | Pediatric: 60 mg/m²/day OR 2 mg/kg/day PO divided q8-12hr for 4-6 weeks (Max 60-80 mg/day); then 40 mg/m² alternate days for 4 weeks",
+        "dosePerKg": 2.0,
+        "frequency": "Divided q8-12hr with meals during active phase",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 mg/kg/day PO (Max 80 mg/day) as single morning dose for 4-16 weeks, then taper",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 80.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Allergic Conditions (Severe Rhinitis / Acute Urticaria)"
+        ],
+        "dose": "Adult: 20-40 mg PO daily for 3-7 days, then taper | Pediatric: 0.5-1 mg/kg/day PO divided q12-24hr for 3-5 days",
+        "dosePerKg": 0.5,
+        "frequency": "q12-24hr with food for 3-5 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "20-40 mg PO daily for 3-7 days, then taper",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 40.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Anti-inflammatory & Immunosuppressive Therapy"
+        ],
+        "dose": "Adult: 5-60 mg PO once daily in morning or divided q8-12hr | Pediatric: 0.14-2 mg/kg/day PO divided q6-12hr based on severity",
+        "dosePerKg": 0.5,
+        "frequency": "Once daily with breakfast or divided q8-12hr",
+        "maxDosesPerDay": 1,
+        "adultFixed": "5-60 mg PO once daily in morning or divided q8-12hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 60.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Systemic Lupus Erythematosus (SLE) & Connective Tissue Disease"
+        ],
+        "dose": "Adult: 0.5-1 mg/kg/day PO once daily or divided q12hr; up to 60 mg/day for severe flare | Pediatric: 0.5-1 mg/kg/day PO divided q8-12hr (Max 60 mg/day)",
+        "dosePerKg": 0.5,
+        "frequency": "Divided q8-12hr with food",
+        "maxDosesPerDay": 1,
+        "adultFixed": "0.5-1 mg/kg/day PO once daily or divided q12hr; up to 60 mg/day for severe flare",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 60.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Juvenile Idiopathic Arthritis (JIA)"
+        ],
+        "dose": "Adult: Not applicable | Pediatric: 0.1-1 mg/kg/day PO divided q8-12hr or once daily; up to 2 mg/kg/day in systemic JIA",
+        "dosePerKg": 0.5,
+        "frequency": "Divided q8-12hr with meals",
+        "maxDosesPerDay": 1,
+        "adultFixed": "Not applicable",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 60.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Gouty Arthritis Flare"
+        ],
+        "dose": "Adult: 30-35 mg PO once daily for 3-5 days, then taper over 7-10 days | Pediatric: Not typically indicated in pediatrics",
+        "dosePerKg": null,
+        "frequency": "Once daily with breakfast",
+        "maxDosesPerDay": 1,
+        "adultFixed": "30-35 mg PO once daily for 3-5 days, then taper over 7-10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 35.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Ulcerative Colitis & Crohn's Disease Flare"
+        ],
+        "dose": "Adult: 40-60 mg PO once daily until remission, then taper by 5-10 mg weekly | Pediatric: 1-2 mg/kg/day PO divided q12-24hr (Max 40-60 mg/day)",
+        "dosePerKg": 1.0,
+        "frequency": "Divided q12-24hr with meals",
+        "maxDosesPerDay": 1,
+        "adultFixed": "40-60 mg PO once daily until remission, then taper by 5-10 mg weekly",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 60.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Immune Thrombocytopenic Purpura (ITP)"
+        ],
+        "dose": "Adult: 1-2 mg/kg/day PO divided q8-12hr for 2-4 weeks, then taper | Pediatric: 1-2 mg/kg/day PO divided q8-12hr (up to 4 mg/kg/day for 3-4 days in acute refractory cases)",
+        "dosePerKg": 1.0,
+        "frequency": "Divided q8-12hr with food",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1-2 mg/kg/day PO divided q8-12hr for 2-4 weeks, then taper",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 80.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Autoimmune Hemolytic Anemia (Warm AIHA)"
+        ],
+        "dose": "Adult: 1-1.5 mg/kg/day PO divided q8-12hr until Hb normalizes, then slow taper | Pediatric: 1-2 mg/kg/day PO divided q8-12hr (Max 60-80 mg/day)",
+        "dosePerKg": 1.0,
+        "frequency": "Divided q8-12hr with food",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1-1.5 mg/kg/day PO divided q8-12hr until Hb normalizes, then slow taper",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 80.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Multiple Sclerosis (Acute Relapse Oral Protocol)"
+        ],
+        "dose": "Adult: 200 mg PO daily for 1 week, followed by 80 mg alternate days for 1 month | Pediatric: 1-2 mg/kg/day PO as oral consolidation after IV methylprednisolone",
+        "dosePerKg": 1.0,
+        "frequency": "Once daily with breakfast",
+        "maxDosesPerDay": 1,
+        "adultFixed": "200 mg PO daily for 1 week, followed by 80 mg alternate days for 1 month",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 200.0,
         "indType": null,
         "stdFactor": null,
         "lowFactor": null,
@@ -117237,15 +118317,231 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Acute Asthma Exacerbation / Anti-inflammatory Burst"
+          "Acute Asthma Exacerbation (Short-Course Burst)"
         ],
-        "dose": "Adult: 40-60 mg PO once daily in the morning for 3-5 days | Pediatric: 1-2 mg/kg/day PO divided q12-24hr for 3-5 days (Max 60 mg/day)",
+        "dose": "Adult: 40-60 mg PO once daily in morning or divided q12hr for 3-5 days | Pediatric: 1-2 mg/kg/day PO divided q12-24hr for 3-5 days (Max 60 mg/day)",
         "dosePerKg": 1.0,
         "frequency": "q12-24hr with food for 3-5 days",
         "maxDosesPerDay": 1,
-        "adultFixed": "40-60 mg PO once daily in the morning for 3-5 days",
+        "adultFixed": "40-60 mg PO once daily in morning or divided q12hr for 3-5 days",
         "singleDoseMaxMl": null,
         "maxDailyMg": 60.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Severe Persistent Asthma (Maintenance)"
+        ],
+        "dose": "Adult: 7.5-60 mg PO once daily in morning or alternate days | Pediatric: 0.25-2 mg/kg/day PO once daily in morning or alternate days",
+        "dosePerKg": 0.5,
+        "frequency": "Once daily with breakfast",
+        "maxDosesPerDay": 1,
+        "adultFixed": "7.5-60 mg PO once daily in morning or alternate days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 60.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Croup / Laryngotracheobronchitis (Off-label)"
+        ],
+        "dose": "Adult: Not applicable | Pediatric: 1 mg/kg PO single dose (or 1-2 mg/kg/day divided q12hr for 1-2 days)",
+        "dosePerKg": 1.0,
+        "frequency": "Single dose or q12hr for 1-2 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "Not applicable",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 60.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Nephrotic Syndrome (Minimal Change Disease)"
+        ],
+        "dose": "Adult: 1 mg/kg/day PO (Max 80 mg/day) as single morning dose for 4-16 weeks, then taper | Pediatric: 60 mg/m²/day OR 2 mg/kg/day PO divided q8-12hr for 4-6 weeks (Max 60-80 mg/day); then 40 mg/m² alternate days for 4 weeks",
+        "dosePerKg": 2.0,
+        "frequency": "Divided q8-12hr with meals during active phase",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 mg/kg/day PO (Max 80 mg/day) as single morning dose for 4-16 weeks, then taper",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 80.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Allergic Conditions (Severe Rhinitis / Acute Urticaria)"
+        ],
+        "dose": "Adult: 20-40 mg PO daily for 3-7 days, then taper | Pediatric: 0.5-1 mg/kg/day PO divided q12-24hr for 3-5 days",
+        "dosePerKg": 0.5,
+        "frequency": "q12-24hr with food for 3-5 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "20-40 mg PO daily for 3-7 days, then taper",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 40.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Anti-inflammatory & Immunosuppressive Therapy"
+        ],
+        "dose": "Adult: 5-60 mg PO once daily in morning or divided q8-12hr | Pediatric: 0.14-2 mg/kg/day PO divided q6-12hr based on severity",
+        "dosePerKg": 0.5,
+        "frequency": "Once daily with breakfast or divided q8-12hr",
+        "maxDosesPerDay": 1,
+        "adultFixed": "5-60 mg PO once daily in morning or divided q8-12hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 60.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Systemic Lupus Erythematosus (SLE) & Connective Tissue Disease"
+        ],
+        "dose": "Adult: 0.5-1 mg/kg/day PO once daily or divided q12hr; up to 60 mg/day for severe flare | Pediatric: 0.5-1 mg/kg/day PO divided q8-12hr (Max 60 mg/day)",
+        "dosePerKg": 0.5,
+        "frequency": "Divided q8-12hr with food",
+        "maxDosesPerDay": 1,
+        "adultFixed": "0.5-1 mg/kg/day PO once daily or divided q12hr; up to 60 mg/day for severe flare",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 60.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Juvenile Idiopathic Arthritis (JIA)"
+        ],
+        "dose": "Adult: Not applicable | Pediatric: 0.1-1 mg/kg/day PO divided q8-12hr or once daily; up to 2 mg/kg/day in systemic JIA",
+        "dosePerKg": 0.5,
+        "frequency": "Divided q8-12hr with meals",
+        "maxDosesPerDay": 1,
+        "adultFixed": "Not applicable",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 60.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Gouty Arthritis Flare"
+        ],
+        "dose": "Adult: 30-35 mg PO once daily for 3-5 days, then taper over 7-10 days | Pediatric: Not typically indicated in pediatrics",
+        "dosePerKg": null,
+        "frequency": "Once daily with breakfast",
+        "maxDosesPerDay": 1,
+        "adultFixed": "30-35 mg PO once daily for 3-5 days, then taper over 7-10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 35.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Ulcerative Colitis & Crohn's Disease Flare"
+        ],
+        "dose": "Adult: 40-60 mg PO once daily until remission, then taper by 5-10 mg weekly | Pediatric: 1-2 mg/kg/day PO divided q12-24hr (Max 40-60 mg/day)",
+        "dosePerKg": 1.0,
+        "frequency": "Divided q12-24hr with meals",
+        "maxDosesPerDay": 1,
+        "adultFixed": "40-60 mg PO once daily until remission, then taper by 5-10 mg weekly",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 60.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Immune Thrombocytopenic Purpura (ITP)"
+        ],
+        "dose": "Adult: 1-2 mg/kg/day PO divided q8-12hr for 2-4 weeks, then taper | Pediatric: 1-2 mg/kg/day PO divided q8-12hr (up to 4 mg/kg/day for 3-4 days in acute refractory cases)",
+        "dosePerKg": 1.0,
+        "frequency": "Divided q8-12hr with food",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1-2 mg/kg/day PO divided q8-12hr for 2-4 weeks, then taper",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 80.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Autoimmune Hemolytic Anemia (Warm AIHA)"
+        ],
+        "dose": "Adult: 1-1.5 mg/kg/day PO divided q8-12hr until Hb normalizes, then slow taper | Pediatric: 1-2 mg/kg/day PO divided q8-12hr (Max 60-80 mg/day)",
+        "dosePerKg": 1.0,
+        "frequency": "Divided q8-12hr with food",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1-1.5 mg/kg/day PO divided q8-12hr until Hb normalizes, then slow taper",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 80.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Multiple Sclerosis (Acute Relapse Oral Protocol)"
+        ],
+        "dose": "Adult: 200 mg PO daily for 1 week, followed by 80 mg alternate days for 1 month | Pediatric: 1-2 mg/kg/day PO as oral consolidation after IV methylprednisolone",
+        "dosePerKg": 1.0,
+        "frequency": "Once daily with breakfast",
+        "maxDosesPerDay": 1,
+        "adultFixed": "200 mg PO daily for 1 week, followed by 80 mg alternate days for 1 month",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 200.0,
         "indType": null,
         "stdFactor": null,
         "lowFactor": null,
