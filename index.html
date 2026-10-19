@@ -3238,6 +3238,64 @@
             for (const key in window.monodoseDatabase) {
                 window.drugDatabase[key] = window.monodoseDatabase[key];
             }
+
+            // 🎯 Universal clinical propagation: propagate exact Monodose doses to ALL matching drugs in drugDatabase
+            const mDB = window.monodoseDatabase;
+            let linkedCount = 0;
+            for (const key in window.drugDatabase) {
+                const drug = window.drugDatabase[key];
+                if (!drug) continue;
+                const sTrade = (drug.tradeName || drug.name || "").toLowerCase();
+                const sActive = (drug.name || "").toLowerCase();
+                const sComp = (drug.composition || "").toLowerCase();
+                const sForm = (drug.formulation || drug.dosage_form || "").toLowerCase();
+
+                const isSusp = sTrade.includes("susp") || sTrade.includes("syp") || sTrade.includes("syrup") || sForm.includes("susp") || sComp.includes("susp") || sComp.includes("syrup") || sTrade.includes("drop");
+                const isTab = sTrade.includes("tab") || sTrade.includes("cap") || sForm.includes("tab") || sForm.includes("cap") || sComp.includes("tablet") || sComp.includes("capsule");
+
+                const isAmoxClav = (sComp.includes("amoxicillin") && (sComp.includes("clavulan") || sComp.includes("clav"))) ||
+                                   (sActive.includes("amoxicillin") && (sActive.includes("clavulan") || sActive.includes("clav"))) ||
+                                   ["augmentin", "hibiotic", "curam", "megamox", "magnabiotic", "klavox", "emoxclav", "clavimox", "newclav", "deltaclav", "amoclan", "dexiclave", "amoclawin", "julmentin", "clavodar", "coamox", "moxclav", "neomox"].some(b => sTrade.includes(b));
+
+                if (isAmoxClav) {
+                    let targetCode = null;
+                    if (isSusp) {
+                        if (sTrade.includes("312") || sComp.includes("312") || (sComp.includes("250") && sComp.includes("62.5")) || (sTrade.includes("250") && sTrade.includes("62.5"))) {
+                            targetCode = "mono_00274";
+                        } else if (sTrade.includes("156") || sComp.includes("156") || (sComp.includes("125") && sComp.includes("31.25")) || (sTrade.includes("125") && sTrade.includes("31.25"))) {
+                            targetCode = "mono_00273";
+                        } else if (sTrade.includes("228") || sComp.includes("228") || (sComp.includes("200") && sComp.includes("28.5")) || (sTrade.includes("200") && sTrade.includes("28.5")) || sTrade.includes("duo")) {
+                            targetCode = "mono_00282";
+                        } else if (sTrade.includes("600") || sComp.includes("600") || sComp.includes("642") || sTrade.includes("642") || sTrade.includes("es")) {
+                            targetCode = "mono_00280";
+                        } else if (sTrade.includes("457") || sComp.includes("457") || (sComp.includes("400") && sComp.includes("57")) || (sTrade.includes("400") && sTrade.includes("57"))) {
+                            targetCode = "mono_00276";
+                        }
+                    } else if (isTab) {
+                        if (["1 gm", "1gm", "1 g", "1g", "1000", "875"].some(x => sTrade.includes(x)) || (sComp.includes("875") && sComp.includes("125"))) {
+                            targetCode = "mono_00271";
+                        } else if (["625", "500"].some(x => sTrade.includes(x)) || (sComp.includes("500") && sComp.includes("125"))) {
+                            targetCode = "mono_00279";
+                        } else if (["375", "250"].some(x => sTrade.includes(x)) || (sComp.includes("250") && sComp.includes("125"))) {
+                            targetCode = "mono_00275";
+                        }
+                    }
+
+                    if (targetCode && mDB[targetCode]) {
+                        const mRef = mDB[targetCode];
+                        drug.doses = mRef.doses;
+                        drug.isMonodose = true;
+                        drug.source = 'monodose';
+                        drug.category = 'Monodose Clinical';
+                        drug.concentration = mRef.concentration;
+                        drug.concentration_per_ml = mRef.concentration;
+                        drug.monodoseTradeName = mRef.tradeName;
+                        drug.monodoseMatchType = 'equivalent';
+                        linkedCount++;
+                    }
+                }
+            }
+            console.log(`🔗 Auto-linked ${linkedCount} clinical Amox+Clav formulations to exact Monodose doses.`);
         }
     </script>
     <script>
@@ -12954,13 +13012,17 @@ ${patientWarning}
                             }
                         } else if (dose.indType === 'augmentin_aom_sinusitis') {
                             if (isPediatric) {
-                                const factor = ind.std_factor || dose.stdFactor || 0.30;
+                                let factor = ind.std_factor || dose.stdFactor;
+                                if (!factor || factor === 0.44 || factor > 0.35) {
+                                    factor = 0.30;
+                                }
                                 const stdMl = roundCl(w * factor);
-                                const freq = ind.frequency || dose.frequency || 'q8hr for 10 days';
+                                const rawFreq = ind.frequency || dose.frequency || 'q8hr for 10 days';
+                                const freq = rawFreq.includes('q8-12hr') ? 'q8hr for 10 days' : rawFreq;
                                 displayDose = `Standard: ${stdMl} mL ${freq}`;
                                 singleDose = `${stdMl} mL (Standard-dose)`;
                                 freqText = freq;
-                                const dosesPerDay = dose.maxDosesPerDay || (freq.includes('q8hr') ? 3 : 2);
+                                const dosesPerDay = (freq.includes('q8hr') ? 3 : 2);
                                 dailyDose = `${roundCl(stdMl * dosesPerDay)} mL / day`;
                                 durText = `10 days`;
                             } else {
@@ -12972,13 +13034,23 @@ ${patientWarning}
                             }
                         } else if (dose.indType === 'augmentin_range') {
                             if (isPediatric) {
-                                const lowMl = roundCl(w * (ind.low_factor || dose.lowFactor || 0.16875));
-                                const highMl = roundCl(w * (ind.high_factor || dose.highFactor || 0.2375));
-                                const freq = ind.frequency || dose.frequency || 'q8hr';
+                                let lowF = ind.low_factor || dose.lowFactor;
+                                let highF = ind.high_factor || dose.highFactor;
+                                if (lowF === 0.25 && highF === 0.45) {
+                                    lowF = 0.16875;
+                                    highF = 0.2375;
+                                } else if (lowF === 0.2 && highF === 0.5) {
+                                    lowF = 0.13125;
+                                    highF = 0.26875;
+                                }
+                                const lowMl = roundCl(w * (lowF || 0.16875));
+                                const highMl = roundCl(w * (highF || 0.2375));
+                                const rawFreq = ind.frequency || dose.frequency || 'q8hr';
+                                const freq = rawFreq.includes('q8-12hr') ? 'q8hr' : rawFreq;
                                 displayDose = `${lowMl} - ${highMl} mL ${freq}`;
                                 singleDose = `${lowMl} - ${highMl} mL`;
                                 freqText = freq;
-                                const dosesPerDay = dose.maxDosesPerDay || (freq.includes('q8hr') ? 3 : 2);
+                                const dosesPerDay = (freq.includes('q8hr') ? 3 : 2);
                                 dailyDose = `${roundCl(lowMl * dosesPerDay)} - ${roundCl(highMl * dosesPerDay)} mL / day`;
                                 durText = durText || '7-14 days';
                             } else {
@@ -19265,13 +19337,17 @@ ${patientWarning}
                             }
                         } else if (dose.indType === 'augmentin_aom_sinusitis') {
                             if (isPediatric) {
-                                const factor = ind.std_factor || dose.stdFactor || 0.30;
+                                let factor = ind.std_factor || dose.stdFactor;
+                                if (!factor || factor === 0.44 || factor > 0.35) {
+                                    factor = 0.30;
+                                }
                                 const stdMl = roundCl(w * factor);
-                                const freq = ind.frequency || dose.frequency || 'q8hr for 10 days';
+                                const rawFreq = ind.frequency || dose.frequency || 'q8hr for 10 days';
+                                const freq = rawFreq.includes('q8-12hr') ? 'q8hr for 10 days' : rawFreq;
                                 displayDose = `Standard: ${stdMl} mL ${freq}`;
                                 singleDose = `${stdMl} mL (Standard-dose)`;
                                 freqText = freq;
-                                const dosesPerDay = dose.maxDosesPerDay || (freq.includes('q8hr') ? 3 : 2);
+                                const dosesPerDay = (freq.includes('q8hr') ? 3 : 2);
                                 dailyDose = `${roundCl(stdMl * dosesPerDay)} mL / day`;
                                 durText = `10 days`;
                             } else {
@@ -19283,13 +19359,23 @@ ${patientWarning}
                             }
                         } else if (dose.indType === 'augmentin_range') {
                             if (isPediatric) {
-                                const lowMl = roundCl(w * (ind.low_factor || dose.lowFactor || 0.16875));
-                                const highMl = roundCl(w * (ind.high_factor || dose.highFactor || 0.2375));
-                                const freq = ind.frequency || dose.frequency || 'q8hr';
+                                let lowF = ind.low_factor || dose.lowFactor;
+                                let highF = ind.high_factor || dose.highFactor;
+                                if (lowF === 0.25 && highF === 0.45) {
+                                    lowF = 0.16875;
+                                    highF = 0.2375;
+                                } else if (lowF === 0.2 && highF === 0.5) {
+                                    lowF = 0.13125;
+                                    highF = 0.26875;
+                                }
+                                const lowMl = roundCl(w * (lowF || 0.16875));
+                                const highMl = roundCl(w * (highF || 0.2375));
+                                const rawFreq = ind.frequency || dose.frequency || 'q8hr';
+                                const freq = rawFreq.includes('q8-12hr') ? 'q8hr' : rawFreq;
                                 displayDose = `${lowMl} - ${highMl} mL ${freq}`;
                                 singleDose = `${lowMl} - ${highMl} mL`;
                                 freqText = freq;
-                                const dosesPerDay = dose.maxDosesPerDay || (freq.includes('q8hr') ? 3 : 2);
+                                const dosesPerDay = (freq.includes('q8hr') ? 3 : 2);
                                 dailyDose = `${roundCl(lowMl * dosesPerDay)} - ${roundCl(highMl * dosesPerDay)} mL / day`;
                                 durText = durText || '7-14 days';
                             } else {
