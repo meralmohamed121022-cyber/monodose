@@ -3311,23 +3311,38 @@
   {
     "trade_name": "Amrizole Susp",
     "dosage_form": "suspension",
-    "active_ingredient": "Amrizole",
-    "concentration": "",
-    "composition": "Amrizole (suspension)",
-    "concentration_per_ml": 20.0,
-    "administration": "Taken with or without food. Shake well before use.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "active_ingredient": "Metronidazole",
+    "concentration": "125 mg / 5 ml",
+    "composition": "Metronidazole 125 mg / 5 ml",
+    "concentration_per_ml": 25.0,
+    "administration": "Taken with meals to minimize gastrointestinal irritation. Avoid alcohol completely during therapy and for 48 hours after.",
+    "pregnancy": "Category B (Contraindicated in 1st trimester for trichomoniasis)",
+    "lactation": "Potential toxicity - pump and discard during and 12-24h after",
     "g6pd": "Safe",
-    "alternatives": "Amrizole susp",
-    "search_terms": "amrizole susp amrizole susp amrizole amrizole suspension ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Flagyl / Amrizole / Flagellat / Dumozol / Tricocid",
+    "search_terms": "amrizole susp amrizole susp metronidazole flagyl amrizole antiprotozoal anaerobic amebiasis giardiasis",
+    "reference_url": "https://reference.medscape.com/drug/flagyl-metronidazole-342566",
     "indications": [
       {
-        "title": "Therapeutic Oral Dosage Regimen",
-        "adult_fixed": "5 to 10 ml q8-12hr with or without food",
+        "title": "Amebiasis (Intestinal / Hepatic)",
+        "adult_fixed": "500 to 750 mg orally q8hr for 7-10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr for 7-10 days (35-50 mg/kg/day)",
+        "max_daily_mg": 2250.0
+      },
+      {
+        "title": "Giardiasis",
+        "adult_fixed": "250 mg q8hr for 5-7 days (or 2 gm once daily for 3 days)",
+        "pediatric_mg_kg": 5.0,
+        "frequency": "q8hr for 5-7 days (15 mg/kg/day)",
+        "max_daily_mg": 750.0
+      },
+      {
+        "title": "Anaerobic Bacterial Infections / Dental Abscess",
+        "adult_fixed": "500 mg orally q6-8hr for 7-10 days",
         "pediatric_mg_kg": 10.0,
-        "frequency": "divided q8-12hr with or without food"
+        "frequency": "q8hr (30 mg/kg/day)",
+        "max_daily_mg": 2000.0
       }
     ],
     "id": "amrizole_susp"
@@ -3335,23 +3350,38 @@
   {
     "trade_name": "Amrizole Suspension",
     "dosage_form": "suspension",
-    "active_ingredient": "Amrizole",
-    "concentration": "",
-    "composition": "Amrizole (suspension)",
-    "concentration_per_ml": 20.0,
-    "administration": "Taken with or without food. Shake well before use.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "active_ingredient": "Metronidazole",
+    "concentration": "125 mg / 5 ml",
+    "composition": "Metronidazole 125 mg / 5 ml",
+    "concentration_per_ml": 25.0,
+    "administration": "Taken with meals to minimize gastrointestinal irritation. Avoid alcohol completely during therapy and for 48 hours after.",
+    "pregnancy": "Category B (Contraindicated in 1st trimester for trichomoniasis)",
+    "lactation": "Potential toxicity - pump and discard during and 12-24h after",
     "g6pd": "Safe",
-    "alternatives": "Amrizole susp",
-    "search_terms": "amrizole suspension amrizole susp amrizole amrizole suspension ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Flagyl / Amrizole / Flagellat / Dumozol / Tricocid",
+    "search_terms": "amrizole suspension amrizole susp metronidazole flagyl amrizole antiprotozoal anaerobic amebiasis giardiasis",
+    "reference_url": "https://reference.medscape.com/drug/flagyl-metronidazole-342566",
     "indications": [
       {
-        "title": "Therapeutic Oral Dosage Regimen",
-        "adult_fixed": "5 to 10 ml q8-12hr with or without food",
+        "title": "Amebiasis (Intestinal / Hepatic)",
+        "adult_fixed": "500 to 750 mg orally q8hr for 7-10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr for 7-10 days (35-50 mg/kg/day)",
+        "max_daily_mg": 2250.0
+      },
+      {
+        "title": "Giardiasis",
+        "adult_fixed": "250 mg q8hr for 5-7 days (or 2 gm once daily for 3 days)",
+        "pediatric_mg_kg": 5.0,
+        "frequency": "q8hr for 5-7 days (15 mg/kg/day)",
+        "max_daily_mg": 750.0
+      },
+      {
+        "title": "Anaerobic Bacterial Infections / Dental Abscess",
+        "adult_fixed": "500 mg orally q6-8hr for 7-10 days",
         "pediatric_mg_kg": 10.0,
-        "frequency": "divided q8-12hr with or without food"
+        "frequency": "q8hr (30 mg/kg/day)",
+        "max_daily_mg": 2000.0
       }
     ],
     "id": "amrizole_suspension"
@@ -3359,21 +3389,26 @@
   {
     "trade_name": "Amrizole Tablets",
     "dosage_form": "tablet",
-    "active_ingredient": "Metronidazole only",
-    "concentration": "250mg",
-    "composition": "Metronidazole only 250mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "active_ingredient": "Metronidazole",
+    "concentration": "250 mg",
+    "composition": "Metronidazole 250 mg",
+    "administration": "Taken with meals to minimize gastrointestinal irritation. Avoid alcohol completely during therapy and for 48 hours after.",
+    "pregnancy": "Category B (Contraindicated in 1st trimester for trichomoniasis)",
+    "lactation": "Potential toxicity - pump and discard during and 12-24h after",
     "g6pd": "Safe",
-    "alternatives": "amrizole Metronidazole only flagyl flagicure metrozole trichocid trichogyl 250mg tablets",
-    "search_terms": "amrizole tablets amrizole metronidazole only flagyl flagicure metrozole trichocid trichogyl 250mg tablets metronidazole only amrizole tablet 250mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Flagyl / Amrizole / Flagellat / Dumozol / Tricocid",
+    "search_terms": "amrizole tablets amrizole metronidazole only flagyl flagicure metrozole trichocid trichogyl 250mg tablets metronidazole flagyl amrizole antiprotozoal anaerobic amebiasis giardiasis",
+    "reference_url": "https://reference.medscape.com/drug/flagyl-metronidazole-342566",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Amebiasis / Anaerobic Infections / Trichomoniasis",
+        "adult_fixed": "500 mg q8hr for 7-10 days (or 2 gm single dose for Trichomoniasis)",
+        "pediatric_fixed": "Use oral suspension for pediatric patients"
+      },
+      {
+        "title": "Bacterial Vaginosis",
+        "adult_fixed": "500 mg orally twice daily for 7 days",
+        "pediatric_fixed": "Use under specialist guidance"
       }
     ],
     "id": "amrizole_tablets"
@@ -11950,21 +11985,31 @@
   {
     "trade_name": "Ceporex 250 Tab",
     "dosage_form": "tablet",
-    "active_ingredient": "Cephalexin cefalexin",
-    "concentration": "250mg/5ml",
-    "composition": "Cephalexin cefalexin 250mg/5ml",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "active_ingredient": "Cephalexin",
+    "concentration": "250 mg",
+    "composition": "Cephalexin 250 mg",
+    "administration": "Taken with or without meals. Can be taken with meals if gastrointestinal upset occurs.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Ceporex Cephalexin cefalexin amthrost cephoxin keflex mediceflexin neocef ospexin 250mg/5ml suspension",
-    "search_terms": "ceporex 250 tab ceporex cephalexin cefalexin amthrost cephoxin keflex mediceflexin neocef ospexin 250mg/5ml suspension cephalexin cefalexin ceporex tablet 250mg/5ml",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Ibilex / Ceporex / Ospexin / Ceff",
+    "search_terms": "ceporex 250 tab ceporex cephalexin cefalexin amthrost cephoxin keflex mediceflexin neocef ospexin 250mg/5ml suspension cephalexin cefalexin ibilex ceporex first generation cephalosporin antibiotic",
+    "reference_url": "https://reference.medscape.com/drug/keflex-cephalexin-342490",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Streptococcal Pharyngitis / Skin & Soft Tissue Infections",
+        "adult_fixed": "500 mg orally q12hr (or 250 mg q6hr) for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Uncomplicated Urinary Tract Infections",
+        "adult_fixed": "500 mg orally q12hr for 7-14 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Bone & Joint Infections / Severe RTI",
+        "adult_fixed": "1 gm to 1.5 gm orally q6-8hr (Max 4 gm/day)",
+        "pediatric_fixed": "Use oral suspension or IV therapy"
       }
     ],
     "id": "ceporex_250_tab"
@@ -11972,21 +12017,31 @@
   {
     "trade_name": "Ceporex 500 Tab",
     "dosage_form": "tablet",
-    "active_ingredient": "Ceporex",
-    "concentration": "",
-    "composition": "Ceporex (tablet)",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "active_ingredient": "Cephalexin",
+    "concentration": "500 mg",
+    "composition": "Cephalexin 500 mg",
+    "administration": "Taken with or without meals. Can be taken with meals if gastrointestinal upset occurs.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Ceporex 500 tab",
-    "search_terms": "ceporex 500 tab ceporex 500 tab ceporex ceporex tablet ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Ibilex / Ceporex / Ospexin / Ceff",
+    "search_terms": "ceporex 500 tab ceporex 500 tab cephalexin cefalexin ibilex ceporex first generation cephalosporin antibiotic",
+    "reference_url": "https://reference.medscape.com/drug/keflex-cephalexin-342490",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Streptococcal Pharyngitis / Skin & Soft Tissue Infections",
+        "adult_fixed": "500 mg orally q12hr (or 250 mg q6hr) for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Uncomplicated Urinary Tract Infections",
+        "adult_fixed": "500 mg orally q12hr for 7-14 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Bone & Joint Infections / Severe RTI",
+        "adult_fixed": "1 gm to 1.5 gm orally q6-8hr (Max 4 gm/day)",
+        "pediatric_fixed": "Use oral suspension or IV therapy"
       }
     ],
     "id": "ceporex_500_tab"
@@ -11994,23 +12049,38 @@
   {
     "trade_name": "Ceporex Suspension",
     "dosage_form": "suspension",
-    "active_ingredient": "Cephalexin cefalexin",
-    "concentration": "250mg/5ml",
-    "composition": "Cephalexin cefalexin 250mg/5ml",
-    "concentration_per_ml": 20.0,
-    "administration": "Taken with or without food. Shake well before use.",
+    "active_ingredient": "Cephalexin",
+    "concentration": "250 mg / 5 ml",
+    "composition": "Cephalexin 250 mg / 5 ml",
+    "concentration_per_ml": 50.0,
+    "administration": "Taken with or without meals. Can be taken with meals if gastrointestinal upset occurs.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Ceporex Cephalexin cefalexin amthrost cephoxin keflex mediceflexin neocef ospexin 250mg/5ml suspension",
-    "search_terms": "ceporex suspension ceporex cephalexin cefalexin amthrost cephoxin keflex mediceflexin neocef ospexin 250mg/5ml suspension cephalexin cefalexin ceporex suspension 250mg/5ml",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Ibilex / Ceporex / Ospexin / Ceff",
+    "search_terms": "ceporex suspension ceporex cephalexin cefalexin amthrost cephoxin keflex mediceflexin neocef ospexin 250mg/5ml suspension cephalexin cefalexin ibilex ceporex first generation cephalosporin antibiotic",
+    "reference_url": "https://reference.medscape.com/drug/keflex-cephalexin-342490",
     "indications": [
       {
-        "title": "Therapeutic Oral Dosage Regimen",
-        "adult_fixed": "5 to 10 ml q8-12hr with or without food",
-        "pediatric_mg_kg": 10.0,
-        "frequency": "divided q8-12hr with or without food"
+        "title": "Streptococcal Pharyngitis / Skin & Soft Tissue / Impetigo",
+        "adult_fixed": "500 mg q12hr (or 250 mg q6hr) for 10 days",
+        "pediatric_mg_kg": 12.5,
+        "frequency": "q12hr for 10 days (25-50 mg/kg/day)",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Acute Otitis Media",
+        "adult_fixed": "500 mg q6hr for 10-14 days",
+        "pediatric_mg_kg": 18.75,
+        "frequency": "q6hr or 25 mg/kg q8hr for 10-14 days (75-100 mg/kg/day)",
+        "max_daily_mg": 2000.0
+      },
+      {
+        "title": "Uncomplicated Urinary Tract Infection",
+        "adult_fixed": "500 mg q12hr for 7-14 days",
+        "pediatric_mg_kg": 12.5,
+        "frequency": "q12hr for 7-14 days",
+        "max_daily_mg": 1000.0
       }
     ],
     "id": "ceporex_suspension"
@@ -12018,21 +12088,31 @@
   {
     "trade_name": "Ceporex Tab",
     "dosage_form": "tablet",
-    "active_ingredient": "Cephalexin cefalexin",
-    "concentration": "1000mg",
-    "composition": "Cephalexin cefalexin 1000mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "active_ingredient": "Cephalexin",
+    "concentration": "1 gm",
+    "composition": "Cephalexin 1 gm",
+    "administration": "Taken with or without meals. Can be taken with meals if gastrointestinal upset occurs.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "ceporex Cephalexin cefalexin ceporex cefoldex cefoldex starcef starcef cephoxin gramocef keflex ospexin respicef 1000mg 1gm tablets",
-    "search_terms": "ceporex tab ceporex cephalexin cefalexin ceporex cefoldex cefoldex starcef starcef cephoxin gramocef keflex ospexin respicef 1000mg 1gm tablets cephalexin cefalexin ceporex tablet 1000mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Ibilex / Ceporex / Ospexin / Ceff",
+    "search_terms": "ceporex tab ceporex cephalexin cefalexin ceporex cefoldex cefoldex starcef starcef cephoxin gramocef keflex ospexin respicef 1000mg 1gm tablets cephalexin cefalexin ibilex ceporex first generation cephalosporin antibiotic",
+    "reference_url": "https://reference.medscape.com/drug/keflex-cephalexin-342490",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Streptococcal Pharyngitis / Skin & Soft Tissue Infections",
+        "adult_fixed": "500 mg orally q12hr (or 250 mg q6hr) for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Uncomplicated Urinary Tract Infections",
+        "adult_fixed": "500 mg orally q12hr for 7-14 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Bone & Joint Infections / Severe RTI",
+        "adult_fixed": "1 gm to 1.5 gm orally q6-8hr (Max 4 gm/day)",
+        "pediatric_fixed": "Use oral suspension or IV therapy"
       }
     ],
     "id": "ceporex_tab"
@@ -12040,21 +12120,31 @@
   {
     "trade_name": "Ceporex Tablets",
     "dosage_form": "tablet",
-    "active_ingredient": "Cephalexin cefalexin",
-    "concentration": "1000mg",
-    "composition": "Cephalexin cefalexin 1000mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "active_ingredient": "Cephalexin",
+    "concentration": "1 gm",
+    "composition": "Cephalexin 1 gm",
+    "administration": "Taken with or without meals. Can be taken with meals if gastrointestinal upset occurs.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "ceporex Cephalexin cefalexin ceporex cefoldex cefoldex starcef starcef cephoxin gramocef keflex ospexin respicef 1000mg 1gm tablets",
-    "search_terms": "ceporex tablets ceporex cephalexin cefalexin ceporex cefoldex cefoldex starcef starcef cephoxin gramocef keflex ospexin respicef 1000mg 1gm tablets cephalexin cefalexin ceporex tablet 1000mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Ibilex / Ceporex / Ospexin / Ceff",
+    "search_terms": "ceporex tablets ceporex cephalexin cefalexin ceporex cefoldex cefoldex starcef starcef cephoxin gramocef keflex ospexin respicef 1000mg 1gm tablets cephalexin cefalexin ibilex ceporex first generation cephalosporin antibiotic",
+    "reference_url": "https://reference.medscape.com/drug/keflex-cephalexin-342490",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Streptococcal Pharyngitis / Skin & Soft Tissue Infections",
+        "adult_fixed": "500 mg orally q12hr (or 250 mg q6hr) for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Uncomplicated Urinary Tract Infections",
+        "adult_fixed": "500 mg orally q12hr for 7-14 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Bone & Joint Infections / Severe RTI",
+        "adult_fixed": "1 gm to 1.5 gm orally q6-8hr (Max 4 gm/day)",
+        "pediatric_fixed": "Use oral suspension or IV therapy"
       }
     ],
     "id": "ceporex_tablets"
@@ -13490,21 +13580,26 @@
   {
     "trade_name": "Ciprodiazole Tablets",
     "dosage_form": "tablet",
-    "active_ingredient": "ciprofloxacin metronidazole",
-    "concentration": "500mg",
-    "composition": "ciprofloxacin metronidazole 500mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "active_ingredient": "Metronidazole",
+    "concentration": "500 mg",
+    "composition": "Metronidazole 500 mg",
+    "administration": "Taken with meals to minimize gastrointestinal irritation. Avoid alcohol completely during therapy and for 48 hours after.",
+    "pregnancy": "Category B (Contraindicated in 1st trimester for trichomoniasis)",
+    "lactation": "Potential toxicity - pump and discard during and 12-24h after",
     "g6pd": "Safe",
-    "alternatives": "ciprodiazole ciprofloxacin metronidazole 500mg tablets",
-    "search_terms": "ciprodiazole tablets ciprodiazole ciprofloxacin metronidazole 500mg tablets ciprofloxacin metronidazole ciprodiazole tablet 500mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Flagyl / Amrizole / Flagellat / Dumozol / Tricocid",
+    "search_terms": "ciprodiazole tablets ciprodiazole ciprofloxacin metronidazole 500mg tablets metronidazole flagyl amrizole antiprotozoal anaerobic amebiasis giardiasis",
+    "reference_url": "https://reference.medscape.com/drug/flagyl-metronidazole-342566",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Amebiasis / Anaerobic Infections / Trichomoniasis",
+        "adult_fixed": "500 mg q8hr for 7-10 days (or 2 gm single dose for Trichomoniasis)",
+        "pediatric_fixed": "Use oral suspension for pediatric patients"
+      },
+      {
+        "title": "Bacterial Vaginosis",
+        "adult_fixed": "500 mg orally twice daily for 7 days",
+        "pediatric_fixed": "Use under specialist guidance"
       }
     ],
     "id": "ciprodiazole_tablets"
@@ -16214,21 +16309,31 @@
   {
     "trade_name": "Curisafe 1 Gm Tab",
     "dosage_form": "tablet",
-    "active_ingredient": "Cefadroxil biodroxil",
+    "active_ingredient": "Cefadroxil",
     "concentration": "1 gm",
-    "composition": "Cefadroxil biodroxil 1 gm",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "composition": "Cefadroxil 1 gm",
+    "administration": "Taken with or without meals. Can be taken with meals to minimize GI complaints.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Curisafe Cefadroxil biodroxil duricef ibidroxil cefaxoral cefex cefix 1000mg 1gm capsules",
-    "search_terms": "curisafe 1 gm tab curisafe cefadroxil biodroxil duricef ibidroxil cefaxoral cefex cefix 1000mg 1gm capsules cefadroxil biodroxil curisafe tablet 1 gm",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Curisafe / Duricef / Cefadrox / Biodroxil",
+    "search_terms": "curisafe 1 gm tab curisafe cefadroxil biodroxil duricef ibidroxil cefaxoral cefex cefix 1000mg 1gm capsules cefadroxil curisafe duricef cephalosporin antibiotic pharyngitis skin uti",
+    "reference_url": "https://reference.medscape.com/drug/duricef-cefadroxil-342489",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Pharyngitis / Tonsillitis (Group A Streptococcal)",
+        "adult_fixed": "1 gm orally once daily (or 500 mg q12hr) for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Skin & Soft Tissue Infections",
+        "adult_fixed": "1 gm orally once daily or 500 mg q12hr for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Uncomplicated Urinary Tract Infections",
+        "adult_fixed": "1 gm to 2 gm orally daily in single or 2 divided doses",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
       }
     ],
     "id": "curisafe_1_gm_tab"
@@ -16236,23 +16341,38 @@
   {
     "trade_name": "Curisafe 125 Susp",
     "dosage_form": "suspension",
-    "active_ingredient": "Curisafe",
-    "concentration": "",
-    "composition": "Curisafe (suspension)",
-    "concentration_per_ml": 20.0,
-    "administration": "Taken with or without food. Shake well before use.",
+    "active_ingredient": "Cefadroxil",
+    "concentration": "125 mg / 5 ml",
+    "composition": "Cefadroxil 125 mg / 5 ml",
+    "concentration_per_ml": 25.0,
+    "administration": "Taken with or without meals. Can be taken with meals to minimize GI complaints.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Curisafe 125 susp",
-    "search_terms": "curisafe 125 susp curisafe 125 susp curisafe curisafe suspension ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Curisafe / Duricef / Cefadrox / Biodroxil",
+    "search_terms": "curisafe 125 susp curisafe 125 susp cefadroxil curisafe duricef cephalosporin antibiotic pharyngitis skin uti",
+    "reference_url": "https://reference.medscape.com/drug/duricef-cefadroxil-342489",
     "indications": [
       {
-        "title": "Therapeutic Oral Dosage Regimen",
-        "adult_fixed": "5 to 10 ml q8-12hr with or without food",
-        "pediatric_mg_kg": 10.0,
-        "frequency": "divided q8-12hr with or without food"
+        "title": "Pharyngitis / Tonsillitis (Group A Streptococcal)",
+        "adult_fixed": "1 gm once daily (or 500 mg q12hr) for 10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q12hr (or 30 mg/kg once daily) for 10 days",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Skin & Soft Tissue Infections / Impetigo",
+        "adult_fixed": "1 gm daily in single or 2 divided doses for 10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q12hr for 10 days (30 mg/kg/day)",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Uncomplicated Urinary Tract Infections",
+        "adult_fixed": "1-2 gm daily in 1-2 divided doses",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q12hr for 7-14 days",
+        "max_daily_mg": 2000.0
       }
     ],
     "id": "curisafe_125_susp"
@@ -16260,23 +16380,38 @@
   {
     "trade_name": "Curisafe 250 Susp",
     "dosage_form": "suspension",
-    "active_ingredient": "Cefadroxil biodroxil",
-    "concentration": "250mg/5ml",
-    "composition": "Cefadroxil biodroxil 250mg/5ml",
-    "concentration_per_ml": 20.0,
-    "administration": "Taken with or without food. Shake well before use.",
+    "active_ingredient": "Cefadroxil",
+    "concentration": "250 mg / 5 ml",
+    "composition": "Cefadroxil 250 mg / 5 ml",
+    "concentration_per_ml": 50.0,
+    "administration": "Taken with or without meals. Can be taken with meals to minimize GI complaints.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Curisafe Cefadroxil biodroxil cephadrol duricef ibidroxil longicef roxil 250mg/5ml suspension",
-    "search_terms": "curisafe 250 susp curisafe cefadroxil biodroxil cephadrol duricef ibidroxil longicef roxil 250mg/5ml suspension cefadroxil biodroxil curisafe suspension 250mg/5ml",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Curisafe / Duricef / Cefadrox / Biodroxil",
+    "search_terms": "curisafe 250 susp curisafe cefadroxil biodroxil cephadrol duricef ibidroxil longicef roxil 250mg/5ml suspension cefadroxil curisafe duricef cephalosporin antibiotic pharyngitis skin uti",
+    "reference_url": "https://reference.medscape.com/drug/duricef-cefadroxil-342489",
     "indications": [
       {
-        "title": "Therapeutic Oral Dosage Regimen",
-        "adult_fixed": "5 to 10 ml q8-12hr with or without food",
-        "pediatric_mg_kg": 10.0,
-        "frequency": "divided q8-12hr with or without food"
+        "title": "Pharyngitis / Tonsillitis (Group A Streptococcal)",
+        "adult_fixed": "1 gm once daily (or 500 mg q12hr) for 10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q12hr (or 30 mg/kg once daily) for 10 days",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Skin & Soft Tissue Infections / Impetigo",
+        "adult_fixed": "1 gm daily in single or 2 divided doses for 10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q12hr for 10 days (30 mg/kg/day)",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Uncomplicated Urinary Tract Infections",
+        "adult_fixed": "1-2 gm daily in 1-2 divided doses",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q12hr for 7-14 days",
+        "max_daily_mg": 2000.0
       }
     ],
     "id": "curisafe_250_susp"
@@ -16284,23 +16419,38 @@
   {
     "trade_name": "Curisafe 500 Susp",
     "dosage_form": "suspension",
-    "active_ingredient": "Cefadroxil biodroxil",
-    "concentration": "500mg/5ml",
-    "composition": "Cefadroxil biodroxil 500mg/5ml",
-    "concentration_per_ml": 20.0,
-    "administration": "Taken with or without food. Shake well before use.",
+    "active_ingredient": "Cefadroxil",
+    "concentration": "500 mg / 5 ml",
+    "composition": "Cefadroxil 500 mg / 5 ml",
+    "concentration_per_ml": 100.0,
+    "administration": "Taken with or without meals. Can be taken with meals to minimize GI complaints.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Curisafe Cefadroxil biodroxil duricef ibidroxil 500mg/5ml suspension",
-    "search_terms": "curisafe 500 susp curisafe cefadroxil biodroxil duricef ibidroxil 500mg/5ml suspension cefadroxil biodroxil curisafe suspension 500mg/5ml",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Curisafe / Duricef / Cefadrox / Biodroxil",
+    "search_terms": "curisafe 500 susp curisafe cefadroxil biodroxil duricef ibidroxil 500mg/5ml suspension cefadroxil curisafe duricef cephalosporin antibiotic pharyngitis skin uti",
+    "reference_url": "https://reference.medscape.com/drug/duricef-cefadroxil-342489",
     "indications": [
       {
-        "title": "Therapeutic Oral Dosage Regimen",
-        "adult_fixed": "5 to 10 ml q8-12hr with or without food",
-        "pediatric_mg_kg": 10.0,
-        "frequency": "divided q8-12hr with or without food"
+        "title": "Pharyngitis / Tonsillitis (Group A Streptococcal)",
+        "adult_fixed": "1 gm once daily (or 500 mg q12hr) for 10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q12hr (or 30 mg/kg once daily) for 10 days",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Skin & Soft Tissue Infections / Impetigo",
+        "adult_fixed": "1 gm daily in single or 2 divided doses for 10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q12hr for 10 days (30 mg/kg/day)",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Uncomplicated Urinary Tract Infections",
+        "adult_fixed": "1-2 gm daily in 1-2 divided doses",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q12hr for 7-14 days",
+        "max_daily_mg": 2000.0
       }
     ],
     "id": "curisafe_500_susp"
@@ -16330,21 +16480,31 @@
   {
     "trade_name": "Curisafe Capsules",
     "dosage_form": "capsule",
-    "active_ingredient": "Cefadroxil biodroxil",
-    "concentration": "1000mg",
-    "composition": "Cefadroxil biodroxil 1000mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "active_ingredient": "Cefadroxil",
+    "concentration": "1 gm",
+    "composition": "Cefadroxil 1 gm",
+    "administration": "Taken with or without meals. Can be taken with meals to minimize GI complaints.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Curisafe Cefadroxil biodroxil duricef ibidroxil cefaxoral cefex cefix 1000mg 1gm capsules",
-    "search_terms": "curisafe capsules curisafe cefadroxil biodroxil duricef ibidroxil cefaxoral cefex cefix 1000mg 1gm capsules cefadroxil biodroxil curisafe capsule 1000mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Curisafe / Duricef / Cefadrox / Biodroxil",
+    "search_terms": "curisafe capsules curisafe cefadroxil biodroxil duricef ibidroxil cefaxoral cefex cefix 1000mg 1gm capsules cefadroxil curisafe duricef cephalosporin antibiotic pharyngitis skin uti",
+    "reference_url": "https://reference.medscape.com/drug/duricef-cefadroxil-342489",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 capsule once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Pharyngitis / Tonsillitis (Group A Streptococcal)",
+        "adult_fixed": "1 gm orally once daily (or 500 mg q12hr) for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Skin & Soft Tissue Infections",
+        "adult_fixed": "1 gm orally once daily or 500 mg q12hr for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Uncomplicated Urinary Tract Infections",
+        "adult_fixed": "1 gm to 2 gm orally daily in single or 2 divided doses",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
       }
     ],
     "id": "curisafe_capsules"
@@ -16374,23 +16534,38 @@
   {
     "trade_name": "Curisafe Susp",
     "dosage_form": "suspension",
-    "active_ingredient": "Cefadroxil biodroxil",
-    "concentration": "500mg/5ml",
-    "composition": "Cefadroxil biodroxil 500mg/5ml",
-    "concentration_per_ml": 20.0,
-    "administration": "Taken with or without food. Shake well before use.",
+    "active_ingredient": "Cefadroxil",
+    "concentration": "500 mg / 5 ml",
+    "composition": "Cefadroxil 500 mg / 5 ml",
+    "concentration_per_ml": 100.0,
+    "administration": "Taken with or without meals. Can be taken with meals to minimize GI complaints.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Curisafe Cefadroxil biodroxil duricef ibidroxil 500mg/5ml suspension",
-    "search_terms": "curisafe susp curisafe cefadroxil biodroxil duricef ibidroxil 500mg/5ml suspension cefadroxil biodroxil curisafe suspension 500mg/5ml",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Curisafe / Duricef / Cefadrox / Biodroxil",
+    "search_terms": "curisafe susp curisafe cefadroxil biodroxil duricef ibidroxil 500mg/5ml suspension cefadroxil curisafe duricef cephalosporin antibiotic pharyngitis skin uti",
+    "reference_url": "https://reference.medscape.com/drug/duricef-cefadroxil-342489",
     "indications": [
       {
-        "title": "Therapeutic Oral Dosage Regimen",
-        "adult_fixed": "5 to 10 ml q8-12hr with or without food",
-        "pediatric_mg_kg": 10.0,
-        "frequency": "divided q8-12hr with or without food"
+        "title": "Pharyngitis / Tonsillitis (Group A Streptococcal)",
+        "adult_fixed": "1 gm once daily (or 500 mg q12hr) for 10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q12hr (or 30 mg/kg once daily) for 10 days",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Skin & Soft Tissue Infections / Impetigo",
+        "adult_fixed": "1 gm daily in single or 2 divided doses for 10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q12hr for 10 days (30 mg/kg/day)",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Uncomplicated Urinary Tract Infections",
+        "adult_fixed": "1-2 gm daily in 1-2 divided doses",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q12hr for 7-14 days",
+        "max_daily_mg": 2000.0
       }
     ],
     "id": "curisafe_susp"
@@ -16398,23 +16573,38 @@
   {
     "trade_name": "Curisafe Suspension",
     "dosage_form": "suspension",
-    "active_ingredient": "Cefadroxil biodroxil",
-    "concentration": "500mg/5ml",
-    "composition": "Cefadroxil biodroxil 500mg/5ml",
-    "concentration_per_ml": 20.0,
-    "administration": "Taken with or without food. Shake well before use.",
+    "active_ingredient": "Cefadroxil",
+    "concentration": "500 mg / 5 ml",
+    "composition": "Cefadroxil 500 mg / 5 ml",
+    "concentration_per_ml": 100.0,
+    "administration": "Taken with or without meals. Can be taken with meals to minimize GI complaints.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Curisafe Cefadroxil biodroxil duricef ibidroxil 500mg/5ml suspension",
-    "search_terms": "curisafe suspension curisafe cefadroxil biodroxil duricef ibidroxil 500mg/5ml suspension cefadroxil biodroxil curisafe suspension 500mg/5ml",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Curisafe / Duricef / Cefadrox / Biodroxil",
+    "search_terms": "curisafe suspension curisafe cefadroxil biodroxil duricef ibidroxil 500mg/5ml suspension cefadroxil curisafe duricef cephalosporin antibiotic pharyngitis skin uti",
+    "reference_url": "https://reference.medscape.com/drug/duricef-cefadroxil-342489",
     "indications": [
       {
-        "title": "Therapeutic Oral Dosage Regimen",
-        "adult_fixed": "5 to 10 ml q8-12hr with or without food",
-        "pediatric_mg_kg": 10.0,
-        "frequency": "divided q8-12hr with or without food"
+        "title": "Pharyngitis / Tonsillitis (Group A Streptococcal)",
+        "adult_fixed": "1 gm once daily (or 500 mg q12hr) for 10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q12hr (or 30 mg/kg once daily) for 10 days",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Skin & Soft Tissue Infections / Impetigo",
+        "adult_fixed": "1 gm daily in single or 2 divided doses for 10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q12hr for 10 days (30 mg/kg/day)",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Uncomplicated Urinary Tract Infections",
+        "adult_fixed": "1-2 gm daily in 1-2 divided doses",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q12hr for 7-14 days",
+        "max_daily_mg": 2000.0
       }
     ],
     "id": "curisafe_suspension"
@@ -16422,21 +16612,31 @@
   {
     "trade_name": "Curisafe Tab",
     "dosage_form": "tablet",
-    "active_ingredient": "Curisafe",
+    "active_ingredient": "Cefadroxil",
     "concentration": "1 gm",
-    "composition": "Curisafe 1 gm",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "composition": "Cefadroxil 1 gm",
+    "administration": "Taken with or without meals. Can be taken with meals to minimize GI complaints.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Curisafe 1 gm tab",
-    "search_terms": "curisafe tab curisafe 1 gm tab curisafe curisafe tablet 1 gm",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Curisafe / Duricef / Cefadrox / Biodroxil",
+    "search_terms": "curisafe tab curisafe 1 gm tab cefadroxil curisafe duricef cephalosporin antibiotic pharyngitis skin uti",
+    "reference_url": "https://reference.medscape.com/drug/duricef-cefadroxil-342489",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Pharyngitis / Tonsillitis (Group A Streptococcal)",
+        "adult_fixed": "1 gm orally once daily (or 500 mg q12hr) for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Skin & Soft Tissue Infections",
+        "adult_fixed": "1 gm orally once daily or 500 mg q12hr for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Uncomplicated Urinary Tract Infections",
+        "adult_fixed": "1 gm to 2 gm orally daily in single or 2 divided doses",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
       }
     ],
     "id": "curisafe_tab"
@@ -20198,21 +20398,31 @@
   {
     "trade_name": "Duricef 250 Cap",
     "dosage_form": "capsule",
-    "active_ingredient": "Duricef",
-    "concentration": "",
-    "composition": "Duricef (capsule)",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "active_ingredient": "Cefadroxil",
+    "concentration": "500 mg",
+    "composition": "Cefadroxil 500 mg",
+    "administration": "Taken with or without meals. Can be taken with meals to minimize GI complaints.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Duricef 250 cap",
-    "search_terms": "duricef 250 cap duricef 250 cap duricef duricef capsule ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Curisafe / Duricef / Cefadrox / Biodroxil",
+    "search_terms": "duricef 250 cap duricef 250 cap cefadroxil curisafe duricef cephalosporin antibiotic pharyngitis skin uti",
+    "reference_url": "https://reference.medscape.com/drug/duricef-cefadroxil-342489",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 capsule once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Pharyngitis / Tonsillitis (Group A Streptococcal)",
+        "adult_fixed": "1 gm orally once daily (or 500 mg q12hr) for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Skin & Soft Tissue Infections",
+        "adult_fixed": "1 gm orally once daily or 500 mg q12hr for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Uncomplicated Urinary Tract Infections",
+        "adult_fixed": "1 gm to 2 gm orally daily in single or 2 divided doses",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
       }
     ],
     "id": "duricef_250_cap"
@@ -20220,21 +20430,31 @@
   {
     "trade_name": "Duricef Cefadroxil ibidroxil 250mg capsules",
     "dosage_form": "capsule",
-    "active_ingredient": "Duricef",
-    "concentration": "250mg",
-    "composition": "Duricef 250mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "active_ingredient": "Cefadroxil",
+    "concentration": "500 mg",
+    "composition": "Cefadroxil 500 mg",
+    "administration": "Taken with or without meals. Can be taken with meals to minimize GI complaints.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Duricef 250 cap",
-    "search_terms": "duricef cefadroxil ibidroxil 250mg capsules duricef 250 cap duricef duricef capsule 250mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Curisafe / Duricef / Cefadrox / Biodroxil",
+    "search_terms": "duricef cefadroxil ibidroxil 250mg capsules duricef 250 cap cefadroxil curisafe duricef cephalosporin antibiotic pharyngitis skin uti",
+    "reference_url": "https://reference.medscape.com/drug/duricef-cefadroxil-342489",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 capsule once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Pharyngitis / Tonsillitis (Group A Streptococcal)",
+        "adult_fixed": "1 gm orally once daily (or 500 mg q12hr) for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Skin & Soft Tissue Infections",
+        "adult_fixed": "1 gm orally once daily or 500 mg q12hr for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Uncomplicated Urinary Tract Infections",
+        "adult_fixed": "1 gm to 2 gm orally daily in single or 2 divided doses",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
       }
     ],
     "id": "duricef_cefadroxil_ibidroxil_250mg_capsules"
@@ -20242,21 +20462,31 @@
   {
     "trade_name": "Duricef Cap",
     "dosage_form": "capsule",
-    "active_ingredient": "Duricef",
-    "concentration": "",
-    "composition": "Duricef (capsule)",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "active_ingredient": "Cefadroxil",
+    "concentration": "500 mg",
+    "composition": "Cefadroxil 500 mg",
+    "administration": "Taken with or without meals. Can be taken with meals to minimize GI complaints.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Duricef 250 cap",
-    "search_terms": "duricef cap duricef 250 cap duricef duricef capsule ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Curisafe / Duricef / Cefadrox / Biodroxil",
+    "search_terms": "duricef cap duricef 250 cap cefadroxil curisafe duricef cephalosporin antibiotic pharyngitis skin uti",
+    "reference_url": "https://reference.medscape.com/drug/duricef-cefadroxil-342489",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 capsule once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Pharyngitis / Tonsillitis (Group A Streptococcal)",
+        "adult_fixed": "1 gm orally once daily (or 500 mg q12hr) for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Skin & Soft Tissue Infections",
+        "adult_fixed": "1 gm orally once daily or 500 mg q12hr for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Uncomplicated Urinary Tract Infections",
+        "adult_fixed": "1 gm to 2 gm orally daily in single or 2 divided doses",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
       }
     ],
     "id": "duricef_cap"
@@ -20264,21 +20494,31 @@
   {
     "trade_name": "Duricef Capsules",
     "dosage_form": "capsule",
-    "active_ingredient": "Duricef",
-    "concentration": "",
-    "composition": "Duricef (capsule)",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "active_ingredient": "Cefadroxil",
+    "concentration": "500 mg",
+    "composition": "Cefadroxil 500 mg",
+    "administration": "Taken with or without meals. Can be taken with meals to minimize GI complaints.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Duricef 250 cap",
-    "search_terms": "duricef capsules duricef 250 cap duricef duricef capsule ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Curisafe / Duricef / Cefadrox / Biodroxil",
+    "search_terms": "duricef capsules duricef 250 cap cefadroxil curisafe duricef cephalosporin antibiotic pharyngitis skin uti",
+    "reference_url": "https://reference.medscape.com/drug/duricef-cefadroxil-342489",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 capsule once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Pharyngitis / Tonsillitis (Group A Streptococcal)",
+        "adult_fixed": "1 gm orally once daily (or 500 mg q12hr) for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Skin & Soft Tissue Infections",
+        "adult_fixed": "1 gm orally once daily or 500 mg q12hr for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Uncomplicated Urinary Tract Infections",
+        "adult_fixed": "1 gm to 2 gm orally daily in single or 2 divided doses",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
       }
     ],
     "id": "duricef_capsules"
@@ -20308,23 +20548,38 @@
   {
     "trade_name": "E-Mox 125 Susp",
     "dosage_form": "suspension",
-    "active_ingredient": "Amoxicillin only",
-    "concentration": "125mg/5ml",
-    "composition": "Amoxicillin only 125mg/5ml",
-    "concentration_per_ml": 20.0,
-    "administration": "Taken with or without food. Shake well before use.",
+    "active_ingredient": "Amoxicillin",
+    "concentration": "125 mg / 5 ml",
+    "composition": "Amoxicillin 125 mg / 5 ml",
+    "concentration_per_ml": 25.0,
+    "administration": "Taken with or without food. May take with meals to reduce stomach upset.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "E-mox Amoxicillin only amoxil biomox emox amoxycillin amoxicid hicillin hiconcil moxipen 125mg/5ml suspension",
-    "search_terms": "e-mox 125 susp e-mox amoxicillin only amoxil biomox emox amoxycillin amoxicid hicillin hiconcil moxipen 125mg/5ml suspension amoxicillin only e-mox suspension 125mg/5ml",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Amoxil / Biomox / E-Mox / Ibiamox / Amoxycillin",
+    "search_terms": "e-mox 125 susp e-mox amoxicillin only amoxil biomox emox amoxycillin amoxicid hicillin hiconcil moxipen 125mg/5ml suspension amoxicillin amoxil biomox penicillin antibiotic otitis media pharyngitis",
+    "reference_url": "https://reference.medscape.com/drug/amoxil-amoxicillin-342472",
     "indications": [
       {
-        "title": "Therapeutic Oral Dosage Regimen",
-        "adult_fixed": "5 to 10 ml q8-12hr with or without food",
-        "pediatric_mg_kg": 10.0,
-        "frequency": "divided q8-12hr with or without food"
+        "title": "Acute Otitis Media (Standard to High Dose)",
+        "adult_fixed": "500-875 mg q12hr (or 500 mg q8hr) for 10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr for 10 days (Standard 45 mg/kg/day OR High-dose 90 mg/kg/day)",
+        "max_daily_mg": 1750.0
+      },
+      {
+        "title": "Streptococcal Pharyngitis / Tonsillitis",
+        "adult_fixed": "500 mg q12hr or 1000 mg once daily for 10 days",
+        "pediatric_mg_kg": 12.5,
+        "frequency": "q12hr for 10 days (25-50 mg/kg/day)",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Community-acquired Pneumonia",
+        "adult_fixed": "500-1000 mg q8hr for 7-10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr for 7-10 days (45-90 mg/kg/day)",
+        "max_daily_mg": 2000.0
       }
     ],
     "id": "e_mox_125_susp"
@@ -20332,23 +20587,38 @@
   {
     "trade_name": "E-Mox 250 Susp",
     "dosage_form": "suspension",
-    "active_ingredient": "Amoxicillin only",
-    "concentration": "250mg/5ml",
-    "composition": "Amoxicillin only 250mg/5ml",
-    "concentration_per_ml": 20.0,
-    "administration": "Taken with or without food. Shake well before use.",
+    "active_ingredient": "Amoxicillin",
+    "concentration": "250 mg / 5 ml",
+    "composition": "Amoxicillin 250 mg / 5 ml",
+    "concentration_per_ml": 50.0,
+    "administration": "Taken with or without food. May take with meals to reduce stomach upset.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "E-mox Amoxicillin only amoxil forte amoxicid amoxycillin biomox emox hiconcil moxipen 250mg/5ml suspension",
-    "search_terms": "e-mox 250 susp e-mox amoxicillin only amoxil forte amoxicid amoxycillin biomox emox hiconcil moxipen 250mg/5ml suspension amoxicillin only e-mox suspension 250mg/5ml",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Amoxil / Biomox / E-Mox / Ibiamox / Amoxycillin",
+    "search_terms": "e-mox 250 susp e-mox amoxicillin only amoxil forte amoxicid amoxycillin biomox emox hiconcil moxipen 250mg/5ml suspension amoxicillin amoxil biomox penicillin antibiotic otitis media pharyngitis",
+    "reference_url": "https://reference.medscape.com/drug/amoxil-amoxicillin-342472",
     "indications": [
       {
-        "title": "Therapeutic Oral Dosage Regimen",
-        "adult_fixed": "5 to 10 ml q8-12hr with or without food",
-        "pediatric_mg_kg": 10.0,
-        "frequency": "divided q8-12hr with or without food"
+        "title": "Acute Otitis Media (Standard to High Dose)",
+        "adult_fixed": "500-875 mg q12hr (or 500 mg q8hr) for 10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr for 10 days (Standard 45 mg/kg/day OR High-dose 90 mg/kg/day)",
+        "max_daily_mg": 1750.0
+      },
+      {
+        "title": "Streptococcal Pharyngitis / Tonsillitis",
+        "adult_fixed": "500 mg q12hr or 1000 mg once daily for 10 days",
+        "pediatric_mg_kg": 12.5,
+        "frequency": "q12hr for 10 days (25-50 mg/kg/day)",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Community-acquired Pneumonia",
+        "adult_fixed": "500-1000 mg q8hr for 7-10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr for 7-10 days (45-90 mg/kg/day)",
+        "max_daily_mg": 2000.0
       }
     ],
     "id": "e_mox_250_susp"
@@ -20356,21 +20626,31 @@
   {
     "trade_name": "E-Mox 500 Cap",
     "dosage_form": "capsule",
-    "active_ingredient": "E-mox",
-    "concentration": "",
-    "composition": "E-mox (capsule)",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "active_ingredient": "Amoxicillin",
+    "concentration": "500 mg",
+    "composition": "Amoxicillin 500 mg",
+    "administration": "Taken with or without food. May take with meals to reduce stomach upset.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "E-mox 500 cap",
-    "search_terms": "e-mox 500 cap e-mox 500 cap e-mox e-mox capsule ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Amoxil / Biomox / E-Mox / Ibiamox / Amoxycillin",
+    "search_terms": "e-mox 500 cap e-mox 500 cap amoxicillin amoxil biomox penicillin antibiotic otitis media pharyngitis",
+    "reference_url": "https://reference.medscape.com/drug/amoxil-amoxicillin-342472",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 capsule once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Acute Otitis Media / Sinusitis / Lower Respiratory Infections",
+        "adult_fixed": "500 to 875 mg orally q12hr or 500 mg q8hr for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Streptococcal Pharyngitis / Tonsillitis",
+        "adult_fixed": "500 mg orally q12hr or 1000 mg once daily for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "H. pylori Eradication (Triple Therapy Regimen)",
+        "adult_fixed": "1000 mg orally q12hr for 14 days (with Clarithromycin 500 mg q12hr and PPI)",
+        "pediatric_fixed": "Use under specialist guidance"
       }
     ],
     "id": "e_mox_500_cap"
@@ -20400,21 +20680,31 @@
   {
     "trade_name": "E-Mox Cap",
     "dosage_form": "capsule",
-    "active_ingredient": "E-mox",
-    "concentration": "",
-    "composition": "E-mox (capsule)",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "active_ingredient": "Amoxicillin",
+    "concentration": "500 mg",
+    "composition": "Amoxicillin 500 mg",
+    "administration": "Taken with or without food. May take with meals to reduce stomach upset.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "E-mox 500 cap",
-    "search_terms": "e-mox cap e-mox 500 cap e-mox e-mox capsule ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Amoxil / Biomox / E-Mox / Ibiamox / Amoxycillin",
+    "search_terms": "e-mox cap e-mox 500 cap amoxicillin amoxil biomox penicillin antibiotic otitis media pharyngitis",
+    "reference_url": "https://reference.medscape.com/drug/amoxil-amoxicillin-342472",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 capsule once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Acute Otitis Media / Sinusitis / Lower Respiratory Infections",
+        "adult_fixed": "500 to 875 mg orally q12hr or 500 mg q8hr for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Streptococcal Pharyngitis / Tonsillitis",
+        "adult_fixed": "500 mg orally q12hr or 1000 mg once daily for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "H. pylori Eradication (Triple Therapy Regimen)",
+        "adult_fixed": "1000 mg orally q12hr for 14 days (with Clarithromycin 500 mg q12hr and PPI)",
+        "pediatric_fixed": "Use under specialist guidance"
       }
     ],
     "id": "e_mox_cap"
@@ -20422,21 +20712,31 @@
   {
     "trade_name": "E-Mox Capsules",
     "dosage_form": "capsule",
-    "active_ingredient": "E-mox",
-    "concentration": "",
-    "composition": "E-mox (capsule)",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "active_ingredient": "Amoxicillin",
+    "concentration": "500 mg",
+    "composition": "Amoxicillin 500 mg",
+    "administration": "Taken with or without food. May take with meals to reduce stomach upset.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "E-mox 500 cap",
-    "search_terms": "e-mox capsules e-mox 500 cap e-mox e-mox capsule ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Amoxil / Biomox / E-Mox / Ibiamox / Amoxycillin",
+    "search_terms": "e-mox capsules e-mox 500 cap amoxicillin amoxil biomox penicillin antibiotic otitis media pharyngitis",
+    "reference_url": "https://reference.medscape.com/drug/amoxil-amoxicillin-342472",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 capsule once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Acute Otitis Media / Sinusitis / Lower Respiratory Infections",
+        "adult_fixed": "500 to 875 mg orally q12hr or 500 mg q8hr for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Streptococcal Pharyngitis / Tonsillitis",
+        "adult_fixed": "500 mg orally q12hr or 1000 mg once daily for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "H. pylori Eradication (Triple Therapy Regimen)",
+        "adult_fixed": "1000 mg orally q12hr for 14 days (with Clarithromycin 500 mg q12hr and PPI)",
+        "pediatric_fixed": "Use under specialist guidance"
       }
     ],
     "id": "e_mox_capsules"
@@ -20444,23 +20744,38 @@
   {
     "trade_name": "E-Mox Susp",
     "dosage_form": "suspension",
-    "active_ingredient": "Amoxicillin only",
-    "concentration": "125mg/5ml",
-    "composition": "Amoxicillin only 125mg/5ml",
-    "concentration_per_ml": 20.0,
-    "administration": "Taken with or without food. Shake well before use.",
+    "active_ingredient": "Amoxicillin",
+    "concentration": "125 mg / 5 ml",
+    "composition": "Amoxicillin 125 mg / 5 ml",
+    "concentration_per_ml": 25.0,
+    "administration": "Taken with or without food. May take with meals to reduce stomach upset.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "E-mox Amoxicillin only amoxil biomox emox amoxycillin amoxicid hicillin hiconcil moxipen 125mg/5ml suspension",
-    "search_terms": "e-mox susp e-mox amoxicillin only amoxil biomox emox amoxycillin amoxicid hicillin hiconcil moxipen 125mg/5ml suspension amoxicillin only e-mox suspension 125mg/5ml",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Amoxil / Biomox / E-Mox / Ibiamox / Amoxycillin",
+    "search_terms": "e-mox susp e-mox amoxicillin only amoxil biomox emox amoxycillin amoxicid hicillin hiconcil moxipen 125mg/5ml suspension amoxicillin amoxil biomox penicillin antibiotic otitis media pharyngitis",
+    "reference_url": "https://reference.medscape.com/drug/amoxil-amoxicillin-342472",
     "indications": [
       {
-        "title": "Therapeutic Oral Dosage Regimen",
-        "adult_fixed": "5 to 10 ml q8-12hr with or without food",
-        "pediatric_mg_kg": 10.0,
-        "frequency": "divided q8-12hr with or without food"
+        "title": "Acute Otitis Media (Standard to High Dose)",
+        "adult_fixed": "500-875 mg q12hr (or 500 mg q8hr) for 10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr for 10 days (Standard 45 mg/kg/day OR High-dose 90 mg/kg/day)",
+        "max_daily_mg": 1750.0
+      },
+      {
+        "title": "Streptococcal Pharyngitis / Tonsillitis",
+        "adult_fixed": "500 mg q12hr or 1000 mg once daily for 10 days",
+        "pediatric_mg_kg": 12.5,
+        "frequency": "q12hr for 10 days (25-50 mg/kg/day)",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Community-acquired Pneumonia",
+        "adult_fixed": "500-1000 mg q8hr for 7-10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr for 7-10 days (45-90 mg/kg/day)",
+        "max_daily_mg": 2000.0
       }
     ],
     "id": "e_mox_susp"
@@ -20468,23 +20783,38 @@
   {
     "trade_name": "E-Mox Suspension",
     "dosage_form": "suspension",
-    "active_ingredient": "Amoxicillin only",
-    "concentration": "125mg/5ml",
-    "composition": "Amoxicillin only 125mg/5ml",
-    "concentration_per_ml": 20.0,
-    "administration": "Taken with or without food. Shake well before use.",
+    "active_ingredient": "Amoxicillin",
+    "concentration": "125 mg / 5 ml",
+    "composition": "Amoxicillin 125 mg / 5 ml",
+    "concentration_per_ml": 25.0,
+    "administration": "Taken with or without food. May take with meals to reduce stomach upset.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "E-mox Amoxicillin only amoxil biomox emox amoxycillin amoxicid hicillin hiconcil moxipen 125mg/5ml suspension",
-    "search_terms": "e-mox suspension e-mox amoxicillin only amoxil biomox emox amoxycillin amoxicid hicillin hiconcil moxipen 125mg/5ml suspension amoxicillin only e-mox suspension 125mg/5ml",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Amoxil / Biomox / E-Mox / Ibiamox / Amoxycillin",
+    "search_terms": "e-mox suspension e-mox amoxicillin only amoxil biomox emox amoxycillin amoxicid hicillin hiconcil moxipen 125mg/5ml suspension amoxicillin amoxil biomox penicillin antibiotic otitis media pharyngitis",
+    "reference_url": "https://reference.medscape.com/drug/amoxil-amoxicillin-342472",
     "indications": [
       {
-        "title": "Therapeutic Oral Dosage Regimen",
-        "adult_fixed": "5 to 10 ml q8-12hr with or without food",
-        "pediatric_mg_kg": 10.0,
-        "frequency": "divided q8-12hr with or without food"
+        "title": "Acute Otitis Media (Standard to High Dose)",
+        "adult_fixed": "500-875 mg q12hr (or 500 mg q8hr) for 10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr for 10 days (Standard 45 mg/kg/day OR High-dose 90 mg/kg/day)",
+        "max_daily_mg": 1750.0
+      },
+      {
+        "title": "Streptococcal Pharyngitis / Tonsillitis",
+        "adult_fixed": "500 mg q12hr or 1000 mg once daily for 10 days",
+        "pediatric_mg_kg": 12.5,
+        "frequency": "q12hr for 10 days (25-50 mg/kg/day)",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Community-acquired Pneumonia",
+        "adult_fixed": "500-1000 mg q8hr for 7-10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr for 7-10 days (45-90 mg/kg/day)",
+        "max_daily_mg": 2000.0
       }
     ],
     "id": "e_mox_suspension"
@@ -24169,23 +24499,38 @@
   {
     "trade_name": "Flagellat Forte susp",
     "dosage_form": "suspension",
-    "active_ingredient": "Metronidazole only",
-    "concentration": "200mg",
-    "composition": "Metronidazole only 200mg",
-    "concentration_per_ml": 20.0,
-    "administration": "Taken with or without food. Shake well before use.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "active_ingredient": "Metronidazole",
+    "concentration": "200 mg / 5 ml",
+    "composition": "Metronidazole 200 mg / 5 ml",
+    "concentration_per_ml": 40.0,
+    "administration": "Taken with meals to minimize gastrointestinal irritation. Avoid alcohol completely during therapy and for 48 hours after.",
+    "pregnancy": "Category B (Contraindicated in 1st trimester for trichomoniasis)",
+    "lactation": "Potential toxicity - pump and discard during and 12-24h after",
     "g6pd": "Safe",
-    "alternatives": "flagellat forte Metronidazole only 200mg suspension",
-    "search_terms": "flagellat forte susp flagellat forte metronidazole only 200mg suspension metronidazole only flagellat suspension 200mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Flagyl / Amrizole / Flagellat / Dumozol / Tricocid",
+    "search_terms": "flagellat forte susp flagellat forte metronidazole only 200mg suspension metronidazole flagyl amrizole antiprotozoal anaerobic amebiasis giardiasis",
+    "reference_url": "https://reference.medscape.com/drug/flagyl-metronidazole-342566",
     "indications": [
       {
-        "title": "Therapeutic Oral Dosage Regimen",
-        "adult_fixed": "5 to 10 ml q8-12hr with or without food",
+        "title": "Amebiasis (Intestinal / Hepatic)",
+        "adult_fixed": "500 to 750 mg orally q8hr for 7-10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr for 7-10 days (35-50 mg/kg/day)",
+        "max_daily_mg": 2250.0
+      },
+      {
+        "title": "Giardiasis",
+        "adult_fixed": "250 mg q8hr for 5-7 days (or 2 gm once daily for 3 days)",
+        "pediatric_mg_kg": 5.0,
+        "frequency": "q8hr for 5-7 days (15 mg/kg/day)",
+        "max_daily_mg": 750.0
+      },
+      {
+        "title": "Anaerobic Bacterial Infections / Dental Abscess",
+        "adult_fixed": "500 mg orally q6-8hr for 7-10 days",
         "pediatric_mg_kg": 10.0,
-        "frequency": "divided q8-12hr with or without food"
+        "frequency": "q8hr (30 mg/kg/day)",
+        "max_daily_mg": 2000.0
       }
     ],
     "id": "flagellat_forte_susp"
@@ -24193,23 +24538,38 @@
   {
     "trade_name": "Flagellat Susp",
     "dosage_form": "suspension",
-    "active_ingredient": "Metronidazole only",
-    "concentration": "200mg",
-    "composition": "Metronidazole only 200mg",
-    "concentration_per_ml": 20.0,
-    "administration": "Taken with or without food. Shake well before use.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "active_ingredient": "Metronidazole",
+    "concentration": "200 mg / 5 ml",
+    "composition": "Metronidazole 200 mg / 5 ml",
+    "concentration_per_ml": 40.0,
+    "administration": "Taken with meals to minimize gastrointestinal irritation. Avoid alcohol completely during therapy and for 48 hours after.",
+    "pregnancy": "Category B (Contraindicated in 1st trimester for trichomoniasis)",
+    "lactation": "Potential toxicity - pump and discard during and 12-24h after",
     "g6pd": "Safe",
-    "alternatives": "flagellat forte Metronidazole only 200mg suspension",
-    "search_terms": "flagellat susp flagellat forte metronidazole only 200mg suspension metronidazole only flagellat suspension 200mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Flagyl / Amrizole / Flagellat / Dumozol / Tricocid",
+    "search_terms": "flagellat susp flagellat forte metronidazole only 200mg suspension metronidazole flagyl amrizole antiprotozoal anaerobic amebiasis giardiasis",
+    "reference_url": "https://reference.medscape.com/drug/flagyl-metronidazole-342566",
     "indications": [
       {
-        "title": "Therapeutic Oral Dosage Regimen",
-        "adult_fixed": "5 to 10 ml q8-12hr with or without food",
+        "title": "Amebiasis (Intestinal / Hepatic)",
+        "adult_fixed": "500 to 750 mg orally q8hr for 7-10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr for 7-10 days (35-50 mg/kg/day)",
+        "max_daily_mg": 2250.0
+      },
+      {
+        "title": "Giardiasis",
+        "adult_fixed": "250 mg q8hr for 5-7 days (or 2 gm once daily for 3 days)",
+        "pediatric_mg_kg": 5.0,
+        "frequency": "q8hr for 5-7 days (15 mg/kg/day)",
+        "max_daily_mg": 750.0
+      },
+      {
+        "title": "Anaerobic Bacterial Infections / Dental Abscess",
+        "adult_fixed": "500 mg orally q6-8hr for 7-10 days",
         "pediatric_mg_kg": 10.0,
-        "frequency": "divided q8-12hr with or without food"
+        "frequency": "q8hr (30 mg/kg/day)",
+        "max_daily_mg": 2000.0
       }
     ],
     "id": "flagellat_susp"
@@ -24217,23 +24577,38 @@
   {
     "trade_name": "Flagellat Suspension",
     "dosage_form": "suspension",
-    "active_ingredient": "Metronidazole only",
-    "concentration": "200mg",
-    "composition": "Metronidazole only 200mg",
-    "concentration_per_ml": 20.0,
-    "administration": "Taken with or without food. Shake well before use.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "active_ingredient": "Metronidazole",
+    "concentration": "200 mg / 5 ml",
+    "composition": "Metronidazole 200 mg / 5 ml",
+    "concentration_per_ml": 40.0,
+    "administration": "Taken with meals to minimize gastrointestinal irritation. Avoid alcohol completely during therapy and for 48 hours after.",
+    "pregnancy": "Category B (Contraindicated in 1st trimester for trichomoniasis)",
+    "lactation": "Potential toxicity - pump and discard during and 12-24h after",
     "g6pd": "Safe",
-    "alternatives": "flagellat forte Metronidazole only 200mg suspension",
-    "search_terms": "flagellat suspension flagellat forte metronidazole only 200mg suspension metronidazole only flagellat suspension 200mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Flagyl / Amrizole / Flagellat / Dumozol / Tricocid",
+    "search_terms": "flagellat suspension flagellat forte metronidazole only 200mg suspension metronidazole flagyl amrizole antiprotozoal anaerobic amebiasis giardiasis",
+    "reference_url": "https://reference.medscape.com/drug/flagyl-metronidazole-342566",
     "indications": [
       {
-        "title": "Therapeutic Oral Dosage Regimen",
-        "adult_fixed": "5 to 10 ml q8-12hr with or without food",
+        "title": "Amebiasis (Intestinal / Hepatic)",
+        "adult_fixed": "500 to 750 mg orally q8hr for 7-10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr for 7-10 days (35-50 mg/kg/day)",
+        "max_daily_mg": 2250.0
+      },
+      {
+        "title": "Giardiasis",
+        "adult_fixed": "250 mg q8hr for 5-7 days (or 2 gm once daily for 3 days)",
+        "pediatric_mg_kg": 5.0,
+        "frequency": "q8hr for 5-7 days (15 mg/kg/day)",
+        "max_daily_mg": 750.0
+      },
+      {
+        "title": "Anaerobic Bacterial Infections / Dental Abscess",
+        "adult_fixed": "500 mg orally q6-8hr for 7-10 days",
         "pediatric_mg_kg": 10.0,
-        "frequency": "divided q8-12hr with or without food"
+        "frequency": "q8hr (30 mg/kg/day)",
+        "max_daily_mg": 2000.0
       }
     ],
     "id": "flagellat_suspension"
@@ -24677,21 +25052,31 @@
   {
     "trade_name": "Flumox 1 Gm Tab",
     "dosage_form": "tablet",
-    "active_ingredient": "Amoxicillin Flucloxacillin",
+    "active_ingredient": "Amoxicillin",
     "concentration": "1 gm",
-    "composition": "Amoxicillin Flucloxacillin 1 gm",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "composition": "Amoxicillin 1 gm",
+    "administration": "Taken with or without food. May take with meals to reduce stomach upset.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "flumox Amoxicillin 500mg Flucloxacillin 500mg gramoflux pencillimox floxamo combifloxin amoflux combifloxin 1000mg 1gm tablets",
-    "search_terms": "flumox 1 gm tab flumox amoxicillin 500mg flucloxacillin 500mg gramoflux pencillimox floxamo combifloxin amoflux combifloxin 1000mg 1gm tablets amoxicillin flucloxacillin flumox tablet 1 gm",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Amoxil / Biomox / E-Mox / Ibiamox / Amoxycillin",
+    "search_terms": "flumox 1 gm tab flumox amoxicillin 500mg flucloxacillin 500mg gramoflux pencillimox floxamo combifloxin amoflux combifloxin 1000mg 1gm tablets amoxicillin amoxil biomox penicillin antibiotic otitis media pharyngitis",
+    "reference_url": "https://reference.medscape.com/drug/amoxil-amoxicillin-342472",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Acute Otitis Media / Sinusitis / Lower Respiratory Infections",
+        "adult_fixed": "500 to 875 mg orally q12hr or 500 mg q8hr for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Streptococcal Pharyngitis / Tonsillitis",
+        "adult_fixed": "500 mg orally q12hr or 1000 mg once daily for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "H. pylori Eradication (Triple Therapy Regimen)",
+        "adult_fixed": "1000 mg orally q12hr for 14 days (with Clarithromycin 500 mg q12hr and PPI)",
+        "pediatric_fixed": "Use under specialist guidance"
       }
     ],
     "id": "flumox_1_gm_tab"
@@ -24699,21 +25084,31 @@
   {
     "trade_name": "Flumox 250 Cap",
     "dosage_form": "capsule",
-    "active_ingredient": "Amoxicillin Flucloxacillin",
-    "concentration": "125mg",
-    "composition": "Amoxicillin Flucloxacillin 125mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "active_ingredient": "Amoxicillin",
+    "concentration": "500 mg",
+    "composition": "Amoxicillin 500 mg",
+    "administration": "Taken with or without food. May take with meals to reduce stomach upset.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "flumox Amoxicillin 125mg Flucloxacillin 125mg flumocin amoflux flucamox curaflux 250mg capsules",
-    "search_terms": "flumox 250 cap flumox amoxicillin 125mg flucloxacillin 125mg flumocin amoflux flucamox curaflux 250mg capsules amoxicillin flucloxacillin flumox capsule 125mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Amoxil / Biomox / E-Mox / Ibiamox / Amoxycillin",
+    "search_terms": "flumox 250 cap flumox amoxicillin 125mg flucloxacillin 125mg flumocin amoflux flucamox curaflux 250mg capsules amoxicillin amoxil biomox penicillin antibiotic otitis media pharyngitis",
+    "reference_url": "https://reference.medscape.com/drug/amoxil-amoxicillin-342472",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 capsule once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Acute Otitis Media / Sinusitis / Lower Respiratory Infections",
+        "adult_fixed": "500 to 875 mg orally q12hr or 500 mg q8hr for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Streptococcal Pharyngitis / Tonsillitis",
+        "adult_fixed": "500 mg orally q12hr or 1000 mg once daily for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "H. pylori Eradication (Triple Therapy Regimen)",
+        "adult_fixed": "1000 mg orally q12hr for 14 days (with Clarithromycin 500 mg q12hr and PPI)",
+        "pediatric_fixed": "Use under specialist guidance"
       }
     ],
     "id": "flumox_250_cap"
@@ -24721,21 +25116,31 @@
   {
     "trade_name": "Flumox 500 Cap",
     "dosage_form": "capsule",
-    "active_ingredient": "Amoxicillin Flucloxacillin",
-    "concentration": "500mg",
-    "composition": "Amoxicillin Flucloxacillin 500mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "active_ingredient": "Amoxicillin",
+    "concentration": "1 gm",
+    "composition": "Amoxicillin 1 gm",
+    "administration": "Taken with or without food. May take with meals to reduce stomach upset.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "flumox Amoxicillin 500mg Flucloxacillin 500mg gramoflux pencillimox floxamo combifloxin amoflux combifloxin 1000mg 1gm tablets",
-    "search_terms": "flumox 500 cap flumox amoxicillin 500mg flucloxacillin 500mg gramoflux pencillimox floxamo combifloxin amoflux combifloxin 1000mg 1gm tablets amoxicillin flucloxacillin flumox capsule 500mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Amoxil / Biomox / E-Mox / Ibiamox / Amoxycillin",
+    "search_terms": "flumox 500 cap flumox amoxicillin 500mg flucloxacillin 500mg gramoflux pencillimox floxamo combifloxin amoflux combifloxin 1000mg 1gm tablets amoxicillin amoxil biomox penicillin antibiotic otitis media pharyngitis",
+    "reference_url": "https://reference.medscape.com/drug/amoxil-amoxicillin-342472",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 capsule once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Acute Otitis Media / Sinusitis / Lower Respiratory Infections",
+        "adult_fixed": "500 to 875 mg orally q12hr or 500 mg q8hr for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Streptococcal Pharyngitis / Tonsillitis",
+        "adult_fixed": "500 mg orally q12hr or 1000 mg once daily for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "H. pylori Eradication (Triple Therapy Regimen)",
+        "adult_fixed": "1000 mg orally q12hr for 14 days (with Clarithromycin 500 mg q12hr and PPI)",
+        "pediatric_fixed": "Use under specialist guidance"
       }
     ],
     "id": "flumox_500_cap"
@@ -24765,21 +25170,31 @@
   {
     "trade_name": "Flumox Cap",
     "dosage_form": "capsule",
-    "active_ingredient": "Amoxicillin Flucloxacillin",
-    "concentration": "125mg",
-    "composition": "Amoxicillin Flucloxacillin 125mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "active_ingredient": "Amoxicillin",
+    "concentration": "500 mg",
+    "composition": "Amoxicillin 500 mg",
+    "administration": "Taken with or without food. May take with meals to reduce stomach upset.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "flumox Amoxicillin 125mg Flucloxacillin 125mg flumocin amoflux flucamox curaflux 250mg capsules",
-    "search_terms": "flumox cap flumox amoxicillin 125mg flucloxacillin 125mg flumocin amoflux flucamox curaflux 250mg capsules amoxicillin flucloxacillin flumox capsule 125mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Amoxil / Biomox / E-Mox / Ibiamox / Amoxycillin",
+    "search_terms": "flumox cap flumox amoxicillin 125mg flucloxacillin 125mg flumocin amoflux flucamox curaflux 250mg capsules amoxicillin amoxil biomox penicillin antibiotic otitis media pharyngitis",
+    "reference_url": "https://reference.medscape.com/drug/amoxil-amoxicillin-342472",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 capsule once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Acute Otitis Media / Sinusitis / Lower Respiratory Infections",
+        "adult_fixed": "500 to 875 mg orally q12hr or 500 mg q8hr for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Streptococcal Pharyngitis / Tonsillitis",
+        "adult_fixed": "500 mg orally q12hr or 1000 mg once daily for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "H. pylori Eradication (Triple Therapy Regimen)",
+        "adult_fixed": "1000 mg orally q12hr for 14 days (with Clarithromycin 500 mg q12hr and PPI)",
+        "pediatric_fixed": "Use under specialist guidance"
       }
     ],
     "id": "flumox_cap"
@@ -24787,21 +25202,31 @@
   {
     "trade_name": "Flumox Capsules",
     "dosage_form": "capsule",
-    "active_ingredient": "Amoxicillin Flucloxacillin",
-    "concentration": "125mg",
-    "composition": "Amoxicillin Flucloxacillin 125mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "active_ingredient": "Amoxicillin",
+    "concentration": "500 mg",
+    "composition": "Amoxicillin 500 mg",
+    "administration": "Taken with or without food. May take with meals to reduce stomach upset.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "flumox Amoxicillin 125mg Flucloxacillin 125mg flumocin amoflux flucamox curaflux 250mg capsules",
-    "search_terms": "flumox capsules flumox amoxicillin 125mg flucloxacillin 125mg flumocin amoflux flucamox curaflux 250mg capsules amoxicillin flucloxacillin flumox capsule 125mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Amoxil / Biomox / E-Mox / Ibiamox / Amoxycillin",
+    "search_terms": "flumox capsules flumox amoxicillin 125mg flucloxacillin 125mg flumocin amoflux flucamox curaflux 250mg capsules amoxicillin amoxil biomox penicillin antibiotic otitis media pharyngitis",
+    "reference_url": "https://reference.medscape.com/drug/amoxil-amoxicillin-342472",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 capsule once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Acute Otitis Media / Sinusitis / Lower Respiratory Infections",
+        "adult_fixed": "500 to 875 mg orally q12hr or 500 mg q8hr for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Streptococcal Pharyngitis / Tonsillitis",
+        "adult_fixed": "500 mg orally q12hr or 1000 mg once daily for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "H. pylori Eradication (Triple Therapy Regimen)",
+        "adult_fixed": "1000 mg orally q12hr for 14 days (with Clarithromycin 500 mg q12hr and PPI)",
+        "pediatric_fixed": "Use under specialist guidance"
       }
     ],
     "id": "flumox_capsules"
@@ -24857,21 +25282,31 @@
   {
     "trade_name": "Flumox Tab",
     "dosage_form": "tablet",
-    "active_ingredient": "Amoxicillin Flucloxacillin",
-    "concentration": "500mg",
-    "composition": "Amoxicillin Flucloxacillin 500mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "active_ingredient": "Amoxicillin",
+    "concentration": "1 gm",
+    "composition": "Amoxicillin 1 gm",
+    "administration": "Taken with or without food. May take with meals to reduce stomach upset.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "flumox Amoxicillin 500mg Flucloxacillin 500mg gramoflux pencillimox floxamo combifloxin amoflux combifloxin 1000mg 1gm tablets",
-    "search_terms": "flumox tab flumox amoxicillin 500mg flucloxacillin 500mg gramoflux pencillimox floxamo combifloxin amoflux combifloxin 1000mg 1gm tablets amoxicillin flucloxacillin flumox tablet 500mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Amoxil / Biomox / E-Mox / Ibiamox / Amoxycillin",
+    "search_terms": "flumox tab flumox amoxicillin 500mg flucloxacillin 500mg gramoflux pencillimox floxamo combifloxin amoflux combifloxin 1000mg 1gm tablets amoxicillin amoxil biomox penicillin antibiotic otitis media pharyngitis",
+    "reference_url": "https://reference.medscape.com/drug/amoxil-amoxicillin-342472",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Acute Otitis Media / Sinusitis / Lower Respiratory Infections",
+        "adult_fixed": "500 to 875 mg orally q12hr or 500 mg q8hr for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Streptococcal Pharyngitis / Tonsillitis",
+        "adult_fixed": "500 mg orally q12hr or 1000 mg once daily for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "H. pylori Eradication (Triple Therapy Regimen)",
+        "adult_fixed": "1000 mg orally q12hr for 14 days (with Clarithromycin 500 mg q12hr and PPI)",
+        "pediatric_fixed": "Use under specialist guidance"
       }
     ],
     "id": "flumox_tab"
@@ -24879,21 +25314,31 @@
   {
     "trade_name": "Flumox Tablets",
     "dosage_form": "tablet",
-    "active_ingredient": "Amoxicillin Flucloxacillin",
-    "concentration": "500mg",
-    "composition": "Amoxicillin Flucloxacillin 500mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "active_ingredient": "Amoxicillin",
+    "concentration": "1 gm",
+    "composition": "Amoxicillin 1 gm",
+    "administration": "Taken with or without food. May take with meals to reduce stomach upset.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "flumox Amoxicillin 500mg Flucloxacillin 500mg gramoflux pencillimox floxamo combifloxin amoflux combifloxin 1000mg 1gm tablets",
-    "search_terms": "flumox tablets flumox amoxicillin 500mg flucloxacillin 500mg gramoflux pencillimox floxamo combifloxin amoflux combifloxin 1000mg 1gm tablets amoxicillin flucloxacillin flumox tablet 500mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Amoxil / Biomox / E-Mox / Ibiamox / Amoxycillin",
+    "search_terms": "flumox tablets flumox amoxicillin 500mg flucloxacillin 500mg gramoflux pencillimox floxamo combifloxin amoflux combifloxin 1000mg 1gm tablets amoxicillin amoxil biomox penicillin antibiotic otitis media pharyngitis",
+    "reference_url": "https://reference.medscape.com/drug/amoxil-amoxicillin-342472",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Acute Otitis Media / Sinusitis / Lower Respiratory Infections",
+        "adult_fixed": "500 to 875 mg orally q12hr or 500 mg q8hr for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "Streptococcal Pharyngitis / Tonsillitis",
+        "adult_fixed": "500 mg orally q12hr or 1000 mg once daily for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric dosing"
+      },
+      {
+        "title": "H. pylori Eradication (Triple Therapy Regimen)",
+        "adult_fixed": "1000 mg orally q12hr for 14 days (with Clarithromycin 500 mg q12hr and PPI)",
+        "pediatric_fixed": "Use under specialist guidance"
       }
     ],
     "id": "flumox_tablets"
@@ -25281,23 +25726,38 @@
   {
     "trade_name": "Furazol Susp",
     "dosage_form": "suspension",
-    "active_ingredient": "diloxanide metronidazole",
-    "concentration": "",
-    "composition": "diloxanide metronidazole (suspension)",
-    "concentration_per_ml": 20.0,
-    "administration": "Taken with or without food. Shake well before use.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "active_ingredient": "Metronidazole",
+    "concentration": "125 mg / 5 ml",
+    "composition": "Metronidazole 125 mg / 5 ml",
+    "concentration_per_ml": 25.0,
+    "administration": "Taken with meals to minimize gastrointestinal irritation. Avoid alcohol completely during therapy and for 48 hours after.",
+    "pregnancy": "Category B (Contraindicated in 1st trimester for trichomoniasis)",
+    "lactation": "Potential toxicity - pump and discard during and 12-24h after",
     "g6pd": "Safe",
-    "alternatives": "furazol diloxanide metronidazole dilozole dimetrol flagimide suspension",
-    "search_terms": "furazol susp furazol diloxanide metronidazole dilozole dimetrol flagimide suspension diloxanide metronidazole furazol suspension ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Flagyl / Amrizole / Flagellat / Dumozol / Tricocid",
+    "search_terms": "furazol susp furazol diloxanide metronidazole dilozole dimetrol flagimide suspension metronidazole flagyl amrizole antiprotozoal anaerobic amebiasis giardiasis",
+    "reference_url": "https://reference.medscape.com/drug/flagyl-metronidazole-342566",
     "indications": [
       {
-        "title": "Therapeutic Oral Dosage Regimen",
-        "adult_fixed": "5 to 10 ml q8-12hr with or without food",
+        "title": "Amebiasis (Intestinal / Hepatic)",
+        "adult_fixed": "500 to 750 mg orally q8hr for 7-10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr for 7-10 days (35-50 mg/kg/day)",
+        "max_daily_mg": 2250.0
+      },
+      {
+        "title": "Giardiasis",
+        "adult_fixed": "250 mg q8hr for 5-7 days (or 2 gm once daily for 3 days)",
+        "pediatric_mg_kg": 5.0,
+        "frequency": "q8hr for 5-7 days (15 mg/kg/day)",
+        "max_daily_mg": 750.0
+      },
+      {
+        "title": "Anaerobic Bacterial Infections / Dental Abscess",
+        "adult_fixed": "500 mg orally q6-8hr for 7-10 days",
         "pediatric_mg_kg": 10.0,
-        "frequency": "divided q8-12hr with or without food"
+        "frequency": "q8hr (30 mg/kg/day)",
+        "max_daily_mg": 2000.0
       }
     ],
     "id": "furazol_susp"
@@ -25305,23 +25765,38 @@
   {
     "trade_name": "Furazol Suspension",
     "dosage_form": "suspension",
-    "active_ingredient": "diloxanide metronidazole",
-    "concentration": "",
-    "composition": "diloxanide metronidazole (suspension)",
-    "concentration_per_ml": 20.0,
-    "administration": "Taken with or without food. Shake well before use.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "active_ingredient": "Metronidazole",
+    "concentration": "125 mg / 5 ml",
+    "composition": "Metronidazole 125 mg / 5 ml",
+    "concentration_per_ml": 25.0,
+    "administration": "Taken with meals to minimize gastrointestinal irritation. Avoid alcohol completely during therapy and for 48 hours after.",
+    "pregnancy": "Category B (Contraindicated in 1st trimester for trichomoniasis)",
+    "lactation": "Potential toxicity - pump and discard during and 12-24h after",
     "g6pd": "Safe",
-    "alternatives": "furazol diloxanide metronidazole dilozole dimetrol flagimide suspension",
-    "search_terms": "furazol suspension furazol diloxanide metronidazole dilozole dimetrol flagimide suspension diloxanide metronidazole furazol suspension ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Flagyl / Amrizole / Flagellat / Dumozol / Tricocid",
+    "search_terms": "furazol suspension furazol diloxanide metronidazole dilozole dimetrol flagimide suspension metronidazole flagyl amrizole antiprotozoal anaerobic amebiasis giardiasis",
+    "reference_url": "https://reference.medscape.com/drug/flagyl-metronidazole-342566",
     "indications": [
       {
-        "title": "Therapeutic Oral Dosage Regimen",
-        "adult_fixed": "5 to 10 ml q8-12hr with or without food",
+        "title": "Amebiasis (Intestinal / Hepatic)",
+        "adult_fixed": "500 to 750 mg orally q8hr for 7-10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr for 7-10 days (35-50 mg/kg/day)",
+        "max_daily_mg": 2250.0
+      },
+      {
+        "title": "Giardiasis",
+        "adult_fixed": "250 mg q8hr for 5-7 days (or 2 gm once daily for 3 days)",
+        "pediatric_mg_kg": 5.0,
+        "frequency": "q8hr for 5-7 days (15 mg/kg/day)",
+        "max_daily_mg": 750.0
+      },
+      {
+        "title": "Anaerobic Bacterial Infections / Dental Abscess",
+        "adult_fixed": "500 mg orally q6-8hr for 7-10 days",
         "pediatric_mg_kg": 10.0,
-        "frequency": "divided q8-12hr with or without food"
+        "frequency": "q8hr (30 mg/kg/day)",
+        "max_daily_mg": 2000.0
       }
     ],
     "id": "furazol_suspension"
@@ -27529,21 +28004,36 @@
   {
     "trade_name": "Helicure Tablets",
     "dosage_form": "tablet",
-    "active_ingredient": "heli-cure omeprazole",
-    "concentration": "",
-    "composition": "heli-cure omeprazole (tablet)",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "active_ingredient": "Clarithromycin",
+    "concentration": "250 mg",
+    "composition": "Clarithromycin 250 mg",
+    "administration": "Taken with or without meals. Clarithromycin XL (extended release) must be taken with food and swallowed whole.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "helicure heli-cure omeprazole tinidazole clarithromycin peptic care tablets",
-    "search_terms": "helicure tablets helicure heli-cure omeprazole tinidazole clarithromycin peptic care tablets heli-cure omeprazole helicure tablet ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Klacid / Claritop / Clarikan / Maclad / Clarithro",
+    "search_terms": "helicure tablets helicure heli-cure omeprazole tinidazole clarithromycin peptic care tablets clarithromycin klacid macrolide antibiotic pharyngitis otitis pneumonia",
+    "reference_url": "https://reference.medscape.com/drug/biaxin-clarithromycin-342525",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Pharyngitis / Tonsillitis",
+        "adult_fixed": "250 mg orally q12hr for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric patients"
+      },
+      {
+        "title": "Acute Maxillary Sinusitis / Acute Bacterial Exacerbation of Chronic Bronchitis",
+        "adult_fixed": "500 mg orally q12hr for 7-14 days (or Clarithromycin XL 1000 mg once daily with food for 14 days)",
+        "pediatric_fixed": "Use oral suspension for pediatric patients"
+      },
+      {
+        "title": "Community-acquired Pneumonia",
+        "adult_fixed": "250 to 500 mg orally q12hr for 7-14 days",
+        "pediatric_fixed": "Use oral suspension for pediatric patients"
+      },
+      {
+        "title": "H. pylori Eradication (Triple Therapy Regimen)",
+        "adult_fixed": "500 mg orally q12hr for 14 days (combined with Amoxicillin 1000 mg q12hr and PPI)",
+        "pediatric_fixed": "Safety and efficacy not established for H. pylori in children"
       }
     ],
     "id": "helicure_tablets"
@@ -28563,23 +29053,38 @@
   {
     "trade_name": "Ibiamox Suspension",
     "dosage_form": "suspension",
-    "active_ingredient": "Amoxicillin only",
-    "concentration": "200mg/5ml",
-    "composition": "Amoxicillin only 200mg/5ml",
-    "concentration_per_ml": 20.0,
-    "administration": "Taken with or without food. Shake well before use.",
+    "active_ingredient": "Amoxicillin",
+    "concentration": "125 mg / 5 ml",
+    "composition": "Amoxicillin 125 mg / 5 ml",
+    "concentration_per_ml": 25.0,
+    "administration": "Taken with or without food. May take with meals to reduce stomach upset.",
     "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Ibiamox Amoxicillin only 200mg/5ml suspension",
-    "search_terms": "ibiamox suspension ibiamox amoxicillin only 200mg/5ml suspension amoxicillin only ibiamox suspension 200mg/5ml",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Amoxil / Biomox / E-Mox / Ibiamox / Amoxycillin",
+    "search_terms": "ibiamox suspension ibiamox amoxicillin only 200mg/5ml suspension amoxicillin amoxil biomox penicillin antibiotic otitis media pharyngitis",
+    "reference_url": "https://reference.medscape.com/drug/amoxil-amoxicillin-342472",
     "indications": [
       {
-        "title": "Therapeutic Oral Dosage Regimen",
-        "adult_fixed": "5 to 10 ml q8-12hr with or without food",
-        "pediatric_mg_kg": 10.0,
-        "frequency": "divided q8-12hr with or without food"
+        "title": "Acute Otitis Media (Standard to High Dose)",
+        "adult_fixed": "500-875 mg q12hr (or 500 mg q8hr) for 10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr for 10 days (Standard 45 mg/kg/day OR High-dose 90 mg/kg/day)",
+        "max_daily_mg": 1750.0
+      },
+      {
+        "title": "Streptococcal Pharyngitis / Tonsillitis",
+        "adult_fixed": "500 mg q12hr or 1000 mg once daily for 10 days",
+        "pediatric_mg_kg": 12.5,
+        "frequency": "q12hr for 10 days (25-50 mg/kg/day)",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Community-acquired Pneumonia",
+        "adult_fixed": "500-1000 mg q8hr for 7-10 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr for 7-10 days (45-90 mg/kg/day)",
+        "max_daily_mg": 2000.0
       }
     ],
     "id": "ibiamox_suspension"
@@ -31553,23 +32058,38 @@
   {
     "trade_name": "Klacid 125 Susp",
     "dosage_form": "suspension",
-    "active_ingredient": "Clarithromycin klarimix",
-    "concentration": "125mg/5ml",
-    "composition": "Clarithromycin klarimix 125mg/5ml",
-    "concentration_per_ml": 20.0,
-    "administration": "Taken with or without food. Shake well before use.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "active_ingredient": "Clarithromycin",
+    "concentration": "125 mg / 5 ml",
+    "composition": "Clarithromycin 125 mg / 5 ml",
+    "concentration_per_ml": 25.0,
+    "administration": "Taken with or without meals. Clarithromycin XL (extended release) must be taken with food and swallowed whole.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Klacid Clarithromycin klarimix infectocure 125mg/5ml suspension",
-    "search_terms": "klacid 125 susp klacid clarithromycin klarimix infectocure 125mg/5ml suspension clarithromycin klarimix klacid suspension 125mg/5ml",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Klacid / Claritop / Clarikan / Maclad / Clarithro",
+    "search_terms": "klacid 125 susp klacid clarithromycin klarimix infectocure 125mg/5ml suspension clarithromycin klacid macrolide antibiotic pharyngitis otitis pneumonia",
+    "reference_url": "https://reference.medscape.com/drug/biaxin-clarithromycin-342525",
     "indications": [
       {
-        "title": "Therapeutic Oral Dosage Regimen",
-        "adult_fixed": "5 to 10 ml q8-12hr with or without food",
-        "pediatric_mg_kg": 10.0,
-        "frequency": "divided q8-12hr with or without food"
+        "title": "Acute Otitis Media / Acute Maxillary Sinusitis",
+        "adult_fixed": "500 mg q12hr for 14 days",
+        "pediatric_mg_kg": 7.5,
+        "frequency": "q12hr for 10 days (15 mg/kg/day)",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Pharyngitis / Tonsillitis",
+        "adult_fixed": "250 mg q12hr for 10 days",
+        "pediatric_mg_kg": 7.5,
+        "frequency": "q12hr for 10 days",
+        "max_daily_mg": 500.0
+      },
+      {
+        "title": "Community-acquired Pneumonia",
+        "adult_fixed": "250-500 mg q12hr for 7-14 days",
+        "pediatric_mg_kg": 7.5,
+        "frequency": "q12hr for 10 days",
+        "max_daily_mg": 1000.0
       }
     ],
     "id": "klacid_125_susp"
@@ -31577,23 +32097,38 @@
   {
     "trade_name": "Klacid 250 Susp",
     "dosage_form": "suspension",
-    "active_ingredient": "Clarithromycin bedrevida",
-    "concentration": "250mg/5ml",
-    "composition": "Clarithromycin bedrevida 250mg/5ml",
-    "concentration_per_ml": 20.0,
-    "administration": "Taken with or without food. Shake well before use.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "active_ingredient": "Clarithromycin",
+    "concentration": "250 mg / 5 ml",
+    "composition": "Clarithromycin 250 mg / 5 ml",
+    "concentration_per_ml": 50.0,
+    "administration": "Taken with or without meals. Clarithromycin XL (extended release) must be taken with food and swallowed whole.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Klacid Clarithromycin bedrevida clarikan klarimix infectocure 250mg/5ml suspension",
-    "search_terms": "klacid 250 susp klacid clarithromycin bedrevida clarikan klarimix infectocure 250mg/5ml suspension clarithromycin bedrevida klacid suspension 250mg/5ml",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Klacid / Claritop / Clarikan / Maclad / Clarithro",
+    "search_terms": "klacid 250 susp klacid clarithromycin bedrevida clarikan klarimix infectocure 250mg/5ml suspension clarithromycin klacid macrolide antibiotic pharyngitis otitis pneumonia",
+    "reference_url": "https://reference.medscape.com/drug/biaxin-clarithromycin-342525",
     "indications": [
       {
-        "title": "Therapeutic Oral Dosage Regimen",
-        "adult_fixed": "5 to 10 ml q8-12hr with or without food",
-        "pediatric_mg_kg": 10.0,
-        "frequency": "divided q8-12hr with or without food"
+        "title": "Acute Otitis Media / Acute Maxillary Sinusitis",
+        "adult_fixed": "500 mg q12hr for 14 days",
+        "pediatric_mg_kg": 7.5,
+        "frequency": "q12hr for 10 days (15 mg/kg/day)",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Pharyngitis / Tonsillitis",
+        "adult_fixed": "250 mg q12hr for 10 days",
+        "pediatric_mg_kg": 7.5,
+        "frequency": "q12hr for 10 days",
+        "max_daily_mg": 500.0
+      },
+      {
+        "title": "Community-acquired Pneumonia",
+        "adult_fixed": "250-500 mg q12hr for 7-14 days",
+        "pediatric_mg_kg": 7.5,
+        "frequency": "q12hr for 10 days",
+        "max_daily_mg": 1000.0
       }
     ],
     "id": "klacid_250_susp"
@@ -31601,21 +32136,36 @@
   {
     "trade_name": "Klacid 250 Tab",
     "dosage_form": "tablet",
-    "active_ingredient": "Clarithromycin bedrevida",
-    "concentration": "250mg/5ml",
-    "composition": "Clarithromycin bedrevida 250mg/5ml",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "active_ingredient": "Clarithromycin",
+    "concentration": "250 mg",
+    "composition": "Clarithromycin 250 mg",
+    "administration": "Taken with or without meals. Clarithromycin XL (extended release) must be taken with food and swallowed whole.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Klacid Clarithromycin bedrevida clarikan klarimix infectocure 250mg/5ml suspension",
-    "search_terms": "klacid 250 tab klacid clarithromycin bedrevida clarikan klarimix infectocure 250mg/5ml suspension clarithromycin bedrevida klacid tablet 250mg/5ml",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Klacid / Claritop / Clarikan / Maclad / Clarithro",
+    "search_terms": "klacid 250 tab klacid clarithromycin bedrevida clarikan klarimix infectocure 250mg/5ml suspension clarithromycin klacid macrolide antibiotic pharyngitis otitis pneumonia",
+    "reference_url": "https://reference.medscape.com/drug/biaxin-clarithromycin-342525",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Pharyngitis / Tonsillitis",
+        "adult_fixed": "250 mg orally q12hr for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric patients"
+      },
+      {
+        "title": "Acute Maxillary Sinusitis / Acute Bacterial Exacerbation of Chronic Bronchitis",
+        "adult_fixed": "500 mg orally q12hr for 7-14 days (or Clarithromycin XL 1000 mg once daily with food for 14 days)",
+        "pediatric_fixed": "Use oral suspension for pediatric patients"
+      },
+      {
+        "title": "Community-acquired Pneumonia",
+        "adult_fixed": "250 to 500 mg orally q12hr for 7-14 days",
+        "pediatric_fixed": "Use oral suspension for pediatric patients"
+      },
+      {
+        "title": "H. pylori Eradication (Triple Therapy Regimen)",
+        "adult_fixed": "500 mg orally q12hr for 14 days (combined with Amoxicillin 1000 mg q12hr and PPI)",
+        "pediatric_fixed": "Safety and efficacy not established for H. pylori in children"
       }
     ],
     "id": "klacid_250_tab"
@@ -31623,21 +32173,36 @@
   {
     "trade_name": "Klacid 500 Tab",
     "dosage_form": "tablet",
-    "active_ingredient": "Klacid",
-    "concentration": "",
-    "composition": "Klacid (tablet)",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "active_ingredient": "Clarithromycin",
+    "concentration": "500 mg",
+    "composition": "Clarithromycin 500 mg",
+    "administration": "Taken with or without meals. Clarithromycin XL (extended release) must be taken with food and swallowed whole.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Klacid 500 tab",
-    "search_terms": "klacid 500 tab klacid 500 tab klacid klacid tablet ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Klacid / Claritop / Clarikan / Maclad / Clarithro",
+    "search_terms": "klacid 500 tab klacid 500 tab clarithromycin klacid macrolide antibiotic pharyngitis otitis pneumonia",
+    "reference_url": "https://reference.medscape.com/drug/biaxin-clarithromycin-342525",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Pharyngitis / Tonsillitis",
+        "adult_fixed": "250 mg orally q12hr for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric patients"
+      },
+      {
+        "title": "Acute Maxillary Sinusitis / Acute Bacterial Exacerbation of Chronic Bronchitis",
+        "adult_fixed": "500 mg orally q12hr for 7-14 days (or Clarithromycin XL 1000 mg once daily with food for 14 days)",
+        "pediatric_fixed": "Use oral suspension for pediatric patients"
+      },
+      {
+        "title": "Community-acquired Pneumonia",
+        "adult_fixed": "250 to 500 mg orally q12hr for 7-14 days",
+        "pediatric_fixed": "Use oral suspension for pediatric patients"
+      },
+      {
+        "title": "H. pylori Eradication (Triple Therapy Regimen)",
+        "adult_fixed": "500 mg orally q12hr for 14 days (combined with Amoxicillin 1000 mg q12hr and PPI)",
+        "pediatric_fixed": "Safety and efficacy not established for H. pylori in children"
       }
     ],
     "id": "klacid_500_tab"
@@ -31645,21 +32210,36 @@
   {
     "trade_name": "Klacid XL 500 tab",
     "dosage_form": "tablet",
-    "active_ingredient": "Klacid",
-    "concentration": "",
-    "composition": "Klacid (tablet)",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "active_ingredient": "Clarithromycin",
+    "concentration": "500 mg",
+    "composition": "Clarithromycin 500 mg",
+    "administration": "Taken with or without meals. Clarithromycin XL (extended release) must be taken with food and swallowed whole.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Klacid 500 tab",
-    "search_terms": "klacid xl 500 tab klacid 500 tab klacid klacid tablet ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Klacid / Claritop / Clarikan / Maclad / Clarithro",
+    "search_terms": "klacid xl 500 tab klacid 500 tab clarithromycin klacid macrolide antibiotic pharyngitis otitis pneumonia",
+    "reference_url": "https://reference.medscape.com/drug/biaxin-clarithromycin-342525",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Pharyngitis / Tonsillitis",
+        "adult_fixed": "250 mg orally q12hr for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric patients"
+      },
+      {
+        "title": "Acute Maxillary Sinusitis / Acute Bacterial Exacerbation of Chronic Bronchitis",
+        "adult_fixed": "500 mg orally q12hr for 7-14 days (or Clarithromycin XL 1000 mg once daily with food for 14 days)",
+        "pediatric_fixed": "Use oral suspension for pediatric patients"
+      },
+      {
+        "title": "Community-acquired Pneumonia",
+        "adult_fixed": "250 to 500 mg orally q12hr for 7-14 days",
+        "pediatric_fixed": "Use oral suspension for pediatric patients"
+      },
+      {
+        "title": "H. pylori Eradication (Triple Therapy Regimen)",
+        "adult_fixed": "500 mg orally q12hr for 14 days (combined with Amoxicillin 1000 mg q12hr and PPI)",
+        "pediatric_fixed": "Safety and efficacy not established for H. pylori in children"
       }
     ],
     "id": "klacid_xl_500_tab"
@@ -31667,23 +32247,38 @@
   {
     "trade_name": "Klacid Susp",
     "dosage_form": "suspension",
-    "active_ingredient": "Clarithromycin bedrevida",
-    "concentration": "250mg/5ml",
-    "composition": "Clarithromycin bedrevida 250mg/5ml",
-    "concentration_per_ml": 20.0,
-    "administration": "Taken with or without food. Shake well before use.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "active_ingredient": "Clarithromycin",
+    "concentration": "250 mg / 5 ml",
+    "composition": "Clarithromycin 250 mg / 5 ml",
+    "concentration_per_ml": 50.0,
+    "administration": "Taken with or without meals. Clarithromycin XL (extended release) must be taken with food and swallowed whole.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Klacid Clarithromycin bedrevida clarikan klarimix infectocure 250mg/5ml suspension",
-    "search_terms": "klacid susp klacid clarithromycin bedrevida clarikan klarimix infectocure 250mg/5ml suspension clarithromycin bedrevida klacid suspension 250mg/5ml",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Klacid / Claritop / Clarikan / Maclad / Clarithro",
+    "search_terms": "klacid susp klacid clarithromycin bedrevida clarikan klarimix infectocure 250mg/5ml suspension clarithromycin klacid macrolide antibiotic pharyngitis otitis pneumonia",
+    "reference_url": "https://reference.medscape.com/drug/biaxin-clarithromycin-342525",
     "indications": [
       {
-        "title": "Therapeutic Oral Dosage Regimen",
-        "adult_fixed": "5 to 10 ml q8-12hr with or without food",
-        "pediatric_mg_kg": 10.0,
-        "frequency": "divided q8-12hr with or without food"
+        "title": "Acute Otitis Media / Acute Maxillary Sinusitis",
+        "adult_fixed": "500 mg q12hr for 14 days",
+        "pediatric_mg_kg": 7.5,
+        "frequency": "q12hr for 10 days (15 mg/kg/day)",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Pharyngitis / Tonsillitis",
+        "adult_fixed": "250 mg q12hr for 10 days",
+        "pediatric_mg_kg": 7.5,
+        "frequency": "q12hr for 10 days",
+        "max_daily_mg": 500.0
+      },
+      {
+        "title": "Community-acquired Pneumonia",
+        "adult_fixed": "250-500 mg q12hr for 7-14 days",
+        "pediatric_mg_kg": 7.5,
+        "frequency": "q12hr for 10 days",
+        "max_daily_mg": 1000.0
       }
     ],
     "id": "klacid_susp"
@@ -31691,23 +32286,38 @@
   {
     "trade_name": "Klacid Suspension",
     "dosage_form": "suspension",
-    "active_ingredient": "Clarithromycin bedrevida",
-    "concentration": "250mg/5ml",
-    "composition": "Clarithromycin bedrevida 250mg/5ml",
-    "concentration_per_ml": 20.0,
-    "administration": "Taken with or without food. Shake well before use.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "active_ingredient": "Clarithromycin",
+    "concentration": "250 mg / 5 ml",
+    "composition": "Clarithromycin 250 mg / 5 ml",
+    "concentration_per_ml": 50.0,
+    "administration": "Taken with or without meals. Clarithromycin XL (extended release) must be taken with food and swallowed whole.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Klacid Clarithromycin bedrevida clarikan klarimix infectocure 250mg/5ml suspension",
-    "search_terms": "klacid suspension klacid clarithromycin bedrevida clarikan klarimix infectocure 250mg/5ml suspension clarithromycin bedrevida klacid suspension 250mg/5ml",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Klacid / Claritop / Clarikan / Maclad / Clarithro",
+    "search_terms": "klacid suspension klacid clarithromycin bedrevida clarikan klarimix infectocure 250mg/5ml suspension clarithromycin klacid macrolide antibiotic pharyngitis otitis pneumonia",
+    "reference_url": "https://reference.medscape.com/drug/biaxin-clarithromycin-342525",
     "indications": [
       {
-        "title": "Therapeutic Oral Dosage Regimen",
-        "adult_fixed": "5 to 10 ml q8-12hr with or without food",
-        "pediatric_mg_kg": 10.0,
-        "frequency": "divided q8-12hr with or without food"
+        "title": "Acute Otitis Media / Acute Maxillary Sinusitis",
+        "adult_fixed": "500 mg q12hr for 14 days",
+        "pediatric_mg_kg": 7.5,
+        "frequency": "q12hr for 10 days (15 mg/kg/day)",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Pharyngitis / Tonsillitis",
+        "adult_fixed": "250 mg q12hr for 10 days",
+        "pediatric_mg_kg": 7.5,
+        "frequency": "q12hr for 10 days",
+        "max_daily_mg": 500.0
+      },
+      {
+        "title": "Community-acquired Pneumonia",
+        "adult_fixed": "250-500 mg q12hr for 7-14 days",
+        "pediatric_mg_kg": 7.5,
+        "frequency": "q12hr for 10 days",
+        "max_daily_mg": 1000.0
       }
     ],
     "id": "klacid_suspension"
@@ -31715,21 +32325,36 @@
   {
     "trade_name": "Klacid Tab",
     "dosage_form": "tablet",
-    "active_ingredient": "Klacid",
-    "concentration": "",
-    "composition": "Klacid (tablet)",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "active_ingredient": "Clarithromycin",
+    "concentration": "500 mg",
+    "composition": "Clarithromycin 500 mg",
+    "administration": "Taken with or without meals. Clarithromycin XL (extended release) must be taken with food and swallowed whole.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Klacid 500 tab",
-    "search_terms": "klacid tab klacid 500 tab klacid klacid tablet ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Klacid / Claritop / Clarikan / Maclad / Clarithro",
+    "search_terms": "klacid tab klacid 500 tab clarithromycin klacid macrolide antibiotic pharyngitis otitis pneumonia",
+    "reference_url": "https://reference.medscape.com/drug/biaxin-clarithromycin-342525",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Pharyngitis / Tonsillitis",
+        "adult_fixed": "250 mg orally q12hr for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric patients"
+      },
+      {
+        "title": "Acute Maxillary Sinusitis / Acute Bacterial Exacerbation of Chronic Bronchitis",
+        "adult_fixed": "500 mg orally q12hr for 7-14 days (or Clarithromycin XL 1000 mg once daily with food for 14 days)",
+        "pediatric_fixed": "Use oral suspension for pediatric patients"
+      },
+      {
+        "title": "Community-acquired Pneumonia",
+        "adult_fixed": "250 to 500 mg orally q12hr for 7-14 days",
+        "pediatric_fixed": "Use oral suspension for pediatric patients"
+      },
+      {
+        "title": "H. pylori Eradication (Triple Therapy Regimen)",
+        "adult_fixed": "500 mg orally q12hr for 14 days (combined with Amoxicillin 1000 mg q12hr and PPI)",
+        "pediatric_fixed": "Safety and efficacy not established for H. pylori in children"
       }
     ],
     "id": "klacid_tab"
@@ -31737,21 +32362,36 @@
   {
     "trade_name": "Klacid Tablets",
     "dosage_form": "tablet",
-    "active_ingredient": "Klacid",
-    "concentration": "",
-    "composition": "Klacid (tablet)",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "active_ingredient": "Clarithromycin",
+    "concentration": "500 mg",
+    "composition": "Clarithromycin 500 mg",
+    "administration": "Taken with or without meals. Clarithromycin XL (extended release) must be taken with food and swallowed whole.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Klacid 500 tab",
-    "search_terms": "klacid tablets klacid 500 tab klacid klacid tablet ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Klacid / Claritop / Clarikan / Maclad / Clarithro",
+    "search_terms": "klacid tablets klacid 500 tab clarithromycin klacid macrolide antibiotic pharyngitis otitis pneumonia",
+    "reference_url": "https://reference.medscape.com/drug/biaxin-clarithromycin-342525",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Pharyngitis / Tonsillitis",
+        "adult_fixed": "250 mg orally q12hr for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric patients"
+      },
+      {
+        "title": "Acute Maxillary Sinusitis / Acute Bacterial Exacerbation of Chronic Bronchitis",
+        "adult_fixed": "500 mg orally q12hr for 7-14 days (or Clarithromycin XL 1000 mg once daily with food for 14 days)",
+        "pediatric_fixed": "Use oral suspension for pediatric patients"
+      },
+      {
+        "title": "Community-acquired Pneumonia",
+        "adult_fixed": "250 to 500 mg orally q12hr for 7-14 days",
+        "pediatric_fixed": "Use oral suspension for pediatric patients"
+      },
+      {
+        "title": "H. pylori Eradication (Triple Therapy Regimen)",
+        "adult_fixed": "500 mg orally q12hr for 14 days (combined with Amoxicillin 1000 mg q12hr and PPI)",
+        "pediatric_fixed": "Safety and efficacy not established for H. pylori in children"
       }
     ],
     "id": "klacid_tablets"
@@ -56815,21 +57455,36 @@
   {
     "trade_name": "Trio-Clar Tablets",
     "dosage_form": "tablet",
-    "active_ingredient": "trioclar omeprazole",
-    "concentration": "",
-    "composition": "trioclar omeprazole (tablet)",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "active_ingredient": "Clarithromycin",
+    "concentration": "250 mg",
+    "composition": "Clarithromycin 250 mg",
+    "administration": "Taken with or without meals. Clarithromycin XL (extended release) must be taken with food and swallowed whole.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "trio-clar trioclar omeprazole tinidazole clarithromycin capsules tablets",
-    "search_terms": "trio-clar tablets trio-clar trioclar omeprazole tinidazole clarithromycin capsules tablets trioclar omeprazole trio-clar tablet ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Klacid / Claritop / Clarikan / Maclad / Clarithro",
+    "search_terms": "trio-clar tablets trio-clar trioclar omeprazole tinidazole clarithromycin capsules tablets clarithromycin klacid macrolide antibiotic pharyngitis otitis pneumonia",
+    "reference_url": "https://reference.medscape.com/drug/biaxin-clarithromycin-342525",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Pharyngitis / Tonsillitis",
+        "adult_fixed": "250 mg orally q12hr for 10 days",
+        "pediatric_fixed": "Use oral suspension for pediatric patients"
+      },
+      {
+        "title": "Acute Maxillary Sinusitis / Acute Bacterial Exacerbation of Chronic Bronchitis",
+        "adult_fixed": "500 mg orally q12hr for 7-14 days (or Clarithromycin XL 1000 mg once daily with food for 14 days)",
+        "pediatric_fixed": "Use oral suspension for pediatric patients"
+      },
+      {
+        "title": "Community-acquired Pneumonia",
+        "adult_fixed": "250 to 500 mg orally q12hr for 7-14 days",
+        "pediatric_fixed": "Use oral suspension for pediatric patients"
+      },
+      {
+        "title": "H. pylori Eradication (Triple Therapy Regimen)",
+        "adult_fixed": "500 mg orally q12hr for 14 days (combined with Amoxicillin 1000 mg q12hr and PPI)",
+        "pediatric_fixed": "Safety and efficacy not established for H. pylori in children"
       }
     ],
     "id": "trio_clar_tablets"
