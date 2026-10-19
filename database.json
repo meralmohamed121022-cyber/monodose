@@ -2293,9 +2293,9 @@
     "reference_url": "https://reference.medscape.com/drugs",
     "indications": [
       {
-        "title": "Mucolytic Therapy in Acute/Chronic Respiratory Disorders",
-        "adult_fixed": "30 mg (1 tablet) PO q8hr after meals",
-        "pediatric_fixed": "Adolescents > 12 years: 30 mg PO q8hr",
+        "title": "Productive Cough / Bronchial Secretion Dissolution",
+        "adult_fixed": "1 tablet (30 mg) PO q8hr after meals",
+        "pediatric_fixed": ">12 yr: 1 tablet (30 mg) q8hr | Not recommended under 12 in tablet form",
         "frequency": "q8hr after meals"
       }
     ],
@@ -2316,9 +2316,9 @@
     "reference_url": "https://reference.medscape.com/drugs",
     "indications": [
       {
-        "title": "Mucolytic Therapy in Acute/Chronic Respiratory Disorders",
-        "adult_fixed": "30 mg (1 tablet) PO q8hr after meals",
-        "pediatric_fixed": "Adolescents > 12 years: 30 mg PO q8hr",
+        "title": "Productive Cough / Bronchial Secretion Dissolution",
+        "adult_fixed": "1 tablet (30 mg) PO q8hr after meals",
+        "pediatric_fixed": ">12 yr: 1 tablet (30 mg) q8hr | Not recommended under 12 in tablet form",
         "frequency": "q8hr after meals"
       }
     ],
@@ -2339,9 +2339,9 @@
     "reference_url": "https://reference.medscape.com/drugs",
     "indications": [
       {
-        "title": "Mucolytic Therapy in Acute/Chronic Respiratory Disorders",
-        "adult_fixed": "30 mg (1 tablet) PO q8hr after meals",
-        "pediatric_fixed": "Adolescents > 12 years: 30 mg PO q8hr",
+        "title": "Productive Cough / Bronchial Secretion Dissolution",
+        "adult_fixed": "1 tablet (30 mg) PO q8hr after meals",
+        "pediatric_fixed": ">12 yr: 1 tablet (30 mg) q8hr | Not recommended under 12 in tablet form",
         "frequency": "q8hr after meals"
       }
     ],
@@ -2362,9 +2362,9 @@
     "reference_url": "https://reference.medscape.com/drugs",
     "indications": [
       {
-        "title": "Mucolytic Therapy in Acute/Chronic Respiratory Disorders",
-        "adult_fixed": "30 mg (1 tablet) PO q8hr after meals",
-        "pediatric_fixed": "Adolescents > 12 years: 30 mg PO q8hr",
+        "title": "Productive Cough / Bronchial Secretion Dissolution",
+        "adult_fixed": "1 tablet (30 mg) PO q8hr after meals",
+        "pediatric_fixed": ">12 yr: 1 tablet (30 mg) q8hr | Not recommended under 12 in tablet form",
         "frequency": "q8hr after meals"
       }
     ],
@@ -2431,9 +2431,9 @@
     "reference_url": "https://reference.medscape.com/drugs",
     "indications": [
       {
-        "title": "Mucolytic Therapy in Acute/Chronic Respiratory Disorders",
-        "adult_fixed": "30 mg (1 tablet) PO q8hr after meals",
-        "pediatric_fixed": "Adolescents > 12 years: 30 mg PO q8hr",
+        "title": "Productive Cough / Bronchial Secretion Dissolution",
+        "adult_fixed": "1 tablet (30 mg) PO q8hr after meals",
+        "pediatric_fixed": ">12 yr: 1 tablet (30 mg) q8hr | Not recommended under 12 in tablet form",
         "frequency": "q8hr after meals"
       }
     ],
@@ -2454,9 +2454,9 @@
     "reference_url": "https://reference.medscape.com/drugs",
     "indications": [
       {
-        "title": "Mucolytic Therapy in Acute/Chronic Respiratory Disorders",
-        "adult_fixed": "30 mg (1 tablet) PO q8hr after meals",
-        "pediatric_fixed": "Adolescents > 12 years: 30 mg PO q8hr",
+        "title": "Productive Cough / Bronchial Secretion Dissolution",
+        "adult_fixed": "1 tablet (30 mg) PO q8hr after meals",
+        "pediatric_fixed": ">12 yr: 1 tablet (30 mg) q8hr | Not recommended under 12 in tablet form",
         "frequency": "q8hr after meals"
       }
     ],
@@ -10710,23 +10710,32 @@
     "id": "capsules_tablets"
   },
   {
-    "trade_name": "Carbapex Tablets",
+    "trade_name": "Carbapex tablets",
     "dosage_form": "tablet",
     "active_ingredient": "Carbamazepine",
-    "concentration": "100mg",
-    "composition": "Carbamazepine 100mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "concentration": "200 mg",
+    "composition": "Carbamazepine 200 mg",
+    "administration": "Take with food to minimize GI discomfort. Do not crush controlled-release tablets.",
+    "pregnancy": "Category D",
+    "lactation": "Compatible (Monitor infant for jaundice and sedation)",
     "g6pd": "Safe",
-    "alternatives": "Neurotop / Tonoclone",
-    "search_terms": "carbapex tablets carbapex carbamazepine neurotop tonoclone 100mg 200mg 400mg tablets carbamazepine carbapex tablet 100mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Tegretol / Carbapex / Epimazepine",
+    "search_terms": "carbapex tablets carbapex carbamazepine neurotop tonoclone 100mg 200mg 400mg tablets carbamazepine tegretol anticonvulsant epilepsy trigeminal neuralgia titration",
+    "reference_url": "https://reference.medscape.com/drug/tegretol-carbatrol-carbamazepine-343005",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Epilepsy / Seizure Disorders (Weekly Titration Protocol)",
+        "adult_fixed": "Initial: 200 mg PO q12hr, THEN increase weekly by 200 mg/day to target 800-1200 mg/day",
+        "pediatric_fixed": "Adolescents > 12 yr: Initial 200 mg q12hr, increase weekly by 200 mg/day (Max: 1000-1200 mg/day)",
+        "frequency": "Divided q8-12hr with meals",
+        "regimen_details": "-Initial: 200 mg PO q12hr\nTHEN\n-Increase weekly by 200 mg/day\n-Maintenance: 800-1200 mg/day divided q8-12hr\n-Target serum level: 4-12 mcg/mL"
+      },
+      {
+        "title": "Trigeminal Neuralgia (Titration Protocol)",
+        "adult_fixed": "Initial: 100 mg q12hr, increase by 100 mg q12hr every 2-3 days until pain relief (Max: 1200 mg/day)",
+        "pediatric_fixed": "Not typically indicated in children",
+        "frequency": "Divided q8-12hr with food",
+        "regimen_details": "-Initial: 100 mg PO q12hr on day 1\nTHEN\n-Increase by 100 mg every 12 hours every 2-3 days\n-Maintenance: 400-800 mg/day\n-Once controlled, attempt gradual reduction to lowest effective maintenance dose"
       }
     ],
     "id": "carbapex_tablets"
@@ -14842,67 +14851,124 @@
     "id": "cogintol_tab"
   },
   {
-    "trade_name": "Colchicine 0.5 Tab",
+    "trade_name": "Colchicine 0.5 tab",
     "dosage_form": "tablet",
-    "active_ingredient": "Colmediten",
-    "concentration": "0.500mcg",
-    "composition": "Colmediten 0.500mcg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
-    "g6pd": "Safe",
-    "alternatives": "colchicine colmediten 0.500mcg mg tablets",
-    "search_terms": "colchicine 0.5 tab colchicine colmediten 0.500mcg mg tablets colmediten colchicine tablet 0.500mcg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "active_ingredient": "Colchicine",
+    "concentration": "0.5 mg",
+    "composition": "Colchicine 0.5 mg (500 mcg)",
+    "administration": "Take with or without food. Drink at least 2 liters of water daily.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible (Low levels in milk)",
+    "g6pd": "Safe with caution",
+    "alternatives": "Colchicine / Goutyl",
+    "search_terms": "colchicine 0.5 tab colchicine colmediten 0.500mcg mg tablets colchicine gout acute gout flare fmf familial mediterranean fever uric acid",
+    "reference_url": "https://reference.medscape.com/drug/colcrys-mitigare-colchicine-342813",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Acute Gout Flare (Loading THEN Maintenance Protocol)",
+        "adult_fixed": "1 mg (2 tabs) PO at first sign of flare, THEN 0.5 mg (1 tab) 1 hour later (Max: 1.5 mg in 1 hour), THEN 0.5 mg q12-24hr after 12 hours",
+        "pediatric_fixed": "Not indicated for acute gout in children",
+        "frequency": "Loading dose, then 1 hr later, then q12-24hr",
+        "max_daily_mg": 1.5,
+        "regimen_details": "-Initial: 1 mg (2 tablets) PO immediately at onset of flare\nTHEN\n-1 hour later: 0.5 mg (1 tablet)\nTHEN\n-12 hours later: resume 0.5 mg once or twice daily until flare resolves\n-Do not repeat treatment course within 3 days"
+      },
+      {
+        "title": "Gout Flare Prophylaxis",
+        "adult_fixed": "0.5 mg (1 tab) PO once or twice daily (Max: 1 mg/day)",
+        "pediatric_fixed": "Not indicated in children",
+        "frequency": "Once or twice daily with water",
+        "max_daily_mg": 1.0,
+        "regimen_details": "0.5 mg PO once or twice daily while initiating urate-lowering therapy (for up to 6 months)"
+      },
+      {
+        "title": "Familial Mediterranean Fever (FMF)",
+        "adult_fixed": "1-2 mg (2-4 tabs) PO once daily or divided q12hr",
+        "pediatric_fixed": "Age 4-11 yr: 0.5-1 mg/day | Age >= 12 yr: 1-1.5 mg/day (increase by 0.25-0.5 mg/day if attacks persist)",
+        "frequency": "Once daily or divided q12hr",
+        "max_daily_mg": 2.0,
+        "regimen_details": "-Initial:\n  * Age 4-6 yr: 0.25-0.5 mg/day\n  * Age 6-12 yr: 0.5-1 mg/day\n  * Age > 12 yr and adults: 1-1.5 mg/day\n-Titrate by 0.25-0.5 mg increments up to max tolerated dose to control attacks"
       }
     ],
     "id": "colchicine_0_5_tab"
   },
   {
-    "trade_name": "Colchicine Tab",
+    "trade_name": "Colchicine tab",
     "dosage_form": "tablet",
-    "active_ingredient": "Colmediten",
-    "concentration": "0.500mcg",
-    "composition": "Colmediten 0.500mcg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
-    "g6pd": "Safe",
-    "alternatives": "colchicine colmediten 0.500mcg mg tablets",
-    "search_terms": "colchicine tab colchicine colmediten 0.500mcg mg tablets colmediten colchicine tablet 0.500mcg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "active_ingredient": "Colchicine",
+    "concentration": "0.5 mg",
+    "composition": "Colchicine 0.5 mg (500 mcg)",
+    "administration": "Take with or without food. Drink at least 2 liters of water daily.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible (Low levels in milk)",
+    "g6pd": "Safe with caution",
+    "alternatives": "Colchicine / Goutyl",
+    "search_terms": "colchicine tab colchicine colmediten 0.500mcg mg tablets colchicine gout acute gout flare fmf familial mediterranean fever uric acid",
+    "reference_url": "https://reference.medscape.com/drug/colcrys-mitigare-colchicine-342813",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Acute Gout Flare (Loading THEN Maintenance Protocol)",
+        "adult_fixed": "1 mg (2 tabs) PO at first sign of flare, THEN 0.5 mg (1 tab) 1 hour later (Max: 1.5 mg in 1 hour), THEN 0.5 mg q12-24hr after 12 hours",
+        "pediatric_fixed": "Not indicated for acute gout in children",
+        "frequency": "Loading dose, then 1 hr later, then q12-24hr",
+        "max_daily_mg": 1.5,
+        "regimen_details": "-Initial: 1 mg (2 tablets) PO immediately at onset of flare\nTHEN\n-1 hour later: 0.5 mg (1 tablet)\nTHEN\n-12 hours later: resume 0.5 mg once or twice daily until flare resolves\n-Do not repeat treatment course within 3 days"
+      },
+      {
+        "title": "Gout Flare Prophylaxis",
+        "adult_fixed": "0.5 mg (1 tab) PO once or twice daily (Max: 1 mg/day)",
+        "pediatric_fixed": "Not indicated in children",
+        "frequency": "Once or twice daily with water",
+        "max_daily_mg": 1.0,
+        "regimen_details": "0.5 mg PO once or twice daily while initiating urate-lowering therapy (for up to 6 months)"
+      },
+      {
+        "title": "Familial Mediterranean Fever (FMF)",
+        "adult_fixed": "1-2 mg (2-4 tabs) PO once daily or divided q12hr",
+        "pediatric_fixed": "Age 4-11 yr: 0.5-1 mg/day | Age >= 12 yr: 1-1.5 mg/day (increase by 0.25-0.5 mg/day if attacks persist)",
+        "frequency": "Once daily or divided q12hr",
+        "max_daily_mg": 2.0,
+        "regimen_details": "-Initial:\n  * Age 4-6 yr: 0.25-0.5 mg/day\n  * Age 6-12 yr: 0.5-1 mg/day\n  * Age > 12 yr and adults: 1-1.5 mg/day\n-Titrate by 0.25-0.5 mg increments up to max tolerated dose to control attacks"
       }
     ],
     "id": "colchicine_tab"
   },
   {
-    "trade_name": "Colchicine Tablets",
+    "trade_name": "Colchicine tablets",
     "dosage_form": "tablet",
-    "active_ingredient": "Colmediten",
-    "concentration": "0.500mcg",
-    "composition": "Colmediten 0.500mcg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
-    "g6pd": "Safe",
-    "alternatives": "colchicine colmediten 0.500mcg mg tablets",
-    "search_terms": "colchicine tablets colchicine colmediten 0.500mcg mg tablets colmediten colchicine tablet 0.500mcg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "active_ingredient": "Colchicine",
+    "concentration": "0.5 mg",
+    "composition": "Colchicine 0.5 mg (500 mcg)",
+    "administration": "Take with or without food. Drink at least 2 liters of water daily.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible (Low levels in milk)",
+    "g6pd": "Safe with caution",
+    "alternatives": "Colchicine / Goutyl",
+    "search_terms": "colchicine tablets colchicine colmediten 0.500mcg mg tablets colchicine gout acute gout flare fmf familial mediterranean fever uric acid",
+    "reference_url": "https://reference.medscape.com/drug/colcrys-mitigare-colchicine-342813",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Acute Gout Flare (Loading THEN Maintenance Protocol)",
+        "adult_fixed": "1 mg (2 tabs) PO at first sign of flare, THEN 0.5 mg (1 tab) 1 hour later (Max: 1.5 mg in 1 hour), THEN 0.5 mg q12-24hr after 12 hours",
+        "pediatric_fixed": "Not indicated for acute gout in children",
+        "frequency": "Loading dose, then 1 hr later, then q12-24hr",
+        "max_daily_mg": 1.5,
+        "regimen_details": "-Initial: 1 mg (2 tablets) PO immediately at onset of flare\nTHEN\n-1 hour later: 0.5 mg (1 tablet)\nTHEN\n-12 hours later: resume 0.5 mg once or twice daily until flare resolves\n-Do not repeat treatment course within 3 days"
+      },
+      {
+        "title": "Gout Flare Prophylaxis",
+        "adult_fixed": "0.5 mg (1 tab) PO once or twice daily (Max: 1 mg/day)",
+        "pediatric_fixed": "Not indicated in children",
+        "frequency": "Once or twice daily with water",
+        "max_daily_mg": 1.0,
+        "regimen_details": "0.5 mg PO once or twice daily while initiating urate-lowering therapy (for up to 6 months)"
+      },
+      {
+        "title": "Familial Mediterranean Fever (FMF)",
+        "adult_fixed": "1-2 mg (2-4 tabs) PO once daily or divided q12hr",
+        "pediatric_fixed": "Age 4-11 yr: 0.5-1 mg/day | Age >= 12 yr: 1-1.5 mg/day (increase by 0.25-0.5 mg/day if attacks persist)",
+        "frequency": "Once daily or divided q12hr",
+        "max_daily_mg": 2.0,
+        "regimen_details": "-Initial:\n  * Age 4-6 yr: 0.25-0.5 mg/day\n  * Age 6-12 yr: 0.5-1 mg/day\n  * Age > 12 yr and adults: 1-1.5 mg/day\n-Titrate by 0.25-0.5 mg increments up to max tolerated dose to control attacks"
       }
     ],
     "id": "colchicine_tablets"
@@ -17789,22 +17855,43 @@
     "trade_name": "Deltasone Dexamethasone 0.25mg/5ml syrup",
     "dosage_form": "syrup",
     "active_ingredient": "Dexamethasone",
-    "concentration": "0.25mg/5ml",
-    "composition": "Dexamethasone 0.25mg/5ml",
-    "concentration_per_ml": 0.05,
-    "administration": "Taken with or without food. Shake well before use.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "concentration": "0.5 mg / 5 ml (100 ml)",
+    "composition": "Dexamethasone 0.5 mg / 5 ml (100 ml)",
+    "concentration_per_ml": 0.1,
+    "administration": "Administer with meals or milk to minimize GI irritation. Take in the morning.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Deltasone Dexamethasone 0.25mg/5ml syrup",
-    "search_terms": "deltasone dexamethasone 0.25mg/5ml syrup deltasone dexamethasone 0.25mg/5ml syrup dexamethasone deltasone syrup 0.25mg/5ml",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Epidron / Decadron / Fortecortin / Dexazone",
+    "search_terms": "deltasone dexamethasone 0.25mg/5ml syrup deltasone dexamethasone 0.25mg/5ml syrup dexamethasone epidron decadron fortecortin corticosteroid anti-inflammatory croup antiemetic",
+    "reference_url": "https://reference.medscape.com/drug/decadron-dexamethasone-intensol-dexamethasone-342741",
     "indications": [
       {
-        "title": "Standard Therapeutic Regimen",
-        "adult_fixed": "Administer according to specialist instructions and clinical evaluation",
-        "pediatric_fixed": "Administer strictly according to weight and specialist guidance",
-        "frequency": "As directed"
+        "title": "Croup (Laryngotracheobronchitis)",
+        "adult_fixed": "Not applicable",
+        "pediatric_fixed": "0.15-0.6 mg/kg (1.5-6 ml/kg) PO as a single dose (Max: 16 mg or 160 ml)",
+        "pediatric_mg_kg": 0.6,
+        "frequency": "Single dose",
+        "max_daily_mg": 16.0,
+        "regimen_details": "0.15-0.6 mg/kg PO single dose (Max 16 mg). May repeat in 24-48 hours if severe"
+      },
+      {
+        "title": "Acute Asthma Exacerbation (Short-Course Protocol)",
+        "adult_fixed": "16 mg (160 ml) PO once daily for 2 days",
+        "pediatric_fixed": "0.6 mg/kg (6 ml/kg) PO once daily for 2 days (Max: 16 mg/day)",
+        "pediatric_mg_kg": 0.6,
+        "frequency": "Once daily for 2 consecutive days",
+        "max_daily_mg": 16.0,
+        "regimen_details": "0.6 mg/kg PO once daily for 2 days (Max 16 mg/day). Equal efficacy to 5 days of prednisone"
+      },
+      {
+        "title": "Anti-inflammatory / Immunosuppression (Maintenance & Taper)",
+        "adult_fixed": "0.75-9 mg PO daily in divided doses, then taper",
+        "pediatric_fixed": "0.08-0.3 mg/kg/day PO divided q6-12hr based on severity, then taper",
+        "pediatric_mg_kg": 0.15,
+        "frequency": "Divided q6-12hr with food, then taper",
+        "max_daily_mg": 16.0,
+        "regimen_details": "Initial: 0.08-0.3 mg/kg/day PO divided q6-12hr. Once controlled, taper gradually to avoid adrenal insufficiency"
       }
     ],
     "id": "deltasone_dexamethasone_0_25mg_5ml_syrup"
@@ -17813,88 +17900,112 @@
     "trade_name": "Deltasone Dexamethasone 0.75mg tablets",
     "dosage_form": "tablet",
     "active_ingredient": "Dexamethasone",
-    "concentration": "0.75mg",
-    "composition": "Dexamethasone 0.75mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "concentration": "0.5 mg",
+    "composition": "Dexamethasone 0.5 mg",
+    "administration": "Administer with meals or milk to minimize GI irritation. Take in the morning.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Deltasone Dexamethasone 0.75mg tablets",
-    "search_terms": "deltasone dexamethasone 0.75mg tablets deltasone dexamethasone 0.75mg tablets dexamethasone deltasone tablet 0.75mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Epidron / Decadron / Fortecortin / Dexazone",
+    "search_terms": "deltasone dexamethasone 0.75mg tablets deltasone dexamethasone 0.75mg tablets dexamethasone epidron decadron fortecortin corticosteroid anti-inflammatory croup antiemetic",
+    "reference_url": "https://reference.medscape.com/drug/decadron-dexamethasone-intensol-dexamethasone-342741",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Acute Exacerbation / Anti-inflammatory Burst & Taper",
+        "adult_fixed": "0.75-9 mg PO daily divided q6-12hr for 3-5 days, then taper",
+        "pediatric_fixed": "0.08-0.3 mg/kg/day PO divided q6-12hr for 3-5 days, then taper",
+        "frequency": "Divided q6-12hr with meals, then taper"
       }
     ],
     "id": "deltasone_dexamethasone_0_75mg_tablets"
   },
   {
-    "trade_name": "Deltasone Syrup",
+    "trade_name": "Deltasone syrup",
     "dosage_form": "syrup",
     "active_ingredient": "Dexamethasone",
-    "concentration": "0.25mg/5ml",
-    "composition": "Dexamethasone 0.25mg/5ml",
-    "concentration_per_ml": 0.05,
-    "administration": "Taken with or without food. Shake well before use.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "concentration": "0.5 mg / 5 ml (100 ml)",
+    "composition": "Dexamethasone 0.5 mg / 5 ml (100 ml)",
+    "concentration_per_ml": 0.1,
+    "administration": "Administer with meals or milk to minimize GI irritation. Take in the morning.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Deltasone Dexamethasone 0.25mg/5ml syrup",
-    "search_terms": "deltasone syrup deltasone dexamethasone 0.25mg/5ml syrup dexamethasone deltasone syrup 0.25mg/5ml",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Epidron / Decadron / Fortecortin / Dexazone",
+    "search_terms": "deltasone syrup deltasone dexamethasone 0.25mg/5ml syrup dexamethasone epidron decadron fortecortin corticosteroid anti-inflammatory croup antiemetic",
+    "reference_url": "https://reference.medscape.com/drug/decadron-dexamethasone-intensol-dexamethasone-342741",
     "indications": [
       {
-        "title": "Standard Therapeutic Regimen",
-        "adult_fixed": "Administer according to specialist instructions and clinical evaluation",
-        "pediatric_fixed": "Administer strictly according to weight and specialist guidance",
-        "frequency": "As directed"
+        "title": "Croup (Laryngotracheobronchitis)",
+        "adult_fixed": "Not applicable",
+        "pediatric_fixed": "0.15-0.6 mg/kg (1.5-6 ml/kg) PO as a single dose (Max: 16 mg or 160 ml)",
+        "pediatric_mg_kg": 0.6,
+        "frequency": "Single dose",
+        "max_daily_mg": 16.0,
+        "regimen_details": "0.15-0.6 mg/kg PO single dose (Max 16 mg). May repeat in 24-48 hours if severe"
+      },
+      {
+        "title": "Acute Asthma Exacerbation (Short-Course Protocol)",
+        "adult_fixed": "16 mg (160 ml) PO once daily for 2 days",
+        "pediatric_fixed": "0.6 mg/kg (6 ml/kg) PO once daily for 2 days (Max: 16 mg/day)",
+        "pediatric_mg_kg": 0.6,
+        "frequency": "Once daily for 2 consecutive days",
+        "max_daily_mg": 16.0,
+        "regimen_details": "0.6 mg/kg PO once daily for 2 days (Max 16 mg/day). Equal efficacy to 5 days of prednisone"
+      },
+      {
+        "title": "Anti-inflammatory / Immunosuppression (Maintenance & Taper)",
+        "adult_fixed": "0.75-9 mg PO daily in divided doses, then taper",
+        "pediatric_fixed": "0.08-0.3 mg/kg/day PO divided q6-12hr based on severity, then taper",
+        "pediatric_mg_kg": 0.15,
+        "frequency": "Divided q6-12hr with food, then taper",
+        "max_daily_mg": 16.0,
+        "regimen_details": "Initial: 0.08-0.3 mg/kg/day PO divided q6-12hr. Once controlled, taper gradually to avoid adrenal insufficiency"
       }
     ],
     "id": "deltasone_syrup"
   },
   {
-    "trade_name": "Deltasone Tab",
+    "trade_name": "Deltasone tab",
     "dosage_form": "tablet",
     "active_ingredient": "Dexamethasone",
-    "concentration": "0.75mg",
-    "composition": "Dexamethasone 0.75mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "concentration": "0.5 mg",
+    "composition": "Dexamethasone 0.5 mg",
+    "administration": "Administer with meals or milk to minimize GI irritation. Take in the morning.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Deltasone Dexamethasone 0.75mg tablets",
-    "search_terms": "deltasone tab deltasone dexamethasone 0.75mg tablets dexamethasone deltasone tablet 0.75mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Epidron / Decadron / Fortecortin / Dexazone",
+    "search_terms": "deltasone tab deltasone dexamethasone 0.75mg tablets dexamethasone epidron decadron fortecortin corticosteroid anti-inflammatory croup antiemetic",
+    "reference_url": "https://reference.medscape.com/drug/decadron-dexamethasone-intensol-dexamethasone-342741",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Acute Exacerbation / Anti-inflammatory Burst & Taper",
+        "adult_fixed": "0.75-9 mg PO daily divided q6-12hr for 3-5 days, then taper",
+        "pediatric_fixed": "0.08-0.3 mg/kg/day PO divided q6-12hr for 3-5 days, then taper",
+        "frequency": "Divided q6-12hr with meals, then taper"
       }
     ],
     "id": "deltasone_tab"
   },
   {
-    "trade_name": "Deltasone Tablets",
+    "trade_name": "Deltasone tablets",
     "dosage_form": "tablet",
     "active_ingredient": "Dexamethasone",
-    "concentration": "0.75mg",
-    "composition": "Dexamethasone 0.75mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "concentration": "0.5 mg",
+    "composition": "Dexamethasone 0.5 mg",
+    "administration": "Administer with meals or milk to minimize GI irritation. Take in the morning.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Deltasone Dexamethasone 0.75mg tablets",
-    "search_terms": "deltasone tablets deltasone dexamethasone 0.75mg tablets dexamethasone deltasone tablet 0.75mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Epidron / Decadron / Fortecortin / Dexazone",
+    "search_terms": "deltasone tablets deltasone dexamethasone 0.75mg tablets dexamethasone epidron decadron fortecortin corticosteroid anti-inflammatory croup antiemetic",
+    "reference_url": "https://reference.medscape.com/drug/decadron-dexamethasone-intensol-dexamethasone-342741",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Acute Exacerbation / Anti-inflammatory Burst & Taper",
+        "adult_fixed": "0.75-9 mg PO daily divided q6-12hr for 3-5 days, then taper",
+        "pediatric_fixed": "0.08-0.3 mg/kg/day PO divided q6-12hr for 3-5 days, then taper",
+        "frequency": "Divided q6-12hr with meals, then taper"
       }
     ],
     "id": "deltasone_tablets"
@@ -18392,23 +18503,45 @@
     "id": "devarol_s_amp"
   },
   {
-    "trade_name": "Dexamethasone Amp",
+    "trade_name": "Dexamethasone amp",
     "dosage_form": "ampoule",
     "active_ingredient": "Dexamethasone",
-    "concentration": "",
-    "composition": "Dexamethasone (ampoule)",
-    "administration": "Administer via slow IV injection / infusion or deep IM strictly as instructed on product insert",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "concentration": "4 mg / 1 ml",
+    "composition": "Dexamethasone Sodium Phosphate 4 mg / 1 ml",
+    "administration": "IV push over 1-3 minutes or IM deep injection.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Dexamethasone amp",
-    "search_terms": "dexamethasone amp dexamethasone amp dexamethasone dexamethasone ampoule ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Epidron / Decadron / Fortecortin / Dexazone",
+    "search_terms": "dexamethasone amp dexamethasone amp dexamethasone epidron decadron fortecortin corticosteroid anti-inflammatory croup antiemetic",
+    "reference_url": "https://reference.medscape.com/drug/decadron-dexamethasone-intensol-dexamethasone-342741",
     "indications": [
       {
-        "title": "Therapeutic Parenteral Administration",
-        "adult_fixed": "1 ampoule IV/IM as indicated according to clinical response and specialist guidance",
-        "pediatric_fixed": "Dose adjustment and pediatric administration strictly according to specialist guidance"
+        "title": "Croup (Laryngotracheobronchitis - Emergency)",
+        "adult_fixed": "Not applicable",
+        "pediatric_fixed": "0.6 mg/kg IM/IV as a single dose (Max: 16 mg)",
+        "pediatric_mg_kg": 0.6,
+        "frequency": "Single dose",
+        "max_daily_mg": 16.0,
+        "regimen_details": "0.6 mg/kg IM/IV as a single dose (Max 16 mg)"
+      },
+      {
+        "title": "Cerebral Edema (Brain Tumor / Trauma Taper Protocol)",
+        "adult_fixed": "10 mg IV initially, THEN 4 mg IM/IV q6hr for 2-4 days, THEN taper over 5-7 days",
+        "pediatric_fixed": "Initial: 0.5-1.5 mg/kg IV loading, THEN 0.2-0.5 mg/kg/day divided q6hr for 5 days, THEN taper",
+        "pediatric_mg_kg": 0.3,
+        "frequency": "Divided q6hr, then taper over 5-7 days",
+        "max_daily_mg": 16.0,
+        "regimen_details": "-Initial loading: 10 mg IV\nTHEN\n4 mg IM/IV q6hr for 2-4 days\nTHEN\nTaper dose over 5-7 days until discontinued"
+      },
+      {
+        "title": "Chemotherapy-Induced Nausea & Vomiting (Antiemetic Protocol)",
+        "adult_fixed": "12-20 mg IV 30 min before chemotherapy, THEN 8 mg PO/IV daily for 2-3 days",
+        "pediatric_fixed": "10 mg/m² (or 0.3 mg/kg) IV 30 min before chemo, THEN 5 mg/m² q12hr for 2 days",
+        "pediatric_mg_kg": 0.3,
+        "frequency": "Pre-chemo then q12-24hr for 2-3 days",
+        "max_daily_mg": 20.0,
+        "regimen_details": "-Day 1: 12-20 mg IV 30 min prior to chemotherapy\nTHEN\n-Days 2-4: 8 mg PO/IV once daily in morning"
       }
     ],
     "id": "dexamethasone_amp"
@@ -28636,45 +28769,83 @@
     "id": "gonapure_vial"
   },
   {
-    "trade_name": "Goutyless Tab",
+    "trade_name": "Goutyless tab",
     "dosage_form": "tablet",
     "active_ingredient": "Colchicine",
-    "concentration": "0.5mg",
-    "composition": "Colchicine 0.5mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
-    "g6pd": "Safe",
-    "alternatives": "Probenecid",
-    "search_terms": "goutyless tab goutyless colchicine 0.5mg probenecid 500mg tablets colchicine goutyless tablet 0.5mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "concentration": "0.5 mg",
+    "composition": "Colchicine 0.5 mg (500 mcg)",
+    "administration": "Take with or without food. Drink at least 2 liters of water daily.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible (Low levels in milk)",
+    "g6pd": "Safe with caution",
+    "alternatives": "Colchicine / Goutyl",
+    "search_terms": "goutyless tab goutyless colchicine 0.5mg probenecid 500mg tablets colchicine gout acute gout flare fmf familial mediterranean fever uric acid",
+    "reference_url": "https://reference.medscape.com/drug/colcrys-mitigare-colchicine-342813",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Acute Gout Flare (Loading THEN Maintenance Protocol)",
+        "adult_fixed": "1 mg (2 tabs) PO at first sign of flare, THEN 0.5 mg (1 tab) 1 hour later (Max: 1.5 mg in 1 hour), THEN 0.5 mg q12-24hr after 12 hours",
+        "pediatric_fixed": "Not indicated for acute gout in children",
+        "frequency": "Loading dose, then 1 hr later, then q12-24hr",
+        "max_daily_mg": 1.5,
+        "regimen_details": "-Initial: 1 mg (2 tablets) PO immediately at onset of flare\nTHEN\n-1 hour later: 0.5 mg (1 tablet)\nTHEN\n-12 hours later: resume 0.5 mg once or twice daily until flare resolves\n-Do not repeat treatment course within 3 days"
+      },
+      {
+        "title": "Gout Flare Prophylaxis",
+        "adult_fixed": "0.5 mg (1 tab) PO once or twice daily (Max: 1 mg/day)",
+        "pediatric_fixed": "Not indicated in children",
+        "frequency": "Once or twice daily with water",
+        "max_daily_mg": 1.0,
+        "regimen_details": "0.5 mg PO once or twice daily while initiating urate-lowering therapy (for up to 6 months)"
+      },
+      {
+        "title": "Familial Mediterranean Fever (FMF)",
+        "adult_fixed": "1-2 mg (2-4 tabs) PO once daily or divided q12hr",
+        "pediatric_fixed": "Age 4-11 yr: 0.5-1 mg/day | Age >= 12 yr: 1-1.5 mg/day (increase by 0.25-0.5 mg/day if attacks persist)",
+        "frequency": "Once daily or divided q12hr",
+        "max_daily_mg": 2.0,
+        "regimen_details": "-Initial:\n  * Age 4-6 yr: 0.25-0.5 mg/day\n  * Age 6-12 yr: 0.5-1 mg/day\n  * Age > 12 yr and adults: 1-1.5 mg/day\n-Titrate by 0.25-0.5 mg increments up to max tolerated dose to control attacks"
       }
     ],
     "id": "goutyless_tab"
   },
   {
-    "trade_name": "Goutyless Tablets",
+    "trade_name": "Goutyless tablets",
     "dosage_form": "tablet",
     "active_ingredient": "Colchicine",
-    "concentration": "0.5mg",
-    "composition": "Colchicine 0.5mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
-    "g6pd": "Safe",
-    "alternatives": "Probenecid",
-    "search_terms": "goutyless tablets goutyless colchicine 0.5mg probenecid 500mg tablets colchicine goutyless tablet 0.5mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "concentration": "0.5 mg",
+    "composition": "Colchicine 0.5 mg (500 mcg)",
+    "administration": "Take with or without food. Drink at least 2 liters of water daily.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible (Low levels in milk)",
+    "g6pd": "Safe with caution",
+    "alternatives": "Colchicine / Goutyl",
+    "search_terms": "goutyless tablets goutyless colchicine 0.5mg probenecid 500mg tablets colchicine gout acute gout flare fmf familial mediterranean fever uric acid",
+    "reference_url": "https://reference.medscape.com/drug/colcrys-mitigare-colchicine-342813",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Acute Gout Flare (Loading THEN Maintenance Protocol)",
+        "adult_fixed": "1 mg (2 tabs) PO at first sign of flare, THEN 0.5 mg (1 tab) 1 hour later (Max: 1.5 mg in 1 hour), THEN 0.5 mg q12-24hr after 12 hours",
+        "pediatric_fixed": "Not indicated for acute gout in children",
+        "frequency": "Loading dose, then 1 hr later, then q12-24hr",
+        "max_daily_mg": 1.5,
+        "regimen_details": "-Initial: 1 mg (2 tablets) PO immediately at onset of flare\nTHEN\n-1 hour later: 0.5 mg (1 tablet)\nTHEN\n-12 hours later: resume 0.5 mg once or twice daily until flare resolves\n-Do not repeat treatment course within 3 days"
+      },
+      {
+        "title": "Gout Flare Prophylaxis",
+        "adult_fixed": "0.5 mg (1 tab) PO once or twice daily (Max: 1 mg/day)",
+        "pediatric_fixed": "Not indicated in children",
+        "frequency": "Once or twice daily with water",
+        "max_daily_mg": 1.0,
+        "regimen_details": "0.5 mg PO once or twice daily while initiating urate-lowering therapy (for up to 6 months)"
+      },
+      {
+        "title": "Familial Mediterranean Fever (FMF)",
+        "adult_fixed": "1-2 mg (2-4 tabs) PO once daily or divided q12hr",
+        "pediatric_fixed": "Age 4-11 yr: 0.5-1 mg/day | Age >= 12 yr: 1-1.5 mg/day (increase by 0.25-0.5 mg/day if attacks persist)",
+        "frequency": "Once daily or divided q12hr",
+        "max_daily_mg": 2.0,
+        "regimen_details": "-Initial:\n  * Age 4-6 yr: 0.25-0.5 mg/day\n  * Age 6-12 yr: 0.5-1 mg/day\n  * Age > 12 yr and adults: 1-1.5 mg/day\n-Titrate by 0.25-0.5 mg increments up to max tolerated dose to control attacks"
       }
     ],
     "id": "goutyless_tablets"
@@ -32630,45 +32801,49 @@
     "id": "kenacort_tablets"
   },
   {
-    "trade_name": "Keppra 250 Tab",
+    "trade_name": "Keppra 250 tab",
     "dosage_form": "tablet",
-    "active_ingredient": "Keppra",
-    "concentration": "",
-    "composition": "Keppra (tablet)",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "active_ingredient": "Levetiracetam",
+    "concentration": "250 mg",
+    "composition": "Levetiracetam 250 mg",
+    "administration": "May be taken with or without food. Do not crush extended-release tablets.",
+    "pregnancy": "Category C (Monitor serum levels closely in pregnancy)",
+    "lactation": "Compatible (Low levels in milk)",
     "g6pd": "Safe",
-    "alternatives": "Keppra 250 tab",
-    "search_terms": "keppra 250 tab keppra 250 tab keppra keppra tablet ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Keppra / Tiratam / Levepex",
+    "search_terms": "keppra 250 tab keppra 250 tab levetiracetam keppra tiratam levepex antiepileptic seizures titration",
+    "reference_url": "https://reference.medscape.com/drug/keppra-spritam-levetiracetam-343013",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Partial Onset & Generalized Seizures (2-Week Titration Protocol)",
+        "adult_fixed": "Initial: 500 mg PO q12hr; increase every 2 weeks by 500 mg q12hr up to 1500 mg q12hr",
+        "pediatric_fixed": "Adolescents >= 16 yr: Initial 500 mg PO q12hr, increase every 2 weeks by 500 mg q12hr to target 1500 mg q12hr",
+        "frequency": "q12hr with or without meals",
+        "regimen_details": "-Weeks 1-2: 500 mg PO q12hr\nTHEN\n-Weeks 3-4: 1000 mg PO q12hr\nTHEN\n-Target dose: 1500 mg PO q12hr based on tolerability and response"
       }
     ],
     "id": "keppra_250_tab"
   },
   {
-    "trade_name": "Keppra Tab",
+    "trade_name": "Keppra tab",
     "dosage_form": "tablet",
-    "active_ingredient": "Keppra",
-    "concentration": "",
-    "composition": "Keppra (tablet)",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "active_ingredient": "Levetiracetam",
+    "concentration": "250 mg",
+    "composition": "Levetiracetam 250 mg",
+    "administration": "May be taken with or without food. Do not crush extended-release tablets.",
+    "pregnancy": "Category C (Monitor serum levels closely in pregnancy)",
+    "lactation": "Compatible (Low levels in milk)",
     "g6pd": "Safe",
-    "alternatives": "Keppra 250 tab",
-    "search_terms": "keppra tab keppra 250 tab keppra keppra tablet ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Keppra / Tiratam / Levepex",
+    "search_terms": "keppra tab keppra 250 tab levetiracetam keppra tiratam levepex antiepileptic seizures titration",
+    "reference_url": "https://reference.medscape.com/drug/keppra-spritam-levetiracetam-343013",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Partial Onset & Generalized Seizures (2-Week Titration Protocol)",
+        "adult_fixed": "Initial: 500 mg PO q12hr; increase every 2 weeks by 500 mg q12hr up to 1500 mg q12hr",
+        "pediatric_fixed": "Adolescents >= 16 yr: Initial 500 mg PO q12hr, increase every 2 weeks by 500 mg q12hr to target 1500 mg q12hr",
+        "frequency": "q12hr with or without meals",
+        "regimen_details": "-Weeks 1-2: 500 mg PO q12hr\nTHEN\n-Weeks 3-4: 1000 mg PO q12hr\nTHEN\n-Target dose: 1500 mg PO q12hr based on tolerability and response"
       }
     ],
     "id": "keppra_tab"
@@ -38443,45 +38618,47 @@
     "id": "metapsin_tablets"
   },
   {
-    "trade_name": "Methabiogen Tab",
+    "trade_name": "Methabiogen tab",
     "dosage_form": "tablet",
     "active_ingredient": "Dexamethasone",
-    "concentration": "8mg",
-    "composition": "Dexamethasone 8mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "concentration": "8 mg",
+    "composition": "Dexamethasone 8 mg",
+    "administration": "Administer with meals or milk to minimize GI irritation. Take in the morning.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "methabiogen Dexamethasone 8mg tablets",
-    "search_terms": "methabiogen tab methabiogen dexamethasone 8mg tablets dexamethasone methabiogen tablet 8mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Epidron / Decadron / Fortecortin / Dexazone",
+    "search_terms": "methabiogen tab methabiogen dexamethasone 8mg tablets dexamethasone epidron decadron fortecortin corticosteroid anti-inflammatory croup antiemetic",
+    "reference_url": "https://reference.medscape.com/drug/decadron-dexamethasone-intensol-dexamethasone-342741",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Acute Exacerbation / Anti-inflammatory Burst & Taper",
+        "adult_fixed": "0.75-9 mg PO daily divided q6-12hr for 3-5 days, then taper",
+        "pediatric_fixed": "0.08-0.3 mg/kg/day PO divided q6-12hr for 3-5 days, then taper",
+        "frequency": "Divided q6-12hr with meals, then taper"
       }
     ],
     "id": "methabiogen_tab"
   },
   {
-    "trade_name": "Methabiogen Tablets",
+    "trade_name": "Methabiogen tablets",
     "dosage_form": "tablet",
     "active_ingredient": "Dexamethasone",
-    "concentration": "8mg",
-    "composition": "Dexamethasone 8mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "concentration": "8 mg",
+    "composition": "Dexamethasone 8 mg",
+    "administration": "Administer with meals or milk to minimize GI irritation. Take in the morning.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "methabiogen Dexamethasone 8mg tablets",
-    "search_terms": "methabiogen tablets methabiogen dexamethasone 8mg tablets dexamethasone methabiogen tablet 8mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Epidron / Decadron / Fortecortin / Dexazone",
+    "search_terms": "methabiogen tablets methabiogen dexamethasone 8mg tablets dexamethasone epidron decadron fortecortin corticosteroid anti-inflammatory croup antiemetic",
+    "reference_url": "https://reference.medscape.com/drug/decadron-dexamethasone-intensol-dexamethasone-342741",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Acute Exacerbation / Anti-inflammatory Burst & Taper",
+        "adult_fixed": "0.75-9 mg PO daily divided q6-12hr for 3-5 days, then taper",
+        "pediatric_fixed": "0.08-0.3 mg/kg/day PO divided q6-12hr for 3-5 days, then taper",
+        "frequency": "Divided q6-12hr with meals, then taper"
       }
     ],
     "id": "methabiogen_tablets"
@@ -44794,22 +44971,43 @@
     "trade_name": "Orazone Dexamethasone 0.5mg/5ml syrup",
     "dosage_form": "syrup",
     "active_ingredient": "Dexamethasone",
-    "concentration": "0.5mg/5ml",
-    "composition": "Dexamethasone 0.5mg/5ml",
+    "concentration": "0.5 mg / 5 ml (100 ml)",
+    "composition": "Dexamethasone 0.5 mg / 5 ml (100 ml)",
     "concentration_per_ml": 0.1,
-    "administration": "Taken with or without food. Shake well before use.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "administration": "Administer with meals or milk to minimize GI irritation. Take in the morning.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Orazone Dexamethasone 0.5mg/5ml syrup",
-    "search_terms": "orazone dexamethasone 0.5mg/5ml syrup orazone dexamethasone 0.5mg/5ml syrup dexamethasone orazone syrup 0.5mg/5ml",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Epidron / Decadron / Fortecortin / Dexazone",
+    "search_terms": "orazone dexamethasone 0.5mg/5ml syrup orazone dexamethasone 0.5mg/5ml syrup dexamethasone epidron decadron fortecortin corticosteroid anti-inflammatory croup antiemetic",
+    "reference_url": "https://reference.medscape.com/drug/decadron-dexamethasone-intensol-dexamethasone-342741",
     "indications": [
       {
-        "title": "Standard Therapeutic Regimen",
-        "adult_fixed": "Administer according to specialist instructions and clinical evaluation",
-        "pediatric_fixed": "Administer strictly according to weight and specialist guidance",
-        "frequency": "As directed"
+        "title": "Croup (Laryngotracheobronchitis)",
+        "adult_fixed": "Not applicable",
+        "pediatric_fixed": "0.15-0.6 mg/kg (1.5-6 ml/kg) PO as a single dose (Max: 16 mg or 160 ml)",
+        "pediatric_mg_kg": 0.6,
+        "frequency": "Single dose",
+        "max_daily_mg": 16.0,
+        "regimen_details": "0.15-0.6 mg/kg PO single dose (Max 16 mg). May repeat in 24-48 hours if severe"
+      },
+      {
+        "title": "Acute Asthma Exacerbation (Short-Course Protocol)",
+        "adult_fixed": "16 mg (160 ml) PO once daily for 2 days",
+        "pediatric_fixed": "0.6 mg/kg (6 ml/kg) PO once daily for 2 days (Max: 16 mg/day)",
+        "pediatric_mg_kg": 0.6,
+        "frequency": "Once daily for 2 consecutive days",
+        "max_daily_mg": 16.0,
+        "regimen_details": "0.6 mg/kg PO once daily for 2 days (Max 16 mg/day). Equal efficacy to 5 days of prednisone"
+      },
+      {
+        "title": "Anti-inflammatory / Immunosuppression (Maintenance & Taper)",
+        "adult_fixed": "0.75-9 mg PO daily in divided doses, then taper",
+        "pediatric_fixed": "0.08-0.3 mg/kg/day PO divided q6-12hr based on severity, then taper",
+        "pediatric_mg_kg": 0.15,
+        "frequency": "Divided q6-12hr with food, then taper",
+        "max_daily_mg": 16.0,
+        "regimen_details": "Initial: 0.08-0.3 mg/kg/day PO divided q6-12hr. Once controlled, taper gradually to avoid adrenal insufficiency"
       }
     ],
     "id": "orazone_dexamethasone_0_5mg_5ml_syrup"
@@ -44818,88 +45016,112 @@
     "trade_name": "Orazone Dexamethasone dexazone 0.5mg tablets",
     "dosage_form": "tablet",
     "active_ingredient": "Dexamethasone",
-    "concentration": "0.5mg",
-    "composition": "Dexamethasone 0.5mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "concentration": "0.5 mg",
+    "composition": "Dexamethasone 0.5 mg",
+    "administration": "Administer with meals or milk to minimize GI irritation. Take in the morning.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Dexazone",
-    "search_terms": "orazone dexamethasone dexazone 0.5mg tablets orazone dexamethasone dexazone 0.5mg tablets dexamethasone orazone tablet 0.5mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Epidron / Decadron / Fortecortin / Dexazone",
+    "search_terms": "orazone dexamethasone dexazone 0.5mg tablets orazone dexamethasone dexazone 0.5mg tablets dexamethasone epidron decadron fortecortin corticosteroid anti-inflammatory croup antiemetic",
+    "reference_url": "https://reference.medscape.com/drug/decadron-dexamethasone-intensol-dexamethasone-342741",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Acute Exacerbation / Anti-inflammatory Burst & Taper",
+        "adult_fixed": "0.75-9 mg PO daily divided q6-12hr for 3-5 days, then taper",
+        "pediatric_fixed": "0.08-0.3 mg/kg/day PO divided q6-12hr for 3-5 days, then taper",
+        "frequency": "Divided q6-12hr with meals, then taper"
       }
     ],
     "id": "orazone_dexamethasone_dexazone_0_5mg_tablets"
   },
   {
-    "trade_name": "Orazone Syrup",
+    "trade_name": "Orazone syrup",
     "dosage_form": "syrup",
     "active_ingredient": "Dexamethasone",
-    "concentration": "0.5mg/5ml",
-    "composition": "Dexamethasone 0.5mg/5ml",
+    "concentration": "0.5 mg / 5 ml (100 ml)",
+    "composition": "Dexamethasone 0.5 mg / 5 ml (100 ml)",
     "concentration_per_ml": 0.1,
-    "administration": "Taken with or without food. Shake well before use.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "administration": "Administer with meals or milk to minimize GI irritation. Take in the morning.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Orazone Dexamethasone 0.5mg/5ml syrup",
-    "search_terms": "orazone syrup orazone dexamethasone 0.5mg/5ml syrup dexamethasone orazone syrup 0.5mg/5ml",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Epidron / Decadron / Fortecortin / Dexazone",
+    "search_terms": "orazone syrup orazone dexamethasone 0.5mg/5ml syrup dexamethasone epidron decadron fortecortin corticosteroid anti-inflammatory croup antiemetic",
+    "reference_url": "https://reference.medscape.com/drug/decadron-dexamethasone-intensol-dexamethasone-342741",
     "indications": [
       {
-        "title": "Standard Therapeutic Regimen",
-        "adult_fixed": "Administer according to specialist instructions and clinical evaluation",
-        "pediatric_fixed": "Administer strictly according to weight and specialist guidance",
-        "frequency": "As directed"
+        "title": "Croup (Laryngotracheobronchitis)",
+        "adult_fixed": "Not applicable",
+        "pediatric_fixed": "0.15-0.6 mg/kg (1.5-6 ml/kg) PO as a single dose (Max: 16 mg or 160 ml)",
+        "pediatric_mg_kg": 0.6,
+        "frequency": "Single dose",
+        "max_daily_mg": 16.0,
+        "regimen_details": "0.15-0.6 mg/kg PO single dose (Max 16 mg). May repeat in 24-48 hours if severe"
+      },
+      {
+        "title": "Acute Asthma Exacerbation (Short-Course Protocol)",
+        "adult_fixed": "16 mg (160 ml) PO once daily for 2 days",
+        "pediatric_fixed": "0.6 mg/kg (6 ml/kg) PO once daily for 2 days (Max: 16 mg/day)",
+        "pediatric_mg_kg": 0.6,
+        "frequency": "Once daily for 2 consecutive days",
+        "max_daily_mg": 16.0,
+        "regimen_details": "0.6 mg/kg PO once daily for 2 days (Max 16 mg/day). Equal efficacy to 5 days of prednisone"
+      },
+      {
+        "title": "Anti-inflammatory / Immunosuppression (Maintenance & Taper)",
+        "adult_fixed": "0.75-9 mg PO daily in divided doses, then taper",
+        "pediatric_fixed": "0.08-0.3 mg/kg/day PO divided q6-12hr based on severity, then taper",
+        "pediatric_mg_kg": 0.15,
+        "frequency": "Divided q6-12hr with food, then taper",
+        "max_daily_mg": 16.0,
+        "regimen_details": "Initial: 0.08-0.3 mg/kg/day PO divided q6-12hr. Once controlled, taper gradually to avoid adrenal insufficiency"
       }
     ],
     "id": "orazone_syrup"
   },
   {
-    "trade_name": "Orazone Tab",
+    "trade_name": "Orazone tab",
     "dosage_form": "tablet",
     "active_ingredient": "Dexamethasone",
-    "concentration": "0.5mg",
-    "composition": "Dexamethasone 0.5mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "concentration": "0.5 mg",
+    "composition": "Dexamethasone 0.5 mg",
+    "administration": "Administer with meals or milk to minimize GI irritation. Take in the morning.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Dexazone",
-    "search_terms": "orazone tab orazone dexamethasone dexazone 0.5mg tablets dexamethasone orazone tablet 0.5mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Epidron / Decadron / Fortecortin / Dexazone",
+    "search_terms": "orazone tab orazone dexamethasone dexazone 0.5mg tablets dexamethasone epidron decadron fortecortin corticosteroid anti-inflammatory croup antiemetic",
+    "reference_url": "https://reference.medscape.com/drug/decadron-dexamethasone-intensol-dexamethasone-342741",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Acute Exacerbation / Anti-inflammatory Burst & Taper",
+        "adult_fixed": "0.75-9 mg PO daily divided q6-12hr for 3-5 days, then taper",
+        "pediatric_fixed": "0.08-0.3 mg/kg/day PO divided q6-12hr for 3-5 days, then taper",
+        "frequency": "Divided q6-12hr with meals, then taper"
       }
     ],
     "id": "orazone_tab"
   },
   {
-    "trade_name": "Orazone Tablets",
+    "trade_name": "Orazone tablets",
     "dosage_form": "tablet",
     "active_ingredient": "Dexamethasone",
-    "concentration": "0.5mg",
-    "composition": "Dexamethasone 0.5mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "concentration": "0.5 mg",
+    "composition": "Dexamethasone 0.5 mg",
+    "administration": "Administer with meals or milk to minimize GI irritation. Take in the morning.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "Dexazone",
-    "search_terms": "orazone tablets orazone dexamethasone dexazone 0.5mg tablets dexamethasone orazone tablet 0.5mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Epidron / Decadron / Fortecortin / Dexazone",
+    "search_terms": "orazone tablets orazone dexamethasone dexazone 0.5mg tablets dexamethasone epidron decadron fortecortin corticosteroid anti-inflammatory croup antiemetic",
+    "reference_url": "https://reference.medscape.com/drug/decadron-dexamethasone-intensol-dexamethasone-342741",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Acute Exacerbation / Anti-inflammatory Burst & Taper",
+        "adult_fixed": "0.75-9 mg PO daily divided q6-12hr for 3-5 days, then taper",
+        "pediatric_fixed": "0.08-0.3 mg/kg/day PO divided q6-12hr for 3-5 days, then taper",
+        "frequency": "Divided q6-12hr with meals, then taper"
       }
     ],
     "id": "orazone_tablets"
@@ -53593,45 +53815,89 @@
     "id": "sofenacin_tablets"
   },
   {
-    "trade_name": "Solu-Medrol 1 Gm Vial",
+    "trade_name": "Solu-medrol 1 gm vial",
     "dosage_form": "vial",
-    "active_ingredient": "Solu-medrol",
-    "concentration": "1 gm",
-    "composition": "Solu-medrol 1 gm",
-    "administration": "Administer via slow IV injection / infusion or deep IM strictly as instructed on product insert",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "active_ingredient": "Methylprednisolone",
+    "concentration": "1000 mg (1 gm)",
+    "composition": "Methylprednisolone Sodium Succinate 1000 mg (1 gm)",
+    "administration": "IV infusion in NS or D5W over 30-60 minutes (over 60 minutes for high dose).",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "No registered Egyptian trade alternatives recorded",
-    "search_terms": "solu-medrol 1 gm vial  solu-medrol solu-medrol vial 1 gm",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Solu-Medrol / Medrol / Globisolone",
+    "search_terms": "solu-medrol 1 gm vial  methylprednisolone solu-medrol medrol corticosteroid pulse-therapy asthma lupus sclerosis",
+    "reference_url": "https://reference.medscape.com/drug/medrol-medrol-dosepak-methylprednisolone-342746",
     "indications": [
       {
-        "title": "Therapeutic Parenteral Administration",
-        "adult_fixed": "1 vial IV/IM as indicated according to clinical response and specialist guidance",
-        "pediatric_fixed": "Dose adjustment and pediatric administration strictly according to specialist guidance"
+        "title": "Severe Acute Asthma / Status Asthmaticus",
+        "adult_fixed": "40-80 mg IV q12hr until peak flow > 70%, then switch to oral taper",
+        "pediatric_fixed": "1-2 mg/kg/day IV divided q12hr (Max: 60 mg/day) for 1-3 days, then oral prednisone taper",
+        "pediatric_mg_kg": 1.0,
+        "frequency": "Divided q12hr IV",
+        "max_daily_mg": 60.0,
+        "regimen_details": "1-2 mg/kg/day IV divided q12hr until clinical improvement, then transition to oral prednisone taper"
+      },
+      {
+        "title": "Multiple Sclerosis Acute Relapse (High-Dose Pulse Protocol)",
+        "adult_fixed": "500-1000 mg IV infusion daily for 3-5 days, followed by oral prednisone taper",
+        "pediatric_fixed": "20-30 mg/kg/day IV infusion (Max: 1000 mg/day) for 3-5 days, then oral taper",
+        "pediatric_mg_kg": 20.0,
+        "frequency": "Once daily IV infusion over 60 min for 3-5 days",
+        "max_daily_mg": 1000.0,
+        "regimen_details": "-Days 1 to 3-5: 1000 mg IV infusion in 250-500 ml D5W over 60 minutes daily\nTHEN\n-Follow pulse therapy with oral prednisone taper over 2-4 weeks"
+      },
+      {
+        "title": "Lupus Nephritis / Severe Rheumatic Flare (Pulse Therapy)",
+        "adult_fixed": "1000 mg IV infusion daily for 3 days, followed by oral glucocorticoid taper",
+        "pediatric_fixed": "30 mg/kg IV infusion (Max: 1000 mg) every other day for 3 doses, then oral taper",
+        "pediatric_mg_kg": 30.0,
+        "frequency": "Daily or alternate days for 3 doses",
+        "max_daily_mg": 1000.0,
+        "regimen_details": "-Pulse therapy: 1000 mg IV infusion once daily for 3 consecutive days\nTHEN\n-Oral maintenance: Switch to oral prednisone/prednisolone 0.5-1 mg/kg/day, then taper"
       }
     ],
     "id": "solu_medrol_1_gm_vial"
   },
   {
-    "trade_name": "Solu-Medrol 500 Vial",
+    "trade_name": "Solu-medrol 500 vial",
     "dosage_form": "vial",
-    "active_ingredient": "Solu-medrol",
-    "concentration": "",
-    "composition": "Solu-medrol (vial)",
-    "administration": "Administer via slow IV injection / infusion or deep IM strictly as instructed on product insert",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "active_ingredient": "Methylprednisolone",
+    "concentration": "500 mg",
+    "composition": "Methylprednisolone Sodium Succinate 500 mg",
+    "administration": "IV infusion in NS or D5W over 30-60 minutes (over 60 minutes for high dose).",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "No registered Egyptian trade alternatives recorded",
-    "search_terms": "solu-medrol 500 vial  solu-medrol solu-medrol vial ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Solu-Medrol / Medrol / Globisolone",
+    "search_terms": "solu-medrol 500 vial  methylprednisolone solu-medrol medrol corticosteroid pulse-therapy asthma lupus sclerosis",
+    "reference_url": "https://reference.medscape.com/drug/medrol-medrol-dosepak-methylprednisolone-342746",
     "indications": [
       {
-        "title": "Therapeutic Parenteral Administration",
-        "adult_fixed": "1 vial IV/IM as indicated according to clinical response and specialist guidance",
-        "pediatric_fixed": "Dose adjustment and pediatric administration strictly according to specialist guidance"
+        "title": "Severe Acute Asthma / Status Asthmaticus",
+        "adult_fixed": "40-80 mg IV q12hr until peak flow > 70%, then switch to oral taper",
+        "pediatric_fixed": "1-2 mg/kg/day IV divided q12hr (Max: 60 mg/day) for 1-3 days, then oral prednisone taper",
+        "pediatric_mg_kg": 1.0,
+        "frequency": "Divided q12hr IV",
+        "max_daily_mg": 60.0,
+        "regimen_details": "1-2 mg/kg/day IV divided q12hr until clinical improvement, then transition to oral prednisone taper"
+      },
+      {
+        "title": "Multiple Sclerosis Acute Relapse (High-Dose Pulse Protocol)",
+        "adult_fixed": "500-1000 mg IV infusion daily for 3-5 days, followed by oral prednisone taper",
+        "pediatric_fixed": "20-30 mg/kg/day IV infusion (Max: 1000 mg/day) for 3-5 days, then oral taper",
+        "pediatric_mg_kg": 20.0,
+        "frequency": "Once daily IV infusion over 60 min for 3-5 days",
+        "max_daily_mg": 1000.0,
+        "regimen_details": "-Days 1 to 3-5: 1000 mg IV infusion in 250-500 ml D5W over 60 minutes daily\nTHEN\n-Follow pulse therapy with oral prednisone taper over 2-4 weeks"
+      },
+      {
+        "title": "Lupus Nephritis / Severe Rheumatic Flare (Pulse Therapy)",
+        "adult_fixed": "1000 mg IV infusion daily for 3 days, followed by oral glucocorticoid taper",
+        "pediatric_fixed": "30 mg/kg IV infusion (Max: 1000 mg) every other day for 3 doses, then oral taper",
+        "pediatric_mg_kg": 30.0,
+        "frequency": "Daily or alternate days for 3 doses",
+        "max_daily_mg": 1000.0,
+        "regimen_details": "-Pulse therapy: 1000 mg IV infusion once daily for 3 consecutive days\nTHEN\n-Oral maintenance: Switch to oral prednisone/prednisolone 0.5-1 mg/kg/day, then taper"
       }
     ],
     "id": "solu_medrol_500_vial"
@@ -56579,88 +56845,118 @@
     "trade_name": "Tegretol 200 CR tab",
     "dosage_form": "tablet",
     "active_ingredient": "Carbamazepine",
-    "concentration": "200mg",
-    "composition": "Carbamazepine 200mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "concentration": "200 mg",
+    "composition": "Carbamazepine 200 mg",
+    "administration": "Take with food to minimize GI discomfort. Do not crush controlled-release tablets.",
+    "pregnancy": "Category D",
+    "lactation": "Compatible (Monitor infant for jaundice and sedation)",
     "g6pd": "Safe",
-    "alternatives": "Carbapex / Epimazepine / Mazemal / Tonoclone / Neurotop / Arbateg / Neurofutal / Tegrapin",
-    "search_terms": "tegretol 200 cr tab tegretol carbamazepine carbapex epimazepine mazemal tonoclone neurotop arbateg neurofutal tegrapin retard 200mg 300mg 400mg 600mg cr xr sr er tablets carbamazepine tegretol tablet 200mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Tegretol / Carbapex / Epimazepine",
+    "search_terms": "tegretol 200 cr tab tegretol carbamazepine carbapex epimazepine mazemal tonoclone neurotop arbateg neurofutal tegrapin retard 200mg 300mg 400mg 600mg cr xr sr er tablets carbamazepine tegretol anticonvulsant epilepsy trigeminal neuralgia titration",
+    "reference_url": "https://reference.medscape.com/drug/tegretol-carbatrol-carbamazepine-343005",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Epilepsy / Seizure Disorders (Weekly Titration Protocol)",
+        "adult_fixed": "Initial: 200 mg PO q12hr, THEN increase weekly by 200 mg/day to target 800-1200 mg/day",
+        "pediatric_fixed": "Adolescents > 12 yr: Initial 200 mg q12hr, increase weekly by 200 mg/day (Max: 1000-1200 mg/day)",
+        "frequency": "Divided q8-12hr with meals",
+        "regimen_details": "-Initial: 200 mg PO q12hr\nTHEN\n-Increase weekly by 200 mg/day\n-Maintenance: 800-1200 mg/day divided q8-12hr\n-Target serum level: 4-12 mcg/mL"
+      },
+      {
+        "title": "Trigeminal Neuralgia (Titration Protocol)",
+        "adult_fixed": "Initial: 100 mg q12hr, increase by 100 mg q12hr every 2-3 days until pain relief (Max: 1200 mg/day)",
+        "pediatric_fixed": "Not typically indicated in children",
+        "frequency": "Divided q8-12hr with food",
+        "regimen_details": "-Initial: 100 mg PO q12hr on day 1\nTHEN\n-Increase by 100 mg every 12 hours every 2-3 days\n-Maintenance: 400-800 mg/day\n-Once controlled, attempt gradual reduction to lowest effective maintenance dose"
       }
     ],
     "id": "tegretol_200_cr_tab"
   },
   {
-    "trade_name": "Tegretol Syrup",
+    "trade_name": "Tegretol syrup",
     "dosage_form": "syrup",
     "active_ingredient": "Carbamazepine",
-    "concentration": "100mg/5ml",
-    "composition": "Carbamazepine 100mg/5ml",
+    "concentration": "100 mg / 5 ml (100 ml)",
+    "composition": "Carbamazepine 100 mg / 5 ml (100 ml)",
     "concentration_per_ml": 20.0,
-    "administration": "Taken with or without food. Shake well before use.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "administration": "Take with food to minimize GI discomfort. Do not crush controlled-release tablets.",
+    "pregnancy": "Category D",
+    "lactation": "Compatible (Monitor infant for jaundice and sedation)",
     "g6pd": "Safe",
-    "alternatives": "Alextol / Arbateg / Epimazepine / Tegrapin",
-    "search_terms": "tegretol syrup tegretol carbamazepine alextol arbateg epimazepine tegrapin 100mg/5ml syrup carbamazepine tegretol syrup 100mg/5ml",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Tegretol / Carbapex / Epimazepine",
+    "search_terms": "tegretol syrup tegretol carbamazepine alextol arbateg epimazepine tegrapin 100mg/5ml syrup carbamazepine tegretol anticonvulsant epilepsy trigeminal neuralgia titration",
+    "reference_url": "https://reference.medscape.com/drug/tegretol-carbatrol-carbamazepine-343005",
     "indications": [
       {
-        "title": "Standard Therapeutic Regimen",
-        "adult_fixed": "Administer according to specialist instructions and clinical evaluation",
-        "pediatric_fixed": "Administer strictly according to weight and specialist guidance",
-        "frequency": "As directed"
+        "title": "Epilepsy / Seizure Disorders (Weekly Titration Protocol)",
+        "adult_fixed": "Initial: 200 mg (10 ml) q12hr, increase weekly by 200 mg/day up to 800-1200 mg/day divided q6-8hr",
+        "pediatric_fixed": "Initial: 10-20 mg/kg/day PO divided q6-8hr; increase weekly by 5 mg/kg/day up to 20-35 mg/kg/day",
+        "pediatric_mg_kg": 10.0,
+        "frequency": "Divided q6-8hr with food",
+        "max_daily_mg": 1000.0,
+        "regimen_details": "-Initial week: 10-20 mg/kg/day PO divided q6-8hr\nTHEN\n-Increase weekly by 5 mg/kg/day based on response and serum levels (therapeutic range: 4-12 mcg/mL)\n-Maintenance: 20-35 mg/kg/day"
       }
     ],
     "id": "tegretol_syrup"
   },
   {
-    "trade_name": "Tegretol Tab",
+    "trade_name": "Tegretol tab",
     "dosage_form": "tablet",
     "active_ingredient": "Carbamazepine",
-    "concentration": "200mg",
-    "composition": "Carbamazepine 200mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "concentration": "200 mg",
+    "composition": "Carbamazepine 200 mg",
+    "administration": "Take with food to minimize GI discomfort. Do not crush controlled-release tablets.",
+    "pregnancy": "Category D",
+    "lactation": "Compatible (Monitor infant for jaundice and sedation)",
     "g6pd": "Safe",
-    "alternatives": "Carbapex / Epimazepine / Mazemal / Tonoclone / Neurotop / Arbateg / Neurofutal / Tegrapin",
-    "search_terms": "tegretol tab tegretol carbamazepine carbapex epimazepine mazemal tonoclone neurotop arbateg neurofutal tegrapin retard 200mg 300mg 400mg 600mg cr xr sr er tablets carbamazepine tegretol tablet 200mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Tegretol / Carbapex / Epimazepine",
+    "search_terms": "tegretol tab tegretol carbamazepine carbapex epimazepine mazemal tonoclone neurotop arbateg neurofutal tegrapin retard 200mg 300mg 400mg 600mg cr xr sr er tablets carbamazepine tegretol anticonvulsant epilepsy trigeminal neuralgia titration",
+    "reference_url": "https://reference.medscape.com/drug/tegretol-carbatrol-carbamazepine-343005",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Epilepsy / Seizure Disorders (Weekly Titration Protocol)",
+        "adult_fixed": "Initial: 200 mg PO q12hr, THEN increase weekly by 200 mg/day to target 800-1200 mg/day",
+        "pediatric_fixed": "Adolescents > 12 yr: Initial 200 mg q12hr, increase weekly by 200 mg/day (Max: 1000-1200 mg/day)",
+        "frequency": "Divided q8-12hr with meals",
+        "regimen_details": "-Initial: 200 mg PO q12hr\nTHEN\n-Increase weekly by 200 mg/day\n-Maintenance: 800-1200 mg/day divided q8-12hr\n-Target serum level: 4-12 mcg/mL"
+      },
+      {
+        "title": "Trigeminal Neuralgia (Titration Protocol)",
+        "adult_fixed": "Initial: 100 mg q12hr, increase by 100 mg q12hr every 2-3 days until pain relief (Max: 1200 mg/day)",
+        "pediatric_fixed": "Not typically indicated in children",
+        "frequency": "Divided q8-12hr with food",
+        "regimen_details": "-Initial: 100 mg PO q12hr on day 1\nTHEN\n-Increase by 100 mg every 12 hours every 2-3 days\n-Maintenance: 400-800 mg/day\n-Once controlled, attempt gradual reduction to lowest effective maintenance dose"
       }
     ],
     "id": "tegretol_tab"
   },
   {
-    "trade_name": "Tegretol Tablets",
+    "trade_name": "Tegretol tablets",
     "dosage_form": "tablet",
     "active_ingredient": "Carbamazepine",
-    "concentration": "200mg",
-    "composition": "Carbamazepine 200mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "concentration": "200 mg",
+    "composition": "Carbamazepine 200 mg",
+    "administration": "Take with food to minimize GI discomfort. Do not crush controlled-release tablets.",
+    "pregnancy": "Category D",
+    "lactation": "Compatible (Monitor infant for jaundice and sedation)",
     "g6pd": "Safe",
-    "alternatives": "Carbapex / Epimazepine / Mazemal / Tonoclone / Neurotop / Arbateg / Neurofutal / Tegrapin",
-    "search_terms": "tegretol tablets tegretol carbamazepine carbapex epimazepine mazemal tonoclone neurotop arbateg neurofutal tegrapin retard 200mg 300mg 400mg 600mg cr xr sr er tablets carbamazepine tegretol tablet 200mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Tegretol / Carbapex / Epimazepine",
+    "search_terms": "tegretol tablets tegretol carbamazepine carbapex epimazepine mazemal tonoclone neurotop arbateg neurofutal tegrapin retard 200mg 300mg 400mg 600mg cr xr sr er tablets carbamazepine tegretol anticonvulsant epilepsy trigeminal neuralgia titration",
+    "reference_url": "https://reference.medscape.com/drug/tegretol-carbatrol-carbamazepine-343005",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Epilepsy / Seizure Disorders (Weekly Titration Protocol)",
+        "adult_fixed": "Initial: 200 mg PO q12hr, THEN increase weekly by 200 mg/day to target 800-1200 mg/day",
+        "pediatric_fixed": "Adolescents > 12 yr: Initial 200 mg q12hr, increase weekly by 200 mg/day (Max: 1000-1200 mg/day)",
+        "frequency": "Divided q8-12hr with meals",
+        "regimen_details": "-Initial: 200 mg PO q12hr\nTHEN\n-Increase weekly by 200 mg/day\n-Maintenance: 800-1200 mg/day divided q8-12hr\n-Target serum level: 4-12 mcg/mL"
+      },
+      {
+        "title": "Trigeminal Neuralgia (Titration Protocol)",
+        "adult_fixed": "Initial: 100 mg q12hr, increase by 100 mg q12hr every 2-3 days until pain relief (Max: 1200 mg/day)",
+        "pediatric_fixed": "Not typically indicated in children",
+        "frequency": "Divided q8-12hr with food",
+        "regimen_details": "-Initial: 100 mg PO q12hr on day 1\nTHEN\n-Increase by 100 mg every 12 hours every 2-3 days\n-Maintenance: 400-800 mg/day\n-Once controlled, attempt gradual reduction to lowest effective maintenance dose"
       }
     ],
     "id": "tegretol_tablets"
@@ -57669,110 +57965,121 @@
     "trade_name": "Tiratam 500 XR tab",
     "dosage_form": "tablet",
     "active_ingredient": "Levetiracetam",
-    "concentration": "500mg",
-    "composition": "Levetiracetam 500mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "concentration": "500 mg",
+    "composition": "Levetiracetam 500 mg",
+    "administration": "May be taken with or without food. Do not crush extended-release tablets.",
+    "pregnancy": "Category C (Monitor serum levels closely in pregnancy)",
+    "lactation": "Compatible (Low levels in milk)",
     "g6pd": "Safe",
-    "alternatives": "Liptitam / Seizurless / Tiralepsy",
-    "search_terms": "tiratam 500 xr tab tiratam levetiracetam liptitam seizurless tiralepsy 500mg 750mg 1000mg 1gm xr sr tablets levetiracetam tiratam tablet 500mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Keppra / Tiratam / Levepex",
+    "search_terms": "tiratam 500 xr tab tiratam levetiracetam liptitam seizurless tiralepsy 500mg 750mg 1000mg 1gm xr sr tablets levetiracetam keppra tiratam levepex antiepileptic seizures titration",
+    "reference_url": "https://reference.medscape.com/drug/keppra-spritam-levetiracetam-343013",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Partial Onset & Generalized Seizures (2-Week Titration Protocol)",
+        "adult_fixed": "Initial: 500 mg PO q12hr; increase every 2 weeks by 500 mg q12hr up to 1500 mg q12hr",
+        "pediatric_fixed": "Adolescents >= 16 yr: Initial 500 mg PO q12hr, increase every 2 weeks by 500 mg q12hr to target 1500 mg q12hr",
+        "frequency": "q12hr with or without meals",
+        "regimen_details": "-Weeks 1-2: 500 mg PO q12hr\nTHEN\n-Weeks 3-4: 1000 mg PO q12hr\nTHEN\n-Target dose: 1500 mg PO q12hr based on tolerability and response"
       }
     ],
     "id": "tiratam_500_xr_tab"
   },
   {
-    "trade_name": "Tiratam Syrup",
+    "trade_name": "Tiratam syrup",
     "dosage_form": "syrup",
-    "active_ingredient": "Tiratam",
-    "concentration": "",
-    "composition": "Tiratam (syrup)",
-    "concentration_per_ml": 1.0,
-    "administration": "Taken with or without food. Shake well before use.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "active_ingredient": "Levetiracetam",
+    "concentration": "100 mg / 1 ml (100 mg/ml)",
+    "composition": "Levetiracetam 100 mg / 1 ml (100 mg/ml)",
+    "concentration_per_ml": 100.0,
+    "administration": "May be taken with or without food. Do not crush extended-release tablets.",
+    "pregnancy": "Category C (Monitor serum levels closely in pregnancy)",
+    "lactation": "Compatible (Low levels in milk)",
     "g6pd": "Safe",
-    "alternatives": "Tiratam syrup",
-    "search_terms": "tiratam syrup tiratam syrup tiratam tiratam syrup ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Keppra / Tiratam / Levepex",
+    "search_terms": "tiratam syrup tiratam syrup levetiracetam keppra tiratam levepex antiepileptic seizures titration",
+    "reference_url": "https://reference.medscape.com/drug/keppra-spritam-levetiracetam-343013",
     "indications": [
       {
-        "title": "Standard Therapeutic Regimen",
-        "adult_fixed": "Administer according to specialist instructions and clinical evaluation",
-        "pediatric_fixed": "Administer strictly according to weight and specialist guidance",
-        "frequency": "As directed"
+        "title": "Partial Onset / Generalized Tonic-Clonic Seizures (Titration Protocol)",
+        "adult_fixed": "Initial: 500 mg (5 ml) q12hr, increase by 500 mg q12hr every 2 weeks up to 1500 mg (15 ml) q12hr",
+        "pediatric_fixed": "Initial: 10 mg/kg (0.1 ml/kg) q12hr; increase every 2 weeks by 10 mg/kg q12hr to target 30 mg/kg (0.3 ml/kg) q12hr",
+        "pediatric_mg_kg": 10.0,
+        "frequency": "q12hr with or without food",
+        "max_daily_mg": 3000.0,
+        "regimen_details": "-Initial: 10 mg/kg (0.1 ml/kg) PO q12hr for 2 weeks\nTHEN\n-Increase every 2 weeks by 10 mg/kg q12hr based on clinical response\n-Recommended target maintenance dose: 30 mg/kg (0.3 ml/kg) PO q12hr (Max 3000 mg/day)"
       }
     ],
     "id": "tiratam_syrup"
   },
   {
-    "trade_name": "Tiratam Tab",
+    "trade_name": "Tiratam tab",
     "dosage_form": "tablet",
     "active_ingredient": "Levetiracetam",
-    "concentration": "500mg",
-    "composition": "Levetiracetam 500mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "concentration": "500 mg",
+    "composition": "Levetiracetam 500 mg",
+    "administration": "May be taken with or without food. Do not crush extended-release tablets.",
+    "pregnancy": "Category C (Monitor serum levels closely in pregnancy)",
+    "lactation": "Compatible (Low levels in milk)",
     "g6pd": "Safe",
-    "alternatives": "Liptitam / Seizurless / Tiralepsy",
-    "search_terms": "tiratam tab tiratam levetiracetam liptitam seizurless tiralepsy 500mg 750mg 1000mg 1gm xr sr tablets levetiracetam tiratam tablet 500mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Keppra / Tiratam / Levepex",
+    "search_terms": "tiratam tab tiratam levetiracetam liptitam seizurless tiralepsy 500mg 750mg 1000mg 1gm xr sr tablets levetiracetam keppra tiratam levepex antiepileptic seizures titration",
+    "reference_url": "https://reference.medscape.com/drug/keppra-spritam-levetiracetam-343013",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Partial Onset & Generalized Seizures (2-Week Titration Protocol)",
+        "adult_fixed": "Initial: 500 mg PO q12hr; increase every 2 weeks by 500 mg q12hr up to 1500 mg q12hr",
+        "pediatric_fixed": "Adolescents >= 16 yr: Initial 500 mg PO q12hr, increase every 2 weeks by 500 mg q12hr to target 1500 mg q12hr",
+        "frequency": "q12hr with or without meals",
+        "regimen_details": "-Weeks 1-2: 500 mg PO q12hr\nTHEN\n-Weeks 3-4: 1000 mg PO q12hr\nTHEN\n-Target dose: 1500 mg PO q12hr based on tolerability and response"
       }
     ],
     "id": "tiratam_tab"
   },
   {
-    "trade_name": "Tiratam Tablets",
+    "trade_name": "Tiratam tablets",
     "dosage_form": "tablet",
     "active_ingredient": "Levetiracetam",
-    "concentration": "500mg",
-    "composition": "Levetiracetam 500mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "concentration": "500 mg",
+    "composition": "Levetiracetam 500 mg",
+    "administration": "May be taken with or without food. Do not crush extended-release tablets.",
+    "pregnancy": "Category C (Monitor serum levels closely in pregnancy)",
+    "lactation": "Compatible (Low levels in milk)",
     "g6pd": "Safe",
-    "alternatives": "Liptitam / Seizurless / Tiralepsy",
-    "search_terms": "tiratam tablets tiratam levetiracetam liptitam seizurless tiralepsy 500mg 750mg 1000mg 1gm xr sr tablets levetiracetam tiratam tablet 500mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Keppra / Tiratam / Levepex",
+    "search_terms": "tiratam tablets tiratam levetiracetam liptitam seizurless tiralepsy 500mg 750mg 1000mg 1gm xr sr tablets levetiracetam keppra tiratam levepex antiepileptic seizures titration",
+    "reference_url": "https://reference.medscape.com/drug/keppra-spritam-levetiracetam-343013",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Partial Onset & Generalized Seizures (2-Week Titration Protocol)",
+        "adult_fixed": "Initial: 500 mg PO q12hr; increase every 2 weeks by 500 mg q12hr up to 1500 mg q12hr",
+        "pediatric_fixed": "Adolescents >= 16 yr: Initial 500 mg PO q12hr, increase every 2 weeks by 500 mg q12hr to target 1500 mg q12hr",
+        "frequency": "q12hr with or without meals",
+        "regimen_details": "-Weeks 1-2: 500 mg PO q12hr\nTHEN\n-Weeks 3-4: 1000 mg PO q12hr\nTHEN\n-Target dose: 1500 mg PO q12hr based on tolerability and response"
       }
     ],
     "id": "tiratam_tablets"
   },
   {
-    "trade_name": "Tiratam Vial",
-    "dosage_form": "vial",
+    "trade_name": "Tiratam vial",
+    "dosage_form": "tablet",
     "active_ingredient": "Levetiracetam",
-    "concentration": "500mg",
-    "composition": "Levetiracetam 500mg",
-    "administration": "Administer via slow IV injection / infusion or deep IM strictly as instructed on product insert",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "concentration": "500 mg",
+    "composition": "Levetiracetam 500 mg",
+    "administration": "May be taken with or without food. Do not crush extended-release tablets.",
+    "pregnancy": "Category C (Monitor serum levels closely in pregnancy)",
+    "lactation": "Compatible (Low levels in milk)",
     "g6pd": "Safe",
-    "alternatives": "Liptitam / Seizurless / Tiralepsy",
-    "search_terms": "tiratam vial tiratam levetiracetam liptitam seizurless tiralepsy 500mg 750mg 1000mg 1gm xr sr tablets levetiracetam tiratam vial 500mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Keppra / Tiratam / Levepex",
+    "search_terms": "tiratam vial tiratam levetiracetam liptitam seizurless tiralepsy 500mg 750mg 1000mg 1gm xr sr tablets levetiracetam keppra tiratam levepex antiepileptic seizures titration",
+    "reference_url": "https://reference.medscape.com/drug/keppra-spritam-levetiracetam-343013",
     "indications": [
       {
-        "title": "Therapeutic Parenteral Administration",
-        "adult_fixed": "1 vial IV/IM as indicated according to clinical response and specialist guidance",
-        "pediatric_fixed": "Dose adjustment and pediatric administration strictly according to specialist guidance"
+        "title": "Partial Onset & Generalized Seizures (2-Week Titration Protocol)",
+        "adult_fixed": "Initial: 500 mg PO q12hr; increase every 2 weeks by 500 mg q12hr up to 1500 mg q12hr",
+        "pediatric_fixed": "Adolescents >= 16 yr: Initial 500 mg PO q12hr, increase every 2 weeks by 500 mg q12hr to target 1500 mg q12hr",
+        "frequency": "q12hr with or without meals",
+        "regimen_details": "-Weeks 1-2: 500 mg PO q12hr\nTHEN\n-Weeks 3-4: 1000 mg PO q12hr\nTHEN\n-Target dose: 1500 mg PO q12hr based on tolerability and response"
       }
     ],
     "id": "tiratam_vial"
@@ -60081,66 +60388,123 @@
   },
   {
     "trade_name": "Urivin N sach",
-    "dosage_form": "sachet",
-    "active_ingredient": "Atropine",
-    "concentration": "",
-    "composition": "Atropine (sachet)",
-    "administration": "Administer according to product instructions.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
-    "g6pd": "Safe",
-    "alternatives": "urivin atropine sulphate colchicine piperazine khellin sachets",
-    "search_terms": "urivin n sach urivin atropine sulphate colchicine piperazine khellin sachets atropine urivin sachet ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "dosage_form": "tablet",
+    "active_ingredient": "Colchicine",
+    "concentration": "0.5 mg",
+    "composition": "Colchicine 0.5 mg (500 mcg)",
+    "administration": "Take with or without food. Drink at least 2 liters of water daily.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible (Low levels in milk)",
+    "g6pd": "Safe with caution",
+    "alternatives": "Colchicine / Goutyl",
+    "search_terms": "urivin n sach urivin atropine sulphate colchicine piperazine khellin sachets colchicine gout acute gout flare fmf familial mediterranean fever uric acid",
+    "reference_url": "https://reference.medscape.com/drug/colcrys-mitigare-colchicine-342813",
     "indications": [
       {
-        "title": "Standard Clinical Use",
-        "adult_fixed": "Use / administer 1 unit as directed by physician",
-        "pediatric_fixed": "Administer pediatric unit as directed by pediatrician"
+        "title": "Acute Gout Flare (Loading THEN Maintenance Protocol)",
+        "adult_fixed": "1 mg (2 tabs) PO at first sign of flare, THEN 0.5 mg (1 tab) 1 hour later (Max: 1.5 mg in 1 hour), THEN 0.5 mg q12-24hr after 12 hours",
+        "pediatric_fixed": "Not indicated for acute gout in children",
+        "frequency": "Loading dose, then 1 hr later, then q12-24hr",
+        "max_daily_mg": 1.5,
+        "regimen_details": "-Initial: 1 mg (2 tablets) PO immediately at onset of flare\nTHEN\n-1 hour later: 0.5 mg (1 tablet)\nTHEN\n-12 hours later: resume 0.5 mg once or twice daily until flare resolves\n-Do not repeat treatment course within 3 days"
+      },
+      {
+        "title": "Gout Flare Prophylaxis",
+        "adult_fixed": "0.5 mg (1 tab) PO once or twice daily (Max: 1 mg/day)",
+        "pediatric_fixed": "Not indicated in children",
+        "frequency": "Once or twice daily with water",
+        "max_daily_mg": 1.0,
+        "regimen_details": "0.5 mg PO once or twice daily while initiating urate-lowering therapy (for up to 6 months)"
+      },
+      {
+        "title": "Familial Mediterranean Fever (FMF)",
+        "adult_fixed": "1-2 mg (2-4 tabs) PO once daily or divided q12hr",
+        "pediatric_fixed": "Age 4-11 yr: 0.5-1 mg/day | Age >= 12 yr: 1-1.5 mg/day (increase by 0.25-0.5 mg/day if attacks persist)",
+        "frequency": "Once daily or divided q12hr",
+        "max_daily_mg": 2.0,
+        "regimen_details": "-Initial:\n  * Age 4-6 yr: 0.25-0.5 mg/day\n  * Age 6-12 yr: 0.5-1 mg/day\n  * Age > 12 yr and adults: 1-1.5 mg/day\n-Titrate by 0.25-0.5 mg increments up to max tolerated dose to control attacks"
       }
     ],
     "id": "urivin_n_sach"
   },
   {
-    "trade_name": "Urivin Sach",
-    "dosage_form": "sachet",
-    "active_ingredient": "Atropine",
-    "concentration": "",
-    "composition": "Atropine (sachet)",
-    "administration": "Administer according to product instructions.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
-    "g6pd": "Safe",
-    "alternatives": "urivin atropine sulphate colchicine piperazine khellin sachets",
-    "search_terms": "urivin sach urivin atropine sulphate colchicine piperazine khellin sachets atropine urivin sachet ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "trade_name": "Urivin sach",
+    "dosage_form": "tablet",
+    "active_ingredient": "Colchicine",
+    "concentration": "0.5 mg",
+    "composition": "Colchicine 0.5 mg (500 mcg)",
+    "administration": "Take with or without food. Drink at least 2 liters of water daily.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible (Low levels in milk)",
+    "g6pd": "Safe with caution",
+    "alternatives": "Colchicine / Goutyl",
+    "search_terms": "urivin sach urivin atropine sulphate colchicine piperazine khellin sachets colchicine gout acute gout flare fmf familial mediterranean fever uric acid",
+    "reference_url": "https://reference.medscape.com/drug/colcrys-mitigare-colchicine-342813",
     "indications": [
       {
-        "title": "Standard Clinical Use",
-        "adult_fixed": "Use / administer 1 unit as directed by physician",
-        "pediatric_fixed": "Administer pediatric unit as directed by pediatrician"
+        "title": "Acute Gout Flare (Loading THEN Maintenance Protocol)",
+        "adult_fixed": "1 mg (2 tabs) PO at first sign of flare, THEN 0.5 mg (1 tab) 1 hour later (Max: 1.5 mg in 1 hour), THEN 0.5 mg q12-24hr after 12 hours",
+        "pediatric_fixed": "Not indicated for acute gout in children",
+        "frequency": "Loading dose, then 1 hr later, then q12-24hr",
+        "max_daily_mg": 1.5,
+        "regimen_details": "-Initial: 1 mg (2 tablets) PO immediately at onset of flare\nTHEN\n-1 hour later: 0.5 mg (1 tablet)\nTHEN\n-12 hours later: resume 0.5 mg once or twice daily until flare resolves\n-Do not repeat treatment course within 3 days"
+      },
+      {
+        "title": "Gout Flare Prophylaxis",
+        "adult_fixed": "0.5 mg (1 tab) PO once or twice daily (Max: 1 mg/day)",
+        "pediatric_fixed": "Not indicated in children",
+        "frequency": "Once or twice daily with water",
+        "max_daily_mg": 1.0,
+        "regimen_details": "0.5 mg PO once or twice daily while initiating urate-lowering therapy (for up to 6 months)"
+      },
+      {
+        "title": "Familial Mediterranean Fever (FMF)",
+        "adult_fixed": "1-2 mg (2-4 tabs) PO once daily or divided q12hr",
+        "pediatric_fixed": "Age 4-11 yr: 0.5-1 mg/day | Age >= 12 yr: 1-1.5 mg/day (increase by 0.25-0.5 mg/day if attacks persist)",
+        "frequency": "Once daily or divided q12hr",
+        "max_daily_mg": 2.0,
+        "regimen_details": "-Initial:\n  * Age 4-6 yr: 0.25-0.5 mg/day\n  * Age 6-12 yr: 0.5-1 mg/day\n  * Age > 12 yr and adults: 1-1.5 mg/day\n-Titrate by 0.25-0.5 mg increments up to max tolerated dose to control attacks"
       }
     ],
     "id": "urivin_sach"
   },
   {
-    "trade_name": "Urivin Sachets",
-    "dosage_form": "sachet",
-    "active_ingredient": "Atropine",
-    "concentration": "",
-    "composition": "Atropine (sachet)",
-    "administration": "Administer according to product instructions.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
-    "g6pd": "Safe",
-    "alternatives": "urivin atropine sulphate colchicine piperazine khellin sachets",
-    "search_terms": "urivin sachets urivin atropine sulphate colchicine piperazine khellin sachets atropine urivin sachet ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "trade_name": "Urivin sachets",
+    "dosage_form": "tablet",
+    "active_ingredient": "Colchicine",
+    "concentration": "0.5 mg",
+    "composition": "Colchicine 0.5 mg (500 mcg)",
+    "administration": "Take with or without food. Drink at least 2 liters of water daily.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible (Low levels in milk)",
+    "g6pd": "Safe with caution",
+    "alternatives": "Colchicine / Goutyl",
+    "search_terms": "urivin sachets urivin atropine sulphate colchicine piperazine khellin sachets colchicine gout acute gout flare fmf familial mediterranean fever uric acid",
+    "reference_url": "https://reference.medscape.com/drug/colcrys-mitigare-colchicine-342813",
     "indications": [
       {
-        "title": "Standard Clinical Use",
-        "adult_fixed": "Use / administer 1 unit as directed by physician",
-        "pediatric_fixed": "Administer pediatric unit as directed by pediatrician"
+        "title": "Acute Gout Flare (Loading THEN Maintenance Protocol)",
+        "adult_fixed": "1 mg (2 tabs) PO at first sign of flare, THEN 0.5 mg (1 tab) 1 hour later (Max: 1.5 mg in 1 hour), THEN 0.5 mg q12-24hr after 12 hours",
+        "pediatric_fixed": "Not indicated for acute gout in children",
+        "frequency": "Loading dose, then 1 hr later, then q12-24hr",
+        "max_daily_mg": 1.5,
+        "regimen_details": "-Initial: 1 mg (2 tablets) PO immediately at onset of flare\nTHEN\n-1 hour later: 0.5 mg (1 tablet)\nTHEN\n-12 hours later: resume 0.5 mg once or twice daily until flare resolves\n-Do not repeat treatment course within 3 days"
+      },
+      {
+        "title": "Gout Flare Prophylaxis",
+        "adult_fixed": "0.5 mg (1 tab) PO once or twice daily (Max: 1 mg/day)",
+        "pediatric_fixed": "Not indicated in children",
+        "frequency": "Once or twice daily with water",
+        "max_daily_mg": 1.0,
+        "regimen_details": "0.5 mg PO once or twice daily while initiating urate-lowering therapy (for up to 6 months)"
+      },
+      {
+        "title": "Familial Mediterranean Fever (FMF)",
+        "adult_fixed": "1-2 mg (2-4 tabs) PO once daily or divided q12hr",
+        "pediatric_fixed": "Age 4-11 yr: 0.5-1 mg/day | Age >= 12 yr: 1-1.5 mg/day (increase by 0.25-0.5 mg/day if attacks persist)",
+        "frequency": "Once daily or divided q12hr",
+        "max_daily_mg": 2.0,
+        "regimen_details": "-Initial:\n  * Age 4-6 yr: 0.25-0.5 mg/day\n  * Age 6-12 yr: 0.5-1 mg/day\n  * Age > 12 yr and adults: 1-1.5 mg/day\n-Titrate by 0.25-0.5 mg increments up to max tolerated dose to control attacks"
       }
     ],
     "id": "urivin_sachets"
@@ -60191,66 +60555,123 @@
   },
   {
     "trade_name": "Urosolvine N sach",
-    "dosage_form": "sachet",
-    "active_ingredient": "Atropine",
-    "concentration": "",
-    "composition": "Atropine (sachet)",
-    "administration": "Administer according to product instructions.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
-    "g6pd": "Safe",
-    "alternatives": "urosolvine atropine sulphate colchicine piperazine solvaure solvinal ur-aid uraid sachets",
-    "search_terms": "urosolvine n sach urosolvine atropine sulphate colchicine piperazine solvaure solvinal ur-aid uraid sachets atropine urosolvine sachet ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "dosage_form": "tablet",
+    "active_ingredient": "Colchicine",
+    "concentration": "0.5 mg",
+    "composition": "Colchicine 0.5 mg (500 mcg)",
+    "administration": "Take with or without food. Drink at least 2 liters of water daily.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible (Low levels in milk)",
+    "g6pd": "Safe with caution",
+    "alternatives": "Colchicine / Goutyl",
+    "search_terms": "urosolvine n sach urosolvine atropine sulphate colchicine piperazine solvaure solvinal ur-aid uraid sachets colchicine gout acute gout flare fmf familial mediterranean fever uric acid",
+    "reference_url": "https://reference.medscape.com/drug/colcrys-mitigare-colchicine-342813",
     "indications": [
       {
-        "title": "Standard Clinical Use",
-        "adult_fixed": "Use / administer 1 unit as directed by physician",
-        "pediatric_fixed": "Administer pediatric unit as directed by pediatrician"
+        "title": "Acute Gout Flare (Loading THEN Maintenance Protocol)",
+        "adult_fixed": "1 mg (2 tabs) PO at first sign of flare, THEN 0.5 mg (1 tab) 1 hour later (Max: 1.5 mg in 1 hour), THEN 0.5 mg q12-24hr after 12 hours",
+        "pediatric_fixed": "Not indicated for acute gout in children",
+        "frequency": "Loading dose, then 1 hr later, then q12-24hr",
+        "max_daily_mg": 1.5,
+        "regimen_details": "-Initial: 1 mg (2 tablets) PO immediately at onset of flare\nTHEN\n-1 hour later: 0.5 mg (1 tablet)\nTHEN\n-12 hours later: resume 0.5 mg once or twice daily until flare resolves\n-Do not repeat treatment course within 3 days"
+      },
+      {
+        "title": "Gout Flare Prophylaxis",
+        "adult_fixed": "0.5 mg (1 tab) PO once or twice daily (Max: 1 mg/day)",
+        "pediatric_fixed": "Not indicated in children",
+        "frequency": "Once or twice daily with water",
+        "max_daily_mg": 1.0,
+        "regimen_details": "0.5 mg PO once or twice daily while initiating urate-lowering therapy (for up to 6 months)"
+      },
+      {
+        "title": "Familial Mediterranean Fever (FMF)",
+        "adult_fixed": "1-2 mg (2-4 tabs) PO once daily or divided q12hr",
+        "pediatric_fixed": "Age 4-11 yr: 0.5-1 mg/day | Age >= 12 yr: 1-1.5 mg/day (increase by 0.25-0.5 mg/day if attacks persist)",
+        "frequency": "Once daily or divided q12hr",
+        "max_daily_mg": 2.0,
+        "regimen_details": "-Initial:\n  * Age 4-6 yr: 0.25-0.5 mg/day\n  * Age 6-12 yr: 0.5-1 mg/day\n  * Age > 12 yr and adults: 1-1.5 mg/day\n-Titrate by 0.25-0.5 mg increments up to max tolerated dose to control attacks"
       }
     ],
     "id": "urosolvine_n_sach"
   },
   {
-    "trade_name": "Urosolvine Sach",
-    "dosage_form": "sachet",
-    "active_ingredient": "Atropine",
-    "concentration": "",
-    "composition": "Atropine (sachet)",
-    "administration": "Administer according to product instructions.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
-    "g6pd": "Safe",
-    "alternatives": "urosolvine atropine sulphate colchicine piperazine solvaure solvinal ur-aid uraid sachets",
-    "search_terms": "urosolvine sach urosolvine atropine sulphate colchicine piperazine solvaure solvinal ur-aid uraid sachets atropine urosolvine sachet ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "trade_name": "Urosolvine sach",
+    "dosage_form": "tablet",
+    "active_ingredient": "Colchicine",
+    "concentration": "0.5 mg",
+    "composition": "Colchicine 0.5 mg (500 mcg)",
+    "administration": "Take with or without food. Drink at least 2 liters of water daily.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible (Low levels in milk)",
+    "g6pd": "Safe with caution",
+    "alternatives": "Colchicine / Goutyl",
+    "search_terms": "urosolvine sach urosolvine atropine sulphate colchicine piperazine solvaure solvinal ur-aid uraid sachets colchicine gout acute gout flare fmf familial mediterranean fever uric acid",
+    "reference_url": "https://reference.medscape.com/drug/colcrys-mitigare-colchicine-342813",
     "indications": [
       {
-        "title": "Standard Clinical Use",
-        "adult_fixed": "Use / administer 1 unit as directed by physician",
-        "pediatric_fixed": "Administer pediatric unit as directed by pediatrician"
+        "title": "Acute Gout Flare (Loading THEN Maintenance Protocol)",
+        "adult_fixed": "1 mg (2 tabs) PO at first sign of flare, THEN 0.5 mg (1 tab) 1 hour later (Max: 1.5 mg in 1 hour), THEN 0.5 mg q12-24hr after 12 hours",
+        "pediatric_fixed": "Not indicated for acute gout in children",
+        "frequency": "Loading dose, then 1 hr later, then q12-24hr",
+        "max_daily_mg": 1.5,
+        "regimen_details": "-Initial: 1 mg (2 tablets) PO immediately at onset of flare\nTHEN\n-1 hour later: 0.5 mg (1 tablet)\nTHEN\n-12 hours later: resume 0.5 mg once or twice daily until flare resolves\n-Do not repeat treatment course within 3 days"
+      },
+      {
+        "title": "Gout Flare Prophylaxis",
+        "adult_fixed": "0.5 mg (1 tab) PO once or twice daily (Max: 1 mg/day)",
+        "pediatric_fixed": "Not indicated in children",
+        "frequency": "Once or twice daily with water",
+        "max_daily_mg": 1.0,
+        "regimen_details": "0.5 mg PO once or twice daily while initiating urate-lowering therapy (for up to 6 months)"
+      },
+      {
+        "title": "Familial Mediterranean Fever (FMF)",
+        "adult_fixed": "1-2 mg (2-4 tabs) PO once daily or divided q12hr",
+        "pediatric_fixed": "Age 4-11 yr: 0.5-1 mg/day | Age >= 12 yr: 1-1.5 mg/day (increase by 0.25-0.5 mg/day if attacks persist)",
+        "frequency": "Once daily or divided q12hr",
+        "max_daily_mg": 2.0,
+        "regimen_details": "-Initial:\n  * Age 4-6 yr: 0.25-0.5 mg/day\n  * Age 6-12 yr: 0.5-1 mg/day\n  * Age > 12 yr and adults: 1-1.5 mg/day\n-Titrate by 0.25-0.5 mg increments up to max tolerated dose to control attacks"
       }
     ],
     "id": "urosolvine_sach"
   },
   {
-    "trade_name": "Urosolvine Sachets",
-    "dosage_form": "sachet",
-    "active_ingredient": "Atropine",
-    "concentration": "",
-    "composition": "Atropine (sachet)",
-    "administration": "Administer according to product instructions.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
-    "g6pd": "Safe",
-    "alternatives": "urosolvine atropine sulphate colchicine piperazine solvaure solvinal ur-aid uraid sachets",
-    "search_terms": "urosolvine sachets urosolvine atropine sulphate colchicine piperazine solvaure solvinal ur-aid uraid sachets atropine urosolvine sachet ",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "trade_name": "Urosolvine sachets",
+    "dosage_form": "tablet",
+    "active_ingredient": "Colchicine",
+    "concentration": "0.5 mg",
+    "composition": "Colchicine 0.5 mg (500 mcg)",
+    "administration": "Take with or without food. Drink at least 2 liters of water daily.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible (Low levels in milk)",
+    "g6pd": "Safe with caution",
+    "alternatives": "Colchicine / Goutyl",
+    "search_terms": "urosolvine sachets urosolvine atropine sulphate colchicine piperazine solvaure solvinal ur-aid uraid sachets colchicine gout acute gout flare fmf familial mediterranean fever uric acid",
+    "reference_url": "https://reference.medscape.com/drug/colcrys-mitigare-colchicine-342813",
     "indications": [
       {
-        "title": "Standard Clinical Use",
-        "adult_fixed": "Use / administer 1 unit as directed by physician",
-        "pediatric_fixed": "Administer pediatric unit as directed by pediatrician"
+        "title": "Acute Gout Flare (Loading THEN Maintenance Protocol)",
+        "adult_fixed": "1 mg (2 tabs) PO at first sign of flare, THEN 0.5 mg (1 tab) 1 hour later (Max: 1.5 mg in 1 hour), THEN 0.5 mg q12-24hr after 12 hours",
+        "pediatric_fixed": "Not indicated for acute gout in children",
+        "frequency": "Loading dose, then 1 hr later, then q12-24hr",
+        "max_daily_mg": 1.5,
+        "regimen_details": "-Initial: 1 mg (2 tablets) PO immediately at onset of flare\nTHEN\n-1 hour later: 0.5 mg (1 tablet)\nTHEN\n-12 hours later: resume 0.5 mg once or twice daily until flare resolves\n-Do not repeat treatment course within 3 days"
+      },
+      {
+        "title": "Gout Flare Prophylaxis",
+        "adult_fixed": "0.5 mg (1 tab) PO once or twice daily (Max: 1 mg/day)",
+        "pediatric_fixed": "Not indicated in children",
+        "frequency": "Once or twice daily with water",
+        "max_daily_mg": 1.0,
+        "regimen_details": "0.5 mg PO once or twice daily while initiating urate-lowering therapy (for up to 6 months)"
+      },
+      {
+        "title": "Familial Mediterranean Fever (FMF)",
+        "adult_fixed": "1-2 mg (2-4 tabs) PO once daily or divided q12hr",
+        "pediatric_fixed": "Age 4-11 yr: 0.5-1 mg/day | Age >= 12 yr: 1-1.5 mg/day (increase by 0.25-0.5 mg/day if attacks persist)",
+        "frequency": "Once daily or divided q12hr",
+        "max_daily_mg": 2.0,
+        "regimen_details": "-Initial:\n  * Age 4-6 yr: 0.25-0.5 mg/day\n  * Age 6-12 yr: 0.5-1 mg/day\n  * Age > 12 yr and adults: 1-1.5 mg/day\n-Titrate by 0.25-0.5 mg increments up to max tolerated dose to control attacks"
       }
     ],
     "id": "urosolvine_sachets"
@@ -66051,9 +66472,9 @@
     "reference_url": "https://reference.medscape.com/drugs",
     "indications": [
       {
-        "title": "Mucolytic Therapy in Acute/Chronic Respiratory Disorders",
-        "adult_fixed": "30 mg (1 tablet) PO q8hr after meals",
-        "pediatric_fixed": "Adolescents > 12 years: 30 mg PO q8hr",
+        "title": "Productive Cough / Bronchial Secretion Dissolution",
+        "adult_fixed": "1 tablet (30 mg) PO q8hr after meals",
+        "pediatric_fixed": ">12 yr: 1 tablet (30 mg) q8hr | Not recommended under 12 in tablet form",
         "frequency": "q8hr after meals"
       }
     ],
@@ -66596,23 +67017,42 @@
     "id": "citalopram_ramdeep_2mg_ml_syrup"
   },
   {
-    "trade_name": "Colchicine Colmediten 0.500Mcg Mg Tablets",
+    "trade_name": "colchicine colmediten 0.500mcg mg tablets",
     "dosage_form": "tablet",
-    "active_ingredient": "Colmediten",
-    "concentration": "0.500mcg",
-    "composition": "Colmediten 0.500mcg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
-    "g6pd": "Safe",
-    "alternatives": "colchicine colmediten 0.500mcg mg tablets",
-    "search_terms": "colchicine colmediten 0.500mcg mg tablets colchicine colmediten 0.500mcg mg tablets colmediten colchicine tablet 0.500mcg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "active_ingredient": "Colchicine",
+    "concentration": "0.5 mg",
+    "composition": "Colchicine 0.5 mg (500 mcg)",
+    "administration": "Take with or without food. Drink at least 2 liters of water daily.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible (Low levels in milk)",
+    "g6pd": "Safe with caution",
+    "alternatives": "Colchicine / Goutyl",
+    "search_terms": "colchicine colmediten 0.500mcg mg tablets colchicine colmediten 0.500mcg mg tablets colchicine gout acute gout flare fmf familial mediterranean fever uric acid",
+    "reference_url": "https://reference.medscape.com/drug/colcrys-mitigare-colchicine-342813",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Acute Gout Flare (Loading THEN Maintenance Protocol)",
+        "adult_fixed": "1 mg (2 tabs) PO at first sign of flare, THEN 0.5 mg (1 tab) 1 hour later (Max: 1.5 mg in 1 hour), THEN 0.5 mg q12-24hr after 12 hours",
+        "pediatric_fixed": "Not indicated for acute gout in children",
+        "frequency": "Loading dose, then 1 hr later, then q12-24hr",
+        "max_daily_mg": 1.5,
+        "regimen_details": "-Initial: 1 mg (2 tablets) PO immediately at onset of flare\nTHEN\n-1 hour later: 0.5 mg (1 tablet)\nTHEN\n-12 hours later: resume 0.5 mg once or twice daily until flare resolves\n-Do not repeat treatment course within 3 days"
+      },
+      {
+        "title": "Gout Flare Prophylaxis",
+        "adult_fixed": "0.5 mg (1 tab) PO once or twice daily (Max: 1 mg/day)",
+        "pediatric_fixed": "Not indicated in children",
+        "frequency": "Once or twice daily with water",
+        "max_daily_mg": 1.0,
+        "regimen_details": "0.5 mg PO once or twice daily while initiating urate-lowering therapy (for up to 6 months)"
+      },
+      {
+        "title": "Familial Mediterranean Fever (FMF)",
+        "adult_fixed": "1-2 mg (2-4 tabs) PO once daily or divided q12hr",
+        "pediatric_fixed": "Age 4-11 yr: 0.5-1 mg/day | Age >= 12 yr: 1-1.5 mg/day (increase by 0.25-0.5 mg/day if attacks persist)",
+        "frequency": "Once daily or divided q12hr",
+        "max_daily_mg": 2.0,
+        "regimen_details": "-Initial:\n  * Age 4-6 yr: 0.25-0.5 mg/day\n  * Age 6-12 yr: 0.5-1 mg/day\n  * Age > 12 yr and adults: 1-1.5 mg/day\n-Titrate by 0.25-0.5 mg increments up to max tolerated dose to control attacks"
       }
     ],
     "id": "colchicine_colmediten_0_500mcg_mg_tablets"
@@ -67822,20 +68262,21 @@
     "trade_name": "methabiogen Dexamethasone 8mg tablets",
     "dosage_form": "tablet",
     "active_ingredient": "Dexamethasone",
-    "concentration": "8mg",
-    "composition": "Dexamethasone 8mg",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
-    "pregnancy": "Category B",
-    "lactation": "Use with caution",
+    "concentration": "8 mg",
+    "composition": "Dexamethasone 8 mg",
+    "administration": "Administer with meals or milk to minimize GI irritation. Take in the morning.",
+    "pregnancy": "Category C",
+    "lactation": "Compatible",
     "g6pd": "Safe",
-    "alternatives": "methabiogen Dexamethasone 8mg tablets",
-    "search_terms": "methabiogen dexamethasone 8mg tablets methabiogen dexamethasone 8mg tablets dexamethasone methabiogen tablet 8mg",
-    "reference_url": "https://reference.medscape.com/drugs",
+    "alternatives": "Epidron / Decadron / Fortecortin / Dexazone",
+    "search_terms": "methabiogen dexamethasone 8mg tablets methabiogen dexamethasone 8mg tablets dexamethasone epidron decadron fortecortin corticosteroid anti-inflammatory croup antiemetic",
+    "reference_url": "https://reference.medscape.com/drug/decadron-dexamethasone-intensol-dexamethasone-342741",
     "indications": [
       {
-        "title": "Standard Therapeutic Application",
-        "adult_fixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatric_fixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms"
+        "title": "Acute Exacerbation / Anti-inflammatory Burst & Taper",
+        "adult_fixed": "0.75-9 mg PO daily divided q6-12hr for 3-5 days, then taper",
+        "pediatric_fixed": "0.08-0.3 mg/kg/day PO divided q6-12hr for 3-5 days, then taper",
+        "frequency": "Divided q6-12hr with meals, then taper"
       }
     ],
     "id": "methabiogen_dexamethasone_8mg_tablets"
