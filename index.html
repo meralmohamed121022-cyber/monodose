@@ -5114,16 +5114,6 @@ function getMonodoseIconHTML(drug) {
                     details.style.display = 'block';
                     if (toggleIcon) toggleIcon.innerHTML = 'إغلاق ▲';
                 }
-            }`);
-                const toggleIcon = document.getElementById(`toggle-${index}`);
-
-                if (details.classList.contains('show')) {
-                    details.classList.remove('show');
-                    toggleIcon.textContent = '▼';
-                } else {
-                    details.classList.add('show');
-                    toggleIcon.textContent = '▲';
-                }
             }
 
             function toggleExpandable(section) {
@@ -5154,16 +5144,6 @@ function getMonodoseIconHTML(drug) {
                     details.classList.add('show');
                     details.style.display = 'block';
                     if (toggleIcon) toggleIcon.innerHTML = 'إغلاق ▲';
-                }
-            }`);
-                const toggleIcon = document.getElementById(`toggle-${index}`);
-
-                if (details.classList.contains('show')) {
-                    details.classList.remove('show');
-                    toggleIcon.textContent = '▼';
-                } else {
-                    details.classList.add('show');
-                    toggleIcon.textContent = '▲';
                 }
             }
 
