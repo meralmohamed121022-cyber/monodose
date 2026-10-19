@@ -63320,108 +63320,121 @@
     "reference_url": "https://reference.medscape.com/drug/millipred-orapred-prednisolone-343285",
     "indications": [
       {
+        "title": "Moderate to Severe Ulcerative Colitis",
+        "adult_fixed": "40-60 mg PO once daily in morning for 2-3 weeks; then taper over 8-10 weeks",
+        "pediatric_fixed": "5-11 ml q24hr in the morning for 2-3 weeks; then taper over 8-10 weeks",
+        "pediatric_mg_kg": 1.0,
+        "frequency": "q24hr in the morning with food",
+        "max_daily_mg": 60.0,
+        "regimen_details": "5-11 ml q24hr in the morning for 2-3 weeks; then taper over 8-10 weeks"
+      },
+      {
+        "title": "Newly Diagnosed Immune Thrombocytopenia",
+        "adult_fixed": "1-2 mg/kg/day PO divided q8-12hr for 1-2 weeks followed by taper",
+        "pediatric_fixed": "5 ml q6-8hr for 5 to 7 days OR 5-11 ml q24hr for 1-2 weeks followed by a taper with goal of discontinuing therapy by 3 weeks",
+        "pediatric_mg_kg": 1.0,
+        "frequency": "q6-8hr OR q24hr with food",
+        "max_daily_mg": 60.0,
+        "regimen_details": "5 ml q6-8hr for 5 to 7 days\nOR\n5-11 ml q24hr for 1-2 weeks followed by a taper with goal of discontinuing therapy by 3 weeks"
+      },
+      {
+        "title": "Polyarticular Juvenile Idiopathic Arthritis",
+        "adult_fixed": "Not applicable",
+        "pediatric_fixed": "-Low dose: 1 ml q24hr for 1 week THEN 1 ml q24hr for 3-4 days THEN 0 ml q24hr for 3-4 days | -Medium dose: 3 ml q24hr for 1 week THEN 2 ml q24hr for 7 days THEN 1 ml q24hr for 7 days | -High dose: 5 ml q24hr for 1-2 weeks THEN 4 ml q24hr for 1-4 weeks",
+        "pediatric_mg_kg": 0.5,
+        "frequency": "q24hr with morning breakfast",
+        "max_daily_mg": 60.0,
+        "regimen_details": "-Low dose: 1 ml q24hr for 1 week\nTHEN\n1 ml q24hr for 3-4 days\nTHEN\n0 ml q24hr for 3-4 days\n\n-Medium dose: 3 ml q24hr for 1 week\nTHEN\n2 ml q24hr for 7 days\nTHEN\n1 ml q24hr for 7 days\nTHEN\n1 ml q24hr for 7 days\n\n-High dose: 5 ml q24hr for 1-2 weeks\nTHEN\n4 ml q24hr for 1-4 weeks"
+      },
+      {
         "title": "Acute Asthma Exacerbation (Short-Course Burst)",
-        "adult_fixed": "40-60 mg PO once daily in morning or divided q12hr for 3-5 days",
-        "pediatric_fixed": "1-2 mg/kg/day PO divided q12-24hr for 3-5 days (Max 60 mg/day)",
+        "adult_fixed": "20-30 ml (60-90 mg) q12hr for 3-10 days",
+        "pediatric_fixed": "1-2 mg/kg/day PO divided q12-24hr for 3-5 days (Max 20 ml/day)",
         "pediatric_mg_kg": 1.0,
         "frequency": "q12-24hr with food for 3-5 days",
-        "max_daily_mg": 60.0
+        "max_daily_mg": 60.0,
+        "regimen_details": "-Asthma exacerbations/Short-course (burst): 20-30 ml q12hr for 3-10 days"
       },
       {
         "title": "Severe Persistent Asthma (Maintenance)",
-        "adult_fixed": "7.5-60 mg PO once daily in morning or alternate days",
+        "adult_fixed": "7.5-60 ml q24hr in the morning or q48hr as needed for asthma control",
         "pediatric_fixed": "0.25-2 mg/kg/day PO once daily in morning or alternate days",
         "pediatric_mg_kg": 0.5,
-        "frequency": "Once daily with breakfast",
-        "max_daily_mg": 60.0
+        "frequency": "Once daily with breakfast or alternate days",
+        "max_daily_mg": 60.0,
+        "regimen_details": "-Long-term treatment for severe, persistent asthma (non-acute): 7.5-60 ml q24hr in the morning or q48hr as needed for asthma control"
       },
       {
         "title": "Croup / Laryngotracheobronchitis (Off-label)",
         "adult_fixed": "Not applicable",
-        "pediatric_fixed": "1 mg/kg PO single dose (or 1-2 mg/kg/day divided q12hr for 1-2 days)",
+        "pediatric_fixed": "1 mg/kg (0.33 ml/kg) PO single dose (or 1-2 mg/kg/day divided q12hr for 1-2 days)",
         "pediatric_mg_kg": 1.0,
         "frequency": "Single dose or q12hr for 1-2 days",
-        "max_daily_mg": 60.0
+        "max_daily_mg": 60.0,
+        "regimen_details": "1 mg/kg PO single dose (or 1-2 mg/kg/day divided q12hr for 1-2 days)"
       },
       {
         "title": "Nephrotic Syndrome (Minimal Change Disease)",
         "adult_fixed": "1 mg/kg/day PO (Max 80 mg/day) as single morning dose for 4-16 weeks, then taper",
-        "pediatric_fixed": "60 mg/m²/day OR 2 mg/kg/day PO divided q8-12hr for 4-6 weeks (Max 60-80 mg/day); then 40 mg/m² alternate days for 4 weeks",
+        "pediatric_fixed": "60 mg/m²/day OR 2 mg/kg/day PO divided q8-12hr for 4-6 weeks (Max 20-26 ml/day); then 40 mg/m² alternate days for 4 weeks",
         "pediatric_mg_kg": 2.0,
         "frequency": "Divided q8-12hr with meals during active phase",
-        "max_daily_mg": 80.0
+        "max_daily_mg": 80.0,
+        "regimen_details": "60 mg/m²/day OR 2 mg/kg/day PO divided q8-12hr for 4-6 weeks; then 40 mg/m² alternate days for 4 weeks"
       },
       {
         "title": "Allergic Conditions (Severe Rhinitis / Acute Urticaria)",
-        "adult_fixed": "20-40 mg PO daily for 3-7 days, then taper",
+        "adult_fixed": "20-40 mg (6.7-13.3 ml) PO daily for 3-7 days, then taper",
         "pediatric_fixed": "0.5-1 mg/kg/day PO divided q12-24hr for 3-5 days",
         "pediatric_mg_kg": 0.5,
         "frequency": "q12-24hr with food for 3-5 days",
-        "max_daily_mg": 40.0
+        "max_daily_mg": 40.0,
+        "regimen_details": "0.5-1 mg/kg/day PO divided q12-24hr for 3-5 days, then taper"
       },
       {
-        "title": "Anti-inflammatory & Immunosuppressive Therapy",
-        "adult_fixed": "5-60 mg PO once daily in morning or divided q8-12hr",
+        "title": "General Anti-inflammatory & Immunosuppressive Therapy",
+        "adult_fixed": "5-60 mg (1.7-20 ml) PO once daily in morning or divided q8-12hr",
         "pediatric_fixed": "0.14-2 mg/kg/day PO divided q6-12hr based on severity",
         "pediatric_mg_kg": 0.5,
         "frequency": "Once daily with breakfast or divided q8-12hr",
-        "max_daily_mg": 60.0
+        "max_daily_mg": 60.0,
+        "regimen_details": "0.14-2 mg/kg/day PO divided q6-12hr based on severity and response"
       },
       {
         "title": "Systemic Lupus Erythematosus (SLE) & Connective Tissue Disease",
         "adult_fixed": "0.5-1 mg/kg/day PO once daily or divided q12hr; up to 60 mg/day for severe flare",
-        "pediatric_fixed": "0.5-1 mg/kg/day PO divided q8-12hr (Max 60 mg/day)",
+        "pediatric_fixed": "0.5-1 mg/kg/day PO divided q8-12hr (Max 20 ml/day)",
         "pediatric_mg_kg": 0.5,
         "frequency": "Divided q8-12hr with food",
-        "max_daily_mg": 60.0
-      },
-      {
-        "title": "Juvenile Idiopathic Arthritis (JIA)",
-        "adult_fixed": "Not applicable",
-        "pediatric_fixed": "0.1-1 mg/kg/day PO divided q8-12hr or once daily; up to 2 mg/kg/day in systemic JIA",
-        "pediatric_mg_kg": 0.5,
-        "frequency": "Divided q8-12hr with meals",
-        "max_daily_mg": 60.0
+        "max_daily_mg": 60.0,
+        "regimen_details": "0.5-1 mg/kg/day PO divided q8-12hr with meals"
       },
       {
         "title": "Acute Gouty Arthritis Flare",
-        "adult_fixed": "30-35 mg PO once daily for 3-5 days, then taper over 7-10 days",
+        "adult_fixed": "10-11.7 ml (30-35 mg) PO once daily for 3-5 days, then taper over 7-10 days",
         "pediatric_fixed": "Not typically indicated in pediatrics",
         "pediatric_mg_kg": null,
         "frequency": "Once daily with breakfast",
-        "max_daily_mg": 35.0
-      },
-      {
-        "title": "Ulcerative Colitis & Crohn's Disease Flare",
-        "adult_fixed": "40-60 mg PO once daily until remission, then taper by 5-10 mg weekly",
-        "pediatric_fixed": "1-2 mg/kg/day PO divided q12-24hr (Max 40-60 mg/day)",
-        "pediatric_mg_kg": 1.0,
-        "frequency": "Divided q12-24hr with meals",
-        "max_daily_mg": 60.0
-      },
-      {
-        "title": "Immune Thrombocytopenic Purpura (ITP)",
-        "adult_fixed": "1-2 mg/kg/day PO divided q8-12hr for 2-4 weeks, then taper",
-        "pediatric_fixed": "1-2 mg/kg/day PO divided q8-12hr (up to 4 mg/kg/day for 3-4 days in acute refractory cases)",
-        "pediatric_mg_kg": 1.0,
-        "frequency": "Divided q8-12hr with food",
-        "max_daily_mg": 80.0
+        "max_daily_mg": 35.0,
+        "regimen_details": "10-11.7 ml once daily in the morning with meals for 3-5 days, then taper"
       },
       {
         "title": "Autoimmune Hemolytic Anemia (Warm AIHA)",
         "adult_fixed": "1-1.5 mg/kg/day PO divided q8-12hr until Hb normalizes, then slow taper",
-        "pediatric_fixed": "1-2 mg/kg/day PO divided q8-12hr (Max 60-80 mg/day)",
+        "pediatric_fixed": "1-2 mg/kg/day PO divided q8-12hr (Max 20-26 ml/day)",
         "pediatric_mg_kg": 1.0,
         "frequency": "Divided q8-12hr with food",
-        "max_daily_mg": 80.0
+        "max_daily_mg": 80.0,
+        "regimen_details": "1-2 mg/kg/day PO divided q8-12hr until hematologic recovery, then taper"
       },
       {
         "title": "Multiple Sclerosis (Acute Relapse Oral Protocol)",
-        "adult_fixed": "200 mg PO daily for 1 week, followed by 80 mg alternate days for 1 month",
+        "adult_fixed": "66.7 ml (200 mg) PO daily for 1 week, followed by 26.7 ml (80 mg) alternate days for 1 month",
         "pediatric_fixed": "1-2 mg/kg/day PO as oral consolidation after IV methylprednisolone",
         "pediatric_mg_kg": 1.0,
         "frequency": "Once daily with breakfast",
-        "max_daily_mg": 200.0
+        "max_daily_mg": 200.0,
+        "regimen_details": "Follow neurology taper protocol: 200 mg daily for 1 week, then 80 mg alternate days for 1 month"
       }
     ],
     "id": "xilone_forte_syrup"
@@ -63442,108 +63455,121 @@
     "reference_url": "https://reference.medscape.com/drug/millipred-orapred-prednisolone-343285",
     "indications": [
       {
+        "title": "Moderate to Severe Ulcerative Colitis",
+        "adult_fixed": "40-60 mg PO once daily in morning for 2-3 weeks; then taper over 8-10 weeks",
+        "pediatric_fixed": "5-11 ml q24hr in the morning for 2-3 weeks; then taper over 8-10 weeks",
+        "pediatric_mg_kg": 1.0,
+        "frequency": "q24hr in the morning with food",
+        "max_daily_mg": 60.0,
+        "regimen_details": "5-11 ml q24hr in the morning for 2-3 weeks; then taper over 8-10 weeks"
+      },
+      {
+        "title": "Newly Diagnosed Immune Thrombocytopenia",
+        "adult_fixed": "1-2 mg/kg/day PO divided q8-12hr for 1-2 weeks followed by taper",
+        "pediatric_fixed": "5 ml q6-8hr for 5 to 7 days OR 5-11 ml q24hr for 1-2 weeks followed by a taper with goal of discontinuing therapy by 3 weeks",
+        "pediatric_mg_kg": 1.0,
+        "frequency": "q6-8hr OR q24hr with food",
+        "max_daily_mg": 60.0,
+        "regimen_details": "5 ml q6-8hr for 5 to 7 days\nOR\n5-11 ml q24hr for 1-2 weeks followed by a taper with goal of discontinuing therapy by 3 weeks"
+      },
+      {
+        "title": "Polyarticular Juvenile Idiopathic Arthritis",
+        "adult_fixed": "Not applicable",
+        "pediatric_fixed": "-Low dose: 1 ml q24hr for 1 week THEN 1 ml q24hr for 3-4 days THEN 0 ml q24hr for 3-4 days | -Medium dose: 3 ml q24hr for 1 week THEN 2 ml q24hr for 7 days THEN 1 ml q24hr for 7 days | -High dose: 5 ml q24hr for 1-2 weeks THEN 4 ml q24hr for 1-4 weeks",
+        "pediatric_mg_kg": 0.5,
+        "frequency": "q24hr with morning breakfast",
+        "max_daily_mg": 60.0,
+        "regimen_details": "-Low dose: 1 ml q24hr for 1 week\nTHEN\n1 ml q24hr for 3-4 days\nTHEN\n0 ml q24hr for 3-4 days\n\n-Medium dose: 3 ml q24hr for 1 week\nTHEN\n2 ml q24hr for 7 days\nTHEN\n1 ml q24hr for 7 days\nTHEN\n1 ml q24hr for 7 days\n\n-High dose: 5 ml q24hr for 1-2 weeks\nTHEN\n4 ml q24hr for 1-4 weeks"
+      },
+      {
         "title": "Acute Asthma Exacerbation (Short-Course Burst)",
-        "adult_fixed": "40-60 mg PO once daily in morning or divided q12hr for 3-5 days",
-        "pediatric_fixed": "1-2 mg/kg/day PO divided q12-24hr for 3-5 days (Max 60 mg/day)",
+        "adult_fixed": "20-30 ml (60-90 mg) q12hr for 3-10 days",
+        "pediatric_fixed": "1-2 mg/kg/day PO divided q12-24hr for 3-5 days (Max 20 ml/day)",
         "pediatric_mg_kg": 1.0,
         "frequency": "q12-24hr with food for 3-5 days",
-        "max_daily_mg": 60.0
+        "max_daily_mg": 60.0,
+        "regimen_details": "-Asthma exacerbations/Short-course (burst): 20-30 ml q12hr for 3-10 days"
       },
       {
         "title": "Severe Persistent Asthma (Maintenance)",
-        "adult_fixed": "7.5-60 mg PO once daily in morning or alternate days",
+        "adult_fixed": "7.5-60 ml q24hr in the morning or q48hr as needed for asthma control",
         "pediatric_fixed": "0.25-2 mg/kg/day PO once daily in morning or alternate days",
         "pediatric_mg_kg": 0.5,
-        "frequency": "Once daily with breakfast",
-        "max_daily_mg": 60.0
+        "frequency": "Once daily with breakfast or alternate days",
+        "max_daily_mg": 60.0,
+        "regimen_details": "-Long-term treatment for severe, persistent asthma (non-acute): 7.5-60 ml q24hr in the morning or q48hr as needed for asthma control"
       },
       {
         "title": "Croup / Laryngotracheobronchitis (Off-label)",
         "adult_fixed": "Not applicable",
-        "pediatric_fixed": "1 mg/kg PO single dose (or 1-2 mg/kg/day divided q12hr for 1-2 days)",
+        "pediatric_fixed": "1 mg/kg (0.33 ml/kg) PO single dose (or 1-2 mg/kg/day divided q12hr for 1-2 days)",
         "pediatric_mg_kg": 1.0,
         "frequency": "Single dose or q12hr for 1-2 days",
-        "max_daily_mg": 60.0
+        "max_daily_mg": 60.0,
+        "regimen_details": "1 mg/kg PO single dose (or 1-2 mg/kg/day divided q12hr for 1-2 days)"
       },
       {
         "title": "Nephrotic Syndrome (Minimal Change Disease)",
         "adult_fixed": "1 mg/kg/day PO (Max 80 mg/day) as single morning dose for 4-16 weeks, then taper",
-        "pediatric_fixed": "60 mg/m²/day OR 2 mg/kg/day PO divided q8-12hr for 4-6 weeks (Max 60-80 mg/day); then 40 mg/m² alternate days for 4 weeks",
+        "pediatric_fixed": "60 mg/m²/day OR 2 mg/kg/day PO divided q8-12hr for 4-6 weeks (Max 20-26 ml/day); then 40 mg/m² alternate days for 4 weeks",
         "pediatric_mg_kg": 2.0,
         "frequency": "Divided q8-12hr with meals during active phase",
-        "max_daily_mg": 80.0
+        "max_daily_mg": 80.0,
+        "regimen_details": "60 mg/m²/day OR 2 mg/kg/day PO divided q8-12hr for 4-6 weeks; then 40 mg/m² alternate days for 4 weeks"
       },
       {
         "title": "Allergic Conditions (Severe Rhinitis / Acute Urticaria)",
-        "adult_fixed": "20-40 mg PO daily for 3-7 days, then taper",
+        "adult_fixed": "20-40 mg (6.7-13.3 ml) PO daily for 3-7 days, then taper",
         "pediatric_fixed": "0.5-1 mg/kg/day PO divided q12-24hr for 3-5 days",
         "pediatric_mg_kg": 0.5,
         "frequency": "q12-24hr with food for 3-5 days",
-        "max_daily_mg": 40.0
+        "max_daily_mg": 40.0,
+        "regimen_details": "0.5-1 mg/kg/day PO divided q12-24hr for 3-5 days, then taper"
       },
       {
-        "title": "Anti-inflammatory & Immunosuppressive Therapy",
-        "adult_fixed": "5-60 mg PO once daily in morning or divided q8-12hr",
+        "title": "General Anti-inflammatory & Immunosuppressive Therapy",
+        "adult_fixed": "5-60 mg (1.7-20 ml) PO once daily in morning or divided q8-12hr",
         "pediatric_fixed": "0.14-2 mg/kg/day PO divided q6-12hr based on severity",
         "pediatric_mg_kg": 0.5,
         "frequency": "Once daily with breakfast or divided q8-12hr",
-        "max_daily_mg": 60.0
+        "max_daily_mg": 60.0,
+        "regimen_details": "0.14-2 mg/kg/day PO divided q6-12hr based on severity and response"
       },
       {
         "title": "Systemic Lupus Erythematosus (SLE) & Connective Tissue Disease",
         "adult_fixed": "0.5-1 mg/kg/day PO once daily or divided q12hr; up to 60 mg/day for severe flare",
-        "pediatric_fixed": "0.5-1 mg/kg/day PO divided q8-12hr (Max 60 mg/day)",
+        "pediatric_fixed": "0.5-1 mg/kg/day PO divided q8-12hr (Max 20 ml/day)",
         "pediatric_mg_kg": 0.5,
         "frequency": "Divided q8-12hr with food",
-        "max_daily_mg": 60.0
-      },
-      {
-        "title": "Juvenile Idiopathic Arthritis (JIA)",
-        "adult_fixed": "Not applicable",
-        "pediatric_fixed": "0.1-1 mg/kg/day PO divided q8-12hr or once daily; up to 2 mg/kg/day in systemic JIA",
-        "pediatric_mg_kg": 0.5,
-        "frequency": "Divided q8-12hr with meals",
-        "max_daily_mg": 60.0
+        "max_daily_mg": 60.0,
+        "regimen_details": "0.5-1 mg/kg/day PO divided q8-12hr with meals"
       },
       {
         "title": "Acute Gouty Arthritis Flare",
-        "adult_fixed": "30-35 mg PO once daily for 3-5 days, then taper over 7-10 days",
+        "adult_fixed": "10-11.7 ml (30-35 mg) PO once daily for 3-5 days, then taper over 7-10 days",
         "pediatric_fixed": "Not typically indicated in pediatrics",
         "pediatric_mg_kg": null,
         "frequency": "Once daily with breakfast",
-        "max_daily_mg": 35.0
-      },
-      {
-        "title": "Ulcerative Colitis & Crohn's Disease Flare",
-        "adult_fixed": "40-60 mg PO once daily until remission, then taper by 5-10 mg weekly",
-        "pediatric_fixed": "1-2 mg/kg/day PO divided q12-24hr (Max 40-60 mg/day)",
-        "pediatric_mg_kg": 1.0,
-        "frequency": "Divided q12-24hr with meals",
-        "max_daily_mg": 60.0
-      },
-      {
-        "title": "Immune Thrombocytopenic Purpura (ITP)",
-        "adult_fixed": "1-2 mg/kg/day PO divided q8-12hr for 2-4 weeks, then taper",
-        "pediatric_fixed": "1-2 mg/kg/day PO divided q8-12hr (up to 4 mg/kg/day for 3-4 days in acute refractory cases)",
-        "pediatric_mg_kg": 1.0,
-        "frequency": "Divided q8-12hr with food",
-        "max_daily_mg": 80.0
+        "max_daily_mg": 35.0,
+        "regimen_details": "10-11.7 ml once daily in the morning with meals for 3-5 days, then taper"
       },
       {
         "title": "Autoimmune Hemolytic Anemia (Warm AIHA)",
         "adult_fixed": "1-1.5 mg/kg/day PO divided q8-12hr until Hb normalizes, then slow taper",
-        "pediatric_fixed": "1-2 mg/kg/day PO divided q8-12hr (Max 60-80 mg/day)",
+        "pediatric_fixed": "1-2 mg/kg/day PO divided q8-12hr (Max 20-26 ml/day)",
         "pediatric_mg_kg": 1.0,
         "frequency": "Divided q8-12hr with food",
-        "max_daily_mg": 80.0
+        "max_daily_mg": 80.0,
+        "regimen_details": "1-2 mg/kg/day PO divided q8-12hr until hematologic recovery, then taper"
       },
       {
         "title": "Multiple Sclerosis (Acute Relapse Oral Protocol)",
-        "adult_fixed": "200 mg PO daily for 1 week, followed by 80 mg alternate days for 1 month",
+        "adult_fixed": "66.7 ml (200 mg) PO daily for 1 week, followed by 26.7 ml (80 mg) alternate days for 1 month",
         "pediatric_fixed": "1-2 mg/kg/day PO as oral consolidation after IV methylprednisolone",
         "pediatric_mg_kg": 1.0,
         "frequency": "Once daily with breakfast",
-        "max_daily_mg": 200.0
+        "max_daily_mg": 200.0,
+        "regimen_details": "Follow neurology taper protocol: 200 mg daily for 1 week, then 80 mg alternate days for 1 month"
       }
     ],
     "id": "xilone_syrup"
