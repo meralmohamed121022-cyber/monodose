@@ -4028,6 +4028,72 @@ document.addEventListener('DOMContentLoaded', updateOnlineStatus);
                 198: 63.5, 204: 66.0
             };
 
+
+            // 🎯 MASTER CLINICAL MONODOSE RESOLVER
+            // Solves 312 vs 312.5, 156 vs 156.25, 228 vs 228.5, and maps all brands to exact clinical indications
+            window.resolveClinicalMonodose = function(rawDrug) {
+                if (!rawDrug) return rawDrug;
+                const monoDB = window.monodoseDatabase;
+                if (!monoDB) return rawDrug;
+
+                // Deep copy or clone so we don't pollute static entries unintentionally
+                let drug = Object.assign({}, rawDrug);
+                if (drug.isMonodose && drug.doses && drug.doses.length > 0) {
+                    return drug;
+                }
+
+                const sTrade = (drug.tradeName || drug.name || "").toLowerCase();
+                const sActive = (drug.name || "").toLowerCase();
+                const sComp = (drug.composition || "").toLowerCase();
+                const sForm = (drug.formulation || drug.dosage_form || "").toLowerCase();
+
+                const isSusp = sTrade.includes("susp") || sTrade.includes("syp") || sTrade.includes("syrup") || sForm.includes("susp") || sComp.includes("susp") || sComp.includes("syrup") || sTrade.includes("drop");
+                const isTab = sTrade.includes("tab") || sTrade.includes("cap") || sForm.includes("tab") || sForm.includes("cap") || sComp.includes("tablet") || sComp.includes("capsule");
+
+                const isAmoxClav = (sComp.includes("amoxicillin") && (sComp.includes("clavulan") || sComp.includes("clav"))) ||
+                                   (sActive.includes("amoxicillin") && (sActive.includes("clavulan") || sActive.includes("clav"))) ||
+                                   ["augmentin", "hibiotic", "curam", "megamox", "magnabiotic", "klavox", "emoxclav", "clavimox", "newclav", "deltaclav", "amoclan", "dexiclave", "amoclawin", "julmentin"].some(b => sTrade.includes(b));
+
+                if (isAmoxClav) {
+                    let targetMonoCode = null;
+                    if (isSusp) {
+                        if (sTrade.includes("312") || sComp.includes("312") || (sTrade.includes("250") && sTrade.includes("62.5"))) {
+                            targetMonoCode = "mono_00274";
+                        } else if (sTrade.includes("156") || sComp.includes("156") || (sTrade.includes("125") && sTrade.includes("31.25"))) {
+                            targetMonoCode = "mono_00273";
+                        } else if (sTrade.includes("228") || sComp.includes("228") || (sTrade.includes("200") && sTrade.includes("28.5")) || sTrade.includes("duo")) {
+                            targetMonoCode = "mono_00282";
+                        } else if (sTrade.includes("600") || sTrade.includes("642") || sTrade.includes("es")) {
+                            targetMonoCode = "mono_00280";
+                        } else if (sTrade.includes("457") || sComp.includes("457") || (sTrade.includes("400") && sTrade.includes("57"))) {
+                            targetMonoCode = "mono_00276";
+                        }
+                    } else if (isTab) {
+                        if (sTrade.includes("1 gm") || sTrade.includes("1gm") || sTrade.includes("1 g ") || sTrade.includes("1g ") || sTrade.includes("1000") || sTrade.includes("875")) {
+                            targetMonoCode = "mono_00271";
+                        } else if (sTrade.includes("625") || sTrade.includes("500")) {
+                            targetMonoCode = "mono_00279";
+                        } else if (sTrade.includes("375") || sTrade.includes("250")) {
+                            targetMonoCode = "mono_00275";
+                        }
+                    }
+
+                    if (targetMonoCode && monoDB[targetMonoCode]) {
+                        const mRef = monoDB[targetMonoCode];
+                        drug.doses = mRef.doses;
+                        drug.isMonodose = true;
+                        drug.source = 'monodose';
+                        drug.concentration = mRef.concentration;
+                        drug.concentration_per_ml = mRef.concentration;
+                        drug.monodoseTradeName = mRef.tradeName;
+                        drug.monodoseMatchType = 'equivalent';
+                        return drug;
+                    }
+                }
+
+                return drug;
+            };
+
             // Global variables
             let selectedDrug = null;
             let selectedAge = null;
@@ -4232,6 +4298,12 @@ function getMonodoseIconHTML(drug) {
             }
 
             function getWeightForAge(ageInMonths) {
+                const ageYears = ageInMonths / 12.0;
+                // Standard pediatric emergency weight formula (APLS / Nelson formula matching Egydose):
+                // For age 1 - 10 years: Weight (kg) = (Age + 4) * 2 (e.g. 4 years = 16 kg)
+                if (ageYears >= 1.0 && ageYears <= 10.0) {
+                    return Math.round(((ageYears + 4.0) * 2.0) * 10) / 10;
+                }
                 const ages = Object.keys(ageWeightData).map(Number).sort((a, b) => a - b);
                 let closestAge = ages[0];
 
@@ -4382,7 +4454,54 @@ function getMonodoseIconHTML(drug) {
 
         function showDrugDetail(drugKey) {
                 window.pediatricFormOverride = false;
-                selectedDrug = drugDatabase[drugKey];
+                selectedDrug = window.resolveClinicalMonodose ? window.resolveClinicalMonodose(drugDatabase[drugKey] || (window.monodoseDatabase && window.monodoseDatabase[drugKey])) : (drugDatabase[drugKey] || (window.monodoseDatabase && window.monodoseDatabase[drugKey]));
+
+                // 🎯 Automatic Clinical Monodose Resolution (handles 312 vs 312.5, 156 vs 156.25, 228 vs 228.5)
+                if (selectedDrug && window.monodoseDatabase) {
+                    const sTrade = (selectedDrug.tradeName || selectedDrug.name || "").toLowerCase();
+                    const sActive = (selectedDrug.name || "").toLowerCase();
+                    const sComp = (selectedDrug.composition || "").toLowerCase();
+                    const isSusp = sTrade.includes("susp") || sTrade.includes("syp") || sTrade.includes("syrup") || (selectedDrug.formulation && selectedDrug.formulation.includes("susp"));
+                    const isTab = sTrade.includes("tab") || sTrade.includes("cap") || (selectedDrug.formulation && (selectedDrug.formulation.includes("tab") || selectedDrug.formulation.includes("cap")));
+
+                    const isAmoxClav = (sActive.includes("amoxicillin") && sActive.includes("clavulan")) ||
+                                       ["augmentin", "hibiotic", "curam", "megamox", "magnabiotic", "klavox", "emoxclav", "clavimox", "newclav", "deltaclav", "amoclan", "dexiclave", "amoclawin", "julmentin"].some(b => sTrade.includes(b));
+                    
+                    if (isAmoxClav) {
+                        let targetMonoCode = null;
+                        if (isSusp) {
+                            if (sTrade.includes("312") || sComp.includes("312") || (sTrade.includes("250") && sTrade.includes("62.5"))) {
+                                targetMonoCode = "mono_00274";
+                            } else if (sTrade.includes("156") || sComp.includes("156") || (sTrade.includes("125") && sTrade.includes("31.25"))) {
+                                targetMonoCode = "mono_00273";
+                            } else if (sTrade.includes("228") || sComp.includes("228") || (sTrade.includes("200") && sTrade.includes("28.5")) || sTrade.includes("duo")) {
+                                targetMonoCode = "mono_00282";
+                            } else if (sTrade.includes("600") || sTrade.includes("es")) {
+                                targetMonoCode = "mono_00280";
+                            } else if (sTrade.includes("457") || sComp.includes("457") || (sTrade.includes("400") && sTrade.includes("57"))) {
+                                targetMonoCode = "mono_00276";
+                            }
+                        } else if (isTab) {
+                            if (sTrade.includes("1 gm") || sTrade.includes("1gm") || sTrade.includes("1000") || sTrade.includes("875")) {
+                                targetMonoCode = "mono_00271";
+                            } else if (sTrade.includes("625") || sTrade.includes("500")) {
+                                targetMonoCode = "mono_00279";
+                            } else if (sTrade.includes("375")) {
+                                targetMonoCode = "mono_00275";
+                            }
+                        }
+                        if (targetMonoCode && window.monodoseDatabase[targetMonoCode]) {
+                            const mRef = window.monodoseDatabase[targetMonoCode];
+                            selectedDrug.doses = mRef.doses;
+                            selectedDrug.isMonodose = true;
+                            selectedDrug.source = 'monodose';
+                            selectedDrug.concentration = mRef.concentration;
+                            selectedDrug.concentration_per_ml = mRef.concentration;
+                            selectedDrug.monodoseTradeName = mRef.tradeName;
+                            selectedDrug.monodoseMatchType = 'equivalent';
+                        }
+                    }
+                }
 
     // Reset scroll position to top
     setTimeout(() => {
@@ -5676,7 +5795,7 @@ function getBreastfeedingCategoryEmoji(category) {
             // تعديل دالة showDrugDetail الأصلية
             function showDrugDetail(drugKey) {
                 window.pediatricFormOverride = false;
-                selectedDrug = drugDatabase[drugKey];
+                selectedDrug = window.resolveClinicalMonodose ? window.resolveClinicalMonodose(drugDatabase[drugKey] || (window.monodoseDatabase && window.monodoseDatabase[drugKey])) : (drugDatabase[drugKey] || (window.monodoseDatabase && window.monodoseDatabase[drugKey]));
 
     // Reset scroll position to top
     setTimeout(() => {
@@ -10647,7 +10766,7 @@ function getBreastfeedingCategoryEmoji(category) {
                     return;
                 }
 
-                selectedDrug = drugDatabase[drugKey];
+                selectedDrug = window.resolveClinicalMonodose ? window.resolveClinicalMonodose(drugDatabase[drugKey] || (window.monodoseDatabase && window.monodoseDatabase[drugKey])) : (drugDatabase[drugKey] || (window.monodoseDatabase && window.monodoseDatabase[drugKey]));
 
                 // فحص العمر - إذا لم يتم اختياره
                 if (selectedAgeInMonths === 0) {
@@ -11479,7 +11598,7 @@ function getPregnancyCategoryEmoji(category) {
             };// ⚡ INSTANT POPUP مع نظام الفلترة الكامل بتاعك - أسرع ما يمكن
             function showDrugDetail(drugKey) {
                 window.pediatricFormOverride = false;
-                selectedDrug = drugDatabase[drugKey];
+                selectedDrug = window.resolveClinicalMonodose ? window.resolveClinicalMonodose(drugDatabase[drugKey] || (window.monodoseDatabase && window.monodoseDatabase[drugKey])) : (drugDatabase[drugKey] || (window.monodoseDatabase && window.monodoseDatabase[drugKey]));
 
     // Reset scroll position to top
     setTimeout(() => {
@@ -12788,7 +12907,7 @@ ${patientWarning}
 
                 function roundCl(val) {
                     if (val <= 0) return 0;
-                    const r = Math.round(val * 2) / 2;
+                    const r = Math.round(val * 10) / 10;
                     return r % 1 === 0 ? r.toFixed(0) : r.toFixed(1);
                 }
 
@@ -12835,42 +12954,65 @@ ${patientWarning}
                             }
                         } else if (dose.indType === 'augmentin_aom_sinusitis') {
                             if (isPediatric) {
-                                const factor = ind.std_factor || dose.stdFactor || 0.275;
+                                const factor = ind.std_factor || dose.stdFactor || 0.30;
                                 const stdMl = roundCl(w * factor);
-                                displayDose = `Standard: ${stdMl} mL every 12 hrs for 10 days`;
+                                const freq = ind.frequency || dose.frequency || 'q8hr for 10 days';
+                                displayDose = `Standard: ${stdMl} mL ${freq}`;
                                 singleDose = `${stdMl} mL (Standard-dose)`;
-                                freqText = `twice daily (every 12 hrs)`;
-                                dailyDose = `${roundCl(stdMl * 2)} mL / day`;
+                                freqText = freq;
+                                const dosesPerDay = dose.maxDosesPerDay || (freq.includes('q8hr') ? 3 : 2);
+                                dailyDose = `${roundCl(stdMl * dosesPerDay)} mL / day`;
                                 durText = `10 days`;
                             } else {
-                                displayDose = ind.adult_fixed || '1 tab (875/125 mg) q12hr or 1 tab (500/125 mg) q8hr for 10-14 days';
-                                singleDose = '1 tablet (875/125 mg)';
-                                freqText = 'twice daily (every 12 hrs)';
-                                dailyDose = '2 tablets / day';
+                                displayDose = ind.adult_fixed || '1 tab (500/125 mg) q8hr or 1 tab (875/125 mg) q12hr for 10-14 days';
+                                singleDose = '1 tablet';
+                                freqText = 'as prescribed';
+                                dailyDose = '2-3 tablets / day';
                                 durText = '10-14 days';
                             }
                         } else if (dose.indType === 'augmentin_range') {
                             if (isPediatric) {
-                                const lowMl = roundCl(w * (ind.low_factor || dose.lowFactor || 0.15625));
-                                const highMl = roundCl(w * (ind.high_factor || dose.highFactor || 0.28125));
-                                displayDose = `${lowMl} - ${highMl} mL ${ind.frequency || 'every 12 hrs'}`;
+                                const lowMl = roundCl(w * (ind.low_factor || dose.lowFactor || 0.16875));
+                                const highMl = roundCl(w * (ind.high_factor || dose.highFactor || 0.2375));
+                                const freq = ind.frequency || dose.frequency || 'q8hr';
+                                displayDose = `${lowMl} - ${highMl} mL ${freq}`;
                                 singleDose = `${lowMl} - ${highMl} mL`;
-                                freqText = ind.frequency || 'twice daily (every 12 hrs)';
-                                dailyDose = `${roundCl(lowMl * 2)} - ${roundCl(highMl * 2)} mL / day`;
+                                freqText = freq;
+                                const dosesPerDay = dose.maxDosesPerDay || (freq.includes('q8hr') ? 3 : 2);
+                                dailyDose = `${roundCl(lowMl * dosesPerDay)} - ${roundCl(highMl * dosesPerDay)} mL / day`;
                                 durText = durText || '7-14 days';
                             } else {
-                                displayDose = ind.adult_fixed || '1 tab q12hr';
+                                displayDose = ind.adult_fixed || '1 tab q8-12hr';
                                 singleDose = '1 tablet';
-                                freqText = 'twice daily (every 12 hrs)';
-                                dailyDose = '2 tablets / day';
+                                freqText = 'as directed';
+                                dailyDose = '2-3 tablets / day';
+                            }
+                        } else if (dose.indType === 'augmentin_fixed_calculated') {
+                            if (isPediatric) {
+                                const factor = ind.std_factor || dose.stdFactor || 0.26875;
+                                const stdMl = roundCl(w * factor);
+                                const freq = ind.frequency || dose.frequency || 'q8hr for 10 days';
+                                displayDose = `${stdMl} mL ${freq}`;
+                                singleDose = `${stdMl} mL`;
+                                freqText = freq;
+                                const dosesPerDay = dose.maxDosesPerDay || (freq.includes('q8hr') ? 3 : 2);
+                                dailyDose = `${roundCl(stdMl * dosesPerDay)} mL / day`;
+                                durText = `10 days`;
+                            } else {
+                                displayDose = ind.adult_fixed || '1 tab q8hr for 10 days';
+                                singleDose = '1 tablet';
+                                freqText = 'q8hr';
+                                dailyDose = '3 tablets / day';
                             }
                         } else if (dose.indType === 'augmentin_es_high_dose') {
                             if (isPediatric) {
-                                const highMl = roundCl(w * (ind.high_dose_factor || dose.highDoseFactor || 0.5));
-                                displayDose = `${highMl} mL ${ind.frequency || 'every 12 hrs'}`;
-                                singleDose = `${highMl} mL`;
-                                freqText = ind.frequency || 'twice daily (every 12 hrs)';
+                                const highMl = roundCl(w * (ind.high_dose_factor || dose.highDoseFactor || 0.375));
+                                const freq = ind.frequency || dose.frequency || 'every 12 hrs for 10 days';
+                                displayDose = `${highMl} mL ${freq}`;
+                                singleDose = `${highMl} mL (High-dose 90 mg/kg)`;
+                                freqText = freq;
                                 dailyDose = `${roundCl(highMl * 2)} mL / day`;
+                                durText = `10 days`;
                             } else {
                                 displayDose = ind.adult_fixed || 'Use adult tablet formulation';
                                 singleDose = displayDose;
@@ -16922,7 +17064,7 @@ function getBreastfeedingCategoryEmoji(category) {
                     return;
                 }
 
-                selectedDrug = drugDatabase[drugKey];
+                selectedDrug = window.resolveClinicalMonodose ? window.resolveClinicalMonodose(drugDatabase[drugKey] || (window.monodoseDatabase && window.monodoseDatabase[drugKey])) : (drugDatabase[drugKey] || (window.monodoseDatabase && window.monodoseDatabase[drugKey]));
 
                 // فحص العمر - إذا لم يتم اختياره
                 if (selectedAgeInMonths === 0) {
@@ -17754,7 +17896,7 @@ function getPregnancyCategoryEmoji(category) {
             };// ⚡ INSTANT POPUP مع نظام الفلترة الكامل بتاعك - أسرع ما يمكن
             function showDrugDetail(drugKey) {
                 window.pediatricFormOverride = false;
-                selectedDrug = drugDatabase[drugKey];
+                selectedDrug = window.resolveClinicalMonodose ? window.resolveClinicalMonodose(drugDatabase[drugKey] || (window.monodoseDatabase && window.monodoseDatabase[drugKey])) : (drugDatabase[drugKey] || (window.monodoseDatabase && window.monodoseDatabase[drugKey]));
 
     // Reset scroll position to top
     setTimeout(() => {
@@ -19076,7 +19218,7 @@ ${patientWarning}
 
                 function roundCl(val) {
                     if (val <= 0) return 0;
-                    const r = Math.round(val * 2) / 2;
+                    const r = Math.round(val * 10) / 10;
                     return r % 1 === 0 ? r.toFixed(0) : r.toFixed(1);
                 }
 
@@ -19123,42 +19265,65 @@ ${patientWarning}
                             }
                         } else if (dose.indType === 'augmentin_aom_sinusitis') {
                             if (isPediatric) {
-                                const factor = ind.std_factor || dose.stdFactor || 0.275;
+                                const factor = ind.std_factor || dose.stdFactor || 0.30;
                                 const stdMl = roundCl(w * factor);
-                                displayDose = `Standard: ${stdMl} mL every 12 hrs for 10 days`;
+                                const freq = ind.frequency || dose.frequency || 'q8hr for 10 days';
+                                displayDose = `Standard: ${stdMl} mL ${freq}`;
                                 singleDose = `${stdMl} mL (Standard-dose)`;
-                                freqText = `twice daily (every 12 hrs)`;
-                                dailyDose = `${roundCl(stdMl * 2)} mL / day`;
+                                freqText = freq;
+                                const dosesPerDay = dose.maxDosesPerDay || (freq.includes('q8hr') ? 3 : 2);
+                                dailyDose = `${roundCl(stdMl * dosesPerDay)} mL / day`;
                                 durText = `10 days`;
                             } else {
-                                displayDose = ind.adult_fixed || '1 tab (875/125 mg) q12hr or 1 tab (500/125 mg) q8hr for 10-14 days';
-                                singleDose = '1 tablet (875/125 mg)';
-                                freqText = 'twice daily (every 12 hrs)';
-                                dailyDose = '2 tablets / day';
+                                displayDose = ind.adult_fixed || '1 tab (500/125 mg) q8hr or 1 tab (875/125 mg) q12hr for 10-14 days';
+                                singleDose = '1 tablet';
+                                freqText = 'as prescribed';
+                                dailyDose = '2-3 tablets / day';
                                 durText = '10-14 days';
                             }
                         } else if (dose.indType === 'augmentin_range') {
                             if (isPediatric) {
-                                const lowMl = roundCl(w * (ind.low_factor || dose.lowFactor || 0.15625));
-                                const highMl = roundCl(w * (ind.high_factor || dose.highFactor || 0.28125));
-                                displayDose = `${lowMl} - ${highMl} mL ${ind.frequency || 'every 12 hrs'}`;
+                                const lowMl = roundCl(w * (ind.low_factor || dose.lowFactor || 0.16875));
+                                const highMl = roundCl(w * (ind.high_factor || dose.highFactor || 0.2375));
+                                const freq = ind.frequency || dose.frequency || 'q8hr';
+                                displayDose = `${lowMl} - ${highMl} mL ${freq}`;
                                 singleDose = `${lowMl} - ${highMl} mL`;
-                                freqText = ind.frequency || 'twice daily (every 12 hrs)';
-                                dailyDose = `${roundCl(lowMl * 2)} - ${roundCl(highMl * 2)} mL / day`;
+                                freqText = freq;
+                                const dosesPerDay = dose.maxDosesPerDay || (freq.includes('q8hr') ? 3 : 2);
+                                dailyDose = `${roundCl(lowMl * dosesPerDay)} - ${roundCl(highMl * dosesPerDay)} mL / day`;
                                 durText = durText || '7-14 days';
                             } else {
-                                displayDose = ind.adult_fixed || '1 tab q12hr';
+                                displayDose = ind.adult_fixed || '1 tab q8-12hr';
                                 singleDose = '1 tablet';
-                                freqText = 'twice daily (every 12 hrs)';
-                                dailyDose = '2 tablets / day';
+                                freqText = 'as directed';
+                                dailyDose = '2-3 tablets / day';
+                            }
+                        } else if (dose.indType === 'augmentin_fixed_calculated') {
+                            if (isPediatric) {
+                                const factor = ind.std_factor || dose.stdFactor || 0.26875;
+                                const stdMl = roundCl(w * factor);
+                                const freq = ind.frequency || dose.frequency || 'q8hr for 10 days';
+                                displayDose = `${stdMl} mL ${freq}`;
+                                singleDose = `${stdMl} mL`;
+                                freqText = freq;
+                                const dosesPerDay = dose.maxDosesPerDay || (freq.includes('q8hr') ? 3 : 2);
+                                dailyDose = `${roundCl(stdMl * dosesPerDay)} mL / day`;
+                                durText = `10 days`;
+                            } else {
+                                displayDose = ind.adult_fixed || '1 tab q8hr for 10 days';
+                                singleDose = '1 tablet';
+                                freqText = 'q8hr';
+                                dailyDose = '3 tablets / day';
                             }
                         } else if (dose.indType === 'augmentin_es_high_dose') {
                             if (isPediatric) {
-                                const highMl = roundCl(w * (ind.high_dose_factor || dose.highDoseFactor || 0.5));
-                                displayDose = `${highMl} mL ${ind.frequency || 'every 12 hrs'}`;
-                                singleDose = `${highMl} mL`;
-                                freqText = ind.frequency || 'twice daily (every 12 hrs)';
+                                const highMl = roundCl(w * (ind.high_dose_factor || dose.highDoseFactor || 0.375));
+                                const freq = ind.frequency || dose.frequency || 'every 12 hrs for 10 days';
+                                displayDose = `${highMl} mL ${freq}`;
+                                singleDose = `${highMl} mL (High-dose 90 mg/kg)`;
+                                freqText = freq;
                                 dailyDose = `${roundCl(highMl * 2)} mL / day`;
+                                durText = `10 days`;
                             } else {
                                 displayDose = ind.adult_fixed || 'Use adult tablet formulation';
                                 singleDose = displayDose;
@@ -22571,17 +22736,44 @@ ${patientWarning}
             let bestMonodoseMatch = null;
             let bestMatchReason = "";
 
-            // 3A. Exact or Prefix Trade Name Match in Monodose
+            // 3A. Exact, Brand/Concentration, or Alternatives Match in Monodose
             if (scannedTrade) {
                 const normScannedTrade = scannedTrade.replace(/[\s\-\%_\+]/g, '');
                 for (const mKey in monodoseDB) {
                     const m = monodoseDB[mKey];
                     const mTrade = (m.tradeName || "").toLowerCase();
                     const normMTrade = mTrade.replace(/[\s\-\%_\+]/g, '');
+                    const mSearch = (m.searchTerms || "").toLowerCase();
+                    const mAlts = (m.alternatives || "").toLowerCase();
                     
                     if (mTrade === scannedTrade || normMTrade === normScannedTrade || mTrade.startsWith(scannedTrade) || scannedTrade.startsWith(mTrade)) {
                         bestMonodoseMatch = { key: mKey, ...m };
                         bestMatchReason = "trade";
+                        break;
+                    }
+
+                    // Smart Amoxicillin/Clavulanate brand equivalence matching
+                    const amoxBrands = ["augmentin", "hibiotic", "curam", "megamox", "magnabiotic", "klavox", "emoxclav", "clavimox", "newclav", "deltaclav", "amoclan", "dexiclave", "amoclawin"];
+                    const matchedBrand = amoxBrands.find(b => scannedTrade.includes(b));
+                    if (matchedBrand) {
+                        const concs = ["156", "312", "228", "457", "600", "375", "625", "1000", "1gm", "1.2"];
+                        const matchedConc = concs.find(c => scannedTrade.includes(c));
+                        if (matchedConc && (mTrade.includes(matchedConc) || mSearch.includes(matchedConc))) {
+                            const isSusp = scannedTrade.includes("susp") || scannedTrade.includes("syp") || scannedTrade.includes("syrup");
+                            const isTab = scannedTrade.includes("tab") || scannedTrade.includes("cap");
+                            const mForm = (m.dosage_form || m.formulation || "").toLowerCase();
+                            if ((isSusp && (mForm.includes("susp") || mForm.includes("syp"))) || (isTab && (mForm.includes("tab") || mForm.includes("cap")))) {
+                                bestMonodoseMatch = { key: mKey, ...m };
+                                bestMatchReason = "brand_concentration_form";
+                                break;
+                            }
+                        }
+                    }
+
+                    // Search terms or alternatives substring match
+                    if (mAlts.includes(scannedTrade) || mSearch.includes(scannedTrade)) {
+                        bestMonodoseMatch = { key: mKey, ...m };
+                        bestMatchReason = "alternatives";
                         break;
                     }
                 }
