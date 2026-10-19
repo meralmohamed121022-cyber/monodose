@@ -12390,8 +12390,11 @@ document.getElementById('drugDetailTitle').innerHTML = titleHTML;
                     }
                 }
 
+                const formStr1 = (drug.composition && drug.composition.trim().toLowerCase() !== (drug.name || '').trim().toLowerCase()) 
+                    ? drug.composition 
+                    : (drug.dosage_form || drug.formulation || 'Oral formulation');
                 document.getElementById('compositionContent').innerHTML =
-                    `<strong>Active:</strong> ${drug.name}<br><strong>Form:</strong> ${drug.composition}`;
+                    `<strong>Active:</strong> ${drug.name || 'N/A'}<br><strong>Form:</strong> ${formStr1}`;
 
                 const pregEmoji = { 'A': '✅', 'B': '🟢', 'C': '🟡', 'D': '🟠', 'X': '🔴' }[drug.pregnancyCategory] || '❓';
                 const breastEmoji = { 'Safe': '✅', 'Caution': '⚠️', 'Contraindicated': '🚫' }[drug.breastfeedingCategory] || '❓';
@@ -18702,8 +18705,11 @@ document.getElementById('drugDetailTitle').innerHTML = titleHTML;
                     }
                 }
 
+                const formStr2 = (drug.composition && drug.composition.trim().toLowerCase() !== (drug.name || '').trim().toLowerCase()) 
+                    ? drug.composition 
+                    : (drug.dosage_form || drug.formulation || 'Oral formulation');
                 document.getElementById('compositionContent').innerHTML =
-                    `<strong>Active:</strong> ${drug.name}<br><strong>Form:</strong> ${drug.composition}`;
+                    `<strong>Active:</strong> ${drug.name || 'N/A'}<br><strong>Form:</strong> ${formStr2}`;
 
                 const pregEmoji = { 'A': '✅', 'B': '🟢', 'C': '🟡', 'D': '🟠', 'X': '🔴' }[drug.pregnancyCategory] || '❓';
                 const breastEmoji = { 'Safe': '✅', 'Caution': '⚠️', 'Contraindicated': '🚫' }[drug.breastfeedingCategory] || '❓';

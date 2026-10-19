@@ -11479,19 +11479,35 @@
     "reference_url": "https://reference.medscape.com/drug/ceclor-cefaclor-342502",
     "indications": [
       {
-        "title": "Acute Otitis Media / Lower Respiratory Infections",
-        "adult_fixed": "250-500 mg PO q8hr (Max 2 gm/day)",
-        "pediatric_fixed": "20-40 mg/kg/day divided q8hr (Severe/Otitis: 40 mg/kg/day divided q8hr; Max 1000 mg/day)",
-        "pediatric_mg_kg": 13.33,
-        "frequency": "q8hr for 10 days",
+        "title": "Group A Streptococcal Pharyngitis",
+        "adult_fixed": "250-500 mg PO q8hr (or 500 mg q12hr for 10 days)",
+        "pediatric_fixed": "20 mg/kg/day PO divided q12hr for 10 days (Max 1000 mg/day)",
+        "pediatric_mg_kg": 10.0,
+        "frequency": "q12hr for 10 days",
         "max_daily_mg": 1000.0
       },
       {
-        "title": "Pharyngitis / Tonsillitis",
-        "adult_fixed": "250-500 mg PO q8hr",
-        "pediatric_fixed": "20 mg/kg/day PO divided q8-12hr (Max 1000 mg/day)",
-        "pediatric_mg_kg": 10.0,
+        "title": "Uncomplicated Skin and Soft Tissue Infections / UTI / LRTI",
+        "adult_fixed": "250-500 mg PO q8hr for 5-7 days",
+        "pediatric_fixed": "20-40 mg/kg/day PO divided q8hr for 5 days (Max 1000 mg/day)",
+        "pediatric_mg_kg": 8.0,
+        "frequency": "q8hr for 5 days",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Otitis Media",
+        "adult_fixed": "500 mg PO q8hr",
+        "pediatric_fixed": "40 mg/kg/day PO divided q12hr for 10 days (Max 1000 mg/day)",
+        "pediatric_mg_kg": 20.0,
         "frequency": "q12hr for 10 days",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Susceptible Infections",
+        "adult_fixed": "250-500 mg PO q8hr (Max 2000 mg/day)",
+        "pediatric_fixed": "20-40 mg/kg/day PO divided q8hr OR 20-40 mg/kg/day divided q12hr",
+        "pediatric_mg_kg": 10.0,
+        "frequency": "q8hr or q12hr",
         "max_daily_mg": 1000.0
       }
     ],
@@ -11513,19 +11529,35 @@
     "reference_url": "https://reference.medscape.com/drug/ceclor-cefaclor-342502",
     "indications": [
       {
-        "title": "Acute Otitis Media / Lower Respiratory Infections",
-        "adult_fixed": "250-500 mg PO q8hr (Max 2 gm/day)",
-        "pediatric_fixed": "20-40 mg/kg/day divided q8hr (Severe/Otitis: 40 mg/kg/day divided q8hr; Max 1000 mg/day)",
-        "pediatric_mg_kg": 13.33,
-        "frequency": "q8hr for 10 days",
+        "title": "Group A Streptococcal Pharyngitis",
+        "adult_fixed": "250-500 mg PO q8hr (or 500 mg q12hr for 10 days)",
+        "pediatric_fixed": "20 mg/kg/day PO divided q12hr for 10 days (Max 1000 mg/day)",
+        "pediatric_mg_kg": 10.0,
+        "frequency": "q12hr for 10 days",
         "max_daily_mg": 1000.0
       },
       {
-        "title": "Pharyngitis / Tonsillitis",
-        "adult_fixed": "250-500 mg PO q8hr",
-        "pediatric_fixed": "20 mg/kg/day PO divided q8-12hr (Max 1000 mg/day)",
-        "pediatric_mg_kg": 10.0,
+        "title": "Uncomplicated Skin and Soft Tissue Infections / UTI / LRTI",
+        "adult_fixed": "250-500 mg PO q8hr for 5-7 days",
+        "pediatric_fixed": "20-40 mg/kg/day PO divided q8hr for 5 days (Max 1000 mg/day)",
+        "pediatric_mg_kg": 8.0,
+        "frequency": "q8hr for 5 days",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Otitis Media",
+        "adult_fixed": "500 mg PO q8hr",
+        "pediatric_fixed": "40 mg/kg/day PO divided q12hr for 10 days (Max 1000 mg/day)",
+        "pediatric_mg_kg": 20.0,
         "frequency": "q12hr for 10 days",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Susceptible Infections",
+        "adult_fixed": "250-500 mg PO q8hr (Max 2000 mg/day)",
+        "pediatric_fixed": "20-40 mg/kg/day PO divided q8hr OR 20-40 mg/kg/day divided q12hr",
+        "pediatric_mg_kg": 10.0,
+        "frequency": "q8hr or q12hr",
         "max_daily_mg": 1000.0
       }
     ],
@@ -11547,19 +11579,35 @@
     "reference_url": "https://reference.medscape.com/drug/ceclor-cefaclor-342502",
     "indications": [
       {
-        "title": "Acute Otitis Media / Lower Respiratory Infections",
-        "adult_fixed": "250-500 mg PO q8hr (Max 2 gm/day)",
-        "pediatric_fixed": "20-40 mg/kg/day divided q8hr (Severe/Otitis: 40 mg/kg/day divided q8hr; Max 1000 mg/day)",
-        "pediatric_mg_kg": 13.33,
-        "frequency": "q8hr for 10 days",
+        "title": "Group A Streptococcal Pharyngitis",
+        "adult_fixed": "250-500 mg PO q8hr (or 500 mg q12hr for 10 days)",
+        "pediatric_fixed": "20 mg/kg/day PO divided q12hr for 10 days (Max 1000 mg/day)",
+        "pediatric_mg_kg": 10.0,
+        "frequency": "q12hr for 10 days",
         "max_daily_mg": 1000.0
       },
       {
-        "title": "Pharyngitis / Tonsillitis",
-        "adult_fixed": "250-500 mg PO q8hr",
-        "pediatric_fixed": "20 mg/kg/day PO divided q8-12hr (Max 1000 mg/day)",
-        "pediatric_mg_kg": 10.0,
+        "title": "Uncomplicated Skin and Soft Tissue Infections / UTI / LRTI",
+        "adult_fixed": "250-500 mg PO q8hr for 5-7 days",
+        "pediatric_fixed": "20-40 mg/kg/day PO divided q8hr for 5 days (Max 1000 mg/day)",
+        "pediatric_mg_kg": 8.0,
+        "frequency": "q8hr for 5 days",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Otitis Media",
+        "adult_fixed": "500 mg PO q8hr",
+        "pediatric_fixed": "40 mg/kg/day PO divided q12hr for 10 days (Max 1000 mg/day)",
+        "pediatric_mg_kg": 20.0,
         "frequency": "q12hr for 10 days",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Susceptible Infections",
+        "adult_fixed": "250-500 mg PO q8hr (Max 2000 mg/day)",
+        "pediatric_fixed": "20-40 mg/kg/day PO divided q8hr OR 20-40 mg/kg/day divided q12hr",
+        "pediatric_mg_kg": 10.0,
+        "frequency": "q8hr or q12hr",
         "max_daily_mg": 1000.0
       }
     ],
@@ -11581,19 +11629,35 @@
     "reference_url": "https://reference.medscape.com/drug/ceclor-cefaclor-342502",
     "indications": [
       {
-        "title": "Acute Otitis Media / Lower Respiratory Infections",
-        "adult_fixed": "250-500 mg PO q8hr (Max 2 gm/day)",
-        "pediatric_fixed": "20-40 mg/kg/day divided q8hr (Severe/Otitis: 40 mg/kg/day divided q8hr; Max 1000 mg/day)",
-        "pediatric_mg_kg": 13.33,
-        "frequency": "q8hr for 10 days",
+        "title": "Group A Streptococcal Pharyngitis",
+        "adult_fixed": "250-500 mg PO q8hr (or 500 mg q12hr for 10 days)",
+        "pediatric_fixed": "20 mg/kg/day PO divided q12hr for 10 days (Max 1000 mg/day)",
+        "pediatric_mg_kg": 10.0,
+        "frequency": "q12hr for 10 days",
         "max_daily_mg": 1000.0
       },
       {
-        "title": "Pharyngitis / Tonsillitis",
-        "adult_fixed": "250-500 mg PO q8hr",
-        "pediatric_fixed": "20 mg/kg/day PO divided q8-12hr (Max 1000 mg/day)",
-        "pediatric_mg_kg": 10.0,
+        "title": "Uncomplicated Skin and Soft Tissue Infections / UTI / LRTI",
+        "adult_fixed": "250-500 mg PO q8hr for 5-7 days",
+        "pediatric_fixed": "20-40 mg/kg/day PO divided q8hr for 5 days (Max 1000 mg/day)",
+        "pediatric_mg_kg": 8.0,
+        "frequency": "q8hr for 5 days",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Otitis Media",
+        "adult_fixed": "500 mg PO q8hr",
+        "pediatric_fixed": "40 mg/kg/day PO divided q12hr for 10 days (Max 1000 mg/day)",
+        "pediatric_mg_kg": 20.0,
         "frequency": "q12hr for 10 days",
+        "max_daily_mg": 1000.0
+      },
+      {
+        "title": "Susceptible Infections",
+        "adult_fixed": "250-500 mg PO q8hr (Max 2000 mg/day)",
+        "pediatric_fixed": "20-40 mg/kg/day PO divided q8hr OR 20-40 mg/kg/day divided q12hr",
+        "pediatric_mg_kg": 10.0,
+        "frequency": "q8hr or q12hr",
         "max_daily_mg": 1000.0
       }
     ],

@@ -21279,13 +21279,13 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Acute Otitis Media / Lower Respiratory Infections"
+          "Group A Streptococcal Pharyngitis"
         ],
-        "dose": "Adult: 250-500 mg PO q8hr (Max 2 gm/day) | Pediatric: 20-40 mg/kg/day divided q8hr (Severe/Otitis: 40 mg/kg/day divided q8hr; Max 1000 mg/day)",
-        "dosePerKg": 13.33,
-        "frequency": "q8hr for 10 days",
-        "maxDosesPerDay": 3,
-        "adultFixed": "250-500 mg PO q8hr (Max 2 gm/day)",
+        "dose": "Adult: 250-500 mg PO q8hr (or 500 mg q12hr for 10 days) | Pediatric: 20 mg/kg/day PO divided q12hr for 10 days (Max 1000 mg/day)",
+        "dosePerKg": 10.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg PO q8hr (or 500 mg q12hr for 10 days)",
         "singleDoseMaxMl": null,
         "maxDailyMg": 1000.0,
         "indType": null,
@@ -21297,13 +21297,49 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Pharyngitis / Tonsillitis"
+          "Uncomplicated Skin and Soft Tissue Infections / UTI / LRTI"
         ],
-        "dose": "Adult: 250-500 mg PO q8hr | Pediatric: 20 mg/kg/day PO divided q8-12hr (Max 1000 mg/day)",
-        "dosePerKg": 10.0,
+        "dose": "Adult: 250-500 mg PO q8hr for 5-7 days | Pediatric: 20-40 mg/kg/day PO divided q8hr for 5 days (Max 1000 mg/day)",
+        "dosePerKg": 8.0,
+        "frequency": "q8hr for 5 days",
+        "maxDosesPerDay": 3,
+        "adultFixed": "250-500 mg PO q8hr for 5-7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Otitis Media"
+        ],
+        "dose": "Adult: 500 mg PO q8hr | Pediatric: 40 mg/kg/day PO divided q12hr for 10 days (Max 1000 mg/day)",
+        "dosePerKg": 20.0,
         "frequency": "q12hr for 10 days",
         "maxDosesPerDay": 2,
-        "adultFixed": "250-500 mg PO q8hr",
+        "adultFixed": "500 mg PO q8hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Susceptible Infections"
+        ],
+        "dose": "Adult: 250-500 mg PO q8hr (Max 2000 mg/day) | Pediatric: 20-40 mg/kg/day PO divided q8hr OR 20-40 mg/kg/day divided q12hr",
+        "dosePerKg": 10.0,
+        "frequency": "q8hr or q12hr",
+        "maxDosesPerDay": 3,
+        "adultFixed": "250-500 mg PO q8hr (Max 2000 mg/day)",
         "singleDoseMaxMl": null,
         "maxDailyMg": 1000.0,
         "indType": null,
@@ -21338,13 +21374,13 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Acute Otitis Media / Lower Respiratory Infections"
+          "Group A Streptococcal Pharyngitis"
         ],
-        "dose": "Adult: 250-500 mg PO q8hr (Max 2 gm/day) | Pediatric: 20-40 mg/kg/day divided q8hr (Severe/Otitis: 40 mg/kg/day divided q8hr; Max 1000 mg/day)",
-        "dosePerKg": 13.33,
-        "frequency": "q8hr for 10 days",
-        "maxDosesPerDay": 3,
-        "adultFixed": "250-500 mg PO q8hr (Max 2 gm/day)",
+        "dose": "Adult: 250-500 mg PO q8hr (or 500 mg q12hr for 10 days) | Pediatric: 20 mg/kg/day PO divided q12hr for 10 days (Max 1000 mg/day)",
+        "dosePerKg": 10.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg PO q8hr (or 500 mg q12hr for 10 days)",
         "singleDoseMaxMl": null,
         "maxDailyMg": 1000.0,
         "indType": null,
@@ -21356,13 +21392,49 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Pharyngitis / Tonsillitis"
+          "Uncomplicated Skin and Soft Tissue Infections / UTI / LRTI"
         ],
-        "dose": "Adult: 250-500 mg PO q8hr | Pediatric: 20 mg/kg/day PO divided q8-12hr (Max 1000 mg/day)",
-        "dosePerKg": 10.0,
+        "dose": "Adult: 250-500 mg PO q8hr for 5-7 days | Pediatric: 20-40 mg/kg/day PO divided q8hr for 5 days (Max 1000 mg/day)",
+        "dosePerKg": 8.0,
+        "frequency": "q8hr for 5 days",
+        "maxDosesPerDay": 3,
+        "adultFixed": "250-500 mg PO q8hr for 5-7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Otitis Media"
+        ],
+        "dose": "Adult: 500 mg PO q8hr | Pediatric: 40 mg/kg/day PO divided q12hr for 10 days (Max 1000 mg/day)",
+        "dosePerKg": 20.0,
         "frequency": "q12hr for 10 days",
         "maxDosesPerDay": 2,
-        "adultFixed": "250-500 mg PO q8hr",
+        "adultFixed": "500 mg PO q8hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Susceptible Infections"
+        ],
+        "dose": "Adult: 250-500 mg PO q8hr (Max 2000 mg/day) | Pediatric: 20-40 mg/kg/day PO divided q8hr OR 20-40 mg/kg/day divided q12hr",
+        "dosePerKg": 10.0,
+        "frequency": "q8hr or q12hr",
+        "maxDosesPerDay": 3,
+        "adultFixed": "250-500 mg PO q8hr (Max 2000 mg/day)",
         "singleDoseMaxMl": null,
         "maxDailyMg": 1000.0,
         "indType": null,
@@ -21397,13 +21469,13 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Acute Otitis Media / Lower Respiratory Infections"
+          "Group A Streptococcal Pharyngitis"
         ],
-        "dose": "Adult: 250-500 mg PO q8hr (Max 2 gm/day) | Pediatric: 20-40 mg/kg/day divided q8hr (Severe/Otitis: 40 mg/kg/day divided q8hr; Max 1000 mg/day)",
-        "dosePerKg": 13.33,
-        "frequency": "q8hr for 10 days",
-        "maxDosesPerDay": 3,
-        "adultFixed": "250-500 mg PO q8hr (Max 2 gm/day)",
+        "dose": "Adult: 250-500 mg PO q8hr (or 500 mg q12hr for 10 days) | Pediatric: 20 mg/kg/day PO divided q12hr for 10 days (Max 1000 mg/day)",
+        "dosePerKg": 10.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg PO q8hr (or 500 mg q12hr for 10 days)",
         "singleDoseMaxMl": null,
         "maxDailyMg": 1000.0,
         "indType": null,
@@ -21415,13 +21487,49 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Pharyngitis / Tonsillitis"
+          "Uncomplicated Skin and Soft Tissue Infections / UTI / LRTI"
         ],
-        "dose": "Adult: 250-500 mg PO q8hr | Pediatric: 20 mg/kg/day PO divided q8-12hr (Max 1000 mg/day)",
-        "dosePerKg": 10.0,
+        "dose": "Adult: 250-500 mg PO q8hr for 5-7 days | Pediatric: 20-40 mg/kg/day PO divided q8hr for 5 days (Max 1000 mg/day)",
+        "dosePerKg": 8.0,
+        "frequency": "q8hr for 5 days",
+        "maxDosesPerDay": 3,
+        "adultFixed": "250-500 mg PO q8hr for 5-7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Otitis Media"
+        ],
+        "dose": "Adult: 500 mg PO q8hr | Pediatric: 40 mg/kg/day PO divided q12hr for 10 days (Max 1000 mg/day)",
+        "dosePerKg": 20.0,
         "frequency": "q12hr for 10 days",
         "maxDosesPerDay": 2,
-        "adultFixed": "250-500 mg PO q8hr",
+        "adultFixed": "500 mg PO q8hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Susceptible Infections"
+        ],
+        "dose": "Adult: 250-500 mg PO q8hr (Max 2000 mg/day) | Pediatric: 20-40 mg/kg/day PO divided q8hr OR 20-40 mg/kg/day divided q12hr",
+        "dosePerKg": 10.0,
+        "frequency": "q8hr or q12hr",
+        "maxDosesPerDay": 3,
+        "adultFixed": "250-500 mg PO q8hr (Max 2000 mg/day)",
         "singleDoseMaxMl": null,
         "maxDailyMg": 1000.0,
         "indType": null,
@@ -21456,13 +21564,13 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Acute Otitis Media / Lower Respiratory Infections"
+          "Group A Streptococcal Pharyngitis"
         ],
-        "dose": "Adult: 250-500 mg PO q8hr (Max 2 gm/day) | Pediatric: 20-40 mg/kg/day divided q8hr (Severe/Otitis: 40 mg/kg/day divided q8hr; Max 1000 mg/day)",
-        "dosePerKg": 13.33,
-        "frequency": "q8hr for 10 days",
-        "maxDosesPerDay": 3,
-        "adultFixed": "250-500 mg PO q8hr (Max 2 gm/day)",
+        "dose": "Adult: 250-500 mg PO q8hr (or 500 mg q12hr for 10 days) | Pediatric: 20 mg/kg/day PO divided q12hr for 10 days (Max 1000 mg/day)",
+        "dosePerKg": 10.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg PO q8hr (or 500 mg q12hr for 10 days)",
         "singleDoseMaxMl": null,
         "maxDailyMg": 1000.0,
         "indType": null,
@@ -21474,13 +21582,49 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Pharyngitis / Tonsillitis"
+          "Uncomplicated Skin and Soft Tissue Infections / UTI / LRTI"
         ],
-        "dose": "Adult: 250-500 mg PO q8hr | Pediatric: 20 mg/kg/day PO divided q8-12hr (Max 1000 mg/day)",
-        "dosePerKg": 10.0,
+        "dose": "Adult: 250-500 mg PO q8hr for 5-7 days | Pediatric: 20-40 mg/kg/day PO divided q8hr for 5 days (Max 1000 mg/day)",
+        "dosePerKg": 8.0,
+        "frequency": "q8hr for 5 days",
+        "maxDosesPerDay": 3,
+        "adultFixed": "250-500 mg PO q8hr for 5-7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Otitis Media"
+        ],
+        "dose": "Adult: 500 mg PO q8hr | Pediatric: 40 mg/kg/day PO divided q12hr for 10 days (Max 1000 mg/day)",
+        "dosePerKg": 20.0,
         "frequency": "q12hr for 10 days",
         "maxDosesPerDay": 2,
-        "adultFixed": "250-500 mg PO q8hr",
+        "adultFixed": "500 mg PO q8hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Susceptible Infections"
+        ],
+        "dose": "Adult: 250-500 mg PO q8hr (Max 2000 mg/day) | Pediatric: 20-40 mg/kg/day PO divided q8hr OR 20-40 mg/kg/day divided q12hr",
+        "dosePerKg": 10.0,
+        "frequency": "q8hr or q12hr",
+        "maxDosesPerDay": 3,
+        "adultFixed": "250-500 mg PO q8hr (Max 2000 mg/day)",
         "singleDoseMaxMl": null,
         "maxDailyMg": 1000.0,
         "indType": null,
