@@ -5,6 +5,31 @@
 
 <script>
 
+    // 🧠 Helper to resolve active ingredient display and never show N/A if it can be found
+    function getActiveDisplay(drug) {
+        if (!drug) return 'N/A';
+        if (drug.name && drug.name.trim() && drug.name.trim().toUpperCase() !== 'N/A') return drug.name;
+        if (drug.active_ingredient && drug.active_ingredient.trim() && drug.active_ingredient.trim().toUpperCase() !== 'N/A') return drug.active_ingredient;
+        if (drug.monodoseActive && drug.monodoseActive.trim() && drug.monodoseActive.trim().toUpperCase() !== 'USE') return drug.monodoseActive;
+        if (drug.composition && drug.composition.trim() && !drug.composition.toLowerCase().includes('oral')) return drug.composition;
+        
+        // Search brother in drugDatabase
+        const tClean = (drug.tradeName || drug.trade_name || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+        if (tClean && typeof drugDatabase !== 'undefined' && drugDatabase) {
+            for (const k in drugDatabase) {
+                const brother = drugDatabase[k];
+                if (brother && brother.name && brother.name.trim() && brother.name.trim().toUpperCase() !== 'N/A') {
+                    const bClean = (brother.tradeName || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+                    if (bClean && (tClean.includes(bClean) || bClean.includes(tClean))) {
+                        return brother.name;
+                    }
+                }
+            }
+        }
+        return 'N/A';
+    }
+
+
     // 🎨 Helper to return appropriate formulation icon (Spoon for liquid, syringe for injection, etc.)
     function getDoseFormIcon(drug) {
         if (!drug) return '💊';
@@ -1906,9 +1931,9 @@
         }
 
         .dose-details {
-            margin-top: 10px !important;
-            display: block !important;
-            animation: slideDown 0.4s ease-in-out !important;
+            display: none;
+            margin-top: 10px;
+            animation: slideDown 0.3s ease-in-out;
         }
 
         .dose-details.show {
@@ -4342,7 +4367,7 @@ function getMonodoseIconHTML(drug) {
     <div style="display: block;">
 
             <div class="drug-name">${drug.tradeName}</div>
-            <div class="drug-info">${drug.composition}</div>
+            <div class="drug-info">${drug.composition || getActiveDisplay(drug) || ""}</div>
             
             <div class="drug-badges-row">
                 <div class="drug-formulation">${(drug.formulation || 'N/A').toUpperCase()}</div>
@@ -4566,7 +4591,7 @@ function getMonodoseIconHTML(drug) {
     <div style="display: block;">
 
                         <div class="drug-name">${drug.tradeName}</div>
-                        <div class="drug-info">${drug.composition}</div>
+                        <div class="drug-info">${drug.composition || getActiveDisplay(drug) || ""}</div>
                         
                         <div class="drug-badges-row">
                             <div class="drug-formulation">${(drug.formulation || 'N/A').toUpperCase()}</div>
@@ -4780,7 +4805,7 @@ function getMonodoseIconHTML(drug) {
             <div class="dose-indication">
                 <div class="condition-header" onclick="toggleDoseDetails(${index})">
                     <span>${indicationText}</span>
-                    <span class="toggle-icon" id="toggle-${index}">▼</span>
+                    <span class="toggle-icon" id="toggle-${index}" style="background: rgba(255,255,255,0.22); color: #fff; padding: 3px 10px; border-radius: 15px; font-size: 12px; font-weight: bold; border: 1px solid rgba(255,255,255,0.35);">تفاصيل ▼</span>
                 </div>
                 <div class="dose-box" id="dose-${index}">
         `;
@@ -5076,6 +5101,21 @@ function getMonodoseIconHTML(drug) {
             function toggleDoseDetails(index) {
                 const details = document.getElementById(`details-${index}`);
                 const toggleIcon = document.getElementById(`toggle-${index}`);
+                if (!details) return;
+
+                const isShown = details.classList.contains('show') || details.style.display === 'block';
+
+                if (isShown) {
+                    details.classList.remove('show');
+                    details.style.display = 'none';
+                    if (toggleIcon) toggleIcon.innerHTML = 'تفاصيل ▼';
+                } else {
+                    details.classList.add('show');
+                    details.style.display = 'block';
+                    if (toggleIcon) toggleIcon.innerHTML = 'إغلاق ▲';
+                }
+            }`);
+                const toggleIcon = document.getElementById(`toggle-${index}`);
 
                 if (details.classList.contains('show')) {
                     details.classList.remove('show');
@@ -5101,6 +5141,21 @@ function getMonodoseIconHTML(drug) {
 
             function toggleDoseDetails(index) {
                 const details = document.getElementById(`details-${index}`);
+                const toggleIcon = document.getElementById(`toggle-${index}`);
+                if (!details) return;
+
+                const isShown = details.classList.contains('show') || details.style.display === 'block';
+
+                if (isShown) {
+                    details.classList.remove('show');
+                    details.style.display = 'none';
+                    if (toggleIcon) toggleIcon.innerHTML = 'تفاصيل ▼';
+                } else {
+                    details.classList.add('show');
+                    details.style.display = 'block';
+                    if (toggleIcon) toggleIcon.innerHTML = 'إغلاق ▲';
+                }
+            }`);
                 const toggleIcon = document.getElementById(`toggle-${index}`);
 
                 if (details.classList.contains('show')) {
@@ -5486,7 +5541,7 @@ function getBreastfeedingCategoryEmoji(category) {
             <div class="dose-indication">
                 <div class="condition-header" onclick="toggleDoseDetails(${index})">
                     <span>${indicationText}</span>
-                    <span class="toggle-icon" id="toggle-${index}">▼</span>
+                    <span class="toggle-icon" id="toggle-${index}" style="background: rgba(255,255,255,0.22); color: #fff; padding: 3px 10px; border-radius: 15px; font-size: 12px; font-weight: bold; border: 1px solid rgba(255,255,255,0.35);">تفاصيل ▼</span>
                 </div>
                 <div class="dose-box" id="dose-${index}">
         `;
@@ -6354,7 +6409,7 @@ function getBreastfeedingCategoryEmoji(category) {
     <div style="display: block;">
 
             <div class="drug-name">${drug.tradeName}</div>
-            <div class="drug-info">${drug.composition}</div>
+            <div class="drug-info">${drug.composition || getActiveDisplay(drug) || ""}</div>
             
             <div class="drug-badges-row" style="display: flex; justify-content: space-between; align-items: center;">
                 <div style="display: flex; align-items: center; gap: 10px;">
@@ -6422,7 +6477,7 @@ function getBreastfeedingCategoryEmoji(category) {
     <div style="display: block;">
 
                 <div class="drug-name">${drug.tradeName}</div>
-                <div class="drug-info">${drug.composition}</div>
+                <div class="drug-info">${drug.composition || getActiveDisplay(drug) || ""}</div>
                 
                 <div class="drug-badges-row" style="display: flex; justify-content: space-between; align-items: center;">
                     <div style="display: flex; align-items: center; gap: 10px;">
@@ -7048,7 +7103,7 @@ function getBreastfeedingCategoryEmoji(category) {
             <div class="dose-indication">
                 <div class="condition-header" onclick="toggleDoseDetails(${index})">
                     <span>${indicationText}</span>
-                    <span class="toggle-icon" id="toggle-${index}">▼</span>
+                    <span class="toggle-icon" id="toggle-${index}" style="background: rgba(255,255,255,0.22); color: #fff; padding: 3px 10px; border-radius: 15px; font-size: 12px; font-weight: bold; border: 1px solid rgba(255,255,255,0.35);">تفاصيل ▼</span>
                 </div>
                 <div class="dose-box" id="dose-${index}">
         `;
@@ -10007,7 +10062,7 @@ function getBreastfeedingCategoryEmoji(category) {
     <div style="display: block;">
 
                 <div class="drug-name">${drug.tradeName}</div>
-                <div class="drug-info">${drug.composition}</div>
+                <div class="drug-info">${drug.composition || getActiveDisplay(drug) || ""}</div>
                 
                 <div class="drug-badges-row">
                     <div class="drug-formulation">${(drug.formulation || 'N/A').toUpperCase()}</div>
@@ -10350,7 +10405,7 @@ function getBreastfeedingCategoryEmoji(category) {
     <div style="display: block;">
 
                 <div class="drug-name">${drug.tradeName}</div>
-                <div class="drug-info">${drug.composition}</div>
+                <div class="drug-info">${drug.composition || getActiveDisplay(drug) || ""}</div>
                 
                 <div class="drug-badges-row">
                     <div class="drug-formulation">${(drug.formulation || 'N/A').toUpperCase()}</div>
@@ -10728,7 +10783,7 @@ function getBreastfeedingCategoryEmoji(category) {
     <div style="display: block;">
 
     <div class="drug-name">${drug.tradeName}</div>
-    <div class="drug-info">${drug.composition}</div>
+    <div class="drug-info">${drug.composition || getActiveDisplay(drug) || ""}</div>
     
     <div class="drug-badges-row">
         <div class="drug-formulation">${(drug.formulation || 'N/A').toUpperCase()}</div>
@@ -12438,7 +12493,7 @@ document.getElementById('drugDetailTitle').innerHTML = titleHTML;
                     ? drug.composition 
                     : (drug.dosage_form || drug.formulation || 'Oral formulation');
                 document.getElementById('compositionContent').innerHTML =
-                    `<strong>Active:</strong> ${drug.name || 'N/A'}<br><strong>Form:</strong> ${formStr1}`;
+                    `<strong>Active:</strong> ${getActiveDisplay(drug)}<br><strong>Form:</strong> ${formStr1}`;
 
                 const pregVal = drug.pregnancyCategory || drug.pregnancy || 'N/A';
                 const breastVal = drug.breastfeedingCategory || drug.lactation || 'N/A';
@@ -13075,7 +13130,7 @@ ${patientWarning}
                         <div class="dose-indication">
                             <div class="condition-header" onclick="toggleDoseDetails(${index})">
                                 <span>${indicationText}</span>
-                                <span class="toggle-icon" id="toggle-${index}">▼</span>
+                                <span class="toggle-icon" id="toggle-${index}" style="background: rgba(255,255,255,0.22); color: #fff; padding: 3px 10px; border-radius: 15px; font-size: 12px; font-weight: bold; border: 1px solid rgba(255,255,255,0.35);">تفاصيل ▼</span>
                             </div>
                             <div class="dose-box" id="dose-${index}">
                     `;
@@ -13310,57 +13365,80 @@ ${patientWarning}
                             `;
                         }
 
+                        let isTapering = durText && (
+                            durText.toLowerCase().includes('taper') || 
+                            durText.toLowerCase().includes('then') || 
+                            durText.toLowerCase().includes('alternate') ||
+                            durText.toLowerCase().includes('initial') ||
+                            durText.toLowerCase().includes('relapse') ||
+                            durText.toLowerCase().includes('weeks')
+                        );
+
+                        let taperShort = '';
+                        if (isTapering) {
+                            taperShort = durText.split('\n')[0].replace(/^[-–—\s]+/, '').trim();
+                            if (taperShort.length > 70) taperShort = taperShort.substring(0, 67) + '...';
+                        }
+
+                        let taperPreviewBanner = '';
+                        if (isTapering) {
+                            taperPreviewBanner = `
+                                <div onclick="toggleDoseDetails(${index})" style="margin-top: 8px; background: #fff8e1; border: 1.5px dashed #f57f17; border-radius: 8px; padding: 8px 12px; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 8px; box-shadow: 0 1px 4px rgba(245,127,23,0.1);">
+                                    <div style="display: flex; align-items: center; gap: 6px; font-size: 13px; color: #b78103; font-weight: 700; flex: 1; min-width: 0;">
+                                        <span style="font-size: 16px;">📋</span>
+                                        <span style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;"><strong>بروتوكول التابر:</strong> ${taperShort}</span>
+                                    </div>
+                                    <span style="font-size: 11px; font-weight: 800; color: #d84315; background: #ffe082; padding: 3px 8px; border-radius: 6px; border: 1px solid #ffd54f; white-space: nowrap;">
+                                        المزيد ▼
+                                    </span>
+                                </div>
+                            `;
+                        }
+
+                        let fullTaperBox = durText ? `
+                            <div style="margin: 10px 0; background: #fff8e1; padding: 10px 12px; border-radius: 8px; border: 1.5px solid #ffa000;">
+                                <div style="font-weight: 800; color: #b78103; font-size: 13.5px; margin-bottom: 4px;">📋 Clinical Regimen & Protocol / Taper:</div>
+                                <div style="font-weight: 600; color: #222; font-size: 13.5px; line-height: 1.6; white-space: pre-line;">${durText}</div>
+                            </div>` : '';
+
+                        let adminNote = selectedDrug.administration ? `
+                            <div style="margin-top: 8px; padding-top: 6px; border-top: 1px dashed #f57f17; font-size: 13px; color: #555; line-height: 1.5;">
+                                🍽️ <strong>Administration:</strong> ${selectedDrug.administration}
+                            </div>` : '';
+
                         doseHtml += `
-                        <div style="
-                            background: linear-gradient(135deg, #fff8e1, #ffecb3);
-                            border: 3px solid #ff9800;
-                            border-radius: 16px;
-                            padding: 16px 18px;
-                            margin: 12px auto;
-                            box-shadow: 0 8px 25px rgba(255,152,0,0.18);
-                            box-sizing: border-box;
-                        ">
-                            <div class="main-dose-value" style="
-                                text-align: center;
-                                color: #1565c0;
-                                font-weight: 800;
-                                font-size: 20px;
-                                margin-bottom: 12px;
-                                line-height: 1.4;
-                            ">
-                                ${getDoseFormIcon(selectedDrug)} ${displayDose}
+                        <div style="padding: 12px 14px; background: #ffffff; border: 1px solid #e0e0e0; border-radius: 12px; margin-bottom: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+                            <!-- Dose Headline -->
+                            <div class="main-dose-value" style="display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap;">
+                                <div style="font-size: 18px; font-weight: 800; color: #1565c0; display: flex; align-items: center; gap: 6px;">
+                                    <span style="font-size: 20px;">${getDoseFormIcon(selectedDrug)}</span>
+                                    <span>${displayDose}</span>
+                                </div>
                                 ${highDoseNotice}
                             </div>
-                            <div class="dose-details" id="details-${index}" style="
-                                display: block !important;
-                                background: linear-gradient(135deg, #fffde7, #fff9c4);
-                                border: 2px solid #fdd835;
-                                border-radius: 12px;
-                                padding: 12px 14px;
-                                box-sizing: border-box;
-                            ">
-                                <div class="dose-line" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; flex-wrap: wrap;">
-                                    <span class="dose-label" style="font-weight: 700; color: #555; font-size: 13.5px;">Patient Category:</span>
-                                    <span class="dose-value" style="font-weight: 800; color: ${isPediatric ? '#e65100' : '#2e7d32'}; font-size: 13.5px;">${isPediatric ? 'Pediatric (< 45 Kg)' : 'Adult Standard (>= 45 Kg)'}</span>
+
+                            <!-- Taper preview banner if present -->
+                            ${taperPreviewBanner}
+
+                            <!-- Details Collapsed by default -->
+                            <div class="dose-details" id="details-${index}" style="display: none; margin-top: 12px; padding-top: 10px; border-top: 1px dashed #ffa000;">
+                                <div style="background: #fffdf5; border: 1px solid #ffe082; border-radius: 10px; padding: 10px 12px;">
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px; flex-wrap: wrap;">
+                                        <span style="color: #666; font-size: 13px; font-weight: 600;">Patient Category:</span>
+                                        <span style="color: ${isPediatric ? '#e65100' : '#2e7d32'}; font-size: 13px; font-weight: 700;">${isPediatric ? (isInjectable ? 'Pediatric Injection Dose' : (isSolid ? 'Pediatric (< 17 years) - Converted' : 'Pediatric (< 45 Kg)')) : 'Adult Standard (>= 17 years)'}</span>
+                                    </div>
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px; flex-wrap: wrap;">
+                                        <span style="color: #666; font-size: 13px; font-weight: 600;">Calculated Dose:</span>
+                                        <span style="color: #1976d2; font-size: 14px; font-weight: 800;">${singleDose || displayDose}</span>
+                                    </div>
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px; flex-wrap: wrap;">
+                                        <span style="color: #666; font-size: 13px; font-weight: 600;">Frequency:</span>
+                                        <span style="color: #0d47a1; font-size: 13px; font-weight: 700;">${freqText}</span>
+                                    </div>
+                                    ${fullTaperBox}
+                                    ${solidPediatricNotice}
+                                    ${adminNote}
                                 </div>
-                                <div class="dose-line" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; flex-wrap: wrap;">
-                                    <span class="dose-label" style="font-weight: 700; color: #555; font-size: 13.5px;">Calculated Dose:</span>
-                                    <span class="dose-value" style="font-weight: 800; color: #1976d2; font-size: 14.5px;">${singleDose || displayDose}</span>
-                                </div>
-                                <div class="dose-line" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; flex-wrap: wrap;">
-                                    <span class="dose-label" style="font-weight: 700; color: #555; font-size: 13.5px;">Frequency:</span>
-                                    <span class="dose-value" style="font-weight: 700; color: #0d47a1; font-size: 13.5px;">${freqText}</span>
-                                </div>
-                                ${durText ? `
-                                <div class="dose-line" style="display: flex; flex-direction: column; gap: 4px; margin: 8px 0; background: #ffffff; padding: 10px 12px; border-radius: 8px; border: 1.5px solid #ffa000; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
-                                    <span class="dose-label" style="font-weight: 800; color: #b78103; font-size: 13.5px;">📋 Clinical Regimen & Protocol / Taper:</span>
-                                    <span class="dose-value" style="font-weight: 600; color: #222; font-size: 13.5px; line-height: 1.6; white-space: pre-line;">${durText}</span>
-                                </div>` : ''}
-                                ${solidPediatricNotice}
-                                ${selectedDrug.administration ? `
-                                <div class="dose-line" style="margin-top: 8px; padding-top: 6px; border-top: 1px dashed #f57f17; font-size: 13px; color: #555; line-height: 1.5;">
-                                    🍽️ <strong>Administration:</strong> ${selectedDrug.administration}
-                                </div>` : ''}
                             </div>
                         </div>
                     </div></div>`;
@@ -16350,7 +16428,7 @@ ${patientWarning}
     <div style="display: block;">
 
                 <div class="drug-name">${drug.tradeName}</div>
-                <div class="drug-info">${drug.composition}</div>
+                <div class="drug-info">${drug.composition || getActiveDisplay(drug) || ""}</div>
                 
                 <div class="drug-badges-row">
                     <div class="drug-formulation">${(drug.formulation || 'N/A').toUpperCase()}</div>
@@ -16693,7 +16771,7 @@ function getBreastfeedingCategoryEmoji(category) {
     <div style="display: block;">
 
                 <div class="drug-name">${drug.tradeName}</div>
-                <div class="drug-info">${drug.composition}</div>
+                <div class="drug-info">${drug.composition || getActiveDisplay(drug) || ""}</div>
                 
                 <div class="drug-badges-row">
                     <div class="drug-formulation">${(drug.formulation || 'N/A').toUpperCase()}</div>
@@ -17071,7 +17149,7 @@ function getBreastfeedingCategoryEmoji(category) {
     <div style="display: block;">
 
     <div class="drug-name">${drug.tradeName}</div>
-    <div class="drug-info">${drug.composition}</div>
+    <div class="drug-info">${drug.composition || getActiveDisplay(drug) || ""}</div>
     
     <div class="drug-badges-row">
         <div class="drug-formulation">${(drug.formulation || 'N/A').toUpperCase()}</div>
@@ -18781,7 +18859,7 @@ document.getElementById('drugDetailTitle').innerHTML = titleHTML;
                     ? drug.composition 
                     : (drug.dosage_form || drug.formulation || 'Oral formulation');
                 document.getElementById('compositionContent').innerHTML =
-                    `<strong>Active:</strong> ${drug.name || 'N/A'}<br><strong>Form:</strong> ${formStr2}`;
+                    `<strong>Active:</strong> ${getActiveDisplay(drug)}<br><strong>Form:</strong> ${formStr2}`;
 
                 const pregVal = drug.pregnancyCategory || drug.pregnancy || 'N/A';
                 const breastVal = drug.breastfeedingCategory || drug.lactation || 'N/A';
@@ -19431,7 +19509,7 @@ ${patientWarning}
                         <div class="dose-indication">
                             <div class="condition-header" onclick="toggleDoseDetails(${index})">
                                 <span>${indicationText}</span>
-                                <span class="toggle-icon" id="toggle-${index}">▼</span>
+                                <span class="toggle-icon" id="toggle-${index}" style="background: rgba(255,255,255,0.22); color: #fff; padding: 3px 10px; border-radius: 15px; font-size: 12px; font-weight: bold; border: 1px solid rgba(255,255,255,0.35);">تفاصيل ▼</span>
                             </div>
                             <div class="dose-box" id="dose-${index}">
                     `;
@@ -19674,57 +19752,80 @@ ${patientWarning}
                             `;
                         }
 
+                        let isTapering = durText && (
+                            durText.toLowerCase().includes('taper') || 
+                            durText.toLowerCase().includes('then') || 
+                            durText.toLowerCase().includes('alternate') ||
+                            durText.toLowerCase().includes('initial') ||
+                            durText.toLowerCase().includes('relapse') ||
+                            durText.toLowerCase().includes('weeks')
+                        );
+
+                        let taperShort = '';
+                        if (isTapering) {
+                            taperShort = durText.split('\n')[0].replace(/^[-–—\s]+/, '').trim();
+                            if (taperShort.length > 70) taperShort = taperShort.substring(0, 67) + '...';
+                        }
+
+                        let taperPreviewBanner = '';
+                        if (isTapering) {
+                            taperPreviewBanner = `
+                                <div onclick="toggleDoseDetails(${index})" style="margin-top: 8px; background: #fff8e1; border: 1.5px dashed #f57f17; border-radius: 8px; padding: 8px 12px; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 8px; box-shadow: 0 1px 4px rgba(245,127,23,0.1);">
+                                    <div style="display: flex; align-items: center; gap: 6px; font-size: 13px; color: #b78103; font-weight: 700; flex: 1; min-width: 0;">
+                                        <span style="font-size: 16px;">📋</span>
+                                        <span style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;"><strong>بروتوكول التابر:</strong> ${taperShort}</span>
+                                    </div>
+                                    <span style="font-size: 11px; font-weight: 800; color: #d84315; background: #ffe082; padding: 3px 8px; border-radius: 6px; border: 1px solid #ffd54f; white-space: nowrap;">
+                                        المزيد ▼
+                                    </span>
+                                </div>
+                            `;
+                        }
+
+                        let fullTaperBox = durText ? `
+                            <div style="margin: 10px 0; background: #fff8e1; padding: 10px 12px; border-radius: 8px; border: 1.5px solid #ffa000;">
+                                <div style="font-weight: 800; color: #b78103; font-size: 13.5px; margin-bottom: 4px;">📋 Clinical Regimen & Protocol / Taper:</div>
+                                <div style="font-weight: 600; color: #222; font-size: 13.5px; line-height: 1.6; white-space: pre-line;">${durText}</div>
+                            </div>` : '';
+
+                        let adminNote = selectedDrug.administration ? `
+                            <div style="margin-top: 8px; padding-top: 6px; border-top: 1px dashed #f57f17; font-size: 13px; color: #555; line-height: 1.5;">
+                                🍽️ <strong>Administration:</strong> ${selectedDrug.administration}
+                            </div>` : '';
+
                         doseHtml += `
-                        <div style="
-                            background: linear-gradient(135deg, #fff8e1, #ffecb3);
-                            border: 3px solid #ff9800;
-                            border-radius: 16px;
-                            padding: 16px 18px;
-                            margin: 12px auto;
-                            box-shadow: 0 8px 25px rgba(255,152,0,0.18);
-                            box-sizing: border-box;
-                        ">
-                            <div class="main-dose-value" style="
-                                text-align: center;
-                                color: #1565c0;
-                                font-weight: 800;
-                                font-size: 20px;
-                                margin-bottom: 12px;
-                                line-height: 1.4;
-                            ">
-                                ${getDoseFormIcon(selectedDrug)} ${displayDose}
+                        <div style="padding: 12px 14px; background: #ffffff; border: 1px solid #e0e0e0; border-radius: 12px; margin-bottom: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+                            <!-- Dose Headline -->
+                            <div class="main-dose-value" style="display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap;">
+                                <div style="font-size: 18px; font-weight: 800; color: #1565c0; display: flex; align-items: center; gap: 6px;">
+                                    <span style="font-size: 20px;">${getDoseFormIcon(selectedDrug)}</span>
+                                    <span>${displayDose}</span>
+                                </div>
                                 ${highDoseNotice}
                             </div>
-                            <div class="dose-details" id="details-${index}" style="
-                                display: block !important;
-                                background: linear-gradient(135deg, #fffde7, #fff9c4);
-                                border: 2px solid #fdd835;
-                                border-radius: 12px;
-                                padding: 12px 14px;
-                                box-sizing: border-box;
-                            ">
-                                <div class="dose-line" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; flex-wrap: wrap;">
-                                    <span class="dose-label" style="font-weight: 700; color: #555; font-size: 13.5px;">Patient Category:</span>
-                                    <span class="dose-value" style="font-weight: 800; color: ${isPediatric ? '#e65100' : '#2e7d32'}; font-size: 13.5px;">${isPediatric ? (isInjectable ? 'Pediatric Injection Dose' : (isSolid ? 'Pediatric (< 17 years) - Converted' : 'Pediatric (< 45 Kg)')) : 'Adult Standard (>= 17 years)'}</span>
+
+                            <!-- Taper preview banner if present -->
+                            ${taperPreviewBanner}
+
+                            <!-- Details Collapsed by default -->
+                            <div class="dose-details" id="details-${index}" style="display: none; margin-top: 12px; padding-top: 10px; border-top: 1px dashed #ffa000;">
+                                <div style="background: #fffdf5; border: 1px solid #ffe082; border-radius: 10px; padding: 10px 12px;">
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px; flex-wrap: wrap;">
+                                        <span style="color: #666; font-size: 13px; font-weight: 600;">Patient Category:</span>
+                                        <span style="color: ${isPediatric ? '#e65100' : '#2e7d32'}; font-size: 13px; font-weight: 700;">${isPediatric ? (isInjectable ? 'Pediatric Injection Dose' : (isSolid ? 'Pediatric (< 17 years) - Converted' : 'Pediatric (< 45 Kg)')) : 'Adult Standard (>= 17 years)'}</span>
+                                    </div>
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px; flex-wrap: wrap;">
+                                        <span style="color: #666; font-size: 13px; font-weight: 600;">Calculated Dose:</span>
+                                        <span style="color: #1976d2; font-size: 14px; font-weight: 800;">${singleDose || displayDose}</span>
+                                    </div>
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px; flex-wrap: wrap;">
+                                        <span style="color: #666; font-size: 13px; font-weight: 600;">Frequency:</span>
+                                        <span style="color: #0d47a1; font-size: 13px; font-weight: 700;">${freqText}</span>
+                                    </div>
+                                    ${fullTaperBox}
+                                    ${solidPediatricNotice}
+                                    ${adminNote}
                                 </div>
-                                <div class="dose-line" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; flex-wrap: wrap;">
-                                    <span class="dose-label" style="font-weight: 700; color: #555; font-size: 13.5px;">Calculated Dose:</span>
-                                    <span class="dose-value" style="font-weight: 800; color: #1976d2; font-size: 14.5px;">${singleDose || displayDose}</span>
-                                </div>
-                                <div class="dose-line" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; flex-wrap: wrap;">
-                                    <span class="dose-label" style="font-weight: 700; color: #555; font-size: 13.5px;">Frequency:</span>
-                                    <span class="dose-value" style="font-weight: 700; color: #0d47a1; font-size: 13.5px;">${freqText}</span>
-                                </div>
-                                ${durText ? `
-                                <div class="dose-line" style="display: flex; flex-direction: column; gap: 4px; margin: 8px 0; background: #ffffff; padding: 10px 12px; border-radius: 8px; border: 1.5px solid #ffa000; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
-                                    <span class="dose-label" style="font-weight: 800; color: #b78103; font-size: 13.5px;">📋 Clinical Regimen & Protocol / Taper:</span>
-                                    <span class="dose-value" style="font-weight: 600; color: #222; font-size: 13.5px; line-height: 1.6; white-space: pre-line;">${durText}</span>
-                                </div>` : ''}
-                                ${solidPediatricNotice}
-                                ${selectedDrug.administration ? `
-                                <div class="dose-line" style="margin-top: 8px; padding-top: 6px; border-top: 1px dashed #f57f17; font-size: 13px; color: #555; line-height: 1.5;">
-                                    🍽️ <strong>Administration:</strong> ${selectedDrug.administration}
-                                </div>` : ''}
                             </div>
                         </div>
                     </div></div>`;
@@ -20912,7 +21013,7 @@ ${patientWarning}
             <div style="display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 4px;">
                 <div class="drug-name" style="margin-bottom: 0;">${drug.tradeName}</div>
             </div>
-            <div class="drug-info">${drug.composition}</div>
+            <div class="drug-info">${drug.composition || getActiveDisplay(drug) || ""}</div>
             
             <div class="drug-badges-row">
                 ${createMinAgeBadgeHTML(formatMinAge(drug.minAge))}
