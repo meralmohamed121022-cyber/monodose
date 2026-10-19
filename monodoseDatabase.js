@@ -12512,9 +12512,9 @@ window.monodoseDatabase = {
   },
   "mono_00300": {
     "code": "mono_00300",
-    "name": "Azrolid Azatribact",
+    "name": "Azithromycin",
     "tradeName": "Azalide Cap",
-    "composition": "Azrolid Azatribact (capsule)",
+    "composition": "Azithromycin 500 mg",
     "formulation": "tab-caps",
     "dosage_form": "capsule",
     "category": "Monodose Clinical",
@@ -12523,18 +12523,126 @@ window.monodoseDatabase = {
     "pregnancyCategory": "Category B",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Swallow with water with or without meals.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Community-acquired Pneumonia / Acute Bacterial Rhinosinusitis / Skin Infections"
         ],
-        "dose": "Adult: 1 capsule once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 500 mg once daily for 3 days (OR 500 mg on Day 1, followed by 250 mg once daily on Days 2-5) | Pediatric: Tablets not recommended for small children (use oral suspension)",
         "dosePerKg": null,
         "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 capsule once or twice daily with a full glass of water",
+        "adultFixed": "500 mg once daily for 3 days (OR 500 mg on Day 1, followed by 250 mg once daily on Days 2-5)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pharyngitis / Tonsillitis (Group A Streptococcal)"
+        ],
+        "dose": "Adult: 500 mg once on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric: Use oral suspension for children",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once on Day 1, followed by 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Infectious Diarrhea (Shigellosis / Campylobacter / Traveler's Diarrhea)"
+        ],
+        "dose": "Adult: 500 mg once daily for 3 days (OR 1000 mg single oral dose) | Pediatric: Use oral suspension for children",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days (OR 1000 mg single oral dose)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chancroid / Chlamydia Urethritis / Cervicitis"
+        ],
+        "dose": "Adult: 1000 mg (1 gm) single oral dose | Pediatric: Adolescents >= 45 kg: 1000 mg single oral dose",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1000 mg (1 gm) single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Uncomplicated Gonococcal Infection"
+        ],
+        "dose": "Adult: 1 gm or 2 gm once in combination with Ceftriaxone 500 mg IM | Pediatric: Use under specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 gm or 2 gm once in combination with Ceftriaxone 500 mg IM",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chemoprophylaxis for High-risk Contacts of Meningococcal Disease"
+        ],
+        "dose": "Adult: 500 mg single oral dose | Pediatric: Children >= 45 kg: 500 mg single oral dose",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Mycobacterium Avium Complex (MAC) Infection"
+        ],
+        "dose": "Adult: -Primary prophylaxis: 1200 mg once weekly (or 600 mg twice weekly)\n-Treatment: 500-600 mg once daily + Ethambutol\n-Suppression: 250 mg once daily | Pediatric: Use under specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "-Primary prophylaxis: 1200 mg once weekly (or 600 mg twice weekly)\n-Treatment: 500-600 mg once daily + Ethambutol\n-Suppression: 250 mg once daily",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -12547,8 +12655,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "azalide cap azalide 500 cap / azrolid tab / azatribact 500 cap / delzocin tab / unizithrin cap / xerexomair tab / xithrone tab / zisrocin cap azrolid azatribact azalide capsule ",
-    "alternatives": "Azalide 500 cap / Azrolid tab / Azatribact 500 cap / Delzocin tab / Unizithrin cap / Xerexomair tab / Xithrone tab / Zisrocin cap",
+    "searchTerms": "azalide cap azalide 500 cap / azrolid tab / azatribact 500 cap / delzocin tab / unizithrin cap / xerexomair tab / xithrone tab / zisrocin cap azithromycin zithrokan zithromax azi-once azionce azrolid xithrone macrolide antibiotic infection pneumonia sinusitis diarrhea",
+    "alternatives": "Zithromax / Zithrokan / Azi-Once / Azrolid / Xithrone / Azomycin / Epizithro / Gigazocin / Unizithrin",
     "barcode": []
   },
   "mono_00301": {
@@ -12717,9 +12825,9 @@ window.monodoseDatabase = {
   },
   "mono_00305": {
     "code": "mono_00305",
-    "name": "azithromycin azalide",
+    "name": "Azithromycin",
     "tradeName": "Azomycin Tablets",
-    "composition": "azithromycin azalide 250mg",
+    "composition": "Azithromycin 250 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
@@ -12728,18 +12836,126 @@ window.monodoseDatabase = {
     "pregnancyCategory": "Category B",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Swallow with water with or without meals.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Community-acquired Pneumonia / Acute Bacterial Rhinosinusitis / Skin Infections"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 500 mg once daily for 3 days (OR 500 mg on Day 1, followed by 250 mg once daily on Days 2-5) | Pediatric: Tablets not recommended for small children (use oral suspension)",
         "dosePerKg": null,
         "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "adultFixed": "500 mg once daily for 3 days (OR 500 mg on Day 1, followed by 250 mg once daily on Days 2-5)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pharyngitis / Tonsillitis (Group A Streptococcal)"
+        ],
+        "dose": "Adult: 500 mg once on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric: Use oral suspension for children",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once on Day 1, followed by 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Infectious Diarrhea (Shigellosis / Campylobacter / Traveler's Diarrhea)"
+        ],
+        "dose": "Adult: 500 mg once daily for 3 days (OR 1000 mg single oral dose) | Pediatric: Use oral suspension for children",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days (OR 1000 mg single oral dose)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chancroid / Chlamydia Urethritis / Cervicitis"
+        ],
+        "dose": "Adult: 1000 mg (1 gm) single oral dose | Pediatric: Adolescents >= 45 kg: 1000 mg single oral dose",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1000 mg (1 gm) single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Uncomplicated Gonococcal Infection"
+        ],
+        "dose": "Adult: 1 gm or 2 gm once in combination with Ceftriaxone 500 mg IM | Pediatric: Use under specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 gm or 2 gm once in combination with Ceftriaxone 500 mg IM",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chemoprophylaxis for High-risk Contacts of Meningococcal Disease"
+        ],
+        "dose": "Adult: 500 mg single oral dose | Pediatric: Children >= 45 kg: 500 mg single oral dose",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Mycobacterium Avium Complex (MAC) Infection"
+        ],
+        "dose": "Adult: -Primary prophylaxis: 1200 mg once weekly (or 600 mg twice weekly)\n-Treatment: 500-600 mg once daily + Ethambutol\n-Suppression: 250 mg once daily | Pediatric: Use under specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "-Primary prophylaxis: 1200 mg once weekly (or 600 mg twice weekly)\n-Treatment: 500-600 mg once daily + Ethambutol\n-Suppression: 250 mg once daily",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -12752,8 +12968,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "azomycin tablets azomycin azithromycin azalide azatribact azionce azi-once azithromin aziwok neozolid zithromax 250mg capsules tablets azithromycin azalide azomycin tablet 250mg",
-    "alternatives": "Azomycin azithromycin azalide azatribact azionce azi-once azithromin aziwok neozolid zithromax 250mg capsules tablets",
+    "searchTerms": "azomycin tablets azomycin azithromycin azalide azatribact azionce azi-once azithromin aziwok neozolid zithromax 250mg capsules tablets azithromycin zithrokan zithromax azi-once azionce azrolid xithrone macrolide antibiotic infection pneumonia sinusitis diarrhea",
+    "alternatives": "Zithromax / Zithrokan / Azi-Once / Azrolid / Xithrone / Azomycin / Epizithro / Gigazocin / Unizithrin",
     "barcode": []
   },
   "mono_00306": {
@@ -21266,31 +21482,31 @@ window.monodoseDatabase = {
   },
   "mono_00510": {
     "code": "mono_00510",
-    "name": "Cefumax",
+    "name": "Cefuroxime",
     "tradeName": "Cefumax Cefuroxime Pancef Zinacef 750Mg Vial",
-    "composition": "Cefumax 750mg",
+    "composition": "Cefuroxime sodium 750 mg vial",
     "formulation": "vials",
     "dosage_form": "vial",
     "category": "Monodose Clinical",
     "subCategory": "vial",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Administer via slow IV injection / infusion or deep IM strictly as instructed on product insert",
+    "administration": "Deep IM or slow IV injection / infusion",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Therapeutic Parenteral Administration"
+          "Severe Bacterial Infections / Sepsis / Pneumonia / Bone & Joint"
         ],
-        "dose": "Adult: 1 vial IV/IM as indicated according to clinical response and specialist guidance | Pediatric: Dose adjustment and pediatric administration strictly according to specialist guidance",
-        "dosePerKg": null,
-        "frequency": "As directed",
-        "maxDosesPerDay": 1,
-        "adultFixed": "1 vial IV/IM as indicated according to clinical response and specialist guidance",
+        "dose": "Adult: 750 mg to 1.5 gm IV/IM q8hr for 7-14 days | Pediatric:",
+        "dosePerKg": 25.0,
+        "frequency": "IV/IM q8hr (50-100 mg/kg/day)",
+        "maxDosesPerDay": 3,
+        "adultFixed": "750 mg to 1.5 gm IV/IM q8hr for 7-14 days",
         "singleDoseMaxMl": null,
-        "maxDailyMg": null,
+        "maxDailyMg": 3000.0,
         "indType": null,
         "stdFactor": null,
         "lowFactor": null,
@@ -21301,37 +21517,37 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "cefumax cefuroxime pancef zinacef 750mg vial  cefumax cefumax vial 750mg",
-    "alternatives": "No registered Egyptian trade alternatives recorded",
+    "searchTerms": "cefumax cefuroxime pancef zinacef 750mg vial  cefuroxime zinnat zinat cefuzime cephalosporin antibiotic 125mg 250mg 500mg",
+    "alternatives": "Zinnat / Zinat / Cefuzime / Cefurox / Xorimax / Cefamar",
     "barcode": []
   },
   "mono_00511": {
     "code": "mono_00511",
-    "name": "Cefumax",
+    "name": "Cefuroxime",
     "tradeName": "Cefumax Cefuroxime Zinacef 1500Mg 1.5Gm Vial",
-    "composition": "Cefumax 1500mg",
+    "composition": "Cefuroxime sodium 1.5 gm vial",
     "formulation": "vials",
     "dosage_form": "vial",
     "category": "Monodose Clinical",
     "subCategory": "vial",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Administer via slow IV injection / infusion or deep IM strictly as instructed on product insert",
+    "administration": "Deep IM or slow IV injection / infusion",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Therapeutic Parenteral Administration"
+          "Severe Bacterial Infections / Sepsis / Pneumonia / Bone & Joint"
         ],
-        "dose": "Adult: 1 vial IV/IM as indicated according to clinical response and specialist guidance | Pediatric: Dose adjustment and pediatric administration strictly according to specialist guidance",
-        "dosePerKg": null,
-        "frequency": "As directed",
-        "maxDosesPerDay": 1,
-        "adultFixed": "1 vial IV/IM as indicated according to clinical response and specialist guidance",
+        "dose": "Adult: 750 mg to 1.5 gm IV/IM q8hr for 7-14 days | Pediatric:",
+        "dosePerKg": 25.0,
+        "frequency": "IV/IM q8hr (50-100 mg/kg/day)",
+        "maxDosesPerDay": 3,
+        "adultFixed": "750 mg to 1.5 gm IV/IM q8hr for 7-14 days",
         "singleDoseMaxMl": null,
-        "maxDailyMg": null,
+        "maxDailyMg": 3000.0,
         "indType": null,
         "stdFactor": null,
         "lowFactor": null,
@@ -21342,8 +21558,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "cefumax cefuroxime zinacef 1500mg 1.5gm vial  cefumax cefumax vial 1500mg",
-    "alternatives": "No registered Egyptian trade alternatives recorded",
+    "searchTerms": "cefumax cefuroxime zinacef 1500mg 1.5gm vial  cefuroxime zinnat zinat cefuzime cephalosporin antibiotic 125mg 250mg 500mg",
+    "alternatives": "Zinnat / Zinat / Cefuzime / Cefurox / Xorimax / Cefamar",
     "barcode": []
   },
   "mono_00512": {
@@ -51483,29 +51699,65 @@ window.monodoseDatabase = {
   },
   "mono_01247": {
     "code": "mono_01247",
-    "name": "cefuroxime hebiuroxime",
+    "name": "Cefuroxime",
     "tradeName": "Highcef 250 Tab",
-    "composition": "cefuroxime hebiuroxime 250mg",
+    "composition": "Cefuroxime axetil 250 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Swallow whole with food. Do not crush.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Pharyngitis / Tonsillitis / Sinusitis / Bronchitis"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 250 to 500 mg q12hr with meals for 10 days | Pediatric: Tablets not recommended for children < 40 kg (use suspension)",
         "dosePerKg": null,
         "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "adultFixed": "250 to 500 mg q12hr with meals for 10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Uncomplicated Urinary Tract Infections"
+        ],
+        "dose": "Adult: 250 mg q12hr for 7-10 days | Pediatric: Use oral suspension for children",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "250 mg q12hr for 7-10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Early Lyme Disease"
+        ],
+        "dose": "Adult: 500 mg q12hr for 14-21 days | Pediatric: Children: 15 mg/kg q12hr (Max 500 mg/dose) for 14-21 days",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg q12hr for 14-21 days",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -51518,35 +51770,71 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "highcef 250 tab highcef cefuroxime hebiuroxime zenax zinacef 250mg tablets cefuroxime hebiuroxime highcef tablet 250mg",
-    "alternatives": "highcef cefuroxime hebiuroxime zenax zinacef 250mg tablets",
+    "searchTerms": "highcef 250 tab highcef cefuroxime hebiuroxime zenax zinacef 250mg tablets cefuroxime zinnat zinat cefuzime cephalosporin antibiotic 125mg 250mg 500mg",
+    "alternatives": "Zinnat / Zinat / Cefuzime / Cefurox / Xorimax / Cefamar",
     "barcode": []
   },
   "mono_01248": {
     "code": "mono_01248",
-    "name": "cefuroxime hebiuroxime",
+    "name": "Cefuroxime",
     "tradeName": "Highcef Tab",
-    "composition": "cefuroxime hebiuroxime 250mg",
+    "composition": "Cefuroxime axetil 250 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Swallow whole with food. Do not crush.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Pharyngitis / Tonsillitis / Sinusitis / Bronchitis"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 250 to 500 mg q12hr with meals for 10 days | Pediatric: Tablets not recommended for children < 40 kg (use suspension)",
         "dosePerKg": null,
         "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "adultFixed": "250 to 500 mg q12hr with meals for 10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Uncomplicated Urinary Tract Infections"
+        ],
+        "dose": "Adult: 250 mg q12hr for 7-10 days | Pediatric: Use oral suspension for children",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "250 mg q12hr for 7-10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Early Lyme Disease"
+        ],
+        "dose": "Adult: 500 mg q12hr for 14-21 days | Pediatric: Children: 15 mg/kg q12hr (Max 500 mg/dose) for 14-21 days",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg q12hr for 14-21 days",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -51559,35 +51847,71 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "highcef tab highcef cefuroxime hebiuroxime zenax zinacef 250mg tablets cefuroxime hebiuroxime highcef tablet 250mg",
-    "alternatives": "highcef cefuroxime hebiuroxime zenax zinacef 250mg tablets",
+    "searchTerms": "highcef tab highcef cefuroxime hebiuroxime zenax zinacef 250mg tablets cefuroxime zinnat zinat cefuzime cephalosporin antibiotic 125mg 250mg 500mg",
+    "alternatives": "Zinnat / Zinat / Cefuzime / Cefurox / Xorimax / Cefamar",
     "barcode": []
   },
   "mono_01249": {
     "code": "mono_01249",
-    "name": "cefuroxime hebiuroxime",
+    "name": "Cefuroxime",
     "tradeName": "Highcef Tablets",
-    "composition": "cefuroxime hebiuroxime 250mg",
+    "composition": "Cefuroxime axetil 250 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Swallow whole with food. Do not crush.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Pharyngitis / Tonsillitis / Sinusitis / Bronchitis"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 250 to 500 mg q12hr with meals for 10 days | Pediatric: Tablets not recommended for children < 40 kg (use suspension)",
         "dosePerKg": null,
         "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "adultFixed": "250 to 500 mg q12hr with meals for 10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Uncomplicated Urinary Tract Infections"
+        ],
+        "dose": "Adult: 250 mg q12hr for 7-10 days | Pediatric: Use oral suspension for children",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "250 mg q12hr for 7-10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Early Lyme Disease"
+        ],
+        "dose": "Adult: 500 mg q12hr for 14-21 days | Pediatric: Children: 15 mg/kg q12hr (Max 500 mg/dose) for 14-21 days",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg q12hr for 14-21 days",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -51600,8 +51924,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "highcef tablets highcef cefuroxime hebiuroxime zenax zinacef 250mg tablets cefuroxime hebiuroxime highcef tablet 250mg",
-    "alternatives": "highcef cefuroxime hebiuroxime zenax zinacef 250mg tablets",
+    "searchTerms": "highcef tablets highcef cefuroxime hebiuroxime zenax zinacef 250mg tablets cefuroxime zinnat zinat cefuzime cephalosporin antibiotic 125mg 250mg 500mg",
+    "alternatives": "Zinnat / Zinat / Cefuzime / Cefurox / Xorimax / Cefamar",
     "barcode": []
   },
   "mono_01250": {
@@ -64972,29 +65296,47 @@ window.monodoseDatabase = {
   },
   "mono_01576": {
     "code": "mono_01576",
-    "name": "cefdinir cefdin",
+    "name": "Cefdinir",
     "tradeName": "Maxdinir Capsules",
-    "composition": "cefdinir cefdin 300mg",
+    "composition": "Cefdinir 300 mg capsule",
     "formulation": "tab-caps",
     "dosage_form": "capsule",
     "category": "Monodose Clinical",
     "subCategory": "capsule",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Swallow with water with or without food.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Community-acquired Pneumonia / Acute Sinusitis / Pharyngitis"
         ],
-        "dose": "Adult: 1 capsule once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 300 mg q12hr for 10 days (or 600 mg once daily for 10 days) | Pediatric: Children >= 13 years / >= 43 kg: 300 mg q12hr or 600 mg once daily",
         "dosePerKg": null,
         "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 capsule once or twice daily with a full glass of water",
+        "adultFixed": "300 mg q12hr for 10 days (or 600 mg once daily for 10 days)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Uncomplicated Skin Infections"
+        ],
+        "dose": "Adult: 300 mg q12hr for 10 days | Pediatric: Use oral suspension for children",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "300 mg q12hr for 10 days",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -65007,8 +65349,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "maxdinir capsules maxdinir cefdinir cefdin omnicef spectracefocure torbener cefathird dinar egynir denrocef merbactadin 300mg capsules cefdinir cefdin maxdinir capsule 300mg",
-    "alternatives": "maxdinir cefdinir cefdin omnicef spectracefocure torbener cefathird dinar egynir denrocef merbactadin 300mg capsules",
+    "searchTerms": "maxdinir capsules maxdinir cefdinir cefdin omnicef spectracefocure torbener cefathird dinar egynir denrocef merbactadin 300mg capsules cefdinir omnicef dinar cefdin cephalosporin antibiotic 125mg 250mg 300mg",
+    "alternatives": "Omnicef / Dinar / Cefdin / Cefzon",
     "barcode": []
   },
   "mono_01577": {
@@ -113693,32 +114035,86 @@ window.monodoseDatabase = {
   },
   "mono_02763": {
     "code": "mono_02763",
-    "name": "cefuroxime ceroxim",
+    "name": "Cefuroxime",
     "tradeName": "Zimocefox 250 Susp",
-    "composition": "cefuroxime ceroxim 250mg/5ml",
+    "composition": "Cefuroxime 250 mg / 5 ml (50 ml & 70 ml)",
     "formulation": "syp-susp",
     "dosage_form": "suspension",
     "category": "Monodose Clinical",
     "subCategory": "suspension",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "administration": "Oral suspension should be administered with food. Tablets swallowed whole with meals.",
+    "concentration": 50.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Acute Otitis Media"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
-        "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "dose": "Adult: 500 mg tab q12hr for 10 days | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "500 mg tab q12hr for 10 days",
         "singleDoseMaxMl": null,
-        "maxDailyMg": null,
-        "indType": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pharyngitis / Tonsillitis"
+        ],
+        "dose": "Adult: 250-500 mg tab q12hr for 10 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg tab q12hr for 10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Bacterial Maxillary Sinusitis"
+        ],
+        "dose": "Adult: 250-500 mg tab q12hr for 10 days | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg tab q12hr for 10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Impetigo / Skin and Soft Tissue Infections"
+        ],
+        "dose": "Adult: 250-500 mg tab q12hr for 10 days | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg tab q12hr for 10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
@@ -113728,38 +114124,92 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "zimocefox 250 susp zimocefox cefuroxime ceroxim 250mg/5ml suspension cefuroxime ceroxim zimocefox suspension 250mg/5ml",
-    "alternatives": "zimocefox cefuroxime ceroxim 250mg/5ml suspension",
+    "searchTerms": "zimocefox 250 susp zimocefox cefuroxime ceroxim 250mg/5ml suspension cefuroxime zinnat zinat cefuzime cephalosporin antibiotic 125mg 250mg 500mg",
+    "alternatives": "Zinnat / Zinat / Cefuzime / Cefurox / Xorimax / Cefamar",
     "barcode": []
   },
   "mono_02764": {
     "code": "mono_02764",
-    "name": "cefuroxime ceroxim",
+    "name": "Cefuroxime",
     "tradeName": "Zimocefox Susp",
-    "composition": "cefuroxime ceroxim 250mg/5ml",
+    "composition": "Cefuroxime 250 mg / 5 ml (50 ml & 70 ml)",
     "formulation": "syp-susp",
     "dosage_form": "suspension",
     "category": "Monodose Clinical",
     "subCategory": "suspension",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "administration": "Oral suspension should be administered with food. Tablets swallowed whole with meals.",
+    "concentration": 50.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Acute Otitis Media"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
-        "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "dose": "Adult: 500 mg tab q12hr for 10 days | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "500 mg tab q12hr for 10 days",
         "singleDoseMaxMl": null,
-        "maxDailyMg": null,
-        "indType": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pharyngitis / Tonsillitis"
+        ],
+        "dose": "Adult: 250-500 mg tab q12hr for 10 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg tab q12hr for 10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Bacterial Maxillary Sinusitis"
+        ],
+        "dose": "Adult: 250-500 mg tab q12hr for 10 days | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg tab q12hr for 10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Impetigo / Skin and Soft Tissue Infections"
+        ],
+        "dose": "Adult: 250-500 mg tab q12hr for 10 days | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg tab q12hr for 10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
@@ -113769,38 +114219,92 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "zimocefox susp zimocefox cefuroxime ceroxim 250mg/5ml suspension cefuroxime ceroxim zimocefox suspension 250mg/5ml",
-    "alternatives": "zimocefox cefuroxime ceroxim 250mg/5ml suspension",
+    "searchTerms": "zimocefox susp zimocefox cefuroxime ceroxim 250mg/5ml suspension cefuroxime zinnat zinat cefuzime cephalosporin antibiotic 125mg 250mg 500mg",
+    "alternatives": "Zinnat / Zinat / Cefuzime / Cefurox / Xorimax / Cefamar",
     "barcode": []
   },
   "mono_02765": {
     "code": "mono_02765",
-    "name": "cefuroxime ceroxim",
+    "name": "Cefuroxime",
     "tradeName": "Zimocefox Suspension",
-    "composition": "cefuroxime ceroxim 250mg/5ml",
+    "composition": "Cefuroxime 250 mg / 5 ml (50 ml & 70 ml)",
     "formulation": "syp-susp",
     "dosage_form": "suspension",
     "category": "Monodose Clinical",
     "subCategory": "suspension",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "administration": "Oral suspension should be administered with food. Tablets swallowed whole with meals.",
+    "concentration": 50.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Acute Otitis Media"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
-        "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "dose": "Adult: 500 mg tab q12hr for 10 days | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "500 mg tab q12hr for 10 days",
         "singleDoseMaxMl": null,
-        "maxDailyMg": null,
-        "indType": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pharyngitis / Tonsillitis"
+        ],
+        "dose": "Adult: 250-500 mg tab q12hr for 10 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg tab q12hr for 10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Bacterial Maxillary Sinusitis"
+        ],
+        "dose": "Adult: 250-500 mg tab q12hr for 10 days | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg tab q12hr for 10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Impetigo / Skin and Soft Tissue Infections"
+        ],
+        "dose": "Adult: 250-500 mg tab q12hr for 10 days | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg tab q12hr for 10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
@@ -113810,8 +114314,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "zimocefox suspension zimocefox cefuroxime ceroxim 250mg/5ml suspension cefuroxime ceroxim zimocefox suspension 250mg/5ml",
-    "alternatives": "zimocefox cefuroxime ceroxim 250mg/5ml suspension",
+    "searchTerms": "zimocefox suspension zimocefox cefuroxime ceroxim 250mg/5ml suspension cefuroxime zinnat zinat cefuzime cephalosporin antibiotic 125mg 250mg 500mg",
+    "alternatives": "Zinnat / Zinat / Cefuzime / Cefurox / Xorimax / Cefamar",
     "barcode": []
   },
   "mono_02766": {
@@ -113950,21 +114454,21 @@ window.monodoseDatabase = {
     "pregnancyCategory": "Category B",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Can be taken with meals to minimize GI distress.",
+    "administration": "Taken with or without food. Can be taken with meals to minimize GI distress. Shake well before use.",
     "concentration": 20.0,
     "doses": [
       {
         "indication": [
-          "Pharyngitis"
+          "Community Acquired Pneumonia"
         ],
-        "dose": "Adult: 12.5 ml on day 1, then 6 ml on days 2-5 | Pediatric:",
-        "dosePerKg": 12.0,
-        "frequency": "q24hr for 5 days",
+        "dose": "Adult: 500 mg once daily on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days (5-7 days in severe cases)",
         "maxDosesPerDay": 1,
-        "adultFixed": "12.5 ml on day 1, then 6 ml on days 2-5",
+        "adultFixed": "500 mg once daily on Day 1, followed by 250 mg once daily on Days 2-5",
         "singleDoseMaxMl": null,
         "maxDailyMg": 500.0,
-        "indType": "pharyngitis_pediatric",
+        "indType": "standard_pediatric",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
@@ -113973,13 +114477,85 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Acute otitis media"
+          "Bacterial Rhinosinusitis"
         ],
-        "dose": "Adult: 25 ml q24hr for 3 days | Pediatric:",
-        "dosePerKg": null,
+        "dose": "Adult: 500 mg once daily for 3 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Infectious Diarrhea"
+        ],
+        "dose": "Adult: 500 mg once daily for 3 days (or 1000 mg once) | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days (5 days in HIV patients)",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days (or 1000 mg once)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chemoprophylaxis for High-risk Contacts of Meningococcal Disease"
+        ],
+        "dose": "Adult: 500 mg single oral dose | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "once",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "single_dose_10",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Mycobacterium Avium Complex Infection"
+        ],
+        "dose": "Adult: -Primary prophylaxis: 1200 mg once weekly\n-Treatment: 500-600 mg q24hr + Ethambutol\n-Long-term suppression: 250 mg q24hr | Pediatric: -Primary prophylaxis: 20 mg/kg once weekly (Max 1200 mg)\n-Treatment: 11.25 mg/kg q24hr (Max 600 mg)\n-Long-term suppression: 5 mg/kg q24hr (Max 250 mg)\n\nMay discontinue when patient has completed >= 12 months of therapy, has no signs or symptoms of MAC disease, and has sustained (>= 6 months) CD4 count > 100 cells/mm3 in response to ART",
+        "dosePerKg": 10.0,
         "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "25 ml q24hr for 3 days",
+        "adultFixed": "-Primary prophylaxis: 1200 mg once weekly\n-Treatment: 500-600 mg q24hr + Ethambutol\n-Long-term suppression: 250 mg q24hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": "mac_infection_complex",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "-Primary prophylaxis: 8 ml once weekly | -Treatment: 4.5 ml q24hr for >= 12 months | -Long-term suppression: 2 ml q24hr"
+      },
+      {
+        "indication": [
+          "Acute Otitis Media"
+        ],
+        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "Option 1: 30 mg/kg once OR Option 2: 10 mg/kg q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days",
         "singleDoseMaxMl": null,
         "maxDailyMg": 1500.0,
         "indType": "otitis_dual_option",
@@ -113991,16 +114567,16 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Community-acquired Pneumonia/ Cat Scratch Disease (Off-label)"
+          "Pharyngitis / Tonsillitis"
         ],
-        "dose": "Adult: 25 ml on day 1 followed by 12.5 ml on days 2-5 | Pediatric:",
-        "dosePerKg": null,
-        "frequency": "As directed",
+        "dose": "Adult: 500 mg on Day 1, followed by 250 mg on Days 2-5 | Pediatric:",
+        "dosePerKg": 12.0,
+        "frequency": "q24hr for 5 days",
         "maxDosesPerDay": 1,
-        "adultFixed": "25 ml on day 1 followed by 12.5 ml on days 2-5",
+        "adultFixed": "500 mg on Day 1, followed by 250 mg on Days 2-5",
         "singleDoseMaxMl": null,
-        "maxDailyMg": null,
-        "indType": "tapered_10_5",
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
@@ -114010,8 +114586,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "zithrokan 100 susp zithrokan 100 susp azithromycin zithrokan 100 susp suspension antibiotic azrolid zithromax",
-    "alternatives": "Azomycin / Azrolid / Xithrone / Azionce / Zithromax",
+    "searchTerms": "zithrokan 100 susp azithromycin zithrokan zithromax azi-once azrolid xithrone macrolide antibiotic suspension 100 mg / 5 ml",
+    "alternatives": "Zithromax / Zithrokan / Azi-Once / Azrolid / Xithrone / Azomycin / Epizithro / Gigazocin / Unizithrin",
     "barcode": []
   },
   "mono_02770": {
@@ -114027,18 +114603,18 @@ window.monodoseDatabase = {
     "pregnancyCategory": "Category B",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Can be taken with meals to minimize GI distress.",
+    "administration": "Taken with or without food. Can be taken with meals to minimize GI distress. Shake well before use.",
     "concentration": 40.0,
     "doses": [
       {
         "indication": [
-          "Acute otitis media/ Acute Bacterial Exacerbation of COPD/ Sinusitis"
+          "Community Acquired Pneumonia"
         ],
-        "dose": "Adult: 12.5 ml q24hr for 3 days | Pediatric:",
+        "dose": "Adult: 500 mg once daily on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric:",
         "dosePerKg": 10.0,
-        "frequency": "q24hr for 3 days",
+        "frequency": "q24hr for 3 days (5-7 days in severe cases)",
         "maxDosesPerDay": 1,
-        "adultFixed": "12.5 ml q24hr for 3 days",
+        "adultFixed": "500 mg once daily on Day 1, followed by 250 mg once daily on Days 2-5",
         "singleDoseMaxMl": null,
         "maxDailyMg": 500.0,
         "indType": "standard_pediatric",
@@ -114050,16 +114626,16 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Uncomplicated Skin Infection/ Pharyngitis/ Community-acquired Pneumonia"
+          "Bacterial Rhinosinusitis"
         ],
-        "dose": "Adult: 12.5 ml on day 1 followed by 6 ml on days 2-5 | Pediatric:",
-        "dosePerKg": null,
-        "frequency": "As directed",
+        "dose": "Adult: 500 mg once daily for 3 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days",
         "maxDosesPerDay": 1,
-        "adultFixed": "12.5 ml on day 1 followed by 6 ml on days 2-5",
+        "adultFixed": "500 mg once daily for 3 days",
         "singleDoseMaxMl": null,
-        "maxDailyMg": null,
-        "indType": "tapered_10_5",
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
@@ -114068,16 +114644,34 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Chancroid/ Urethritis/ Cervicitis"
+          "Infectious Diarrhea"
         ],
-        "dose": "Adult: 25 ml once | Pediatric:",
-        "dosePerKg": 20.0,
+        "dose": "Adult: 500 mg once daily for 3 days (or 1000 mg once) | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days (5 days in HIV patients)",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days (or 1000 mg once)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chemoprophylaxis for High-risk Contacts of Meningococcal Disease"
+        ],
+        "dose": "Adult: 500 mg single oral dose | Pediatric:",
+        "dosePerKg": 10.0,
         "frequency": "once",
         "maxDosesPerDay": 1,
-        "adultFixed": "25 ml once",
+        "adultFixed": "500 mg single oral dose",
         "singleDoseMaxMl": null,
-        "maxDailyMg": 1000.0,
-        "indType": "single_dose_20",
+        "maxDailyMg": 500.0,
+        "indType": "single_dose_10",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
@@ -114086,13 +114680,49 @@ window.monodoseDatabase = {
       },
       {
         "indication": [
-          "Endocarditis Prophylaxis (Off-label)"
+          "Mycobacterium Avium Complex Infection"
         ],
-        "dose": "Adult: 12.5 ml 30-60 min before procedure | Pediatric:",
+        "dose": "Adult: -Primary prophylaxis: 1200 mg once weekly\n-Treatment: 500-600 mg q24hr + Ethambutol\n-Long-term suppression: 250 mg q24hr | Pediatric: -Primary prophylaxis: 20 mg/kg once weekly (Max 1200 mg)\n-Treatment: 11.25 mg/kg q24hr (Max 600 mg)\n-Long-term suppression: 5 mg/kg q24hr (Max 250 mg)\n\nMay discontinue when patient has completed >= 12 months of therapy, has no signs or symptoms of MAC disease, and has sustained (>= 6 months) CD4 count > 100 cells/mm3 in response to ART",
         "dosePerKg": 10.0,
-        "frequency": "30-60 min before procedure",
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "12.5 ml 30-60 min before procedure",
+        "adultFixed": "-Primary prophylaxis: 1200 mg once weekly\n-Treatment: 500-600 mg q24hr + Ethambutol\n-Long-term suppression: 250 mg q24hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": "mac_infection_complex",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "-Primary prophylaxis: 8 ml once weekly | -Treatment: 4.5 ml q24hr for >= 12 months | -Long-term suppression: 2 ml q24hr"
+      },
+      {
+        "indication": [
+          "Acute Otitis Media"
+        ],
+        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "Option 1: 30 mg/kg once OR Option 2: 10 mg/kg q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": "otitis_dual_option",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pharyngitis / Tonsillitis"
+        ],
+        "dose": "Adult: 500 mg on Day 1, followed by 250 mg on Days 2-5 | Pediatric:",
+        "dosePerKg": 12.0,
+        "frequency": "q24hr for 5 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on Day 1, followed by 250 mg on Days 2-5",
         "singleDoseMaxMl": null,
         "maxDailyMg": 500.0,
         "indType": "standard_pediatric",
@@ -114105,15 +114735,15 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "zithrokan suspension zithrokan 200 susp azithromycin zithrokan 200 susp suspension antibiotic azrolid zithromax",
-    "alternatives": "Azomycin / Azrolid / Xithrone / Azionce / Zithromax",
+    "searchTerms": "zithrokan 200 susp azithromycin zithrokan zithromax azi-once azrolid xithrone macrolide antibiotic suspension 200 mg / 5 ml",
+    "alternatives": "Zithromax / Zithrokan / Azi-Once / Azrolid / Xithrone / Azomycin / Epizithro / Gigazocin / Unizithrin",
     "barcode": []
   },
   "mono_02771": {
     "code": "mono_02771",
-    "name": "azithromycin azalide",
-    "tradeName": "Zithrokan 500 Cap",
-    "composition": "azithromycin azalide 500mg",
+    "name": "Azithromycin",
+    "tradeName": "Zithrokan 500 cap",
+    "composition": "Azithromycin 500 mg",
     "formulation": "tab-caps",
     "dosage_form": "capsule",
     "category": "Monodose Clinical",
@@ -114122,18 +114752,126 @@ window.monodoseDatabase = {
     "pregnancyCategory": "Category B",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Swallow with water with or without meals.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Community-acquired Pneumonia / Acute Bacterial Rhinosinusitis / Skin Infections"
         ],
-        "dose": "Adult: 1 capsule once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 500 mg once daily for 3 days (OR 500 mg on Day 1, followed by 250 mg once daily on Days 2-5) | Pediatric: Tablets not recommended for small children (use oral suspension)",
         "dosePerKg": null,
         "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 capsule once or twice daily with a full glass of water",
+        "adultFixed": "500 mg once daily for 3 days (OR 500 mg on Day 1, followed by 250 mg once daily on Days 2-5)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pharyngitis / Tonsillitis (Group A Streptococcal)"
+        ],
+        "dose": "Adult: 500 mg once on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric: Use oral suspension for children",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once on Day 1, followed by 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Infectious Diarrhea (Shigellosis / Campylobacter / Traveler's Diarrhea)"
+        ],
+        "dose": "Adult: 500 mg once daily for 3 days (OR 1000 mg single oral dose) | Pediatric: Use oral suspension for children",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days (OR 1000 mg single oral dose)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chancroid / Chlamydia Urethritis / Cervicitis"
+        ],
+        "dose": "Adult: 1000 mg (1 gm) single oral dose | Pediatric: Adolescents >= 45 kg: 1000 mg single oral dose",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1000 mg (1 gm) single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Uncomplicated Gonococcal Infection"
+        ],
+        "dose": "Adult: 1 gm or 2 gm once in combination with Ceftriaxone 500 mg IM | Pediatric: Use under specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 gm or 2 gm once in combination with Ceftriaxone 500 mg IM",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chemoprophylaxis for High-risk Contacts of Meningococcal Disease"
+        ],
+        "dose": "Adult: 500 mg single oral dose | Pediatric: Children >= 45 kg: 500 mg single oral dose",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Mycobacterium Avium Complex (MAC) Infection"
+        ],
+        "dose": "Adult: -Primary prophylaxis: 1200 mg once weekly (or 600 mg twice weekly)\n-Treatment: 500-600 mg once daily + Ethambutol\n-Suppression: 250 mg once daily | Pediatric: Use under specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "-Primary prophylaxis: 1200 mg once weekly (or 600 mg twice weekly)\n-Treatment: 500-600 mg once daily + Ethambutol\n-Suppression: 250 mg once daily",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -114146,15 +114884,15 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "zithrokan 500 cap zithrokan azithromycin azalide azimacron azitanad azithromash azrolid azatribact azindamon delzosin epizithro gigazocin infectomycin rame-zithro ramezithro systymycin unizithrin xerexomair xithrobiotic xithrone zisrocin zithromax zathrotrue zeramerate zithrodose zithropro zithotrac 500mg capsules tablets azithromycin azalide zithrokan capsule 500mg",
-    "alternatives": "zithrokan azithromycin azalide azimacron azitanad azithromash azrolid azatribact azindamon delzosin epizithro gigazocin infectomycin rame-zithro ramezithro systymycin unizithrin xerexomair xithrobiotic xithrone zisrocin zithromax zathrotrue zeramerate zithrodose zithropro zithotrac 500mg capsules tablets",
+    "searchTerms": "zithrokan 500 cap azithromycin zithrokan zithromax azi-once azrolid xithrone macrolide antibiotic capsule 500 mg",
+    "alternatives": "Zithromax / Zithrokan / Azi-Once / Azrolid / Xithrone / Azomycin / Epizithro / Gigazocin / Unizithrin",
     "barcode": []
   },
   "mono_02772": {
     "code": "mono_02772",
-    "name": "Zithrokan",
+    "name": "Azithromycin",
     "tradeName": "Zithrokan Cap",
-    "composition": "Zithrokan (capsule)",
+    "composition": "Azithromycin 500 mg",
     "formulation": "tab-caps",
     "dosage_form": "capsule",
     "category": "Monodose Clinical",
@@ -114163,18 +114901,126 @@ window.monodoseDatabase = {
     "pregnancyCategory": "Category B",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Swallow with water with or without meals.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Community-acquired Pneumonia / Acute Bacterial Rhinosinusitis / Skin Infections"
         ],
-        "dose": "Adult: 1 capsule once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 500 mg once daily for 3 days (OR 500 mg on Day 1, followed by 250 mg once daily on Days 2-5) | Pediatric: Tablets not recommended for small children (use oral suspension)",
         "dosePerKg": null,
         "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 capsule once or twice daily with a full glass of water",
+        "adultFixed": "500 mg once daily for 3 days (OR 500 mg on Day 1, followed by 250 mg once daily on Days 2-5)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pharyngitis / Tonsillitis (Group A Streptococcal)"
+        ],
+        "dose": "Adult: 500 mg once on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric: Use oral suspension for children",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once on Day 1, followed by 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Infectious Diarrhea (Shigellosis / Campylobacter / Traveler's Diarrhea)"
+        ],
+        "dose": "Adult: 500 mg once daily for 3 days (OR 1000 mg single oral dose) | Pediatric: Use oral suspension for children",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days (OR 1000 mg single oral dose)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chancroid / Chlamydia Urethritis / Cervicitis"
+        ],
+        "dose": "Adult: 1000 mg (1 gm) single oral dose | Pediatric: Adolescents >= 45 kg: 1000 mg single oral dose",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1000 mg (1 gm) single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Uncomplicated Gonococcal Infection"
+        ],
+        "dose": "Adult: 1 gm or 2 gm once in combination with Ceftriaxone 500 mg IM | Pediatric: Use under specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 gm or 2 gm once in combination with Ceftriaxone 500 mg IM",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chemoprophylaxis for High-risk Contacts of Meningococcal Disease"
+        ],
+        "dose": "Adult: 500 mg single oral dose | Pediatric: Children >= 45 kg: 500 mg single oral dose",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Mycobacterium Avium Complex (MAC) Infection"
+        ],
+        "dose": "Adult: -Primary prophylaxis: 1200 mg once weekly (or 600 mg twice weekly)\n-Treatment: 500-600 mg once daily + Ethambutol\n-Suppression: 250 mg once daily | Pediatric: Use under specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "-Primary prophylaxis: 1200 mg once weekly (or 600 mg twice weekly)\n-Treatment: 500-600 mg once daily + Ethambutol\n-Suppression: 250 mg once daily",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -114187,15 +115033,313 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "zithrokan cap zithrokan 500 cap zithrokan zithrokan capsule ",
-    "alternatives": "Zithrokan 500 cap",
+    "searchTerms": "zithrokan cap zithrokan 500 cap azithromycin zithrokan zithromax azi-once azionce azrolid xithrone macrolide antibiotic infection pneumonia sinusitis diarrhea",
+    "alternatives": "Zithromax / Zithrokan / Azi-Once / Azrolid / Xithrone / Azomycin / Epizithro / Gigazocin / Unizithrin",
     "barcode": []
   },
   "mono_02773": {
     "code": "mono_02773",
-    "name": "azithromycin azalide",
+    "name": "Azithromycin",
+    "tradeName": "Zithrokan Susp",
+    "composition": "Azithromycin 200 mg / 5 ml (15 ml & 22.5 ml & 30 ml)",
+    "formulation": "syp-susp",
+    "dosage_form": "suspension",
+    "category": "Monodose Clinical",
+    "subCategory": "suspension",
+    "minAge": "0 months",
+    "pregnancyCategory": "Category B",
+    "breastfeedingCategory": "Use with caution",
+    "g6pd": "Safe",
+    "administration": "Taken with or without food. Can be taken with meals to minimize GI distress. Shake well before use.",
+    "concentration": 40.0,
+    "doses": [
+      {
+        "indication": [
+          "Community Acquired Pneumonia"
+        ],
+        "dose": "Adult: 500 mg once daily on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days (5-7 days in severe cases)",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily on Day 1, followed by 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Bacterial Rhinosinusitis"
+        ],
+        "dose": "Adult: 500 mg once daily for 3 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Infectious Diarrhea"
+        ],
+        "dose": "Adult: 500 mg once daily for 3 days (or 1000 mg once) | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days (5 days in HIV patients)",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days (or 1000 mg once)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chemoprophylaxis for High-risk Contacts of Meningococcal Disease"
+        ],
+        "dose": "Adult: 500 mg single oral dose | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "once",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "single_dose_10",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Mycobacterium Avium Complex Infection"
+        ],
+        "dose": "Adult: -Primary prophylaxis: 1200 mg once weekly\n-Treatment: 500-600 mg q24hr + Ethambutol\n-Long-term suppression: 250 mg q24hr | Pediatric: -Primary prophylaxis: 20 mg/kg once weekly (Max 1200 mg)\n-Treatment: 11.25 mg/kg q24hr (Max 600 mg)\n-Long-term suppression: 5 mg/kg q24hr (Max 250 mg)\n\nMay discontinue when patient has completed >= 12 months of therapy, has no signs or symptoms of MAC disease, and has sustained (>= 6 months) CD4 count > 100 cells/mm3 in response to ART",
+        "dosePerKg": 10.0,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "-Primary prophylaxis: 1200 mg once weekly\n-Treatment: 500-600 mg q24hr + Ethambutol\n-Long-term suppression: 250 mg q24hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": "mac_infection_complex",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "-Primary prophylaxis: 8 ml once weekly | -Treatment: 4.5 ml q24hr for >= 12 months | -Long-term suppression: 2 ml q24hr"
+      },
+      {
+        "indication": [
+          "Acute Otitis Media"
+        ],
+        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "Option 1: 30 mg/kg once OR Option 2: 10 mg/kg q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": "otitis_dual_option",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pharyngitis / Tonsillitis"
+        ],
+        "dose": "Adult: 500 mg on Day 1, followed by 250 mg on Days 2-5 | Pediatric:",
+        "dosePerKg": 12.0,
+        "frequency": "q24hr for 5 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on Day 1, followed by 250 mg on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      }
+    ],
+    "source": "monodose",
+    "isMonodose": true,
+    "searchTerms": "zithrokan susp zithrokan 200 susp azithromycin zithrokan zithromax azi-once azionce azrolid xithrone macrolide antibiotic infection pneumonia sinusitis diarrhea",
+    "alternatives": "Zithromax / Zithrokan / Azi-Once / Azrolid / Xithrone / Azomycin / Epizithro / Gigazocin / Unizithrin",
+    "barcode": []
+  },
+  "mono_02774": {
+    "code": "mono_02774",
+    "name": "Azithromycin",
+    "tradeName": "Zithrokan Suspension",
+    "composition": "Azithromycin 200 mg / 5 ml (15 ml & 22.5 ml & 30 ml)",
+    "formulation": "syp-susp",
+    "dosage_form": "suspension",
+    "category": "Monodose Clinical",
+    "subCategory": "suspension",
+    "minAge": "0 months",
+    "pregnancyCategory": "Category B",
+    "breastfeedingCategory": "Use with caution",
+    "g6pd": "Safe",
+    "administration": "Taken with or without food. Can be taken with meals to minimize GI distress. Shake well before use.",
+    "concentration": 40.0,
+    "doses": [
+      {
+        "indication": [
+          "Community Acquired Pneumonia"
+        ],
+        "dose": "Adult: 500 mg once daily on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days (5-7 days in severe cases)",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily on Day 1, followed by 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Bacterial Rhinosinusitis"
+        ],
+        "dose": "Adult: 500 mg once daily for 3 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Infectious Diarrhea"
+        ],
+        "dose": "Adult: 500 mg once daily for 3 days (or 1000 mg once) | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days (5 days in HIV patients)",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days (or 1000 mg once)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chemoprophylaxis for High-risk Contacts of Meningococcal Disease"
+        ],
+        "dose": "Adult: 500 mg single oral dose | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "once",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "single_dose_10",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Mycobacterium Avium Complex Infection"
+        ],
+        "dose": "Adult: -Primary prophylaxis: 1200 mg once weekly\n-Treatment: 500-600 mg q24hr + Ethambutol\n-Long-term suppression: 250 mg q24hr | Pediatric: -Primary prophylaxis: 20 mg/kg once weekly (Max 1200 mg)\n-Treatment: 11.25 mg/kg q24hr (Max 600 mg)\n-Long-term suppression: 5 mg/kg q24hr (Max 250 mg)\n\nMay discontinue when patient has completed >= 12 months of therapy, has no signs or symptoms of MAC disease, and has sustained (>= 6 months) CD4 count > 100 cells/mm3 in response to ART",
+        "dosePerKg": 10.0,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "-Primary prophylaxis: 1200 mg once weekly\n-Treatment: 500-600 mg q24hr + Ethambutol\n-Long-term suppression: 250 mg q24hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": "mac_infection_complex",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "-Primary prophylaxis: 8 ml once weekly | -Treatment: 4.5 ml q24hr for >= 12 months | -Long-term suppression: 2 ml q24hr"
+      },
+      {
+        "indication": [
+          "Acute Otitis Media"
+        ],
+        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "Option 1: 30 mg/kg once OR Option 2: 10 mg/kg q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": "otitis_dual_option",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pharyngitis / Tonsillitis"
+        ],
+        "dose": "Adult: 500 mg on Day 1, followed by 250 mg on Days 2-5 | Pediatric:",
+        "dosePerKg": 12.0,
+        "frequency": "q24hr for 5 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on Day 1, followed by 250 mg on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      }
+    ],
+    "source": "monodose",
+    "isMonodose": true,
+    "searchTerms": "zithrokan suspension zithrokan 200 susp azithromycin zithrokan zithromax azi-once azionce azrolid xithrone macrolide antibiotic infection pneumonia sinusitis diarrhea",
+    "alternatives": "Zithromax / Zithrokan / Azi-Once / Azrolid / Xithrone / Azomycin / Epizithro / Gigazocin / Unizithrin",
+    "barcode": []
+  },
+  "mono_02775": {
+    "code": "mono_02775",
+    "name": "Azithromycin",
     "tradeName": "Zithrokan Tablets",
-    "composition": "azithromycin azalide 500mg",
+    "composition": "Azithromycin 500 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
@@ -114204,18 +115348,18 @@ window.monodoseDatabase = {
     "pregnancyCategory": "Category B",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Swallow with water with or without meals.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Community-acquired Pneumonia / Acute Bacterial Rhinosinusitis / Skin Infections"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 500 mg once daily for 3 days (OR 500 mg on Day 1, followed by 250 mg once daily on Days 2-5) | Pediatric: Tablets not recommended for small children (use oral suspension)",
         "dosePerKg": null,
         "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "adultFixed": "500 mg once daily for 3 days (OR 500 mg on Day 1, followed by 250 mg once daily on Days 2-5)",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -114224,39 +115368,16 @@ window.monodoseDatabase = {
         "highFactor": null,
         "highDoseFactor": null,
         "subtitle": null
-      }
-    ],
-    "source": "monodose",
-    "isMonodose": true,
-    "searchTerms": "zithrokan tablets zithrokan azithromycin azalide azimacron azitanad azithromash azrolid azatribact azindamon delzosin epizithro gigazocin infectomycin rame-zithro ramezithro systymycin unizithrin xerexomair xithrobiotic xithrone zisrocin zithromax zathrotrue zeramerate zithrodose zithropro zithotrac 500mg capsules tablets azithromycin azalide zithrokan tablet 500mg",
-    "alternatives": "zithrokan azithromycin azalide azimacron azitanad azithromash azrolid azatribact azindamon delzosin epizithro gigazocin infectomycin rame-zithro ramezithro systymycin unizithrin xerexomair xithrobiotic xithrone zisrocin zithromax zathrotrue zeramerate zithrodose zithropro zithotrac 500mg capsules tablets",
-    "barcode": []
-  },
-  "mono_02774": {
-    "code": "mono_02774",
-    "name": "cefuroxime hebiuroxime",
-    "tradeName": "Zocef 125 Susp",
-    "composition": "cefuroxime hebiuroxime 125mg/5ml",
-    "formulation": "syp-susp",
-    "dosage_form": "suspension",
-    "category": "Monodose Clinical",
-    "subCategory": "suspension",
-    "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
-    "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
-    "doses": [
+      },
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Pharyngitis / Tonsillitis (Group A Streptococcal)"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: 500 mg once on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric: Use oral suspension for children",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "500 mg once on Day 1, followed by 250 mg once daily on Days 2-5",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -114265,39 +115386,88 @@ window.monodoseDatabase = {
         "highFactor": null,
         "highDoseFactor": null,
         "subtitle": null
-      }
-    ],
-    "source": "monodose",
-    "isMonodose": true,
-    "searchTerms": "zocef 125 susp zocef cefuroxime hebiuroxime highcef zimocefox zinacef 125mg/5ml suspension cefuroxime hebiuroxime zocef suspension 125mg/5ml",
-    "alternatives": "zocef cefuroxime hebiuroxime highcef zimocefox zinacef 125mg/5ml suspension",
-    "barcode": []
-  },
-  "mono_02775": {
-    "code": "mono_02775",
-    "name": "cefuroxime hebiuroxime",
-    "tradeName": "Zocef Susp",
-    "composition": "cefuroxime hebiuroxime 125mg/5ml",
-    "formulation": "syp-susp",
-    "dosage_form": "suspension",
-    "category": "Monodose Clinical",
-    "subCategory": "suspension",
-    "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
-    "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
-    "doses": [
+      },
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Infectious Diarrhea (Shigellosis / Campylobacter / Traveler's Diarrhea)"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: 500 mg once daily for 3 days (OR 1000 mg single oral dose) | Pediatric: Use oral suspension for children",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "500 mg once daily for 3 days (OR 1000 mg single oral dose)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chancroid / Chlamydia Urethritis / Cervicitis"
+        ],
+        "dose": "Adult: 1000 mg (1 gm) single oral dose | Pediatric: Adolescents >= 45 kg: 1000 mg single oral dose",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1000 mg (1 gm) single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Uncomplicated Gonococcal Infection"
+        ],
+        "dose": "Adult: 1 gm or 2 gm once in combination with Ceftriaxone 500 mg IM | Pediatric: Use under specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 gm or 2 gm once in combination with Ceftriaxone 500 mg IM",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chemoprophylaxis for High-risk Contacts of Meningococcal Disease"
+        ],
+        "dose": "Adult: 500 mg single oral dose | Pediatric: Children >= 45 kg: 500 mg single oral dose",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Mycobacterium Avium Complex (MAC) Infection"
+        ],
+        "dose": "Adult: -Primary prophylaxis: 1200 mg once weekly (or 600 mg twice weekly)\n-Treatment: 500-600 mg once daily + Ethambutol\n-Suppression: 250 mg once daily | Pediatric: Use under specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "-Primary prophylaxis: 1200 mg once weekly (or 600 mg twice weekly)\n-Treatment: 500-600 mg once daily + Ethambutol\n-Suppression: 250 mg once daily",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -114310,38 +115480,92 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "zocef susp zocef cefuroxime hebiuroxime highcef zimocefox zinacef 125mg/5ml suspension cefuroxime hebiuroxime zocef suspension 125mg/5ml",
-    "alternatives": "zocef cefuroxime hebiuroxime highcef zimocefox zinacef 125mg/5ml suspension",
+    "searchTerms": "zithrokan tablets zithrokan azithromycin azalide azimacron azitanad azithromash azrolid azatribact azindamon delzosin epizithro gigazocin infectomycin rame-zithro ramezithro systymycin unizithrin xerexomair xithrobiotic xithrone zisrocin zithromax zathrotrue zeramerate zithrodose zithropro zithotrac 500mg capsules tablets azithromycin zithrokan zithromax azi-once azionce azrolid xithrone macrolide antibiotic infection pneumonia sinusitis diarrhea",
+    "alternatives": "Zithromax / Zithrokan / Azi-Once / Azrolid / Xithrone / Azomycin / Epizithro / Gigazocin / Unizithrin",
     "barcode": []
   },
   "mono_02776": {
     "code": "mono_02776",
-    "name": "cefuroxime hebiuroxime",
-    "tradeName": "Zocef Suspension",
-    "composition": "cefuroxime hebiuroxime 125mg/5ml",
+    "name": "Cefuroxime",
+    "tradeName": "Zocef 125 Susp",
+    "composition": "Cefuroxime 125 mg / 5 ml (50 ml & 70 ml)",
     "formulation": "syp-susp",
     "dosage_form": "suspension",
     "category": "Monodose Clinical",
     "subCategory": "suspension",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "administration": "Oral suspension should be administered with food. Tablets swallowed whole with meals.",
+    "concentration": 25.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Acute Otitis Media"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
-        "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "dose": "Adult: 500 mg tab q12hr for 10 days | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "500 mg tab q12hr for 10 days",
         "singleDoseMaxMl": null,
-        "maxDailyMg": null,
-        "indType": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pharyngitis / Tonsillitis"
+        ],
+        "dose": "Adult: 250-500 mg tab q12hr for 10 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg tab q12hr for 10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Bacterial Maxillary Sinusitis"
+        ],
+        "dose": "Adult: 250-500 mg tab q12hr for 10 days | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg tab q12hr for 10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Impetigo / Skin and Soft Tissue Infections"
+        ],
+        "dose": "Adult: 250-500 mg tab q12hr for 10 days | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg tab q12hr for 10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
@@ -114351,12 +115575,202 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "zocef suspension zocef cefuroxime hebiuroxime highcef zimocefox zinacef 125mg/5ml suspension cefuroxime hebiuroxime zocef suspension 125mg/5ml",
-    "alternatives": "zocef cefuroxime hebiuroxime highcef zimocefox zinacef 125mg/5ml suspension",
+    "searchTerms": "zocef 125 susp zocef cefuroxime hebiuroxime highcef zimocefox zinacef 125mg/5ml suspension cefuroxime zinnat zinat cefuzime cephalosporin antibiotic 125mg 250mg 500mg",
+    "alternatives": "Zinnat / Zinat / Cefuzime / Cefurox / Xorimax / Cefamar",
     "barcode": []
   },
   "mono_02777": {
     "code": "mono_02777",
+    "name": "Cefuroxime",
+    "tradeName": "Zocef Susp",
+    "composition": "Cefuroxime 125 mg / 5 ml (50 ml & 70 ml)",
+    "formulation": "syp-susp",
+    "dosage_form": "suspension",
+    "category": "Monodose Clinical",
+    "subCategory": "suspension",
+    "minAge": "0 months",
+    "pregnancyCategory": "Category B",
+    "breastfeedingCategory": "Compatible",
+    "g6pd": "Safe",
+    "administration": "Oral suspension should be administered with food. Tablets swallowed whole with meals.",
+    "concentration": 25.0,
+    "doses": [
+      {
+        "indication": [
+          "Acute Otitis Media"
+        ],
+        "dose": "Adult: 500 mg tab q12hr for 10 days | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "500 mg tab q12hr for 10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pharyngitis / Tonsillitis"
+        ],
+        "dose": "Adult: 250-500 mg tab q12hr for 10 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg tab q12hr for 10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Bacterial Maxillary Sinusitis"
+        ],
+        "dose": "Adult: 250-500 mg tab q12hr for 10 days | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg tab q12hr for 10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Impetigo / Skin and Soft Tissue Infections"
+        ],
+        "dose": "Adult: 250-500 mg tab q12hr for 10 days | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg tab q12hr for 10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      }
+    ],
+    "source": "monodose",
+    "isMonodose": true,
+    "searchTerms": "zocef susp zocef cefuroxime hebiuroxime highcef zimocefox zinacef 125mg/5ml suspension cefuroxime zinnat zinat cefuzime cephalosporin antibiotic 125mg 250mg 500mg",
+    "alternatives": "Zinnat / Zinat / Cefuzime / Cefurox / Xorimax / Cefamar",
+    "barcode": []
+  },
+  "mono_02778": {
+    "code": "mono_02778",
+    "name": "Cefuroxime",
+    "tradeName": "Zocef Suspension",
+    "composition": "Cefuroxime 125 mg / 5 ml (50 ml & 70 ml)",
+    "formulation": "syp-susp",
+    "dosage_form": "suspension",
+    "category": "Monodose Clinical",
+    "subCategory": "suspension",
+    "minAge": "0 months",
+    "pregnancyCategory": "Category B",
+    "breastfeedingCategory": "Compatible",
+    "g6pd": "Safe",
+    "administration": "Oral suspension should be administered with food. Tablets swallowed whole with meals.",
+    "concentration": 25.0,
+    "doses": [
+      {
+        "indication": [
+          "Acute Otitis Media"
+        ],
+        "dose": "Adult: 500 mg tab q12hr for 10 days | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "500 mg tab q12hr for 10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pharyngitis / Tonsillitis"
+        ],
+        "dose": "Adult: 250-500 mg tab q12hr for 10 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg tab q12hr for 10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Bacterial Maxillary Sinusitis"
+        ],
+        "dose": "Adult: 250-500 mg tab q12hr for 10 days | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg tab q12hr for 10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Impetigo / Skin and Soft Tissue Infections"
+        ],
+        "dose": "Adult: 250-500 mg tab q12hr for 10 days | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg tab q12hr for 10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      }
+    ],
+    "source": "monodose",
+    "isMonodose": true,
+    "searchTerms": "zocef suspension zocef cefuroxime hebiuroxime highcef zimocefox zinacef 125mg/5ml suspension cefuroxime zinnat zinat cefuzime cephalosporin antibiotic 125mg 250mg 500mg",
+    "alternatives": "Zinnat / Zinat / Cefuzime / Cefurox / Xorimax / Cefamar",
+    "barcode": []
+  },
+  "mono_02779": {
+    "code": "mono_02779",
     "name": "Zocor",
     "tradeName": "Zocor 10 Tab",
     "composition": "Zocor (tablet)",
@@ -114396,8 +115810,8 @@ window.monodoseDatabase = {
     "alternatives": "Zocor 10 tab",
     "barcode": []
   },
-  "mono_02778": {
-    "code": "mono_02778",
+  "mono_02780": {
+    "code": "mono_02780",
     "name": "Zocor",
     "tradeName": "Zocor Tab",
     "composition": "Zocor (tablet)",
@@ -114437,8 +115851,8 @@ window.monodoseDatabase = {
     "alternatives": "Zocor 10 tab",
     "barcode": []
   },
-  "mono_02779": {
-    "code": "mono_02779",
+  "mono_02781": {
+    "code": "mono_02781",
     "name": "Zocor",
     "tradeName": "Zocor Tablets",
     "composition": "Zocor (tablet)",
@@ -114478,8 +115892,8 @@ window.monodoseDatabase = {
     "alternatives": "Zocor 10 tab",
     "barcode": []
   },
-  "mono_02780": {
-    "code": "mono_02780",
+  "mono_02782": {
+    "code": "mono_02782",
     "name": "Zodium",
     "tradeName": "Zodium Tab",
     "composition": "Zodium (tablet)",
@@ -114519,8 +115933,8 @@ window.monodoseDatabase = {
     "alternatives": "Zodium tab",
     "barcode": []
   },
-  "mono_02781": {
-    "code": "mono_02781",
+  "mono_02783": {
+    "code": "mono_02783",
     "name": "Zodium",
     "tradeName": "Zodium Tablets",
     "composition": "Zodium (tablet)",
@@ -114560,8 +115974,8 @@ window.monodoseDatabase = {
     "alternatives": "Zodium tab",
     "barcode": []
   },
-  "mono_02782": {
-    "code": "mono_02782",
+  "mono_02784": {
+    "code": "mono_02784",
     "name": "Ondansetron",
     "tradeName": "Zofran Amp",
     "composition": "Ondansetron 4 mg / 2 ml",
@@ -114601,8 +116015,8 @@ window.monodoseDatabase = {
     "alternatives": "Zofran / Ondalenz / Danofran / Setronomet / Zofatrone / Idivomtron",
     "barcode": []
   },
-  "mono_02783": {
-    "code": "mono_02783",
+  "mono_02785": {
+    "code": "mono_02785",
     "name": "Ondansetron",
     "tradeName": "Zofran Syrup",
     "composition": "Ondansetron 4 mg / 5 ml",
@@ -114642,8 +116056,8 @@ window.monodoseDatabase = {
     "alternatives": "Zofran / Ondalenz / Danofran / Setronomet / Zofatrone / Idivomtron",
     "barcode": []
   },
-  "mono_02784": {
-    "code": "mono_02784",
+  "mono_02786": {
+    "code": "mono_02786",
     "name": "Zolidocyrl",
     "tradeName": "Zolidocyrl Tab",
     "composition": "Zolidocyrl (tablet)",
@@ -114683,8 +116097,8 @@ window.monodoseDatabase = {
     "alternatives": "Zolidocyrl tab",
     "barcode": []
   },
-  "mono_02785": {
-    "code": "mono_02785",
+  "mono_02787": {
+    "code": "mono_02787",
     "name": "Zolidocyrl",
     "tradeName": "Zolidocyrl Tablets",
     "composition": "Zolidocyrl (tablet)",
@@ -114724,8 +116138,8 @@ window.monodoseDatabase = {
     "alternatives": "Zolidocyrl tab",
     "barcode": []
   },
-  "mono_02786": {
-    "code": "mono_02786",
+  "mono_02788": {
+    "code": "mono_02788",
     "name": "Zometa",
     "tradeName": "Zometa Vial",
     "composition": "Zometa (vial)",
@@ -114765,8 +116179,8 @@ window.monodoseDatabase = {
     "alternatives": "No registered Egyptian trade alternatives recorded",
     "barcode": []
   },
-  "mono_02787": {
-    "code": "mono_02787",
+  "mono_02789": {
+    "code": "mono_02789",
     "name": "Zonactam",
     "tradeName": "Zonactam Vial",
     "composition": "Zonactam (vial)",
@@ -114806,8 +116220,8 @@ window.monodoseDatabase = {
     "alternatives": "No registered Egyptian trade alternatives recorded",
     "barcode": []
   },
-  "mono_02788": {
-    "code": "mono_02788",
+  "mono_02790": {
+    "code": "mono_02790",
     "name": "AcyclovirAl Aciclovir",
     "tradeName": "Zovirax Acyclovir aciclovir mylan 500mg vial",
     "composition": "AcyclovirAl Aciclovir 500mg",
@@ -114847,8 +116261,8 @@ window.monodoseDatabase = {
     "alternatives": "Zovirax AcyclovirAl Aciclovir 400mg/5ml suspension",
     "barcode": []
   },
-  "mono_02789": {
-    "code": "mono_02789",
+  "mono_02791": {
+    "code": "mono_02791",
     "name": "AcyclovirAl Aciclovir",
     "tradeName": "Zovirax Suspension",
     "composition": "AcyclovirAl Aciclovir 400mg/5ml",
@@ -114888,8 +116302,8 @@ window.monodoseDatabase = {
     "alternatives": "Zovirax AcyclovirAl Aciclovir 400mg/5ml suspension",
     "barcode": []
   },
-  "mono_02790": {
-    "code": "mono_02790",
+  "mono_02792": {
+    "code": "mono_02792",
     "name": "Zyloric",
     "tradeName": "Zyloric 100 Tab",
     "composition": "Zyloric (tablet)",
@@ -114929,8 +116343,8 @@ window.monodoseDatabase = {
     "alternatives": "Zyloric 100 tab",
     "barcode": []
   },
-  "mono_02791": {
-    "code": "mono_02791",
+  "mono_02793": {
+    "code": "mono_02793",
     "name": "allopurinol lessuric",
     "tradeName": "Zyloric Capsules",
     "composition": "allopurinol lessuric 100mg",
@@ -114970,8 +116384,8 @@ window.monodoseDatabase = {
     "alternatives": "zyloric allopurinol lessuric nouric no-uric pure crystasol purinol 100mg 300mg tablets capsules",
     "barcode": []
   },
-  "mono_02792": {
-    "code": "mono_02792",
+  "mono_02794": {
+    "code": "mono_02794",
     "name": "Zyloric",
     "tradeName": "Zyloric Tab",
     "composition": "Zyloric (tablet)",
@@ -115011,8 +116425,8 @@ window.monodoseDatabase = {
     "alternatives": "Zyloric 100 tab",
     "barcode": []
   },
-  "mono_02793": {
-    "code": "mono_02793",
+  "mono_02795": {
+    "code": "mono_02795",
     "name": "Zyrovazet",
     "tradeName": "Zyrovazet Tab",
     "composition": "Zyrovazet (tablet)",
@@ -115052,8 +116466,8 @@ window.monodoseDatabase = {
     "alternatives": "Zyrovazet tab",
     "barcode": []
   },
-  "mono_02794": {
-    "code": "mono_02794",
+  "mono_02796": {
+    "code": "mono_02796",
     "name": "Zyrtec",
     "tradeName": "Zyrtec Drops",
     "composition": "Zyrtec (drops)",
@@ -115093,8 +116507,8 @@ window.monodoseDatabase = {
     "alternatives": "Zyrtec syrup",
     "barcode": []
   },
-  "mono_02795": {
-    "code": "mono_02795",
+  "mono_02797": {
+    "code": "mono_02797",
     "name": "Zyrtec",
     "tradeName": "Zyrtec Syrup",
     "composition": "Zyrtec (syrup)",
@@ -115134,8 +116548,8 @@ window.monodoseDatabase = {
     "alternatives": "Zyrtec syrup",
     "barcode": []
   },
-  "mono_02796": {
-    "code": "mono_02796",
+  "mono_02798": {
+    "code": "mono_02798",
     "name": "Zyrtec",
     "tradeName": "Zyrtec Tab",
     "composition": "Zyrtec (tablet)",
@@ -115175,8 +116589,8 @@ window.monodoseDatabase = {
     "alternatives": "Zyrtec tab",
     "barcode": []
   },
-  "mono_02797": {
-    "code": "mono_02797",
+  "mono_02799": {
+    "code": "mono_02799",
     "name": "Zyrtec",
     "tradeName": "Zyrtec Tablets",
     "composition": "Zyrtec (tablet)",
@@ -115216,8 +116630,8 @@ window.monodoseDatabase = {
     "alternatives": "Zyrtec tab",
     "barcode": []
   },
-  "mono_02798": {
-    "code": "mono_02798",
+  "mono_02800": {
+    "code": "mono_02800",
     "name": "Abiraterone mantroxate",
     "tradeName": "Zytiga 250 Tab",
     "composition": "Abiraterone mantroxate 250mg",
@@ -115257,8 +116671,8 @@ window.monodoseDatabase = {
     "alternatives": "zytiga Abiraterone mantroxate 250mg 500mg tablets",
     "barcode": []
   },
-  "mono_02799": {
-    "code": "mono_02799",
+  "mono_02801": {
+    "code": "mono_02801",
     "name": "Abiraterone mantroxate",
     "tradeName": "Zytiga Tab",
     "composition": "Abiraterone mantroxate 250mg",
@@ -115298,8 +116712,8 @@ window.monodoseDatabase = {
     "alternatives": "zytiga Abiraterone mantroxate 250mg 500mg tablets",
     "barcode": []
   },
-  "mono_02800": {
-    "code": "mono_02800",
+  "mono_02802": {
+    "code": "mono_02802",
     "name": "Abiraterone mantroxate",
     "tradeName": "Zytiga Tablets",
     "composition": "Abiraterone mantroxate 250mg",
@@ -115339,8 +116753,8 @@ window.monodoseDatabase = {
     "alternatives": "zytiga Abiraterone mantroxate 250mg 500mg tablets",
     "barcode": []
   },
-  "mono_02801": {
-    "code": "mono_02801",
+  "mono_02803": {
+    "code": "mono_02803",
     "name": "acetylcysteine only",
     "tradeName": "Acetolytic Acetylcysteine Only 600Mg Capsules",
     "composition": "acetylcysteine only 600mg",
@@ -115380,8 +116794,8 @@ window.monodoseDatabase = {
     "alternatives": "acetolytic acetylcysteine only 600mg capsules",
     "barcode": []
   },
-  "mono_02802": {
-    "code": "mono_02802",
+  "mono_02804": {
+    "code": "mono_02804",
     "name": "actilyse",
     "tradeName": "Actilyse Alteplase Activase 50Mg Vial",
     "composition": "actilyse 50mg",
@@ -115421,8 +116835,8 @@ window.monodoseDatabase = {
     "alternatives": "No registered Egyptian trade alternatives recorded",
     "barcode": []
   },
-  "mono_02803": {
-    "code": "mono_02803",
+  "mono_02805": {
+    "code": "mono_02805",
     "name": "alergoliber",
     "tradeName": "Alergoliber Rupatadine Rupatadine 5Mg/5Ml Syrup",
     "composition": "alergoliber 5mg/5ml",
@@ -115462,8 +116876,8 @@ window.monodoseDatabase = {
     "alternatives": "Alergoliber tab",
     "barcode": []
   },
-  "mono_02804": {
-    "code": "mono_02804",
+  "mono_02806": {
+    "code": "mono_02806",
     "name": "allerban",
     "tradeName": "allerban Ketotifen 2mg tablets",
     "composition": "allerban 2mg",
@@ -115503,8 +116917,8 @@ window.monodoseDatabase = {
     "alternatives": "Allerban tab",
     "barcode": []
   },
-  "mono_02805": {
-    "code": "mono_02805",
+  "mono_02807": {
+    "code": "mono_02807",
     "name": "ambisome",
     "tradeName": "Ambisome Amphotericin B Liposomal 50Mg Vial",
     "composition": "ambisome 50mg",
@@ -115544,8 +116958,8 @@ window.monodoseDatabase = {
     "alternatives": "No registered Egyptian trade alternatives recorded",
     "barcode": []
   },
-  "mono_02806": {
-    "code": "mono_02806",
+  "mono_02808": {
+    "code": "mono_02808",
     "name": "mucosin bronchopro",
     "tradeName": "Ambroxol Mucosin Bronchopro 7.5Mg Drops",
     "composition": "mucosin bronchopro 7.5mg",
@@ -115585,8 +116999,8 @@ window.monodoseDatabase = {
     "alternatives": "ambroxol mucosin bronchopro 7.5mg drops",
     "barcode": []
   },
-  "mono_02807": {
-    "code": "mono_02807",
+  "mono_02809": {
+    "code": "mono_02809",
     "name": "ambroxol",
     "tradeName": "Ambroxol Mucosolvan Mucoline 30Mg Tablets",
     "composition": "ambroxol 30mg",
@@ -115626,8 +117040,8 @@ window.monodoseDatabase = {
     "alternatives": "Ambroxol 30 tab",
     "barcode": []
   },
-  "mono_02808": {
-    "code": "mono_02808",
+  "mono_02810": {
+    "code": "mono_02810",
     "name": "ampicillin",
     "tradeName": "Ampicillin Only Epicocillin 1000Mg 1Gm Vial",
     "composition": "ampicillin 1000mg",
@@ -115667,8 +117081,8 @@ window.monodoseDatabase = {
     "alternatives": "Ampicillin 500 cap",
     "barcode": []
   },
-  "mono_02809": {
-    "code": "mono_02809",
+  "mono_02811": {
+    "code": "mono_02811",
     "name": "anapental",
     "tradeName": "anapental Thiopental sodium 500mg vial",
     "composition": "anapental 500mg",
@@ -115708,8 +117122,8 @@ window.monodoseDatabase = {
     "alternatives": "No registered Egyptian trade alternatives recorded",
     "barcode": []
   },
-  "mono_02810": {
-    "code": "mono_02810",
+  "mono_02812": {
+    "code": "mono_02812",
     "name": "andovimpamide",
     "tradeName": "Andovimpamide Lacosamide 10Mg/Ml Vial",
     "composition": "andovimpamide 10mg",
@@ -115749,8 +117163,8 @@ window.monodoseDatabase = {
     "alternatives": "Andovimpamide 50 tab",
     "barcode": []
   },
-  "mono_02811": {
-    "code": "mono_02811",
+  "mono_02813": {
+    "code": "mono_02813",
     "name": "cyproterone acetate",
     "tradeName": "Androcur Cyproterone Acetate 50Mg Tablets",
     "composition": "cyproterone acetate 50mg",
@@ -115790,8 +117204,8 @@ window.monodoseDatabase = {
     "alternatives": "androcur cyproterone acetate 50mg tablets",
     "barcode": []
   },
-  "mono_02812": {
-    "code": "mono_02812",
+  "mono_02814": {
+    "code": "mono_02814",
     "name": "apomefloquine",
     "tradeName": "Apo-Mefloquine Apomefloquine 250Mg Tablets",
     "composition": "apomefloquine 250mg",
@@ -115831,8 +117245,8 @@ window.monodoseDatabase = {
     "alternatives": "apo-mefloquine apomefloquine 250mg tablets",
     "barcode": []
   },
-  "mono_02813": {
-    "code": "mono_02813",
+  "mono_02815": {
+    "code": "mono_02815",
     "name": "hydralazine ardiolazin",
     "tradeName": "Apresoline Hydralazine Ardiolazin 50Mg Tablets",
     "composition": "hydralazine ardiolazin 50mg",
@@ -115872,8 +117286,8 @@ window.monodoseDatabase = {
     "alternatives": "apresoline hydralazine ardiolazin 50mg tablets",
     "barcode": []
   },
-  "mono_02814": {
-    "code": "mono_02814",
+  "mono_02816": {
+    "code": "mono_02816",
     "name": "aripiprazole schizoswab",
     "tradeName": "Aripiprex Aripiprazole Schizoswab 1Mg/Ml Syrup",
     "composition": "aripiprazole schizoswab 1mg",
@@ -115913,8 +117327,8 @@ window.monodoseDatabase = {
     "alternatives": "aripiprex aripiprazole schizoswab 1mg/ml syrup",
     "barcode": []
   },
-  "mono_02815": {
-    "code": "mono_02815",
+  "mono_02817": {
+    "code": "mono_02817",
     "name": "acetylsalicylic acid",
     "tradeName": "Aspirin Acetylsalicylic Acid 500Mg Tablets",
     "composition": "acetylsalicylic acid 500mg",
@@ -115954,8 +117368,8 @@ window.monodoseDatabase = {
     "alternatives": "aspirin acetylsalicylic acid 500mg tablets",
     "barcode": []
   },
-  "mono_02816": {
-    "code": "mono_02816",
+  "mono_02818": {
+    "code": "mono_02818",
     "name": "ativan",
     "tradeName": "Ativan Lorazepam 1Mg Tablets",
     "composition": "ativan 1mg",
@@ -115995,8 +117409,8 @@ window.monodoseDatabase = {
     "alternatives": "Ativan tab",
     "barcode": []
   },
-  "mono_02817": {
-    "code": "mono_02817",
+  "mono_02819": {
+    "code": "mono_02819",
     "name": "betaxolol",
     "tradeName": "Betaxolol Betaxolol 10Mg 20Mg Tablets",
     "composition": "betaxolol 10mg",
@@ -116036,8 +117450,8 @@ window.monodoseDatabase = {
     "alternatives": "betaxolol betaxolol 10mg 20mg tablets",
     "barcode": []
   },
-  "mono_02818": {
-    "code": "mono_02818",
+  "mono_02820": {
+    "code": "mono_02820",
     "name": "Bilastine bilastomed",
     "tradeName": "bilastigec Bilastine bilastomed 12.5mg/ml syrup",
     "composition": "Bilastine bilastomed 12.5mg",
@@ -116077,8 +117491,8 @@ window.monodoseDatabase = {
     "alternatives": "bilastigec Bilastine bilastomed 12.5mg/ml syrup",
     "barcode": []
   },
-  "mono_02819": {
-    "code": "mono_02819",
+  "mono_02821": {
+    "code": "mono_02821",
     "name": "bleocip",
     "tradeName": "Bleocip Bleomycin Bleocin Bloicin-S 15Iu Vial",
     "composition": "bleocip 15iu",
@@ -116118,8 +117532,8 @@ window.monodoseDatabase = {
     "alternatives": "No registered Egyptian trade alternatives recorded",
     "barcode": []
   },
-  "mono_02820": {
-    "code": "mono_02820",
+  "mono_02822": {
+    "code": "mono_02822",
     "name": "indomethacin Indometacin",
     "tradeName": "bonidon indomethacin Indometacin 75mg capsules",
     "composition": "indomethacin Indometacin 75mg",
@@ -116159,8 +117573,8 @@ window.monodoseDatabase = {
     "alternatives": "bonidon indomethacin Indometacin 75mg capsules",
     "barcode": []
   },
-  "mono_02821": {
-    "code": "mono_02821",
+  "mono_02823": {
+    "code": "mono_02823",
     "name": "bran",
     "tradeName": "Bran 400Mg Capsules",
     "composition": "bran 400mg",
@@ -116200,8 +117614,8 @@ window.monodoseDatabase = {
     "alternatives": "bran 400mg capsules",
     "barcode": []
   },
-  "mono_02822": {
-    "code": "mono_02822",
+  "mono_02824": {
+    "code": "mono_02824",
     "name": "calcium magnesium",
     "tradeName": "Cal-Mag Calcium Magnesium Calmag Tablets",
     "composition": "calcium magnesium (tablet)",
@@ -116241,8 +117655,8 @@ window.monodoseDatabase = {
     "alternatives": "cal-mag calcium magnesium calmag tablets",
     "barcode": []
   },
-  "mono_02823": {
-    "code": "mono_02823",
+  "mono_02825": {
+    "code": "mono_02825",
     "name": "doxazosin dalizos",
     "tradeName": "Cardura Xl Doxazosin Dalizos Epcura 4Mg Tablets",
     "composition": "doxazosin dalizos 4mg",
@@ -116282,8 +117696,8 @@ window.monodoseDatabase = {
     "alternatives": "cardura xl doxazosin dalizos epcura 4mg tablets",
     "barcode": []
   },
-  "mono_02824": {
-    "code": "mono_02824",
+  "mono_02826": {
+    "code": "mono_02826",
     "name": "Cefprozil zilospore",
     "tradeName": "Cefzil Cefprozil 250Mg Tablets",
     "composition": "Cefprozil zilospore 250mg",
@@ -116323,8 +117737,8 @@ window.monodoseDatabase = {
     "alternatives": "Cefzil Cefprozil zilospore speczil 250mg/5ml suspension",
     "barcode": []
   },
-  "mono_02825": {
-    "code": "mono_02825",
+  "mono_02827": {
+    "code": "mono_02827",
     "name": "cefprozil zilospore",
     "tradeName": "Cefzil Cefprozil Zilospore 500Mg Tablets",
     "composition": "cefprozil zilospore 500mg",
@@ -116364,8 +117778,8 @@ window.monodoseDatabase = {
     "alternatives": "cefzil cefprozil zilospore 500mg tablets",
     "barcode": []
   },
-  "mono_02826": {
-    "code": "mono_02826",
+  "mono_02828": {
+    "code": "mono_02828",
     "name": "desogestrel ovunhipita",
     "tradeName": "Cerazette Desogestrel Ovunhipita 75 Mcg Tablets",
     "composition": "desogestrel ovunhipita 75 mcg",
@@ -116405,8 +117819,8 @@ window.monodoseDatabase = {
     "alternatives": "cerazette desogestrel ovunhipita 75 mcg tablets",
     "barcode": []
   },
-  "mono_02827": {
-    "code": "mono_02827",
+  "mono_02829": {
+    "code": "mono_02829",
     "name": "vinburnine",
     "tradeName": "Cerebrine Vinburnine 20 Mg Capsules",
     "composition": "vinburnine 20 mg",
@@ -116446,8 +117860,8 @@ window.monodoseDatabase = {
     "alternatives": "cerebrine vinburnine 20 mg capsules",
     "barcode": []
   },
-  "mono_02828": {
-    "code": "mono_02828",
+  "mono_02830": {
+    "code": "mono_02830",
     "name": "varenicline",
     "tradeName": "Champix Varenicline 0.5Mg 1Mg Tablets",
     "composition": "varenicline 0.5mg",
@@ -116487,8 +117901,8 @@ window.monodoseDatabase = {
     "alternatives": "champix varenicline 0.5mg 1mg tablets",
     "barcode": []
   },
-  "mono_02829": {
-    "code": "mono_02829",
+  "mono_02831": {
+    "code": "mono_02831",
     "name": "hydrate",
     "tradeName": "Chloral Hydrate 500Mg/5Ml Syrup",
     "composition": "hydrate 500mg/5ml",
@@ -116528,8 +117942,8 @@ window.monodoseDatabase = {
     "alternatives": "chloral hydrate 500mg/5ml syrup",
     "barcode": []
   },
-  "mono_02830": {
-    "code": "mono_02830",
+  "mono_02832": {
+    "code": "mono_02832",
     "name": "acetazolamide acetamex",
     "tradeName": "Cidamex Acetazolamide Acetamex 250Mg Tablets",
     "composition": "acetazolamide acetamex 250mg",
@@ -116569,8 +117983,8 @@ window.monodoseDatabase = {
     "alternatives": "cidamex acetazolamide acetamex 250mg tablets",
     "barcode": []
   },
-  "mono_02831": {
-    "code": "mono_02831",
+  "mono_02833": {
+    "code": "mono_02833",
     "name": "ceropram cipram",
     "tradeName": "Citalopram Ramdeep 2Mg/Ml Syrup",
     "composition": "ceropram cipram 2mg",
@@ -116610,8 +118024,8 @@ window.monodoseDatabase = {
     "alternatives": "citalopram ceropram cipram depram puracit sedopram cipramax citalofar depaway lecital ramdeep talopram 20mg 40mg tablets",
     "barcode": []
   },
-  "mono_02832": {
-    "code": "mono_02832",
+  "mono_02834": {
+    "code": "mono_02834",
     "name": "colmediten",
     "tradeName": "Colchicine Colmediten 0.500Mcg Mg Tablets",
     "composition": "colmediten 0.500mcg",
@@ -116651,8 +118065,8 @@ window.monodoseDatabase = {
     "alternatives": "colchicine colmediten 0.500mcg mg tablets",
     "barcode": []
   },
-  "mono_02833": {
-    "code": "mono_02833",
+  "mono_02835": {
+    "code": "mono_02835",
     "name": "concerta",
     "tradeName": "concerta Methylphenidate 18mg 36mg er tablets",
     "composition": "concerta 18mg",
@@ -116692,8 +118106,8 @@ window.monodoseDatabase = {
     "alternatives": "Concerta 18 ER tab",
     "barcode": []
   },
-  "mono_02834": {
-    "code": "mono_02834",
+  "mono_02836": {
+    "code": "mono_02836",
     "name": "zonisamide zonivan",
     "tradeName": "Convagran Zonisamide Zonivan 100Mg Capsules",
     "composition": "zonisamide zonivan 100mg",
@@ -116733,8 +118147,8 @@ window.monodoseDatabase = {
     "alternatives": "convagran zonisamide zonivan 100mg capsules",
     "barcode": []
   },
-  "mono_02835": {
-    "code": "mono_02835",
+  "mono_02837": {
+    "code": "mono_02837",
     "name": "heptaminol",
     "tradeName": "Corasore Heptaminol 150Mg Tablets",
     "composition": "heptaminol 150mg",
@@ -116774,8 +118188,8 @@ window.monodoseDatabase = {
     "alternatives": "corasore heptaminol 150mg tablets",
     "barcode": []
   },
-  "mono_02836": {
-    "code": "mono_02836",
+  "mono_02838": {
+    "code": "mono_02838",
     "name": "corasore",
     "tradeName": "Corasore Heptaminol Respirin 150Mg/Ml Drops",
     "composition": "corasore 150mg",
@@ -116815,8 +118229,8 @@ window.monodoseDatabase = {
     "alternatives": "Corasore tab",
     "barcode": []
   },
-  "mono_02837": {
-    "code": "mono_02837",
+  "mono_02839": {
+    "code": "mono_02839",
     "name": "heptaminol",
     "tradeName": "Corasore-N Heptaminol 305Mg/Ml Drops",
     "composition": "heptaminol 305mg",
@@ -116856,8 +118270,8 @@ window.monodoseDatabase = {
     "alternatives": "corasore-n heptaminol 305mg/ml drops",
     "barcode": []
   },
-  "mono_02838": {
-    "code": "mono_02838",
+  "mono_02840": {
+    "code": "mono_02840",
     "name": "cranberry",
     "tradeName": "Cranberry Cranberry 270Mg Capsules",
     "composition": "cranberry 270mg",
@@ -116897,8 +118311,8 @@ window.monodoseDatabase = {
     "alternatives": "cranberry cranberry 270mg capsules",
     "barcode": []
   },
-  "mono_02839": {
-    "code": "mono_02839",
+  "mono_02841": {
+    "code": "mono_02841",
     "name": "dapsone",
     "tradeName": "Dapsone 100Mg Tablets",
     "composition": "dapsone 100mg",
@@ -116938,8 +118352,8 @@ window.monodoseDatabase = {
     "alternatives": "dapsone 100mg tablets",
     "barcode": []
   },
-  "mono_02840": {
-    "code": "mono_02840",
+  "mono_02842": {
+    "code": "mono_02842",
     "name": "dapsone",
     "tradeName": "Dapsone 50Mg Tablets",
     "composition": "dapsone 50mg",
@@ -116979,8 +118393,8 @@ window.monodoseDatabase = {
     "alternatives": "Dapsone 50 tab",
     "barcode": []
   },
-  "mono_02841": {
-    "code": "mono_02841",
+  "mono_02843": {
+    "code": "mono_02843",
     "name": "Pyridostigmine",
     "tradeName": "delostigar sr Pyridostigmine 180mg tablets",
     "composition": "Pyridostigmine 180mg",
@@ -117020,8 +118434,8 @@ window.monodoseDatabase = {
     "alternatives": "delostigar sr Pyridostigmine 180mg tablets",
     "barcode": []
   },
-  "mono_02842": {
-    "code": "mono_02842",
+  "mono_02844": {
+    "code": "mono_02844",
     "name": "altiazem angitect",
     "tradeName": "Diltiazem Altiazem Angitect 60Mg Tablets",
     "composition": "altiazem angitect 60mg",
@@ -117061,8 +118475,8 @@ window.monodoseDatabase = {
     "alternatives": "diltiazem altiazem angitect 60mg tablets",
     "barcode": []
   },
-  "mono_02843": {
-    "code": "mono_02843",
+  "mono_02845": {
+    "code": "mono_02845",
     "name": "dimenhydrinate",
     "tradeName": "Dramenex Dimenhydrinate 50Mg Tablets",
     "composition": "dimenhydrinate 50mg",
@@ -117102,8 +118516,8 @@ window.monodoseDatabase = {
     "alternatives": "dramenex dimenhydrinate 50mg tablets",
     "barcode": []
   },
-  "mono_02844": {
-    "code": "mono_02844",
+  "mono_02846": {
+    "code": "mono_02846",
     "name": "bumetanide burinex",
     "tradeName": "Edemex Bumetanide Burinex 1Mg Tablets",
     "composition": "bumetanide burinex 1mg",
@@ -117143,8 +118557,8 @@ window.monodoseDatabase = {
     "alternatives": "edemex bumetanide burinex 1mg tablets",
     "barcode": []
   },
-  "mono_02845": {
-    "code": "mono_02845",
+  "mono_02847": {
+    "code": "mono_02847",
     "name": "Etilefrine vascon",
     "tradeName": "effortil Etilefrine vascon 5mg tablets",
     "composition": "Etilefrine vascon 5mg",
@@ -117184,8 +118598,8 @@ window.monodoseDatabase = {
     "alternatives": "effortil Etilefrine vascon 5mg tablets",
     "barcode": []
   },
-  "mono_02846": {
-    "code": "mono_02846",
+  "mono_02848": {
+    "code": "mono_02848",
     "name": "Sacubitril Valsartan",
     "tradeName": "entresto Sacubitril Valsartan sacutrend tablets",
     "composition": "Sacubitril Valsartan (tablet)",
@@ -117225,8 +118639,8 @@ window.monodoseDatabase = {
     "alternatives": "entresto Sacubitril Valsartan sacutrend tablets",
     "barcode": []
   },
-  "mono_02847": {
-    "code": "mono_02847",
+  "mono_02849": {
+    "code": "mono_02849",
     "name": "tenoxicam anoxicam",
     "tradeName": "Epicotil Tenoxicam Soral Tenoxil 20Mg Vial",
     "composition": "tenoxicam anoxicam 20mg",
@@ -117266,8 +118680,8 @@ window.monodoseDatabase = {
     "alternatives": "epicotil tenoxicam anoxicam soral tenocam 20mg suppositories",
     "barcode": []
   },
-  "mono_02848": {
-    "code": "mono_02848",
+  "mono_02850": {
+    "code": "mono_02850",
     "name": "nifedipine",
     "tradeName": "Epilat Nifedipine 10Mg Capsules",
     "composition": "nifedipine 10mg",
@@ -117307,8 +118721,8 @@ window.monodoseDatabase = {
     "alternatives": "epilat nifedipine 10mg capsules",
     "barcode": []
   },
-  "mono_02849": {
-    "code": "mono_02849",
+  "mono_02851": {
+    "code": "mono_02851",
     "name": "ethosuximide",
     "tradeName": "Ethoxa Ethosuximide 250Mg/5Ml Syrup",
     "composition": "ethosuximide 250mg/5ml",
@@ -117348,8 +118762,8 @@ window.monodoseDatabase = {
     "alternatives": "ethoxa ethosuximide 250mg/5ml syrup",
     "barcode": []
   },
-  "mono_02850": {
-    "code": "mono_02850",
+  "mono_02852": {
+    "code": "mono_02852",
     "name": "naltrexone Bupropion",
     "tradeName": "evaneotrim naltrexone Bupropion tablets",
     "composition": "naltrexone Bupropion (tablet)",
@@ -117389,8 +118803,8 @@ window.monodoseDatabase = {
     "alternatives": "evaneotrim naltrexone Bupropion tablets",
     "barcode": []
   },
-  "mono_02851": {
-    "code": "mono_02851",
+  "mono_02853": {
+    "code": "mono_02853",
     "name": "evastine",
     "tradeName": "evastine Ebastine ebastel 10mg tablets",
     "composition": "evastine 10mg",
@@ -117430,8 +118844,8 @@ window.monodoseDatabase = {
     "alternatives": "Evastine 10 tab",
     "barcode": []
   },
-  "mono_02852": {
-    "code": "mono_02852",
+  "mono_02854": {
+    "code": "mono_02854",
     "name": "evastine",
     "tradeName": "evastine Ebastine ebastel 5mg/5ml syrup",
     "composition": "evastine 5mg/5ml",
@@ -117471,8 +118885,8 @@ window.monodoseDatabase = {
     "alternatives": "Evastine 10 tab",
     "barcode": []
   },
-  "mono_02853": {
-    "code": "mono_02853",
+  "mono_02855": {
+    "code": "mono_02855",
     "name": "galantamine reminyl",
     "tradeName": "Famalzyl Galantamine Reminyl 4Mg/Ml Syrup",
     "composition": "galantamine reminyl 4mg",
@@ -117512,8 +118926,8 @@ window.monodoseDatabase = {
     "alternatives": "famalzyl galantamine reminyl 4mg/ml syrup",
     "barcode": []
   },
-  "mono_02854": {
-    "code": "mono_02854",
+  "mono_02856": {
+    "code": "mono_02856",
     "name": "feverfew extract",
     "tradeName": "Fewmig Feverfew Extract Mig Capsules",
     "composition": "feverfew extract (capsule)",
@@ -117553,8 +118967,8 @@ window.monodoseDatabase = {
     "alternatives": "fewmig feverfew extract mig capsules",
     "barcode": []
   },
-  "mono_02855": {
-    "code": "mono_02855",
+  "mono_02857": {
+    "code": "mono_02857",
     "name": "Ibuprofen",
     "tradeName": "flabu Ibuprofen only peopobruf 40mg/ml drops",
     "composition": "Ibuprofen 400 mg",
@@ -117594,8 +119008,8 @@ window.monodoseDatabase = {
     "alternatives": "Brufen / Megafen / Ultraflam / Ibupront",
     "barcode": []
   },
-  "mono_02856": {
-    "code": "mono_02856",
+  "mono_02858": {
+    "code": "mono_02858",
     "name": "deflazacort",
     "tradeName": "Flacort Deflazacort 6Mg 30Mg Tablets",
     "composition": "deflazacort 6mg",
@@ -117635,8 +119049,8 @@ window.monodoseDatabase = {
     "alternatives": "flacort deflazacort 6mg 30mg tablets",
     "barcode": []
   },
-  "mono_02857": {
-    "code": "mono_02857",
+  "mono_02859": {
+    "code": "mono_02859",
     "name": "sucralfate",
     "tradeName": "Gastrofait Sucralfate 1000Mg 1Gm Tablets",
     "composition": "sucralfate 1000mg",
@@ -117676,8 +119090,8 @@ window.monodoseDatabase = {
     "alternatives": "gastrofait sucralfate 1000mg 1gm tablets",
     "barcode": []
   },
-  "mono_02858": {
-    "code": "mono_02858",
+  "mono_02860": {
+    "code": "mono_02860",
     "name": "gemzar",
     "tradeName": "Gemzar Gemcitabine 200Mg Vial",
     "composition": "gemzar 200mg",
@@ -117717,8 +119131,8 @@ window.monodoseDatabase = {
     "alternatives": "No registered Egyptian trade alternatives recorded",
     "barcode": []
   },
-  "mono_02859": {
-    "code": "mono_02859",
+  "mono_02861": {
+    "code": "mono_02861",
     "name": "gemzar",
     "tradeName": "Gemzar Gemcitabine Eupizar 1000Mg Vial",
     "composition": "gemzar 1000mg",
@@ -117758,8 +119172,8 @@ window.monodoseDatabase = {
     "alternatives": "No registered Egyptian trade alternatives recorded",
     "barcode": []
   },
-  "mono_02860": {
-    "code": "mono_02860",
+  "mono_02862": {
+    "code": "mono_02862",
     "name": "furosemide",
     "tradeName": "Genesemide Furosemide 20Mg/5Ml Syrup",
     "composition": "furosemide 20mg/5ml",
@@ -117799,8 +119213,8 @@ window.monodoseDatabase = {
     "alternatives": "genesemide furosemide 20mg/5ml syrup",
     "barcode": []
   },
-  "mono_02861": {
-    "code": "mono_02861",
+  "mono_02863": {
+    "code": "mono_02863",
     "name": "fingolimod sphingomod",
     "tradeName": "Gilenya Fingolimod Sphingomod 0.5Mg Capsules",
     "composition": "fingolimod sphingomod 0.5mg",
@@ -117840,8 +119254,8 @@ window.monodoseDatabase = {
     "alternatives": "gilenya fingolimod sphingomod 0.5mg capsules",
     "barcode": []
   },
-  "mono_02862": {
-    "code": "mono_02862",
+  "mono_02864": {
+    "code": "mono_02864",
     "name": "ginseng only",
     "tradeName": "Ginsana Ginseng Only 100Mg Capsules",
     "composition": "ginseng only 100mg",
@@ -117881,8 +119295,8 @@ window.monodoseDatabase = {
     "alternatives": "ginsana ginseng only 100mg capsules",
     "barcode": []
   },
-  "mono_02863": {
-    "code": "mono_02863",
+  "mono_02865": {
+    "code": "mono_02865",
     "name": "glucagen",
     "tradeName": "Glucagen Glucagon 1Mg/Ml Vial",
     "composition": "glucagen 1mg",
@@ -117922,8 +119336,8 @@ window.monodoseDatabase = {
     "alternatives": "No registered Egyptian trade alternatives recorded",
     "barcode": []
   },
-  "mono_02864": {
-    "code": "mono_02864",
+  "mono_02866": {
+    "code": "mono_02866",
     "name": "gonapure",
     "tradeName": "Gonapure Follitropin Alpha Gonal-F Pen Vial",
     "composition": "gonapure (vial)",
@@ -117963,8 +119377,8 @@ window.monodoseDatabase = {
     "alternatives": "No registered Egyptian trade alternatives recorded",
     "barcode": []
   },
-  "mono_02865": {
-    "code": "mono_02865",
+  "mono_02867": {
+    "code": "mono_02867",
     "name": "Palmitoylethanolamide pea",
     "tradeName": "gybenash Palmitoylethanolamide pea 600mg capsules",
     "composition": "Palmitoylethanolamide pea 600mg",
@@ -118004,8 +119418,8 @@ window.monodoseDatabase = {
     "alternatives": "gybenash Palmitoylethanolamide pea 600mg capsules",
     "barcode": []
   },
-  "mono_02866": {
-    "code": "mono_02866",
+  "mono_02868": {
+    "code": "mono_02868",
     "name": "holoxan",
     "tradeName": "Holoxan Ifosfamide Isoxan 1000Mg 1Gm Vial",
     "composition": "holoxan 1000mg",
@@ -118045,8 +119459,8 @@ window.monodoseDatabase = {
     "alternatives": "No registered Egyptian trade alternatives recorded",
     "barcode": []
   },
-  "mono_02867": {
-    "code": "mono_02867",
+  "mono_02869": {
+    "code": "mono_02869",
     "name": "holoxan",
     "tradeName": "Holoxan Ifosfamide Isoxan 2000Mg 2Gm Vial",
     "composition": "holoxan 2000mg",
@@ -118086,8 +119500,8 @@ window.monodoseDatabase = {
     "alternatives": "No registered Egyptian trade alternatives recorded",
     "barcode": []
   },
-  "mono_02868": {
-    "code": "mono_02868",
+  "mono_02870": {
+    "code": "mono_02870",
     "name": "indomethacin",
     "tradeName": "indomethacin Indometacin 50mg capsules",
     "composition": "indomethacin 50mg",
@@ -118127,8 +119541,8 @@ window.monodoseDatabase = {
     "alternatives": "Indomethacin 50 cap",
     "barcode": []
   },
-  "mono_02869": {
-    "code": "mono_02869",
+  "mono_02871": {
+    "code": "mono_02871",
     "name": "kadcyla",
     "tradeName": "Kadcyla Ado-Trastuzumab Emtansine 100Mg Vial",
     "composition": "kadcyla 100mg",
@@ -118168,8 +119582,8 @@ window.monodoseDatabase = {
     "alternatives": "No registered Egyptian trade alternatives recorded",
     "barcode": []
   },
-  "mono_02870": {
-    "code": "mono_02870",
+  "mono_02872": {
+    "code": "mono_02872",
     "name": "kadcyla",
     "tradeName": "Kadcyla Ado-Trastuzumab Emtansine 160Mg Vial",
     "composition": "kadcyla 160mg",
@@ -118209,8 +119623,8 @@ window.monodoseDatabase = {
     "alternatives": "No registered Egyptian trade alternatives recorded",
     "barcode": []
   },
-  "mono_02871": {
-    "code": "mono_02871",
+  "mono_02873": {
+    "code": "mono_02873",
     "name": "kenacort",
     "tradeName": "kenacort Triamcinolone 4mg tablets",
     "composition": "kenacort 4mg",
@@ -118250,8 +119664,8 @@ window.monodoseDatabase = {
     "alternatives": "Kenacort tab",
     "barcode": []
   },
-  "mono_02872": {
-    "code": "mono_02872",
+  "mono_02874": {
+    "code": "mono_02874",
     "name": "ketoprofen mepacofen",
     "tradeName": "Ketofan Ketoprofen Mepacofen 100Mg Sr Capsules",
     "composition": "ketoprofen mepacofen 100mg",
@@ -118291,8 +119705,8 @@ window.monodoseDatabase = {
     "alternatives": "ketofan ketoprofen mepacofen 100mg sr capsules",
     "barcode": []
   },
-  "mono_02873": {
-    "code": "mono_02873",
+  "mono_02875": {
+    "code": "mono_02875",
     "name": "lafurex",
     "tradeName": "Lafurex Furosemide Furoretic 20Mg Tablets",
     "composition": "lafurex 20mg",
@@ -118332,8 +119746,8 @@ window.monodoseDatabase = {
     "alternatives": "Lafurex 20 tab",
     "barcode": []
   },
-  "mono_02874": {
-    "code": "mono_02874",
+  "mono_02876": {
+    "code": "mono_02876",
     "name": "digoxin cardixin",
     "tradeName": "Lanoxin Digoxin Cardixin 0.25Mg Tablets",
     "composition": "digoxin cardixin 0.25mg",
@@ -118373,8 +119787,8 @@ window.monodoseDatabase = {
     "alternatives": "lanoxin digoxin cardixin 0.25mg tablets",
     "barcode": []
   },
-  "mono_02875": {
-    "code": "mono_02875",
+  "mono_02877": {
+    "code": "mono_02877",
     "name": "digoxin digoxicard",
     "tradeName": "Lanoxin Digoxin Digoxicard 0.050Mcg Mg/Ml Syrup",
     "composition": "digoxin digoxicard 0.050mcg",
@@ -118414,8 +119828,8 @@ window.monodoseDatabase = {
     "alternatives": "lanoxin digoxin digoxicard 0.050mcg mg/ml syrup",
     "barcode": []
   },
-  "mono_02876": {
-    "code": "mono_02876",
+  "mono_02878": {
+    "code": "mono_02878",
     "name": "bisacodyl",
     "tradeName": "Laxin Bisacodyl 10Mg Tablets",
     "composition": "bisacodyl 10mg",
@@ -118455,8 +119869,8 @@ window.monodoseDatabase = {
     "alternatives": "laxin bisacodyl 10mg tablets",
     "barcode": []
   },
-  "mono_02877": {
-    "code": "mono_02877",
+  "mono_02879": {
+    "code": "mono_02879",
     "name": "chlorambucil",
     "tradeName": "Leukeran Chlorambucil 2Mg Tablets",
     "composition": "chlorambucil 2mg",
@@ -118496,8 +119910,8 @@ window.monodoseDatabase = {
     "alternatives": "leukeran chlorambucil 2mg tablets",
     "barcode": []
   },
-  "mono_02878": {
-    "code": "mono_02878",
+  "mono_02880": {
+    "code": "mono_02880",
     "name": "Fortalase alpha",
     "tradeName": "Limitless Magnesium Only 150Mg Tablets",
     "composition": "Fortalase alpha 150mg",
@@ -118537,8 +119951,8 @@ window.monodoseDatabase = {
     "alternatives": "Limitless Fortalase alpha amylase 1500U.CEIP/5ml syrup",
     "barcode": []
   },
-  "mono_02879": {
-    "code": "mono_02879",
+  "mono_02881": {
+    "code": "mono_02881",
     "name": "meclofenoxate",
     "tradeName": "Lucidril Meclofenoxate 500Mg Tablets",
     "composition": "meclofenoxate 500mg",
@@ -118578,8 +119992,8 @@ window.monodoseDatabase = {
     "alternatives": "lucidril meclofenoxate 500mg tablets",
     "barcode": []
   },
-  "mono_02880": {
-    "code": "mono_02880",
+  "mono_02882": {
+    "code": "mono_02882",
     "name": "meclofenoxate noodril",
     "tradeName": "Lucidril Meclofenoxate Noodril 250Mg Tablets",
     "composition": "meclofenoxate noodril 250mg",
@@ -118619,8 +120033,8 @@ window.monodoseDatabase = {
     "alternatives": "lucidril meclofenoxate noodril 250mg tablets",
     "barcode": []
   },
-  "mono_02881": {
-    "code": "mono_02881",
+  "mono_02883": {
+    "code": "mono_02883",
     "name": "luciforte",
     "tradeName": "Luciforte Meclofenoxate 500Mg Vial",
     "composition": "luciforte 500mg",
@@ -118660,8 +120074,8 @@ window.monodoseDatabase = {
     "alternatives": "No registered Egyptian trade alternatives recorded",
     "barcode": []
   },
-  "mono_02882": {
-    "code": "mono_02882",
+  "mono_02884": {
+    "code": "mono_02884",
     "name": "Calcium Acetate",
     "tradeName": "marcal Calcium Acetate only rendose 700mg tablets",
     "composition": "Calcium Acetate 700mg",
@@ -118701,8 +120115,8 @@ window.monodoseDatabase = {
     "alternatives": "marcal Calcium Acetate only rendose 700mg tablets",
     "barcode": []
   },
-  "mono_02883": {
-    "code": "mono_02883",
+  "mono_02885": {
+    "code": "mono_02885",
     "name": "meclopram",
     "tradeName": "meclopram Metoclopramide primperan 2mg/ml drops",
     "composition": "meclopram 2mg",
@@ -118742,8 +120156,8 @@ window.monodoseDatabase = {
     "alternatives": "Meclopram syrup",
     "barcode": []
   },
-  "mono_02884": {
-    "code": "mono_02884",
+  "mono_02886": {
+    "code": "mono_02886",
     "name": "megestrol",
     "tradeName": "Megace Megestrol 160Mg Tablets",
     "composition": "megestrol 160mg",
@@ -118783,8 +120197,8 @@ window.monodoseDatabase = {
     "alternatives": "megace megestrol 160mg tablets",
     "barcode": []
   },
-  "mono_02885": {
-    "code": "mono_02885",
+  "mono_02887": {
+    "code": "mono_02887",
     "name": "melatonin",
     "tradeName": "Melatonin 3Mg Capsules",
     "composition": "melatonin 3mg",
@@ -118824,8 +120238,8 @@ window.monodoseDatabase = {
     "alternatives": "melatonin 3mg capsules",
     "barcode": []
   },
-  "mono_02886": {
-    "code": "mono_02886",
+  "mono_02888": {
+    "code": "mono_02888",
     "name": "dozova",
     "tradeName": "Melatonin Dozova 5Mg Tablets",
     "composition": "dozova 5mg",
@@ -118865,8 +120279,8 @@ window.monodoseDatabase = {
     "alternatives": "melatonin dozova 5mg tablets",
     "barcode": []
   },
-  "mono_02887": {
-    "code": "mono_02887",
+  "mono_02889": {
+    "code": "mono_02889",
     "name": "Dexamethasone",
     "tradeName": "methabiogen Dexamethasone 8mg tablets",
     "composition": "Dexamethasone 8mg",
@@ -118906,8 +120320,8 @@ window.monodoseDatabase = {
     "alternatives": "methabiogen Dexamethasone 8mg tablets",
     "barcode": []
   },
-  "mono_02888": {
-    "code": "mono_02888",
+  "mono_02890": {
+    "code": "mono_02890",
     "name": "dolophine",
     "tradeName": "Methadone Dolophine 5Mg 10Mg 20Mg 40Mg Tablets",
     "composition": "dolophine 5mg",
@@ -118947,8 +120361,8 @@ window.monodoseDatabase = {
     "alternatives": "methadone dolophine 5mg 10mg 20mg 40mg tablets",
     "barcode": []
   },
-  "mono_02889": {
-    "code": "mono_02889",
+  "mono_02891": {
+    "code": "mono_02891",
     "name": "levonorgestrel Lactevenor",
     "tradeName": "microlut levonorgestrel 0.03mg Lactevenor tablets",
     "composition": "levonorgestrel Lactevenor 0.03mg",
@@ -118988,8 +120402,8 @@ window.monodoseDatabase = {
     "alternatives": "microlut levonorgestrel 0.03mg Lactevenor tablets",
     "barcode": []
   },
-  "mono_02890": {
-    "code": "mono_02890",
+  "mono_02892": {
+    "code": "mono_02892",
     "name": "midazolam",
     "tradeName": "Midathetic Midazolam 7.5Mg Tablets",
     "composition": "midazolam 7.5mg",
@@ -119029,8 +120443,8 @@ window.monodoseDatabase = {
     "alternatives": "midathetic midazolam 7.5mg tablets",
     "barcode": []
   },
-  "mono_02891": {
-    "code": "mono_02891",
+  "mono_02893": {
+    "code": "mono_02893",
     "name": "midodrine",
     "tradeName": "Midodrine 2.5Mg Tablets",
     "composition": "midodrine 2.5mg",
@@ -119070,8 +120484,8 @@ window.monodoseDatabase = {
     "alternatives": "midodrine 2.5mg tablets",
     "barcode": []
   },
-  "mono_02892": {
-    "code": "mono_02892",
+  "mono_02894": {
+    "code": "mono_02894",
     "name": "minidiab",
     "tradeName": "Minidiab Glipizide Glupizide 5Mg Tablets",
     "composition": "minidiab 5mg",
@@ -119111,8 +120525,8 @@ window.monodoseDatabase = {
     "alternatives": "Minidiab tab",
     "barcode": []
   },
-  "mono_02893": {
-    "code": "mono_02893",
+  "mono_02895": {
+    "code": "mono_02895",
     "name": "minipress",
     "tradeName": "Minipress Prazosin 1Mg 2Mg Tablets",
     "composition": "minipress 1mg",
@@ -119152,8 +120566,8 @@ window.monodoseDatabase = {
     "alternatives": "Minipress 1 tab",
     "barcode": []
   },
-  "mono_02894": {
-    "code": "mono_02894",
+  "mono_02896": {
+    "code": "mono_02896",
     "name": "melt desmopressin",
     "tradeName": "Minirin Melt Desmopressin 120Mcg Tablets",
     "composition": "melt desmopressin 120mcg",
@@ -119193,8 +120607,8 @@ window.monodoseDatabase = {
     "alternatives": "minirin melt desmopressin 120mcg tablets",
     "barcode": []
   },
-  "mono_02895": {
-    "code": "mono_02895",
+  "mono_02897": {
+    "code": "mono_02897",
     "name": "melt desmopressin",
     "tradeName": "Minirin Melt Desmopressin 60Mcg Tablets",
     "composition": "melt desmopressin 60mcg",
@@ -119234,8 +120648,8 @@ window.monodoseDatabase = {
     "alternatives": "minirin melt desmopressin 60mcg tablets",
     "barcode": []
   },
-  "mono_02896": {
-    "code": "mono_02896",
+  "mono_02898": {
+    "code": "mono_02898",
     "name": "misoprostol cytotec",
     "tradeName": "Misotac Misoprostol Cytotec 200Mcg Tablets",
     "composition": "misoprostol cytotec 200mcg",
@@ -119275,8 +120689,8 @@ window.monodoseDatabase = {
     "alternatives": "misotac misoprostol cytotec 200mcg tablets",
     "barcode": []
   },
-  "mono_02897": {
-    "code": "mono_02897",
+  "mono_02899": {
+    "code": "mono_02899",
     "name": "monomak",
     "tradeName": "Monomak Isosorbide-5-Mononitrate 20Mg Tablets",
     "composition": "monomak 20mg",
@@ -119316,8 +120730,8 @@ window.monodoseDatabase = {
     "alternatives": "monomak isosorbide-5-mononitrate 20mg tablets",
     "barcode": []
   },
-  "mono_02898": {
-    "code": "mono_02898",
+  "mono_02900": {
+    "code": "mono_02900",
     "name": "monopril",
     "tradeName": "Monopril Fosinopril 10Mg 20Mg Tablets",
     "composition": "monopril 10mg",
@@ -119357,8 +120771,8 @@ window.monodoseDatabase = {
     "alternatives": "Monopril 10 tab",
     "barcode": []
   },
-  "mono_02899": {
-    "code": "mono_02899",
+  "mono_02901": {
+    "code": "mono_02901",
     "name": "mosapride",
     "tradeName": "Mosapride 2.5Mg Tablets",
     "composition": "mosapride 2.5mg",
@@ -119398,8 +120812,8 @@ window.monodoseDatabase = {
     "alternatives": "mosapride 2.5mg tablets",
     "barcode": []
   },
-  "mono_02900": {
-    "code": "mono_02900",
+  "mono_02902": {
+    "code": "mono_02902",
     "name": "continus morphine",
     "tradeName": "Mst Continus Morphine 30Mg Tablets",
     "composition": "continus morphine 30mg",
@@ -119439,8 +120853,8 @@ window.monodoseDatabase = {
     "alternatives": "mst continus morphine 30mg tablets",
     "barcode": []
   },
-  "mono_02901": {
-    "code": "mono_02901",
+  "mono_02903": {
+    "code": "mono_02903",
     "name": "guaifenesin",
     "tradeName": "Mucinex Guaifenesin 600Mg Tablets",
     "composition": "guaifenesin 600mg",
@@ -119480,8 +120894,8 @@ window.monodoseDatabase = {
     "alternatives": "mucinex guaifenesin 600mg tablets",
     "barcode": []
   },
-  "mono_02902": {
-    "code": "mono_02902",
+  "mono_02904": {
+    "code": "mono_02904",
     "name": "mucosin",
     "tradeName": "mucosin plus Ambroxol Guaifenesin syrup",
     "composition": "mucosin (syrup)",
@@ -119521,8 +120935,8 @@ window.monodoseDatabase = {
     "alternatives": "Mucosin Plus syrup",
     "barcode": []
   },
-  "mono_02903": {
-    "code": "mono_02903",
+  "mono_02905": {
+    "code": "mono_02905",
     "name": "mucotec",
     "tradeName": "Mucotec Erdosteine 150Mg Capsules",
     "composition": "mucotec 150mg",
@@ -119562,8 +120976,8 @@ window.monodoseDatabase = {
     "alternatives": "Mucotec 150 cap",
     "barcode": []
   },
-  "mono_02904": {
-    "code": "mono_02904",
+  "mono_02906": {
+    "code": "mono_02906",
     "name": "baclofen",
     "tradeName": "Mylobac Baclofen 10Mg 25Mg Tablets",
     "composition": "baclofen 10mg",
@@ -119603,8 +121017,8 @@ window.monodoseDatabase = {
     "alternatives": "mylobac baclofen 10mg 25mg tablets",
     "barcode": []
   },
-  "mono_02905": {
-    "code": "mono_02905",
+  "mono_02907": {
+    "code": "mono_02907",
     "name": "nalidixic acid",
     "tradeName": "Nalidram Nalidixic Acid 500Mg Tablets",
     "composition": "nalidixic acid 500mg",
@@ -119644,8 +121058,8 @@ window.monodoseDatabase = {
     "alternatives": "nalidram nalidixic acid 500mg tablets",
     "barcode": []
   },
-  "mono_02906": {
-    "code": "mono_02906",
+  "mono_02908": {
+    "code": "mono_02908",
     "name": "naratriptan",
     "tradeName": "Naredrix Naratriptan 2.5Mg Tablets",
     "composition": "naratriptan 2.5mg",
@@ -119685,8 +121099,8 @@ window.monodoseDatabase = {
     "alternatives": "naredrix naratriptan 2.5mg tablets",
     "barcode": []
   },
-  "mono_02907": {
-    "code": "mono_02907",
+  "mono_02909": {
+    "code": "mono_02909",
     "name": "Obeticholic Acid",
     "tradeName": "nashiliv Obeticholic Acid 5mg 10mg tablets",
     "composition": "Obeticholic Acid 5mg",
@@ -119726,8 +121140,8 @@ window.monodoseDatabase = {
     "alternatives": "nashiliv Obeticholic Acid 5mg 10mg tablets",
     "barcode": []
   },
-  "mono_02908": {
-    "code": "mono_02908",
+  "mono_02910": {
+    "code": "mono_02910",
     "name": "vinorelbine",
     "tradeName": "Navelbine Vinorelbine 10Mg/Ml Vial",
     "composition": "vinorelbine 10mg",
@@ -119767,8 +121181,8 @@ window.monodoseDatabase = {
     "alternatives": "navelbine vinorelbine 30mg tablets",
     "barcode": []
   },
-  "mono_02909": {
-    "code": "mono_02909",
+  "mono_02911": {
+    "code": "mono_02911",
     "name": "vinorelbine",
     "tradeName": "Navelbine Vinorelbine 20Mg Tablets",
     "composition": "vinorelbine 20mg",
@@ -119808,8 +121222,8 @@ window.monodoseDatabase = {
     "alternatives": "navelbine vinorelbine 20mg tablets",
     "barcode": []
   },
-  "mono_02910": {
-    "code": "mono_02910",
+  "mono_02912": {
+    "code": "mono_02912",
     "name": "vinorelbine",
     "tradeName": "Navelbine Vinorelbine 30Mg Tablets",
     "composition": "vinorelbine 30mg",
@@ -119849,8 +121263,8 @@ window.monodoseDatabase = {
     "alternatives": "navelbine vinorelbine 30mg tablets",
     "barcode": []
   },
-  "mono_02911": {
-    "code": "mono_02911",
+  "mono_02913": {
+    "code": "mono_02913",
     "name": "sulphate sulfate",
     "tradeName": "Neomycin Sulphate Sulfate 500Mg Tablets",
     "composition": "sulphate sulfate 500mg",
@@ -119890,8 +121304,8 @@ window.monodoseDatabase = {
     "alternatives": "neomycin sulphate sulfate 500mg tablets",
     "barcode": []
   },
-  "mono_02912": {
-    "code": "mono_02912",
+  "mono_02914": {
+    "code": "mono_02914",
     "name": "nimodipine futanorm",
     "tradeName": "Nimotop Nimodipine Futanorm 30Mg Tablets Capsules",
     "composition": "nimodipine futanorm 30mg",
@@ -119931,8 +121345,8 @@ window.monodoseDatabase = {
     "alternatives": "nimotop nimodipine futanorm 30mg tablets capsules",
     "barcode": []
   },
-  "mono_02913": {
-    "code": "mono_02913",
+  "mono_02915": {
+    "code": "mono_02915",
     "name": "orphenadrin",
     "tradeName": "Norflex Orphenadrin 100Mg Tablets",
     "composition": "orphenadrin 100mg",
@@ -119972,8 +121386,8 @@ window.monodoseDatabase = {
     "alternatives": "norflex orphenadrin 100mg tablets",
     "barcode": []
   },
-  "mono_02914": {
-    "code": "mono_02914",
+  "mono_02916": {
+    "code": "mono_02916",
     "name": "bumadizone",
     "tradeName": "Octomotol Bumadizone 110Mg Tablets",
     "composition": "bumadizone 110mg",
@@ -120013,8 +121427,8 @@ window.monodoseDatabase = {
     "alternatives": "octomotol bumadizone 110mg tablets",
     "barcode": []
   },
-  "mono_02915": {
-    "code": "mono_02915",
+  "mono_02917": {
+    "code": "mono_02917",
     "name": "omeprazole epirazole",
     "tradeName": "Omez Omeprazole Losec Napizole Risek 40Mg Vial",
     "composition": "omeprazole epirazole 40mg",
@@ -120054,8 +121468,8 @@ window.monodoseDatabase = {
     "alternatives": "omez omeprazole epirazole estohalt gastroloc fastcure gasec gastrazole healsec losec omepak risek hyposec midagasec napizole omegastazole omepral omisec pepzol ulstop 10mg 20mg 40mg capsules tablets",
     "barcode": []
   },
-  "mono_02916": {
-    "code": "mono_02916",
+  "mono_02918": {
+    "code": "mono_02918",
     "name": "acemetacin ostmap",
     "tradeName": "Ost-Map Acemetacin Ostmap Stada 60Mg Capsules",
     "composition": "acemetacin ostmap 60mg",
@@ -120095,8 +121509,8 @@ window.monodoseDatabase = {
     "alternatives": "ost-map acemetacin ostmap stada 60mg capsules",
     "barcode": []
   },
-  "mono_02917": {
-    "code": "mono_02917",
+  "mono_02919": {
+    "code": "mono_02919",
     "name": "raloxifene debista",
     "tradeName": "Osteo Raloxifene Debista Evista 60Mg Tablets",
     "composition": "raloxifene debista 60mg",
@@ -120136,8 +121550,8 @@ window.monodoseDatabase = {
     "alternatives": "osteo raloxifene debista evista 60mg tablets",
     "barcode": []
   },
-  "mono_02918": {
-    "code": "mono_02918",
+  "mono_02920": {
+    "code": "mono_02920",
     "name": "pyrazinamide ptb",
     "tradeName": "P.T.B Pyrazinamide Ptb Pyrazide 500Mg Tablets",
     "composition": "pyrazinamide ptb 500mg",
@@ -120177,8 +121591,8 @@ window.monodoseDatabase = {
     "alternatives": "p.t.b pyrazinamide ptb pyrazide 500mg tablets",
     "barcode": []
   },
-  "mono_02919": {
-    "code": "mono_02919",
+  "mono_02921": {
+    "code": "mono_02921",
     "name": "entacapone comtapone",
     "tradeName": "Parkicapone Entacapone Comtapone 200Mg Tablets",
     "composition": "entacapone comtapone 200mg",
@@ -120218,8 +121632,8 @@ window.monodoseDatabase = {
     "alternatives": "parkicapone entacapone comtapone 200mg tablets",
     "barcode": []
   },
-  "mono_02920": {
-    "code": "mono_02920",
+  "mono_02922": {
+    "code": "mono_02922",
     "name": "perjeta",
     "tradeName": "Perjeta Pertuzumab 420Mg/14Ml Vial",
     "composition": "perjeta 420mg/14ml",
@@ -120259,8 +121673,8 @@ window.monodoseDatabase = {
     "alternatives": "No registered Egyptian trade alternatives recorded",
     "barcode": []
   },
-  "mono_02921": {
-    "code": "mono_02921",
+  "mono_02923": {
+    "code": "mono_02923",
     "name": "phenytoin ipanten",
     "tradeName": "Phenytin Phenytoin Ipanten Epanutin 100Mg Capsules",
     "composition": "phenytoin ipanten 100mg",
@@ -120300,8 +121714,8 @@ window.monodoseDatabase = {
     "alternatives": "phenytin phenytoin ipanten epanutin 100mg capsules",
     "barcode": []
   },
-  "mono_02922": {
-    "code": "mono_02922",
+  "mono_02924": {
+    "code": "mono_02924",
     "name": "phenytin",
     "tradeName": "Phenytin Phenytoin Ipanten Pharotoin 50Mg Capsules",
     "composition": "phenytin 50mg",
@@ -120341,8 +121755,8 @@ window.monodoseDatabase = {
     "alternatives": "Phenytin 50 cap",
     "barcode": []
   },
-  "mono_02923": {
-    "code": "mono_02923",
+  "mono_02925": {
+    "code": "mono_02925",
     "name": "mefenamic acid",
     "tradeName": "Pono Mefenamic Acid Mefentan 250Mg Capsules",
     "composition": "mefenamic acid 250mg",
@@ -120382,8 +121796,8 @@ window.monodoseDatabase = {
     "alternatives": "pono mefenamic acid mefentan 250mg capsules",
     "barcode": []
   },
-  "mono_02924": {
-    "code": "mono_02924",
+  "mono_02926": {
+    "code": "mono_02926",
     "name": "potassium",
     "tradeName": "Potassium Chloride M Kcl Only 165Mg/5Ml Syrup",
     "composition": "potassium 165mg/5ml",
@@ -120423,8 +121837,8 @@ window.monodoseDatabase = {
     "alternatives": "Potassium M syrup",
     "barcode": []
   },
-  "mono_02925": {
-    "code": "mono_02925",
+  "mono_02927": {
+    "code": "mono_02927",
     "name": "primaquine",
     "tradeName": "Primaquine 2.5Mg 7.5Mg 15Mg 30Mg Tablets",
     "composition": "primaquine 2.5mg",
@@ -120464,8 +121878,8 @@ window.monodoseDatabase = {
     "alternatives": "primaquine 2.5mg 7.5mg 15mg 30mg tablets",
     "barcode": []
   },
-  "mono_02926": {
-    "code": "mono_02926",
+  "mono_02928": {
+    "code": "mono_02928",
     "name": "primox",
     "tradeName": "Primox Moexipril Minotensol 7.5Mg 15Mg Tablets",
     "composition": "primox 7.5mg",
@@ -120505,8 +121919,8 @@ window.monodoseDatabase = {
     "alternatives": "Primox 7.5 tab",
     "barcode": []
   },
-  "mono_02927": {
-    "code": "mono_02927",
+  "mono_02929": {
+    "code": "mono_02929",
     "name": "protamine",
     "tradeName": "Protamine Sulphate 10Mg/Ml Vial",
     "composition": "protamine 10mg",
@@ -120546,8 +121960,8 @@ window.monodoseDatabase = {
     "alternatives": "No registered Egyptian trade alternatives recorded",
     "barcode": []
   },
-  "mono_02928": {
-    "code": "mono_02928",
+  "mono_02930": {
+    "code": "mono_02930",
     "name": "medroxyprogesterone",
     "tradeName": "Provera Medroxyprogesterone 5Mg Tablets",
     "composition": "medroxyprogesterone 5mg",
@@ -120587,8 +122001,8 @@ window.monodoseDatabase = {
     "alternatives": "provera medroxyprogesterone 5mg tablets",
     "barcode": []
   },
-  "mono_02929": {
-    "code": "mono_02929",
+  "mono_02931": {
+    "code": "mono_02931",
     "name": "halphabarol",
     "tradeName": "Proximol Halphabarol 0.4Mg Tablets",
     "composition": "halphabarol 0.4mg",
@@ -120628,8 +122042,8 @@ window.monodoseDatabase = {
     "alternatives": "proximol halphabarol 0.4mg tablets",
     "barcode": []
   },
-  "mono_02930": {
-    "code": "mono_02930",
+  "mono_02932": {
+    "code": "mono_02932",
     "name": "ranolazine",
     "tradeName": "Ranexa Ranolazine 500Mg Tablets",
     "composition": "ranolazine 500mg",
@@ -120669,8 +122083,8 @@ window.monodoseDatabase = {
     "alternatives": "ranexa ranolazine 500mg tablets",
     "barcode": []
   },
-  "mono_02931": {
-    "code": "mono_02931",
+  "mono_02933": {
+    "code": "mono_02933",
     "name": "remicade",
     "tradeName": "Remicade Infliximab 100Mg Vial",
     "composition": "remicade 100mg",
@@ -120710,8 +122124,8 @@ window.monodoseDatabase = {
     "alternatives": "No registered Egyptian trade alternatives recorded",
     "barcode": []
   },
-  "mono_02932": {
-    "code": "mono_02932",
+  "mono_02934": {
+    "code": "mono_02934",
     "name": "aescin",
     "tradeName": "Reparil Aescin 40Mg Tablets",
     "composition": "aescin 40mg",
@@ -120751,8 +122165,8 @@ window.monodoseDatabase = {
     "alternatives": "reparil aescin 40mg tablets",
     "barcode": []
   },
-  "mono_02933": {
-    "code": "mono_02933",
+  "mono_02935": {
+    "code": "mono_02935",
     "name": "rybelsus",
     "tradeName": "Rybelsus Semaglutide Tablets",
     "composition": "rybelsus (tablet)",
@@ -120792,8 +122206,8 @@ window.monodoseDatabase = {
     "alternatives": "Rybelsus tab",
     "barcode": []
   },
-  "mono_02934": {
-    "code": "mono_02934",
+  "mono_02936": {
+    "code": "mono_02936",
     "name": "memantine",
     "tradeName": "Serinomantine Memantine 7Mg 14Mg 28Mg Er Capsules",
     "composition": "memantine 7mg",
@@ -120833,8 +122247,8 @@ window.monodoseDatabase = {
     "alternatives": "serinomantine memantine 7mg 14mg 28mg er capsules",
     "barcode": []
   },
-  "mono_02935": {
-    "code": "mono_02935",
+  "mono_02937": {
+    "code": "mono_02937",
     "name": "dicyclomine",
     "tradeName": "Spasmorest Dicyclomine 10Mg Tablets",
     "composition": "dicyclomine 10mg",
@@ -120874,8 +122288,8 @@ window.monodoseDatabase = {
     "alternatives": "spasmorest dicyclomine 10mg tablets",
     "barcode": []
   },
-  "mono_02936": {
-    "code": "mono_02936",
+  "mono_02938": {
+    "code": "mono_02938",
     "name": "spasmorest",
     "tradeName": "Spasmorest Dicyclomine 20Mg Tablets",
     "composition": "spasmorest 20mg",
@@ -120915,8 +122329,8 @@ window.monodoseDatabase = {
     "alternatives": "Spasmorest 20 tab",
     "barcode": []
   },
-  "mono_02937": {
-    "code": "mono_02937",
+  "mono_02939": {
+    "code": "mono_02939",
     "name": "tianeptine frustless",
     "tradeName": "Stablon Tianeptine Frustless 12.5Mg Tablets",
     "composition": "tianeptine frustless 12.5mg",
@@ -120956,8 +122370,8 @@ window.monodoseDatabase = {
     "alternatives": "stablon tianeptine frustless 12.5mg tablets",
     "barcode": []
   },
-  "mono_02938": {
-    "code": "mono_02938",
+  "mono_02940": {
+    "code": "mono_02940",
     "name": "syrup",
     "tradeName": "Syrup / Suspension / Drops",
     "composition": "syrup (suspension)",
@@ -120997,8 +122411,8 @@ window.monodoseDatabase = {
     "alternatives": "syrup / suspension / drops",
     "barcode": []
   },
-  "mono_02939": {
-    "code": "mono_02939",
+  "mono_02941": {
+    "code": "mono_02941",
     "name": "tabine",
     "tradeName": "Tabine Cytarabine 1Gm 1000Mg/10Ml Ampoule Vial",
     "composition": "tabine 1gm",
@@ -121038,8 +122452,8 @@ window.monodoseDatabase = {
     "alternatives": "Tabine 100 amp",
     "barcode": []
   },
-  "mono_02940": {
-    "code": "mono_02940",
+  "mono_02942": {
+    "code": "mono_02942",
     "name": "tamoxifen",
     "tradeName": "Tamoxifen 20Mg Tablets",
     "composition": "tamoxifen 20mg",
@@ -121079,8 +122493,8 @@ window.monodoseDatabase = {
     "alternatives": "tamoxifen 20mg tablets",
     "barcode": []
   },
-  "mono_02941": {
-    "code": "mono_02941",
+  "mono_02943": {
+    "code": "mono_02943",
     "name": "nolvadex",
     "tradeName": "Tamoxifen Nolvadex 10Mg Tablets",
     "composition": "nolvadex 10mg",
@@ -121120,8 +122534,8 @@ window.monodoseDatabase = {
     "alternatives": "tamoxifen nolvadex 10mg tablets",
     "barcode": []
   },
-  "mono_02942": {
-    "code": "mono_02942",
+  "mono_02944": {
+    "code": "mono_02944",
     "name": "targocid",
     "tradeName": "Targocid Teicoplanin 400Mg Vial",
     "composition": "targocid 400mg",
@@ -121161,8 +122575,8 @@ window.monodoseDatabase = {
     "alternatives": "No registered Egyptian trade alternatives recorded",
     "barcode": []
   },
-  "mono_02943": {
-    "code": "mono_02943",
+  "mono_02945": {
+    "code": "mono_02945",
     "name": "targocid",
     "tradeName": "Targocid Teicoplanin Rotaplanin 200Mg Vial",
     "composition": "targocid 200mg",
@@ -121202,8 +122616,8 @@ window.monodoseDatabase = {
     "alternatives": "No registered Egyptian trade alternatives recorded",
     "barcode": []
   },
-  "mono_02944": {
-    "code": "mono_02944",
+  "mono_02946": {
+    "code": "mono_02946",
     "name": "tavegyl",
     "tradeName": "Tavegyl Clemastine Histatop Hista-Top 1Mg Tablets",
     "composition": "tavegyl 1mg",
@@ -121243,8 +122657,8 @@ window.monodoseDatabase = {
     "alternatives": "Tavegyl tab",
     "barcode": []
   },
-  "mono_02945": {
-    "code": "mono_02945",
+  "mono_02947": {
+    "code": "mono_02947",
     "name": "chemtheraz temozolomide-accord",
     "tradeName": "Temodal Chemtheraz Temozolomide-Accord Capsules",
     "composition": "chemtheraz temozolomide-accord (capsule)",
@@ -121284,8 +122698,8 @@ window.monodoseDatabase = {
     "alternatives": "temodal chemtheraz temozolomide-accord capsules",
     "barcode": []
   },
-  "mono_02946": {
-    "code": "mono_02946",
+  "mono_02948": {
+    "code": "mono_02948",
     "name": "tetracycline",
     "tradeName": "Tetracid Tetracycline 250Mg Capsules",
     "composition": "tetracycline 250mg",
@@ -121325,8 +122739,8 @@ window.monodoseDatabase = {
     "alternatives": "tetracid tetracycline 250mg capsules",
     "barcode": []
   },
-  "mono_02947": {
-    "code": "mono_02947",
+  "mono_02949": {
+    "code": "mono_02949",
     "name": "propylthiouracil",
     "tradeName": "Thyrocil Propylthiouracil 50Mg Tablets",
     "composition": "propylthiouracil 50mg",
@@ -121366,8 +122780,8 @@ window.monodoseDatabase = {
     "alternatives": "thyrocil propylthiouracil 50mg tablets",
     "barcode": []
   },
-  "mono_02948": {
-    "code": "mono_02948",
+  "mono_02950": {
+    "code": "mono_02950",
     "name": "toplexil",
     "tradeName": "toplexil Oxomemazine Guaifenesin syrup",
     "composition": "toplexil (syrup)",
@@ -121407,8 +122821,8 @@ window.monodoseDatabase = {
     "alternatives": "Toplexil syrup",
     "barcode": []
   },
-  "mono_02949": {
-    "code": "mono_02949",
+  "mono_02951": {
+    "code": "mono_02951",
     "name": "triactin",
     "tradeName": "Triactin Cyproheptadine 2Mg/5Ml Syrup",
     "composition": "triactin 2mg/5ml",
@@ -121448,8 +122862,8 @@ window.monodoseDatabase = {
     "alternatives": "Triactin syrup",
     "barcode": []
   },
-  "mono_02950": {
-    "code": "mono_02950",
+  "mono_02952": {
+    "code": "mono_02952",
     "name": "cyproheptadine cyptadine",
     "tradeName": "Triactin Cyproheptadine Cyptadine 4Mg Tablets",
     "composition": "cyproheptadine cyptadine 4mg",
@@ -121489,8 +122903,8 @@ window.monodoseDatabase = {
     "alternatives": "triactin cyproheptadine cyptadine 4mg tablets",
     "barcode": []
   },
-  "mono_02951": {
-    "code": "mono_02951",
+  "mono_02953": {
+    "code": "mono_02953",
     "name": "Amitriptyline",
     "tradeName": "tryptizol Amitriptyline 10mg 25mg tablets",
     "composition": "Amitriptyline 10mg",
@@ -121530,8 +122944,8 @@ window.monodoseDatabase = {
     "alternatives": "tryptizol Amitriptyline 10mg 25mg tablets",
     "barcode": []
   },
-  "mono_02952": {
-    "code": "mono_02952",
+  "mono_02954": {
+    "code": "mono_02954",
     "name": "noscapine",
     "tradeName": "Tusscapine Noscapine 15Mg/5Ml Syrup",
     "composition": "noscapine 15mg/5ml",
@@ -121571,8 +122985,8 @@ window.monodoseDatabase = {
     "alternatives": "tusscapine noscapine 15mg/5ml syrup",
     "barcode": []
   },
-  "mono_02953": {
-    "code": "mono_02953",
+  "mono_02955": {
+    "code": "mono_02955",
     "name": "levodropropizine",
     "tradeName": "Tussistop Levodropropizine 60Mg Tablets",
     "composition": "levodropropizine 60mg",
@@ -121612,8 +123026,8 @@ window.monodoseDatabase = {
     "alternatives": "tussistop levodropropizine 60mg tablets",
     "barcode": []
   },
-  "mono_02954": {
-    "code": "mono_02954",
+  "mono_02956": {
+    "code": "mono_02956",
     "name": "tysabri",
     "tradeName": "Tysabri Natalizumab 300Mg Vial",
     "composition": "tysabri 300mg",
@@ -121653,8 +123067,8 @@ window.monodoseDatabase = {
     "alternatives": "No registered Egyptian trade alternatives recorded",
     "barcode": []
   },
-  "mono_02955": {
-    "code": "mono_02955",
+  "mono_02957": {
+    "code": "mono_02957",
     "name": "ultrafulvin",
     "tradeName": "Ultragriseofulvin Ultrafulvin 125Mg Tablets",
     "composition": "ultrafulvin 125mg",
@@ -121694,8 +123108,8 @@ window.monodoseDatabase = {
     "alternatives": "ultragriseofulvin ultrafulvin 125mg tablets",
     "barcode": []
   },
-  "mono_02956": {
-    "code": "mono_02956",
+  "mono_02958": {
+    "code": "mono_02958",
     "name": "oxybutynin dry",
     "tradeName": "Uripan Oxybutynin Dry Tropan 10Mg Tablets Capsules",
     "composition": "oxybutynin dry 10mg",
@@ -121735,8 +123149,8 @@ window.monodoseDatabase = {
     "alternatives": "uripan oxybutynin dry tropan 10mg tablets capsules",
     "barcode": []
   },
-  "mono_02957": {
-    "code": "mono_02957",
+  "mono_02959": {
+    "code": "mono_02959",
     "name": "nitrofurantoin",
     "tradeName": "Uvamin Retard Nitrofurantoin 100Mg Capsules",
     "composition": "nitrofurantoin 100mg",
@@ -121776,8 +123190,8 @@ window.monodoseDatabase = {
     "alternatives": "uvamin retard nitrofurantoin 100mg capsules",
     "barcode": []
   },
-  "mono_02958": {
-    "code": "mono_02958",
+  "mono_02960": {
+    "code": "mono_02960",
     "name": "verm-1",
     "tradeName": "verm-1 verm1 Mebendazole 500mg tablets",
     "composition": "verm-1 500mg",
@@ -121817,8 +123231,8 @@ window.monodoseDatabase = {
     "alternatives": "Verm-1 tab",
     "barcode": []
   },
-  "mono_02959": {
-    "code": "mono_02959",
+  "mono_02961": {
+    "code": "mono_02961",
     "name": "verapamil veratens",
     "tradeName": "Verpamil Verapamil Veratens 40Mg Tablets",
     "composition": "verapamil veratens 40mg",
@@ -121858,8 +123272,8 @@ window.monodoseDatabase = {
     "alternatives": "verpamil verapamil veratens 40mg tablets",
     "barcode": []
   },
-  "mono_02960": {
-    "code": "mono_02960",
+  "mono_02962": {
+    "code": "mono_02962",
     "name": "Capecitabine Capecitagit",
     "tradeName": "xeloda Capecitabine Capecitagit 500mg tablets",
     "composition": "Capecitabine Capecitagit 500mg",
@@ -121899,8 +123313,8 @@ window.monodoseDatabase = {
     "alternatives": "xeloda Capecitabine Capecitagit 500mg tablets",
     "barcode": []
   },
-  "mono_02961": {
-    "code": "mono_02961",
+  "mono_02963": {
+    "code": "mono_02963",
     "name": "xolair",
     "tradeName": "Xolair Omalizumab 150Mg Vial",
     "composition": "xolair 150mg",
@@ -121940,8 +123354,8 @@ window.monodoseDatabase = {
     "alternatives": "No registered Egyptian trade alternatives recorded",
     "barcode": []
   },
-  "mono_02962": {
-    "code": "mono_02962",
+  "mono_02964": {
+    "code": "mono_02964",
     "name": "zolpidem",
     "tradeName": "Zodium Zolpidem 10Mg Tablets",
     "composition": "zolpidem 10mg",
@@ -121981,8 +123395,8 @@ window.monodoseDatabase = {
     "alternatives": "zodium zolpidem 10mg tablets",
     "barcode": []
   },
-  "mono_02963": {
-    "code": "mono_02963",
+  "mono_02965": {
+    "code": "mono_02965",
     "name": "Abiraterone mantroxate",
     "tradeName": "zytiga Abiraterone mantroxate 250mg 500mg tablets",
     "composition": "Abiraterone mantroxate 250mg",
@@ -122022,8 +123436,8 @@ window.monodoseDatabase = {
     "alternatives": "zytiga Abiraterone mantroxate 250mg 500mg tablets",
     "barcode": []
   },
-  "mono_02964": {
-    "code": "mono_02964",
+  "mono_02966": {
+    "code": "mono_02966",
     "name": "Diclofenac",
     "tradeName": "Cataflam amp",
     "composition": "Diclofenac potassium 75 mg / 3 ml",
@@ -122081,8 +123495,8 @@ window.monodoseDatabase = {
     "alternatives": "Cataflam amp / Voltaren amp / Declophen amp / Dolphin amp / Olfen amp / Epifenac amp / Diclac amp",
     "barcode": []
   },
-  "mono_02965": {
-    "code": "mono_02965",
+  "mono_02967": {
+    "code": "mono_02967",
     "name": "Diclofenac",
     "tradeName": "Declophen amp",
     "composition": "Diclofenac sodium 75 mg / 3 ml",
@@ -122140,8 +123554,8 @@ window.monodoseDatabase = {
     "alternatives": "Cataflam amp / Voltaren amp / Declophen amp / Dolphin amp / Olfen amp / Epifenac amp / Diclac amp",
     "barcode": []
   },
-  "mono_02966": {
-    "code": "mono_02966",
+  "mono_02968": {
+    "code": "mono_02968",
     "name": "Diclofenac",
     "tradeName": "Dolphin amp",
     "composition": "Diclofenac sodium 75 mg / 3 ml",
@@ -122199,8 +123613,8 @@ window.monodoseDatabase = {
     "alternatives": "Cataflam amp / Voltaren amp / Declophen amp / Dolphin amp / Olfen amp / Epifenac amp / Diclac amp",
     "barcode": []
   },
-  "mono_02967": {
-    "code": "mono_02967",
+  "mono_02969": {
+    "code": "mono_02969",
     "name": "Diclofenac",
     "tradeName": "Diclofenac amp",
     "composition": "Diclofenac sodium 75 mg / 3 ml",
@@ -122258,8 +123672,8 @@ window.monodoseDatabase = {
     "alternatives": "Cataflam amp / Voltaren amp / Declophen amp / Dolphin amp / Olfen amp / Epifenac amp / Diclac amp",
     "barcode": []
   },
-  "mono_02968": {
-    "code": "mono_02968",
+  "mono_02970": {
+    "code": "mono_02970",
     "name": "Domperidone",
     "tradeName": "Motinorm tablets",
     "composition": "Domperidone 10 mg",
@@ -122299,8 +123713,8 @@ window.monodoseDatabase = {
     "alternatives": "Motinorm / Motilium / Gastromotil / Farcotilium / Dompidone / Donarax",
     "barcode": []
   },
-  "mono_02969": {
-    "code": "mono_02969",
+  "mono_02971": {
+    "code": "mono_02971",
     "name": "Domperidone",
     "tradeName": "Motilium suspension",
     "composition": "Domperidone 5 mg / 5 ml (100 ml)",
@@ -122358,8 +123772,8 @@ window.monodoseDatabase = {
     "alternatives": "Motinorm / Motilium / Gastromotil / Farcotilium / Dompidone / Donarax",
     "barcode": []
   },
-  "mono_02970": {
-    "code": "mono_02970",
+  "mono_02972": {
+    "code": "mono_02972",
     "name": "Domperidone",
     "tradeName": "Motilium tablets",
     "composition": "Domperidone 10 mg",
@@ -122399,8 +123813,8 @@ window.monodoseDatabase = {
     "alternatives": "Motinorm / Motilium / Gastromotil / Farcotilium / Dompidone / Donarax",
     "barcode": []
   },
-  "mono_02971": {
-    "code": "mono_02971",
+  "mono_02973": {
+    "code": "mono_02973",
     "name": "Domperidone",
     "tradeName": "Gastromotil suspension",
     "composition": "Domperidone 5 mg / 5 ml (100 ml)",
@@ -122458,8 +123872,8 @@ window.monodoseDatabase = {
     "alternatives": "Motinorm / Motilium / Gastromotil / Farcotilium / Dompidone / Donarax",
     "barcode": []
   },
-  "mono_02972": {
-    "code": "mono_02972",
+  "mono_02974": {
+    "code": "mono_02974",
     "name": "Domperidone",
     "tradeName": "Gastromotil tablets",
     "composition": "Domperidone 10 mg",
@@ -122499,8 +123913,8 @@ window.monodoseDatabase = {
     "alternatives": "Motinorm / Motilium / Gastromotil / Farcotilium / Dompidone / Donarax",
     "barcode": []
   },
-  "mono_02973": {
-    "code": "mono_02973",
+  "mono_02975": {
+    "code": "mono_02975",
     "name": "Domperidone",
     "tradeName": "Gastromotil suppositories",
     "composition": "Domperidone 30 mg",
@@ -122540,8 +123954,8 @@ window.monodoseDatabase = {
     "alternatives": "Motinorm / Motilium / Gastromotil / Farcotilium / Dompidone / Donarax",
     "barcode": []
   },
-  "mono_02974": {
-    "code": "mono_02974",
+  "mono_02976": {
+    "code": "mono_02976",
     "name": "Domperidone",
     "tradeName": "Farcotilium tablets",
     "composition": "Domperidone 10 mg",
@@ -122579,6 +123993,1198 @@ window.monodoseDatabase = {
     "isMonodose": true,
     "searchTerms": "farcotilium tablets domperidone motinorm motilium gastromotil farcotilium dompidone donarax antiemetic prokinetic nausea vomiting reflux gerd tablet 10 mg",
     "alternatives": "Motinorm / Motilium / Gastromotil / Farcotilium / Dompidone / Donarax",
+    "barcode": []
+  },
+  "mono_02977": {
+    "code": "mono_02977",
+    "name": "Azithromycin",
+    "tradeName": "Azi-Once 200 susp",
+    "composition": "Azithromycin 200 mg / 5 ml (15 ml & 22.5 ml)",
+    "formulation": "syp-susp",
+    "dosage_form": "suspension",
+    "category": "Monodose Clinical",
+    "subCategory": "suspension",
+    "minAge": "0 months",
+    "pregnancyCategory": "Category B",
+    "breastfeedingCategory": "Use with caution",
+    "g6pd": "Safe",
+    "administration": "Taken with or without food. Can be taken with meals to minimize GI distress. Shake well before use.",
+    "concentration": 40.0,
+    "doses": [
+      {
+        "indication": [
+          "Community Acquired Pneumonia"
+        ],
+        "dose": "Adult: 500 mg once daily on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days (5-7 days in severe cases)",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily on Day 1, followed by 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Bacterial Rhinosinusitis"
+        ],
+        "dose": "Adult: 500 mg once daily for 3 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Infectious Diarrhea"
+        ],
+        "dose": "Adult: 500 mg once daily for 3 days (or 1000 mg once) | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days (5 days in HIV patients)",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days (or 1000 mg once)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chemoprophylaxis for High-risk Contacts of Meningococcal Disease"
+        ],
+        "dose": "Adult: 500 mg single oral dose | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "once",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "single_dose_10",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Mycobacterium Avium Complex Infection"
+        ],
+        "dose": "Adult: -Primary prophylaxis: 1200 mg once weekly\n-Treatment: 500-600 mg q24hr + Ethambutol\n-Long-term suppression: 250 mg q24hr | Pediatric: -Primary prophylaxis: 20 mg/kg once weekly (Max 1200 mg)\n-Treatment: 11.25 mg/kg q24hr (Max 600 mg)\n-Long-term suppression: 5 mg/kg q24hr (Max 250 mg)\n\nMay discontinue when patient has completed >= 12 months of therapy, has no signs or symptoms of MAC disease, and has sustained (>= 6 months) CD4 count > 100 cells/mm3 in response to ART",
+        "dosePerKg": 10.0,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "-Primary prophylaxis: 1200 mg once weekly\n-Treatment: 500-600 mg q24hr + Ethambutol\n-Long-term suppression: 250 mg q24hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": "mac_infection_complex",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "-Primary prophylaxis: 8 ml once weekly | -Treatment: 4.5 ml q24hr for >= 12 months | -Long-term suppression: 2 ml q24hr"
+      },
+      {
+        "indication": [
+          "Acute Otitis Media"
+        ],
+        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "Option 1: 30 mg/kg once OR Option 2: 10 mg/kg q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": "otitis_dual_option",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pharyngitis / Tonsillitis"
+        ],
+        "dose": "Adult: 500 mg on Day 1, followed by 250 mg on Days 2-5 | Pediatric:",
+        "dosePerKg": 12.0,
+        "frequency": "q24hr for 5 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on Day 1, followed by 250 mg on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      }
+    ],
+    "source": "monodose",
+    "isMonodose": true,
+    "searchTerms": "azi-once 200 susp azithromycin zithrokan zithromax azi-once azrolid xithrone macrolide antibiotic suspension 200 mg / 5 ml",
+    "alternatives": "Zithromax / Zithrokan / Azi-Once / Azrolid / Xithrone / Azomycin / Epizithro / Gigazocin / Unizithrin",
+    "barcode": []
+  },
+  "mono_02978": {
+    "code": "mono_02978",
+    "name": "Azithromycin",
+    "tradeName": "Zithromax 200 susp",
+    "composition": "Azithromycin 200 mg / 5 ml (15 ml & 22.5 ml & 30 ml)",
+    "formulation": "syp-susp",
+    "dosage_form": "suspension",
+    "category": "Monodose Clinical",
+    "subCategory": "suspension",
+    "minAge": "0 months",
+    "pregnancyCategory": "Category B",
+    "breastfeedingCategory": "Use with caution",
+    "g6pd": "Safe",
+    "administration": "Taken with or without food. Can be taken with meals to minimize GI distress. Shake well before use.",
+    "concentration": 40.0,
+    "doses": [
+      {
+        "indication": [
+          "Community Acquired Pneumonia"
+        ],
+        "dose": "Adult: 500 mg once daily on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days (5-7 days in severe cases)",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily on Day 1, followed by 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Bacterial Rhinosinusitis"
+        ],
+        "dose": "Adult: 500 mg once daily for 3 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Infectious Diarrhea"
+        ],
+        "dose": "Adult: 500 mg once daily for 3 days (or 1000 mg once) | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days (5 days in HIV patients)",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days (or 1000 mg once)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chemoprophylaxis for High-risk Contacts of Meningococcal Disease"
+        ],
+        "dose": "Adult: 500 mg single oral dose | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "once",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "single_dose_10",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Mycobacterium Avium Complex Infection"
+        ],
+        "dose": "Adult: -Primary prophylaxis: 1200 mg once weekly\n-Treatment: 500-600 mg q24hr + Ethambutol\n-Long-term suppression: 250 mg q24hr | Pediatric: -Primary prophylaxis: 20 mg/kg once weekly (Max 1200 mg)\n-Treatment: 11.25 mg/kg q24hr (Max 600 mg)\n-Long-term suppression: 5 mg/kg q24hr (Max 250 mg)\n\nMay discontinue when patient has completed >= 12 months of therapy, has no signs or symptoms of MAC disease, and has sustained (>= 6 months) CD4 count > 100 cells/mm3 in response to ART",
+        "dosePerKg": 10.0,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "-Primary prophylaxis: 1200 mg once weekly\n-Treatment: 500-600 mg q24hr + Ethambutol\n-Long-term suppression: 250 mg q24hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": "mac_infection_complex",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "-Primary prophylaxis: 8 ml once weekly | -Treatment: 4.5 ml q24hr for >= 12 months | -Long-term suppression: 2 ml q24hr"
+      },
+      {
+        "indication": [
+          "Acute Otitis Media"
+        ],
+        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "Option 1: 30 mg/kg once OR Option 2: 10 mg/kg q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": "otitis_dual_option",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pharyngitis / Tonsillitis"
+        ],
+        "dose": "Adult: 500 mg on Day 1, followed by 250 mg on Days 2-5 | Pediatric:",
+        "dosePerKg": 12.0,
+        "frequency": "q24hr for 5 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on Day 1, followed by 250 mg on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      }
+    ],
+    "source": "monodose",
+    "isMonodose": true,
+    "searchTerms": "zithromax 200 susp azithromycin zithrokan zithromax azi-once azrolid xithrone macrolide antibiotic suspension 200 mg / 5 ml",
+    "alternatives": "Zithromax / Zithrokan / Azi-Once / Azrolid / Xithrone / Azomycin / Epizithro / Gigazocin / Unizithrin",
+    "barcode": []
+  },
+  "mono_02979": {
+    "code": "mono_02979",
+    "name": "Azithromycin",
+    "tradeName": "Zithromax 100 susp",
+    "composition": "Azithromycin 100 mg / 5 ml (15 ml)",
+    "formulation": "syp-susp",
+    "dosage_form": "suspension",
+    "category": "Monodose Clinical",
+    "subCategory": "suspension",
+    "minAge": "0 months",
+    "pregnancyCategory": "Category B",
+    "breastfeedingCategory": "Use with caution",
+    "g6pd": "Safe",
+    "administration": "Taken with or without food. Can be taken with meals to minimize GI distress. Shake well before use.",
+    "concentration": 20.0,
+    "doses": [
+      {
+        "indication": [
+          "Community Acquired Pneumonia"
+        ],
+        "dose": "Adult: 500 mg once daily on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days (5-7 days in severe cases)",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily on Day 1, followed by 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Bacterial Rhinosinusitis"
+        ],
+        "dose": "Adult: 500 mg once daily for 3 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Infectious Diarrhea"
+        ],
+        "dose": "Adult: 500 mg once daily for 3 days (or 1000 mg once) | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days (5 days in HIV patients)",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days (or 1000 mg once)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chemoprophylaxis for High-risk Contacts of Meningococcal Disease"
+        ],
+        "dose": "Adult: 500 mg single oral dose | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "once",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "single_dose_10",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Mycobacterium Avium Complex Infection"
+        ],
+        "dose": "Adult: -Primary prophylaxis: 1200 mg once weekly\n-Treatment: 500-600 mg q24hr + Ethambutol\n-Long-term suppression: 250 mg q24hr | Pediatric: -Primary prophylaxis: 20 mg/kg once weekly (Max 1200 mg)\n-Treatment: 11.25 mg/kg q24hr (Max 600 mg)\n-Long-term suppression: 5 mg/kg q24hr (Max 250 mg)\n\nMay discontinue when patient has completed >= 12 months of therapy, has no signs or symptoms of MAC disease, and has sustained (>= 6 months) CD4 count > 100 cells/mm3 in response to ART",
+        "dosePerKg": 10.0,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "-Primary prophylaxis: 1200 mg once weekly\n-Treatment: 500-600 mg q24hr + Ethambutol\n-Long-term suppression: 250 mg q24hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": "mac_infection_complex",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "-Primary prophylaxis: 8 ml once weekly | -Treatment: 4.5 ml q24hr for >= 12 months | -Long-term suppression: 2 ml q24hr"
+      },
+      {
+        "indication": [
+          "Acute Otitis Media"
+        ],
+        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "Option 1: 30 mg/kg once OR Option 2: 10 mg/kg q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": "otitis_dual_option",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pharyngitis / Tonsillitis"
+        ],
+        "dose": "Adult: 500 mg on Day 1, followed by 250 mg on Days 2-5 | Pediatric:",
+        "dosePerKg": 12.0,
+        "frequency": "q24hr for 5 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on Day 1, followed by 250 mg on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      }
+    ],
+    "source": "monodose",
+    "isMonodose": true,
+    "searchTerms": "zithromax 100 susp azithromycin zithrokan zithromax azi-once azrolid xithrone macrolide antibiotic suspension 100 mg / 5 ml",
+    "alternatives": "Zithromax / Zithrokan / Azi-Once / Azrolid / Xithrone / Azomycin / Epizithro / Gigazocin / Unizithrin",
+    "barcode": []
+  },
+  "mono_02980": {
+    "code": "mono_02980",
+    "name": "Azithromycin",
+    "tradeName": "Azrolid 200 susp",
+    "composition": "Azithromycin 200 mg / 5 ml (15 ml & 22.5 ml)",
+    "formulation": "syp-susp",
+    "dosage_form": "suspension",
+    "category": "Monodose Clinical",
+    "subCategory": "suspension",
+    "minAge": "0 months",
+    "pregnancyCategory": "Category B",
+    "breastfeedingCategory": "Use with caution",
+    "g6pd": "Safe",
+    "administration": "Taken with or without food. Can be taken with meals to minimize GI distress. Shake well before use.",
+    "concentration": 40.0,
+    "doses": [
+      {
+        "indication": [
+          "Community Acquired Pneumonia"
+        ],
+        "dose": "Adult: 500 mg once daily on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days (5-7 days in severe cases)",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily on Day 1, followed by 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Bacterial Rhinosinusitis"
+        ],
+        "dose": "Adult: 500 mg once daily for 3 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Infectious Diarrhea"
+        ],
+        "dose": "Adult: 500 mg once daily for 3 days (or 1000 mg once) | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days (5 days in HIV patients)",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days (or 1000 mg once)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chemoprophylaxis for High-risk Contacts of Meningococcal Disease"
+        ],
+        "dose": "Adult: 500 mg single oral dose | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "once",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "single_dose_10",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Mycobacterium Avium Complex Infection"
+        ],
+        "dose": "Adult: -Primary prophylaxis: 1200 mg once weekly\n-Treatment: 500-600 mg q24hr + Ethambutol\n-Long-term suppression: 250 mg q24hr | Pediatric: -Primary prophylaxis: 20 mg/kg once weekly (Max 1200 mg)\n-Treatment: 11.25 mg/kg q24hr (Max 600 mg)\n-Long-term suppression: 5 mg/kg q24hr (Max 250 mg)\n\nMay discontinue when patient has completed >= 12 months of therapy, has no signs or symptoms of MAC disease, and has sustained (>= 6 months) CD4 count > 100 cells/mm3 in response to ART",
+        "dosePerKg": 10.0,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "-Primary prophylaxis: 1200 mg once weekly\n-Treatment: 500-600 mg q24hr + Ethambutol\n-Long-term suppression: 250 mg q24hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": "mac_infection_complex",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "-Primary prophylaxis: 8 ml once weekly | -Treatment: 4.5 ml q24hr for >= 12 months | -Long-term suppression: 2 ml q24hr"
+      },
+      {
+        "indication": [
+          "Acute Otitis Media"
+        ],
+        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "Option 1: 30 mg/kg once OR Option 2: 10 mg/kg q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": "otitis_dual_option",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pharyngitis / Tonsillitis"
+        ],
+        "dose": "Adult: 500 mg on Day 1, followed by 250 mg on Days 2-5 | Pediatric:",
+        "dosePerKg": 12.0,
+        "frequency": "q24hr for 5 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on Day 1, followed by 250 mg on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      }
+    ],
+    "source": "monodose",
+    "isMonodose": true,
+    "searchTerms": "azrolid 200 susp azithromycin zithrokan zithromax azi-once azrolid xithrone macrolide antibiotic suspension 200 mg / 5 ml",
+    "alternatives": "Zithromax / Zithrokan / Azi-Once / Azrolid / Xithrone / Azomycin / Epizithro / Gigazocin / Unizithrin",
+    "barcode": []
+  },
+  "mono_02981": {
+    "code": "mono_02981",
+    "name": "Azithromycin",
+    "tradeName": "Xithrone 200 susp",
+    "composition": "Azithromycin 200 mg / 5 ml (15 ml & 25 ml)",
+    "formulation": "syp-susp",
+    "dosage_form": "suspension",
+    "category": "Monodose Clinical",
+    "subCategory": "suspension",
+    "minAge": "0 months",
+    "pregnancyCategory": "Category B",
+    "breastfeedingCategory": "Use with caution",
+    "g6pd": "Safe",
+    "administration": "Taken with or without food. Can be taken with meals to minimize GI distress. Shake well before use.",
+    "concentration": 40.0,
+    "doses": [
+      {
+        "indication": [
+          "Community Acquired Pneumonia"
+        ],
+        "dose": "Adult: 500 mg once daily on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days (5-7 days in severe cases)",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily on Day 1, followed by 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Bacterial Rhinosinusitis"
+        ],
+        "dose": "Adult: 500 mg once daily for 3 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Infectious Diarrhea"
+        ],
+        "dose": "Adult: 500 mg once daily for 3 days (or 1000 mg once) | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q24hr for 3 days (5 days in HIV patients)",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days (or 1000 mg once)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chemoprophylaxis for High-risk Contacts of Meningococcal Disease"
+        ],
+        "dose": "Adult: 500 mg single oral dose | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "once",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "single_dose_10",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Mycobacterium Avium Complex Infection"
+        ],
+        "dose": "Adult: -Primary prophylaxis: 1200 mg once weekly\n-Treatment: 500-600 mg q24hr + Ethambutol\n-Long-term suppression: 250 mg q24hr | Pediatric: -Primary prophylaxis: 20 mg/kg once weekly (Max 1200 mg)\n-Treatment: 11.25 mg/kg q24hr (Max 600 mg)\n-Long-term suppression: 5 mg/kg q24hr (Max 250 mg)\n\nMay discontinue when patient has completed >= 12 months of therapy, has no signs or symptoms of MAC disease, and has sustained (>= 6 months) CD4 count > 100 cells/mm3 in response to ART",
+        "dosePerKg": 10.0,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "-Primary prophylaxis: 1200 mg once weekly\n-Treatment: 500-600 mg q24hr + Ethambutol\n-Long-term suppression: 250 mg q24hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": "mac_infection_complex",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "-Primary prophylaxis: 8 ml once weekly | -Treatment: 4.5 ml q24hr for >= 12 months | -Long-term suppression: 2 ml q24hr"
+      },
+      {
+        "indication": [
+          "Acute Otitis Media"
+        ],
+        "dose": "Adult: Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "Option 1: 30 mg/kg once OR Option 2: 10 mg/kg q24hr for 3 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "Option 1: 1500 mg once OR Option 2: 500 mg q24hr for 3 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": "otitis_dual_option",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pharyngitis / Tonsillitis"
+        ],
+        "dose": "Adult: 500 mg on Day 1, followed by 250 mg on Days 2-5 | Pediatric:",
+        "dosePerKg": 12.0,
+        "frequency": "q24hr for 5 days",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg on Day 1, followed by 250 mg on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": "standard_pediatric",
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      }
+    ],
+    "source": "monodose",
+    "isMonodose": true,
+    "searchTerms": "xithrone 200 susp azithromycin zithrokan zithromax azi-once azrolid xithrone macrolide antibiotic suspension 200 mg / 5 ml",
+    "alternatives": "Zithromax / Zithrokan / Azi-Once / Azrolid / Xithrone / Azomycin / Epizithro / Gigazocin / Unizithrin",
+    "barcode": []
+  },
+  "mono_02982": {
+    "code": "mono_02982",
+    "name": "Azithromycin",
+    "tradeName": "Zithromax 500 tab",
+    "composition": "Azithromycin 500 mg",
+    "formulation": "tab-caps",
+    "dosage_form": "tablet",
+    "category": "Monodose Clinical",
+    "subCategory": "tablet",
+    "minAge": "0 months",
+    "pregnancyCategory": "Category B",
+    "breastfeedingCategory": "Use with caution",
+    "g6pd": "Safe",
+    "administration": "Swallow with water with or without meals.",
+    "concentration": null,
+    "doses": [
+      {
+        "indication": [
+          "Community-acquired Pneumonia / Acute Bacterial Rhinosinusitis / Skin Infections"
+        ],
+        "dose": "Adult: 500 mg once daily for 3 days (OR 500 mg on Day 1, followed by 250 mg once daily on Days 2-5) | Pediatric: Tablets not recommended for small children (use oral suspension)",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days (OR 500 mg on Day 1, followed by 250 mg once daily on Days 2-5)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pharyngitis / Tonsillitis (Group A Streptococcal)"
+        ],
+        "dose": "Adult: 500 mg once on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric: Use oral suspension for children",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once on Day 1, followed by 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Infectious Diarrhea (Shigellosis / Campylobacter / Traveler's Diarrhea)"
+        ],
+        "dose": "Adult: 500 mg once daily for 3 days (OR 1000 mg single oral dose) | Pediatric: Use oral suspension for children",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days (OR 1000 mg single oral dose)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chancroid / Chlamydia Urethritis / Cervicitis"
+        ],
+        "dose": "Adult: 1000 mg (1 gm) single oral dose | Pediatric: Adolescents >= 45 kg: 1000 mg single oral dose",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1000 mg (1 gm) single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Uncomplicated Gonococcal Infection"
+        ],
+        "dose": "Adult: 1 gm or 2 gm once in combination with Ceftriaxone 500 mg IM | Pediatric: Use under specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 gm or 2 gm once in combination with Ceftriaxone 500 mg IM",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chemoprophylaxis for High-risk Contacts of Meningococcal Disease"
+        ],
+        "dose": "Adult: 500 mg single oral dose | Pediatric: Children >= 45 kg: 500 mg single oral dose",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Mycobacterium Avium Complex (MAC) Infection"
+        ],
+        "dose": "Adult: -Primary prophylaxis: 1200 mg once weekly (or 600 mg twice weekly)\n-Treatment: 500-600 mg once daily + Ethambutol\n-Suppression: 250 mg once daily | Pediatric: Use under specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "-Primary prophylaxis: 1200 mg once weekly (or 600 mg twice weekly)\n-Treatment: 500-600 mg once daily + Ethambutol\n-Suppression: 250 mg once daily",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      }
+    ],
+    "source": "monodose",
+    "isMonodose": true,
+    "searchTerms": "zithromax 500 tab azithromycin zithrokan zithromax azi-once azrolid xithrone macrolide antibiotic tablet 500 mg",
+    "alternatives": "Zithromax / Zithrokan / Azi-Once / Azrolid / Xithrone / Azomycin / Epizithro / Gigazocin / Unizithrin",
+    "barcode": []
+  },
+  "mono_02983": {
+    "code": "mono_02983",
+    "name": "Azithromycin",
+    "tradeName": "Zithromax 250 cap",
+    "composition": "Azithromycin 250 mg",
+    "formulation": "tab-caps",
+    "dosage_form": "capsule",
+    "category": "Monodose Clinical",
+    "subCategory": "capsule",
+    "minAge": "0 months",
+    "pregnancyCategory": "Category B",
+    "breastfeedingCategory": "Use with caution",
+    "g6pd": "Safe",
+    "administration": "Swallow with water with or without meals.",
+    "concentration": null,
+    "doses": [
+      {
+        "indication": [
+          "Community-acquired Pneumonia / Acute Bacterial Rhinosinusitis / Skin Infections"
+        ],
+        "dose": "Adult: 500 mg once daily for 3 days (OR 500 mg on Day 1, followed by 250 mg once daily on Days 2-5) | Pediatric: Tablets not recommended for small children (use oral suspension)",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days (OR 500 mg on Day 1, followed by 250 mg once daily on Days 2-5)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pharyngitis / Tonsillitis (Group A Streptococcal)"
+        ],
+        "dose": "Adult: 500 mg once on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric: Use oral suspension for children",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once on Day 1, followed by 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Infectious Diarrhea (Shigellosis / Campylobacter / Traveler's Diarrhea)"
+        ],
+        "dose": "Adult: 500 mg once daily for 3 days (OR 1000 mg single oral dose) | Pediatric: Use oral suspension for children",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days (OR 1000 mg single oral dose)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chancroid / Chlamydia Urethritis / Cervicitis"
+        ],
+        "dose": "Adult: 1000 mg (1 gm) single oral dose | Pediatric: Adolescents >= 45 kg: 1000 mg single oral dose",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1000 mg (1 gm) single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Uncomplicated Gonococcal Infection"
+        ],
+        "dose": "Adult: 1 gm or 2 gm once in combination with Ceftriaxone 500 mg IM | Pediatric: Use under specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 gm or 2 gm once in combination with Ceftriaxone 500 mg IM",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chemoprophylaxis for High-risk Contacts of Meningococcal Disease"
+        ],
+        "dose": "Adult: 500 mg single oral dose | Pediatric: Children >= 45 kg: 500 mg single oral dose",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Mycobacterium Avium Complex (MAC) Infection"
+        ],
+        "dose": "Adult: -Primary prophylaxis: 1200 mg once weekly (or 600 mg twice weekly)\n-Treatment: 500-600 mg once daily + Ethambutol\n-Suppression: 250 mg once daily | Pediatric: Use under specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "-Primary prophylaxis: 1200 mg once weekly (or 600 mg twice weekly)\n-Treatment: 500-600 mg once daily + Ethambutol\n-Suppression: 250 mg once daily",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      }
+    ],
+    "source": "monodose",
+    "isMonodose": true,
+    "searchTerms": "zithromax 250 cap azithromycin zithrokan zithromax azi-once azrolid xithrone macrolide antibiotic capsule 250 mg",
+    "alternatives": "Zithromax / Zithrokan / Azi-Once / Azrolid / Xithrone / Azomycin / Epizithro / Gigazocin / Unizithrin",
+    "barcode": []
+  },
+  "mono_02984": {
+    "code": "mono_02984",
+    "name": "Azithromycin",
+    "tradeName": "Azi-Once 250 cap",
+    "composition": "Azithromycin 250 mg",
+    "formulation": "tab-caps",
+    "dosage_form": "capsule",
+    "category": "Monodose Clinical",
+    "subCategory": "capsule",
+    "minAge": "0 months",
+    "pregnancyCategory": "Category B",
+    "breastfeedingCategory": "Use with caution",
+    "g6pd": "Safe",
+    "administration": "Swallow with water with or without meals.",
+    "concentration": null,
+    "doses": [
+      {
+        "indication": [
+          "Community-acquired Pneumonia / Acute Bacterial Rhinosinusitis / Skin Infections"
+        ],
+        "dose": "Adult: 500 mg once daily for 3 days (OR 500 mg on Day 1, followed by 250 mg once daily on Days 2-5) | Pediatric: Tablets not recommended for small children (use oral suspension)",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days (OR 500 mg on Day 1, followed by 250 mg once daily on Days 2-5)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pharyngitis / Tonsillitis (Group A Streptococcal)"
+        ],
+        "dose": "Adult: 500 mg once on Day 1, followed by 250 mg once daily on Days 2-5 | Pediatric: Use oral suspension for children",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once on Day 1, followed by 250 mg once daily on Days 2-5",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Infectious Diarrhea (Shigellosis / Campylobacter / Traveler's Diarrhea)"
+        ],
+        "dose": "Adult: 500 mg once daily for 3 days (OR 1000 mg single oral dose) | Pediatric: Use oral suspension for children",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg once daily for 3 days (OR 1000 mg single oral dose)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chancroid / Chlamydia Urethritis / Cervicitis"
+        ],
+        "dose": "Adult: 1000 mg (1 gm) single oral dose | Pediatric: Adolescents >= 45 kg: 1000 mg single oral dose",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1000 mg (1 gm) single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Uncomplicated Gonococcal Infection"
+        ],
+        "dose": "Adult: 1 gm or 2 gm once in combination with Ceftriaxone 500 mg IM | Pediatric: Use under specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 gm or 2 gm once in combination with Ceftriaxone 500 mg IM",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chemoprophylaxis for High-risk Contacts of Meningococcal Disease"
+        ],
+        "dose": "Adult: 500 mg single oral dose | Pediatric: Children >= 45 kg: 500 mg single oral dose",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg single oral dose",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Mycobacterium Avium Complex (MAC) Infection"
+        ],
+        "dose": "Adult: -Primary prophylaxis: 1200 mg once weekly (or 600 mg twice weekly)\n-Treatment: 500-600 mg once daily + Ethambutol\n-Suppression: 250 mg once daily | Pediatric: Use under specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "-Primary prophylaxis: 1200 mg once weekly (or 600 mg twice weekly)\n-Treatment: 500-600 mg once daily + Ethambutol\n-Suppression: 250 mg once daily",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      }
+    ],
+    "source": "monodose",
+    "isMonodose": true,
+    "searchTerms": "azi-once 250 cap azithromycin zithrokan zithromax azi-once azrolid xithrone macrolide antibiotic capsule 250 mg",
+    "alternatives": "Zithromax / Zithrokan / Azi-Once / Azrolid / Xithrone / Azomycin / Epizithro / Gigazocin / Unizithrin",
     "barcode": []
   }
 };
