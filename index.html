@@ -13283,9 +13283,9 @@ ${patientWarning}
                                     <span class="dose-value" style="font-weight: 600; color: #333;">${freqText}</span>
                                 </div>
                                 ${durText ? `
-                                <div class="dose-line" style="display: flex; justify-content: space-between; margin-bottom: 4px;">
-                                    <span class="dose-label" style="font-weight: 600; color: #555;">Duration:</span>
-                                    <span class="dose-value" style="font-weight: 600; color: #333;">${durText}</span>
+                                <div class="dose-line" style="display: flex; flex-direction: column; gap: 4px; margin-bottom: 6px; background: #fff; padding: 8px 10px; border-radius: 6px; border: 1px solid #ffe082;">
+                                    <span class="dose-label" style="font-weight: 700; color: #b78103; font-size: 13px;">📋 Clinical Regimen & Protocol / Taper:</span>
+                                    <span class="dose-value" style="font-weight: 600; color: #333; font-size: 13.5px; line-height: 1.5; white-space: pre-line;">${durText}</span>
                                 </div>` : ''}
                                 ${solidPediatricNotice}
                                 ${selectedDrug.administration ? `
@@ -13365,10 +13365,11 @@ ${patientWarning}
                                     <span class="dose-label">Total Daily:</span>
                                     <span class="dose-value">${totalDailyDisplay} ${displayUnit}</span>
                                 </div>
-                                <div class="dose-line">
-                                    <span class="dose-label">Duration:</span>
-                                    <span class="dose-value">${dose.duration || 'As directed'}</span>
-                                </div>
+                                ${dose.duration ? `
+                                <div class="dose-line" style="display: flex; flex-direction: column; gap: 4px; margin-top: 6px; background: #fff; padding: 8px 10px; border-radius: 6px; border: 1px solid #ffe082;">
+                                    <span class="dose-label" style="font-weight: 700; color: #b78103; font-size: 13px;">📋 Clinical Regimen & Protocol / Taper:</span>
+                                    <span class="dose-value" style="font-weight: 600; color: #333; font-size: 13.5px; line-height: 1.5; white-space: pre-line;">${dose.duration}</span>
+                                </div>` : ''}
                             </div>
                         `;
                     }
@@ -19619,9 +19620,9 @@ ${patientWarning}
                                     <span class="dose-value" style="font-weight: 600; color: #333;">${freqText}</span>
                                 </div>
                                 ${durText ? `
-                                <div class="dose-line" style="display: flex; justify-content: space-between; margin-bottom: 4px;">
-                                    <span class="dose-label" style="font-weight: 600; color: #555;">Duration:</span>
-                                    <span class="dose-value" style="font-weight: 600; color: #333;">${durText}</span>
+                                <div class="dose-line" style="display: flex; flex-direction: column; gap: 4px; margin-bottom: 6px; background: #fff; padding: 8px 10px; border-radius: 6px; border: 1px solid #ffe082;">
+                                    <span class="dose-label" style="font-weight: 700; color: #b78103; font-size: 13px;">📋 Clinical Regimen & Protocol / Taper:</span>
+                                    <span class="dose-value" style="font-weight: 600; color: #333; font-size: 13.5px; line-height: 1.5; white-space: pre-line;">${durText}</span>
                                 </div>` : ''}
                                 ${solidPediatricNotice}
                                 ${selectedDrug.administration ? `
@@ -19711,10 +19712,11 @@ ${patientWarning}
                                     <span class="dose-label">Total Daily:</span>
                                     <span class="dose-value">${totalDailyDisplay} ${displayUnit}</span>
                                 </div>
-                                <div class="dose-line">
-                                    <span class="dose-label">Duration:</span>
-                                    <span class="dose-value">${dose.duration || 'As directed'}</span>
-                                </div>
+                                ${dose.duration ? `
+                                <div class="dose-line" style="display: flex; flex-direction: column; gap: 4px; margin-top: 6px; background: #fff; padding: 8px 10px; border-radius: 6px; border: 1px solid #ffe082;">
+                                    <span class="dose-label" style="font-weight: 700; color: #b78103; font-size: 13px;">📋 Clinical Regimen & Protocol / Taper:</span>
+                                    <span class="dose-value" style="font-weight: 600; color: #333; font-size: 13.5px; line-height: 1.5; white-space: pre-line;">${dose.duration}</span>
+                                </div>` : ''}
                             </div>
                         `;
                     }
