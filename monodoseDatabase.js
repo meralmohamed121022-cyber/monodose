@@ -1284,17 +1284,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -1325,17 +1325,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -2350,17 +2350,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 0.3,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -2503,28 +2503,28 @@ window.monodoseDatabase = {
   "mono_00062": {
     "code": "mono_00062",
     "name": "Albendazole",
-    "tradeName": "Albendazole 400Mg Tablets",
-    "composition": "Albendazole 400mg",
+    "tradeName": "Albendazole 400mg tablets",
+    "composition": "Albendazole 200 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
+    "pregnancyCategory": "Category C (Contraindicated in 1st trimester)",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Take with fatty meals to increase systemic absorption. Shake well before use.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Enterobiasis (Pinworm) / Ascariasis / Hookworm"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 400 mg (2 tablets) single dose with fatty meal | Pediatric: Age > 2 years: 400 mg (2 tablets) single dose with fatty meal",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "Single dose with fatty meal",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "adultFixed": "400 mg (2 tablets) single dose with fatty meal",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -2537,35 +2537,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "albendazole 400mg tablets albendazole 400mg tablets albendazole albendazole tablet 400mg",
-    "alternatives": "Albendazole 400mg tablets",
+    "searchTerms": "albendazole 400mg tablets albendazole 400mg tablets albendazole alzental bendax anthelmintic pinworm ascariasis hookworm",
+    "alternatives": "Alzental / Bendax / Vermizole",
     "barcode": []
   },
   "mono_00063": {
     "code": "mono_00063",
     "name": "Albendazole",
-    "tradeName": "Albendazole Tab",
-    "composition": "Albendazole 400mg",
+    "tradeName": "Albendazole tab",
+    "composition": "Albendazole 200 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
+    "pregnancyCategory": "Category C (Contraindicated in 1st trimester)",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Take with fatty meals to increase systemic absorption. Shake well before use.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Enterobiasis (Pinworm) / Ascariasis / Hookworm"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 400 mg (2 tablets) single dose with fatty meal | Pediatric: Age > 2 years: 400 mg (2 tablets) single dose with fatty meal",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "Single dose with fatty meal",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "adultFixed": "400 mg (2 tablets) single dose with fatty meal",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -2578,35 +2578,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "albendazole tab albendazole 400mg tablets albendazole albendazole tablet 400mg",
-    "alternatives": "Albendazole 400mg tablets",
+    "searchTerms": "albendazole tab albendazole 400mg tablets albendazole alzental bendax anthelmintic pinworm ascariasis hookworm",
+    "alternatives": "Alzental / Bendax / Vermizole",
     "barcode": []
   },
   "mono_00064": {
     "code": "mono_00064",
     "name": "Albendazole",
-    "tradeName": "Albendazole Tablets",
-    "composition": "Albendazole 400mg",
+    "tradeName": "Albendazole tablets",
+    "composition": "Albendazole 200 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
+    "pregnancyCategory": "Category C (Contraindicated in 1st trimester)",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Take with fatty meals to increase systemic absorption. Shake well before use.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Enterobiasis (Pinworm) / Ascariasis / Hookworm"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 400 mg (2 tablets) single dose with fatty meal | Pediatric: Age > 2 years: 400 mg (2 tablets) single dose with fatty meal",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "Single dose with fatty meal",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "adultFixed": "400 mg (2 tablets) single dose with fatty meal",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -2619,8 +2619,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "albendazole tablets albendazole 400mg tablets albendazole albendazole tablet 400mg",
-    "alternatives": "Albendazole 400mg tablets",
+    "searchTerms": "albendazole tablets albendazole 400mg tablets albendazole alzental bendax anthelmintic pinworm ascariasis hookworm",
+    "alternatives": "Alzental / Bendax / Vermizole",
     "barcode": []
   },
   "mono_00065": {
@@ -2872,69 +2872,87 @@ window.monodoseDatabase = {
   "mono_00071": {
     "code": "mono_00071",
     "name": "Rupatadine",
-    "tradeName": "Alergoliber Syrup",
-    "composition": "Rupatadine 5mg/5ml",
+    "tradeName": "Alergoliber syrup",
+    "composition": "Rupatadine 5 mg / 5 ml (120 ml)",
     "formulation": "syp-susp",
     "dosage_form": "syrup",
     "category": "Monodose Clinical",
     "subCategory": "syrup",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
+    "pregnancyCategory": "Category C",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "administration": "Taken with or without food.",
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Allergic Rhinitis"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: 10 ml (10 mg) q24hr once daily with or without food | Pediatric: Age 2-11 yr (10 to <25 kg): 2.5 ml q24hr | (>=25 kg): 5 ml q24hr (<2 yr: Not recommended)",
+        "dosePerKg": null,
+        "frequency": "q24hr (Once daily)",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
-        "singleDoseMaxMl": null,
-        "maxDailyMg": null,
+        "adultFixed": "10 ml (10 mg) q24hr once daily with or without food",
+        "singleDoseMaxMl": 10.0,
+        "maxDailyMg": 10.0,
         "indType": null,
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
         "highDoseFactor": null,
-        "subtitle": null
+        "subtitle": "2nd Generation Antihistamines"
+      },
+      {
+        "indication": [
+          "Chronic Spontaneous Urticaria"
+        ],
+        "dose": "Adult: 10 ml (10 mg) q24hr once daily with or without food | Pediatric: Age 2-11 yr (10 to <25 kg): 2.5 ml q24hr | (>=25 kg): 5 ml q24hr (<2 yr: Not recommended)",
+        "dosePerKg": null,
+        "frequency": "q24hr (Once daily)",
+        "maxDosesPerDay": 1,
+        "adultFixed": "10 ml (10 mg) q24hr once daily with or without food",
+        "singleDoseMaxMl": 10.0,
+        "maxDailyMg": 10.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "2nd Generation Antihistamines"
       }
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "alergoliber syrup alergoliber rupatadine rupatadine 5mg/5ml syrup rupatadine alergoliber syrup 5mg/5ml",
-    "alternatives": "Rupatadine",
+    "searchTerms": "alergoliber syrup alergoliber rupatadine rupatadine 5mg/5ml syrup rupatadine alergoliber darupax 2nd generation antihistamine allergic rhinitis urticaria",
+    "alternatives": "Alergoliber / Darupax / Healthtadine / Elirupalin / Hisatrup / Rupatoclear",
     "barcode": []
   },
   "mono_00072": {
     "code": "mono_00072",
     "name": "Rupatadine",
-    "tradeName": "Alergoliber Tab",
-    "composition": "Rupatadine 10mg",
+    "tradeName": "Alergoliber tab",
+    "composition": "Rupatadine 10 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
+    "pregnancyCategory": "Category C",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Taken with or without food.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Allergic Rhinitis / Chronic Spontaneous Urticaria"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 10 mg (1 tablet) q24hr once daily with or without food | Pediatric: Adolescents >= 12 years: 10 mg (1 tablet) q24hr (Not recommended for children < 12 years)",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "q24hr (Once daily)",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "adultFixed": "10 mg (1 tablet) q24hr once daily with or without food",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -2947,35 +2965,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "alergoliber tab alergoliber rupatadine darupax elirupalin healthtadine hisatrup rupatoclear 10mg tablets rupatadine alergoliber tablet 10mg",
-    "alternatives": "Darupax / Elirupalin / Healthtadine / Hisatrup / Rupatoclear",
+    "searchTerms": "alergoliber tab alergoliber rupatadine darupax elirupalin healthtadine hisatrup rupatoclear 10mg tablets rupatadine alergoliber darupax 2nd generation antihistamine allergic rhinitis urticaria",
+    "alternatives": "Alergoliber / Darupax / Healthtadine / Elirupalin / Hisatrup / Rupatoclear",
     "barcode": []
   },
   "mono_00073": {
     "code": "mono_00073",
     "name": "Rupatadine",
-    "tradeName": "Alergoliber Tablets",
-    "composition": "Rupatadine 10mg",
+    "tradeName": "Alergoliber tablets",
+    "composition": "Rupatadine 10 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
+    "pregnancyCategory": "Category C",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Taken with or without food.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Allergic Rhinitis / Chronic Spontaneous Urticaria"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 10 mg (1 tablet) q24hr once daily with or without food | Pediatric: Adolescents >= 12 years: 10 mg (1 tablet) q24hr (Not recommended for children < 12 years)",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "q24hr (Once daily)",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "adultFixed": "10 mg (1 tablet) q24hr once daily with or without food",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -2988,8 +3006,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "alergoliber tablets alergoliber rupatadine darupax elirupalin healthtadine hisatrup rupatoclear 10mg tablets rupatadine alergoliber tablet 10mg",
-    "alternatives": "Darupax / Elirupalin / Healthtadine / Hisatrup / Rupatoclear",
+    "searchTerms": "alergoliber tablets alergoliber rupatadine darupax elirupalin healthtadine hisatrup rupatoclear 10mg tablets rupatadine alergoliber darupax 2nd generation antihistamine allergic rhinitis urticaria",
+    "alternatives": "Alergoliber / Darupax / Healthtadine / Elirupalin / Hisatrup / Rupatoclear",
     "barcode": []
   },
   "mono_00074": {
@@ -3293,17 +3311,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -3703,17 +3721,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -3744,17 +3762,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -3774,28 +3792,28 @@ window.monodoseDatabase = {
   "mono_00093": {
     "code": "mono_00093",
     "name": "Albendazole",
-    "tradeName": "Alzental Susp",
-    "composition": "Albendazole 100mg/5ml",
+    "tradeName": "Alzental susp",
+    "composition": "Albendazole 100 mg / 5 ml (20 ml)",
     "formulation": "syp-susp",
     "dosage_form": "suspension",
     "category": "Monodose Clinical",
     "subCategory": "suspension",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
+    "pregnancyCategory": "Category C (Contraindicated in 1st trimester)",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
+    "administration": "Take with fatty meals to increase systemic absorption. Shake well before use.",
     "concentration": 20.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Enterobiasis (Pinworm) / Ascariasis / Hookworm"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: 400 mg (20 ml) single dose with food (repeat pinworm in 2 weeks) | Pediatric: Age 1-2 yr: 200 mg (10 ml) single dose | Age >2 yr: 400 mg (20 ml) single dose",
+        "dosePerKg": null,
+        "frequency": "Single dose with fatty meal",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "400 mg (20 ml) single dose with food (repeat pinworm in 2 weeks)",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -3808,35 +3826,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "alzental susp alzental albendazole antizole bendax 100mg/5ml suspension albendazole alzental suspension 100mg/5ml",
-    "alternatives": "Antizole / Bendax",
+    "searchTerms": "alzental susp alzental albendazole antizole bendax 100mg/5ml suspension albendazole alzental bendax anthelmintic pinworm ascariasis hookworm",
+    "alternatives": "Alzental / Bendax / Vermizole",
     "barcode": []
   },
   "mono_00094": {
     "code": "mono_00094",
     "name": "Albendazole",
-    "tradeName": "Alzental Suspension",
-    "composition": "Albendazole 100mg/5ml",
+    "tradeName": "Alzental suspension",
+    "composition": "Albendazole 100 mg / 5 ml (20 ml)",
     "formulation": "syp-susp",
     "dosage_form": "suspension",
     "category": "Monodose Clinical",
     "subCategory": "suspension",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
+    "pregnancyCategory": "Category C (Contraindicated in 1st trimester)",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
+    "administration": "Take with fatty meals to increase systemic absorption. Shake well before use.",
     "concentration": 20.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Enterobiasis (Pinworm) / Ascariasis / Hookworm"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: 400 mg (20 ml) single dose with food (repeat pinworm in 2 weeks) | Pediatric: Age 1-2 yr: 200 mg (10 ml) single dose | Age >2 yr: 400 mg (20 ml) single dose",
+        "dosePerKg": null,
+        "frequency": "Single dose with fatty meal",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "400 mg (20 ml) single dose with food (repeat pinworm in 2 weeks)",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -3849,35 +3867,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "alzental suspension alzental albendazole antizole bendax 100mg/5ml suspension albendazole alzental suspension 100mg/5ml",
-    "alternatives": "Antizole / Bendax",
+    "searchTerms": "alzental suspension alzental albendazole antizole bendax 100mg/5ml suspension albendazole alzental bendax anthelmintic pinworm ascariasis hookworm",
+    "alternatives": "Alzental / Bendax / Vermizole",
     "barcode": []
   },
   "mono_00095": {
     "code": "mono_00095",
     "name": "Albendazole",
-    "tradeName": "Alzental Tab",
-    "composition": "Albendazole 200mg",
+    "tradeName": "Alzental tab",
+    "composition": "Albendazole 200 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
+    "pregnancyCategory": "Category C (Contraindicated in 1st trimester)",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Take with fatty meals to increase systemic absorption. Shake well before use.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Enterobiasis (Pinworm) / Ascariasis / Hookworm"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 400 mg (2 tablets) single dose with fatty meal | Pediatric: Age > 2 years: 400 mg (2 tablets) single dose with fatty meal",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "Single dose with fatty meal",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "adultFixed": "400 mg (2 tablets) single dose with fatty meal",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -3890,35 +3908,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "alzental tab alzental albendazole antizole bendax vermizole 200mg tablets albendazole alzental tablet 200mg",
-    "alternatives": "Antizole / Bendax / Vermizole",
+    "searchTerms": "alzental tab alzental albendazole antizole bendax vermizole 200mg tablets albendazole alzental bendax anthelmintic pinworm ascariasis hookworm",
+    "alternatives": "Alzental / Bendax / Vermizole",
     "barcode": []
   },
   "mono_00096": {
     "code": "mono_00096",
     "name": "Albendazole",
-    "tradeName": "Alzental Tablets",
-    "composition": "Albendazole 200mg",
+    "tradeName": "Alzental tablets",
+    "composition": "Albendazole 200 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
+    "pregnancyCategory": "Category C (Contraindicated in 1st trimester)",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Take with fatty meals to increase systemic absorption. Shake well before use.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Enterobiasis (Pinworm) / Ascariasis / Hookworm"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 400 mg (2 tablets) single dose with fatty meal | Pediatric: Age > 2 years: 400 mg (2 tablets) single dose with fatty meal",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "Single dose with fatty meal",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "adultFixed": "400 mg (2 tablets) single dose with fatty meal",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -3931,8 +3949,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "alzental tablets alzental albendazole antizole bendax vermizole 200mg tablets albendazole alzental tablet 200mg",
-    "alternatives": "Antizole / Bendax / Vermizole",
+    "searchTerms": "alzental tablets alzental albendazole antizole bendax vermizole 200mg tablets albendazole alzental bendax anthelmintic pinworm ascariasis hookworm",
+    "alternatives": "Alzental / Bendax / Vermizole",
     "barcode": []
   },
   "mono_00097": {
@@ -4142,29 +4160,29 @@ window.monodoseDatabase = {
   },
   "mono_00102": {
     "code": "mono_00102",
-    "name": "Mucosolvan",
-    "tradeName": "Ambroxol 30 Tab",
-    "composition": "Mucosolvan 30mg",
+    "name": "Ambroxol",
+    "tradeName": "Ambroxol 30 tab",
+    "composition": "Ambroxol 30 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "pregnancyCategory": "Category B (Avoid in 1st trimester)",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Take after meals with plenty of fluids to assist mucolytic action.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Mucolytic Therapy in Acute/Chronic Respiratory Disorders"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 30 mg (1 tablet) PO q8hr after meals | Pediatric: Adolescents > 12 years: 30 mg PO q8hr",
         "dosePerKg": null,
-        "frequency": "As directed",
-        "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "frequency": "q8hr after meals",
+        "maxDosesPerDay": 3,
+        "adultFixed": "30 mg (1 tablet) PO q8hr after meals",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -4177,35 +4195,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "ambroxol 30 tab ambroxol mucosolvan mucoline 30mg tablets mucosolvan ambroxol tablet 30mg",
-    "alternatives": "Mucoline",
+    "searchTerms": "ambroxol 30 tab ambroxol mucosolvan mucoline 30mg tablets ambroxol ambolar mucosolvan mucolytic expectorant productive cough bronchitis",
+    "alternatives": "Ambolar / Mucosolvan / Bronchopro",
     "barcode": []
   },
   "mono_00103": {
     "code": "mono_00103",
-    "name": "Bronchopro",
-    "tradeName": "Ambroxol 75 Cap",
-    "composition": "Bronchopro 75mg",
+    "name": "Ambroxol",
+    "tradeName": "Ambroxol 75 cap",
+    "composition": "Ambroxol 30 mg",
     "formulation": "tab-caps",
-    "dosage_form": "capsule",
+    "dosage_form": "tablet",
     "category": "Monodose Clinical",
-    "subCategory": "capsule",
+    "subCategory": "tablet",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "pregnancyCategory": "Category B (Avoid in 1st trimester)",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Take after meals with plenty of fluids to assist mucolytic action.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Mucolytic Therapy in Acute/Chronic Respiratory Disorders"
         ],
-        "dose": "Adult: 1 capsule once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 30 mg (1 tablet) PO q8hr after meals | Pediatric: Adolescents > 12 years: 30 mg PO q8hr",
         "dosePerKg": null,
-        "frequency": "As directed",
-        "maxDosesPerDay": 1,
-        "adultFixed": "1 capsule once or twice daily with a full glass of water",
+        "frequency": "q8hr after meals",
+        "maxDosesPerDay": 3,
+        "adultFixed": "30 mg (1 tablet) PO q8hr after meals",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -4218,35 +4236,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "ambroxol 75 cap ambroxol bronchopro retard muco mucobroxol mucosin sr 75mg capsules bronchopro ambroxol capsule 75mg",
-    "alternatives": "Muco / Mucobroxol / Mucosin",
+    "searchTerms": "ambroxol 75 cap ambroxol bronchopro retard muco mucobroxol mucosin sr 75mg capsules ambroxol ambolar mucosolvan mucolytic expectorant productive cough bronchitis",
+    "alternatives": "Ambolar / Mucosolvan / Bronchopro",
     "barcode": []
   },
   "mono_00104": {
     "code": "mono_00104",
-    "name": "Bronchopro",
-    "tradeName": "Ambroxol Cap",
-    "composition": "Bronchopro 75mg",
+    "name": "Ambroxol",
+    "tradeName": "Ambroxol cap",
+    "composition": "Ambroxol 30 mg",
     "formulation": "tab-caps",
-    "dosage_form": "capsule",
+    "dosage_form": "tablet",
     "category": "Monodose Clinical",
-    "subCategory": "capsule",
+    "subCategory": "tablet",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "pregnancyCategory": "Category B (Avoid in 1st trimester)",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Take after meals with plenty of fluids to assist mucolytic action.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Mucolytic Therapy in Acute/Chronic Respiratory Disorders"
         ],
-        "dose": "Adult: 1 capsule once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 30 mg (1 tablet) PO q8hr after meals | Pediatric: Adolescents > 12 years: 30 mg PO q8hr",
         "dosePerKg": null,
-        "frequency": "As directed",
-        "maxDosesPerDay": 1,
-        "adultFixed": "1 capsule once or twice daily with a full glass of water",
+        "frequency": "q8hr after meals",
+        "maxDosesPerDay": 3,
+        "adultFixed": "30 mg (1 tablet) PO q8hr after meals",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -4259,35 +4277,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "ambroxol cap ambroxol bronchopro retard muco mucobroxol mucosin sr 75mg capsules bronchopro ambroxol capsule 75mg",
-    "alternatives": "Muco / Mucobroxol / Mucosin",
+    "searchTerms": "ambroxol cap ambroxol bronchopro retard muco mucobroxol mucosin sr 75mg capsules ambroxol ambolar mucosolvan mucolytic expectorant productive cough bronchitis",
+    "alternatives": "Ambolar / Mucosolvan / Bronchopro",
     "barcode": []
   },
   "mono_00105": {
     "code": "mono_00105",
-    "name": "Bronchopro",
-    "tradeName": "Ambroxol Capsules",
-    "composition": "Bronchopro 75mg",
+    "name": "Ambroxol",
+    "tradeName": "Ambroxol capsules",
+    "composition": "Ambroxol 30 mg",
     "formulation": "tab-caps",
-    "dosage_form": "capsule",
+    "dosage_form": "tablet",
     "category": "Monodose Clinical",
-    "subCategory": "capsule",
+    "subCategory": "tablet",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "pregnancyCategory": "Category B (Avoid in 1st trimester)",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Take after meals with plenty of fluids to assist mucolytic action.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Mucolytic Therapy in Acute/Chronic Respiratory Disorders"
         ],
-        "dose": "Adult: 1 capsule once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 30 mg (1 tablet) PO q8hr after meals | Pediatric: Adolescents > 12 years: 30 mg PO q8hr",
         "dosePerKg": null,
-        "frequency": "As directed",
-        "maxDosesPerDay": 1,
-        "adultFixed": "1 capsule once or twice daily with a full glass of water",
+        "frequency": "q8hr after meals",
+        "maxDosesPerDay": 3,
+        "adultFixed": "30 mg (1 tablet) PO q8hr after meals",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -4300,8 +4318,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "ambroxol capsules ambroxol bronchopro retard muco mucobroxol mucosin sr 75mg capsules bronchopro ambroxol capsule 75mg",
-    "alternatives": "Muco / Mucobroxol / Mucosin",
+    "searchTerms": "ambroxol capsules ambroxol bronchopro retard muco mucobroxol mucosin sr 75mg capsules ambroxol ambolar mucosolvan mucolytic expectorant productive cough bronchitis",
+    "alternatives": "Ambolar / Mucosolvan / Bronchopro",
     "barcode": []
   },
   "mono_00106": {
@@ -4347,29 +4365,29 @@ window.monodoseDatabase = {
   },
   "mono_00107": {
     "code": "mono_00107",
-    "name": "Mucofar",
-    "tradeName": "Ambroxol Syrup",
-    "composition": "Mucofar 15mg/5ml",
+    "name": "Ambroxol",
+    "tradeName": "Ambroxol syrup",
+    "composition": "Ambroxol 15 mg / 5 ml (100 ml)",
     "formulation": "syp-susp",
     "dosage_form": "syrup",
     "category": "Monodose Clinical",
     "subCategory": "syrup",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "pregnancyCategory": "Category B (Avoid in 1st trimester)",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "administration": "Take after meals with plenty of fluids to assist mucolytic action.",
+    "concentration": 3.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Productive Cough / Bronchial Secretion Dissolution"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: 10 ml (30 mg) PO q8hr after meals | Pediatric: <2 yr: 2.5 ml (7.5 mg) q12hr | 2-5 yr: 2.5 ml (7.5 mg) q8hr | 6-12 yr: 5 ml (15 mg) q8-12hr | >12 yr: 10 ml q8hr",
+        "dosePerKg": null,
+        "frequency": "q8-12hr after meals",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "10 ml (30 mg) PO q8hr after meals",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -4382,35 +4400,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "ambroxol syrup ambroxol mucofar mucopect pulmosolvan bronchopro sedoproxol mucosolvan 15mg/5ml syrup mucofar ambroxol syrup 15mg/5ml",
-    "alternatives": "Mucopect / Pulmosolvan / Bronchopro / Sedoproxol / Mucosolvan",
+    "searchTerms": "ambroxol syrup ambroxol mucofar mucopect pulmosolvan bronchopro sedoproxol mucosolvan 15mg/5ml syrup ambroxol ambolar mucosolvan mucolytic expectorant productive cough bronchitis",
+    "alternatives": "Ambolar / Mucosolvan / Bronchopro",
     "barcode": []
   },
   "mono_00108": {
     "code": "mono_00108",
-    "name": "Mucosolvan",
-    "tradeName": "Ambroxol Tab",
-    "composition": "Mucosolvan 30mg",
+    "name": "Ambroxol",
+    "tradeName": "Ambroxol tab",
+    "composition": "Ambroxol 30 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "pregnancyCategory": "Category B (Avoid in 1st trimester)",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Take after meals with plenty of fluids to assist mucolytic action.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Mucolytic Therapy in Acute/Chronic Respiratory Disorders"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 30 mg (1 tablet) PO q8hr after meals | Pediatric: Adolescents > 12 years: 30 mg PO q8hr",
         "dosePerKg": null,
-        "frequency": "As directed",
-        "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "frequency": "q8hr after meals",
+        "maxDosesPerDay": 3,
+        "adultFixed": "30 mg (1 tablet) PO q8hr after meals",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -4423,35 +4441,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "ambroxol tab ambroxol mucosolvan mucoline 30mg tablets mucosolvan ambroxol tablet 30mg",
-    "alternatives": "Mucoline",
+    "searchTerms": "ambroxol tab ambroxol mucosolvan mucoline 30mg tablets ambroxol ambolar mucosolvan mucolytic expectorant productive cough bronchitis",
+    "alternatives": "Ambolar / Mucosolvan / Bronchopro",
     "barcode": []
   },
   "mono_00109": {
     "code": "mono_00109",
-    "name": "Mucosolvan",
-    "tradeName": "Ambroxol Tablets",
-    "composition": "Mucosolvan 30mg",
+    "name": "Ambroxol",
+    "tradeName": "Ambroxol tablets",
+    "composition": "Ambroxol 30 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "pregnancyCategory": "Category B (Avoid in 1st trimester)",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Take after meals with plenty of fluids to assist mucolytic action.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Mucolytic Therapy in Acute/Chronic Respiratory Disorders"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 30 mg (1 tablet) PO q8hr after meals | Pediatric: Adolescents > 12 years: 30 mg PO q8hr",
         "dosePerKg": null,
-        "frequency": "As directed",
-        "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "frequency": "q8hr after meals",
+        "maxDosesPerDay": 3,
+        "adultFixed": "30 mg (1 tablet) PO q8hr after meals",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -4464,8 +4482,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "ambroxol tablets ambroxol mucosolvan mucoline 30mg tablets mucosolvan ambroxol tablet 30mg",
-    "alternatives": "Mucoline",
+    "searchTerms": "ambroxol tablets ambroxol mucosolvan mucoline 30mg tablets ambroxol ambolar mucosolvan mucolytic expectorant productive cough bronchitis",
+    "alternatives": "Ambolar / Mucosolvan / Bronchopro",
     "barcode": []
   },
   "mono_00110": {
@@ -6458,17 +6476,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 2.66,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -6540,17 +6558,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 10.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -7390,28 +7408,28 @@ window.monodoseDatabase = {
   "mono_00179": {
     "code": "mono_00179",
     "name": "Nifuroxazide",
-    "tradeName": "Antinal Cap",
-    "composition": "Nifuroxazide 200mg",
+    "tradeName": "Antinal cap",
+    "composition": "Nifuroxazide 200 mg",
     "formulation": "tab-caps",
     "dosage_form": "capsule",
     "category": "Monodose Clinical",
     "subCategory": "capsule",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
+    "pregnancyCategory": "Category B (Use with caution)",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Take with or without food. Do not exceed 7 days of treatment. Shake well before use.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Acute Bacterial Diarrhea / Gastroenteritis"
         ],
-        "dose": "Adult: 1 capsule once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 200 mg (1 capsule) 4 times daily (q6hr) for 3-5 days | Pediatric: Capsules recommended only for children > 6 years: 200 mg 3-4 times daily",
         "dosePerKg": null,
-        "frequency": "As directed",
-        "maxDosesPerDay": 1,
-        "adultFixed": "1 capsule once or twice daily with a full glass of water",
+        "frequency": "q6-8hr for 3-5 days",
+        "maxDosesPerDay": 3,
+        "adultFixed": "200 mg (1 capsule) 4 times daily (q6hr) for 3-5 days",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -7424,35 +7442,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "antinal cap antinal nifuroxazide diafuryl dia-furyl diax drotavex furfuril intestrelief intest-relief nifunal nitrofurinal 200mg capsules nifuroxazide antinal capsule 200mg",
-    "alternatives": "Diafuryl / Dia-furyl / Diax / Drotavex / Furfuril / Intestrelief / Intest-relief / Nifunal / Nitrofurinal",
+    "searchTerms": "antinal cap antinal nifuroxazide diafuryl dia-furyl diax drotavex furfuril intestrelief intest-relief nifunal nitrofurinal 200mg capsules nifuroxazide antinal drotazide antidiarrheal diarrhea gastroenteritis",
+    "alternatives": "Antinal / Drotazide / Diax",
     "barcode": []
   },
   "mono_00180": {
     "code": "mono_00180",
     "name": "Nifuroxazide",
-    "tradeName": "Antinal Capsules",
-    "composition": "Nifuroxazide 200mg",
+    "tradeName": "Antinal capsules",
+    "composition": "Nifuroxazide 200 mg",
     "formulation": "tab-caps",
     "dosage_form": "capsule",
     "category": "Monodose Clinical",
     "subCategory": "capsule",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
+    "pregnancyCategory": "Category B (Use with caution)",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Take with or without food. Do not exceed 7 days of treatment. Shake well before use.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Acute Bacterial Diarrhea / Gastroenteritis"
         ],
-        "dose": "Adult: 1 capsule once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 200 mg (1 capsule) 4 times daily (q6hr) for 3-5 days | Pediatric: Capsules recommended only for children > 6 years: 200 mg 3-4 times daily",
         "dosePerKg": null,
-        "frequency": "As directed",
-        "maxDosesPerDay": 1,
-        "adultFixed": "1 capsule once or twice daily with a full glass of water",
+        "frequency": "q6-8hr for 3-5 days",
+        "maxDosesPerDay": 3,
+        "adultFixed": "200 mg (1 capsule) 4 times daily (q6hr) for 3-5 days",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -7465,35 +7483,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "antinal capsules antinal nifuroxazide diafuryl dia-furyl diax drotavex furfuril intestrelief intest-relief nifunal nitrofurinal 200mg capsules nifuroxazide antinal capsule 200mg",
-    "alternatives": "Diafuryl / Dia-furyl / Diax / Drotavex / Furfuril / Intestrelief / Intest-relief / Nifunal / Nitrofurinal",
+    "searchTerms": "antinal capsules antinal nifuroxazide diafuryl dia-furyl diax drotavex furfuril intestrelief intest-relief nifunal nitrofurinal 200mg capsules nifuroxazide antinal drotazide antidiarrheal diarrhea gastroenteritis",
+    "alternatives": "Antinal / Drotazide / Diax",
     "barcode": []
   },
   "mono_00181": {
     "code": "mono_00181",
     "name": "Nifuroxazide",
-    "tradeName": "Antinal Susp",
-    "composition": "Nifuroxazide 220mg/5ml",
+    "tradeName": "Antinal susp",
+    "composition": "Nifuroxazide 220 mg / 5 ml (60 ml)",
     "formulation": "syp-susp",
     "dosage_form": "suspension",
     "category": "Monodose Clinical",
     "subCategory": "suspension",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
+    "pregnancyCategory": "Category B (Use with caution)",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "administration": "Take with or without food. Do not exceed 7 days of treatment. Shake well before use.",
+    "concentration": 44.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Acute Bacterial Diarrhea / Gastroenteritis"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
-        "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "dose": "Adult: 5 ml q6hr (4 times daily) for 3-5 days | Pediatric: <2 yr: Not recommended | 2-6 yr: 5 ml q8hr (3 times daily) | >6 yr: 5 ml q6hr (4 times daily)",
+        "dosePerKg": null,
+        "frequency": "q6-8hr for 3-5 days",
+        "maxDosesPerDay": 3,
+        "adultFixed": "5 ml q6hr (4 times daily) for 3-5 days",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -7506,35 +7524,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "antinal susp antinal nifuroxazide diax furfuril intestrelief nifunal intest-relief diafuryl dia-furyl flatrolam 220mg/5ml suspension nifuroxazide antinal suspension 220mg/5ml",
-    "alternatives": "Diax / Furfuril / Intestrelief / Nifunal / Intest-relief / Diafuryl / Dia-furyl / Flatrolam",
+    "searchTerms": "antinal susp antinal nifuroxazide diax furfuril intestrelief nifunal intest-relief diafuryl dia-furyl flatrolam 220mg/5ml suspension nifuroxazide antinal drotazide antidiarrheal diarrhea gastroenteritis",
+    "alternatives": "Antinal / Drotazide / Diax",
     "barcode": []
   },
   "mono_00182": {
     "code": "mono_00182",
     "name": "Nifuroxazide",
-    "tradeName": "Antinal Suspension",
-    "composition": "Nifuroxazide 220mg/5ml",
+    "tradeName": "Antinal suspension",
+    "composition": "Nifuroxazide 220 mg / 5 ml (60 ml)",
     "formulation": "syp-susp",
     "dosage_form": "suspension",
     "category": "Monodose Clinical",
     "subCategory": "suspension",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
+    "pregnancyCategory": "Category B (Use with caution)",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "administration": "Take with or without food. Do not exceed 7 days of treatment. Shake well before use.",
+    "concentration": 44.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Acute Bacterial Diarrhea / Gastroenteritis"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
-        "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "dose": "Adult: 5 ml q6hr (4 times daily) for 3-5 days | Pediatric: <2 yr: Not recommended | 2-6 yr: 5 ml q8hr (3 times daily) | >6 yr: 5 ml q6hr (4 times daily)",
+        "dosePerKg": null,
+        "frequency": "q6-8hr for 3-5 days",
+        "maxDosesPerDay": 3,
+        "adultFixed": "5 ml q6hr (4 times daily) for 3-5 days",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -7547,8 +7565,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "antinal suspension antinal nifuroxazide diax furfuril intestrelief nifunal intest-relief diafuryl dia-furyl flatrolam 220mg/5ml suspension nifuroxazide antinal suspension 220mg/5ml",
-    "alternatives": "Diax / Furfuril / Intestrelief / Nifunal / Intest-relief / Diafuryl / Dia-furyl / Flatrolam",
+    "searchTerms": "antinal suspension antinal nifuroxazide diax furfuril intestrelief nifunal intest-relief diafuryl dia-furyl flatrolam 220mg/5ml suspension nifuroxazide antinal drotazide antidiarrheal diarrhea gastroenteritis",
+    "alternatives": "Antinal / Drotazide / Diax",
     "barcode": []
   },
   "mono_00183": {
@@ -7569,13 +7587,13 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -7610,13 +7628,13 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -7852,17 +7870,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 8.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -7893,17 +7911,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 8.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -8796,17 +8814,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -9124,17 +9142,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -9165,17 +9183,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -9657,17 +9675,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -10641,17 +10659,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -12563,13 +12581,13 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -12604,13 +12622,13 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -12805,17 +12823,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -13513,17 +13531,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -13759,17 +13777,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -14784,17 +14802,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -16137,17 +16155,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 0.8,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -17403,17 +17421,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -17444,17 +17462,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -17772,17 +17790,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -17813,17 +17831,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -18469,17 +18487,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 2.12,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -18510,17 +18528,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 2.12,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -18715,17 +18733,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -18879,17 +18897,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -19330,17 +19348,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -19371,17 +19389,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -20642,17 +20660,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -21011,17 +21029,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 2.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -21216,17 +21234,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -21246,30 +21264,48 @@ window.monodoseDatabase = {
   "mono_00495": {
     "code": "mono_00495",
     "name": "Cefaclor",
-    "tradeName": "Ceclor 125 Susp",
-    "composition": "Cefaclor 125mg/5ml",
+    "tradeName": "Ceclor 125 susp",
+    "composition": "Cefaclor 125 mg / 5 ml (75 ml)",
     "formulation": "syp-susp",
     "dosage_form": "suspension",
     "category": "Monodose Clinical",
     "subCategory": "suspension",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "administration": "Taken with or without food. Take with food if GI upset occurs. Shake well before use.",
+    "concentration": 25.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Acute Otitis Media / Lower Respiratory Infections"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
-        "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "dose": "Adult: 250-500 mg PO q8hr (Max 2 gm/day) | Pediatric: 20-40 mg/kg/day divided q8hr (Severe/Otitis: 40 mg/kg/day divided q8hr; Max 1000 mg/day)",
+        "dosePerKg": 13.33,
+        "frequency": "q8hr for 10 days",
+        "maxDosesPerDay": 3,
+        "adultFixed": "250-500 mg PO q8hr (Max 2 gm/day)",
         "singleDoseMaxMl": null,
-        "maxDailyMg": null,
+        "maxDailyMg": 1000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pharyngitis / Tonsillitis"
+        ],
+        "dose": "Adult: 250-500 mg PO q8hr | Pediatric: 20 mg/kg/day PO divided q8-12hr (Max 1000 mg/day)",
+        "dosePerKg": 10.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg PO q8hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
         "indType": null,
         "stdFactor": null,
         "lowFactor": null,
@@ -21280,37 +21316,55 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "ceclor 125 susp ceclor cefaclor bacticlor misaclor 125mg/5ml suspension cefaclor ceclor suspension 125mg/5ml",
-    "alternatives": "Bacticlor / Misaclor",
+    "searchTerms": "ceclor 125 susp ceclor cefaclor bacticlor misaclor 125mg/5ml suspension cefaclor ceclor briocef cephalosporin otitis pharyngitis respiratory",
+    "alternatives": "Ceclor / Briocef / Cloracef / Serviclor",
     "barcode": []
   },
   "mono_00496": {
     "code": "mono_00496",
     "name": "Cefaclor",
-    "tradeName": "Ceclor 250 Susp",
-    "composition": "Cefaclor 250mg/5ml",
+    "tradeName": "Ceclor 250 susp",
+    "composition": "Cefaclor 250 mg / 5 ml (75 ml)",
     "formulation": "syp-susp",
     "dosage_form": "suspension",
     "category": "Monodose Clinical",
     "subCategory": "suspension",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "administration": "Taken with or without food. Take with food if GI upset occurs. Shake well before use.",
+    "concentration": 50.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Acute Otitis Media / Lower Respiratory Infections"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
-        "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "dose": "Adult: 250-500 mg PO q8hr (Max 2 gm/day) | Pediatric: 20-40 mg/kg/day divided q8hr (Severe/Otitis: 40 mg/kg/day divided q8hr; Max 1000 mg/day)",
+        "dosePerKg": 13.33,
+        "frequency": "q8hr for 10 days",
+        "maxDosesPerDay": 3,
+        "adultFixed": "250-500 mg PO q8hr (Max 2 gm/day)",
         "singleDoseMaxMl": null,
-        "maxDailyMg": null,
+        "maxDailyMg": 1000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pharyngitis / Tonsillitis"
+        ],
+        "dose": "Adult: 250-500 mg PO q8hr | Pediatric: 20 mg/kg/day PO divided q8-12hr (Max 1000 mg/day)",
+        "dosePerKg": 10.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg PO q8hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
         "indType": null,
         "stdFactor": null,
         "lowFactor": null,
@@ -21321,37 +21375,55 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "ceclor 250 susp ceclor cefaclor misaclor bacticlor cefbiolor clorocef 250mg/5ml suspension cefaclor ceclor suspension 250mg/5ml",
-    "alternatives": "Misaclor / Bacticlor / Cefbiolor / Clorocef",
+    "searchTerms": "ceclor 250 susp ceclor cefaclor misaclor bacticlor cefbiolor clorocef 250mg/5ml suspension cefaclor ceclor briocef cephalosporin otitis pharyngitis respiratory",
+    "alternatives": "Ceclor / Briocef / Cloracef / Serviclor",
     "barcode": []
   },
   "mono_00497": {
     "code": "mono_00497",
     "name": "Cefaclor",
-    "tradeName": "Ceclor Susp",
-    "composition": "Cefaclor 250mg/5ml",
+    "tradeName": "Ceclor susp",
+    "composition": "Cefaclor 250 mg / 5 ml (75 ml)",
     "formulation": "syp-susp",
     "dosage_form": "suspension",
     "category": "Monodose Clinical",
     "subCategory": "suspension",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "administration": "Taken with or without food. Take with food if GI upset occurs. Shake well before use.",
+    "concentration": 50.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Acute Otitis Media / Lower Respiratory Infections"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
-        "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "dose": "Adult: 250-500 mg PO q8hr (Max 2 gm/day) | Pediatric: 20-40 mg/kg/day divided q8hr (Severe/Otitis: 40 mg/kg/day divided q8hr; Max 1000 mg/day)",
+        "dosePerKg": 13.33,
+        "frequency": "q8hr for 10 days",
+        "maxDosesPerDay": 3,
+        "adultFixed": "250-500 mg PO q8hr (Max 2 gm/day)",
         "singleDoseMaxMl": null,
-        "maxDailyMg": null,
+        "maxDailyMg": 1000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pharyngitis / Tonsillitis"
+        ],
+        "dose": "Adult: 250-500 mg PO q8hr | Pediatric: 20 mg/kg/day PO divided q8-12hr (Max 1000 mg/day)",
+        "dosePerKg": 10.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg PO q8hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
         "indType": null,
         "stdFactor": null,
         "lowFactor": null,
@@ -21362,37 +21434,55 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "ceclor susp ceclor cefaclor misaclor bacticlor cefbiolor clorocef 250mg/5ml suspension cefaclor ceclor suspension 250mg/5ml",
-    "alternatives": "Misaclor / Bacticlor / Cefbiolor / Clorocef",
+    "searchTerms": "ceclor susp ceclor cefaclor misaclor bacticlor cefbiolor clorocef 250mg/5ml suspension cefaclor ceclor briocef cephalosporin otitis pharyngitis respiratory",
+    "alternatives": "Ceclor / Briocef / Cloracef / Serviclor",
     "barcode": []
   },
   "mono_00498": {
     "code": "mono_00498",
     "name": "Cefaclor",
-    "tradeName": "Ceclor Suspension",
-    "composition": "Cefaclor 250mg/5ml",
+    "tradeName": "Ceclor suspension",
+    "composition": "Cefaclor 250 mg / 5 ml (75 ml)",
     "formulation": "syp-susp",
     "dosage_form": "suspension",
     "category": "Monodose Clinical",
     "subCategory": "suspension",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "administration": "Taken with or without food. Take with food if GI upset occurs. Shake well before use.",
+    "concentration": 50.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Acute Otitis Media / Lower Respiratory Infections"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
-        "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "dose": "Adult: 250-500 mg PO q8hr (Max 2 gm/day) | Pediatric: 20-40 mg/kg/day divided q8hr (Severe/Otitis: 40 mg/kg/day divided q8hr; Max 1000 mg/day)",
+        "dosePerKg": 13.33,
+        "frequency": "q8hr for 10 days",
+        "maxDosesPerDay": 3,
+        "adultFixed": "250-500 mg PO q8hr (Max 2 gm/day)",
         "singleDoseMaxMl": null,
-        "maxDailyMg": null,
+        "maxDailyMg": 1000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pharyngitis / Tonsillitis"
+        ],
+        "dose": "Adult: 250-500 mg PO q8hr | Pediatric: 20 mg/kg/day PO divided q8-12hr (Max 1000 mg/day)",
+        "dosePerKg": 10.0,
+        "frequency": "q12hr for 10 days",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg PO q8hr",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1000.0,
         "indType": null,
         "stdFactor": null,
         "lowFactor": null,
@@ -21403,8 +21493,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "ceclor suspension ceclor cefaclor misaclor bacticlor cefbiolor clorocef 250mg/5ml suspension cefaclor ceclor suspension 250mg/5ml",
-    "alternatives": "Misaclor / Bacticlor / Cefbiolor / Clorocef",
+    "searchTerms": "ceclor suspension ceclor cefaclor misaclor bacticlor cefbiolor clorocef 250mg/5ml suspension cefaclor ceclor briocef cephalosporin otitis pharyngitis respiratory",
+    "alternatives": "Ceclor / Briocef / Cloracef / Serviclor",
     "barcode": []
   },
   "mono_00499": {
@@ -22057,17 +22147,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 25.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -22098,17 +22188,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 50.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -22221,17 +22311,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 50.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -22262,17 +22352,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 50.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -23452,17 +23542,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 50.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -24190,17 +24280,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -24231,17 +24321,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -24272,17 +24362,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -24313,17 +24403,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -24395,17 +24485,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 100.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -25930,17 +26020,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -25971,17 +26061,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -26053,17 +26143,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -26135,17 +26225,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -26668,17 +26758,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -26709,17 +26799,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -26750,17 +26840,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -29743,17 +29833,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -29784,17 +29874,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -29825,17 +29915,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -31507,17 +31597,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -32286,17 +32376,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -32327,17 +32417,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -32368,17 +32458,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -32438,29 +32528,29 @@ window.monodoseDatabase = {
   },
   "mono_00750": {
     "code": "mono_00750",
-    "name": "Decancit",
-    "tradeName": "Decancit Capsules",
-    "composition": "Decancit 5mg",
+    "name": "Cetirizine",
+    "tradeName": "Decancit capsules",
+    "composition": "Cetirizine 10 mg",
     "formulation": "tab-caps",
-    "dosage_form": "capsule",
+    "dosage_form": "tablet",
     "category": "Monodose Clinical",
-    "subCategory": "capsule",
+    "subCategory": "tablet",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Use with caution (enters breast milk)",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Taken with or without food.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Allergic Rhinitis / Chronic Urticaria"
         ],
-        "dose": "Adult: 1 capsule once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 10 mg (1 tablet) q24hr once daily | Pediatric: >= 6 years: 10 mg (1 tablet) q24hr or 5 mg q12hr",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "q24hr",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 capsule once or twice daily with a full glass of water",
+        "adultFixed": "10 mg (1 tablet) q24hr once daily",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -32473,8 +32563,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "decancit capsules decancit sr cetirizine 5mg pseudoephedrine 120mg clearest pseudozin sr xinase tablets capsules decancit decancit capsule 5mg",
-    "alternatives": "Decancit sr cetirizine 5mg pseudoephedrine 120mg clearest pseudozin sr xinase tablets capsules",
+    "searchTerms": "decancit capsules decancit sr cetirizine 5mg pseudoephedrine 120mg clearest pseudozin sr xinase tablets capsules cetirizine zyrtec cetrak antihistamine allergic rhinitis urticaria",
+    "alternatives": "Zyrtec / Cetrak / Histazine / Epitrizine / Cetrine",
     "barcode": []
   },
   "mono_00751": {
@@ -32696,17 +32786,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 40.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -32860,17 +32950,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 0.05,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -32942,17 +33032,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 0.05,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -33311,17 +33401,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -33464,30 +33554,30 @@ window.monodoseDatabase = {
   "mono_00775": {
     "code": "mono_00775",
     "name": "Desloratadine",
-    "tradeName": "Desa Syrup",
-    "composition": "Desloratadine 2.5mg/5ml",
+    "tradeName": "Desa syrup",
+    "composition": "Desloratadine 2.5 mg / 5 ml (120 ml)",
     "formulation": "syp-susp",
     "dosage_form": "syrup",
     "category": "Monodose Clinical",
     "subCategory": "syrup",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "pregnancyCategory": "Category C",
+    "breastfeedingCategory": "Enters breast milk; use with caution",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "administration": "Taken with or without food.",
+    "concentration": 0.5,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Allergic Rhinitis / Chronic Idiopathic Urticaria"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: 10 ml (5 mg) q24hr once daily | Pediatric: 6-11 mo: 2 ml (1 mg) q24hr | 1-5 yr: 2.5 ml (1.25 mg) q24hr | 6-11 yr: 5 ml (2.5 mg) q24hr | >=12 yr: 10 ml q24hr",
+        "dosePerKg": null,
+        "frequency": "q24hr",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
-        "singleDoseMaxMl": null,
-        "maxDailyMg": null,
+        "adultFixed": "10 ml (5 mg) q24hr once daily",
+        "singleDoseMaxMl": 10.0,
+        "maxDailyMg": 5.0,
         "indType": null,
         "stdFactor": null,
         "lowFactor": null,
@@ -33498,35 +33588,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "desa syrup desa desloratadine alergaway brevy delarex delora deslorastamine deslorex endstamine fernilar lorafast ordesca tendratine stimloric skivalorine silistarkish ordesca hygitadine hygi-tadine embanodex 2.5mg/5ml syrup desloratadine desa syrup 2.5mg/5ml",
-    "alternatives": "Alergaway / Brevy / Delarex / Delora / Deslorastamine / Deslorex / Endstamine / Fernilar / Lorafast / Ordesca / Tendratine / Stimloric",
+    "searchTerms": "desa syrup desa desloratadine alergaway brevy delarex delora deslorastamine deslorex endstamine fernilar lorafast ordesca tendratine stimloric skivalorine silistarkish ordesca hygitadine hygi-tadine embanodex 2.5mg/5ml syrup desloratadine aerius neoday antihistamine allergic rhinitis urticaria",
+    "alternatives": "Aerius / Deslorat / Neoday / Deslor / Delarex",
     "barcode": []
   },
   "mono_00776": {
     "code": "mono_00776",
     "name": "Desloratadine",
-    "tradeName": "Desa Tab",
-    "composition": "Desloratadine 5mg",
+    "tradeName": "Desa tab",
+    "composition": "Desloratadine 5 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "pregnancyCategory": "Category C",
+    "breastfeedingCategory": "Enters breast milk; use with caution",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Taken with or without food.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Allergic Rhinitis / Chronic Idiopathic Urticaria"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 5 mg (1 tablet) q24hr once daily | Pediatric: >= 12 years: 5 mg (1 tablet) q24hr once daily",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "q24hr",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "adultFixed": "5 mg (1 tablet) q24hr once daily",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -33539,35 +33629,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "desa tab desa desloratadine aerius alergaway dclar d-clar delarex delorastop delora-stop deslargyl deslorex embanodex fernilar hygitadine hygi-tadine nouvonase ordesca silistorkish stimloric 5mg tablets desloratadine desa tablet 5mg",
-    "alternatives": "Aerius / Alergaway / Dclar / D-clar / Delarex / Delorastop / Delora-stop / Deslargyl / Deslorex / Embanodex / Fernilar / Hygitadine",
+    "searchTerms": "desa tab desa desloratadine aerius alergaway dclar d-clar delarex delorastop delora-stop deslargyl deslorex embanodex fernilar hygitadine hygi-tadine nouvonase ordesca silistorkish stimloric 5mg tablets desloratadine aerius neoday antihistamine allergic rhinitis urticaria",
+    "alternatives": "Aerius / Deslorat / Neoday / Deslor / Delarex",
     "barcode": []
   },
   "mono_00777": {
     "code": "mono_00777",
     "name": "Desloratadine",
-    "tradeName": "Desa Tablets",
-    "composition": "Desloratadine 5mg",
+    "tradeName": "Desa tablets",
+    "composition": "Desloratadine 5 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "pregnancyCategory": "Category C",
+    "breastfeedingCategory": "Enters breast milk; use with caution",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Taken with or without food.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Allergic Rhinitis / Chronic Idiopathic Urticaria"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 5 mg (1 tablet) q24hr once daily | Pediatric: >= 12 years: 5 mg (1 tablet) q24hr once daily",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "q24hr",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "adultFixed": "5 mg (1 tablet) q24hr once daily",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -33580,8 +33670,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "desa tablets desa desloratadine aerius alergaway dclar d-clar delarex delorastop delora-stop deslargyl deslorex embanodex fernilar hygitadine hygi-tadine nouvonase ordesca silistorkish stimloric 5mg tablets desloratadine desa tablet 5mg",
-    "alternatives": "Aerius / Alergaway / Dclar / D-clar / Delarex / Delorastop / Delora-stop / Deslargyl / Deslorex / Embanodex / Fernilar / Hygitadine",
+    "searchTerms": "desa tablets desa desloratadine aerius alergaway dclar d-clar delarex delorastop delora-stop deslargyl deslorex embanodex fernilar hygitadine hygi-tadine nouvonase ordesca silistorkish stimloric 5mg tablets desloratadine aerius neoday antihistamine allergic rhinitis urticaria",
+    "alternatives": "Aerius / Deslorat / Neoday / Deslor / Delarex",
     "barcode": []
   },
   "mono_00778": {
@@ -34090,17 +34180,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 2.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -34131,17 +34221,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 2.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -34746,17 +34836,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -34787,17 +34877,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -34828,17 +34918,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -35156,17 +35246,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -35361,17 +35451,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -36087,29 +36177,29 @@ window.monodoseDatabase = {
   },
   "mono_00839": {
     "code": "mono_00839",
-    "name": "Disprelone-d",
+    "name": "Prednisolone",
     "tradeName": "Disprelone-OD 20 tab",
-    "composition": "Disprelone-d 20mg",
+    "composition": "Prednisolone 20 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "pregnancyCategory": "Category C",
+    "breastfeedingCategory": "Compatible (Low levels in milk; wait 3-4 hours after dose to nurse)",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Take with meals or milk to minimize GI irritation. Take in the morning.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Anti-inflammatory / Immunosuppressive Therapy"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 5-60 mg PO once daily in morning with food | Pediatric: 1-2 mg/kg/day PO in single or divided doses",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "Once daily with breakfast",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "adultFixed": "5-60 mg PO once daily in morning with food",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -36122,35 +36212,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "disprelone-od 20 tab disprelone-od disprelone-d prednisolone epicopred unipricort solupred oro xilone 20mg tablets disprelone-d disprelone-od tablet 20mg",
-    "alternatives": "Prednisolone / Epicopred / Unipricort / Solupred / Oro / Xilone",
+    "searchTerms": "disprelone-od 20 tab disprelone-od disprelone-d prednisolone epicopred unipricort solupred oro xilone 20mg tablets prednisolone xilone apidone solupred corticosteroid anti-inflammatory asthma allergy",
+    "alternatives": "Xilone / Apidone / Solupred / Predsol",
     "barcode": []
   },
   "mono_00840": {
     "code": "mono_00840",
-    "name": "Disprelone-d",
+    "name": "Prednisolone",
     "tradeName": "Disprelone-OD 5 tab",
-    "composition": "Disprelone-d 20mg",
+    "composition": "Prednisolone 20 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "pregnancyCategory": "Category C",
+    "breastfeedingCategory": "Compatible (Low levels in milk; wait 3-4 hours after dose to nurse)",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Take with meals or milk to minimize GI irritation. Take in the morning.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Anti-inflammatory / Immunosuppressive Therapy"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 5-60 mg PO once daily in morning with food | Pediatric: 1-2 mg/kg/day PO in single or divided doses",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "Once daily with breakfast",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "adultFixed": "5-60 mg PO once daily in morning with food",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -36163,35 +36253,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "disprelone-od 5 tab disprelone-od disprelone-d prednisolone epicopred unipricort solupred oro xilone 20mg tablets disprelone-d disprelone-od tablet 20mg",
-    "alternatives": "Prednisolone / Epicopred / Unipricort / Solupred / Oro / Xilone",
+    "searchTerms": "disprelone-od 5 tab disprelone-od disprelone-d prednisolone epicopred unipricort solupred oro xilone 20mg tablets prednisolone xilone apidone solupred corticosteroid anti-inflammatory asthma allergy",
+    "alternatives": "Xilone / Apidone / Solupred / Predsol",
     "barcode": []
   },
   "mono_00841": {
     "code": "mono_00841",
-    "name": "Disprelone-d",
-    "tradeName": "Disprelone-Od Tab",
-    "composition": "Disprelone-d 20mg",
+    "name": "Prednisolone",
+    "tradeName": "Disprelone-od tab",
+    "composition": "Prednisolone 20 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "pregnancyCategory": "Category C",
+    "breastfeedingCategory": "Compatible (Low levels in milk; wait 3-4 hours after dose to nurse)",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Take with meals or milk to minimize GI irritation. Take in the morning.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Anti-inflammatory / Immunosuppressive Therapy"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 5-60 mg PO once daily in morning with food | Pediatric: 1-2 mg/kg/day PO in single or divided doses",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "Once daily with breakfast",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "adultFixed": "5-60 mg PO once daily in morning with food",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -36204,35 +36294,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "disprelone-od tab disprelone-od disprelone-d prednisolone epicopred unipricort solupred oro xilone 20mg tablets disprelone-d disprelone-od tablet 20mg",
-    "alternatives": "Prednisolone / Epicopred / Unipricort / Solupred / Oro / Xilone",
+    "searchTerms": "disprelone-od tab disprelone-od disprelone-d prednisolone epicopred unipricort solupred oro xilone 20mg tablets prednisolone xilone apidone solupred corticosteroid anti-inflammatory asthma allergy",
+    "alternatives": "Xilone / Apidone / Solupred / Predsol",
     "barcode": []
   },
   "mono_00842": {
     "code": "mono_00842",
-    "name": "Disprelone-d",
-    "tradeName": "Disprelone-Od Tablets",
-    "composition": "Disprelone-d 20mg",
+    "name": "Prednisolone",
+    "tradeName": "Disprelone-od tablets",
+    "composition": "Prednisolone 20 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "pregnancyCategory": "Category C",
+    "breastfeedingCategory": "Compatible (Low levels in milk; wait 3-4 hours after dose to nurse)",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Take with meals or milk to minimize GI irritation. Take in the morning.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Anti-inflammatory / Immunosuppressive Therapy"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 5-60 mg PO once daily in morning with food | Pediatric: 1-2 mg/kg/day PO in single or divided doses",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "Once daily with breakfast",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "adultFixed": "5-60 mg PO once daily in morning with food",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -36245,8 +36335,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "disprelone-od tablets disprelone-od disprelone-d prednisolone epicopred unipricort solupred oro xilone 20mg tablets disprelone-d disprelone-od tablet 20mg",
-    "alternatives": "Prednisolone / Epicopred / Unipricort / Solupred / Oro / Xilone",
+    "searchTerms": "disprelone-od tablets disprelone-od disprelone-d prednisolone epicopred unipricort solupred oro xilone 20mg tablets prednisolone xilone apidone solupred corticosteroid anti-inflammatory asthma allergy",
+    "alternatives": "Xilone / Apidone / Solupred / Predsol",
     "barcode": []
   },
   "mono_00843": {
@@ -38056,28 +38146,28 @@ window.monodoseDatabase = {
   "mono_00887": {
     "code": "mono_00887",
     "name": "Lactulose",
-    "tradeName": "Duphalac Syrup",
-    "composition": "Lactulose (syrup)",
+    "tradeName": "Duphalac syrup",
+    "composition": "Lactulose 10 g / 15 ml (667 mg/ml)",
     "formulation": "syp-susp",
     "dosage_form": "syrup",
     "category": "Monodose Clinical",
     "subCategory": "syrup",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "pregnancyCategory": "Category B (Safe in pregnancy)",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "administration": "May be mixed with fruit juice, water, or milk. Drink plenty of fluids.",
+    "concentration": 667.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Constipation"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
-        "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "dose": "Adult: 15-30 ml PO once daily (or divided q12hr); Maintenance: 10-25 ml/day | Pediatric: Infants <1 yr: 2.5-5 ml/day | 1-6 yr: 5-10 ml/day | 7-14 yr: 15 ml/day (Adjust to produce 2-3 soft stools/day)",
+        "dosePerKg": null,
+        "frequency": "Once daily (or divided q12hr)",
+        "maxDosesPerDay": 2,
+        "adultFixed": "15-30 ml PO once daily (or divided q12hr); Maintenance: 10-25 ml/day",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -38090,8 +38180,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "duphalac syrup duphalac lactulose farcolac laxolac lactulax sedalac villapurg golden lax syrup lactulose duphalac syrup ",
-    "alternatives": "Farcolac / Laxolac / Lactulax / Sedalac / Villapurg / Golden / Lax",
+    "searchTerms": "duphalac syrup duphalac lactulose farcolac laxolac lactulax sedalac villapurg golden lax syrup lactulose duphalac sedalac laxative constipation hepatic encephalopathy",
+    "alternatives": "Duphalac / Sedalac / Laxolyne",
     "barcode": []
   },
   "mono_00888": {
@@ -40352,17 +40442,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -40557,17 +40647,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -40639,17 +40729,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 4.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -40680,17 +40770,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 4.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -40803,17 +40893,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -41705,17 +41795,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 10.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -41787,17 +41877,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -41951,17 +42041,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -41992,17 +42082,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 25.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -42238,17 +42328,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -43181,17 +43271,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 40.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -43222,17 +43312,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 40.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -43509,17 +43599,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -43591,17 +43681,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -43632,17 +43722,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 50.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -44001,17 +44091,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -44862,17 +44952,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -44903,17 +44993,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -44944,17 +45034,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -44985,17 +45075,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -45026,17 +45116,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -46092,17 +46182,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -49010,13 +49100,13 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -49051,13 +49141,13 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -49580,17 +49670,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -50426,17 +50516,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 50.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -50590,17 +50680,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 4.8,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -50631,17 +50721,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 4.8,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -51000,17 +51090,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -51041,17 +51131,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -51082,17 +51172,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -51328,17 +51418,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 4.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -53050,17 +53140,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 0.2,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -53091,17 +53181,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 0.2,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -53132,17 +53222,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -53788,17 +53878,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -54252,17 +54342,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 10.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -54293,17 +54383,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 10.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -54375,17 +54465,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -54416,17 +54506,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -54457,17 +54547,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -54621,17 +54711,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 360.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -54662,17 +54752,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 360.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -56457,17 +56547,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -58138,17 +58228,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -58179,17 +58269,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -58384,17 +58474,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 50.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -58425,17 +58515,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 50.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -58835,17 +58925,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -58876,17 +58966,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -59655,17 +59745,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -59696,17 +59786,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -59860,17 +59950,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -60024,17 +60114,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 8.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -60065,17 +60155,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 8.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -60680,17 +60770,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 2.5,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -60803,17 +60893,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -61049,17 +61139,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -61090,17 +61180,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -61418,17 +61508,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -61459,17 +61549,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -61500,17 +61590,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -61541,17 +61631,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -62816,17 +62906,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -64251,17 +64341,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -65153,17 +65243,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -65182,29 +65272,29 @@ window.monodoseDatabase = {
   },
   "mono_01474": {
     "code": "mono_01474",
-    "name": "Levocetirizine",
+    "name": "Cetirizine",
     "tradeName": "Levohistam Levocetirizine 5mg/ml drops",
-    "composition": "Levocetirizine 5mg",
+    "composition": "Cetirizine 10 mg / 1 ml (15 ml)",
     "formulation": "drops",
     "dosage_form": "drops",
     "category": "Monodose Clinical",
     "subCategory": "drops",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Use with caution (enters breast milk)",
     "g6pd": "Safe",
-    "administration": "Administer according to product instructions.",
-    "concentration": null,
+    "administration": "Taken with or without food.",
+    "concentration": 10.0,
     "doses": [
       {
         "indication": [
-          "Standard Clinical Use"
+          "Allergic Rhinitis / Chronic Urticaria (Oral Drops)"
         ],
-        "dose": "Adult: Use / administer 1 unit as directed by physician | Pediatric: Administer pediatric unit as directed by pediatrician",
+        "dose": "Adult: 20 drops (10 mg) q24hr once daily | Pediatric: 6-23 mo: 5 drops (2.5 mg) q24hr | 2-5 yr: 5-10 drops q24hr | >=6 yr: 20 drops q24hr",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "q24hr",
         "maxDosesPerDay": 1,
-        "adultFixed": "Use / administer 1 unit as directed by physician",
+        "adultFixed": "20 drops (10 mg) q24hr once daily",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -65217,35 +65307,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "levohistam levocetirizine 5mg/ml drops levohistam levocetirizine 5mg/ml drops levocetirizine levohistam drops 5mg",
-    "alternatives": "Levohistam Levocetirizine 5mg/ml drops",
+    "searchTerms": "levohistam levocetirizine 5mg/ml drops levohistam levocetirizine 5mg/ml drops cetirizine zyrtec cetrak antihistamine allergic rhinitis urticaria",
+    "alternatives": "Zyrtec / Cetrak / Histazine / Epitrizine / Cetrine",
     "barcode": []
   },
   "mono_01475": {
     "code": "mono_01475",
-    "name": "Levocetirizine",
-    "tradeName": "Levohistam Drops",
-    "composition": "Levocetirizine 5mg",
+    "name": "Cetirizine",
+    "tradeName": "Levohistam drops",
+    "composition": "Cetirizine 10 mg / 1 ml (15 ml)",
     "formulation": "drops",
     "dosage_form": "drops",
     "category": "Monodose Clinical",
     "subCategory": "drops",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Use with caution (enters breast milk)",
     "g6pd": "Safe",
-    "administration": "Administer according to product instructions.",
-    "concentration": null,
+    "administration": "Taken with or without food.",
+    "concentration": 10.0,
     "doses": [
       {
         "indication": [
-          "Standard Clinical Use"
+          "Allergic Rhinitis / Chronic Urticaria (Oral Drops)"
         ],
-        "dose": "Adult: Use / administer 1 unit as directed by physician | Pediatric: Administer pediatric unit as directed by pediatrician",
+        "dose": "Adult: 20 drops (10 mg) q24hr once daily | Pediatric: 6-23 mo: 5 drops (2.5 mg) q24hr | 2-5 yr: 5-10 drops q24hr | >=6 yr: 20 drops q24hr",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "q24hr",
         "maxDosesPerDay": 1,
-        "adultFixed": "Use / administer 1 unit as directed by physician",
+        "adultFixed": "20 drops (10 mg) q24hr once daily",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -65258,37 +65348,37 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "levohistam drops levohistam levocetirizine 5mg/ml drops levocetirizine levohistam drops 5mg",
-    "alternatives": "Levohistam Levocetirizine 5mg/ml drops",
+    "searchTerms": "levohistam drops levohistam levocetirizine 5mg/ml drops cetirizine zyrtec cetrak antihistamine allergic rhinitis urticaria",
+    "alternatives": "Zyrtec / Cetrak / Histazine / Epitrizine / Cetrine",
     "barcode": []
   },
   "mono_01476": {
     "code": "mono_01476",
-    "name": "Levocetirizine",
-    "tradeName": "Levohistam Syrup",
-    "composition": "Levocetirizine 2.5mg/5ml",
+    "name": "Cetirizine",
+    "tradeName": "Levohistam syrup",
+    "composition": "Cetirizine 5 mg / 5 ml (100 ml)",
     "formulation": "syp-susp",
     "dosage_form": "syrup",
     "category": "Monodose Clinical",
     "subCategory": "syrup",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Use with caution (enters breast milk)",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "administration": "Taken with or without food.",
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Allergic Rhinitis / Chronic Urticaria"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: 10 ml (10 mg) q24hr once daily | Pediatric: 6-23 mo: 2.5 ml q24hr | 2-5 yr: 2.5-5 ml q24hr | >=6 yr: 10 ml q24hr",
+        "dosePerKg": null,
+        "frequency": "q24hr",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
-        "singleDoseMaxMl": null,
-        "maxDailyMg": null,
+        "adultFixed": "10 ml (10 mg) q24hr once daily",
+        "singleDoseMaxMl": 10.0,
+        "maxDailyMg": 10.0,
         "indType": null,
         "stdFactor": null,
         "lowFactor": null,
@@ -65299,35 +65389,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "levohistam syrup levohistam levocetirizine allear lergicare allergstop levcet levoctivan linahayzin mervosa xaltec orgitrizine 2.5mg/5ml syrup levocetirizine levohistam syrup 2.5mg/5ml",
-    "alternatives": "Allear / Lergicare / Allergstop / Levcet / Levoctivan / Linahayzin / Mervosa / Xaltec / Orgitrizine",
+    "searchTerms": "levohistam syrup levohistam levocetirizine allear lergicare allergstop levcet levoctivan linahayzin mervosa xaltec orgitrizine 2.5mg/5ml syrup cetirizine zyrtec cetrak antihistamine allergic rhinitis urticaria",
+    "alternatives": "Zyrtec / Cetrak / Histazine / Epitrizine / Cetrine",
     "barcode": []
   },
   "mono_01477": {
     "code": "mono_01477",
-    "name": "Levocetirizine",
-    "tradeName": "Levohistam Tab",
-    "composition": "Levocetirizine 5mg",
+    "name": "Cetirizine",
+    "tradeName": "Levohistam tab",
+    "composition": "Cetirizine 10 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Use with caution (enters breast milk)",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Taken with or without food.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Allergic Rhinitis / Chronic Urticaria"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 10 mg (1 tablet) q24hr once daily | Pediatric: >= 6 years: 10 mg (1 tablet) q24hr or 5 mg q12hr",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "q24hr",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "adultFixed": "10 mg (1 tablet) q24hr once daily",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -65340,35 +65430,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "levohistam tab levohistam levocetirizine allear lergicare allergstop allevo levcet levoctivan xaltec orgitrizine chemicetrizine lergopan levocitrone turnalev zalkevor 5mg tablets levocetirizine levohistam tablet 5mg",
-    "alternatives": "Allear / Lergicare / Allergstop / Allevo / Levcet / Levoctivan / Xaltec / Orgitrizine / Chemicetrizine / Lergopan / Levocitrone / Turnalev",
+    "searchTerms": "levohistam tab levohistam levocetirizine allear lergicare allergstop allevo levcet levoctivan xaltec orgitrizine chemicetrizine lergopan levocitrone turnalev zalkevor 5mg tablets cetirizine zyrtec cetrak antihistamine allergic rhinitis urticaria",
+    "alternatives": "Zyrtec / Cetrak / Histazine / Epitrizine / Cetrine",
     "barcode": []
   },
   "mono_01478": {
     "code": "mono_01478",
-    "name": "Levocetirizine",
-    "tradeName": "Levohistam Tablets",
-    "composition": "Levocetirizine 5mg",
+    "name": "Cetirizine",
+    "tradeName": "Levohistam tablets",
+    "composition": "Cetirizine 10 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Use with caution (enters breast milk)",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Taken with or without food.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Allergic Rhinitis / Chronic Urticaria"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 10 mg (1 tablet) q24hr once daily | Pediatric: >= 6 years: 10 mg (1 tablet) q24hr or 5 mg q12hr",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "q24hr",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "adultFixed": "10 mg (1 tablet) q24hr once daily",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -65381,8 +65471,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "levohistam tablets levohistam levocetirizine allear lergicare allergstop allevo levcet levoctivan xaltec orgitrizine chemicetrizine lergopan levocitrone turnalev zalkevor 5mg tablets levocetirizine levohistam tablet 5mg",
-    "alternatives": "Allear / Lergicare / Allergstop / Allevo / Levcet / Levoctivan / Xaltec / Orgitrizine / Chemicetrizine / Lergopan / Levocitrone / Turnalev",
+    "searchTerms": "levohistam tablets levohistam levocetirizine allear lergicare allergstop allevo levcet levoctivan xaltec orgitrizine chemicetrizine lergopan levocitrone turnalev zalkevor 5mg tablets cetirizine zyrtec cetrak antihistamine allergic rhinitis urticaria",
+    "alternatives": "Zyrtec / Cetrak / Histazine / Epitrizine / Cetrine",
     "barcode": []
   },
   "mono_01479": {
@@ -65891,17 +65981,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -65932,17 +66022,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -66547,17 +66637,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -67367,17 +67457,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -67859,17 +67949,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -68433,17 +68523,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -69007,17 +69097,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -69610,17 +69700,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -69651,17 +69741,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -69979,17 +70069,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -70266,17 +70356,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -73464,17 +73554,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -73505,17 +73595,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -74723,29 +74813,29 @@ window.monodoseDatabase = {
   },
   "mono_01701": {
     "code": "mono_01701",
-    "name": "Mosedin",
+    "name": "Loratadine",
     "tradeName": "Mosedin Plus SR cap",
-    "composition": "Mosedin 5mg",
+    "composition": "Loratadine 10 mg",
     "formulation": "tab-caps",
-    "dosage_form": "capsule",
+    "dosage_form": "tablet",
     "category": "Monodose Clinical",
-    "subCategory": "capsule",
+    "subCategory": "tablet",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Taken with or without food.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Allergic Rhinitis / Urticaria"
         ],
-        "dose": "Adult: 1 capsule once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 10 mg (1 tablet) q24hr once daily | Pediatric: >= 6 years: 10 mg (1 tablet) q24hr once daily",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "q24hr",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 capsule once or twice daily with a full glass of water",
+        "adultFixed": "10 mg (1 tablet) q24hr once daily",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -74758,35 +74848,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "mosedin plus sr cap mosedin plus sr loratadine 5mg pseudoephedrine 120mg decongess loratin-d lorin-d clarinase capsules mosedin mosedin capsule 5mg",
-    "alternatives": "Mosedin Plus SR Loratadine 5mg pseudoephedrine 120mg decongess loratin-d lorin-d clarinase capsules",
+    "searchTerms": "mosedin plus sr cap mosedin plus sr loratadine 5mg pseudoephedrine 120mg decongess loratin-d lorin-d clarinase capsules loratadine claritine mosedin antihistamine allergic rhinitis urticaria",
+    "alternatives": "Claritine / Mosedin / Roletra / Loratan",
     "barcode": []
   },
   "mono_01702": {
     "code": "mono_01702",
-    "name": "Mosedin",
-    "tradeName": "Mosedin Cap",
-    "composition": "Mosedin 5mg",
+    "name": "Loratadine",
+    "tradeName": "Mosedin cap",
+    "composition": "Loratadine 10 mg",
     "formulation": "tab-caps",
-    "dosage_form": "capsule",
+    "dosage_form": "tablet",
     "category": "Monodose Clinical",
-    "subCategory": "capsule",
+    "subCategory": "tablet",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Taken with or without food.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Allergic Rhinitis / Urticaria"
         ],
-        "dose": "Adult: 1 capsule once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 10 mg (1 tablet) q24hr once daily | Pediatric: >= 6 years: 10 mg (1 tablet) q24hr once daily",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "q24hr",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 capsule once or twice daily with a full glass of water",
+        "adultFixed": "10 mg (1 tablet) q24hr once daily",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -74799,35 +74889,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "mosedin cap mosedin plus sr loratadine 5mg pseudoephedrine 120mg decongess loratin-d lorin-d clarinase capsules mosedin mosedin capsule 5mg",
-    "alternatives": "Mosedin Plus SR Loratadine 5mg pseudoephedrine 120mg decongess loratin-d lorin-d clarinase capsules",
+    "searchTerms": "mosedin cap mosedin plus sr loratadine 5mg pseudoephedrine 120mg decongess loratin-d lorin-d clarinase capsules loratadine claritine mosedin antihistamine allergic rhinitis urticaria",
+    "alternatives": "Claritine / Mosedin / Roletra / Loratan",
     "barcode": []
   },
   "mono_01703": {
     "code": "mono_01703",
-    "name": "Mosedin",
-    "tradeName": "Mosedin Capsules",
-    "composition": "Mosedin 5mg",
+    "name": "Loratadine",
+    "tradeName": "Mosedin capsules",
+    "composition": "Loratadine 10 mg",
     "formulation": "tab-caps",
-    "dosage_form": "capsule",
+    "dosage_form": "tablet",
     "category": "Monodose Clinical",
-    "subCategory": "capsule",
+    "subCategory": "tablet",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Taken with or without food.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Allergic Rhinitis / Urticaria"
         ],
-        "dose": "Adult: 1 capsule once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 10 mg (1 tablet) q24hr once daily | Pediatric: >= 6 years: 10 mg (1 tablet) q24hr once daily",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "q24hr",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 capsule once or twice daily with a full glass of water",
+        "adultFixed": "10 mg (1 tablet) q24hr once daily",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -74840,37 +74930,37 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "mosedin capsules mosedin plus sr loratadine 5mg pseudoephedrine 120mg decongess loratin-d lorin-d clarinase capsules mosedin mosedin capsule 5mg",
-    "alternatives": "Mosedin Plus SR Loratadine 5mg pseudoephedrine 120mg decongess loratin-d lorin-d clarinase capsules",
+    "searchTerms": "mosedin capsules mosedin plus sr loratadine 5mg pseudoephedrine 120mg decongess loratin-d lorin-d clarinase capsules loratadine claritine mosedin antihistamine allergic rhinitis urticaria",
+    "alternatives": "Claritine / Mosedin / Roletra / Loratan",
     "barcode": []
   },
   "mono_01704": {
     "code": "mono_01704",
-    "name": "Allergiraz",
-    "tradeName": "Mosedin Syrup",
-    "composition": "Allergiraz 5mg/5ml",
+    "name": "Loratadine",
+    "tradeName": "Mosedin syrup",
+    "composition": "Loratadine 5 mg / 5 ml (100 ml)",
     "formulation": "syp-susp",
     "dosage_form": "syrup",
     "category": "Monodose Clinical",
     "subCategory": "syrup",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "administration": "Taken with or without food.",
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Allergic Rhinitis / Urticaria"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: 10 ml (10 mg) q24hr once daily | Pediatric: 2-5 yr: 5 ml (5 mg) q24hr | >=6 yr: 10 ml (10 mg) q24hr (<2 yr: Not recommended)",
+        "dosePerKg": null,
+        "frequency": "q24hr",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
-        "singleDoseMaxMl": null,
-        "maxDailyMg": null,
+        "adultFixed": "10 ml (10 mg) q24hr once daily",
+        "singleDoseMaxMl": 10.0,
+        "maxDailyMg": 10.0,
         "indType": null,
         "stdFactor": null,
         "lowFactor": null,
@@ -74881,35 +74971,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "mosedin syrup mosedin allergiraz lorano loraswab loratan lorine claritine scopallerge uniloratadine 5mg/5ml syrup allergiraz mosedin syrup 5mg/5ml",
-    "alternatives": "Lorano / Loraswab / Loratan / Lorine / Claritine / Scopallerge / Uniloratadine",
+    "searchTerms": "mosedin syrup mosedin allergiraz lorano loraswab loratan lorine claritine scopallerge uniloratadine 5mg/5ml syrup loratadine claritine mosedin antihistamine allergic rhinitis urticaria",
+    "alternatives": "Claritine / Mosedin / Roletra / Loratan",
     "barcode": []
   },
   "mono_01705": {
     "code": "mono_01705",
-    "name": "Allergetone",
-    "tradeName": "Mosedin Tab",
-    "composition": "Allergetone 10mg",
+    "name": "Loratadine",
+    "tradeName": "Mosedin tab",
+    "composition": "Loratadine 10 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Taken with or without food.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Allergic Rhinitis / Urticaria"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 10 mg (1 tablet) q24hr once daily | Pediatric: >= 6 years: 10 mg (1 tablet) q24hr once daily",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "q24hr",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "adultFixed": "10 mg (1 tablet) q24hr once daily",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -74922,35 +75012,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "mosedin tab mosedin allergetone allergiraz histalong lorano loratan lorine claritine sedclarit uniloratadine 10mg tablets allergetone mosedin tablet 10mg",
-    "alternatives": "Allergiraz / Histalong / Lorano / Loratan / Lorine / Claritine / Sedclarit / Uniloratadine",
+    "searchTerms": "mosedin tab mosedin allergetone allergiraz histalong lorano loratan lorine claritine sedclarit uniloratadine 10mg tablets loratadine claritine mosedin antihistamine allergic rhinitis urticaria",
+    "alternatives": "Claritine / Mosedin / Roletra / Loratan",
     "barcode": []
   },
   "mono_01706": {
     "code": "mono_01706",
-    "name": "Allergetone",
-    "tradeName": "Mosedin Tablets",
-    "composition": "Allergetone 10mg",
+    "name": "Loratadine",
+    "tradeName": "Mosedin tablets",
+    "composition": "Loratadine 10 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Taken with or without food.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Allergic Rhinitis / Urticaria"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 10 mg (1 tablet) q24hr once daily | Pediatric: >= 6 years: 10 mg (1 tablet) q24hr once daily",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "q24hr",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "adultFixed": "10 mg (1 tablet) q24hr once daily",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -74963,8 +75053,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "mosedin tablets mosedin allergetone allergiraz histalong lorano loratan lorine claritine sedclarit uniloratadine 10mg tablets allergetone mosedin tablet 10mg",
-    "alternatives": "Allergiraz / Histalong / Lorano / Loratan / Lorine / Claritine / Sedclarit / Uniloratadine",
+    "searchTerms": "mosedin tablets mosedin allergetone allergiraz histalong lorano loratan lorine claritine sedclarit uniloratadine 10mg tablets loratadine claritine mosedin antihistamine allergic rhinitis urticaria",
+    "alternatives": "Claritine / Mosedin / Roletra / Loratan",
     "barcode": []
   },
   "mono_01707": {
@@ -75755,17 +75845,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -75796,17 +75886,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -75837,17 +75927,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -75866,29 +75956,29 @@ window.monodoseDatabase = {
   },
   "mono_01728": {
     "code": "mono_01728",
-    "name": "Mucosin",
+    "name": "Ambroxol",
     "tradeName": "Mucosin Plus syrup",
-    "composition": "Mucosin (syrup)",
+    "composition": "Ambroxol 15 mg / 5 ml (100 ml)",
     "formulation": "syp-susp",
     "dosage_form": "syrup",
     "category": "Monodose Clinical",
     "subCategory": "syrup",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "pregnancyCategory": "Category B (Avoid in 1st trimester)",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "administration": "Take after meals with plenty of fluids to assist mucolytic action.",
+    "concentration": 3.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Productive Cough / Bronchial Secretion Dissolution"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: 10 ml (30 mg) PO q8hr after meals | Pediatric: <2 yr: 2.5 ml (7.5 mg) q12hr | 2-5 yr: 2.5 ml (7.5 mg) q8hr | 6-12 yr: 5 ml (15 mg) q8-12hr | >12 yr: 10 ml q8hr",
+        "dosePerKg": null,
+        "frequency": "q8-12hr after meals",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "10 ml (30 mg) PO q8hr after meals",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -75901,35 +75991,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "mucosin plus syrup mucosin plus ambroxol guaifenesin syrup mucosin mucosin syrup ",
-    "alternatives": "mucosin plus Ambroxol Guaifenesin syrup",
+    "searchTerms": "mucosin plus syrup mucosin plus ambroxol guaifenesin syrup ambroxol ambolar mucosolvan mucolytic expectorant productive cough bronchitis",
+    "alternatives": "Ambolar / Mucosolvan / Bronchopro",
     "barcode": []
   },
   "mono_01729": {
     "code": "mono_01729",
-    "name": "Mucosin",
-    "tradeName": "Mucosin Syrup",
-    "composition": "Mucosin (syrup)",
+    "name": "Ambroxol",
+    "tradeName": "Mucosin syrup",
+    "composition": "Ambroxol 15 mg / 5 ml (100 ml)",
     "formulation": "syp-susp",
     "dosage_form": "syrup",
     "category": "Monodose Clinical",
     "subCategory": "syrup",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "pregnancyCategory": "Category B (Avoid in 1st trimester)",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "administration": "Take after meals with plenty of fluids to assist mucolytic action.",
+    "concentration": 3.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Productive Cough / Bronchial Secretion Dissolution"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: 10 ml (30 mg) PO q8hr after meals | Pediatric: <2 yr: 2.5 ml (7.5 mg) q12hr | 2-5 yr: 2.5 ml (7.5 mg) q8hr | 6-12 yr: 5 ml (15 mg) q8-12hr | >12 yr: 10 ml q8hr",
+        "dosePerKg": null,
+        "frequency": "q8-12hr after meals",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "10 ml (30 mg) PO q8hr after meals",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -75942,8 +76032,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "mucosin syrup mucosin plus ambroxol guaifenesin syrup mucosin mucosin syrup ",
-    "alternatives": "mucosin plus Ambroxol Guaifenesin syrup",
+    "searchTerms": "mucosin syrup mucosin plus ambroxol guaifenesin syrup ambroxol ambolar mucosolvan mucolytic expectorant productive cough bronchitis",
+    "alternatives": "Ambolar / Mucosolvan / Bronchopro",
     "barcode": []
   },
   "mono_01730": {
@@ -75960,17 +76050,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -76083,17 +76173,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -76124,17 +76214,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -76411,17 +76501,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 35.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -76452,17 +76542,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 35.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -76616,17 +76706,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -76657,17 +76747,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -76698,17 +76788,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -77358,13 +77448,13 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -77399,13 +77489,13 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -78625,17 +78715,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -78666,17 +78756,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -78707,17 +78797,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -78748,17 +78838,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -80757,17 +80847,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 15.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -80798,17 +80888,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -81331,17 +81421,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 4.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -81372,17 +81462,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 4.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -81823,17 +81913,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -81864,17 +81954,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -81987,17 +82077,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -82069,17 +82159,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -82725,17 +82815,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -82971,17 +83061,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 0.1,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -83053,17 +83143,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 0.1,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -83340,17 +83430,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -83381,17 +83471,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -83422,17 +83512,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -83955,17 +84045,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -85595,17 +85685,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 3.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -85636,17 +85726,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 3.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -85677,17 +85767,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -85718,17 +85808,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -85800,17 +85890,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -85964,17 +86054,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -86661,17 +86751,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -86702,17 +86792,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -86743,17 +86833,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -86948,17 +87038,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 6.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -86989,17 +87079,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 6.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -87936,13 +88026,13 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -87977,13 +88067,13 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -88260,17 +88350,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 33.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -88301,17 +88391,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 33.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -89490,17 +89580,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 0.5,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -89654,17 +89744,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -89695,17 +89785,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -90146,17 +90236,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -90187,17 +90277,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -93549,17 +93639,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -93590,17 +93680,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -94041,17 +94131,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -94205,17 +94295,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 40.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -94287,17 +94377,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 40.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -94451,17 +94541,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -95107,17 +95197,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 7.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -95927,17 +96017,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -95968,17 +96058,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -96009,17 +96099,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -96378,17 +96468,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -96501,17 +96591,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -96624,17 +96714,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -96665,17 +96755,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -96706,17 +96796,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 120.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -96829,17 +96919,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -97227,29 +97317,29 @@ window.monodoseDatabase = {
   },
   "mono_02249": {
     "code": "mono_02249",
-    "name": "Sulphamethoxazole",
-    "tradeName": "Septazole Forte Tab",
-    "composition": "Sulphamethoxazole 400mg",
+    "name": "Sulfamethoxazole + Trimethoprim",
+    "tradeName": "Septazole forte tab",
+    "composition": "Sulfamethoxazole/Trimethoprim 800/160 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
-    "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "pregnancyCategory": "Category D (Avoid in 1st trimester and near term)",
+    "breastfeedingCategory": "Avoid in infants < 2 months or with hyperbilirubinemia/G6PD",
+    "g6pd": "Contraindicated (Risk of acute hemolytic anemia)",
+    "administration": "Take with a full glass of water. Maintain adequate fluid intake. Take with or without food. Shake well before use.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Urinary Tract Infection / Bronchitis / Shigellosis"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 1 Forte tablet (or 2 regular tablets) PO q12hr for 10-14 days | Pediatric: Children > 12 yr: 1 Forte tablet PO q12hr",
         "dosePerKg": null,
-        "frequency": "As directed",
-        "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "frequency": "q12hr with plenty of water",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 Forte tablet (or 2 regular tablets) PO q12hr for 10-14 days",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -97262,37 +97352,37 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "septazole forte tab septazole sulphamethoxazole sulfamethoxazole 400mg trimethoprim 80mg cotrimoxazole co-trimoxazole chemotrim coprimosept cotril sutrim bactrim 480mg tablets sulphamethoxazole septazole tablet 400mg",
-    "alternatives": "Sulfamethoxazole / Trimethoprim / Cotrimoxazole / Co-trimoxazole / Chemotrim / Coprimosept / Cotril / Sutrim / Bactrim",
+    "searchTerms": "septazole forte tab septazole sulphamethoxazole sulfamethoxazole 400mg trimethoprim 80mg cotrimoxazole co-trimoxazole chemotrim coprimosept cotril sutrim bactrim 480mg tablets septazole sutrim bactrim cotrimoxazole sulfamethoxazole trimethoprim antibiotic uti otitis",
+    "alternatives": "Septazole / Sutrim / Bactrim / Chemtrim",
     "barcode": []
   },
   "mono_02250": {
     "code": "mono_02250",
-    "name": "Septazole",
-    "tradeName": "Septazole Susp",
-    "composition": "Septazole 200mg",
+    "name": "Sulfamethoxazole + Trimethoprim",
+    "tradeName": "Septazole susp",
+    "composition": "Sulfamethoxazole 200 mg + Trimethoprim 40 mg / 5 ml (100 ml)",
     "formulation": "syp-susp",
     "dosage_form": "suspension",
     "category": "Monodose Clinical",
     "subCategory": "suspension",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
-    "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "pregnancyCategory": "Category D (Avoid in 1st trimester and near term)",
+    "breastfeedingCategory": "Avoid in infants < 2 months or with hyperbilirubinemia/G6PD",
+    "g6pd": "Contraindicated (Risk of acute hemolytic anemia)",
+    "administration": "Take with a full glass of water. Maintain adequate fluid intake. Take with or without food. Shake well before use.",
+    "concentration": 8.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Acute Otitis Media / Urinary Tract Infection / Shigellosis"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
-        "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "dose": "Adult: 20 ml (800 mg SMX / 160 mg TMP) PO q12hr for 10-14 days | Pediatric: 8-10 mg/kg/day TMP (40-50 mg/kg/day SMX) PO divided q12hr (0.5 ml/kg/dose q12hr; <2 mo: Contraindicated)",
+        "dosePerKg": 4.0,
+        "frequency": "q12hr with plenty of water",
+        "maxDosesPerDay": 2,
+        "adultFixed": "20 ml (800 mg SMX / 160 mg TMP) PO q12hr for 10-14 days",
         "singleDoseMaxMl": null,
-        "maxDailyMg": null,
+        "maxDailyMg": 320.0,
         "indType": null,
         "stdFactor": null,
         "lowFactor": null,
@@ -97303,37 +97393,37 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "septazole susp septazole suspension sulphamethoxazole sulfamethoxazole 200mg trimethoprim 40mg cotrimoxazole co-trimoxazole chemotrim septrin sutrim bactrim suspension septazole septazole suspension 200mg",
-    "alternatives": "septazole suspension sulphamethoxazole Sulfamethoxazole 200mg Trimethoprim 40mg cotrimoxazole co-trimoxazole chemotrim septrin sutrim bactrim suspension",
+    "searchTerms": "septazole susp septazole suspension sulphamethoxazole sulfamethoxazole 200mg trimethoprim 40mg cotrimoxazole co-trimoxazole chemotrim septrin sutrim bactrim suspension septazole sutrim bactrim cotrimoxazole sulfamethoxazole trimethoprim antibiotic uti otitis",
+    "alternatives": "Septazole / Sutrim / Bactrim / Chemtrim",
     "barcode": []
   },
   "mono_02251": {
     "code": "mono_02251",
-    "name": "Septazole",
-    "tradeName": "Septazole Suspension",
-    "composition": "Septazole 200mg",
+    "name": "Sulfamethoxazole + Trimethoprim",
+    "tradeName": "Septazole suspension",
+    "composition": "Sulfamethoxazole 200 mg + Trimethoprim 40 mg / 5 ml (100 ml)",
     "formulation": "syp-susp",
     "dosage_form": "suspension",
     "category": "Monodose Clinical",
     "subCategory": "suspension",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
-    "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "pregnancyCategory": "Category D (Avoid in 1st trimester and near term)",
+    "breastfeedingCategory": "Avoid in infants < 2 months or with hyperbilirubinemia/G6PD",
+    "g6pd": "Contraindicated (Risk of acute hemolytic anemia)",
+    "administration": "Take with a full glass of water. Maintain adequate fluid intake. Take with or without food. Shake well before use.",
+    "concentration": 8.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Acute Otitis Media / Urinary Tract Infection / Shigellosis"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
-        "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "dose": "Adult: 20 ml (800 mg SMX / 160 mg TMP) PO q12hr for 10-14 days | Pediatric: 8-10 mg/kg/day TMP (40-50 mg/kg/day SMX) PO divided q12hr (0.5 ml/kg/dose q12hr; <2 mo: Contraindicated)",
+        "dosePerKg": 4.0,
+        "frequency": "q12hr with plenty of water",
+        "maxDosesPerDay": 2,
+        "adultFixed": "20 ml (800 mg SMX / 160 mg TMP) PO q12hr for 10-14 days",
         "singleDoseMaxMl": null,
-        "maxDailyMg": null,
+        "maxDailyMg": 320.0,
         "indType": null,
         "stdFactor": null,
         "lowFactor": null,
@@ -97344,35 +97434,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "septazole suspension septazole suspension sulphamethoxazole sulfamethoxazole 200mg trimethoprim 40mg cotrimoxazole co-trimoxazole chemotrim septrin sutrim bactrim suspension septazole septazole suspension 200mg",
-    "alternatives": "septazole suspension sulphamethoxazole Sulfamethoxazole 200mg Trimethoprim 40mg cotrimoxazole co-trimoxazole chemotrim septrin sutrim bactrim suspension",
+    "searchTerms": "septazole suspension septazole suspension sulphamethoxazole sulfamethoxazole 200mg trimethoprim 40mg cotrimoxazole co-trimoxazole chemotrim septrin sutrim bactrim suspension septazole sutrim bactrim cotrimoxazole sulfamethoxazole trimethoprim antibiotic uti otitis",
+    "alternatives": "Septazole / Sutrim / Bactrim / Chemtrim",
     "barcode": []
   },
   "mono_02252": {
     "code": "mono_02252",
-    "name": "Sulphamethoxazole",
-    "tradeName": "Septazole Tab",
-    "composition": "Sulphamethoxazole 400mg",
+    "name": "Sulfamethoxazole + Trimethoprim",
+    "tradeName": "Septazole tab",
+    "composition": "Sulfamethoxazole/Trimethoprim 400/80 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
-    "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "pregnancyCategory": "Category D (Avoid in 1st trimester and near term)",
+    "breastfeedingCategory": "Avoid in infants < 2 months or with hyperbilirubinemia/G6PD",
+    "g6pd": "Contraindicated (Risk of acute hemolytic anemia)",
+    "administration": "Take with a full glass of water. Maintain adequate fluid intake. Take with or without food. Shake well before use.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Urinary Tract Infection / Bronchitis / Shigellosis"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 1 Forte tablet (or 2 regular tablets) PO q12hr for 10-14 days | Pediatric: Children > 12 yr: 1 Forte tablet PO q12hr",
         "dosePerKg": null,
-        "frequency": "As directed",
-        "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "frequency": "q12hr with plenty of water",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 Forte tablet (or 2 regular tablets) PO q12hr for 10-14 days",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -97385,35 +97475,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "septazole tab septazole sulphamethoxazole sulfamethoxazole 400mg trimethoprim 80mg cotrimoxazole co-trimoxazole chemotrim coprimosept cotril sutrim bactrim 480mg tablets sulphamethoxazole septazole tablet 400mg",
-    "alternatives": "Sulfamethoxazole / Trimethoprim / Cotrimoxazole / Co-trimoxazole / Chemotrim / Coprimosept / Cotril / Sutrim / Bactrim",
+    "searchTerms": "septazole tab septazole sulphamethoxazole sulfamethoxazole 400mg trimethoprim 80mg cotrimoxazole co-trimoxazole chemotrim coprimosept cotril sutrim bactrim 480mg tablets septazole sutrim bactrim cotrimoxazole sulfamethoxazole trimethoprim antibiotic uti otitis",
+    "alternatives": "Septazole / Sutrim / Bactrim / Chemtrim",
     "barcode": []
   },
   "mono_02253": {
     "code": "mono_02253",
-    "name": "Sulphamethoxazole",
-    "tradeName": "Septazole Tablets",
-    "composition": "Sulphamethoxazole 400mg",
+    "name": "Sulfamethoxazole + Trimethoprim",
+    "tradeName": "Septazole tablets",
+    "composition": "Sulfamethoxazole/Trimethoprim 400/80 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
-    "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "pregnancyCategory": "Category D (Avoid in 1st trimester and near term)",
+    "breastfeedingCategory": "Avoid in infants < 2 months or with hyperbilirubinemia/G6PD",
+    "g6pd": "Contraindicated (Risk of acute hemolytic anemia)",
+    "administration": "Take with a full glass of water. Maintain adequate fluid intake. Take with or without food. Shake well before use.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Urinary Tract Infection / Bronchitis / Shigellosis"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 1 Forte tablet (or 2 regular tablets) PO q12hr for 10-14 days | Pediatric: Children > 12 yr: 1 Forte tablet PO q12hr",
         "dosePerKg": null,
-        "frequency": "As directed",
-        "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "frequency": "q12hr with plenty of water",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 Forte tablet (or 2 regular tablets) PO q12hr for 10-14 days",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -97426,8 +97516,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "septazole tablets septazole sulphamethoxazole sulfamethoxazole 400mg trimethoprim 80mg cotrimoxazole co-trimoxazole chemotrim coprimosept cotril sutrim bactrim 480mg tablets sulphamethoxazole septazole tablet 400mg",
-    "alternatives": "Sulfamethoxazole / Trimethoprim / Cotrimoxazole / Co-trimoxazole / Chemotrim / Coprimosept / Cotril / Sutrim / Bactrim",
+    "searchTerms": "septazole tablets septazole sulphamethoxazole sulfamethoxazole 400mg trimethoprim 80mg cotrimoxazole co-trimoxazole chemotrim coprimosept cotril sutrim bactrim 480mg tablets septazole sutrim bactrim cotrimoxazole sulfamethoxazole trimethoprim antibiotic uti otitis",
+    "alternatives": "Septazole / Sutrim / Bactrim / Chemtrim",
     "barcode": []
   },
   "mono_02254": {
@@ -97813,17 +97903,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -97895,17 +97985,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -97936,17 +98026,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -97977,17 +98067,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -98018,17 +98108,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -98059,17 +98149,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -98305,17 +98395,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -98879,17 +98969,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -98920,17 +99010,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -99129,13 +99219,13 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -99289,17 +99379,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 3.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -99781,17 +99871,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -100097,31 +100187,31 @@ window.monodoseDatabase = {
   },
   "mono_02319": {
     "code": "mono_02319",
-    "name": "Spasmopyralgin-m",
-    "tradeName": "Spasmopyralgin-M Tab",
-    "composition": "Spasmopyralgin-m (tablet)",
+    "name": "Paracetamol",
+    "tradeName": "Spasmopyralgin-m tab",
+    "composition": "Paracetamol 500 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
-    "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "pregnancyCategory": "Category B (Drug of choice for fever/pain in pregnancy)",
+    "breastfeedingCategory": "Compatible",
+    "g6pd": "Safe at therapeutic doses",
+    "administration": "Taken with or without food. Can be mixed with water or fruit juice.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Fever / Mild to Moderate Pain Relief"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 500-1000 mg (1-2 tablets) PO q4-6hr PRN (Max 4000 mg/day) | Pediatric: >= 12 years: 500 mg PO q4-6hr PRN (Max 4000 mg/day)",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "q4-6hr PRN",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "adultFixed": "500-1000 mg (1-2 tablets) PO q4-6hr PRN (Max 4000 mg/day)",
         "singleDoseMaxMl": null,
-        "maxDailyMg": null,
+        "maxDailyMg": 4000.0,
         "indType": null,
         "stdFactor": null,
         "lowFactor": null,
@@ -100132,8 +100222,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "spasmopyralgin-m tab spasmopyralgin-m tab spasmopyralgin-m spasmopyralgin-m tablet ",
-    "alternatives": "Spasmopyralgin-M tab",
+    "searchTerms": "spasmopyralgin-m tab spasmopyralgin-m tab paracetamol acetaminophen cetal panadol paramol pyral analgesic antipyretic fever pain",
+    "alternatives": "Cetal / Paramol / Panadol / Pyral / Tempra / Abimol / Adwin",
     "barcode": []
   },
   "mono_02320": {
@@ -100396,17 +100486,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -100437,17 +100527,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -101552,17 +101642,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 12.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -101593,17 +101683,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 12.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -101675,17 +101765,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 200.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -101962,17 +102052,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -102126,17 +102216,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 2.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -102167,17 +102257,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 4.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -102208,17 +102298,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 4.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -103233,17 +103323,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -103561,17 +103651,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 12.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -103602,17 +103692,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 12.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -104053,17 +104143,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 0.1,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -104504,17 +104594,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -104590,13 +104680,13 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -104750,17 +104840,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 6.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -104791,17 +104881,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 6.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -106185,17 +106275,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 10.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -106226,17 +106316,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 10.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -106472,17 +106562,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -106595,17 +106685,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -107128,17 +107218,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -107374,17 +107464,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -107415,17 +107505,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -107948,17 +108038,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 0.4,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -108317,17 +108407,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 60.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -108358,17 +108448,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 60.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -109724,17 +109814,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 3.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -109765,17 +109855,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -109806,17 +109896,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -109847,17 +109937,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -109888,17 +109978,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 6.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -110175,17 +110265,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -110298,17 +110388,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -110544,17 +110634,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -110585,17 +110675,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -110708,17 +110798,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -110913,17 +111003,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -112102,17 +112192,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -112143,17 +112233,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -112717,17 +112807,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -112758,17 +112848,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -113127,17 +113217,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 50.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -113291,17 +113381,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 0.4,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -113332,17 +113422,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 0.4,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -113526,28 +113616,28 @@ window.monodoseDatabase = {
   "mono_02643": {
     "code": "mono_02643",
     "name": "Albendazole",
-    "tradeName": "Vermizole Susp",
-    "composition": "Albendazole 200mg/5ml",
+    "tradeName": "Vermizole susp",
+    "composition": "Albendazole 100 mg / 5 ml (20 ml)",
     "formulation": "syp-susp",
     "dosage_form": "suspension",
     "category": "Monodose Clinical",
     "subCategory": "suspension",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
+    "pregnancyCategory": "Category C (Contraindicated in 1st trimester)",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
+    "administration": "Take with fatty meals to increase systemic absorption. Shake well before use.",
     "concentration": 20.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Enterobiasis (Pinworm) / Ascariasis / Hookworm"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: 400 mg (20 ml) single dose with food (repeat pinworm in 2 weeks) | Pediatric: Age 1-2 yr: 200 mg (10 ml) single dose | Age >2 yr: 400 mg (20 ml) single dose",
+        "dosePerKg": null,
+        "frequency": "Single dose with fatty meal",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "400 mg (20 ml) single dose with food (repeat pinworm in 2 weeks)",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -113560,35 +113650,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "vermizole susp vermizole albendazole 200mg/5ml suspension albendazole vermizole suspension 200mg/5ml",
-    "alternatives": "Vermizole Albendazole 200mg/5ml suspension",
+    "searchTerms": "vermizole susp vermizole albendazole 200mg/5ml suspension albendazole alzental bendax anthelmintic pinworm ascariasis hookworm",
+    "alternatives": "Alzental / Bendax / Vermizole",
     "barcode": []
   },
   "mono_02644": {
     "code": "mono_02644",
     "name": "Albendazole",
-    "tradeName": "Vermizole Suspension",
-    "composition": "Albendazole 200mg/5ml",
+    "tradeName": "Vermizole suspension",
+    "composition": "Albendazole 100 mg / 5 ml (20 ml)",
     "formulation": "syp-susp",
     "dosage_form": "suspension",
     "category": "Monodose Clinical",
     "subCategory": "suspension",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
+    "pregnancyCategory": "Category C (Contraindicated in 1st trimester)",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
+    "administration": "Take with fatty meals to increase systemic absorption. Shake well before use.",
     "concentration": 20.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Enterobiasis (Pinworm) / Ascariasis / Hookworm"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: 400 mg (20 ml) single dose with food (repeat pinworm in 2 weeks) | Pediatric: Age 1-2 yr: 200 mg (10 ml) single dose | Age >2 yr: 400 mg (20 ml) single dose",
+        "dosePerKg": null,
+        "frequency": "Single dose with fatty meal",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "400 mg (20 ml) single dose with food (repeat pinworm in 2 weeks)",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -113601,8 +113691,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "vermizole suspension vermizole albendazole 200mg/5ml suspension albendazole vermizole suspension 200mg/5ml",
-    "alternatives": "Vermizole Albendazole 200mg/5ml suspension",
+    "searchTerms": "vermizole suspension vermizole albendazole 200mg/5ml suspension albendazole alzental bendax anthelmintic pinworm ascariasis hookworm",
+    "alternatives": "Alzental / Bendax / Vermizole",
     "barcode": []
   },
   "mono_02645": {
@@ -114521,17 +114611,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 40.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -114603,17 +114693,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 40.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -114644,17 +114734,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 40.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -114890,17 +114980,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -115505,17 +115595,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -115587,17 +115677,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -116947,30 +117037,30 @@ window.monodoseDatabase = {
   "mono_02726": {
     "code": "mono_02726",
     "name": "Prednisolone",
-    "tradeName": "Xilone Forte Syrup",
-    "composition": "Prednisolone 15mg/5ml",
+    "tradeName": "Xilone forte syrup",
+    "composition": "Prednisolone 15 mg / 5 ml (100 ml)",
     "formulation": "syp-susp",
     "dosage_form": "syrup",
     "category": "Monodose Clinical",
     "subCategory": "syrup",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "pregnancyCategory": "Category C",
+    "breastfeedingCategory": "Compatible (Low levels in milk; wait 3-4 hours after dose to nurse)",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "administration": "Take with meals or milk to minimize GI irritation. Take in the morning.",
+    "concentration": 3.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Acute Asthma Exacerbation / Anti-inflammatory Burst"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: 40-60 mg PO once daily in the morning for 3-5 days | Pediatric: 1-2 mg/kg/day PO divided q12-24hr for 3-5 days (Max 60 mg/day)",
+        "dosePerKg": 1.0,
+        "frequency": "q12-24hr with food for 3-5 days",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "40-60 mg PO once daily in the morning for 3-5 days",
         "singleDoseMaxMl": null,
-        "maxDailyMg": null,
+        "maxDailyMg": 60.0,
         "indType": null,
         "stdFactor": null,
         "lowFactor": null,
@@ -116981,37 +117071,37 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "xilone forte syrup xilone prednisolone predsol unipridol pedicort forte 15mg/5ml syrup prednisolone xilone syrup 15mg/5ml",
-    "alternatives": "Predsol / Unipridol / Pedicort",
+    "searchTerms": "xilone forte syrup xilone prednisolone predsol unipridol pedicort forte 15mg/5ml syrup prednisolone xilone apidone solupred corticosteroid anti-inflammatory asthma allergy",
+    "alternatives": "Xilone / Apidone / Solupred / Predsol",
     "barcode": []
   },
   "mono_02727": {
     "code": "mono_02727",
     "name": "Prednisolone",
-    "tradeName": "Xilone Syrup",
-    "composition": "Prednisolone 15mg/5ml",
+    "tradeName": "Xilone syrup",
+    "composition": "Prednisolone 15 mg / 5 ml (100 ml)",
     "formulation": "syp-susp",
     "dosage_form": "syrup",
     "category": "Monodose Clinical",
     "subCategory": "syrup",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "pregnancyCategory": "Category C",
+    "breastfeedingCategory": "Compatible (Low levels in milk; wait 3-4 hours after dose to nurse)",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "administration": "Take with meals or milk to minimize GI irritation. Take in the morning.",
+    "concentration": 3.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Acute Asthma Exacerbation / Anti-inflammatory Burst"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: 40-60 mg PO once daily in the morning for 3-5 days | Pediatric: 1-2 mg/kg/day PO divided q12-24hr for 3-5 days (Max 60 mg/day)",
+        "dosePerKg": 1.0,
+        "frequency": "q12-24hr with food for 3-5 days",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "40-60 mg PO once daily in the morning for 3-5 days",
         "singleDoseMaxMl": null,
-        "maxDailyMg": null,
+        "maxDailyMg": 60.0,
         "indType": null,
         "stdFactor": null,
         "lowFactor": null,
@@ -117022,8 +117112,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "xilone syrup xilone prednisolone predsol unipridol pedicort forte 15mg/5ml syrup prednisolone xilone syrup 15mg/5ml",
-    "alternatives": "Predsol / Unipridol / Pedicort",
+    "searchTerms": "xilone syrup xilone prednisolone predsol unipridol pedicort forte 15mg/5ml syrup prednisolone xilone apidone solupred corticosteroid anti-inflammatory asthma allergy",
+    "alternatives": "Xilone / Apidone / Solupred / Predsol",
     "barcode": []
   },
   "mono_02728": {
@@ -117450,17 +117540,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 0.2,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -121074,17 +121164,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 80.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -121267,29 +121357,29 @@ window.monodoseDatabase = {
   },
   "mono_02791": {
     "code": "mono_02791",
-    "name": "Zyrtec",
-    "tradeName": "Zyrtec Drops",
-    "composition": "Zyrtec (drops)",
+    "name": "Cetirizine",
+    "tradeName": "Zyrtec drops",
+    "composition": "Cetirizine 10 mg / 1 ml (15 ml)",
     "formulation": "drops",
     "dosage_form": "drops",
     "category": "Monodose Clinical",
     "subCategory": "drops",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Use with caution (enters breast milk)",
     "g6pd": "Safe",
-    "administration": "Administer according to product instructions.",
-    "concentration": null,
+    "administration": "Taken with or without food.",
+    "concentration": 10.0,
     "doses": [
       {
         "indication": [
-          "Standard Clinical Use"
+          "Allergic Rhinitis / Chronic Urticaria (Oral Drops)"
         ],
-        "dose": "Adult: Use / administer 1 unit as directed by physician | Pediatric: Administer pediatric unit as directed by pediatrician",
+        "dose": "Adult: 20 drops (10 mg) q24hr once daily | Pediatric: 6-23 mo: 5 drops (2.5 mg) q24hr | 2-5 yr: 5-10 drops q24hr | >=6 yr: 20 drops q24hr",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "q24hr",
         "maxDosesPerDay": 1,
-        "adultFixed": "Use / administer 1 unit as directed by physician",
+        "adultFixed": "20 drops (10 mg) q24hr once daily",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -121302,37 +121392,37 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "zyrtec drops zyrtec drops zyrtec zyrtec drops ",
-    "alternatives": "Zyrtec drops",
+    "searchTerms": "zyrtec drops zyrtec drops cetirizine zyrtec cetrak antihistamine allergic rhinitis urticaria",
+    "alternatives": "Zyrtec / Cetrak / Histazine / Epitrizine / Cetrine",
     "barcode": []
   },
   "mono_02792": {
     "code": "mono_02792",
     "name": "Cetirizine",
-    "tradeName": "Zyrtec Syrup",
-    "composition": "Cetirizine 5mg/5ml",
+    "tradeName": "Zyrtec syrup",
+    "composition": "Cetirizine 5 mg / 5 ml (100 ml)",
     "formulation": "syp-susp",
     "dosage_form": "syrup",
     "category": "Monodose Clinical",
     "subCategory": "syrup",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Use with caution (enters breast milk)",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "administration": "Taken with or without food.",
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Allergic Rhinitis / Chronic Urticaria"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: 10 ml (10 mg) q24hr once daily | Pediatric: 6-23 mo: 2.5 ml q24hr | 2-5 yr: 2.5-5 ml q24hr | >=6 yr: 10 ml q24hr",
+        "dosePerKg": null,
+        "frequency": "q24hr",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
-        "singleDoseMaxMl": null,
-        "maxDailyMg": null,
+        "adultFixed": "10 ml (10 mg) q24hr once daily",
+        "singleDoseMaxMl": 10.0,
+        "maxDailyMg": 10.0,
         "indType": null,
         "stdFactor": null,
         "lowFactor": null,
@@ -121343,35 +121433,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "zyrtec syrup zyrtec cetirizine alerid cetritin epirizine histazine lergfree tomazine cetrak 5mg/5ml syrup cetirizine zyrtec syrup 5mg/5ml",
-    "alternatives": "Alerid / Cetritin / Epirizine / Histazine / Lergfree / Tomazine / Cetrak",
+    "searchTerms": "zyrtec syrup zyrtec cetirizine alerid cetritin epirizine histazine lergfree tomazine cetrak 5mg/5ml syrup cetirizine zyrtec cetrak antihistamine allergic rhinitis urticaria",
+    "alternatives": "Zyrtec / Cetrak / Histazine / Epitrizine / Cetrine",
     "barcode": []
   },
   "mono_02793": {
     "code": "mono_02793",
     "name": "Cetirizine",
-    "tradeName": "Zyrtec Tab",
-    "composition": "Cetirizine 10mg",
+    "tradeName": "Zyrtec tab",
+    "composition": "Cetirizine 10 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Use with caution (enters breast milk)",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Taken with or without food.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Allergic Rhinitis / Chronic Urticaria"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 10 mg (1 tablet) q24hr once daily | Pediatric: >= 6 years: 10 mg (1 tablet) q24hr or 5 mg q12hr",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "q24hr",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "adultFixed": "10 mg (1 tablet) q24hr once daily",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -121384,35 +121474,35 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "zyrtec tab zyrtec cetirizine alerid cetritin epirizine histazine cetrichew histachew tomazine cetrak 10mg tablets cetirizine zyrtec tablet 10mg",
-    "alternatives": "Alerid / Cetritin / Epirizine / Histazine / Cetrichew / Histachew / Tomazine / Cetrak",
+    "searchTerms": "zyrtec tab zyrtec cetirizine alerid cetritin epirizine histazine cetrichew histachew tomazine cetrak 10mg tablets cetirizine zyrtec cetrak antihistamine allergic rhinitis urticaria",
+    "alternatives": "Zyrtec / Cetrak / Histazine / Epitrizine / Cetrine",
     "barcode": []
   },
   "mono_02794": {
     "code": "mono_02794",
     "name": "Cetirizine",
-    "tradeName": "Zyrtec Tablets",
-    "composition": "Cetirizine 10mg",
+    "tradeName": "Zyrtec tablets",
+    "composition": "Cetirizine 10 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
     "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "breastfeedingCategory": "Use with caution (enters breast milk)",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Taken with or without food.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Allergic Rhinitis / Chronic Urticaria"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 10 mg (1 tablet) q24hr once daily | Pediatric: >= 6 years: 10 mg (1 tablet) q24hr or 5 mg q12hr",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "q24hr",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "adultFixed": "10 mg (1 tablet) q24hr once daily",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -121425,8 +121515,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "zyrtec tablets zyrtec cetirizine alerid cetritin epirizine histazine cetrichew histachew tomazine cetrak 10mg tablets cetirizine zyrtec tablet 10mg",
-    "alternatives": "Alerid / Cetritin / Epirizine / Histazine / Cetrichew / Histachew / Tomazine / Cetrak",
+    "searchTerms": "zyrtec tablets zyrtec cetirizine alerid cetritin epirizine histazine cetrichew histachew tomazine cetrak 10mg tablets cetirizine zyrtec cetrak antihistamine allergic rhinitis urticaria",
+    "alternatives": "Zyrtec / Cetrak / Histazine / Epitrizine / Cetrine",
     "barcode": []
   },
   "mono_02795": {
@@ -121637,42 +121727,60 @@ window.monodoseDatabase = {
   "mono_02800": {
     "code": "mono_02800",
     "name": "Rupatadine",
-    "tradeName": "Alergoliber Rupatadine Rupatadine 5Mg/5Ml Syrup",
-    "composition": "Rupatadine 5mg/5ml",
+    "tradeName": "alergoliber rupatadine rupatadine 5mg/5ml syrup",
+    "composition": "Rupatadine 5 mg / 5 ml (120 ml)",
     "formulation": "syp-susp",
     "dosage_form": "syrup",
     "category": "Monodose Clinical",
     "subCategory": "syrup",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
+    "pregnancyCategory": "Category C",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "administration": "Taken with or without food.",
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Allergic Rhinitis"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: 10 ml (10 mg) q24hr once daily with or without food | Pediatric: Age 2-11 yr (10 to <25 kg): 2.5 ml q24hr | (>=25 kg): 5 ml q24hr (<2 yr: Not recommended)",
+        "dosePerKg": null,
+        "frequency": "q24hr (Once daily)",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
-        "singleDoseMaxMl": null,
-        "maxDailyMg": null,
+        "adultFixed": "10 ml (10 mg) q24hr once daily with or without food",
+        "singleDoseMaxMl": 10.0,
+        "maxDailyMg": 10.0,
         "indType": null,
         "stdFactor": null,
         "lowFactor": null,
         "highFactor": null,
         "highDoseFactor": null,
-        "subtitle": null
+        "subtitle": "2nd Generation Antihistamines"
+      },
+      {
+        "indication": [
+          "Chronic Spontaneous Urticaria"
+        ],
+        "dose": "Adult: 10 ml (10 mg) q24hr once daily with or without food | Pediatric: Age 2-11 yr (10 to <25 kg): 2.5 ml q24hr | (>=25 kg): 5 ml q24hr (<2 yr: Not recommended)",
+        "dosePerKg": null,
+        "frequency": "q24hr (Once daily)",
+        "maxDosesPerDay": 1,
+        "adultFixed": "10 ml (10 mg) q24hr once daily with or without food",
+        "singleDoseMaxMl": 10.0,
+        "maxDailyMg": 10.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "2nd Generation Antihistamines"
       }
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "alergoliber rupatadine rupatadine 5mg/5ml syrup alergoliber rupatadine rupatadine 5mg/5ml syrup rupatadine alergoliber syrup 5mg/5ml",
-    "alternatives": "Rupatadine",
+    "searchTerms": "alergoliber rupatadine rupatadine 5mg/5ml syrup alergoliber rupatadine rupatadine 5mg/5ml syrup rupatadine alergoliber darupax 2nd generation antihistamine allergic rhinitis urticaria",
+    "alternatives": "Alergoliber / Darupax / Healthtadine / Elirupalin / Hisatrup / Rupatoclear",
     "barcode": []
   },
   "mono_02801": {
@@ -121800,29 +121908,29 @@ window.monodoseDatabase = {
   },
   "mono_02804": {
     "code": "mono_02804",
-    "name": "Mucosolvan",
-    "tradeName": "Ambroxol Mucosolvan Mucoline 30Mg Tablets",
-    "composition": "Mucosolvan 30mg",
+    "name": "Ambroxol",
+    "tradeName": "ambroxol mucosolvan mucoline 30mg tablets",
+    "composition": "Ambroxol 30 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
     "subCategory": "tablet",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "pregnancyCategory": "Category B (Avoid in 1st trimester)",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Take after meals with plenty of fluids to assist mucolytic action.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Mucolytic Therapy in Acute/Chronic Respiratory Disorders"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 30 mg (1 tablet) PO q8hr after meals | Pediatric: Adolescents > 12 years: 30 mg PO q8hr",
         "dosePerKg": null,
-        "frequency": "As directed",
-        "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
+        "frequency": "q8hr after meals",
+        "maxDosesPerDay": 3,
+        "adultFixed": "30 mg (1 tablet) PO q8hr after meals",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -121835,8 +121943,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "ambroxol mucosolvan mucoline 30mg tablets ambroxol mucosolvan mucoline 30mg tablets mucosolvan ambroxol tablet 30mg",
-    "alternatives": "Mucoline",
+    "searchTerms": "ambroxol mucosolvan mucoline 30mg tablets ambroxol mucosolvan mucoline 30mg tablets ambroxol ambolar mucosolvan mucolytic expectorant productive cough bronchitis",
+    "alternatives": "Ambolar / Mucosolvan / Bronchopro",
     "barcode": []
   },
   "mono_02805": {
@@ -122099,17 +122207,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -122263,17 +122371,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 12.5,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -122714,17 +122822,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 100.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -122796,17 +122904,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 2.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -123534,17 +123642,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 50.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -123657,17 +123765,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -123698,17 +123806,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 4.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -123985,17 +124093,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 4.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -124600,17 +124708,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -125695,29 +125803,29 @@ window.monodoseDatabase = {
   },
   "mono_02899": {
     "code": "mono_02899",
-    "name": "mucosin",
+    "name": "Ambroxol",
     "tradeName": "mucosin plus Ambroxol Guaifenesin syrup",
-    "composition": "mucosin (syrup)",
+    "composition": "Ambroxol 15 mg / 5 ml (100 ml)",
     "formulation": "syp-susp",
     "dosage_form": "syrup",
     "category": "Monodose Clinical",
     "subCategory": "syrup",
     "minAge": "0 months",
-    "pregnancyCategory": "Category B",
-    "breastfeedingCategory": "Use with caution",
+    "pregnancyCategory": "Category B (Avoid in 1st trimester)",
+    "breastfeedingCategory": "Compatible",
     "g6pd": "Safe",
-    "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "administration": "Take after meals with plenty of fluids to assist mucolytic action.",
+    "concentration": 3.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Productive Cough / Bronchial Secretion Dissolution"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: 10 ml (30 mg) PO q8hr after meals | Pediatric: <2 yr: 2.5 ml (7.5 mg) q12hr | 2-5 yr: 2.5 ml (7.5 mg) q8hr | 6-12 yr: 5 ml (15 mg) q8-12hr | >12 yr: 10 ml q8hr",
+        "dosePerKg": null,
+        "frequency": "q8-12hr after meals",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "10 ml (30 mg) PO q8hr after meals",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -125730,8 +125838,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "mucosin plus ambroxol guaifenesin syrup mucosin plus ambroxol guaifenesin syrup mucosin mucosin syrup ",
-    "alternatives": "mucosin plus Ambroxol Guaifenesin syrup",
+    "searchTerms": "mucosin plus ambroxol guaifenesin syrup mucosin plus ambroxol guaifenesin syrup ambroxol ambolar mucosolvan mucolytic expectorant productive cough bronchitis",
+    "alternatives": "Ambolar / Mucosolvan / Bronchopro",
     "barcode": []
   },
   "mono_02900": {
@@ -126609,17 +126717,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 33.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -127183,17 +127291,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -127593,17 +127701,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 1.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -127634,17 +127742,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 0.4,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -127757,17 +127865,17 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Taken with or without food. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 3.0,
     "doses": [
       {
         "indication": [
-          "Therapeutic Oral Dosage Regimen"
+          "Standard Therapeutic Regimen"
         ],
-        "dose": "Adult: 5 to 10 ml q8-12hr with or without food | Pediatric:",
-        "dosePerKg": 10.0,
-        "frequency": "divided q8-12hr with or without food",
+        "dose": "Adult: Administer according to specialist instructions and clinical evaluation | Pediatric: Administer strictly according to weight and specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "5 to 10 ml q8-12hr with or without food",
+        "adultFixed": "Administer according to specialist instructions and clinical evaluation",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
