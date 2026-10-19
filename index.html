@@ -4,6 +4,49 @@
 <head>
 
 <script>
+
+    // 🎨 Helper to return appropriate formulation icon (Spoon for liquid, syringe for injection, etc.)
+    function getDoseFormIcon(drug) {
+        if (!drug) return '💊';
+        const form = (drug.formulation || drug.dosage_form || drug.form || '').toLowerCase();
+        const name = (drug.name || drug.tradeName || drug.trade_name || drug.monodoseTradeName || '').toLowerCase();
+        const comp = (drug.composition || '').toLowerCase();
+        const combined = `${form} ${name} ${comp}`;
+        
+        if (combined.includes('syrup') || combined.includes('susp') || combined.includes('syp') || 
+            combined.includes('liquid') || combined.includes('solution') || combined.includes('elixir')) {
+            return '🥄';
+        }
+        if (combined.includes('drop')) {
+            return '💧';
+        }
+        if (combined.includes('amp') || combined.includes('vial') || combined.includes('inj') || 
+            combined.includes('iv') || combined.includes('im') || combined.includes('حقن')) {
+            return '💉';
+        }
+        return '💊';
+    }
+
+    function getPregnancyCategoryEmojiNew(cat) {
+        if (!cat) return '❓';
+        const s = String(cat).toUpperCase();
+        if (s.includes('CATEGORY A') || s === 'A') return '🛡️';
+        if (s.includes('CATEGORY B') || s === 'B') return '🟢';
+        if (s.includes('CATEGORY C') || s === 'C') return '🟡';
+        if (s.includes('CATEGORY D') || s === 'D') return '🟠';
+        if (s.includes('CATEGORY X') || s === 'X') return '🔴';
+        return '🟡';
+    }
+
+    function getBreastfeedingCategoryEmojiNew(cat) {
+        if (!cat) return '❓';
+        const s = String(cat).toLowerCase();
+        if (s.includes('compatible') || s.includes('safe') || s.includes('low risk') || s.includes('human milk')) return '✅';
+        if (s.includes('caution') || s.includes('moderate risk') || s.includes('monitor')) return '⚠️';
+        if (s.includes('contraindicated') || s.includes('avoid') || s.includes('unsafe') || s.includes('high risk')) return '🚫';
+        return '⚠️';
+    }
+
     // --- ANTI-DEBUG & OFFLINE PROTECTION ---
     (function() {
         document.addEventListener('contextmenu', function(e) { e.preventDefault(); });
@@ -1863,8 +1906,8 @@
         }
 
         .dose-details {
-            margin-top: 20px !important;
-            display: none !important;
+            margin-top: 10px !important;
+            display: block !important;
             animation: slideDown 0.4s ease-in-out !important;
         }
 
@@ -4824,7 +4867,7 @@ function getMonodoseIconHTML(drug) {
 
                         doseHtml += `
                 <div class="main-dose-value">
-                    💊 ${displayValue} ${displayUnit} every ${intervalText} for ${dose.duration}
+                    ${getDoseFormIcon(selectedDrug)} ${displayValue} ${displayUnit} every ${intervalText} for ${dose.duration}
                 </div>
                 <div class="dose-details" id="details-${index}">
                     <div class="dose-line">
@@ -4902,7 +4945,7 @@ function getMonodoseIconHTML(drug) {
 
                         doseHtml += `
                 <div class="main-dose-value">
-                    💊 ${displayValue} ${displayUnit} every ${intervalText} for ${dose.duration}
+                    ${getDoseFormIcon(selectedDrug)} ${displayValue} ${displayUnit} every ${intervalText} for ${dose.duration}
                 </div>
                 <div class="dose-details" id="details-${index}">
                     <div class="dose-line">
@@ -4974,7 +5017,7 @@ function getMonodoseIconHTML(drug) {
 
                         doseHtml += `
                 <div class="main-dose-value">
-                    💊 ${displayText} every ${intervalText} for ${dose.duration}
+                    ${getDoseFormIcon(selectedDrug)} ${displayText} every ${intervalText} for ${dose.duration}
                 </div>
                 <div class="dose-details" id="details-${index}">
                     <div class="dose-line">
@@ -7660,38 +7703,39 @@ function getBreastfeedingCategoryEmoji(category) {
                         font-size: 28px;
                         margin-bottom: 15px;
                     ">
-                        💊 ${finalDose}
+                        ${getDoseFormIcon(selectedDrug)} ${finalDose}
                     </div>
                     <div style="
-                        background: linear-gradient(135deg, #ffeb3b, #fdd835);
-                        border: 2px solid #f57f17;
+                        background: linear-gradient(135deg, #fffde7, #fff9c4);
+                        border: 2px solid #fdd835;
                         border-radius: 12px;
                         padding: 15px;
-                        text-align: center;
+                        text-align: start;
+                        box-sizing: border-box;
                     ">
-                        <div style="
-                            color: #0d47a1;
-                            font-weight: 600;
-                            font-size: 16px;
-                            margin: 8px 0;
-                        ">
-                            <strong>Frequency:</strong> ${frequencyText || 'As directed'}
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap;">
+                            <span style="font-weight: 700; color: #555; font-size: 14px;">Patient Category:</span>
+                            <span style="font-weight: 800; color: ${patientAgeYears < 18 ? '#e65100' : '#2e7d32'}; font-size: 14px;">${patientAgeYears < 18 ? (patientWeight ? 'Pediatric (' + patientWeight + ' Kg)' : 'Pediatric') : 'Adult Standard'}</span>
                         </div>
-                        <div style="
-                            color: #7b1fa2;
-                            font-weight: 600;
-                            font-size: 16px;
-                            margin: 8px 0;
-                        ">
-                            <strong>Duration:</strong> ${durationText || 'As needed'}
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap;">
+                            <span style="font-weight: 700; color: #555; font-size: 14px;">Calculated Dose:</span>
+                            <span style="font-weight: 800; color: #1976d2; font-size: 15px;">${finalDose}</span>
                         </div>
-                        <div style="
-                            color: #c62828;
-                            font-weight: 600;
-                            font-size: 16px;
-                            margin: 8px 0;
-                        ">
-                            <strong>Route:</strong> ${routeText || 'oral'}
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap;">
+                            <span style="font-weight: 700; color: #555; font-size: 14px;">Frequency:</span>
+                            <span style="font-weight: 700; color: #0d47a1; font-size: 14px;">${frequencyText || 'As directed'}</span>
+                        </div>
+                        ${durationText ? `
+                        <div style="margin: 10px 0; background: #ffffff; padding: 10px 12px; border-radius: 8px; border: 1.5px solid #ffa000; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
+                            <span style="font-weight: 800; color: #b78103; font-size: 13.5px;">📋 Clinical Regimen & Protocol / Taper:</span>
+                            <div style="font-weight: 600; color: #222; font-size: 13.5px; line-height: 1.6; margin-top: 4px; white-space: pre-line;">${durationText}</div>
+                        </div>` : ''}
+                        ${(selectedDrug && selectedDrug.administration) ? `
+                        <div style="margin-top: 8px; padding-top: 6px; border-top: 1px dashed #f57f17; font-size: 13px; color: #555; line-height: 1.5;">
+                            🍽️ <strong>Administration:</strong> ${selectedDrug.administration}
+                        </div>` : ''}
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 8px; padding-top: 6px; border-top: 1px dashed #e0e0e0; font-size: 12.5px; color: #666;">
+                            <span><strong>Route:</strong> ${routeText || 'oral'}</span>
                         </div>
                     </div>
                 </div>
@@ -11960,7 +12004,7 @@ document.getElementById('drugDetailTitle').innerHTML = titleHTML;
 
                             // الحصول على بيانات الأمان
                             const drugCode = drug.code || drug.tradeName || 'unknown';
-                            const safetyData = getDrugSafetyData(drugCode);
+                            const safetyData = getDrugSafetyData(drugCode, drug);
 
                             // إنشاء عنصر SP CASES
                             const spCasesDiv = document.createElement('div');
@@ -12396,8 +12440,10 @@ document.getElementById('drugDetailTitle').innerHTML = titleHTML;
                 document.getElementById('compositionContent').innerHTML =
                     `<strong>Active:</strong> ${drug.name || 'N/A'}<br><strong>Form:</strong> ${formStr1}`;
 
-                const pregEmoji = { 'A': '✅', 'B': '🟢', 'C': '🟡', 'D': '🟠', 'X': '🔴' }[drug.pregnancyCategory] || '❓';
-                const breastEmoji = { 'Safe': '✅', 'Caution': '⚠️', 'Contraindicated': '🚫' }[drug.breastfeedingCategory] || '❓';
+                const pregVal = drug.pregnancyCategory || drug.pregnancy || 'N/A';
+                const breastVal = drug.breastfeedingCategory || drug.lactation || 'N/A';
+                const pregEmoji = getPregnancyCategoryEmojiNew(pregVal);
+                const breastEmoji = getBreastfeedingCategoryEmojiNew(breastVal);
 
                 // بعد سطر الحمل والرضاعة مباشرة ضيف:
                 displayMinAgeInfo(drug);
@@ -13265,35 +13311,59 @@ ${patientWarning}
                         }
 
                         doseHtml += `
-                            <div class="main-dose-value" style="font-size: 1.15em; font-weight: 700; color: #1565C0; padding: 12px 14px; background: #e3f2fd; border-radius: 10px; border-left: 5px solid #1976D2; margin-bottom: 8px;">
-                                💊 ${displayDose}
+                        <div style="
+                            background: linear-gradient(135deg, #fff8e1, #ffecb3);
+                            border: 3px solid #ff9800;
+                            border-radius: 16px;
+                            padding: 16px 18px;
+                            margin: 12px auto;
+                            box-shadow: 0 8px 25px rgba(255,152,0,0.18);
+                            box-sizing: border-box;
+                        ">
+                            <div class="main-dose-value" style="
+                                text-align: center;
+                                color: #1565c0;
+                                font-weight: 800;
+                                font-size: 20px;
+                                margin-bottom: 12px;
+                                line-height: 1.4;
+                            ">
+                                ${getDoseFormIcon(selectedDrug)} ${displayDose}
                                 ${highDoseNotice}
                             </div>
-                            <div class="dose-details" id="details-${index}" style="display: block; background: #fffde7; border: 1px solid #fff59d; border-radius: 8px; padding: 10px 14px;">
-                                <div class="dose-line" style="display: flex; justify-content: space-between; margin-bottom: 4px;">
-                                    <span class="dose-label" style="font-weight: 600; color: #555;">Patient Category:</span>
-                                    <span class="dose-value" style="font-weight: 700; color: ${isPediatric ? '#e65100' : '#2e7d32'};">${isPediatric ? 'Pediatric (< 17 years) - Converted' : 'Adult Standard (>= 17 years)'}</span>
+                            <div class="dose-details" id="details-${index}" style="
+                                display: block !important;
+                                background: linear-gradient(135deg, #fffde7, #fff9c4);
+                                border: 2px solid #fdd835;
+                                border-radius: 12px;
+                                padding: 12px 14px;
+                                box-sizing: border-box;
+                            ">
+                                <div class="dose-line" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; flex-wrap: wrap;">
+                                    <span class="dose-label" style="font-weight: 700; color: #555; font-size: 13.5px;">Patient Category:</span>
+                                    <span class="dose-value" style="font-weight: 800; color: ${isPediatric ? '#e65100' : '#2e7d32'}; font-size: 13.5px;">${isPediatric ? 'Pediatric (< 45 Kg)' : 'Adult Standard (>= 45 Kg)'}</span>
                                 </div>
-                                <div class="dose-line" style="display: flex; justify-content: space-between; margin-bottom: 4px;">
-                                    <span class="dose-label" style="font-weight: 600; color: #555;">Calculated Dose:</span>
-                                    <span class="dose-value" style="font-weight: 700; color: #333;">${singleDose || displayDose}</span>
+                                <div class="dose-line" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; flex-wrap: wrap;">
+                                    <span class="dose-label" style="font-weight: 700; color: #555; font-size: 13.5px;">Calculated Dose:</span>
+                                    <span class="dose-value" style="font-weight: 800; color: #1976d2; font-size: 14.5px;">${singleDose || displayDose}</span>
                                 </div>
-                                <div class="dose-line" style="display: flex; justify-content: space-between; margin-bottom: 4px;">
-                                    <span class="dose-label" style="font-weight: 600; color: #555;">Frequency:</span>
-                                    <span class="dose-value" style="font-weight: 600; color: #333;">${freqText}</span>
+                                <div class="dose-line" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; flex-wrap: wrap;">
+                                    <span class="dose-label" style="font-weight: 700; color: #555; font-size: 13.5px;">Frequency:</span>
+                                    <span class="dose-value" style="font-weight: 700; color: #0d47a1; font-size: 13.5px;">${freqText}</span>
                                 </div>
                                 ${durText ? `
-                                <div class="dose-line" style="display: flex; flex-direction: column; gap: 4px; margin-bottom: 6px; background: #fff; padding: 8px 10px; border-radius: 6px; border: 1px solid #ffe082;">
-                                    <span class="dose-label" style="font-weight: 700; color: #b78103; font-size: 13px;">📋 Clinical Regimen & Protocol / Taper:</span>
-                                    <span class="dose-value" style="font-weight: 600; color: #333; font-size: 13.5px; line-height: 1.5; white-space: pre-line;">${durText}</span>
+                                <div class="dose-line" style="display: flex; flex-direction: column; gap: 4px; margin: 8px 0; background: #ffffff; padding: 10px 12px; border-radius: 8px; border: 1.5px solid #ffa000; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
+                                    <span class="dose-label" style="font-weight: 800; color: #b78103; font-size: 13.5px;">📋 Clinical Regimen & Protocol / Taper:</span>
+                                    <span class="dose-value" style="font-weight: 600; color: #222; font-size: 13.5px; line-height: 1.6; white-space: pre-line;">${durText}</span>
                                 </div>` : ''}
                                 ${solidPediatricNotice}
                                 ${selectedDrug.administration ? `
-                                <div class="dose-line" style="display: flex; justify-content: space-between; margin-top: 6px; padding-top: 6px; border-top: 1px dashed #e0e0e0; font-size: 0.9em; color: #666;">
-                                    <span>${selectedDrug.administration}</span>
+                                <div class="dose-line" style="margin-top: 8px; padding-top: 6px; border-top: 1px dashed #f57f17; font-size: 13px; color: #555; line-height: 1.5;">
+                                    🍽️ <strong>Administration:</strong> ${selectedDrug.administration}
                                 </div>` : ''}
                             </div>
-                        </div></div>`;
+                        </div>
+                    </div></div>`;
                         return;
                     }
 
@@ -13350,7 +13420,7 @@ ${patientWarning}
 
                         doseHtml += `
                             <div class="main-dose-value">
-                                 💊 ${displayValue} ${displayUnit} every ${intervalText} for ${dose.duration || 'prescribed duration'}
+                                 ${getDoseFormIcon(selectedDrug)} ${displayValue} ${displayUnit} every ${intervalText} for ${dose.duration || 'prescribed duration'}
                             </div>
                             <div class="dose-details" id="details-${index}">
                                 <div class="dose-line">
@@ -13386,7 +13456,7 @@ ${patientWarning}
                             const tabInfo = formatTabletDose(singleDoseMg, tabletStrength);
                             doseHtml += `
                                 <div class="main-dose-value">
-                                     💊 ${tabInfo.fractionText} (${Math.round(singleDoseMg)} mg) - [${tabInfo.arabicFraction}] ${dose.frequency || ''}
+                                     ${getDoseFormIcon(selectedDrug)} ${tabInfo.fractionText} (${Math.round(singleDoseMg)} mg) - [${tabInfo.arabicFraction}] ${dose.frequency || ''}
                                 </div>
                                 <div class="dose-details" id="details-${index}">
                                     <div class="dose-line">
@@ -13413,7 +13483,7 @@ ${patientWarning}
                                 const tabInfo = formatTabletDose(doseValue, tabletStrength);
                                 doseHtml += `
                                     <div class="main-dose-value">
-                                         💊 ${tabInfo.fractionText} (${doseValue} mg) - [${tabInfo.arabicFraction}] ${dose.frequency || ''} for ${dose.duration || 'directed duration'}
+                                         ${getDoseFormIcon(selectedDrug)} ${tabInfo.fractionText} (${doseValue} mg) - [${tabInfo.arabicFraction}] ${dose.frequency || ''} for ${dose.duration || 'directed duration'}
                                     </div>
                                 `;
                             } else {
@@ -13432,14 +13502,14 @@ ${patientWarning}
                             }
                             doseHtml += `
                                 <div class="main-dose-value">
-                                     💊 ${textToDisplay} ${dose.frequency || ''} for ${dose.duration || 'directed duration'}
+                                     ${getDoseFormIcon(selectedDrug)} ${textToDisplay} ${dose.frequency || ''} for ${dose.duration || 'directed duration'}
                                 </div>
                             `;
                         }
                     } else if (dose.fixedDose) {
                         doseHtml += `
                             <div class="main-dose-value">
-                                 💊 ${dose.fixedDose} mg ${dose.frequency || ''} for ${dose.duration || 'directed duration'}
+                                 ${getDoseFormIcon(selectedDrug)} ${dose.fixedDose} mg ${dose.frequency || ''} for ${dose.duration || 'directed duration'}
                             </div>
                         `;
                     }
@@ -13976,38 +14046,39 @@ ${patientWarning}
                         font-size: 28px;
                         margin-bottom: 15px;
                     ">
-                        💊 ${finalDose}
+                        ${getDoseFormIcon(selectedDrug)} ${finalDose}
                     </div>
                     <div style="
-                        background: linear-gradient(135deg, #ffeb3b, #fdd835);
-                        border: 2px solid #f57f17;
+                        background: linear-gradient(135deg, #fffde7, #fff9c4);
+                        border: 2px solid #fdd835;
                         border-radius: 12px;
                         padding: 15px;
-                        text-align: center;
+                        text-align: start;
+                        box-sizing: border-box;
                     ">
-                        <div style="
-                            color: #0d47a1;
-                            font-weight: 600;
-                            font-size: 16px;
-                            margin: 8px 0;
-                        ">
-                            <strong>Frequency:</strong> ${frequencyText || 'As directed'}
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap;">
+                            <span style="font-weight: 700; color: #555; font-size: 14px;">Patient Category:</span>
+                            <span style="font-weight: 800; color: ${patientAgeYears < 18 ? '#e65100' : '#2e7d32'}; font-size: 14px;">${patientAgeYears < 18 ? (patientWeight ? 'Pediatric (' + patientWeight + ' Kg)' : 'Pediatric') : 'Adult Standard'}</span>
                         </div>
-                        <div style="
-                            color: #7b1fa2;
-                            font-weight: 600;
-                            font-size: 16px;
-                            margin: 8px 0;
-                        ">
-                            <strong>Duration:</strong> ${durationText || 'As needed'}
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap;">
+                            <span style="font-weight: 700; color: #555; font-size: 14px;">Calculated Dose:</span>
+                            <span style="font-weight: 800; color: #1976d2; font-size: 15px;">${finalDose}</span>
                         </div>
-                        <div style="
-                            color: #c62828;
-                            font-weight: 600;
-                            font-size: 16px;
-                            margin: 8px 0;
-                        ">
-                            <strong>Route:</strong> ${routeText || 'oral'}
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap;">
+                            <span style="font-weight: 700; color: #555; font-size: 14px;">Frequency:</span>
+                            <span style="font-weight: 700; color: #0d47a1; font-size: 14px;">${frequencyText || 'As directed'}</span>
+                        </div>
+                        ${durationText ? `
+                        <div style="margin: 10px 0; background: #ffffff; padding: 10px 12px; border-radius: 8px; border: 1.5px solid #ffa000; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
+                            <span style="font-weight: 800; color: #b78103; font-size: 13.5px;">📋 Clinical Regimen & Protocol / Taper:</span>
+                            <div style="font-weight: 600; color: #222; font-size: 13.5px; line-height: 1.6; margin-top: 4px; white-space: pre-line;">${durationText}</div>
+                        </div>` : ''}
+                        ${(selectedDrug && selectedDrug.administration) ? `
+                        <div style="margin-top: 8px; padding-top: 6px; border-top: 1px dashed #f57f17; font-size: 13px; color: #555; line-height: 1.5;">
+                            🍽️ <strong>Administration:</strong> ${selectedDrug.administration}
+                        </div>` : ''}
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 8px; padding-top: 6px; border-top: 1px dashed #e0e0e0; font-size: 12.5px; color: #666;">
+                            <span><strong>Route:</strong> ${routeText || 'oral'}</span>
                         </div>
                     </div>
                 </div>
@@ -18276,7 +18347,7 @@ document.getElementById('drugDetailTitle').innerHTML = titleHTML;
 
                             // الحصول على بيانات الأمان
                             const drugCode = drug.code || drug.tradeName || 'unknown';
-                            const safetyData = getDrugSafetyData(drugCode);
+                            const safetyData = getDrugSafetyData(drugCode, drug);
 
                             // إنشاء عنصر SP CASES
                             const spCasesDiv = document.createElement('div');
@@ -18712,8 +18783,10 @@ document.getElementById('drugDetailTitle').innerHTML = titleHTML;
                 document.getElementById('compositionContent').innerHTML =
                     `<strong>Active:</strong> ${drug.name || 'N/A'}<br><strong>Form:</strong> ${formStr2}`;
 
-                const pregEmoji = { 'A': '✅', 'B': '🟢', 'C': '🟡', 'D': '🟠', 'X': '🔴' }[drug.pregnancyCategory] || '❓';
-                const breastEmoji = { 'Safe': '✅', 'Caution': '⚠️', 'Contraindicated': '🚫' }[drug.breastfeedingCategory] || '❓';
+                const pregVal = drug.pregnancyCategory || drug.pregnancy || 'N/A';
+                const breastVal = drug.breastfeedingCategory || drug.lactation || 'N/A';
+                const pregEmoji = getPregnancyCategoryEmojiNew(pregVal);
+                const breastEmoji = getBreastfeedingCategoryEmojiNew(breastVal);
 
                 // بعد سطر الحمل والرضاعة مباشرة ضيف:
                 displayMinAgeInfo(drug);
@@ -19602,35 +19675,59 @@ ${patientWarning}
                         }
 
                         doseHtml += `
-                            <div class="main-dose-value" style="font-size: 1.15em; font-weight: 700; color: #1565C0; padding: 12px 14px; background: #e3f2fd; border-radius: 10px; border-left: 5px solid #1976D2; margin-bottom: 8px;">
-                                💊 ${displayDose}
+                        <div style="
+                            background: linear-gradient(135deg, #fff8e1, #ffecb3);
+                            border: 3px solid #ff9800;
+                            border-radius: 16px;
+                            padding: 16px 18px;
+                            margin: 12px auto;
+                            box-shadow: 0 8px 25px rgba(255,152,0,0.18);
+                            box-sizing: border-box;
+                        ">
+                            <div class="main-dose-value" style="
+                                text-align: center;
+                                color: #1565c0;
+                                font-weight: 800;
+                                font-size: 20px;
+                                margin-bottom: 12px;
+                                line-height: 1.4;
+                            ">
+                                ${getDoseFormIcon(selectedDrug)} ${displayDose}
                                 ${highDoseNotice}
                             </div>
-                            <div class="dose-details" id="details-${index}" style="display: block; background: #fffde7; border: 1px solid #fff59d; border-radius: 8px; padding: 10px 14px;">
-                                <div class="dose-line" style="display: flex; justify-content: space-between; margin-bottom: 4px;">
-                                    <span class="dose-label" style="font-weight: 600; color: #555;">Patient Category:</span>
-                                    <span class="dose-value" style="font-weight: 700; color: ${isPediatric ? '#e65100' : '#2e7d32'};">${isPediatric ? (isInjectable ? 'Pediatric Injection Dose' : (isSolid ? 'Pediatric (< 17 years) - Converted' : 'Pediatric (< 45 Kg)')) : 'Adult Standard (>= 17 years)'}</span>
+                            <div class="dose-details" id="details-${index}" style="
+                                display: block !important;
+                                background: linear-gradient(135deg, #fffde7, #fff9c4);
+                                border: 2px solid #fdd835;
+                                border-radius: 12px;
+                                padding: 12px 14px;
+                                box-sizing: border-box;
+                            ">
+                                <div class="dose-line" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; flex-wrap: wrap;">
+                                    <span class="dose-label" style="font-weight: 700; color: #555; font-size: 13.5px;">Patient Category:</span>
+                                    <span class="dose-value" style="font-weight: 800; color: ${isPediatric ? '#e65100' : '#2e7d32'}; font-size: 13.5px;">${isPediatric ? (isInjectable ? 'Pediatric Injection Dose' : (isSolid ? 'Pediatric (< 17 years) - Converted' : 'Pediatric (< 45 Kg)')) : 'Adult Standard (>= 17 years)'}</span>
                                 </div>
-                                <div class="dose-line" style="display: flex; justify-content: space-between; margin-bottom: 4px;">
-                                    <span class="dose-label" style="font-weight: 600; color: #555;">Calculated Dose:</span>
-                                    <span class="dose-value" style="font-weight: 700; color: #333;">${singleDose || displayDose}</span>
+                                <div class="dose-line" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; flex-wrap: wrap;">
+                                    <span class="dose-label" style="font-weight: 700; color: #555; font-size: 13.5px;">Calculated Dose:</span>
+                                    <span class="dose-value" style="font-weight: 800; color: #1976d2; font-size: 14.5px;">${singleDose || displayDose}</span>
                                 </div>
-                                <div class="dose-line" style="display: flex; justify-content: space-between; margin-bottom: 4px;">
-                                    <span class="dose-label" style="font-weight: 600; color: #555;">Frequency:</span>
-                                    <span class="dose-value" style="font-weight: 600; color: #333;">${freqText}</span>
+                                <div class="dose-line" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; flex-wrap: wrap;">
+                                    <span class="dose-label" style="font-weight: 700; color: #555; font-size: 13.5px;">Frequency:</span>
+                                    <span class="dose-value" style="font-weight: 700; color: #0d47a1; font-size: 13.5px;">${freqText}</span>
                                 </div>
                                 ${durText ? `
-                                <div class="dose-line" style="display: flex; flex-direction: column; gap: 4px; margin-bottom: 6px; background: #fff; padding: 8px 10px; border-radius: 6px; border: 1px solid #ffe082;">
-                                    <span class="dose-label" style="font-weight: 700; color: #b78103; font-size: 13px;">📋 Clinical Regimen & Protocol / Taper:</span>
-                                    <span class="dose-value" style="font-weight: 600; color: #333; font-size: 13.5px; line-height: 1.5; white-space: pre-line;">${durText}</span>
+                                <div class="dose-line" style="display: flex; flex-direction: column; gap: 4px; margin: 8px 0; background: #ffffff; padding: 10px 12px; border-radius: 8px; border: 1.5px solid #ffa000; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
+                                    <span class="dose-label" style="font-weight: 800; color: #b78103; font-size: 13.5px;">📋 Clinical Regimen & Protocol / Taper:</span>
+                                    <span class="dose-value" style="font-weight: 600; color: #222; font-size: 13.5px; line-height: 1.6; white-space: pre-line;">${durText}</span>
                                 </div>` : ''}
                                 ${solidPediatricNotice}
                                 ${selectedDrug.administration ? `
-                                <div class="dose-line" style="display: flex; justify-content: space-between; margin-top: 6px; padding-top: 6px; border-top: 1px dashed #e0e0e0; font-size: 0.9em; color: #666;">
-                                    <span>${selectedDrug.administration}</span>
+                                <div class="dose-line" style="margin-top: 8px; padding-top: 6px; border-top: 1px dashed #f57f17; font-size: 13px; color: #555; line-height: 1.5;">
+                                    🍽️ <strong>Administration:</strong> ${selectedDrug.administration}
                                 </div>` : ''}
                             </div>
-                        </div></div>`;
+                        </div>
+                    </div></div>`;
                         return;
                     }
 
@@ -19697,7 +19794,7 @@ ${patientWarning}
 
                         doseHtml += `
                             <div class="main-dose-value">
-                                 💊 ${displayValue} ${displayUnit} every ${intervalText} for ${dose.duration || 'prescribed duration'}
+                                 ${getDoseFormIcon(selectedDrug)} ${displayValue} ${displayUnit} every ${intervalText} for ${dose.duration || 'prescribed duration'}
                             </div>
                             <div class="dose-details" id="details-${index}">
                                 <div class="dose-line">
@@ -19740,7 +19837,7 @@ ${patientWarning}
                                 }
                                 doseHtml += `
                                     <div class="main-dose-value">
-                                         💊 ${doseFormatted} ${dose.frequency || ''}
+                                         ${getDoseFormIcon(selectedDrug)} ${doseFormatted} ${dose.frequency || ''}
                                     </div>
                                     <div class="dose-details" id="details-${index}">
                                         <div class="dose-line">
@@ -19762,7 +19859,7 @@ ${patientWarning}
                                 const tabInfo = formatTabletDose(singleDoseMg, tabletStrength);
                                 doseHtml += `
                                     <div class="main-dose-value">
-                                         💊 ${tabInfo.fractionText} (${Math.round(singleDoseMg)} mg) - [${tabInfo.arabicFraction}] ${dose.frequency || ''}
+                                         ${getDoseFormIcon(selectedDrug)} ${tabInfo.fractionText} (${Math.round(singleDoseMg)} mg) - [${tabInfo.arabicFraction}] ${dose.frequency || ''}
                                     </div>
                                     <div class="dose-details" id="details-${index}">
                                         <div class="dose-line">
@@ -19793,7 +19890,7 @@ ${patientWarning}
                                 const tabInfo = formatTabletDose(doseValue, tabletStrength);
                                 doseHtml += `
                                     <div class="main-dose-value">
-                                         💊 ${tabInfo.fractionText} (${doseValue} mg) - [${tabInfo.arabicFraction}] ${dose.frequency || ''} for ${dose.duration || 'directed duration'}
+                                         ${getDoseFormIcon(selectedDrug)} ${tabInfo.fractionText} (${doseValue} mg) - [${tabInfo.arabicFraction}] ${dose.frequency || ''} for ${dose.duration || 'directed duration'}
                                     </div>
                                 `;
                             } else {
@@ -19812,14 +19909,14 @@ ${patientWarning}
                             }
                             doseHtml += `
                                 <div class="main-dose-value">
-                                     💊 ${textToDisplay} ${dose.frequency || ''} for ${dose.duration || 'directed duration'}
+                                     ${getDoseFormIcon(selectedDrug)} ${textToDisplay} ${dose.frequency || ''} for ${dose.duration || 'directed duration'}
                                 </div>
                             `;
                         }
                     } else if (dose.fixedDose) {
                         doseHtml += `
                             <div class="main-dose-value">
-                                 💊 ${dose.fixedDose} mg ${dose.frequency || ''} for ${dose.duration || 'directed duration'}
+                                 ${getDoseFormIcon(selectedDrug)} ${dose.fixedDose} mg ${dose.frequency || ''} for ${dose.duration || 'directed duration'}
                             </div>
                         `;
                     }
@@ -20296,38 +20393,39 @@ ${patientWarning}
                         font-size: 28px;
                         margin-bottom: 15px;
                     ">
-                        💊 ${finalDose}
+                        ${getDoseFormIcon(selectedDrug)} ${finalDose}
                     </div>
                     <div style="
-                        background: linear-gradient(135deg, #ffeb3b, #fdd835);
-                        border: 2px solid #f57f17;
+                        background: linear-gradient(135deg, #fffde7, #fff9c4);
+                        border: 2px solid #fdd835;
                         border-radius: 12px;
                         padding: 15px;
-                        text-align: center;
+                        text-align: start;
+                        box-sizing: border-box;
                     ">
-                        <div style="
-                            color: #0d47a1;
-                            font-weight: 600;
-                            font-size: 16px;
-                            margin: 8px 0;
-                        ">
-                            <strong>Frequency:</strong> ${frequencyText || 'As directed'}
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap;">
+                            <span style="font-weight: 700; color: #555; font-size: 14px;">Patient Category:</span>
+                            <span style="font-weight: 800; color: ${patientAgeYears < 18 ? '#e65100' : '#2e7d32'}; font-size: 14px;">${patientAgeYears < 18 ? (patientWeight ? 'Pediatric (' + patientWeight + ' Kg)' : 'Pediatric') : 'Adult Standard'}</span>
                         </div>
-                        <div style="
-                            color: #7b1fa2;
-                            font-weight: 600;
-                            font-size: 16px;
-                            margin: 8px 0;
-                        ">
-                            <strong>Duration:</strong> ${durationText || 'As needed'}
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap;">
+                            <span style="font-weight: 700; color: #555; font-size: 14px;">Calculated Dose:</span>
+                            <span style="font-weight: 800; color: #1976d2; font-size: 15px;">${finalDose}</span>
                         </div>
-                        <div style="
-                            color: #c62828;
-                            font-weight: 600;
-                            font-size: 16px;
-                            margin: 8px 0;
-                        ">
-                            <strong>Route:</strong> ${routeText || 'oral'}
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap;">
+                            <span style="font-weight: 700; color: #555; font-size: 14px;">Frequency:</span>
+                            <span style="font-weight: 700; color: #0d47a1; font-size: 14px;">${frequencyText || 'As directed'}</span>
+                        </div>
+                        ${durationText ? `
+                        <div style="margin: 10px 0; background: #ffffff; padding: 10px 12px; border-radius: 8px; border: 1.5px solid #ffa000; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
+                            <span style="font-weight: 800; color: #b78103; font-size: 13.5px;">📋 Clinical Regimen & Protocol / Taper:</span>
+                            <div style="font-weight: 600; color: #222; font-size: 13.5px; line-height: 1.6; margin-top: 4px; white-space: pre-line;">${durationText}</div>
+                        </div>` : ''}
+                        ${(selectedDrug && selectedDrug.administration) ? `
+                        <div style="margin-top: 8px; padding-top: 6px; border-top: 1px dashed #f57f17; font-size: 13px; color: #555; line-height: 1.5;">
+                            🍽️ <strong>Administration:</strong> ${selectedDrug.administration}
+                        </div>` : ''}
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 8px; padding-top: 6px; border-top: 1px dashed #e0e0e0; font-size: 12.5px; color: #666;">
+                            <span><strong>Route:</strong> ${routeText || 'oral'}</span>
                         </div>
                     </div>
                 </div>
@@ -21267,7 +21365,7 @@ ${patientWarning}
             function ensureRouteAndMinAgeDisplay() {
                 setTimeout(addRouteAndMinAgeToAllDrugs, 200);
             }// 🏥 قاعدة بيانات أمان الأدوية - نظام موحد للأكواد الفردية والمجموعات
-            function getDrugSafetyData(drugCode) {
+            function getDrugSafetyData(drugCode, drugObj) {
 
                 // 🧠 قاعدة البيانات الموحدة - كل دواء له codes array (سواء واحد أو أكتر)
 
@@ -21459,40 +21557,107 @@ ${patientWarning}
                     }
                 });
 
-                // 🔍 فنكشن البحث الموحد
+                // 🔍 فنكشن البحث الموحد الذكي مع دعم المواد الفعالة والأكواد
                 function findDrugData(searchTerm) {
+                    if (!searchTerm) return null;
                     const term = String(searchTerm).toUpperCase().trim();
+                    if (!term || term === 'UNKNOWN' || term === 'NULL') return null;
 
-                    // البحث في كل دواء
+                    if (typeof UNIFIED_DRUG_DATABASE === 'undefined' || !Array.isArray(UNIFIED_DRUG_DATABASE)) {
+                        return null;
+                    }
+
+                    // 🎯 1. البحث بالكود
                     for (const drugEntry of UNIFIED_DRUG_DATABASE) {
-                        // 🎯 1. البحث بالكود
-                        if (drugEntry.codes.includes(searchTerm)) {
+                        if (drugEntry.codes && drugEntry.codes.includes(searchTerm)) {
                             console.log(`🎯 Code Match: Found ${drugEntry.name} for code ${searchTerm}`);
                             return drugEntry;
                         }
+                    }
 
-                        // 🎯 2. البحث بالاسم
-                        if (drugEntry.name.includes(term)) {
-                            console.log(`💊 Name Match: Found ${drugEntry.name}`);
+                    // 🎯 2. البحث بالاسم الدقيق
+                    for (const drugEntry of UNIFIED_DRUG_DATABASE) {
+                        const entryName = (drugEntry.name || '').toUpperCase().trim();
+                        if (entryName === term) {
+                            console.log(`💊 Exact Match: Found ${drugEntry.name}`);
                             return drugEntry;
                         }
+                    }
 
-                        // 🎯 3. البحث الجزئي في الاسم
-                        if (term.length > 3 && drugEntry.name.includes(term)) {
-                            console.log(`🧩 Partial Name Match: Found ${drugEntry.name}`);
-                            return drugEntry;
+                    // 🎯 3. البحث بالاحتواء المتبادل
+                    for (const drugEntry of UNIFIED_DRUG_DATABASE) {
+                        const entryName = (drugEntry.name || '').toUpperCase().trim();
+                        if (entryName && term) {
+                            if (term.includes(entryName) || entryName.includes(term)) {
+                                console.log(`🧩 Substring Match: Found ${drugEntry.name} for ${term}`);
+                                return drugEntry;
+                            }
+                        }
+                    }
+
+                    // 🎯 4. البحث بكلمات المادة الفعالة
+                    const cleanTokens = term.split(/[\s\/+,]+/).filter(t => t.length > 3 && !['MG', 'ML', 'SYRUP', 'SUSP', 'TAB', 'CAP', 'ORAL', 'DROPS', 'FORTE', 'DISPERSIBLE'].includes(t));
+                    for (const token of cleanTokens) {
+                        for (const drugEntry of UNIFIED_DRUG_DATABASE) {
+                            const entryName = (drugEntry.name || '').toUpperCase().trim();
+                            if (entryName.includes(token) || token.includes(entryName)) {
+                                console.log(`🧩 Token Match: Found ${drugEntry.name} for token ${token}`);
+                                return drugEntry;
+                            }
                         }
                     }
 
                     return null;
                 }
 
-                // 🔍 تنفيذ البحث الأساسي
-                let foundDrug = findDrugData(drugCode);
+                // 🔍 استخراج ذكي للمادة الفعالة والكود
+                const dTarget = drugObj || (typeof drug !== 'undefined' ? drug : (typeof selectedDrug !== 'undefined' ? selectedDrug : null));
+                let foundDrug = null;
 
-                // 🔍 البحث الإضافي بالـ drug object (إذا متوفر)
-                if (!foundDrug && typeof drug !== 'undefined' && drug && drug.name) {
-                    foundDrug = findDrugData(drug.name);
+                // 1. فحص الكود
+                if (drugCode && drugCode !== 'unknown') {
+                    foundDrug = findDrugData(drugCode);
+                }
+
+                // 2. فحص المادة الفعالة من مختلف الحقول الممكنة
+                if (!foundDrug && dTarget) {
+                    const activeCandidates = [
+                        dTarget.active_ingredient,
+                        dTarget.monodoseActive,
+                        dTarget.active,
+                        dTarget.composition,
+                        dTarget.name
+                    ];
+                    for (const cand of activeCandidates) {
+                        if (cand) {
+                            foundDrug = findDrugData(cand);
+                            if (foundDrug) break;
+                        }
+                    }
+                }
+
+                // 3. فحص الاسم التجاري والبدائل
+                if (!foundDrug && dTarget) {
+                    const tradeCandidates = [
+                        dTarget.tradeName,
+                        dTarget.trade_name,
+                        dTarget.monodoseTradeName,
+                        dTarget.alternatives
+                    ];
+                    for (const cand of tradeCandidates) {
+                        if (cand) {
+                            foundDrug = findDrugData(cand);
+                            if (foundDrug) break;
+                        }
+                    }
+                }
+
+                // 4. فحص strictDatabase إذا توفر
+                if (!foundDrug && window.strictDatabase && drugCode && window.strictDatabase[drugCode]) {
+                    const sEntry = window.strictDatabase[drugCode];
+                    if (sEntry && sEntry.name) {
+                        foundDrug = findDrugData(sEntry.name);
+                    }
                 }
 
                 // 📋 إرجاع النتيجة
