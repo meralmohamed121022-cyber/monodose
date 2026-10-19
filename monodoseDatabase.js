@@ -38177,6 +38177,222 @@ window.monodoseDatabase = {
         "highFactor": null,
         "highDoseFactor": null,
         "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Bacterial Rhinosinusitis"
+        ],
+        "dose": "Adult: 500 mg q8hr or 875 mg q12hr for 10-14 days | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q8hr for 10-14 days (45-90 mg/kg/day)",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg q8hr or 875 mg q12hr for 10-14 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1750.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Endocarditis Prophylaxis (Dental / Oral Procedures)"
+        ],
+        "dose": "Adult: 2 gm single dose 30-60 min before procedure | Pediatric:",
+        "dosePerKg": 50.0,
+        "frequency": "single oral dose 30-60 min before procedure",
+        "maxDosesPerDay": 1,
+        "adultFixed": "2 gm single dose 30-60 min before procedure",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 2000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Uncomplicated Urinary Tract Infections (UTI)"
+        ],
+        "dose": "Adult: 500 mg q8hr or 875 mg q12hr for 7-10 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q8hr for 7-10 days (20-40 mg/kg/day)",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg q8hr or 875 mg q12hr for 7-10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Skin and Soft Tissue Infections / Cellulitis"
+        ],
+        "dose": "Adult: 500 mg q8hr or 875 mg q12hr for 7-10 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q8hr for 7-10 days",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg q8hr or 875 mg q12hr for 7-10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Anthrax Prophylaxis (Postexposure)"
+        ],
+        "dose": "Adult: 500 mg orally q8hr for 60 days | Pediatric:",
+        "dosePerKg": 25.0,
+        "frequency": "q8hr for 60 days (80 mg/kg/day divided)",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg orally q8hr for 60 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Lyme Disease (Erythema Migrans / Early Stage)"
+        ],
+        "dose": "Adult: 500 mg orally q8hr for 14-21 days | Pediatric:",
+        "dosePerKg": 16.67,
+        "frequency": "q8hr for 14-21 days (50 mg/kg/day divided)",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg orally q8hr for 14-21 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Helicobacter pylori Eradication (Triple Therapy Regimen)"
+        ],
+        "dose": "Adult: 1000 mg orally q12hr for 14 days (with Clarithromycin 500 mg q12hr and PPI) | Pediatric:",
+        "dosePerKg": 25.0,
+        "frequency": "q12hr for 14 days (50 mg/kg/day divided)",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1000 mg orally q12hr for 14 days (with Clarithromycin 500 mg q12hr and PPI)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 2000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chlamydia Trachomatis Cervical Infection in Pregnancy"
+        ],
+        "dose": "Adult: 500 mg orally q8hr for 7 days | Pediatric: Use under specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg orally q8hr for 7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pneumococcal Infection Prophylaxis (Asplenia / Sickle Cell)"
+        ],
+        "dose": "Adult: 250-500 mg orally once daily | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q12hr daily continuous prophylaxis",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg orally once daily",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Actinomycosis"
+        ],
+        "dose": "Adult: 500 mg orally q8hr for 6-12 months following initial IV therapy | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q8hr long-term maintenance",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg orally q8hr for 6-12 months following initial IV therapy",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Preterm Prelabor Rupture of Membranes"
+        ],
+        "dose": "Adult: 500 mg orally q8hr (or 250 mg q8hr) for 5-7 days following IV ampicillin | Pediatric: Not applicable",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg orally q8hr (or 250 mg q8hr) for 5-7 days following IV ampicillin",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Prosthetic Joint / Osteoarticular Infections"
+        ],
+        "dose": "Adult: 500 mg to 1000 mg orally q8hr long-term suppression | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q8hr long-term suppression",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg to 1000 mg orally q8hr long-term suppression",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 2000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
       }
     ],
     "source": "monodose",
@@ -38246,6 +38462,222 @@ window.monodoseDatabase = {
         "frequency": "q8hr for 7-10 days (45-90 mg/kg/day)",
         "maxDosesPerDay": 3,
         "adultFixed": "500-1000 mg q8hr for 7-10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 2000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Bacterial Rhinosinusitis"
+        ],
+        "dose": "Adult: 500 mg q8hr or 875 mg q12hr for 10-14 days | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q8hr for 10-14 days (45-90 mg/kg/day)",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg q8hr or 875 mg q12hr for 10-14 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1750.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Endocarditis Prophylaxis (Dental / Oral Procedures)"
+        ],
+        "dose": "Adult: 2 gm single dose 30-60 min before procedure | Pediatric:",
+        "dosePerKg": 50.0,
+        "frequency": "single oral dose 30-60 min before procedure",
+        "maxDosesPerDay": 1,
+        "adultFixed": "2 gm single dose 30-60 min before procedure",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 2000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Uncomplicated Urinary Tract Infections (UTI)"
+        ],
+        "dose": "Adult: 500 mg q8hr or 875 mg q12hr for 7-10 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q8hr for 7-10 days (20-40 mg/kg/day)",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg q8hr or 875 mg q12hr for 7-10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Skin and Soft Tissue Infections / Cellulitis"
+        ],
+        "dose": "Adult: 500 mg q8hr or 875 mg q12hr for 7-10 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q8hr for 7-10 days",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg q8hr or 875 mg q12hr for 7-10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Anthrax Prophylaxis (Postexposure)"
+        ],
+        "dose": "Adult: 500 mg orally q8hr for 60 days | Pediatric:",
+        "dosePerKg": 25.0,
+        "frequency": "q8hr for 60 days (80 mg/kg/day divided)",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg orally q8hr for 60 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Lyme Disease (Erythema Migrans / Early Stage)"
+        ],
+        "dose": "Adult: 500 mg orally q8hr for 14-21 days | Pediatric:",
+        "dosePerKg": 16.67,
+        "frequency": "q8hr for 14-21 days (50 mg/kg/day divided)",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg orally q8hr for 14-21 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Helicobacter pylori Eradication (Triple Therapy Regimen)"
+        ],
+        "dose": "Adult: 1000 mg orally q12hr for 14 days (with Clarithromycin 500 mg q12hr and PPI) | Pediatric:",
+        "dosePerKg": 25.0,
+        "frequency": "q12hr for 14 days (50 mg/kg/day divided)",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1000 mg orally q12hr for 14 days (with Clarithromycin 500 mg q12hr and PPI)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 2000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chlamydia Trachomatis Cervical Infection in Pregnancy"
+        ],
+        "dose": "Adult: 500 mg orally q8hr for 7 days | Pediatric: Use under specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg orally q8hr for 7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pneumococcal Infection Prophylaxis (Asplenia / Sickle Cell)"
+        ],
+        "dose": "Adult: 250-500 mg orally once daily | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q12hr daily continuous prophylaxis",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg orally once daily",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Actinomycosis"
+        ],
+        "dose": "Adult: 500 mg orally q8hr for 6-12 months following initial IV therapy | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q8hr long-term maintenance",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg orally q8hr for 6-12 months following initial IV therapy",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Preterm Prelabor Rupture of Membranes"
+        ],
+        "dose": "Adult: 500 mg orally q8hr (or 250 mg q8hr) for 5-7 days following IV ampicillin | Pediatric: Not applicable",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg orally q8hr (or 250 mg q8hr) for 5-7 days following IV ampicillin",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Prosthetic Joint / Osteoarticular Infections"
+        ],
+        "dose": "Adult: 500 mg to 1000 mg orally q8hr long-term suppression | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q8hr long-term suppression",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg to 1000 mg orally q8hr long-term suppression",
         "singleDoseMaxMl": null,
         "maxDailyMg": 2000.0,
         "indType": null,
@@ -38603,6 +39035,222 @@ window.monodoseDatabase = {
         "highFactor": null,
         "highDoseFactor": null,
         "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Bacterial Rhinosinusitis"
+        ],
+        "dose": "Adult: 500 mg q8hr or 875 mg q12hr for 10-14 days | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q8hr for 10-14 days (45-90 mg/kg/day)",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg q8hr or 875 mg q12hr for 10-14 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1750.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Endocarditis Prophylaxis (Dental / Oral Procedures)"
+        ],
+        "dose": "Adult: 2 gm single dose 30-60 min before procedure | Pediatric:",
+        "dosePerKg": 50.0,
+        "frequency": "single oral dose 30-60 min before procedure",
+        "maxDosesPerDay": 1,
+        "adultFixed": "2 gm single dose 30-60 min before procedure",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 2000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Uncomplicated Urinary Tract Infections (UTI)"
+        ],
+        "dose": "Adult: 500 mg q8hr or 875 mg q12hr for 7-10 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q8hr for 7-10 days (20-40 mg/kg/day)",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg q8hr or 875 mg q12hr for 7-10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Skin and Soft Tissue Infections / Cellulitis"
+        ],
+        "dose": "Adult: 500 mg q8hr or 875 mg q12hr for 7-10 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q8hr for 7-10 days",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg q8hr or 875 mg q12hr for 7-10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Anthrax Prophylaxis (Postexposure)"
+        ],
+        "dose": "Adult: 500 mg orally q8hr for 60 days | Pediatric:",
+        "dosePerKg": 25.0,
+        "frequency": "q8hr for 60 days (80 mg/kg/day divided)",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg orally q8hr for 60 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Lyme Disease (Erythema Migrans / Early Stage)"
+        ],
+        "dose": "Adult: 500 mg orally q8hr for 14-21 days | Pediatric:",
+        "dosePerKg": 16.67,
+        "frequency": "q8hr for 14-21 days (50 mg/kg/day divided)",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg orally q8hr for 14-21 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Helicobacter pylori Eradication (Triple Therapy Regimen)"
+        ],
+        "dose": "Adult: 1000 mg orally q12hr for 14 days (with Clarithromycin 500 mg q12hr and PPI) | Pediatric:",
+        "dosePerKg": 25.0,
+        "frequency": "q12hr for 14 days (50 mg/kg/day divided)",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1000 mg orally q12hr for 14 days (with Clarithromycin 500 mg q12hr and PPI)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 2000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chlamydia Trachomatis Cervical Infection in Pregnancy"
+        ],
+        "dose": "Adult: 500 mg orally q8hr for 7 days | Pediatric: Use under specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg orally q8hr for 7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pneumococcal Infection Prophylaxis (Asplenia / Sickle Cell)"
+        ],
+        "dose": "Adult: 250-500 mg orally once daily | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q12hr daily continuous prophylaxis",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg orally once daily",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Actinomycosis"
+        ],
+        "dose": "Adult: 500 mg orally q8hr for 6-12 months following initial IV therapy | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q8hr long-term maintenance",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg orally q8hr for 6-12 months following initial IV therapy",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Preterm Prelabor Rupture of Membranes"
+        ],
+        "dose": "Adult: 500 mg orally q8hr (or 250 mg q8hr) for 5-7 days following IV ampicillin | Pediatric: Not applicable",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg orally q8hr (or 250 mg q8hr) for 5-7 days following IV ampicillin",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Prosthetic Joint / Osteoarticular Infections"
+        ],
+        "dose": "Adult: 500 mg to 1000 mg orally q8hr long-term suppression | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q8hr long-term suppression",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg to 1000 mg orally q8hr long-term suppression",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 2000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
       }
     ],
     "source": "monodose",
@@ -38672,6 +39320,222 @@ window.monodoseDatabase = {
         "frequency": "q8hr for 7-10 days (45-90 mg/kg/day)",
         "maxDosesPerDay": 3,
         "adultFixed": "500-1000 mg q8hr for 7-10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 2000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Bacterial Rhinosinusitis"
+        ],
+        "dose": "Adult: 500 mg q8hr or 875 mg q12hr for 10-14 days | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q8hr for 10-14 days (45-90 mg/kg/day)",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg q8hr or 875 mg q12hr for 10-14 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1750.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Endocarditis Prophylaxis (Dental / Oral Procedures)"
+        ],
+        "dose": "Adult: 2 gm single dose 30-60 min before procedure | Pediatric:",
+        "dosePerKg": 50.0,
+        "frequency": "single oral dose 30-60 min before procedure",
+        "maxDosesPerDay": 1,
+        "adultFixed": "2 gm single dose 30-60 min before procedure",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 2000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Uncomplicated Urinary Tract Infections (UTI)"
+        ],
+        "dose": "Adult: 500 mg q8hr or 875 mg q12hr for 7-10 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q8hr for 7-10 days (20-40 mg/kg/day)",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg q8hr or 875 mg q12hr for 7-10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Skin and Soft Tissue Infections / Cellulitis"
+        ],
+        "dose": "Adult: 500 mg q8hr or 875 mg q12hr for 7-10 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q8hr for 7-10 days",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg q8hr or 875 mg q12hr for 7-10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Anthrax Prophylaxis (Postexposure)"
+        ],
+        "dose": "Adult: 500 mg orally q8hr for 60 days | Pediatric:",
+        "dosePerKg": 25.0,
+        "frequency": "q8hr for 60 days (80 mg/kg/day divided)",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg orally q8hr for 60 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Lyme Disease (Erythema Migrans / Early Stage)"
+        ],
+        "dose": "Adult: 500 mg orally q8hr for 14-21 days | Pediatric:",
+        "dosePerKg": 16.67,
+        "frequency": "q8hr for 14-21 days (50 mg/kg/day divided)",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg orally q8hr for 14-21 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Helicobacter pylori Eradication (Triple Therapy Regimen)"
+        ],
+        "dose": "Adult: 1000 mg orally q12hr for 14 days (with Clarithromycin 500 mg q12hr and PPI) | Pediatric:",
+        "dosePerKg": 25.0,
+        "frequency": "q12hr for 14 days (50 mg/kg/day divided)",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1000 mg orally q12hr for 14 days (with Clarithromycin 500 mg q12hr and PPI)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 2000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chlamydia Trachomatis Cervical Infection in Pregnancy"
+        ],
+        "dose": "Adult: 500 mg orally q8hr for 7 days | Pediatric: Use under specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg orally q8hr for 7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pneumococcal Infection Prophylaxis (Asplenia / Sickle Cell)"
+        ],
+        "dose": "Adult: 250-500 mg orally once daily | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q12hr daily continuous prophylaxis",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg orally once daily",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Actinomycosis"
+        ],
+        "dose": "Adult: 500 mg orally q8hr for 6-12 months following initial IV therapy | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q8hr long-term maintenance",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg orally q8hr for 6-12 months following initial IV therapy",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Preterm Prelabor Rupture of Membranes"
+        ],
+        "dose": "Adult: 500 mg orally q8hr (or 250 mg q8hr) for 5-7 days following IV ampicillin | Pediatric: Not applicable",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg orally q8hr (or 250 mg q8hr) for 5-7 days following IV ampicillin",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Prosthetic Joint / Osteoarticular Infections"
+        ],
+        "dose": "Adult: 500 mg to 1000 mg orally q8hr long-term suppression | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q8hr long-term suppression",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg to 1000 mg orally q8hr long-term suppression",
         "singleDoseMaxMl": null,
         "maxDailyMg": 2000.0,
         "indType": null,
@@ -54103,6 +54967,222 @@ window.monodoseDatabase = {
         "frequency": "q8hr for 7-10 days (45-90 mg/kg/day)",
         "maxDosesPerDay": 3,
         "adultFixed": "500-1000 mg q8hr for 7-10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 2000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Bacterial Rhinosinusitis"
+        ],
+        "dose": "Adult: 500 mg q8hr or 875 mg q12hr for 10-14 days | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q8hr for 10-14 days (45-90 mg/kg/day)",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg q8hr or 875 mg q12hr for 10-14 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1750.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Endocarditis Prophylaxis (Dental / Oral Procedures)"
+        ],
+        "dose": "Adult: 2 gm single dose 30-60 min before procedure | Pediatric:",
+        "dosePerKg": 50.0,
+        "frequency": "single oral dose 30-60 min before procedure",
+        "maxDosesPerDay": 1,
+        "adultFixed": "2 gm single dose 30-60 min before procedure",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 2000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Uncomplicated Urinary Tract Infections (UTI)"
+        ],
+        "dose": "Adult: 500 mg q8hr or 875 mg q12hr for 7-10 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q8hr for 7-10 days (20-40 mg/kg/day)",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg q8hr or 875 mg q12hr for 7-10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Skin and Soft Tissue Infections / Cellulitis"
+        ],
+        "dose": "Adult: 500 mg q8hr or 875 mg q12hr for 7-10 days | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q8hr for 7-10 days",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg q8hr or 875 mg q12hr for 7-10 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Anthrax Prophylaxis (Postexposure)"
+        ],
+        "dose": "Adult: 500 mg orally q8hr for 60 days | Pediatric:",
+        "dosePerKg": 25.0,
+        "frequency": "q8hr for 60 days (80 mg/kg/day divided)",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg orally q8hr for 60 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Lyme Disease (Erythema Migrans / Early Stage)"
+        ],
+        "dose": "Adult: 500 mg orally q8hr for 14-21 days | Pediatric:",
+        "dosePerKg": 16.67,
+        "frequency": "q8hr for 14-21 days (50 mg/kg/day divided)",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg orally q8hr for 14-21 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Helicobacter pylori Eradication (Triple Therapy Regimen)"
+        ],
+        "dose": "Adult: 1000 mg orally q12hr for 14 days (with Clarithromycin 500 mg q12hr and PPI) | Pediatric:",
+        "dosePerKg": 25.0,
+        "frequency": "q12hr for 14 days (50 mg/kg/day divided)",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1000 mg orally q12hr for 14 days (with Clarithromycin 500 mg q12hr and PPI)",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 2000.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Chlamydia Trachomatis Cervical Infection in Pregnancy"
+        ],
+        "dose": "Adult: 500 mg orally q8hr for 7 days | Pediatric: Use under specialist guidance",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg orally q8hr for 7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pneumococcal Infection Prophylaxis (Asplenia / Sickle Cell)"
+        ],
+        "dose": "Adult: 250-500 mg orally once daily | Pediatric:",
+        "dosePerKg": 10.0,
+        "frequency": "q12hr daily continuous prophylaxis",
+        "maxDosesPerDay": 2,
+        "adultFixed": "250-500 mg orally once daily",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Actinomycosis"
+        ],
+        "dose": "Adult: 500 mg orally q8hr for 6-12 months following initial IV therapy | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q8hr long-term maintenance",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg orally q8hr for 6-12 months following initial IV therapy",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 1500.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Preterm Prelabor Rupture of Membranes"
+        ],
+        "dose": "Adult: 500 mg orally q8hr (or 250 mg q8hr) for 5-7 days following IV ampicillin | Pediatric: Not applicable",
+        "dosePerKg": null,
+        "frequency": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "500 mg orally q8hr (or 250 mg q8hr) for 5-7 days following IV ampicillin",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Prosthetic Joint / Osteoarticular Infections"
+        ],
+        "dose": "Adult: 500 mg to 1000 mg orally q8hr long-term suppression | Pediatric:",
+        "dosePerKg": 15.0,
+        "frequency": "q8hr long-term suppression",
+        "maxDosesPerDay": 3,
+        "adultFixed": "500 mg to 1000 mg orally q8hr long-term suppression",
         "singleDoseMaxMl": null,
         "maxDailyMg": 2000.0,
         "indType": null,

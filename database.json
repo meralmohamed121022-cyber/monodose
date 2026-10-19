@@ -20580,6 +20580,86 @@
         "pediatric_mg_kg": 15.0,
         "frequency": "q8hr for 7-10 days (45-90 mg/kg/day)",
         "max_daily_mg": 2000.0
+      },
+      {
+        "title": "Acute Bacterial Rhinosinusitis",
+        "adult_fixed": "500 mg q8hr or 875 mg q12hr for 10-14 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr for 10-14 days (45-90 mg/kg/day)",
+        "max_daily_mg": 1750.0
+      },
+      {
+        "title": "Endocarditis Prophylaxis (Dental / Oral Procedures)",
+        "adult_fixed": "2 gm single dose 30-60 min before procedure",
+        "pediatric_mg_kg": 50.0,
+        "frequency": "single oral dose 30-60 min before procedure",
+        "max_daily_mg": 2000.0
+      },
+      {
+        "title": "Uncomplicated Urinary Tract Infections (UTI)",
+        "adult_fixed": "500 mg q8hr or 875 mg q12hr for 7-10 days",
+        "pediatric_mg_kg": 10.0,
+        "frequency": "q8hr for 7-10 days (20-40 mg/kg/day)",
+        "max_daily_mg": 1500.0
+      },
+      {
+        "title": "Skin and Soft Tissue Infections / Cellulitis",
+        "adult_fixed": "500 mg q8hr or 875 mg q12hr for 7-10 days",
+        "pediatric_mg_kg": 10.0,
+        "frequency": "q8hr for 7-10 days",
+        "max_daily_mg": 1500.0
+      },
+      {
+        "title": "Anthrax Prophylaxis (Postexposure)",
+        "adult_fixed": "500 mg orally q8hr for 60 days",
+        "pediatric_mg_kg": 25.0,
+        "frequency": "q8hr for 60 days (80 mg/kg/day divided)",
+        "max_daily_mg": 1500.0
+      },
+      {
+        "title": "Lyme Disease (Erythema Migrans / Early Stage)",
+        "adult_fixed": "500 mg orally q8hr for 14-21 days",
+        "pediatric_mg_kg": 16.67,
+        "frequency": "q8hr for 14-21 days (50 mg/kg/day divided)",
+        "max_daily_mg": 1500.0
+      },
+      {
+        "title": "Helicobacter pylori Eradication (Triple Therapy Regimen)",
+        "adult_fixed": "1000 mg orally q12hr for 14 days (with Clarithromycin 500 mg q12hr and PPI)",
+        "pediatric_mg_kg": 25.0,
+        "frequency": "q12hr for 14 days (50 mg/kg/day divided)",
+        "max_daily_mg": 2000.0
+      },
+      {
+        "title": "Chlamydia Trachomatis Cervical Infection in Pregnancy",
+        "adult_fixed": "500 mg orally q8hr for 7 days",
+        "pediatric_fixed": "Use under specialist guidance"
+      },
+      {
+        "title": "Pneumococcal Infection Prophylaxis (Asplenia / Sickle Cell)",
+        "adult_fixed": "250-500 mg orally once daily",
+        "pediatric_mg_kg": 10.0,
+        "frequency": "q12hr daily continuous prophylaxis",
+        "max_daily_mg": 500.0
+      },
+      {
+        "title": "Actinomycosis",
+        "adult_fixed": "500 mg orally q8hr for 6-12 months following initial IV therapy",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr long-term maintenance",
+        "max_daily_mg": 1500.0
+      },
+      {
+        "title": "Preterm Prelabor Rupture of Membranes",
+        "adult_fixed": "500 mg orally q8hr (or 250 mg q8hr) for 5-7 days following IV ampicillin",
+        "pediatric_fixed": "Not applicable"
+      },
+      {
+        "title": "Prosthetic Joint / Osteoarticular Infections",
+        "adult_fixed": "500 mg to 1000 mg orally q8hr long-term suppression",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr long-term suppression",
+        "max_daily_mg": 2000.0
       }
     ],
     "id": "e_mox_125_susp"
@@ -20618,6 +20698,86 @@
         "adult_fixed": "500-1000 mg q8hr for 7-10 days",
         "pediatric_mg_kg": 15.0,
         "frequency": "q8hr for 7-10 days (45-90 mg/kg/day)",
+        "max_daily_mg": 2000.0
+      },
+      {
+        "title": "Acute Bacterial Rhinosinusitis",
+        "adult_fixed": "500 mg q8hr or 875 mg q12hr for 10-14 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr for 10-14 days (45-90 mg/kg/day)",
+        "max_daily_mg": 1750.0
+      },
+      {
+        "title": "Endocarditis Prophylaxis (Dental / Oral Procedures)",
+        "adult_fixed": "2 gm single dose 30-60 min before procedure",
+        "pediatric_mg_kg": 50.0,
+        "frequency": "single oral dose 30-60 min before procedure",
+        "max_daily_mg": 2000.0
+      },
+      {
+        "title": "Uncomplicated Urinary Tract Infections (UTI)",
+        "adult_fixed": "500 mg q8hr or 875 mg q12hr for 7-10 days",
+        "pediatric_mg_kg": 10.0,
+        "frequency": "q8hr for 7-10 days (20-40 mg/kg/day)",
+        "max_daily_mg": 1500.0
+      },
+      {
+        "title": "Skin and Soft Tissue Infections / Cellulitis",
+        "adult_fixed": "500 mg q8hr or 875 mg q12hr for 7-10 days",
+        "pediatric_mg_kg": 10.0,
+        "frequency": "q8hr for 7-10 days",
+        "max_daily_mg": 1500.0
+      },
+      {
+        "title": "Anthrax Prophylaxis (Postexposure)",
+        "adult_fixed": "500 mg orally q8hr for 60 days",
+        "pediatric_mg_kg": 25.0,
+        "frequency": "q8hr for 60 days (80 mg/kg/day divided)",
+        "max_daily_mg": 1500.0
+      },
+      {
+        "title": "Lyme Disease (Erythema Migrans / Early Stage)",
+        "adult_fixed": "500 mg orally q8hr for 14-21 days",
+        "pediatric_mg_kg": 16.67,
+        "frequency": "q8hr for 14-21 days (50 mg/kg/day divided)",
+        "max_daily_mg": 1500.0
+      },
+      {
+        "title": "Helicobacter pylori Eradication (Triple Therapy Regimen)",
+        "adult_fixed": "1000 mg orally q12hr for 14 days (with Clarithromycin 500 mg q12hr and PPI)",
+        "pediatric_mg_kg": 25.0,
+        "frequency": "q12hr for 14 days (50 mg/kg/day divided)",
+        "max_daily_mg": 2000.0
+      },
+      {
+        "title": "Chlamydia Trachomatis Cervical Infection in Pregnancy",
+        "adult_fixed": "500 mg orally q8hr for 7 days",
+        "pediatric_fixed": "Use under specialist guidance"
+      },
+      {
+        "title": "Pneumococcal Infection Prophylaxis (Asplenia / Sickle Cell)",
+        "adult_fixed": "250-500 mg orally once daily",
+        "pediatric_mg_kg": 10.0,
+        "frequency": "q12hr daily continuous prophylaxis",
+        "max_daily_mg": 500.0
+      },
+      {
+        "title": "Actinomycosis",
+        "adult_fixed": "500 mg orally q8hr for 6-12 months following initial IV therapy",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr long-term maintenance",
+        "max_daily_mg": 1500.0
+      },
+      {
+        "title": "Preterm Prelabor Rupture of Membranes",
+        "adult_fixed": "500 mg orally q8hr (or 250 mg q8hr) for 5-7 days following IV ampicillin",
+        "pediatric_fixed": "Not applicable"
+      },
+      {
+        "title": "Prosthetic Joint / Osteoarticular Infections",
+        "adult_fixed": "500 mg to 1000 mg orally q8hr long-term suppression",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr long-term suppression",
         "max_daily_mg": 2000.0
       }
     ],
@@ -20776,6 +20936,86 @@
         "pediatric_mg_kg": 15.0,
         "frequency": "q8hr for 7-10 days (45-90 mg/kg/day)",
         "max_daily_mg": 2000.0
+      },
+      {
+        "title": "Acute Bacterial Rhinosinusitis",
+        "adult_fixed": "500 mg q8hr or 875 mg q12hr for 10-14 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr for 10-14 days (45-90 mg/kg/day)",
+        "max_daily_mg": 1750.0
+      },
+      {
+        "title": "Endocarditis Prophylaxis (Dental / Oral Procedures)",
+        "adult_fixed": "2 gm single dose 30-60 min before procedure",
+        "pediatric_mg_kg": 50.0,
+        "frequency": "single oral dose 30-60 min before procedure",
+        "max_daily_mg": 2000.0
+      },
+      {
+        "title": "Uncomplicated Urinary Tract Infections (UTI)",
+        "adult_fixed": "500 mg q8hr or 875 mg q12hr for 7-10 days",
+        "pediatric_mg_kg": 10.0,
+        "frequency": "q8hr for 7-10 days (20-40 mg/kg/day)",
+        "max_daily_mg": 1500.0
+      },
+      {
+        "title": "Skin and Soft Tissue Infections / Cellulitis",
+        "adult_fixed": "500 mg q8hr or 875 mg q12hr for 7-10 days",
+        "pediatric_mg_kg": 10.0,
+        "frequency": "q8hr for 7-10 days",
+        "max_daily_mg": 1500.0
+      },
+      {
+        "title": "Anthrax Prophylaxis (Postexposure)",
+        "adult_fixed": "500 mg orally q8hr for 60 days",
+        "pediatric_mg_kg": 25.0,
+        "frequency": "q8hr for 60 days (80 mg/kg/day divided)",
+        "max_daily_mg": 1500.0
+      },
+      {
+        "title": "Lyme Disease (Erythema Migrans / Early Stage)",
+        "adult_fixed": "500 mg orally q8hr for 14-21 days",
+        "pediatric_mg_kg": 16.67,
+        "frequency": "q8hr for 14-21 days (50 mg/kg/day divided)",
+        "max_daily_mg": 1500.0
+      },
+      {
+        "title": "Helicobacter pylori Eradication (Triple Therapy Regimen)",
+        "adult_fixed": "1000 mg orally q12hr for 14 days (with Clarithromycin 500 mg q12hr and PPI)",
+        "pediatric_mg_kg": 25.0,
+        "frequency": "q12hr for 14 days (50 mg/kg/day divided)",
+        "max_daily_mg": 2000.0
+      },
+      {
+        "title": "Chlamydia Trachomatis Cervical Infection in Pregnancy",
+        "adult_fixed": "500 mg orally q8hr for 7 days",
+        "pediatric_fixed": "Use under specialist guidance"
+      },
+      {
+        "title": "Pneumococcal Infection Prophylaxis (Asplenia / Sickle Cell)",
+        "adult_fixed": "250-500 mg orally once daily",
+        "pediatric_mg_kg": 10.0,
+        "frequency": "q12hr daily continuous prophylaxis",
+        "max_daily_mg": 500.0
+      },
+      {
+        "title": "Actinomycosis",
+        "adult_fixed": "500 mg orally q8hr for 6-12 months following initial IV therapy",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr long-term maintenance",
+        "max_daily_mg": 1500.0
+      },
+      {
+        "title": "Preterm Prelabor Rupture of Membranes",
+        "adult_fixed": "500 mg orally q8hr (or 250 mg q8hr) for 5-7 days following IV ampicillin",
+        "pediatric_fixed": "Not applicable"
+      },
+      {
+        "title": "Prosthetic Joint / Osteoarticular Infections",
+        "adult_fixed": "500 mg to 1000 mg orally q8hr long-term suppression",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr long-term suppression",
+        "max_daily_mg": 2000.0
       }
     ],
     "id": "e_mox_susp"
@@ -20814,6 +21054,86 @@
         "adult_fixed": "500-1000 mg q8hr for 7-10 days",
         "pediatric_mg_kg": 15.0,
         "frequency": "q8hr for 7-10 days (45-90 mg/kg/day)",
+        "max_daily_mg": 2000.0
+      },
+      {
+        "title": "Acute Bacterial Rhinosinusitis",
+        "adult_fixed": "500 mg q8hr or 875 mg q12hr for 10-14 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr for 10-14 days (45-90 mg/kg/day)",
+        "max_daily_mg": 1750.0
+      },
+      {
+        "title": "Endocarditis Prophylaxis (Dental / Oral Procedures)",
+        "adult_fixed": "2 gm single dose 30-60 min before procedure",
+        "pediatric_mg_kg": 50.0,
+        "frequency": "single oral dose 30-60 min before procedure",
+        "max_daily_mg": 2000.0
+      },
+      {
+        "title": "Uncomplicated Urinary Tract Infections (UTI)",
+        "adult_fixed": "500 mg q8hr or 875 mg q12hr for 7-10 days",
+        "pediatric_mg_kg": 10.0,
+        "frequency": "q8hr for 7-10 days (20-40 mg/kg/day)",
+        "max_daily_mg": 1500.0
+      },
+      {
+        "title": "Skin and Soft Tissue Infections / Cellulitis",
+        "adult_fixed": "500 mg q8hr or 875 mg q12hr for 7-10 days",
+        "pediatric_mg_kg": 10.0,
+        "frequency": "q8hr for 7-10 days",
+        "max_daily_mg": 1500.0
+      },
+      {
+        "title": "Anthrax Prophylaxis (Postexposure)",
+        "adult_fixed": "500 mg orally q8hr for 60 days",
+        "pediatric_mg_kg": 25.0,
+        "frequency": "q8hr for 60 days (80 mg/kg/day divided)",
+        "max_daily_mg": 1500.0
+      },
+      {
+        "title": "Lyme Disease (Erythema Migrans / Early Stage)",
+        "adult_fixed": "500 mg orally q8hr for 14-21 days",
+        "pediatric_mg_kg": 16.67,
+        "frequency": "q8hr for 14-21 days (50 mg/kg/day divided)",
+        "max_daily_mg": 1500.0
+      },
+      {
+        "title": "Helicobacter pylori Eradication (Triple Therapy Regimen)",
+        "adult_fixed": "1000 mg orally q12hr for 14 days (with Clarithromycin 500 mg q12hr and PPI)",
+        "pediatric_mg_kg": 25.0,
+        "frequency": "q12hr for 14 days (50 mg/kg/day divided)",
+        "max_daily_mg": 2000.0
+      },
+      {
+        "title": "Chlamydia Trachomatis Cervical Infection in Pregnancy",
+        "adult_fixed": "500 mg orally q8hr for 7 days",
+        "pediatric_fixed": "Use under specialist guidance"
+      },
+      {
+        "title": "Pneumococcal Infection Prophylaxis (Asplenia / Sickle Cell)",
+        "adult_fixed": "250-500 mg orally once daily",
+        "pediatric_mg_kg": 10.0,
+        "frequency": "q12hr daily continuous prophylaxis",
+        "max_daily_mg": 500.0
+      },
+      {
+        "title": "Actinomycosis",
+        "adult_fixed": "500 mg orally q8hr for 6-12 months following initial IV therapy",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr long-term maintenance",
+        "max_daily_mg": 1500.0
+      },
+      {
+        "title": "Preterm Prelabor Rupture of Membranes",
+        "adult_fixed": "500 mg orally q8hr (or 250 mg q8hr) for 5-7 days following IV ampicillin",
+        "pediatric_fixed": "Not applicable"
+      },
+      {
+        "title": "Prosthetic Joint / Osteoarticular Infections",
+        "adult_fixed": "500 mg to 1000 mg orally q8hr long-term suppression",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr long-term suppression",
         "max_daily_mg": 2000.0
       }
     ],
@@ -29084,6 +29404,86 @@
         "adult_fixed": "500-1000 mg q8hr for 7-10 days",
         "pediatric_mg_kg": 15.0,
         "frequency": "q8hr for 7-10 days (45-90 mg/kg/day)",
+        "max_daily_mg": 2000.0
+      },
+      {
+        "title": "Acute Bacterial Rhinosinusitis",
+        "adult_fixed": "500 mg q8hr or 875 mg q12hr for 10-14 days",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr for 10-14 days (45-90 mg/kg/day)",
+        "max_daily_mg": 1750.0
+      },
+      {
+        "title": "Endocarditis Prophylaxis (Dental / Oral Procedures)",
+        "adult_fixed": "2 gm single dose 30-60 min before procedure",
+        "pediatric_mg_kg": 50.0,
+        "frequency": "single oral dose 30-60 min before procedure",
+        "max_daily_mg": 2000.0
+      },
+      {
+        "title": "Uncomplicated Urinary Tract Infections (UTI)",
+        "adult_fixed": "500 mg q8hr or 875 mg q12hr for 7-10 days",
+        "pediatric_mg_kg": 10.0,
+        "frequency": "q8hr for 7-10 days (20-40 mg/kg/day)",
+        "max_daily_mg": 1500.0
+      },
+      {
+        "title": "Skin and Soft Tissue Infections / Cellulitis",
+        "adult_fixed": "500 mg q8hr or 875 mg q12hr for 7-10 days",
+        "pediatric_mg_kg": 10.0,
+        "frequency": "q8hr for 7-10 days",
+        "max_daily_mg": 1500.0
+      },
+      {
+        "title": "Anthrax Prophylaxis (Postexposure)",
+        "adult_fixed": "500 mg orally q8hr for 60 days",
+        "pediatric_mg_kg": 25.0,
+        "frequency": "q8hr for 60 days (80 mg/kg/day divided)",
+        "max_daily_mg": 1500.0
+      },
+      {
+        "title": "Lyme Disease (Erythema Migrans / Early Stage)",
+        "adult_fixed": "500 mg orally q8hr for 14-21 days",
+        "pediatric_mg_kg": 16.67,
+        "frequency": "q8hr for 14-21 days (50 mg/kg/day divided)",
+        "max_daily_mg": 1500.0
+      },
+      {
+        "title": "Helicobacter pylori Eradication (Triple Therapy Regimen)",
+        "adult_fixed": "1000 mg orally q12hr for 14 days (with Clarithromycin 500 mg q12hr and PPI)",
+        "pediatric_mg_kg": 25.0,
+        "frequency": "q12hr for 14 days (50 mg/kg/day divided)",
+        "max_daily_mg": 2000.0
+      },
+      {
+        "title": "Chlamydia Trachomatis Cervical Infection in Pregnancy",
+        "adult_fixed": "500 mg orally q8hr for 7 days",
+        "pediatric_fixed": "Use under specialist guidance"
+      },
+      {
+        "title": "Pneumococcal Infection Prophylaxis (Asplenia / Sickle Cell)",
+        "adult_fixed": "250-500 mg orally once daily",
+        "pediatric_mg_kg": 10.0,
+        "frequency": "q12hr daily continuous prophylaxis",
+        "max_daily_mg": 500.0
+      },
+      {
+        "title": "Actinomycosis",
+        "adult_fixed": "500 mg orally q8hr for 6-12 months following initial IV therapy",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr long-term maintenance",
+        "max_daily_mg": 1500.0
+      },
+      {
+        "title": "Preterm Prelabor Rupture of Membranes",
+        "adult_fixed": "500 mg orally q8hr (or 250 mg q8hr) for 5-7 days following IV ampicillin",
+        "pediatric_fixed": "Not applicable"
+      },
+      {
+        "title": "Prosthetic Joint / Osteoarticular Infections",
+        "adult_fixed": "500 mg to 1000 mg orally q8hr long-term suppression",
+        "pediatric_mg_kg": 15.0,
+        "frequency": "q8hr long-term suppression",
         "max_daily_mg": 2000.0
       }
     ],
