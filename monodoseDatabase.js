@@ -2626,7 +2626,7 @@ window.monodoseDatabase = {
     "code": "mono_00062",
     "name": "Albendazole",
     "tradeName": "Albendazole 400mg tablets",
-    "composition": "Albendazole 200 mg",
+    "composition": "Albendazole 400 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
@@ -2640,15 +2640,55 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Enterobiasis (Pinworm) / Ascariasis / Hookworm"
+          "Hydatid Disease (Echinococcus Granulosus, Dog Tapeworm)"
         ],
-        "dose": "Adult: 400 mg (2 tablets) single dose with fatty meal | Pediatric: Age > 2 years: 400 mg (2 tablets) single dose with fatty meal",
+        "dose": "Adult: 1 tab (400 mg) q12hr for 1-6 months with fatty meals | Pediatric: 15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 1-6 months",
+        "dosePerKg": 7.5,
+        "frequency": "1 tab (400 mg) q12hr for 1-6 months",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (400 mg) q12hr for 1-6 months with fatty meals",
+        "pediatricFixed": "15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 1-6 months",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 800.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Neurocysticercosis (T. Solium, Pork Tapeworm)"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q12hr for 10-14 days with fatty meals | Pediatric: 15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 10-14 days",
+        "dosePerKg": 7.5,
+        "frequency": "1 tab (400 mg) q12hr for 10-14 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (400 mg) q12hr for 10-14 days with fatty meals",
+        "pediatricFixed": "15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 10-14 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 800.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Enterobiasis (Pinworm/Oxyuris)"
+        ],
+        "dose": "Adult: 1 tab (400 mg) single dose with fatty meal; repeat after 2 weeks | Pediatric: Age > 2 yr: 1 tab (400 mg) single dose with fatty meal; repeat after 2 weeks",
         "dosePerKg": null,
-        "frequency": "Single dose with fatty meal",
+        "frequency": "1 tab (400 mg) once; repeat after 2 weeks",
         "duration": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "400 mg (2 tablets) single dose with fatty meal",
-        "pediatricFixed": "Age > 2 years: 400 mg (2 tablets) single dose with fatty meal",
+        "adultFixed": "1 tab (400 mg) single dose with fatty meal; repeat after 2 weeks",
+        "pediatricFixed": "Age > 2 yr: 1 tab (400 mg) single dose with fatty meal; repeat after 2 weeks",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -2656,20 +2696,320 @@ window.monodoseDatabase = {
         "lowFactor": null,
         "highFactor": null,
         "highDoseFactor": null,
-        "subtitle": null
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Ascariasis (Roundworm)"
+        ],
+        "dose": "Adult: 1 tab (400 mg) once with food | Pediatric: 1 tab (400 mg) once with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) once",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (400 mg) once with food",
+        "pediatricFixed": "1 tab (400 mg) once with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Toxocariasis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q12hr for 5 days | Pediatric: 1 tab (400 mg) q12hr for 5 days",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q12hr for 5 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (400 mg) q12hr for 5 days",
+        "pediatricFixed": "1 tab (400 mg) q12hr for 5 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Trichinellosis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q12hr for 8-14 days | Pediatric: 1 tab (400 mg) q12hr for 8-14 days",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q12hr for 8-14 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (400 mg) q12hr for 8-14 days",
+        "pediatricFixed": "1 tab (400 mg) q12hr for 8-14 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Baylisascaris Procyonis (Raccoon Roundworm)"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q12hr for 10-20 days | Pediatric: 1 tab (400 mg) q12hr for 10-20 days",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q12hr for 10-20 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (400 mg) q12hr for 10-20 days",
+        "pediatricFixed": "1 tab (400 mg) q12hr for 10-20 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Loiasis"
+        ],
+        "dose": "Adult: 1/2 tab (200 mg) q12hr for 21 days | Pediatric: 1/2 tab (200 mg) q12hr for 21 days",
+        "dosePerKg": null,
+        "frequency": "1/2 tab (200 mg) q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1/2 tab (200 mg) q12hr for 21 days",
+        "pediatricFixed": "1/2 tab (200 mg) q12hr for 21 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Strongyloidiasis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q12hr for 7 days | Pediatric: 1 tab (400 mg) q12hr for 7 days",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q12hr for 7 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (400 mg) q12hr for 7 days",
+        "pediatricFixed": "1 tab (400 mg) q12hr for 7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Ancylostoma (Hookworm) / Necatoriasis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) once daily for 1-3 days with food | Pediatric: 1 tab (400 mg) once daily for 1-3 days with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) once daily for 1-3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (400 mg) once daily for 1-3 days with food",
+        "pediatricFixed": "1 tab (400 mg) once daily for 1-3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Trichuriasis (Whipworm)"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q24hr for 3 days with food | Pediatric: 1 tab (400 mg) q24hr for 3 days with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q24hr for 3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (400 mg) q24hr for 3 days with food",
+        "pediatricFixed": "1 tab (400 mg) q24hr for 3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cutaneous Larva Migrans (Creeping Eruption)"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q24hr for 1-3 days with food | Pediatric: 1 tab (400 mg) q24hr for 1-3 days with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q24hr for 1-3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (400 mg) q24hr for 1-3 days with food",
+        "pediatricFixed": "1 tab (400 mg) q24hr for 1-3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Giardiasis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q24hr for 5 days with food | Pediatric: 1 tab (400 mg) q24hr for 5 days with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q24hr for 5 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (400 mg) q24hr for 5 days with food",
+        "pediatricFixed": "1 tab (400 mg) q24hr for 5 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Capillariasis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q24hr for at least 10 days with food | Pediatric: 1 tab (400 mg) q24hr for at least 10 days with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q24hr for at least 10 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (400 mg) q24hr for at least 10 days with food",
+        "pediatricFixed": "1 tab (400 mg) q24hr for at least 10 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Gnathostomiasis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q12hr for 21 days with food | Pediatric: 1 tab (400 mg) q12hr for 21 days with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (400 mg) q12hr for 21 days with food",
+        "pediatricFixed": "1 tab (400 mg) q12hr for 21 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Microsporidiosis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q12hr for 21 days with food | Pediatric: 1 tab (400 mg) q12hr for 21 days with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (400 mg) q12hr for 21 days with food",
+        "pediatricFixed": "1 tab (400 mg) q12hr for 21 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Liver Flukes (Clonorchiasis / Opisthorchiasis)"
+        ],
+        "dose": "Adult: 10 mg/kg/day divided q12hr for 7 days | Pediatric: 10 mg/kg/day divided q12hr for 7 days",
+        "dosePerKg": 5.0,
+        "frequency": "divided q12hr for 7 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "10 mg/kg/day divided q12hr for 7 days",
+        "pediatricFixed": "10 mg/kg/day divided q12hr for 7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Intestinal Tapeworm Infection (Taeniasis) / Trichostrongylosis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q24hr for 3 days with food | Pediatric: 1 tab (400 mg) q24hr for 3 days with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q24hr for 3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (400 mg) q24hr for 3 days with food",
+        "pediatricFixed": "1 tab (400 mg) q24hr for 3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
       }
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "albendazole 400mg tablets albendazole 400mg tablets albendazole alzental bendax anthelmintic pinworm ascariasis hookworm",
-    "alternatives": "Alzental / Bendax / Vermizole",
+    "searchTerms": "albendazole 400mg tablets albendazole 400mg tablets albendazole alzental bendax anthelmintic pinworm ascariasis hookworm tapeworm hydatid neurocysticercosis",
+    "alternatives": "Alzental / Bendax / Vermizole / Albenda / Antizole",
     "barcode": []
   },
   "mono_00063": {
     "code": "mono_00063",
     "name": "Albendazole",
     "tradeName": "Albendazole tab",
-    "composition": "Albendazole 200 mg",
+    "composition": "Albendazole 400 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
@@ -2683,15 +3023,55 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Enterobiasis (Pinworm) / Ascariasis / Hookworm"
+          "Hydatid Disease (Echinococcus Granulosus, Dog Tapeworm)"
         ],
-        "dose": "Adult: 400 mg (2 tablets) single dose with fatty meal | Pediatric: Age > 2 years: 400 mg (2 tablets) single dose with fatty meal",
+        "dose": "Adult: 1 tab (400 mg) q12hr for 1-6 months with fatty meals | Pediatric: 15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 1-6 months",
+        "dosePerKg": 7.5,
+        "frequency": "1 tab (400 mg) q12hr for 1-6 months",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (400 mg) q12hr for 1-6 months with fatty meals",
+        "pediatricFixed": "15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 1-6 months",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 800.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Neurocysticercosis (T. Solium, Pork Tapeworm)"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q12hr for 10-14 days with fatty meals | Pediatric: 15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 10-14 days",
+        "dosePerKg": 7.5,
+        "frequency": "1 tab (400 mg) q12hr for 10-14 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (400 mg) q12hr for 10-14 days with fatty meals",
+        "pediatricFixed": "15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 10-14 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 800.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Enterobiasis (Pinworm/Oxyuris)"
+        ],
+        "dose": "Adult: 1 tab (400 mg) single dose with fatty meal; repeat after 2 weeks | Pediatric: Age > 2 yr: 1 tab (400 mg) single dose with fatty meal; repeat after 2 weeks",
         "dosePerKg": null,
-        "frequency": "Single dose with fatty meal",
+        "frequency": "1 tab (400 mg) once; repeat after 2 weeks",
         "duration": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "400 mg (2 tablets) single dose with fatty meal",
-        "pediatricFixed": "Age > 2 years: 400 mg (2 tablets) single dose with fatty meal",
+        "adultFixed": "1 tab (400 mg) single dose with fatty meal; repeat after 2 weeks",
+        "pediatricFixed": "Age > 2 yr: 1 tab (400 mg) single dose with fatty meal; repeat after 2 weeks",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -2699,20 +3079,320 @@ window.monodoseDatabase = {
         "lowFactor": null,
         "highFactor": null,
         "highDoseFactor": null,
-        "subtitle": null
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Ascariasis (Roundworm)"
+        ],
+        "dose": "Adult: 1 tab (400 mg) once with food | Pediatric: 1 tab (400 mg) once with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) once",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (400 mg) once with food",
+        "pediatricFixed": "1 tab (400 mg) once with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Toxocariasis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q12hr for 5 days | Pediatric: 1 tab (400 mg) q12hr for 5 days",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q12hr for 5 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (400 mg) q12hr for 5 days",
+        "pediatricFixed": "1 tab (400 mg) q12hr for 5 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Trichinellosis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q12hr for 8-14 days | Pediatric: 1 tab (400 mg) q12hr for 8-14 days",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q12hr for 8-14 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (400 mg) q12hr for 8-14 days",
+        "pediatricFixed": "1 tab (400 mg) q12hr for 8-14 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Baylisascaris Procyonis (Raccoon Roundworm)"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q12hr for 10-20 days | Pediatric: 1 tab (400 mg) q12hr for 10-20 days",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q12hr for 10-20 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (400 mg) q12hr for 10-20 days",
+        "pediatricFixed": "1 tab (400 mg) q12hr for 10-20 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Loiasis"
+        ],
+        "dose": "Adult: 1/2 tab (200 mg) q12hr for 21 days | Pediatric: 1/2 tab (200 mg) q12hr for 21 days",
+        "dosePerKg": null,
+        "frequency": "1/2 tab (200 mg) q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1/2 tab (200 mg) q12hr for 21 days",
+        "pediatricFixed": "1/2 tab (200 mg) q12hr for 21 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Strongyloidiasis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q12hr for 7 days | Pediatric: 1 tab (400 mg) q12hr for 7 days",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q12hr for 7 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (400 mg) q12hr for 7 days",
+        "pediatricFixed": "1 tab (400 mg) q12hr for 7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Ancylostoma (Hookworm) / Necatoriasis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) once daily for 1-3 days with food | Pediatric: 1 tab (400 mg) once daily for 1-3 days with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) once daily for 1-3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (400 mg) once daily for 1-3 days with food",
+        "pediatricFixed": "1 tab (400 mg) once daily for 1-3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Trichuriasis (Whipworm)"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q24hr for 3 days with food | Pediatric: 1 tab (400 mg) q24hr for 3 days with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q24hr for 3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (400 mg) q24hr for 3 days with food",
+        "pediatricFixed": "1 tab (400 mg) q24hr for 3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cutaneous Larva Migrans (Creeping Eruption)"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q24hr for 1-3 days with food | Pediatric: 1 tab (400 mg) q24hr for 1-3 days with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q24hr for 1-3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (400 mg) q24hr for 1-3 days with food",
+        "pediatricFixed": "1 tab (400 mg) q24hr for 1-3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Giardiasis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q24hr for 5 days with food | Pediatric: 1 tab (400 mg) q24hr for 5 days with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q24hr for 5 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (400 mg) q24hr for 5 days with food",
+        "pediatricFixed": "1 tab (400 mg) q24hr for 5 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Capillariasis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q24hr for at least 10 days with food | Pediatric: 1 tab (400 mg) q24hr for at least 10 days with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q24hr for at least 10 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (400 mg) q24hr for at least 10 days with food",
+        "pediatricFixed": "1 tab (400 mg) q24hr for at least 10 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Gnathostomiasis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q12hr for 21 days with food | Pediatric: 1 tab (400 mg) q12hr for 21 days with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (400 mg) q12hr for 21 days with food",
+        "pediatricFixed": "1 tab (400 mg) q12hr for 21 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Microsporidiosis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q12hr for 21 days with food | Pediatric: 1 tab (400 mg) q12hr for 21 days with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (400 mg) q12hr for 21 days with food",
+        "pediatricFixed": "1 tab (400 mg) q12hr for 21 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Liver Flukes (Clonorchiasis / Opisthorchiasis)"
+        ],
+        "dose": "Adult: 10 mg/kg/day divided q12hr for 7 days | Pediatric: 10 mg/kg/day divided q12hr for 7 days",
+        "dosePerKg": 5.0,
+        "frequency": "divided q12hr for 7 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "10 mg/kg/day divided q12hr for 7 days",
+        "pediatricFixed": "10 mg/kg/day divided q12hr for 7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Intestinal Tapeworm Infection (Taeniasis) / Trichostrongylosis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q24hr for 3 days with food | Pediatric: 1 tab (400 mg) q24hr for 3 days with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q24hr for 3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (400 mg) q24hr for 3 days with food",
+        "pediatricFixed": "1 tab (400 mg) q24hr for 3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
       }
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "albendazole tab albendazole 400mg tablets albendazole alzental bendax anthelmintic pinworm ascariasis hookworm",
-    "alternatives": "Alzental / Bendax / Vermizole",
+    "searchTerms": "albendazole tab albendazole 400mg tablets albendazole alzental bendax anthelmintic pinworm ascariasis hookworm tapeworm hydatid neurocysticercosis",
+    "alternatives": "Alzental / Bendax / Vermizole / Albenda / Antizole",
     "barcode": []
   },
   "mono_00064": {
     "code": "mono_00064",
     "name": "Albendazole",
     "tradeName": "Albendazole tablets",
-    "composition": "Albendazole 200 mg",
+    "composition": "Albendazole 400 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
@@ -2726,15 +3406,55 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Enterobiasis (Pinworm) / Ascariasis / Hookworm"
+          "Hydatid Disease (Echinococcus Granulosus, Dog Tapeworm)"
         ],
-        "dose": "Adult: 400 mg (2 tablets) single dose with fatty meal | Pediatric: Age > 2 years: 400 mg (2 tablets) single dose with fatty meal",
+        "dose": "Adult: 1 tab (400 mg) q12hr for 1-6 months with fatty meals | Pediatric: 15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 1-6 months",
+        "dosePerKg": 7.5,
+        "frequency": "1 tab (400 mg) q12hr for 1-6 months",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (400 mg) q12hr for 1-6 months with fatty meals",
+        "pediatricFixed": "15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 1-6 months",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 800.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Neurocysticercosis (T. Solium, Pork Tapeworm)"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q12hr for 10-14 days with fatty meals | Pediatric: 15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 10-14 days",
+        "dosePerKg": 7.5,
+        "frequency": "1 tab (400 mg) q12hr for 10-14 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (400 mg) q12hr for 10-14 days with fatty meals",
+        "pediatricFixed": "15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 10-14 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 800.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Enterobiasis (Pinworm/Oxyuris)"
+        ],
+        "dose": "Adult: 1 tab (400 mg) single dose with fatty meal; repeat after 2 weeks | Pediatric: Age > 2 yr: 1 tab (400 mg) single dose with fatty meal; repeat after 2 weeks",
         "dosePerKg": null,
-        "frequency": "Single dose with fatty meal",
+        "frequency": "1 tab (400 mg) once; repeat after 2 weeks",
         "duration": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "400 mg (2 tablets) single dose with fatty meal",
-        "pediatricFixed": "Age > 2 years: 400 mg (2 tablets) single dose with fatty meal",
+        "adultFixed": "1 tab (400 mg) single dose with fatty meal; repeat after 2 weeks",
+        "pediatricFixed": "Age > 2 yr: 1 tab (400 mg) single dose with fatty meal; repeat after 2 weeks",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -2742,13 +3462,313 @@ window.monodoseDatabase = {
         "lowFactor": null,
         "highFactor": null,
         "highDoseFactor": null,
-        "subtitle": null
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Ascariasis (Roundworm)"
+        ],
+        "dose": "Adult: 1 tab (400 mg) once with food | Pediatric: 1 tab (400 mg) once with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) once",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (400 mg) once with food",
+        "pediatricFixed": "1 tab (400 mg) once with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Toxocariasis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q12hr for 5 days | Pediatric: 1 tab (400 mg) q12hr for 5 days",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q12hr for 5 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (400 mg) q12hr for 5 days",
+        "pediatricFixed": "1 tab (400 mg) q12hr for 5 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Trichinellosis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q12hr for 8-14 days | Pediatric: 1 tab (400 mg) q12hr for 8-14 days",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q12hr for 8-14 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (400 mg) q12hr for 8-14 days",
+        "pediatricFixed": "1 tab (400 mg) q12hr for 8-14 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Baylisascaris Procyonis (Raccoon Roundworm)"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q12hr for 10-20 days | Pediatric: 1 tab (400 mg) q12hr for 10-20 days",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q12hr for 10-20 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (400 mg) q12hr for 10-20 days",
+        "pediatricFixed": "1 tab (400 mg) q12hr for 10-20 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Loiasis"
+        ],
+        "dose": "Adult: 1/2 tab (200 mg) q12hr for 21 days | Pediatric: 1/2 tab (200 mg) q12hr for 21 days",
+        "dosePerKg": null,
+        "frequency": "1/2 tab (200 mg) q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1/2 tab (200 mg) q12hr for 21 days",
+        "pediatricFixed": "1/2 tab (200 mg) q12hr for 21 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Strongyloidiasis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q12hr for 7 days | Pediatric: 1 tab (400 mg) q12hr for 7 days",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q12hr for 7 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (400 mg) q12hr for 7 days",
+        "pediatricFixed": "1 tab (400 mg) q12hr for 7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Ancylostoma (Hookworm) / Necatoriasis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) once daily for 1-3 days with food | Pediatric: 1 tab (400 mg) once daily for 1-3 days with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) once daily for 1-3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (400 mg) once daily for 1-3 days with food",
+        "pediatricFixed": "1 tab (400 mg) once daily for 1-3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Trichuriasis (Whipworm)"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q24hr for 3 days with food | Pediatric: 1 tab (400 mg) q24hr for 3 days with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q24hr for 3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (400 mg) q24hr for 3 days with food",
+        "pediatricFixed": "1 tab (400 mg) q24hr for 3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cutaneous Larva Migrans (Creeping Eruption)"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q24hr for 1-3 days with food | Pediatric: 1 tab (400 mg) q24hr for 1-3 days with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q24hr for 1-3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (400 mg) q24hr for 1-3 days with food",
+        "pediatricFixed": "1 tab (400 mg) q24hr for 1-3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Giardiasis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q24hr for 5 days with food | Pediatric: 1 tab (400 mg) q24hr for 5 days with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q24hr for 5 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (400 mg) q24hr for 5 days with food",
+        "pediatricFixed": "1 tab (400 mg) q24hr for 5 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Capillariasis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q24hr for at least 10 days with food | Pediatric: 1 tab (400 mg) q24hr for at least 10 days with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q24hr for at least 10 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (400 mg) q24hr for at least 10 days with food",
+        "pediatricFixed": "1 tab (400 mg) q24hr for at least 10 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Gnathostomiasis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q12hr for 21 days with food | Pediatric: 1 tab (400 mg) q12hr for 21 days with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (400 mg) q12hr for 21 days with food",
+        "pediatricFixed": "1 tab (400 mg) q12hr for 21 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Microsporidiosis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q12hr for 21 days with food | Pediatric: 1 tab (400 mg) q12hr for 21 days with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (400 mg) q12hr for 21 days with food",
+        "pediatricFixed": "1 tab (400 mg) q12hr for 21 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Liver Flukes (Clonorchiasis / Opisthorchiasis)"
+        ],
+        "dose": "Adult: 10 mg/kg/day divided q12hr for 7 days | Pediatric: 10 mg/kg/day divided q12hr for 7 days",
+        "dosePerKg": 5.0,
+        "frequency": "divided q12hr for 7 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "10 mg/kg/day divided q12hr for 7 days",
+        "pediatricFixed": "10 mg/kg/day divided q12hr for 7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Intestinal Tapeworm Infection (Taeniasis) / Trichostrongylosis"
+        ],
+        "dose": "Adult: 1 tab (400 mg) q24hr for 3 days with food | Pediatric: 1 tab (400 mg) q24hr for 3 days with food",
+        "dosePerKg": null,
+        "frequency": "1 tab (400 mg) q24hr for 3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (400 mg) q24hr for 3 days with food",
+        "pediatricFixed": "1 tab (400 mg) q24hr for 3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
       }
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "albendazole tablets albendazole 400mg tablets albendazole alzental bendax anthelmintic pinworm ascariasis hookworm",
-    "alternatives": "Alzental / Bendax / Vermizole",
+    "searchTerms": "albendazole tablets albendazole 400mg tablets albendazole alzental bendax anthelmintic pinworm ascariasis hookworm tapeworm hydatid neurocysticercosis",
+    "alternatives": "Alzental / Bendax / Vermizole / Albenda / Antizole",
     "barcode": []
   },
   "mono_00065": {
@@ -3993,15 +5013,55 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Enterobiasis (Pinworm) / Ascariasis / Hookworm"
+          "Hydatid Disease (Echinococcus Granulosus, Dog Tapeworm)"
         ],
-        "dose": "Adult: 400 mg (20 ml) single dose with food (repeat pinworm in 2 weeks) | Pediatric: Age 1-2 yr: 200 mg (10 ml) single dose | Age >2 yr: 400 mg (20 ml) single dose",
+        "dose": "Adult: 400 mg (20 ml) q12hr for 1-6 months with fatty meals | Pediatric: 15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 1-6 months",
+        "dosePerKg": 7.5,
+        "frequency": "6 ml q12hr for 1-6 months",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (20 ml) q12hr for 1-6 months with fatty meals",
+        "pediatricFixed": "15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 1-6 months",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 800.0,
+        "indType": null,
+        "stdFactor": 0.375,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Neurocysticercosis (T. Solium, Pork Tapeworm)"
+        ],
+        "dose": "Adult: 400 mg (20 ml) q12hr for 10-14 days with fatty meals | Pediatric: 15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 10-14 days",
+        "dosePerKg": 7.5,
+        "frequency": "6 ml q12hr for 10-14 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (20 ml) q12hr for 10-14 days with fatty meals",
+        "pediatricFixed": "15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 10-14 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 800.0,
+        "indType": null,
+        "stdFactor": 0.375,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Enterobiasis (Pinworm/Oxyuris)"
+        ],
+        "dose": "Adult: 400 mg (20 ml) single dose with food; repeat after 2 weeks | Pediatric: Age 1-2 yr: 200 mg (10 ml) single dose | Age >2 yr: 400 mg (20 ml) single dose; repeat after 2 weeks",
         "dosePerKg": null,
-        "frequency": "Single dose with fatty meal",
+        "frequency": "20 ml once; repeat after 2 weeks",
         "duration": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "400 mg (20 ml) single dose with food (repeat pinworm in 2 weeks)",
-        "pediatricFixed": "Age 1-2 yr: 200 mg (10 ml) single dose | Age >2 yr: 400 mg (20 ml) single dose",
+        "adultFixed": "400 mg (20 ml) single dose with food; repeat after 2 weeks",
+        "pediatricFixed": "Age 1-2 yr: 200 mg (10 ml) single dose | Age >2 yr: 400 mg (20 ml) single dose; repeat after 2 weeks",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -4009,13 +5069,313 @@ window.monodoseDatabase = {
         "lowFactor": null,
         "highFactor": null,
         "highDoseFactor": null,
-        "subtitle": null
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Ascariasis (Roundworm)"
+        ],
+        "dose": "Adult: 400 mg (20 ml) once with food | Pediatric: 400 mg (20 ml) once with food",
+        "dosePerKg": null,
+        "frequency": "20 ml once",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (20 ml) once with food",
+        "pediatricFixed": "400 mg (20 ml) once with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Toxocariasis"
+        ],
+        "dose": "Adult: 400 mg (20 ml) q12hr for 5 days | Pediatric: 400 mg (20 ml) q12hr for 5 days",
+        "dosePerKg": null,
+        "frequency": "20 ml q12hr for 5 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (20 ml) q12hr for 5 days",
+        "pediatricFixed": "400 mg (20 ml) q12hr for 5 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Trichinellosis"
+        ],
+        "dose": "Adult: 400 mg (20 ml) q12hr for 8-14 days | Pediatric: 400 mg (20 ml) q12hr for 8-14 days",
+        "dosePerKg": null,
+        "frequency": "20 ml q12hr for 8-14 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (20 ml) q12hr for 8-14 days",
+        "pediatricFixed": "400 mg (20 ml) q12hr for 8-14 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Baylisascaris Procyonis (Raccoon Roundworm)"
+        ],
+        "dose": "Adult: 400 mg (20 ml) q12hr for 10-20 days | Pediatric: 400 mg (20 ml) q12hr for 10-20 days",
+        "dosePerKg": null,
+        "frequency": "20 ml q12hr for 10-20 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (20 ml) q12hr for 10-20 days",
+        "pediatricFixed": "400 mg (20 ml) q12hr for 10-20 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Loiasis"
+        ],
+        "dose": "Adult: 200 mg (10 ml) q12hr for 21 days | Pediatric: 200 mg (10 ml) q12hr for 21 days",
+        "dosePerKg": null,
+        "frequency": "10 ml q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "200 mg (10 ml) q12hr for 21 days",
+        "pediatricFixed": "200 mg (10 ml) q12hr for 21 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Strongyloidiasis"
+        ],
+        "dose": "Adult: 400 mg (20 ml) q12hr for 7 days | Pediatric: 400 mg (20 ml) q12hr for 7 days",
+        "dosePerKg": null,
+        "frequency": "20 ml q12hr for 7 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (20 ml) q12hr for 7 days",
+        "pediatricFixed": "400 mg (20 ml) q12hr for 7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Ancylostoma (Hookworm) / Necatoriasis"
+        ],
+        "dose": "Adult: 400 mg (20 ml) once daily for 1-3 days with food | Pediatric: 400 mg (20 ml) once daily for 1-3 days with food",
+        "dosePerKg": null,
+        "frequency": "20 ml once daily for 1-3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (20 ml) once daily for 1-3 days with food",
+        "pediatricFixed": "400 mg (20 ml) once daily for 1-3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Trichuriasis (Whipworm)"
+        ],
+        "dose": "Adult: 400 mg (20 ml) q24hr for 3 days with food | Pediatric: 400 mg (20 ml) q24hr for 3 days with food",
+        "dosePerKg": null,
+        "frequency": "20 ml q24hr for 3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (20 ml) q24hr for 3 days with food",
+        "pediatricFixed": "400 mg (20 ml) q24hr for 3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cutaneous Larva Migrans (Creeping Eruption)"
+        ],
+        "dose": "Adult: 400 mg (20 ml) q24hr for 1-3 days with food | Pediatric: 400 mg (20 ml) q24hr for 1-3 days with food",
+        "dosePerKg": null,
+        "frequency": "20 ml q24hr for 1-3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (20 ml) q24hr for 1-3 days with food",
+        "pediatricFixed": "400 mg (20 ml) q24hr for 1-3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Giardiasis"
+        ],
+        "dose": "Adult: 400 mg (20 ml) q24hr for 5 days with food | Pediatric: 400 mg (20 ml) q24hr for 5 days with food",
+        "dosePerKg": null,
+        "frequency": "20 ml q24hr for 5 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (20 ml) q24hr for 5 days with food",
+        "pediatricFixed": "400 mg (20 ml) q24hr for 5 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Capillariasis"
+        ],
+        "dose": "Adult: 400 mg (20 ml) q24hr for at least 10 days with food | Pediatric: 400 mg (20 ml) q24hr for at least 10 days with food",
+        "dosePerKg": null,
+        "frequency": "20 ml q24hr for at least 10 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (20 ml) q24hr for at least 10 days with food",
+        "pediatricFixed": "400 mg (20 ml) q24hr for at least 10 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Gnathostomiasis"
+        ],
+        "dose": "Adult: 400 mg (20 ml) q12hr for 21 days with food | Pediatric: 400 mg (20 ml) q12hr for 21 days with food",
+        "dosePerKg": null,
+        "frequency": "20 ml q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (20 ml) q12hr for 21 days with food",
+        "pediatricFixed": "400 mg (20 ml) q12hr for 21 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Microsporidiosis"
+        ],
+        "dose": "Adult: 400 mg (20 ml) q12hr for 21 days with food | Pediatric: 400 mg (20 ml) q12hr for 21 days with food",
+        "dosePerKg": null,
+        "frequency": "20 ml q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (20 ml) q12hr for 21 days with food",
+        "pediatricFixed": "400 mg (20 ml) q12hr for 21 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Liver Flukes (Clonorchiasis / Opisthorchiasis)"
+        ],
+        "dose": "Adult: 10 mg/kg/day divided q12hr for 7 days | Pediatric: 10 mg/kg/day divided q12hr for 7 days",
+        "dosePerKg": 5.0,
+        "frequency": "divided q12hr for 7 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "10 mg/kg/day divided q12hr for 7 days",
+        "pediatricFixed": "10 mg/kg/day divided q12hr for 7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Intestinal Tapeworm Infection (Taeniasis) / Trichostrongylosis"
+        ],
+        "dose": "Adult: 400 mg (20 ml) q24hr for 3 days with food | Pediatric: 400 mg (20 ml) q24hr for 3 days with food",
+        "dosePerKg": null,
+        "frequency": "20 ml q24hr for 3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (20 ml) q24hr for 3 days with food",
+        "pediatricFixed": "400 mg (20 ml) q24hr for 3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
       }
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "alzental susp alzental albendazole antizole bendax 100mg/5ml suspension albendazole alzental bendax anthelmintic pinworm ascariasis hookworm",
-    "alternatives": "Alzental / Bendax / Vermizole",
+    "searchTerms": "alzental susp alzental albendazole antizole bendax 100mg/5ml suspension albendazole alzental bendax anthelmintic pinworm ascariasis hookworm tapeworm hydatid neurocysticercosis",
+    "alternatives": "Alzental / Bendax / Vermizole / Albenda / Antizole",
     "barcode": []
   },
   "mono_00094": {
@@ -4036,15 +5396,55 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Enterobiasis (Pinworm) / Ascariasis / Hookworm"
+          "Hydatid Disease (Echinococcus Granulosus, Dog Tapeworm)"
         ],
-        "dose": "Adult: 400 mg (20 ml) single dose with food (repeat pinworm in 2 weeks) | Pediatric: Age 1-2 yr: 200 mg (10 ml) single dose | Age >2 yr: 400 mg (20 ml) single dose",
+        "dose": "Adult: 400 mg (20 ml) q12hr for 1-6 months with fatty meals | Pediatric: 15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 1-6 months",
+        "dosePerKg": 7.5,
+        "frequency": "6 ml q12hr for 1-6 months",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (20 ml) q12hr for 1-6 months with fatty meals",
+        "pediatricFixed": "15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 1-6 months",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 800.0,
+        "indType": null,
+        "stdFactor": 0.375,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Neurocysticercosis (T. Solium, Pork Tapeworm)"
+        ],
+        "dose": "Adult: 400 mg (20 ml) q12hr for 10-14 days with fatty meals | Pediatric: 15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 10-14 days",
+        "dosePerKg": 7.5,
+        "frequency": "6 ml q12hr for 10-14 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (20 ml) q12hr for 10-14 days with fatty meals",
+        "pediatricFixed": "15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 10-14 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 800.0,
+        "indType": null,
+        "stdFactor": 0.375,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Enterobiasis (Pinworm/Oxyuris)"
+        ],
+        "dose": "Adult: 400 mg (20 ml) single dose with food; repeat after 2 weeks | Pediatric: Age 1-2 yr: 200 mg (10 ml) single dose | Age >2 yr: 400 mg (20 ml) single dose; repeat after 2 weeks",
         "dosePerKg": null,
-        "frequency": "Single dose with fatty meal",
+        "frequency": "20 ml once; repeat after 2 weeks",
         "duration": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "400 mg (20 ml) single dose with food (repeat pinworm in 2 weeks)",
-        "pediatricFixed": "Age 1-2 yr: 200 mg (10 ml) single dose | Age >2 yr: 400 mg (20 ml) single dose",
+        "adultFixed": "400 mg (20 ml) single dose with food; repeat after 2 weeks",
+        "pediatricFixed": "Age 1-2 yr: 200 mg (10 ml) single dose | Age >2 yr: 400 mg (20 ml) single dose; repeat after 2 weeks",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -4052,13 +5452,313 @@ window.monodoseDatabase = {
         "lowFactor": null,
         "highFactor": null,
         "highDoseFactor": null,
-        "subtitle": null
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Ascariasis (Roundworm)"
+        ],
+        "dose": "Adult: 400 mg (20 ml) once with food | Pediatric: 400 mg (20 ml) once with food",
+        "dosePerKg": null,
+        "frequency": "20 ml once",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (20 ml) once with food",
+        "pediatricFixed": "400 mg (20 ml) once with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Toxocariasis"
+        ],
+        "dose": "Adult: 400 mg (20 ml) q12hr for 5 days | Pediatric: 400 mg (20 ml) q12hr for 5 days",
+        "dosePerKg": null,
+        "frequency": "20 ml q12hr for 5 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (20 ml) q12hr for 5 days",
+        "pediatricFixed": "400 mg (20 ml) q12hr for 5 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Trichinellosis"
+        ],
+        "dose": "Adult: 400 mg (20 ml) q12hr for 8-14 days | Pediatric: 400 mg (20 ml) q12hr for 8-14 days",
+        "dosePerKg": null,
+        "frequency": "20 ml q12hr for 8-14 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (20 ml) q12hr for 8-14 days",
+        "pediatricFixed": "400 mg (20 ml) q12hr for 8-14 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Baylisascaris Procyonis (Raccoon Roundworm)"
+        ],
+        "dose": "Adult: 400 mg (20 ml) q12hr for 10-20 days | Pediatric: 400 mg (20 ml) q12hr for 10-20 days",
+        "dosePerKg": null,
+        "frequency": "20 ml q12hr for 10-20 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (20 ml) q12hr for 10-20 days",
+        "pediatricFixed": "400 mg (20 ml) q12hr for 10-20 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Loiasis"
+        ],
+        "dose": "Adult: 200 mg (10 ml) q12hr for 21 days | Pediatric: 200 mg (10 ml) q12hr for 21 days",
+        "dosePerKg": null,
+        "frequency": "10 ml q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "200 mg (10 ml) q12hr for 21 days",
+        "pediatricFixed": "200 mg (10 ml) q12hr for 21 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Strongyloidiasis"
+        ],
+        "dose": "Adult: 400 mg (20 ml) q12hr for 7 days | Pediatric: 400 mg (20 ml) q12hr for 7 days",
+        "dosePerKg": null,
+        "frequency": "20 ml q12hr for 7 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (20 ml) q12hr for 7 days",
+        "pediatricFixed": "400 mg (20 ml) q12hr for 7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Ancylostoma (Hookworm) / Necatoriasis"
+        ],
+        "dose": "Adult: 400 mg (20 ml) once daily for 1-3 days with food | Pediatric: 400 mg (20 ml) once daily for 1-3 days with food",
+        "dosePerKg": null,
+        "frequency": "20 ml once daily for 1-3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (20 ml) once daily for 1-3 days with food",
+        "pediatricFixed": "400 mg (20 ml) once daily for 1-3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Trichuriasis (Whipworm)"
+        ],
+        "dose": "Adult: 400 mg (20 ml) q24hr for 3 days with food | Pediatric: 400 mg (20 ml) q24hr for 3 days with food",
+        "dosePerKg": null,
+        "frequency": "20 ml q24hr for 3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (20 ml) q24hr for 3 days with food",
+        "pediatricFixed": "400 mg (20 ml) q24hr for 3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cutaneous Larva Migrans (Creeping Eruption)"
+        ],
+        "dose": "Adult: 400 mg (20 ml) q24hr for 1-3 days with food | Pediatric: 400 mg (20 ml) q24hr for 1-3 days with food",
+        "dosePerKg": null,
+        "frequency": "20 ml q24hr for 1-3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (20 ml) q24hr for 1-3 days with food",
+        "pediatricFixed": "400 mg (20 ml) q24hr for 1-3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Giardiasis"
+        ],
+        "dose": "Adult: 400 mg (20 ml) q24hr for 5 days with food | Pediatric: 400 mg (20 ml) q24hr for 5 days with food",
+        "dosePerKg": null,
+        "frequency": "20 ml q24hr for 5 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (20 ml) q24hr for 5 days with food",
+        "pediatricFixed": "400 mg (20 ml) q24hr for 5 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Capillariasis"
+        ],
+        "dose": "Adult: 400 mg (20 ml) q24hr for at least 10 days with food | Pediatric: 400 mg (20 ml) q24hr for at least 10 days with food",
+        "dosePerKg": null,
+        "frequency": "20 ml q24hr for at least 10 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (20 ml) q24hr for at least 10 days with food",
+        "pediatricFixed": "400 mg (20 ml) q24hr for at least 10 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Gnathostomiasis"
+        ],
+        "dose": "Adult: 400 mg (20 ml) q12hr for 21 days with food | Pediatric: 400 mg (20 ml) q12hr for 21 days with food",
+        "dosePerKg": null,
+        "frequency": "20 ml q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (20 ml) q12hr for 21 days with food",
+        "pediatricFixed": "400 mg (20 ml) q12hr for 21 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Microsporidiosis"
+        ],
+        "dose": "Adult: 400 mg (20 ml) q12hr for 21 days with food | Pediatric: 400 mg (20 ml) q12hr for 21 days with food",
+        "dosePerKg": null,
+        "frequency": "20 ml q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (20 ml) q12hr for 21 days with food",
+        "pediatricFixed": "400 mg (20 ml) q12hr for 21 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Liver Flukes (Clonorchiasis / Opisthorchiasis)"
+        ],
+        "dose": "Adult: 10 mg/kg/day divided q12hr for 7 days | Pediatric: 10 mg/kg/day divided q12hr for 7 days",
+        "dosePerKg": 5.0,
+        "frequency": "divided q12hr for 7 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "10 mg/kg/day divided q12hr for 7 days",
+        "pediatricFixed": "10 mg/kg/day divided q12hr for 7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Intestinal Tapeworm Infection (Taeniasis) / Trichostrongylosis"
+        ],
+        "dose": "Adult: 400 mg (20 ml) q24hr for 3 days with food | Pediatric: 400 mg (20 ml) q24hr for 3 days with food",
+        "dosePerKg": null,
+        "frequency": "20 ml q24hr for 3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (20 ml) q24hr for 3 days with food",
+        "pediatricFixed": "400 mg (20 ml) q24hr for 3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
       }
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "alzental suspension alzental albendazole antizole bendax 100mg/5ml suspension albendazole alzental bendax anthelmintic pinworm ascariasis hookworm",
-    "alternatives": "Alzental / Bendax / Vermizole",
+    "searchTerms": "alzental suspension alzental albendazole antizole bendax 100mg/5ml suspension albendazole alzental bendax anthelmintic pinworm ascariasis hookworm tapeworm hydatid neurocysticercosis",
+    "alternatives": "Alzental / Bendax / Vermizole / Albenda / Antizole",
     "barcode": []
   },
   "mono_00095": {
@@ -4079,15 +5779,55 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Enterobiasis (Pinworm) / Ascariasis / Hookworm"
+          "Hydatid Disease (Echinococcus Granulosus, Dog Tapeworm)"
         ],
-        "dose": "Adult: 400 mg (2 tablets) single dose with fatty meal | Pediatric: Age > 2 years: 400 mg (2 tablets) single dose with fatty meal",
+        "dose": "Adult: 2 tabs (400 mg) q12hr for 1-6 months with fatty meals | Pediatric: 15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 1-6 months",
+        "dosePerKg": 7.5,
+        "frequency": "2 tabs (400 mg) q12hr for 1-6 months",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "2 tabs (400 mg) q12hr for 1-6 months with fatty meals",
+        "pediatricFixed": "15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 1-6 months",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 800.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Neurocysticercosis (T. Solium, Pork Tapeworm)"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) q12hr for 10-14 days with fatty meals | Pediatric: 15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 10-14 days",
+        "dosePerKg": 7.5,
+        "frequency": "2 tabs (400 mg) q12hr for 10-14 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "2 tabs (400 mg) q12hr for 10-14 days with fatty meals",
+        "pediatricFixed": "15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 10-14 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 800.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Enterobiasis (Pinworm/Oxyuris)"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) single dose with fatty meal; repeat after 2 weeks | Pediatric: Age > 2 yr: 2 tabs (400 mg) single dose with fatty meal; repeat after 2 weeks",
         "dosePerKg": null,
-        "frequency": "Single dose with fatty meal",
+        "frequency": "2 tabs (400 mg) once; repeat after 2 weeks",
         "duration": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "400 mg (2 tablets) single dose with fatty meal",
-        "pediatricFixed": "Age > 2 years: 400 mg (2 tablets) single dose with fatty meal",
+        "adultFixed": "2 tabs (400 mg) single dose with fatty meal; repeat after 2 weeks",
+        "pediatricFixed": "Age > 2 yr: 2 tabs (400 mg) single dose with fatty meal; repeat after 2 weeks",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -4095,13 +5835,313 @@ window.monodoseDatabase = {
         "lowFactor": null,
         "highFactor": null,
         "highDoseFactor": null,
-        "subtitle": null
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Ascariasis (Roundworm)"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) once with food | Pediatric: 2 tabs (400 mg) once with food",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) once",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "2 tabs (400 mg) once with food",
+        "pediatricFixed": "2 tabs (400 mg) once with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Toxocariasis"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) q12hr for 5 days | Pediatric: 2 tabs (400 mg) q12hr for 5 days",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) q12hr for 5 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "2 tabs (400 mg) q12hr for 5 days",
+        "pediatricFixed": "2 tabs (400 mg) q12hr for 5 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Trichinellosis"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) q12hr for 8-14 days | Pediatric: 2 tabs (400 mg) q12hr for 8-14 days",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) q12hr for 8-14 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "2 tabs (400 mg) q12hr for 8-14 days",
+        "pediatricFixed": "2 tabs (400 mg) q12hr for 8-14 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Baylisascaris Procyonis (Raccoon Roundworm)"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) q12hr for 10-20 days | Pediatric: 2 tabs (400 mg) q12hr for 10-20 days",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) q12hr for 10-20 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "2 tabs (400 mg) q12hr for 10-20 days",
+        "pediatricFixed": "2 tabs (400 mg) q12hr for 10-20 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Loiasis"
+        ],
+        "dose": "Adult: 1 tab (200 mg) q12hr for 21 days | Pediatric: 1 tab (200 mg) q12hr for 21 days",
+        "dosePerKg": null,
+        "frequency": "1 tab (200 mg) q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (200 mg) q12hr for 21 days",
+        "pediatricFixed": "1 tab (200 mg) q12hr for 21 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Strongyloidiasis"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) q12hr for 7 days | Pediatric: 2 tabs (400 mg) q12hr for 7 days",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) q12hr for 7 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "2 tabs (400 mg) q12hr for 7 days",
+        "pediatricFixed": "2 tabs (400 mg) q12hr for 7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Ancylostoma (Hookworm) / Necatoriasis"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) once daily for 1-3 days with food | Pediatric: 2 tabs (400 mg) once daily for 1-3 days with food",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) once daily for 1-3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "2 tabs (400 mg) once daily for 1-3 days with food",
+        "pediatricFixed": "2 tabs (400 mg) once daily for 1-3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Trichuriasis (Whipworm)"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) q24hr for 3 days with food | Pediatric: 2 tabs (400 mg) q24hr for 3 days with food",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) q24hr for 3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "2 tabs (400 mg) q24hr for 3 days with food",
+        "pediatricFixed": "2 tabs (400 mg) q24hr for 3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cutaneous Larva Migrans (Creeping Eruption)"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) q24hr for 1-3 days with food | Pediatric: 2 tabs (400 mg) q24hr for 1-3 days with food",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) q24hr for 1-3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "2 tabs (400 mg) q24hr for 1-3 days with food",
+        "pediatricFixed": "2 tabs (400 mg) q24hr for 1-3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Giardiasis"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) q24hr for 5 days with food | Pediatric: 2 tabs (400 mg) q24hr for 5 days with food",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) q24hr for 5 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "2 tabs (400 mg) q24hr for 5 days with food",
+        "pediatricFixed": "2 tabs (400 mg) q24hr for 5 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Capillariasis"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) q24hr for at least 10 days with food | Pediatric: 2 tabs (400 mg) q24hr for at least 10 days with food",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) q24hr for at least 10 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "2 tabs (400 mg) q24hr for at least 10 days with food",
+        "pediatricFixed": "2 tabs (400 mg) q24hr for at least 10 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Gnathostomiasis"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) q12hr for 21 days with food | Pediatric: 2 tabs (400 mg) q12hr for 21 days with food",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "2 tabs (400 mg) q12hr for 21 days with food",
+        "pediatricFixed": "2 tabs (400 mg) q12hr for 21 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Microsporidiosis"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) q12hr for 21 days with food | Pediatric: 2 tabs (400 mg) q12hr for 21 days with food",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "2 tabs (400 mg) q12hr for 21 days with food",
+        "pediatricFixed": "2 tabs (400 mg) q12hr for 21 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Liver Flukes (Clonorchiasis / Opisthorchiasis)"
+        ],
+        "dose": "Adult: 10 mg/kg/day divided q12hr for 7 days | Pediatric: 10 mg/kg/day divided q12hr for 7 days",
+        "dosePerKg": 5.0,
+        "frequency": "divided q12hr for 7 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "10 mg/kg/day divided q12hr for 7 days",
+        "pediatricFixed": "10 mg/kg/day divided q12hr for 7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Intestinal Tapeworm Infection (Taeniasis) / Trichostrongylosis"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) q24hr for 3 days with food | Pediatric: 2 tabs (400 mg) q24hr for 3 days with food",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) q24hr for 3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "2 tabs (400 mg) q24hr for 3 days with food",
+        "pediatricFixed": "2 tabs (400 mg) q24hr for 3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
       }
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "alzental tab alzental albendazole antizole bendax vermizole 200mg tablets albendazole alzental bendax anthelmintic pinworm ascariasis hookworm",
-    "alternatives": "Alzental / Bendax / Vermizole",
+    "searchTerms": "alzental tab alzental albendazole antizole bendax vermizole 200mg tablets albendazole alzental bendax anthelmintic pinworm ascariasis hookworm tapeworm hydatid neurocysticercosis",
+    "alternatives": "Alzental / Bendax / Vermizole / Albenda / Antizole",
     "barcode": []
   },
   "mono_00096": {
@@ -4122,15 +6162,55 @@ window.monodoseDatabase = {
     "doses": [
       {
         "indication": [
-          "Enterobiasis (Pinworm) / Ascariasis / Hookworm"
+          "Hydatid Disease (Echinococcus Granulosus, Dog Tapeworm)"
         ],
-        "dose": "Adult: 400 mg (2 tablets) single dose with fatty meal | Pediatric: Age > 2 years: 400 mg (2 tablets) single dose with fatty meal",
+        "dose": "Adult: 2 tabs (400 mg) q12hr for 1-6 months with fatty meals | Pediatric: 15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 1-6 months",
+        "dosePerKg": 7.5,
+        "frequency": "2 tabs (400 mg) q12hr for 1-6 months",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "2 tabs (400 mg) q12hr for 1-6 months with fatty meals",
+        "pediatricFixed": "15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 1-6 months",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 800.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Neurocysticercosis (T. Solium, Pork Tapeworm)"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) q12hr for 10-14 days with fatty meals | Pediatric: 15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 10-14 days",
+        "dosePerKg": 7.5,
+        "frequency": "2 tabs (400 mg) q12hr for 10-14 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "2 tabs (400 mg) q12hr for 10-14 days with fatty meals",
+        "pediatricFixed": "15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 10-14 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 800.0,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Enterobiasis (Pinworm/Oxyuris)"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) single dose with fatty meal; repeat after 2 weeks | Pediatric: Age > 2 yr: 2 tabs (400 mg) single dose with fatty meal; repeat after 2 weeks",
         "dosePerKg": null,
-        "frequency": "Single dose with fatty meal",
+        "frequency": "2 tabs (400 mg) once; repeat after 2 weeks",
         "duration": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "400 mg (2 tablets) single dose with fatty meal",
-        "pediatricFixed": "Age > 2 years: 400 mg (2 tablets) single dose with fatty meal",
+        "adultFixed": "2 tabs (400 mg) single dose with fatty meal; repeat after 2 weeks",
+        "pediatricFixed": "Age > 2 yr: 2 tabs (400 mg) single dose with fatty meal; repeat after 2 weeks",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -4138,13 +6218,313 @@ window.monodoseDatabase = {
         "lowFactor": null,
         "highFactor": null,
         "highDoseFactor": null,
-        "subtitle": null
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Ascariasis (Roundworm)"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) once with food | Pediatric: 2 tabs (400 mg) once with food",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) once",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "2 tabs (400 mg) once with food",
+        "pediatricFixed": "2 tabs (400 mg) once with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Toxocariasis"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) q12hr for 5 days | Pediatric: 2 tabs (400 mg) q12hr for 5 days",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) q12hr for 5 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "2 tabs (400 mg) q12hr for 5 days",
+        "pediatricFixed": "2 tabs (400 mg) q12hr for 5 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Trichinellosis"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) q12hr for 8-14 days | Pediatric: 2 tabs (400 mg) q12hr for 8-14 days",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) q12hr for 8-14 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "2 tabs (400 mg) q12hr for 8-14 days",
+        "pediatricFixed": "2 tabs (400 mg) q12hr for 8-14 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Baylisascaris Procyonis (Raccoon Roundworm)"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) q12hr for 10-20 days | Pediatric: 2 tabs (400 mg) q12hr for 10-20 days",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) q12hr for 10-20 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "2 tabs (400 mg) q12hr for 10-20 days",
+        "pediatricFixed": "2 tabs (400 mg) q12hr for 10-20 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Loiasis"
+        ],
+        "dose": "Adult: 1 tab (200 mg) q12hr for 21 days | Pediatric: 1 tab (200 mg) q12hr for 21 days",
+        "dosePerKg": null,
+        "frequency": "1 tab (200 mg) q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (200 mg) q12hr for 21 days",
+        "pediatricFixed": "1 tab (200 mg) q12hr for 21 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Strongyloidiasis"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) q12hr for 7 days | Pediatric: 2 tabs (400 mg) q12hr for 7 days",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) q12hr for 7 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "2 tabs (400 mg) q12hr for 7 days",
+        "pediatricFixed": "2 tabs (400 mg) q12hr for 7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Ancylostoma (Hookworm) / Necatoriasis"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) once daily for 1-3 days with food | Pediatric: 2 tabs (400 mg) once daily for 1-3 days with food",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) once daily for 1-3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "2 tabs (400 mg) once daily for 1-3 days with food",
+        "pediatricFixed": "2 tabs (400 mg) once daily for 1-3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Trichuriasis (Whipworm)"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) q24hr for 3 days with food | Pediatric: 2 tabs (400 mg) q24hr for 3 days with food",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) q24hr for 3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "2 tabs (400 mg) q24hr for 3 days with food",
+        "pediatricFixed": "2 tabs (400 mg) q24hr for 3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cutaneous Larva Migrans (Creeping Eruption)"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) q24hr for 1-3 days with food | Pediatric: 2 tabs (400 mg) q24hr for 1-3 days with food",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) q24hr for 1-3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "2 tabs (400 mg) q24hr for 1-3 days with food",
+        "pediatricFixed": "2 tabs (400 mg) q24hr for 1-3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Giardiasis"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) q24hr for 5 days with food | Pediatric: 2 tabs (400 mg) q24hr for 5 days with food",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) q24hr for 5 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "2 tabs (400 mg) q24hr for 5 days with food",
+        "pediatricFixed": "2 tabs (400 mg) q24hr for 5 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Capillariasis"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) q24hr for at least 10 days with food | Pediatric: 2 tabs (400 mg) q24hr for at least 10 days with food",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) q24hr for at least 10 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "2 tabs (400 mg) q24hr for at least 10 days with food",
+        "pediatricFixed": "2 tabs (400 mg) q24hr for at least 10 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Gnathostomiasis"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) q12hr for 21 days with food | Pediatric: 2 tabs (400 mg) q12hr for 21 days with food",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "2 tabs (400 mg) q12hr for 21 days with food",
+        "pediatricFixed": "2 tabs (400 mg) q12hr for 21 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Microsporidiosis"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) q12hr for 21 days with food | Pediatric: 2 tabs (400 mg) q12hr for 21 days with food",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "2 tabs (400 mg) q12hr for 21 days with food",
+        "pediatricFixed": "2 tabs (400 mg) q12hr for 21 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Liver Flukes (Clonorchiasis / Opisthorchiasis)"
+        ],
+        "dose": "Adult: 10 mg/kg/day divided q12hr for 7 days | Pediatric: 10 mg/kg/day divided q12hr for 7 days",
+        "dosePerKg": 5.0,
+        "frequency": "divided q12hr for 7 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "10 mg/kg/day divided q12hr for 7 days",
+        "pediatricFixed": "10 mg/kg/day divided q12hr for 7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Intestinal Tapeworm Infection (Taeniasis) / Trichostrongylosis"
+        ],
+        "dose": "Adult: 2 tabs (400 mg) q24hr for 3 days with food | Pediatric: 2 tabs (400 mg) q24hr for 3 days with food",
+        "dosePerKg": null,
+        "frequency": "2 tabs (400 mg) q24hr for 3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "2 tabs (400 mg) q24hr for 3 days with food",
+        "pediatricFixed": "2 tabs (400 mg) q24hr for 3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
       }
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "alzental tablets alzental albendazole antizole bendax vermizole 200mg tablets albendazole alzental bendax anthelmintic pinworm ascariasis hookworm",
-    "alternatives": "Alzental / Bendax / Vermizole",
+    "searchTerms": "alzental tablets alzental albendazole antizole bendax vermizole 200mg tablets albendazole alzental bendax anthelmintic pinworm ascariasis hookworm tapeworm hydatid neurocysticercosis",
+    "alternatives": "Alzental / Bendax / Vermizole / Albenda / Antizole",
     "barcode": []
   },
   "mono_00097": {
@@ -30769,8 +33149,8 @@ window.monodoseDatabase = {
   "mono_00670": {
     "code": "mono_00670",
     "name": "Pantoprazole",
-    "tradeName": "Controloc Tablets",
-    "composition": "Pantoprazole 40mg",
+    "tradeName": "Controloc tablets",
+    "composition": "Pantoprazole 40 mg",
     "formulation": "tab-caps",
     "dosage_form": "tablet",
     "category": "Monodose Clinical",
@@ -30779,20 +33159,160 @@ window.monodoseDatabase = {
     "pregnancyCategory": "Category B",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Swallow whole with a full glass of water. Do not crush or chew extended-release forms.",
+    "administration": "Take 30 to 60 minutes before breakfast (or meals). Swallow tablets whole; do not crush, split, or chew.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Standard Therapeutic Application"
+          "Gastroesophageal Reflux Disease (GERD) & Acid Regurgitation"
         ],
-        "dose": "Adult: 1 tablet once or twice daily with a full glass of water | Pediatric: Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "dose": "Adult: 1 tab (40 mg) once daily in the morning before breakfast for 4-8 weeks | Pediatric: Age >= 5 yr: 15-40 kg: 20 mg once daily | >= 40 kg: 40 mg once daily before breakfast for up to 8 weeks",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "once daily before breakfast",
         "duration": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 tablet once or twice daily with a full glass of water",
-        "pediatricFixed": "Tablets and capsules not recommended in small children unable to swallow solid dosage forms",
+        "adultFixed": "1 tab (40 mg) once daily in the morning before breakfast for 4-8 weeks",
+        "pediatricFixed": "Age >= 5 yr: 15-40 kg: 20 mg once daily | >= 40 kg: 40 mg once daily before breakfast for up to 8 weeks",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Erosive Esophagitis (Healing)"
+        ],
+        "dose": "Adult: 1 tab (40 mg) once daily before breakfast for 8 weeks (may continue another 8 weeks if unhealed) | Pediatric: Age >= 5 yr: 15-40 kg: 20 mg once daily | >= 40 kg: 40 mg once daily before breakfast for 8 weeks",
+        "dosePerKg": null,
+        "frequency": "once daily before breakfast",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (40 mg) once daily before breakfast for 8 weeks (may continue another 8 weeks if unhealed)",
+        "pediatricFixed": "Age >= 5 yr: 15-40 kg: 20 mg once daily | >= 40 kg: 40 mg once daily before breakfast for 8 weeks",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Maintenance of Healing of Erosive Esophagitis & GERD"
+        ],
+        "dose": "Adult: 1 tab (40 mg) once daily before breakfast | Pediatric:",
+        "dosePerKg": null,
+        "frequency": "once daily before breakfast",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (40 mg) once daily before breakfast",
+        "pediatricFixed": null,
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Duodenal Ulcer"
+        ],
+        "dose": "Adult: 1 tab (40 mg) once daily in the morning before breakfast for 2-4 weeks | Pediatric:",
+        "dosePerKg": null,
+        "frequency": "once daily before breakfast",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (40 mg) once daily in the morning before breakfast for 2-4 weeks",
+        "pediatricFixed": null,
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Gastric Ulcer (Benign Gastric Ulcer)"
+        ],
+        "dose": "Adult: 1 tab (40 mg) once daily in the morning before breakfast for 4-8 weeks | Pediatric:",
+        "dosePerKg": null,
+        "frequency": "once daily before breakfast",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (40 mg) once daily in the morning before breakfast for 4-8 weeks",
+        "pediatricFixed": null,
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pathological Hypersecretory Conditions (Zollinger-Ellison Syndrome)"
+        ],
+        "dose": "Adult: 1 tab (40 mg) q12hr before meals initially; titrate based on clinical need up to 240 mg/day | Pediatric:",
+        "dosePerKg": null,
+        "frequency": "q12hr before meals",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (40 mg) q12hr before meals initially; titrate based on clinical need up to 240 mg/day",
+        "pediatricFixed": null,
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Helicobacter pylori Eradication (Triple Therapy)"
+        ],
+        "dose": "Adult: 1 tab (40 mg) q12hr before breakfast and dinner + Clarithromycin 500 mg q12hr + Amoxicillin 1000 mg q12hr for 10-14 days | Pediatric:",
+        "dosePerKg": null,
+        "frequency": "q12hr for 10-14 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "1 tab (40 mg) q12hr before breakfast and dinner + Clarithromycin 500 mg q12hr + Amoxicillin 1000 mg q12hr for 10-14 days",
+        "pediatricFixed": null,
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "NSAID-Induced Gastric Ulcer Prophylaxis"
+        ],
+        "dose": "Adult: 1 tab (40 mg) once daily in patients requiring continuous NSAID therapy | Pediatric:",
+        "dosePerKg": null,
+        "frequency": "once daily before breakfast",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "1 tab (40 mg) once daily in patients requiring continuous NSAID therapy",
+        "pediatricFixed": null,
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -30805,15 +33325,15 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "controloc tablets controloc pantoprazole antopral futapan jerdazolin pantazol pantoloc pantomerican pantopi peptoloc perloc protofix stringazole zurcal 40mg tablets pantoprazole controloc tablet 40mg",
-    "alternatives": "Antopral / Futapan / Jerdazolin / Pantazol / Pantoloc / Pantomerican / Pantopi / Peptoloc / Perloc / Protofix / Stringazole / Zurcal",
+    "searchTerms": "controloc tablets controloc pantoprazole antopral futapan jerdazolin pantazol pantoloc pantomerican pantopi peptoloc perloc protofix stringazole zurcal 40mg tablets pantoprazole controloc pantozol zurcal proton pump inhibitor ppi gerd esophagitis ulcer zollinger",
+    "alternatives": "Controloc / Pantozol / Zurcal / Pantoloc / Antopral / Protofix / Futapan",
     "barcode": []
   },
   "mono_00671": {
     "code": "mono_00671",
     "name": "Pantoprazole",
-    "tradeName": "Controloc Vial",
-    "composition": "Pantoprazole 40mg",
+    "tradeName": "Controloc vial",
+    "composition": "Pantoprazole 40 mg IV Vial",
     "formulation": "vials",
     "dosage_form": "vial",
     "category": "Monodose Clinical",
@@ -30822,20 +33342,80 @@ window.monodoseDatabase = {
     "pregnancyCategory": "Category B",
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
-    "administration": "Administer via slow IV injection / infusion or deep IM strictly as instructed on product insert",
+    "administration": "Reconstitute with 10 mL 0.9% NaCl; administer as slow IV injection over 2-3 minutes, or dilute in 100 mL IV fluid and infuse over 15 minutes.",
     "concentration": null,
     "doses": [
       {
         "indication": [
-          "Therapeutic Parenteral Administration"
+          "Gastroesophageal Reflux Disease (GERD) with Erosive Esophagitis (Parenteral)"
         ],
-        "dose": "Adult: 1 vial IV/IM as indicated according to clinical response and specialist guidance | Pediatric: Dose adjustment and pediatric administration strictly according to specialist guidance",
+        "dose": "Adult: 40 mg IV once daily for 7-10 days as slow IV injection or 15-min infusion | Pediatric:",
         "dosePerKg": null,
-        "frequency": "As directed",
+        "frequency": "IV once daily for 7-10 days",
         "duration": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "1 vial IV/IM as indicated according to clinical response and specialist guidance",
-        "pediatricFixed": "Dose adjustment and pediatric administration strictly according to specialist guidance",
+        "adultFixed": "40 mg IV once daily for 7-10 days as slow IV injection or 15-min infusion",
+        "pediatricFixed": null,
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Acute Upper Gastrointestinal Bleeding (Adjunct to Endoscopy)"
+        ],
+        "dose": "Adult: 80 mg IV bolus over 2-5 minutes, followed by continuous IV infusion of 8 mg/hr for 72 hours | Pediatric:",
+        "dosePerKg": null,
+        "frequency": "80 mg IV bolus, then 8 mg/hr continuous infusion for 72 hours",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "80 mg IV bolus over 2-5 minutes, followed by continuous IV infusion of 8 mg/hr for 72 hours",
+        "pediatricFixed": null,
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Stress Ulcer Prophylaxis in Critically Ill Patients"
+        ],
+        "dose": "Adult: 40 mg IV once daily (or 40 mg q12hr in high-risk patients) as slow injection or infusion | Pediatric:",
+        "dosePerKg": null,
+        "frequency": "IV once daily (or q12hr)",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "40 mg IV once daily (or 40 mg q12hr in high-risk patients) as slow injection or infusion",
+        "pediatricFixed": null,
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Pathological Hypersecretory Conditions (Zollinger-Ellison Syndrome)"
+        ],
+        "dose": "Adult: 80 mg IV infusion over 15 minutes q12hr (titrate as needed, Max 240 mg/day) | Pediatric:",
+        "dosePerKg": null,
+        "frequency": "IV infusion q12hr",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "80 mg IV infusion over 15 minutes q12hr (titrate as needed, Max 240 mg/day)",
+        "pediatricFixed": null,
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -30848,8 +33428,8 @@ window.monodoseDatabase = {
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "controloc vial controloc pantoprazole antopral futapan jerdazolin pantazol pantoloc pantomerican pantopi peptoloc perloc protofix stringazole zurcal 40mg tablets pantoprazole controloc vial 40mg",
-    "alternatives": "Antopral / Futapan / Jerdazolin / Pantazol / Pantoloc / Pantomerican / Pantopi / Peptoloc / Perloc / Protofix / Stringazole / Zurcal",
+    "searchTerms": "controloc vial controloc pantoprazole antopral futapan jerdazolin pantazol pantoloc pantomerican pantopi peptoloc perloc protofix stringazole zurcal 40mg tablets pantoprazole controloc pantozol zurcal proton pump inhibitor ppi gerd esophagitis ulcer zollinger",
+    "alternatives": "Controloc / Pantozol / Zurcal / Pantoloc / Antopral / Protofix / Futapan",
     "barcode": []
   },
   "mono_00672": {
@@ -121409,7 +123989,7 @@ window.monodoseDatabase = {
     "code": "mono_02643",
     "name": "Albendazole",
     "tradeName": "Vermizole susp",
-    "composition": "Albendazole 100 mg / 5 ml (20 ml)",
+    "composition": "Albendazole 200 mg / 5 ml (30 ml)",
     "formulation": "syp-susp",
     "dosage_form": "suspension",
     "category": "Monodose Clinical",
@@ -121419,19 +123999,59 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Take with fatty meals to increase systemic absorption. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 40.0,
     "doses": [
       {
         "indication": [
-          "Enterobiasis (Pinworm) / Ascariasis / Hookworm"
+          "Hydatid Disease (Echinococcus Granulosus, Dog Tapeworm)"
         ],
-        "dose": "Adult: 400 mg (20 ml) single dose with food (repeat pinworm in 2 weeks) | Pediatric: Age 1-2 yr: 200 mg (10 ml) single dose | Age >2 yr: 400 mg (20 ml) single dose",
+        "dose": "Adult: 400 mg (10 ml) q12hr for 1-6 months with fatty meals | Pediatric: 15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 1-6 months",
+        "dosePerKg": 7.5,
+        "frequency": "3 ml q12hr for 1-6 months",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (10 ml) q12hr for 1-6 months with fatty meals",
+        "pediatricFixed": "15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 1-6 months",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 800.0,
+        "indType": null,
+        "stdFactor": 0.1875,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Neurocysticercosis (T. Solium, Pork Tapeworm)"
+        ],
+        "dose": "Adult: 400 mg (10 ml) q12hr for 10-14 days with fatty meals | Pediatric: 15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 10-14 days",
+        "dosePerKg": 7.5,
+        "frequency": "3 ml q12hr for 10-14 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (10 ml) q12hr for 10-14 days with fatty meals",
+        "pediatricFixed": "15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 10-14 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 800.0,
+        "indType": null,
+        "stdFactor": 0.1875,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Enterobiasis (Pinworm/Oxyuris)"
+        ],
+        "dose": "Adult: 400 mg (10 ml) single dose with food; repeat after 2 weeks | Pediatric: Age 1-2 yr: 200 mg (5 ml) single dose | Age >2 yr: 400 mg (10 ml) single dose; repeat after 2 weeks",
         "dosePerKg": null,
-        "frequency": "Single dose with fatty meal",
+        "frequency": "10 ml once; repeat after 2 weeks",
         "duration": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "400 mg (20 ml) single dose with food (repeat pinworm in 2 weeks)",
-        "pediatricFixed": "Age 1-2 yr: 200 mg (10 ml) single dose | Age >2 yr: 400 mg (20 ml) single dose",
+        "adultFixed": "400 mg (10 ml) single dose with food; repeat after 2 weeks",
+        "pediatricFixed": "Age 1-2 yr: 200 mg (5 ml) single dose | Age >2 yr: 400 mg (10 ml) single dose; repeat after 2 weeks",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -121439,20 +124059,320 @@ window.monodoseDatabase = {
         "lowFactor": null,
         "highFactor": null,
         "highDoseFactor": null,
-        "subtitle": null
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Ascariasis (Roundworm)"
+        ],
+        "dose": "Adult: 400 mg (10 ml) once with food | Pediatric: 400 mg (10 ml) once with food",
+        "dosePerKg": null,
+        "frequency": "10 ml once",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (10 ml) once with food",
+        "pediatricFixed": "400 mg (10 ml) once with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Toxocariasis"
+        ],
+        "dose": "Adult: 400 mg (10 ml) q12hr for 5 days | Pediatric: 400 mg (10 ml) q12hr for 5 days",
+        "dosePerKg": null,
+        "frequency": "10 ml q12hr for 5 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (10 ml) q12hr for 5 days",
+        "pediatricFixed": "400 mg (10 ml) q12hr for 5 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Trichinellosis"
+        ],
+        "dose": "Adult: 400 mg (10 ml) q12hr for 8-14 days | Pediatric: 400 mg (10 ml) q12hr for 8-14 days",
+        "dosePerKg": null,
+        "frequency": "10 ml q12hr for 8-14 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (10 ml) q12hr for 8-14 days",
+        "pediatricFixed": "400 mg (10 ml) q12hr for 8-14 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Baylisascaris Procyonis (Raccoon Roundworm)"
+        ],
+        "dose": "Adult: 400 mg (10 ml) q12hr for 10-20 days | Pediatric: 400 mg (10 ml) q12hr for 10-20 days",
+        "dosePerKg": null,
+        "frequency": "10 ml q12hr for 10-20 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (10 ml) q12hr for 10-20 days",
+        "pediatricFixed": "400 mg (10 ml) q12hr for 10-20 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Loiasis"
+        ],
+        "dose": "Adult: 200 mg (5 ml) q12hr for 21 days | Pediatric: 200 mg (5 ml) q12hr for 21 days",
+        "dosePerKg": null,
+        "frequency": "5 ml q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "200 mg (5 ml) q12hr for 21 days",
+        "pediatricFixed": "200 mg (5 ml) q12hr for 21 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Strongyloidiasis"
+        ],
+        "dose": "Adult: 400 mg (10 ml) q12hr for 7 days | Pediatric: 400 mg (10 ml) q12hr for 7 days",
+        "dosePerKg": null,
+        "frequency": "10 ml q12hr for 7 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (10 ml) q12hr for 7 days",
+        "pediatricFixed": "400 mg (10 ml) q12hr for 7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Ancylostoma (Hookworm) / Necatoriasis"
+        ],
+        "dose": "Adult: 400 mg (10 ml) once daily for 1-3 days with food | Pediatric: 400 mg (10 ml) once daily for 1-3 days with food",
+        "dosePerKg": null,
+        "frequency": "10 ml once daily for 1-3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (10 ml) once daily for 1-3 days with food",
+        "pediatricFixed": "400 mg (10 ml) once daily for 1-3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Trichuriasis (Whipworm)"
+        ],
+        "dose": "Adult: 400 mg (10 ml) q24hr for 3 days with food | Pediatric: 400 mg (10 ml) q24hr for 3 days with food",
+        "dosePerKg": null,
+        "frequency": "10 ml q24hr for 3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (10 ml) q24hr for 3 days with food",
+        "pediatricFixed": "400 mg (10 ml) q24hr for 3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cutaneous Larva Migrans (Creeping Eruption)"
+        ],
+        "dose": "Adult: 400 mg (10 ml) q24hr for 1-3 days with food | Pediatric: 400 mg (10 ml) q24hr for 1-3 days with food",
+        "dosePerKg": null,
+        "frequency": "10 ml q24hr for 1-3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (10 ml) q24hr for 1-3 days with food",
+        "pediatricFixed": "400 mg (10 ml) q24hr for 1-3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Giardiasis"
+        ],
+        "dose": "Adult: 400 mg (10 ml) q24hr for 5 days with food | Pediatric: 400 mg (10 ml) q24hr for 5 days with food",
+        "dosePerKg": null,
+        "frequency": "10 ml q24hr for 5 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (10 ml) q24hr for 5 days with food",
+        "pediatricFixed": "400 mg (10 ml) q24hr for 5 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Capillariasis"
+        ],
+        "dose": "Adult: 400 mg (10 ml) q24hr for at least 10 days with food | Pediatric: 400 mg (10 ml) q24hr for at least 10 days with food",
+        "dosePerKg": null,
+        "frequency": "10 ml q24hr for at least 10 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (10 ml) q24hr for at least 10 days with food",
+        "pediatricFixed": "400 mg (10 ml) q24hr for at least 10 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Gnathostomiasis"
+        ],
+        "dose": "Adult: 400 mg (10 ml) q12hr for 21 days with food | Pediatric: 400 mg (10 ml) q12hr for 21 days with food",
+        "dosePerKg": null,
+        "frequency": "10 ml q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (10 ml) q12hr for 21 days with food",
+        "pediatricFixed": "400 mg (10 ml) q12hr for 21 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Microsporidiosis"
+        ],
+        "dose": "Adult: 400 mg (10 ml) q12hr for 21 days with food | Pediatric: 400 mg (10 ml) q12hr for 21 days with food",
+        "dosePerKg": null,
+        "frequency": "10 ml q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (10 ml) q12hr for 21 days with food",
+        "pediatricFixed": "400 mg (10 ml) q12hr for 21 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Liver Flukes (Clonorchiasis / Opisthorchiasis)"
+        ],
+        "dose": "Adult: 10 mg/kg/day divided q12hr for 7 days | Pediatric: 10 mg/kg/day divided q12hr for 7 days",
+        "dosePerKg": 5.0,
+        "frequency": "divided q12hr for 7 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "10 mg/kg/day divided q12hr for 7 days",
+        "pediatricFixed": "10 mg/kg/day divided q12hr for 7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Intestinal Tapeworm Infection (Taeniasis) / Trichostrongylosis"
+        ],
+        "dose": "Adult: 400 mg (10 ml) q24hr for 3 days with food | Pediatric: 400 mg (10 ml) q24hr for 3 days with food",
+        "dosePerKg": null,
+        "frequency": "10 ml q24hr for 3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (10 ml) q24hr for 3 days with food",
+        "pediatricFixed": "400 mg (10 ml) q24hr for 3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
       }
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "vermizole susp vermizole albendazole 200mg/5ml suspension albendazole alzental bendax anthelmintic pinworm ascariasis hookworm",
-    "alternatives": "Alzental / Bendax / Vermizole",
+    "searchTerms": "vermizole susp vermizole albendazole 200mg/5ml suspension albendazole alzental bendax anthelmintic pinworm ascariasis hookworm tapeworm hydatid neurocysticercosis",
+    "alternatives": "Alzental / Bendax / Vermizole / Albenda / Antizole",
     "barcode": []
   },
   "mono_02644": {
     "code": "mono_02644",
     "name": "Albendazole",
     "tradeName": "Vermizole suspension",
-    "composition": "Albendazole 100 mg / 5 ml (20 ml)",
+    "composition": "Albendazole 200 mg / 5 ml (30 ml)",
     "formulation": "syp-susp",
     "dosage_form": "suspension",
     "category": "Monodose Clinical",
@@ -121462,19 +124382,59 @@ window.monodoseDatabase = {
     "breastfeedingCategory": "Use with caution",
     "g6pd": "Safe",
     "administration": "Take with fatty meals to increase systemic absorption. Shake well before use.",
-    "concentration": 20.0,
+    "concentration": 40.0,
     "doses": [
       {
         "indication": [
-          "Enterobiasis (Pinworm) / Ascariasis / Hookworm"
+          "Hydatid Disease (Echinococcus Granulosus, Dog Tapeworm)"
         ],
-        "dose": "Adult: 400 mg (20 ml) single dose with food (repeat pinworm in 2 weeks) | Pediatric: Age 1-2 yr: 200 mg (10 ml) single dose | Age >2 yr: 400 mg (20 ml) single dose",
+        "dose": "Adult: 400 mg (10 ml) q12hr for 1-6 months with fatty meals | Pediatric: 15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 1-6 months",
+        "dosePerKg": 7.5,
+        "frequency": "3 ml q12hr for 1-6 months",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (10 ml) q12hr for 1-6 months with fatty meals",
+        "pediatricFixed": "15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 1-6 months",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 800.0,
+        "indType": null,
+        "stdFactor": 0.1875,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Neurocysticercosis (T. Solium, Pork Tapeworm)"
+        ],
+        "dose": "Adult: 400 mg (10 ml) q12hr for 10-14 days with fatty meals | Pediatric: 15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 10-14 days",
+        "dosePerKg": 7.5,
+        "frequency": "3 ml q12hr for 10-14 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (10 ml) q12hr for 10-14 days with fatty meals",
+        "pediatricFixed": "15 mg/kg/day divided q12hr with fatty meals (Max 800 mg/day) for 10-14 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": 800.0,
+        "indType": null,
+        "stdFactor": 0.1875,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": null
+      },
+      {
+        "indication": [
+          "Enterobiasis (Pinworm/Oxyuris)"
+        ],
+        "dose": "Adult: 400 mg (10 ml) single dose with food; repeat after 2 weeks | Pediatric: Age 1-2 yr: 200 mg (5 ml) single dose | Age >2 yr: 400 mg (10 ml) single dose; repeat after 2 weeks",
         "dosePerKg": null,
-        "frequency": "Single dose with fatty meal",
+        "frequency": "10 ml once; repeat after 2 weeks",
         "duration": "As directed",
         "maxDosesPerDay": 1,
-        "adultFixed": "400 mg (20 ml) single dose with food (repeat pinworm in 2 weeks)",
-        "pediatricFixed": "Age 1-2 yr: 200 mg (10 ml) single dose | Age >2 yr: 400 mg (20 ml) single dose",
+        "adultFixed": "400 mg (10 ml) single dose with food; repeat after 2 weeks",
+        "pediatricFixed": "Age 1-2 yr: 200 mg (5 ml) single dose | Age >2 yr: 400 mg (10 ml) single dose; repeat after 2 weeks",
         "singleDoseMaxMl": null,
         "maxDailyMg": null,
         "indType": null,
@@ -121482,13 +124442,313 @@ window.monodoseDatabase = {
         "lowFactor": null,
         "highFactor": null,
         "highDoseFactor": null,
-        "subtitle": null
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Ascariasis (Roundworm)"
+        ],
+        "dose": "Adult: 400 mg (10 ml) once with food | Pediatric: 400 mg (10 ml) once with food",
+        "dosePerKg": null,
+        "frequency": "10 ml once",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (10 ml) once with food",
+        "pediatricFixed": "400 mg (10 ml) once with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Toxocariasis"
+        ],
+        "dose": "Adult: 400 mg (10 ml) q12hr for 5 days | Pediatric: 400 mg (10 ml) q12hr for 5 days",
+        "dosePerKg": null,
+        "frequency": "10 ml q12hr for 5 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (10 ml) q12hr for 5 days",
+        "pediatricFixed": "400 mg (10 ml) q12hr for 5 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Trichinellosis"
+        ],
+        "dose": "Adult: 400 mg (10 ml) q12hr for 8-14 days | Pediatric: 400 mg (10 ml) q12hr for 8-14 days",
+        "dosePerKg": null,
+        "frequency": "10 ml q12hr for 8-14 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (10 ml) q12hr for 8-14 days",
+        "pediatricFixed": "400 mg (10 ml) q12hr for 8-14 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Baylisascaris Procyonis (Raccoon Roundworm)"
+        ],
+        "dose": "Adult: 400 mg (10 ml) q12hr for 10-20 days | Pediatric: 400 mg (10 ml) q12hr for 10-20 days",
+        "dosePerKg": null,
+        "frequency": "10 ml q12hr for 10-20 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (10 ml) q12hr for 10-20 days",
+        "pediatricFixed": "400 mg (10 ml) q12hr for 10-20 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Loiasis"
+        ],
+        "dose": "Adult: 200 mg (5 ml) q12hr for 21 days | Pediatric: 200 mg (5 ml) q12hr for 21 days",
+        "dosePerKg": null,
+        "frequency": "5 ml q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "200 mg (5 ml) q12hr for 21 days",
+        "pediatricFixed": "200 mg (5 ml) q12hr for 21 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Strongyloidiasis"
+        ],
+        "dose": "Adult: 400 mg (10 ml) q12hr for 7 days | Pediatric: 400 mg (10 ml) q12hr for 7 days",
+        "dosePerKg": null,
+        "frequency": "10 ml q12hr for 7 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (10 ml) q12hr for 7 days",
+        "pediatricFixed": "400 mg (10 ml) q12hr for 7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Ancylostoma (Hookworm) / Necatoriasis"
+        ],
+        "dose": "Adult: 400 mg (10 ml) once daily for 1-3 days with food | Pediatric: 400 mg (10 ml) once daily for 1-3 days with food",
+        "dosePerKg": null,
+        "frequency": "10 ml once daily for 1-3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (10 ml) once daily for 1-3 days with food",
+        "pediatricFixed": "400 mg (10 ml) once daily for 1-3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Trichuriasis (Whipworm)"
+        ],
+        "dose": "Adult: 400 mg (10 ml) q24hr for 3 days with food | Pediatric: 400 mg (10 ml) q24hr for 3 days with food",
+        "dosePerKg": null,
+        "frequency": "10 ml q24hr for 3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (10 ml) q24hr for 3 days with food",
+        "pediatricFixed": "400 mg (10 ml) q24hr for 3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Cutaneous Larva Migrans (Creeping Eruption)"
+        ],
+        "dose": "Adult: 400 mg (10 ml) q24hr for 1-3 days with food | Pediatric: 400 mg (10 ml) q24hr for 1-3 days with food",
+        "dosePerKg": null,
+        "frequency": "10 ml q24hr for 1-3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (10 ml) q24hr for 1-3 days with food",
+        "pediatricFixed": "400 mg (10 ml) q24hr for 1-3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Giardiasis"
+        ],
+        "dose": "Adult: 400 mg (10 ml) q24hr for 5 days with food | Pediatric: 400 mg (10 ml) q24hr for 5 days with food",
+        "dosePerKg": null,
+        "frequency": "10 ml q24hr for 5 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (10 ml) q24hr for 5 days with food",
+        "pediatricFixed": "400 mg (10 ml) q24hr for 5 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Capillariasis"
+        ],
+        "dose": "Adult: 400 mg (10 ml) q24hr for at least 10 days with food | Pediatric: 400 mg (10 ml) q24hr for at least 10 days with food",
+        "dosePerKg": null,
+        "frequency": "10 ml q24hr for at least 10 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (10 ml) q24hr for at least 10 days with food",
+        "pediatricFixed": "400 mg (10 ml) q24hr for at least 10 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Gnathostomiasis"
+        ],
+        "dose": "Adult: 400 mg (10 ml) q12hr for 21 days with food | Pediatric: 400 mg (10 ml) q12hr for 21 days with food",
+        "dosePerKg": null,
+        "frequency": "10 ml q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (10 ml) q12hr for 21 days with food",
+        "pediatricFixed": "400 mg (10 ml) q12hr for 21 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Microsporidiosis"
+        ],
+        "dose": "Adult: 400 mg (10 ml) q12hr for 21 days with food | Pediatric: 400 mg (10 ml) q12hr for 21 days with food",
+        "dosePerKg": null,
+        "frequency": "10 ml q12hr for 21 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "400 mg (10 ml) q12hr for 21 days with food",
+        "pediatricFixed": "400 mg (10 ml) q12hr for 21 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Liver Flukes (Clonorchiasis / Opisthorchiasis)"
+        ],
+        "dose": "Adult: 10 mg/kg/day divided q12hr for 7 days | Pediatric: 10 mg/kg/day divided q12hr for 7 days",
+        "dosePerKg": 5.0,
+        "frequency": "divided q12hr for 7 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 2,
+        "adultFixed": "10 mg/kg/day divided q12hr for 7 days",
+        "pediatricFixed": "10 mg/kg/day divided q12hr for 7 days",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
+      },
+      {
+        "indication": [
+          "Intestinal Tapeworm Infection (Taeniasis) / Trichostrongylosis"
+        ],
+        "dose": "Adult: 400 mg (10 ml) q24hr for 3 days with food | Pediatric: 400 mg (10 ml) q24hr for 3 days with food",
+        "dosePerKg": null,
+        "frequency": "10 ml q24hr for 3 days",
+        "duration": "As directed",
+        "maxDosesPerDay": 1,
+        "adultFixed": "400 mg (10 ml) q24hr for 3 days with food",
+        "pediatricFixed": "400 mg (10 ml) q24hr for 3 days with food",
+        "singleDoseMaxMl": null,
+        "maxDailyMg": null,
+        "indType": null,
+        "stdFactor": null,
+        "lowFactor": null,
+        "highFactor": null,
+        "highDoseFactor": null,
+        "subtitle": "Limited data available"
       }
     ],
     "source": "monodose",
     "isMonodose": true,
-    "searchTerms": "vermizole suspension vermizole albendazole 200mg/5ml suspension albendazole alzental bendax anthelmintic pinworm ascariasis hookworm",
-    "alternatives": "Alzental / Bendax / Vermizole",
+    "searchTerms": "vermizole suspension vermizole albendazole 200mg/5ml suspension albendazole alzental bendax anthelmintic pinworm ascariasis hookworm tapeworm hydatid neurocysticercosis",
+    "alternatives": "Alzental / Bendax / Vermizole / Albenda / Antizole",
     "barcode": []
   },
   "mono_02645": {
